@@ -1,0 +1,17 @@
+{
+  "id": "TEMPLATE",
+  "claim_id": null,
+  "source_id": null,
+  "locator": null,
+  "metric": null,
+  "value": null,
+  "unit": null,
+  "geography": null,
+  "time_period": null,
+  "system_boundary": null,
+  "baseline": null,
+  "method": null,
+  "uncertainty": null,
+  "observation_status": null,
+  "independence": null
+}

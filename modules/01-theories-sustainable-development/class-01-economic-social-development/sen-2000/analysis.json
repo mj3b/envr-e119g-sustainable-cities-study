@@ -1,0 +1,12 @@
+{
+  "source_id": "S00",
+  "claim_ids": [
+    "S-01",
+    "S-02",
+    "S-03"
+  ],
+  "argument_map": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/argument-map.md",
+  "limitations": [
+    "Calibration subset; full coverage and human review pending."
+  ]
+}

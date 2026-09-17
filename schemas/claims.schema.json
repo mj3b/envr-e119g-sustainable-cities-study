@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "evidence_class": {
+        "enum": [
+          "assigned_reading",
+          "instructor_lecture",
+          "ta_guidance",
+          "peer_discourse",
+          "external_context",
+          "our_synthesis"
+        ]
+      },
+      "source_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "locator": {
+        "type": "string",
+        "minLength": 1
+      },
+      "class_number": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "enum": [
+          1,
+          2,
+          null
+        ]
+      },
+      "speaker_role": {
+        "enum": [
+          "author",
+          "instructor",
+          "ta",
+          "student",
+          "analyst",
+          "source_author",
+          "unknown"
+        ]
+      },
+      "speaker_confidence": {
+        "enum": [
+          "high",
+          "medium",
+          "low",
+          "unknown",
+          "not_applicable"
+        ]
+      },
+      "statement_type": {
+        "type": "string",
+        "minLength": 1
+      },
+      "concept_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "depends_on": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "status": {
+        "enum": [
+          "source_checked",
+          "pending_source_check",
+          "rejected"
+        ]
+      },
+      "human_review": {
+        "enum": [
+          "pending",
+          "approved",
+          "rejected"
+        ]
+      },
+      "limitations": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "required": [
+      "id",
+      "text",
+      "evidence_class",
+      "source_id",
+      "locator",
+      "class_number",
+      "speaker_role",
+      "speaker_confidence",
+      "statement_type",
+      "concept_ids",
+      "depends_on",
+      "status",
+      "human_review",
+      "limitations"
+    ],
+    "additionalProperties": false
+  }
+}

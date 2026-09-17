@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "term": {
+        "type": "string",
+        "minLength": 1
+      },
+      "definition": {
+        "type": "string",
+        "minLength": 1
+      },
+      "claim_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "first_class": {
+        "type": "integer",
+        "enum": [
+          1,
+          2
+        ]
+      },
+      "definition_status": {
+        "enum": [
+          "source_derived",
+          "lecture_derived",
+          "synthesis"
+        ]
+      },
+      "related_concepts": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      }
+    },
+    "required": [
+      "id",
+      "term",
+      "definition",
+      "claim_ids",
+      "first_class",
+      "definition_status",
+      "related_concepts"
+    ],
+    "additionalProperties": false
+  }
+}

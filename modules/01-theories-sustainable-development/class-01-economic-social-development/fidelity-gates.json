@@ -1,0 +1,38 @@
+{
+  "class_number": 1,
+  "scope": "calibration subset; full-source coverage pending",
+  "master_brief_status": "blocked",
+  "gates": [
+    {
+      "id": "G1",
+      "name": "source_fidelity",
+      "status": "pending",
+      "reviewer": null,
+      "evidence": [
+        "cross-course/claims.json"
+      ],
+      "reason": "Edition reconciliation and full-text claim review remain open."
+    },
+    {
+      "id": "G2",
+      "name": "lecture_fidelity",
+      "status": "pending",
+      "reviewer": null,
+      "evidence": [
+        "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/instructor-emphasis.md",
+        "modules/01-theories-sustainable-development/class-01-economic-social-development/omissions-report.md"
+      ],
+      "reason": "Complete coverage and speaker/ASR review remain open; segment D availability unresolved."
+    },
+    {
+      "id": "G3",
+      "name": "synthesis_fidelity",
+      "status": "pending",
+      "reviewer": null,
+      "evidence": [
+        "modules/01-theories-sustainable-development/class-01-economic-social-development/divergence-log.md"
+      ],
+      "reason": "Human review must confirm layer distinctions, inference support, and unresolved omissions."
+    }
+  ]
+}

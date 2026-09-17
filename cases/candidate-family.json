@@ -1,0 +1,60 @@
+{
+  "id": "CASE-FAMILY-01",
+  "status": "candidate_family",
+  "geography_locked": false,
+  "selected_case_id": null,
+  "unit": "one urban AI/data-center approval, expansion, or utility decision",
+  "required_fields": [
+    "place",
+    "time_window",
+    "decision_date",
+    "decision_authority",
+    "urban_system",
+    "resource_pressures",
+    "actors",
+    "affected_populations",
+    "alternatives",
+    "evidence_available_at_decision",
+    "conditions",
+    "outputs",
+    "outcomes",
+    "monitoring",
+    "correction",
+    "uncertainties"
+  ],
+  "candidates": [
+    {
+      "id": "CAND-LOUDOUN",
+      "place": "Loudoun County, Virginia",
+      "time_window": "2024–2025",
+      "decision": "March 18, 2025 data-center land-use amendments",
+      "source_ids": [
+        "EXT-LOUDOUN"
+      ],
+      "fit": "Dated institutional rule change; metropolitan infrastructure context.",
+      "gaps": [
+        "Select one resulting project decision if project-level unit is preferred",
+        "Obtain adopted text and decision record",
+        "Obtain resource and distributional outcomes"
+      ],
+      "selected": false
+    },
+    {
+      "id": "CAND-MEMPHIS",
+      "place": "Memphis, Tennessee, Paul Lowery Road site",
+      "time_window": "2024–2025",
+      "decision": "Initial 150 MW xAI grid-service approval described in MLGW 2025 update",
+      "source_ids": [
+        "EXT-MLGW"
+      ],
+      "fit": "Bounded facility and electricity decision; possible water and control evidence.",
+      "gaps": [
+        "Verify precise approval date from contemporaneous TVA record",
+        "Obtain system study and curtailment terms",
+        "Separate first and second site and first and second power requests",
+        "Seek independent community and physical-impact records"
+      ],
+      "selected": false
+    }
+  ]
+}

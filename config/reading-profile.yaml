@@ -1,0 +1,6 @@
+pipeline: [source, provenance, claims, concepts, argument_structure, lecture_alignment, synthesis, application, assignment_relevance, human_review]
+reading_priority: full_text
+page_locator: uploaded_pdf_page
+transcript_locator: segment_and_local_timestamp
+source_derived_claims_require_locators: true
+external_claims_require_temporal_scope: true

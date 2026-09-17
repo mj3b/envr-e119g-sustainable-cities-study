@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "evidence_class": {
+        "enum": [
+          "assigned_reading",
+          "instructor_lecture",
+          "ta_guidance",
+          "peer_discourse",
+          "external_context",
+          "our_synthesis"
+        ]
+      },
+      "source_kind": {
+        "type": "string",
+        "minLength": 1
+      },
+      "status": {
+        "enum": [
+          "available",
+          "missing",
+          "reference_only"
+        ]
+      },
+      "private_path": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sha256": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^[a-f0-9]{64}$"
+      },
+      "class_number": {
+        "type": "integer",
+        "enum": [
+          1,
+          2
+        ]
+      },
+      "note": {
+        "type": "string",
+        "minLength": 1
+      },
+      "version_note": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "minLength": 1
+      },
+      "retrieved": {
+        "type": "string",
+        "minLength": 1
+      },
+      "private_path_override": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "evidence_class",
+      "source_kind",
+      "status",
+      "private_path",
+      "sha256"
+    ],
+    "additionalProperties": false
+  }
+}

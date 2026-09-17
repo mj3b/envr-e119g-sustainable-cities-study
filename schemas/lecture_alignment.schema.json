@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "concept": {
+        "type": "string",
+        "minLength": 1
+      },
+      "reading_claim_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "lecture_claim_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "relationship": {
+        "type": "string",
+        "minLength": 1
+      },
+      "qualification": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "concept",
+      "reading_claim_ids",
+      "lecture_claim_ids",
+      "relationship",
+      "qualification"
+    ],
+    "additionalProperties": false
+  }
+}

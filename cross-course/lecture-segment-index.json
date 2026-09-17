@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "L1A-SEG-001",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:04",
+    "timestamp_end": "04:51"
+  },
+  {
+    "id": "L1A-SEG-002",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "04:51",
+    "timestamp_end": "06:24"
+  },
+  {
+    "id": "L1A-SEG-003",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "06:24",
+    "timestamp_end": "09:43"
+  },
+  {
+    "id": "L1A-SEG-004",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "09:43",
+    "timestamp_end": "10:04"
+  },
+  {
+    "id": "L1A-SEG-005",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "10:04",
+    "timestamp_end": "11:34"
+  },
+  {
+    "id": "L1A-SEG-006",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "11:34",
+    "timestamp_end": "12:25"
+  },
+  {
+    "id": "L1A-SEG-007",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:25",
+    "timestamp_end": "13:46"
+  },
+  {
+    "id": "L1A-SEG-008",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "13:46",
+    "timestamp_end": "14:44"
+  },
+  {
+    "id": "L1A-SEG-009",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "14:44",
+    "timestamp_end": "15:14"
+  },
+  {
+    "id": "L1A-SEG-010",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 7",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "15:14",
+    "timestamp_end": "16:39"
+  },
+  {
+    "id": "L1A-SEG-011",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "16:39",
+    "timestamp_end": "17:45"
+  },
+  {
+    "id": "L1A-SEG-012",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "17:45",
+    "timestamp_end": "17:50"
+  },
+  {
+    "id": "L1A-SEG-013",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "17:50",
+    "timestamp_end": "17:50"
+  },
+  {
+    "id": "L1A-SEG-014",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "17:50",
+    "timestamp_end": "19:30"
+  },
+  {
+    "id": "L1A-SEG-015",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 10",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "19:30",
+    "timestamp_end": "20:44"
+  },
+  {
+    "id": "L1A-SEG-016",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 11",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "20:44",
+    "timestamp_end": "21:16"
+  },
+  {
+    "id": "L1A-SEG-017",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "21:16",
+    "timestamp_end": "22:16"
+  },
+  {
+    "id": "L1A-SEG-018",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 13",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "22:16",
+    "timestamp_end": "23:15"
+  },
+  {
+    "id": "L1A-SEG-019",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 14",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "23:15",
+    "timestamp_end": "23:52"
+  },
+  {
+    "id": "L1A-SEG-020",
+    "source_id": "L1A",
+    "speaker_label": "Speaker 15",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "23:52",
+    "timestamp_end": null
+  },
+  {
+    "id": "L1B-SEG-001",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "00:01",
+    "timestamp_end": "01:44"
+  },
+  {
+    "id": "L1B-SEG-002",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:44",
+    "timestamp_end": "05:40"
+  },
+  {
+    "id": "L1B-SEG-003",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "05:40",
+    "timestamp_end": "09:12"
+  },
+  {
+    "id": "L1B-SEG-004",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "09:12",
+    "timestamp_end": "12:25"
+  },
+  {
+    "id": "L1B-SEG-005",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "12:25",
+    "timestamp_end": "12:46"
+  },
+  {
+    "id": "L1B-SEG-006",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:46",
+    "timestamp_end": "12:48"
+  },
+  {
+    "id": "L1B-SEG-007",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "12:48",
+    "timestamp_end": "12:51"
+  },
+  {
+    "id": "L1B-SEG-008",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:51",
+    "timestamp_end": "12:57"
+  },
+  {
+    "id": "L1B-SEG-009",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "12:57",
+    "timestamp_end": "13:24"
+  },
+  {
+    "id": "L1B-SEG-010",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "13:24",
+    "timestamp_end": "13:28"
+  },
+  {
+    "id": "L1B-SEG-011",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "13:28",
+    "timestamp_end": "13:33"
+  },
+  {
+    "id": "L1B-SEG-012",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "13:33",
+    "timestamp_end": "13:40"
+  },
+  {
+    "id": "L1B-SEG-013",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "13:40",
+    "timestamp_end": "13:41"
+  },
+  {
+    "id": "L1B-SEG-014",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "13:41",
+    "timestamp_end": "13:43"
+  },
+  {
+    "id": "L1B-SEG-015",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "13:43",
+    "timestamp_end": "14:00"
+  },
+  {
+    "id": "L1B-SEG-016",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "14:00",
+    "timestamp_end": "14:03"
+  },
+  {
+    "id": "L1B-SEG-017",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "14:03",
+    "timestamp_end": "17:24"
+  },
+  {
+    "id": "L1B-SEG-018",
+    "source_id": "L1B",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "17:24",
+    "timestamp_end": null
+  },
+  {
+    "id": "L1C-SEG-001",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:03",
+    "timestamp_end": "03:42"
+  },
+  {
+    "id": "L1C-SEG-002",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "03:42",
+    "timestamp_end": "05:42"
+  },
+  {
+    "id": "L1C-SEG-003",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "05:42",
+    "timestamp_end": "05:55"
+  },
+  {
+    "id": "L1C-SEG-004",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "05:55",
+    "timestamp_end": "06:08"
+  },
+  {
+    "id": "L1C-SEG-005",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "06:08",
+    "timestamp_end": "06:39"
+  },
+  {
+    "id": "L1C-SEG-006",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "06:39",
+    "timestamp_end": "07:06"
+  },
+  {
+    "id": "L1C-SEG-007",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "07:06",
+    "timestamp_end": "07:31"
+  },
+  {
+    "id": "L1C-SEG-008",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "07:31",
+    "timestamp_end": "08:18"
+  },
+  {
+    "id": "L1C-SEG-009",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "08:18",
+    "timestamp_end": "08:33"
+  },
+  {
+    "id": "L1C-SEG-010",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "08:33",
+    "timestamp_end": "11:28"
+  },
+  {
+    "id": "L1C-SEG-011",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "11:28",
+    "timestamp_end": "14:22"
+  },
+  {
+    "id": "L1C-SEG-012",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "14:22",
+    "timestamp_end": "17:14"
+  },
+  {
+    "id": "L1C-SEG-013",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "17:14",
+    "timestamp_end": "17:38"
+  },
+  {
+    "id": "L1C-SEG-014",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "17:38",
+    "timestamp_end": "17:57"
+  },
+  {
+    "id": "L1C-SEG-015",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "17:57",
+    "timestamp_end": "17:58"
+  },
+  {
+    "id": "L1C-SEG-016",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "17:58",
+    "timestamp_end": "18:09"
+  },
+  {
+    "id": "L1C-SEG-017",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 7",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "18:09",
+    "timestamp_end": "18:35"
+  },
+  {
+    "id": "L1C-SEG-018",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "18:35",
+    "timestamp_end": "19:30"
+  },
+  {
+    "id": "L1C-SEG-019",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "19:30",
+    "timestamp_end": "20:14"
+  },
+  {
+    "id": "L1C-SEG-020",
+    "source_id": "L1C",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "20:14",
+    "timestamp_end": null
+  },
+  {
+    "id": "L1E-SEG-001",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:05",
+    "timestamp_end": "00:06"
+  },
+  {
+    "id": "L1E-SEG-002",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "00:06",
+    "timestamp_end": "01:23"
+  },
+  {
+    "id": "L1E-SEG-003",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:23",
+    "timestamp_end": "02:58"
+  },
+  {
+    "id": "L1E-SEG-004",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:58",
+    "timestamp_end": "03:56"
+  },
+  {
+    "id": "L1E-SEG-005",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "03:56",
+    "timestamp_end": "06:01"
+  },
+  {
+    "id": "L1E-SEG-006",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "06:01",
+    "timestamp_end": "06:36"
+  },
+  {
+    "id": "L1E-SEG-007",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "06:36",
+    "timestamp_end": "09:50"
+  },
+  {
+    "id": "L1E-SEG-008",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "09:50",
+    "timestamp_end": "12:00"
+  },
+  {
+    "id": "L1E-SEG-009",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:00",
+    "timestamp_end": "12:00"
+  },
+  {
+    "id": "L1E-SEG-010",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "12:00",
+    "timestamp_end": "12:36"
+  },
+  {
+    "id": "L1E-SEG-011",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:36",
+    "timestamp_end": "12:37"
+  },
+  {
+    "id": "L1E-SEG-012",
+    "source_id": "L1E",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:37",
+    "timestamp_end": "12:38"
+  },
+  {
+    "id": "L1E-SEG-013",
+    "source_id": "L1E",
+    "speaker_label": "Unknown Speaker",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "12:38",
+    "timestamp_end": null
+  },
+  {
+    "id": "L2-SEG-001",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "00:06",
+    "timestamp_end": "00:07"
+  },
+  {
+    "id": "L2-SEG-002",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:07",
+    "timestamp_end": "00:10"
+  },
+  {
+    "id": "L2-SEG-003",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "00:10",
+    "timestamp_end": "00:13"
+  },
+  {
+    "id": "L2-SEG-004",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:13",
+    "timestamp_end": "00:16"
+  },
+  {
+    "id": "L2-SEG-005",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:16",
+    "timestamp_end": "00:33"
+  },
+  {
+    "id": "L2-SEG-006",
+    "source_id": "L2",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "00:33",
+    "timestamp_end": "00:43"
+  },
+  {
+    "id": "L2-SEG-007",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:43",
+    "timestamp_end": "00:56"
+  },
+  {
+    "id": "L2-SEG-008",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "00:56",
+    "timestamp_end": "01:05"
+  },
+  {
+    "id": "L2-SEG-009",
+    "source_id": "L2",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "01:05",
+    "timestamp_end": "01:06"
+  },
+  {
+    "id": "L2-SEG-010",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:06",
+    "timestamp_end": "01:08"
+  },
+  {
+    "id": "L2-SEG-011",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:08",
+    "timestamp_end": "01:12"
+  },
+  {
+    "id": "L2-SEG-012",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:12",
+    "timestamp_end": "01:13"
+  },
+  {
+    "id": "L2-SEG-013",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:13",
+    "timestamp_end": "01:24"
+  },
+  {
+    "id": "L2-SEG-014",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:24",
+    "timestamp_end": "01:28"
+  },
+  {
+    "id": "L2-SEG-015",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "01:28",
+    "timestamp_end": "02:08"
+  },
+  {
+    "id": "L2-SEG-016",
+    "source_id": "L2",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:08",
+    "timestamp_end": "02:10"
+  },
+  {
+    "id": "L2-SEG-017",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "02:10",
+    "timestamp_end": "02:22"
+  },
+  {
+    "id": "L2-SEG-018",
+    "source_id": "L2",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:22",
+    "timestamp_end": "02:24"
+  },
+  {
+    "id": "L2-SEG-019",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "02:24",
+    "timestamp_end": "02:30"
+  },
+  {
+    "id": "L2-SEG-020",
+    "source_id": "L2",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:30",
+    "timestamp_end": "02:33"
+  },
+  {
+    "id": "L2-SEG-021",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "02:33",
+    "timestamp_end": "02:35"
+  },
+  {
+    "id": "L2-SEG-022",
+    "source_id": "L2",
+    "speaker_label": "Speaker 7",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:35",
+    "timestamp_end": "02:36"
+  },
+  {
+    "id": "L2-SEG-023",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "02:36",
+    "timestamp_end": "02:58"
+  },
+  {
+    "id": "L2-SEG-024",
+    "source_id": "L2",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "02:58",
+    "timestamp_end": "03:00"
+  },
+  {
+    "id": "L2-SEG-025",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "03:00",
+    "timestamp_end": "08:25"
+  },
+  {
+    "id": "L2-SEG-026",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "08:25",
+    "timestamp_end": "11:40"
+  },
+  {
+    "id": "L2-SEG-027",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "11:40",
+    "timestamp_end": "11:41"
+  },
+  {
+    "id": "L2-SEG-028",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "11:41",
+    "timestamp_end": "11:52"
+  },
+  {
+    "id": "L2-SEG-029",
+    "source_id": "L2",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "11:52",
+    "timestamp_end": "11:53"
+  },
+  {
+    "id": "L2-SEG-030",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "11:53",
+    "timestamp_end": "16:13"
+  },
+  {
+    "id": "L2-SEG-031",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "16:13",
+    "timestamp_end": "20:33"
+  },
+  {
+    "id": "L2-SEG-032",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "20:33",
+    "timestamp_end": "22:56"
+  },
+  {
+    "id": "L2-SEG-033",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "22:56",
+    "timestamp_end": "22:59"
+  },
+  {
+    "id": "L2-SEG-034",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "22:59",
+    "timestamp_end": "23:55"
+  },
+  {
+    "id": "L2-SEG-035",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "23:55",
+    "timestamp_end": "23:57"
+  },
+  {
+    "id": "L2-SEG-036",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "23:57",
+    "timestamp_end": "24:16"
+  },
+  {
+    "id": "L2-SEG-037",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "24:16",
+    "timestamp_end": "24:25"
+  },
+  {
+    "id": "L2-SEG-038",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "24:25",
+    "timestamp_end": "24:52"
+  },
+  {
+    "id": "L2-SEG-039",
+    "source_id": "L2",
+    "speaker_label": "Speaker 10",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "24:52",
+    "timestamp_end": "24:57"
+  },
+  {
+    "id": "L2-SEG-040",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "24:57",
+    "timestamp_end": "25:01"
+  },
+  {
+    "id": "L2-SEG-041",
+    "source_id": "L2",
+    "speaker_label": "Speaker 10",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "25:01",
+    "timestamp_end": "25:02"
+  },
+  {
+    "id": "L2-SEG-042",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "25:02",
+    "timestamp_end": "25:04"
+  },
+  {
+    "id": "L2-SEG-043",
+    "source_id": "L2",
+    "speaker_label": "Speaker 10",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "25:04",
+    "timestamp_end": "26:11"
+  },
+  {
+    "id": "L2-SEG-044",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "26:11",
+    "timestamp_end": "26:33"
+  },
+  {
+    "id": "L2-SEG-045",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "26:33",
+    "timestamp_end": "29:09"
+  },
+  {
+    "id": "L2-SEG-046",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "29:09",
+    "timestamp_end": "31:38"
+  },
+  {
+    "id": "L2-SEG-047",
+    "source_id": "L2",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "31:38",
+    "timestamp_end": "33:09"
+  },
+  {
+    "id": "L2-SEG-048",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "33:09",
+    "timestamp_end": "34:35"
+  },
+  {
+    "id": "L2-SEG-049",
+    "source_id": "L2",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "34:35",
+    "timestamp_end": "35:29"
+  },
+  {
+    "id": "L2-SEG-050",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "35:29",
+    "timestamp_end": "37:30"
+  },
+  {
+    "id": "L2-SEG-051",
+    "source_id": "L2",
+    "speaker_label": "Speaker 11",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "37:30",
+    "timestamp_end": "39:30"
+  },
+  {
+    "id": "L2-SEG-052",
+    "source_id": "L2",
+    "speaker_label": "Speaker 6",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "39:30",
+    "timestamp_end": "40:08"
+  },
+  {
+    "id": "L2-SEG-053",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "40:08",
+    "timestamp_end": "44:36"
+  },
+  {
+    "id": "L2-SEG-054",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "44:36",
+    "timestamp_end": "48:55"
+  },
+  {
+    "id": "L2-SEG-055",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "48:55",
+    "timestamp_end": "49:31"
+  },
+  {
+    "id": "L2-SEG-056",
+    "source_id": "L2",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "49:31",
+    "timestamp_end": "50:03"
+  },
+  {
+    "id": "L2-SEG-057",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "50:03",
+    "timestamp_end": "53:22"
+  },
+  {
+    "id": "L2-SEG-058",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "53:22",
+    "timestamp_end": "54:35"
+  },
+  {
+    "id": "L2-SEG-059",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "54:35",
+    "timestamp_end": "55:20"
+  },
+  {
+    "id": "L2-SEG-060",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "55:20",
+    "timestamp_end": "55:22"
+  },
+  {
+    "id": "L2-SEG-061",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "55:22",
+    "timestamp_end": "56:09"
+  },
+  {
+    "id": "L2-SEG-062",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "56:09",
+    "timestamp_end": "56:14"
+  },
+  {
+    "id": "L2-SEG-063",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "56:14",
+    "timestamp_end": "56:21"
+  },
+  {
+    "id": "L2-SEG-064",
+    "source_id": "L2",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "56:21",
+    "timestamp_end": "56:24"
+  },
+  {
+    "id": "L2-SEG-065",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "56:24",
+    "timestamp_end": "56:27"
+  },
+  {
+    "id": "L2-SEG-066",
+    "source_id": "L2",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "56:27",
+    "timestamp_end": "57:26"
+  },
+  {
+    "id": "L2-SEG-067",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "57:26",
+    "timestamp_end": "58:25"
+  },
+  {
+    "id": "L2-SEG-068",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "58:25",
+    "timestamp_end": "58:29"
+  },
+  {
+    "id": "L2-SEG-069",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "58:29",
+    "timestamp_end": "1:03:25"
+  },
+  {
+    "id": "L2-SEG-070",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:03:25",
+    "timestamp_end": "1:08:01"
+  },
+  {
+    "id": "L2-SEG-071",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:08:01",
+    "timestamp_end": "1:12:36"
+  },
+  {
+    "id": "L2-SEG-072",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:12:36",
+    "timestamp_end": "1:14:07"
+  },
+  {
+    "id": "L2-SEG-073",
+    "source_id": "L2",
+    "speaker_label": "Speaker 11",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:14:07",
+    "timestamp_end": "1:14:32"
+  },
+  {
+    "id": "L2-SEG-074",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:14:32",
+    "timestamp_end": "1:15:44"
+  },
+  {
+    "id": "L2-SEG-075",
+    "source_id": "L2",
+    "speaker_label": "Speaker 11",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:15:44",
+    "timestamp_end": "1:16:28"
+  },
+  {
+    "id": "L2-SEG-076",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:16:28",
+    "timestamp_end": "1:17:27"
+  },
+  {
+    "id": "L2-SEG-077",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:17:27",
+    "timestamp_end": "1:20:05"
+  },
+  {
+    "id": "L2-SEG-078",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:20:05",
+    "timestamp_end": "1:20:12"
+  },
+  {
+    "id": "L2-SEG-079",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:20:12",
+    "timestamp_end": "1:20:21"
+  },
+  {
+    "id": "L2-SEG-080",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:20:21",
+    "timestamp_end": "1:21:30"
+  },
+  {
+    "id": "L2-SEG-081",
+    "source_id": "L2",
+    "speaker_label": "Speaker 13",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:21:30",
+    "timestamp_end": "1:21:44"
+  },
+  {
+    "id": "L2-SEG-082",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:21:44",
+    "timestamp_end": "1:21:46"
+  },
+  {
+    "id": "L2-SEG-083",
+    "source_id": "L2",
+    "speaker_label": "Speaker 13",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:21:46",
+    "timestamp_end": "1:22:17"
+  },
+  {
+    "id": "L2-SEG-084",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:22:17",
+    "timestamp_end": "1:26:49"
+  },
+  {
+    "id": "L2-SEG-085",
+    "source_id": "L2",
+    "speaker_label": "Speaker 13",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:26:49",
+    "timestamp_end": "1:27:11"
+  },
+  {
+    "id": "L2-SEG-086",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:27:11",
+    "timestamp_end": "1:28:52"
+  },
+  {
+    "id": "L2-SEG-087",
+    "source_id": "L2",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:28:52",
+    "timestamp_end": "1:29:31"
+  },
+  {
+    "id": "L2-SEG-088",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:29:31",
+    "timestamp_end": "1:31:39"
+  },
+  {
+    "id": "L2-SEG-089",
+    "source_id": "L2",
+    "speaker_label": "Speaker 11",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:31:39",
+    "timestamp_end": "1:33:05"
+  },
+  {
+    "id": "L2-SEG-090",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:33:05",
+    "timestamp_end": "1:34:14"
+  },
+  {
+    "id": "L2-SEG-091",
+    "source_id": "L2",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:34:14",
+    "timestamp_end": "1:35:46"
+  },
+  {
+    "id": "L2-SEG-092",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:35:46",
+    "timestamp_end": "1:37:53"
+  },
+  {
+    "id": "L2-SEG-093",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:37:53",
+    "timestamp_end": "1:41:19"
+  },
+  {
+    "id": "L2-SEG-094",
+    "source_id": "L2",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:41:19",
+    "timestamp_end": "1:41:35"
+  },
+  {
+    "id": "L2-SEG-095",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:41:35",
+    "timestamp_end": "1:41:52"
+  },
+  {
+    "id": "L2-SEG-096",
+    "source_id": "L2",
+    "speaker_label": "Speaker 8",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:41:52",
+    "timestamp_end": "1:41:59"
+  },
+  {
+    "id": "L2-SEG-097",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:41:59",
+    "timestamp_end": "1:42:30"
+  },
+  {
+    "id": "L2-SEG-098",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:42:30",
+    "timestamp_end": "1:42:42"
+  },
+  {
+    "id": "L2-SEG-099",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:42:42",
+    "timestamp_end": "1:42:57"
+  },
+  {
+    "id": "L2-SEG-100",
+    "source_id": "L2",
+    "speaker_label": "Speaker 1",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:42:57",
+    "timestamp_end": "1:43:01"
+  },
+  {
+    "id": "L2-SEG-101",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:43:01",
+    "timestamp_end": "1:43:02"
+  },
+  {
+    "id": "L2-SEG-102",
+    "source_id": "L2",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:43:02",
+    "timestamp_end": "1:43:23"
+  },
+  {
+    "id": "L2-SEG-103",
+    "source_id": "L2",
+    "speaker_label": "Speaker 5",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:43:23",
+    "timestamp_end": "1:43:24"
+  },
+  {
+    "id": "L2-SEG-104",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:43:24",
+    "timestamp_end": "1:44:48"
+  },
+  {
+    "id": "L2-SEG-105",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:44:48",
+    "timestamp_end": "1:46:16"
+  },
+  {
+    "id": "L2-SEG-106",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:46:16",
+    "timestamp_end": "1:46:37"
+  },
+  {
+    "id": "L2-SEG-107",
+    "source_id": "L2",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:46:37",
+    "timestamp_end": "1:46:59"
+  },
+  {
+    "id": "L2-SEG-108",
+    "source_id": "L2",
+    "speaker_label": "Speaker 14",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:46:59",
+    "timestamp_end": "1:47:00"
+  },
+  {
+    "id": "L2-SEG-109",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:47:00",
+    "timestamp_end": "1:47:12"
+  },
+  {
+    "id": "L2-SEG-110",
+    "source_id": "L2",
+    "speaker_label": "Speaker 9",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:47:12",
+    "timestamp_end": "1:47:16"
+  },
+  {
+    "id": "L2-SEG-111",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:47:16",
+    "timestamp_end": "1:47:18"
+  },
+  {
+    "id": "L2-SEG-112",
+    "source_id": "L2",
+    "speaker_label": "Speaker 4",
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:47:18",
+    "timestamp_end": "1:47:45"
+  },
+  {
+    "id": "L2-SEG-113",
+    "source_id": "L2",
+    "speaker_label": "Speaker 2",
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "timestamp_start": "1:47:45",
+    "timestamp_end": "1:47:46"
+  },
+  {
+    "id": "L2-SEG-114",
+    "source_id": "L2",
+    "speaker_label": "Speaker 12",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:47:46",
+    "timestamp_end": "1:47:48"
+  },
+  {
+    "id": "L2-SEG-115",
+    "source_id": "L2",
+    "speaker_label": "Speaker 3",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:47:48",
+    "timestamp_end": "1:47:50"
+  },
+  {
+    "id": "L2-SEG-116",
+    "source_id": "L2",
+    "speaker_label": "Unknown Speaker",
+    "speaker_role": "unknown",
+    "speaker_confidence": "unknown",
+    "timestamp_start": "1:47:50",
+    "timestamp_end": null
+  }
+]

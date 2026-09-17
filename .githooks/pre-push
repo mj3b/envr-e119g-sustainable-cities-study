@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+expected=https://github.com/mj3b/envr-e119g-sustainable-cities-study.git
+case "$2" in
+  "$expected"|git@github.com:mj3b/envr-e119g-sustainable-cities-study.git) ;;
+  *) echo "Unexpected push destination; private mj3b repository required."; exit 1 ;;
+esac
+[ "$(gh repo view mj3b/envr-e119g-sustainable-cities-study --json isPrivate --jq .isPrivate)" = true ] || exit 1
+python3 scripts/privacy_check.py
+python3 scripts/validate.py

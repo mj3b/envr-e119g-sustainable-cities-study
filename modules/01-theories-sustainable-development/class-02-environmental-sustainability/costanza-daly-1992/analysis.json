@@ -1,0 +1,12 @@
+{
+  "source_id": "CD92",
+  "claim_ids": [
+    "CD-01",
+    "CD-02",
+    "CD-03"
+  ],
+  "argument_map": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/argument-map.md",
+  "limitations": [
+    "Calibration subset; full coverage and human review pending."
+  ]
+}

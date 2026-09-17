@@ -1,0 +1,52 @@
+{
+  "id": "A1",
+  "status": "research_preparation_only",
+  "drafting_authorized": false,
+  "word_count": {
+    "minimum": 800,
+    "maximum": 1000,
+    "approximate": true,
+    "excludes_bibliography": true
+  },
+  "source_refs": [
+    {
+      "source_id": "SYL",
+      "locator": "PDF page 3; AI policy page 7"
+    },
+    {
+      "source_id": "L2",
+      "locator": "1:37:53–1:44:48, TA"
+    },
+    {
+      "source_id": "A1-USER",
+      "locator": "Current user-provided assignment"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "A1-R1",
+      "text": "Explain why the topic matters personally"
+    },
+    {
+      "id": "A1-R2",
+      "text": "Describe current knowledge"
+    },
+    {
+      "id": "A1-R3",
+      "text": "Identify questions and further learning"
+    },
+    {
+      "id": "A1-R4",
+      "text": "Combine reflection with evidence-based analysis"
+    },
+    {
+      "id": "A1-R5",
+      "text": "Identify important sustainable urban development issues"
+    },
+    {
+      "id": "A1-R6",
+      "text": "Demonstrate relevant concepts and debates"
+    }
+  ],
+  "student_review_required": true
+}

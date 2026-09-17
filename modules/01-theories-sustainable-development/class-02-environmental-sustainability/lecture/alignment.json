@@ -1,0 +1,63 @@
+[
+  {
+    "concept": "cooperation and context",
+    "reading_claim_ids": [
+      "O-01",
+      "O-02",
+      "O-03"
+    ],
+    "lecture_claim_ids": [
+      "L2-01",
+      "L2-02"
+    ],
+    "relationship": "alignment",
+    "qualification": "Neither universal commons failure nor universal community success is established."
+  },
+  {
+    "concept": "natural capital and valuation",
+    "reading_claim_ids": [
+      "CD-01",
+      "CD-03"
+    ],
+    "lecture_claim_ids": [
+      "L2-04"
+    ],
+    "relationship": "tension / extension",
+    "qualification": "Keep valuation and tradability tension visible."
+  },
+  {
+    "concept": "growth and development",
+    "reading_claim_ids": [
+      "CD-02"
+    ],
+    "lecture_claim_ids": [
+      "L2-03"
+    ],
+    "relationship": "application",
+    "qualification": "Efficiency and delivered outputs cannot establish absolute reductions."
+  },
+  {
+    "concept": "case selection",
+    "reading_claim_ids": [],
+    "lecture_claim_ids": [
+      "L2-05",
+      "L2-06",
+      "L2-07",
+      "TA-01",
+      "TA-04"
+    ],
+    "relationship": "assignment guidance",
+    "qualification": "Pedagogical guidance has its own authority."
+  },
+  {
+    "concept": "social comparison",
+    "reading_claim_ids": [
+      "O-02"
+    ],
+    "lecture_claim_ids": [
+      "P2-02"
+    ],
+    "relationship": "peer research lead",
+    "qualification": "No behavioral effect size follows from one household report."
+  }
+]

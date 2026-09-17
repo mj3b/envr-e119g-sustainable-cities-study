@@ -1,0 +1,12 @@
+{
+  "source_id": "N94",
+  "claim_ids": [
+    "N-01",
+    "N-02",
+    "N-03"
+  ],
+  "argument_map": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/argument-map.md",
+  "limitations": [
+    "Calibration subset; full coverage and human review pending."
+  ]
+}

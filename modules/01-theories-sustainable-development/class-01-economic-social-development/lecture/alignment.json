@@ -1,0 +1,58 @@
+[
+  {
+    "concept": "institutions",
+    "reading_claim_ids": [
+      "N-01",
+      "N-02"
+    ],
+    "lecture_claim_ids": [
+      "L1-01"
+    ],
+    "relationship": "alignment with qualification",
+    "qualification": "Author definition and lecture agreement analogy remain distinct."
+  },
+  {
+    "concept": "path dependence",
+    "reading_claim_ids": [
+      "N-03"
+    ],
+    "lecture_claim_ids": [
+      "L1-02"
+    ],
+    "relationship": "provisional alignment",
+    "qualification": "Supplied-edition learning claim visually checked; the lecture applies it to persistence and change. Full coverage and edition mapping remain open."
+  },
+  {
+    "concept": "plural evaluation / capabilities",
+    "reading_claim_ids": [
+      "S-01",
+      "S-02",
+      "S-03"
+    ],
+    "lecture_claim_ids": [
+      "L1-03"
+    ],
+    "relationship": "lecture extension",
+    "qualification": "Do not reduce the assigned Sen essay to a capabilities definition."
+  },
+  {
+    "concept": "jurisdiction and implementation",
+    "reading_claim_ids": [],
+    "lecture_claim_ids": [
+      "L1-04"
+    ],
+    "relationship": "lecture application",
+    "qualification": "Local-scale application is not a quotation from either reading."
+  },
+  {
+    "concept": "distribution and authority",
+    "reading_claim_ids": [
+      "S-01"
+    ],
+    "lecture_claim_ids": [
+      "L1-05"
+    ],
+    "relationship": "synthesis bridge",
+    "qualification": "Evaluate the justice question without attributing a local conclusion to Sen."
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "class_number": {
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "master_brief_status": {
+      "enum": [
+        "blocked",
+        "approved"
+      ]
+    },
+    "gates": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status",
+          "reviewer",
+          "evidence",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "enum": [
+              "G1",
+              "G2",
+              "G3"
+            ]
+          },
+          "name": {
+            "enum": [
+              "source_fidelity",
+              "lecture_fidelity",
+              "synthesis_fidelity"
+            ]
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "pass",
+              "fail"
+            ]
+          },
+          "reviewer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "class_number",
+    "scope",
+    "master_brief_status",
+    "gates"
+  ],
+  "additionalProperties": false
+}

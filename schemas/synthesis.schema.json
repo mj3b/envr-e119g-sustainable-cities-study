@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_class": {
+      "const": "our_synthesis"
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "depends_on": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "interpretation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "human_review": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "evidence_class",
+    "claim_ids",
+    "depends_on",
+    "interpretation",
+    "human_review"
+  ],
+  "additionalProperties": false
+}

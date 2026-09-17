@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Q1",
+    "question": "How do institutional incentives shape implementation?",
+    "claim_ids": [
+      "N-01",
+      "L1-01"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q2",
+    "question": "Why is a single development indicator insufficient?",
+    "claim_ids": [
+      "S-01",
+      "S-02"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q3",
+    "question": "How does the capabilities lecture framing differ from the assigned essay’s emphasis?",
+    "claim_ids": [
+      "S-01",
+      "L1-03"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q4",
+    "question": "Under what conditions can shared-resource cooperation work?",
+    "claim_ids": [
+      "O-01",
+      "O-02",
+      "O-03"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q5",
+    "question": "Why does efficiency alone fail to establish reduced throughput?",
+    "claim_ids": [
+      "CD-02",
+      "CD-03"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q6",
+    "question": "What distinguishes a delivered sustainability output from an observed outcome?",
+    "claim_ids": [
+      "L2-03"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q7",
+    "question": "What can a classmate’s corporate example establish?",
+    "claim_ids": [
+      "P2-05"
+    ],
+    "review_status": "pending"
+  },
+  {
+    "id": "Q8",
+    "question": "What evidence would distinguish a permit condition from effective control?",
+    "claim_ids": [
+      "SYN-03"
+    ],
+    "review_status": "pending"
+  }
+]

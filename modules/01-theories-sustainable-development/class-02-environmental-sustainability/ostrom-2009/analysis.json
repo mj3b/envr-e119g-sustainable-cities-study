@@ -1,0 +1,12 @@
+{
+  "source_id": "O09",
+  "claim_ids": [
+    "O-01",
+    "O-02",
+    "O-03"
+  ],
+  "argument_map": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/argument-map.md",
+  "limitations": [
+    "Calibration subset; full coverage and human review pending."
+  ]
+}

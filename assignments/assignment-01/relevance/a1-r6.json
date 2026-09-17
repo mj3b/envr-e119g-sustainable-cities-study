@@ -1,0 +1,13 @@
+{
+  "assignment_id": "A1",
+  "requirement_id": "A1-R6",
+  "claim_ids": [
+    "S-01",
+    "O-02",
+    "CD-02"
+  ],
+  "rationale": "Candidate inputs for research preparation; not prose for submission.",
+  "gaps": [
+    "Personal reflection, case grounding, and approved human review remain pending."
+  ]
+}

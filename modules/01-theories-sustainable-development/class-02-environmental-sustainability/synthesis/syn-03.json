@@ -1,0 +1,12 @@
+{
+  "id": "SYN-03",
+  "evidence_class": "our_synthesis",
+  "claim_ids": [
+    "SYN-03"
+  ],
+  "depends_on": [
+    "L2-03"
+  ],
+  "interpretation": "Use decision reconstruction and evidence fitness as exploratory methods for tracing sustainability conditions to actions and outcomes.",
+  "human_review": "pending"
+}

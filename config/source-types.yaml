@@ -1,0 +1,11 @@
+evidence_classes:
+  - assigned_reading
+  - instructor_lecture
+  - ta_guidance
+  - peer_discourse
+  - external_context
+  - our_synthesis
+administrative_source_kind: course_administration
+mixed_containers_require_statement_roles: true
+unknown_speakers_must_remain_unknown: true
+peer_comment_is_not_independent_corroboration: true

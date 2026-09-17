@@ -1,0 +1,15 @@
+{
+  "id": "SYN-01",
+  "evidence_class": "our_synthesis",
+  "claim_ids": [
+    "SYN-01"
+  ],
+  "depends_on": [
+    "N-01",
+    "S-01",
+    "L1-04",
+    "L1-05"
+  ],
+  "interpretation": "A city case can examine how institutional rules shape opportunities and burdens while evaluating several dimensions of human well-being.",
+  "human_review": "pending"
+}

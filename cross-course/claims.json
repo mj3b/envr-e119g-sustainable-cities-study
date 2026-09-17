@@ -1,0 +1,839 @@
+[
+  {
+    "id": "N-01",
+    "text": "Institutional incentives matter for explaining economic change over time.",
+    "evidence_class": "assigned_reading",
+    "source_id": "N94",
+    "locator": "PDF page 1, section I; visually inspected",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "institutions"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "N-02",
+    "text": "Formal rules, informal constraints, and enforcement jointly structure interaction.",
+    "evidence_class": "assigned_reading",
+    "source_id": "N94",
+    "locator": "PDF page 2, printed page 10, section II; visually inspected",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "institutions"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "N-03",
+    "text": "Institutional evolution reflects learning accumulated over time and transmitted through culture; evolving institutions do not guarantee economic growth.",
+    "evidence_class": "assigned_reading",
+    "source_id": "N94",
+    "locator": "PDF page 2, printed page 10, section I; PDF page 5, printed page 13, sections IV–V; visually inspected",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "path-dependence"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "S-01",
+    "text": "Development evaluation needs plural concerns; income alone cannot settle social valuation.",
+    "evidence_class": "assigned_reading",
+    "source_id": "S00",
+    "locator": "PDF pages 5–6, printed 20–21",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "plural-evaluation"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "S-02",
+    "text": "The value of human development lies in plural attention, and excessive focus on an aggregate index can undermine it.",
+    "evidence_class": "assigned_reading",
+    "source_id": "S00",
+    "locator": "PDF page 7, printed 22, The future",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "plural-evaluation"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "S-03",
+    "text": "Weights in social evaluation require reasoned public discussion.",
+    "evidence_class": "assigned_reading",
+    "source_id": "S00",
+    "locator": "PDF page 6, printed 21",
+    "class_number": 1,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "public-reasoning"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "O-01",
+    "text": "Anonymous noncommunicating commons experiments can produce overharvesting; this conditional result does not establish universal failure of cooperation.",
+    "evidence_class": "assigned_reading",
+    "source_id": "O09",
+    "locator": "Supplied 2008 working paper, PDF pages 2, 25–26",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "collective-action"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "O-02",
+    "text": "Monitoring and graduated sanctions can support reciprocity by making adherence to shared rules observable.",
+    "evidence_class": "assigned_reading",
+    "source_id": "O09",
+    "locator": "Supplied 2008 working paper, PDF page 25",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "trust-reciprocity"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "O-03",
+    "text": "Commons analysis must examine interactions among ecological conditions, social variables, and diverse motivations.",
+    "evidence_class": "assigned_reading",
+    "source_id": "O09",
+    "locator": "Supplied 2008 working paper, PDF page 26; figures PDF pages 37–39",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "collective-action"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "CD-01",
+    "text": "Natural capital is a stock yielding future goods and services, including ecosystem functions.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 3, printed 38",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "natural-capital"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "CD-02",
+    "text": "Natural and manufactured capital are largely complementary; efficiency improvements differ from increased throughput.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 6, printed 41",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "growth-development"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "CD-03",
+    "text": "Strong sustainability maintains natural and human-made capital separately; operational principles constrain throughput by ecological capacity.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 9, printed 44",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "strong-sustainability"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L1-01",
+    "text": "Nora explains institutional rules through predictability, incentives, and bounded risks.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L1C",
+    "locator": "Speaker 1, 11:28–14:22",
+    "class_number": 1,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "institutions"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L1-02",
+    "text": "Nora connects path dependence to the costs and resistance involved in changing inherited arrangements.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L1C",
+    "locator": "Speaker 1, 14:22–17:14",
+    "class_number": 1,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "path-dependence"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L1-03",
+    "text": "Nora frames Sen through capabilities, freedoms, education, and environmental conditions at the individual level.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L1E",
+    "locator": "Speaker 1, 06:36–09:50",
+    "class_number": 1,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "capabilities"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L1-04",
+    "text": "Nora describes a mismatch between environmental problem geographies and governing jurisdictions, alongside communication and implementation barriers.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L1C",
+    "locator": "Speaker 1, 08:33–11:28",
+    "class_number": 1,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "scale-jurisdiction"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L1-05",
+    "text": "Nora raises the question of who may demand sacrifices from communities when development and environmental protection conflict.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L1E",
+    "locator": "Speaker 1, 03:56–06:36",
+    "class_number": 1,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "distribution-justice"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-01",
+    "text": "Nora presents commons depletion through concentrated incentives and dispersed or delayed consequences.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 11:53–16:13",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "collective-action"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-02",
+    "text": "Nora stresses context, actors, and incentives when evaluating whether a policy can transfer across places.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 44:36 and 50:03",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "policy-transfer"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-03",
+    "text": "Nora distinguishes delivered outputs from consequences measured as outcomes, using green housing and energy use.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 1:27:11–1:29:31",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "outputs-outcomes"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Transcript final label says output after describing outcome; preserve ambiguity and do not quote the slip as a conceptual reversal."
+    ]
+  },
+  {
+    "id": "L2-04",
+    "text": "Nora explores the tension between assigning economic value to nature and making environmental harm tradable.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 1:22:17–1:27:11",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "natural-capital"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-05",
+    "text": "Nora asks students to choose a case, place, and time they care about that can develop across the course.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 1:12:36–1:14:07",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "case-bounding"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "TA-01",
+    "text": "Cristina asks for personal reflection grounded in evidence, connected to course debates and questions for further investigation.",
+    "evidence_class": "ta_guidance",
+    "source_id": "L2",
+    "locator": "Speaker 4, 1:37:53–1:41:19",
+    "class_number": 2,
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "case-bounding"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "TA-02",
+    "text": "Cristina states that the bibliography is excluded from the approximately 800–1,000-word memo.",
+    "evidence_class": "ta_guidance",
+    "source_id": "L2",
+    "locator": "Speaker 4, 1:37:53–1:41:19",
+    "class_number": 2,
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "TA-03",
+    "text": "Cristina accepts a reference format such as APA or Chicago and calls for transparent acknowledgment of AI assistance.",
+    "evidence_class": "ta_guidance",
+    "source_id": "L2",
+    "locator": "Speaker 4, 1:41:59–1:42:57",
+    "class_number": 2,
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "TA-04",
+    "text": "Cristina encourages a focused theme, context, and time, while leaving space for the student’s thinking.",
+    "evidence_class": "ta_guidance",
+    "source_id": "L2",
+    "locator": "Speaker 4, 1:43:24–1:44:48",
+    "class_number": 2,
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "case-bounding"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-06",
+    "text": "Nora asks students to know their case well enough to detect AI errors and take responsibility for work bearing their name.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 1:44:48–1:46:16",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "L2-07",
+    "text": "Nora reassures a student that a small real case can contain sufficient complexity for the semester.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2",
+    "locator": "Speaker 2, 1:47:00–1:47:12",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "case-bounding"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "P2-01",
+    "text": "A student suggests a city-state governance model.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-1",
+    "locator": "Visible chat timestamp 31:23",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "hypothesis",
+    "concept_ids": [
+      "scale-jurisdiction"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P2-02",
+    "text": "A student reports reacting to household electricity comparisons with neighbors.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-1",
+    "locator": "Visible chat timestamp 36:45",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "lived_example",
+    "concept_ids": [
+      "trust-reciprocity"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P2-03",
+    "text": "Students speculate about individualism, colonialism, and religion as influences on collective harm.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-1",
+    "locator": "Visible chat thread beginning 49:24",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "causal_hypothesis",
+    "concept_ids": [
+      "collective-action"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P2-04",
+    "text": "A student expresses anger at the gap between the 1992 reading and later action.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-1",
+    "locator": "Visible chat timestamp 1:14:57",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "reflection",
+    "concept_ids": [
+      "path-dependence"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P2-05",
+    "text": "A student recounts a former Coca-Cola sustainability lead’s account that cost-of-inaction framing helped gain support for a water strategy.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-2",
+    "locator": "Visible chat timestamp 1:27:16",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "secondhand_example",
+    "concept_ids": [
+      "policy-transfer"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P2-06",
+    "text": "A student links living labs to replication of sustainability initiatives.",
+    "evidence_class": "peer_discourse",
+    "source_id": "CHAT2-3",
+    "locator": "Visible chat timestamp 1:30:48",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "high",
+    "statement_type": "research_lead",
+    "concept_ids": [
+      "policy-transfer"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Evidence that the comment was made; substantive external claim remains unverified."
+    ]
+  },
+  {
+    "id": "P1-01",
+    "text": "A student relates sustainability leadership to cultural change and the limits of transferring place-based approaches.",
+    "evidence_class": "peer_discourse",
+    "source_id": "L1E",
+    "locator": "Speaker 2, 00:06–02:58",
+    "class_number": 1,
+    "speaker_role": "student",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "policy-transfer"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "P1-02",
+    "text": "A student proposes that institutional change comes only from bottom-up shifts in beliefs.",
+    "evidence_class": "peer_discourse",
+    "source_id": "L1E",
+    "locator": "Speaker 3, 02:58–03:56",
+    "class_number": 1,
+    "speaker_role": "student",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "institutions"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Student causal assertion; universal exclusivity is not established by this comment."
+    ]
+  },
+  {
+    "id": "X-01",
+    "text": "The county reports adopting data-center plan and zoning amendments on March 18, 2025 that require special-exception approval.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-LOUDOUN",
+    "locator": "Data Center Standards & Locations Project section",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "institutions"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "X-02",
+    "text": "MLGW’s 2025 update reports approval of an initial 150 MW supply request and an agreement to curtail grid consumption during high demand.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-MLGW",
+    "locator": "PDF pages 1–2, Electricity section",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "outputs-outcomes"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Utility-reported capacity and agreement; no measured consumption or verified curtailment event in this record."
+    ]
+  },
+  {
+    "id": "SYN-01",
+    "text": "A city case can examine how institutional rules shape opportunities and burdens while evaluating several dimensions of human well-being.",
+    "evidence_class": "our_synthesis",
+    "source_id": "PLAN",
+    "locator": "Course bridge developed in this repository",
+    "class_number": 1,
+    "speaker_role": "analyst",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "interpretation",
+    "concept_ids": [
+      "institutions",
+      "plural-evaluation"
+    ],
+    "depends_on": [
+      "N-01",
+      "S-01",
+      "L1-04",
+      "L1-05"
+    ],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "SYN-02",
+    "text": "Data-center efficiency claims should be tested against absolute resource demand, ecological conditions, and observed outcomes.",
+    "evidence_class": "our_synthesis",
+    "source_id": "PLAN",
+    "locator": "Course bridge developed in this repository",
+    "class_number": 2,
+    "speaker_role": "analyst",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "interpretation",
+    "concept_ids": [
+      "growth-development",
+      "outputs-outcomes"
+    ],
+    "depends_on": [
+      "CD-02",
+      "CD-03",
+      "L2-03"
+    ],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": []
+  },
+  {
+    "id": "SYN-03",
+    "text": "Use decision reconstruction and evidence fitness as exploratory methods for tracing sustainability conditions to actions and outcomes.",
+    "evidence_class": "our_synthesis",
+    "source_id": "NN-CHARTER",
+    "locator": "Sections 4, 7–9; adaptation to the proposed course case",
+    "class_number": 2,
+    "speaker_role": "analyst",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "interpretation",
+    "concept_ids": [
+      "control-evidence"
+    ],
+    "depends_on": [
+      "L2-03"
+    ],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Methodological adaptation; environmental-domain validity has not been established."
+    ]
+  },
+  {
+    "id": "METHOD-01",
+    "text": "The supplied reference describes reflection as examining one’s research process, decisions, and experiences to improve inquiry.",
+    "evidence_class": "external_context",
+    "source_id": "SKILL-01",
+    "locator": "Visible heading and body of supplied screenshot: Reflection",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Original author, publication date, and URL unknown; supplementary methodological reference."
+    ]
+  },
+  {
+    "id": "METHOD-02",
+    "text": "The supplied reference discusses using visualization to inspect complex information, including model embeddings.",
+    "evidence_class": "external_context",
+    "source_id": "SKILL-02",
+    "locator": "Visible heading and body of supplied screenshot: Visualizing complex data",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Original author, publication date, and URL unknown; supplementary methodological reference."
+    ]
+  },
+  {
+    "id": "METHOD-03",
+    "text": "The supplied reference calls for assessing research quality, methods, credibility, limitations, and bias.",
+    "evidence_class": "external_context",
+    "source_id": "SKILL-03",
+    "locator": "Visible heading and body of supplied screenshot: Evaluation",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Original author, publication date, and URL unknown; supplementary methodological reference."
+    ]
+  },
+  {
+    "id": "METHOD-04",
+    "text": "The supplied reference discusses interpreting training and evaluation patterns beyond one headline model metric.",
+    "evidence_class": "external_context",
+    "source_id": "SKILL-04",
+    "locator": "Visible heading and body of supplied screenshot: Interpreting plots",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Original author, publication date, and URL unknown; supplementary methodological reference."
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "institutions",
+    "term": "Rules, informal constraints, enforcement, and incentives",
+    "definition": "Rules, informal constraints, enforcement, and incentives",
+    "claim_ids": [
+      "N-01"
+    ],
+    "first_class": 1,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "path-dependence",
+    "term": "Inherited arrangements and costs of change",
+    "definition": "Inherited arrangements and costs of change",
+    "claim_ids": [
+      "L1-02"
+    ],
+    "first_class": 1,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "plural-evaluation",
+    "term": "Several irreducible concerns in evaluating development",
+    "definition": "Several irreducible concerns in evaluating development",
+    "claim_ids": [
+      "S-01"
+    ],
+    "first_class": 1,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "public-reasoning",
+    "term": "Public deliberation about values and evaluative weights",
+    "definition": "Public deliberation about values and evaluative weights",
+    "claim_ids": [
+      "S-03"
+    ],
+    "first_class": 1,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "capabilities",
+    "term": "What people can actually be and do; lecture framing",
+    "definition": "What people can actually be and do; lecture framing",
+    "claim_ids": [
+      "L1-03"
+    ],
+    "first_class": 1,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "scale-jurisdiction",
+    "term": "Mismatch between problem geography and governing authority",
+    "definition": "Mismatch between problem geography and governing authority",
+    "claim_ids": [
+      "L1-04"
+    ],
+    "first_class": 1,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "distribution-justice",
+    "term": "Who benefits, who bears burdens, and who decides",
+    "definition": "Who benefits, who bears burdens, and who decides",
+    "claim_ids": [
+      "L1-05"
+    ],
+    "first_class": 1,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "collective-action",
+    "term": "Cooperation under shared-resource interdependence",
+    "definition": "Cooperation under shared-resource interdependence",
+    "claim_ids": [
+      "O-01"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "trust-reciprocity",
+    "term": "Observable rule adherence and reciprocal cooperation",
+    "definition": "Observable rule adherence and reciprocal cooperation",
+    "claim_ids": [
+      "O-02"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "natural-capital",
+    "term": "Stocks yielding future goods and ecological services",
+    "definition": "Stocks yielding future goods and ecological services",
+    "claim_ids": [
+      "CD-01"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "growth-development",
+    "term": "Physical throughput growth versus qualitative improvement",
+    "definition": "Physical throughput growth versus qualitative improvement",
+    "claim_ids": [
+      "CD-02"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "strong-sustainability",
+    "term": "Separate maintenance of natural and human-made capital",
+    "definition": "Separate maintenance of natural and human-made capital",
+    "claim_ids": [
+      "CD-03"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "outputs-outcomes",
+    "term": "Activities delivered versus consequences observed",
+    "definition": "Activities delivered versus consequences observed",
+    "claim_ids": [
+      "L2-03"
+    ],
+    "first_class": 2,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "policy-transfer",
+    "term": "Conditions under which an intervention travels between places",
+    "definition": "Conditions under which an intervention travels between places",
+    "claim_ids": [
+      "L2-02"
+    ],
+    "first_class": 2,
+    "definition_status": "lecture_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "case-bounding",
+    "term": "A theme, place, and period that can be investigated",
+    "definition": "A theme, place, and period that can be investigated",
+    "claim_ids": [
+      "TA-04"
+    ],
+    "first_class": 2,
+    "definition_status": "source_derived",
+    "related_concepts": []
+  },
+  {
+    "id": "control-evidence",
+    "term": "Evidence of declared, implemented, operated, and effective controls",
+    "definition": "Evidence of declared, implemented, operated, and effective controls",
+    "claim_ids": [
+      "SYN-03"
+    ],
+    "first_class": 2,
+    "definition_status": "synthesis",
+    "related_concepts": []
+  }
+]

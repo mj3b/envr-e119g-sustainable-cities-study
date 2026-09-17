@@ -1,0 +1,92 @@
+[
+  {
+    "id": "OM-01",
+    "class_number": 1,
+    "issue": "Possible missing lecture segment D",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-02",
+    "class_number": 1,
+    "issue": "North uploaded reprint edition mapping",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-03",
+    "class_number": 1,
+    "issue": "Class 1 full chat export absent",
+    "severity": "coverage",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-04",
+    "class_number": 2,
+    "issue": "Ostrom working paper to assigned chapter mapping",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-05",
+    "class_number": 2,
+    "issue": "Full Zoom chat absent; screenshots partial",
+    "severity": "coverage",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-06",
+    "class_number": 2,
+    "issue": "Speaker and output/outcome transcription review",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-07",
+    "class_number": null,
+    "issue": "Human fidelity review of both class packs pending",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-08",
+    "class_number": null,
+    "issue": "No selected case primary decision packet or measured outcomes",
+    "severity": "assignment",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-09",
+    "class_number": null,
+    "issue": "Personal reflection requires user-owned concrete experience",
+    "severity": "assignment",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  },
+  {
+    "id": "OM-10",
+    "class_number": null,
+    "issue": "Full reading and lecture coverage audit incomplete",
+    "severity": "blocking",
+    "status": "open",
+    "owner": "researcher",
+    "resolution": null
+  }
+]

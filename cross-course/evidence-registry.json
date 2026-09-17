@@ -1,0 +1,289 @@
+[
+  {
+    "id": "SYL",
+    "title": "Sustainable Cities, Fall 2026 syllabus",
+    "evidence_class": "ta_guidance",
+    "source_kind": "course_administration",
+    "status": "available",
+    "private_path": "private/raw/Fall-Term-2026-Full-Term-ENVR-E-119g-1-Sustainable-Cities.pdf",
+    "sha256": "70d7e588dbb88a73c84793b839b2f8a77fc0bc55d32dc72282c2b2c8614b2346",
+    "note": "Administrative subtype preserves syllabus authority independently of spoken TA guidance."
+  },
+  {
+    "id": "N94",
+    "title": "North, Economic Performance Through Time",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/North -Economic Performance.pdf",
+    "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+    "class_number": 1,
+    "version_note": "Assigned: American Economic Review 84(3), 359–368 (1994). Uploaded copy: Revista Universidad Eafit No. 93 reprint, opening printed page 9; edition equivalence unverified."
+  },
+  {
+    "id": "S00",
+    "title": "Sen, A Decade of Human Development",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/A Decade of Human Development.pdf",
+    "sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+    "class_number": 1,
+    "version_note": "Journal of Human Development 1(1), 17–23 (2000), doi:10.1080/14649880050008746. PDF page 1 is publisher cover."
+  },
+  {
+    "id": "O09",
+    "title": "Ostrom, Building Trust to Solve Commons Dilemmas",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/Ostrom, E., 2009. Building trust to solve commons dilemmas.pdf",
+    "sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+    "class_number": 2,
+    "version_note": "Assigned: 2009 chapter, pp. 207–228. Supplied: W08–23, 2008 working paper, 39 PDF pages, SSRN 1304695. Cite supplied-version pages; chapter equivalence unverified."
+  },
+  {
+    "id": "CD92",
+    "title": "Costanza and Daly, Natural Capital and Sustainable Development",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/Costanza-NaturalCapitalSustainable-1992.pdf",
+    "sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+    "class_number": 2,
+    "version_note": "Conservation Biology 6(1), 37–46 (1992). PDF page 2 = printed 37."
+  },
+  {
+    "id": "L1A",
+    "title": "September 4 lecture, segment A",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/ENVR E-119G DAY 1-A_otter_ai.zip",
+    "sha256": "4b3cacbf4d1c8efe972715fa3ed24cbf596e4a510327dcf9076ef9b4d1a8d201",
+    "class_number": 1,
+    "note": "Container classification only. Classify individual statements by speaker. Timestamps restart per segment."
+  },
+  {
+    "id": "L1B",
+    "title": "September 4 lecture, segment B",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/ENVR E-119G DAY 1-B_otter_ai.zip",
+    "sha256": "641e66955fd6e3e2e8103f2ba88fc7f409b1da1c7642dfd6450a3a4684cfd651",
+    "class_number": 1,
+    "note": "Container classification only. Classify individual statements by speaker. Timestamps restart per segment."
+  },
+  {
+    "id": "L1C",
+    "title": "September 4 lecture, segment C",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/ENVR E-119G DAY 1-C_otter_ai.zip",
+    "sha256": "5bf46724cedd856553cb0a2ddc4e3e83fa6768054523791926020fb0e6af2ba6",
+    "class_number": 1,
+    "note": "Container classification only. Classify individual statements by speaker. Timestamps restart per segment."
+  },
+  {
+    "id": "L1E",
+    "title": "September 4 lecture, segment E",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/ENVR E-119G DAY 1-E_otter_ai.zip",
+    "sha256": "9cd89656dd353674aea49e2326ebbfc6f433994c488e08fa09d7ff9b3de68014",
+    "class_number": 1,
+    "note": "Container classification only. Classify individual statements by speaker. Timestamps restart per segment."
+  },
+  {
+    "id": "L1D",
+    "title": "September 4 possible segment D",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "instructor_lecture",
+    "status": "missing",
+    "private_path": null,
+    "sha256": null,
+    "class_number": 1,
+    "note": "No D upload recovered; whether this is a naming gap or missing content is unknown."
+  },
+  {
+    "id": "L2",
+    "title": "September 11 lecture",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/ENVR E-119G_ September 11_ Class 2-Environmental Sustainability_otter_ai.zip",
+    "sha256": "4525a6590daefbb545af64d98fa74a20aa12e4b433326b1661071ea6177a0d72",
+    "class_number": 2,
+    "note": "Speaker 2 inferred instructor; speaker 4 inferred TA from introductions and handoff. Do not apply these numbers across files."
+  },
+  {
+    "id": "CHAT2-1",
+    "title": "September 11 Zoom chat screenshot 1",
+    "evidence_class": "peer_discourse",
+    "source_kind": "screenshot",
+    "status": "available",
+    "private_path": "private/raw/Screenshot 2026-09-16 at 6.05.10 PM.png",
+    "sha256": "c11ece244b18fb32ca235a52e48c65d08f43554fcd78589a9c2b2f1170e94400",
+    "class_number": 2,
+    "note": "Visually inspected; only visible messages are recoverable. Capture date September 16 is distinct from class date September 11."
+  },
+  {
+    "id": "CHAT2-2",
+    "title": "September 11 Zoom chat screenshot 2",
+    "evidence_class": "peer_discourse",
+    "source_kind": "screenshot",
+    "status": "available",
+    "private_path": "private/raw/Screenshot 2026-09-16 at 6.10.50 PM.png",
+    "sha256": "975e65e2af51517485ee240383ec9c8c6ac19c94c1e93c6dcba075ec386673d9",
+    "class_number": 2,
+    "note": "Visually inspected; only visible messages are recoverable. Capture date September 16 is distinct from class date September 11."
+  },
+  {
+    "id": "CHAT2-3",
+    "title": "September 11 Zoom chat screenshot 3",
+    "evidence_class": "peer_discourse",
+    "source_kind": "screenshot",
+    "status": "available",
+    "private_path": "private/raw/Screenshot 2026-09-16 at 6.12.11 PM.png",
+    "sha256": "4b98a466e01e1fbb019e20a0e3a7d72fc0a619878785c01afe27c3925080c8a8",
+    "class_number": 2,
+    "note": "Visually inspected; only visible messages are recoverable. Capture date September 16 is distinct from class date September 11."
+  },
+  {
+    "id": "PLAN",
+    "title": "Recovered Github Repo design conversation",
+    "evidence_class": "our_synthesis",
+    "source_kind": "conversation",
+    "status": "available",
+    "private_path": "private/prior-conversation.json",
+    "sha256": "c4a76efa66f40d9b18c58211eacb8a053e8a1d6b0f6af7d48d1a4cb3a081a30e",
+    "note": "Prior assistant analyses are leads and design history, never primary course evidence."
+  },
+  {
+    "id": "A1-USER",
+    "title": "Assignment 1 requirements supplied by user",
+    "evidence_class": "ta_guidance",
+    "source_kind": "user_supplied_assignment",
+    "status": "available",
+    "private_path": null,
+    "sha256": null,
+    "note": "Corroborated against SYL PDF page 3."
+  },
+  {
+    "id": "DE-PROV",
+    "title": "Digital Emissions IRIS evidence and provenance model",
+    "evidence_class": "external_context",
+    "source_kind": "user_research_artifact",
+    "status": "available",
+    "private_path": "private/bridges/DE-PROV.md",
+    "sha256": "325c4a7144e92baa0f57842cd703164452482cb489fc0482cf5128c2830ede49",
+    "note": "Local snapshot; methodological source, not evidence of physical environmental outcomes."
+  },
+  {
+    "id": "DE-BOUND",
+    "title": "Scott / IRIS responsibility boundary, proposed ADR",
+    "evidence_class": "external_context",
+    "source_kind": "user_research_artifact",
+    "status": "available",
+    "private_path": "private/bridges/DE-BOUND.md",
+    "sha256": "2da36b73479526ad93ceb9bdb25658113a91da54392f01b8324bfd55caf86a37",
+    "note": "Local snapshot; methodological source, not evidence of physical environmental outcomes."
+  },
+  {
+    "id": "NN-CHARTER",
+    "title": "Node & Norm Control Evidence Research Charter, governing draft",
+    "evidence_class": "external_context",
+    "source_kind": "user_research_artifact",
+    "status": "available",
+    "private_path": "private/bridges/NN-CHARTER.md",
+    "sha256": "d5420dfff332ae86ddd8f6e109ae9be81011b8f003d1e72336cbd3cd1cb0e430",
+    "note": "Local snapshot; methodological source, not evidence of physical environmental outcomes."
+  },
+  {
+    "id": "NN-GDI",
+    "title": "GDI Research methods and claim boundaries",
+    "evidence_class": "external_context",
+    "source_kind": "user_research_artifact",
+    "status": "available",
+    "private_path": "private/bridges/NN-GDI.md",
+    "sha256": "b632d209bd94f86772824b7bdd40712aa66062e060d2558a2068dc61ef58c71e",
+    "note": "Local snapshot; methodological source, not evidence of physical environmental outcomes."
+  },
+  {
+    "id": "EXT-LOUDOUN",
+    "title": "Loudoun County: Land Use Considerations",
+    "evidence_class": "external_context",
+    "source_kind": "official_web_page",
+    "status": "available",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://www.loudoun.gov/6410/Land-Use-Considerations",
+    "retrieved": "2026-09-16",
+    "note": "Historical March 18, 2025 decision lead; current page may contain later updates."
+  },
+  {
+    "id": "EXT-MLGW",
+    "title": "MLGW 2025 xAI Update",
+    "evidence_class": "external_context",
+    "source_kind": "utility_disclosure",
+    "status": "available",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://www.mlgw.com/images/content/files/pdf/new/xAI%202025%20Update.pdf",
+    "retrieved": "2026-09-16",
+    "note": "Historical 2025 utility account, not a current operational status or independent impact evaluation."
+  },
+  {
+    "id": "SKILL-01",
+    "title": "Research Skills Focus: Reflection",
+    "evidence_class": "external_context",
+    "source_kind": "user_supplied_method_reference",
+    "status": "available",
+    "private_path": "private/research-skills/Screenshot 2026-01-20 at 12.42.14 PM.png",
+    "sha256": "c7c6f18a9a995d3de7b64d827e40bf3bcdc18eed7324488deb798062e9fc1964",
+    "note": "Screenshot visually supplied and inspected. Creator, institution, publication date, and original URL unknown. Filename capture date does not establish publication date. Supplementary methods reference, not ENVR assignment authority."
+  },
+  {
+    "id": "SKILL-02",
+    "title": "Research Skills Focus: Visualizing complex data",
+    "evidence_class": "external_context",
+    "source_kind": "user_supplied_method_reference",
+    "status": "available",
+    "private_path": "private/research-skills/Screenshot 2026-01-20 at 1.10.55 PM.png",
+    "sha256": "4d852374334c4c2c79b957c151574a28a01c3a9b276ab6189a77c86f856e1d27",
+    "note": "Screenshot visually supplied and inspected. Creator, institution, publication date, and original URL unknown. Filename capture date does not establish publication date. Supplementary methods reference, not ENVR assignment authority."
+  },
+  {
+    "id": "SKILL-03",
+    "title": "Research Skills Focus: Evaluation",
+    "evidence_class": "external_context",
+    "source_kind": "user_supplied_method_reference",
+    "status": "available",
+    "private_path": "private/research-skills/Screenshot 2026-01-20 at 3.15.42 PM.png",
+    "sha256": "0dc15c1b2ef47516524e1c55c406c5a07c96aa97272e45c59052fb068d1266e6",
+    "note": "Screenshot visually supplied and inspected. Creator, institution, publication date, and original URL unknown. Filename capture date does not establish publication date. Supplementary methods reference, not ENVR assignment authority."
+  },
+  {
+    "id": "SKILL-04",
+    "title": "Research Skills Focus: Interpreting plots",
+    "evidence_class": "external_context",
+    "source_kind": "user_supplied_method_reference",
+    "status": "available",
+    "private_path": "private/research-skills/Screenshot 2026-01-21 at 5.48.45 PM.png",
+    "sha256": "6ef5c0efa0d3748b0256845729b79ae591bf4410b9c532f02e795e20538e4be8",
+    "note": "Screenshot visually supplied and inspected. Creator, institution, publication date, and original URL unknown. Filename capture date does not establish publication date. Supplementary methods reference, not ENVR assignment authority."
+  },
+  {
+    "id": "AART",
+    "title": "Applied AI Research Translator supplied archive",
+    "evidence_class": "external_context",
+    "source_kind": "user_research_artifact",
+    "status": "available",
+    "private_path": "private/raw/applied-ai-research-translator-main.zip",
+    "sha256": "3cca440700f71292b208adf4180b30a61b079879f534cf51216868fa768a7d1a",
+    "note": "RESEARCH-RATIONALE.md inspected for traceability and human-gate design; course implementation is original and does not copy the application."
+  }
+]

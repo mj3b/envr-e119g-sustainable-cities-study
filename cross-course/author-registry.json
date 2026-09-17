@@ -1,0 +1,30 @@
+[
+  {
+    "id": "north",
+    "name": "Douglass C. North",
+    "source_ids": [
+      "N94"
+    ]
+  },
+  {
+    "id": "sen",
+    "name": "Amartya Sen",
+    "source_ids": [
+      "S00"
+    ]
+  },
+  {
+    "id": "ostrom",
+    "name": "Elinor Ostrom",
+    "source_ids": [
+      "O09"
+    ]
+  },
+  {
+    "id": "costanza-daly",
+    "name": "Robert Costanza and Herman E. Daly",
+    "source_ids": [
+      "CD92"
+    ]
+  }
+]

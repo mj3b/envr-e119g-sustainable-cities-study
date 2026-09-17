@@ -1,0 +1,23 @@
+{
+  "id": "TEMPLATE",
+  "status": "unfilled",
+  "place": null,
+  "time_window": null,
+  "decision_date": null,
+  "decision_authority": null,
+  "decision": null,
+  "alternatives": [],
+  "evidence_available_at_decision": [],
+  "uncertainties": [],
+  "affected_populations": [],
+  "resource_pressures": [],
+  "conditions": [],
+  "outputs": [],
+  "outcomes": [],
+  "monitoring": [],
+  "correction": [],
+  "claim_ids": [],
+  "limitations": [
+    "A completed decision record does not establish decision quality or effective control."
+  ]
+}

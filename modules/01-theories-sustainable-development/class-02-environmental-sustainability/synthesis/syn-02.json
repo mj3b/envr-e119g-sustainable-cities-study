@@ -1,0 +1,14 @@
+{
+  "id": "SYN-02",
+  "evidence_class": "our_synthesis",
+  "claim_ids": [
+    "SYN-02"
+  ],
+  "depends_on": [
+    "CD-02",
+    "CD-03",
+    "L2-03"
+  ],
+  "interpretation": "Data-center efficiency claims should be tested against absolute resource demand, ecological conditions, and observed outcomes.",
+  "human_review": "pending"
+}
