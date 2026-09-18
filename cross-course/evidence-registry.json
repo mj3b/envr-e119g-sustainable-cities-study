@@ -369,5 +369,17 @@
     "url": "https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp",
     "retrieved": "2026-09-17",
     "note": "2024 study landing-page findings inspected. Statewide modeled scenarios are not observed effects of a Loudoun decision; report appendices still require inspection. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-SHAH-2026",
+    "title": "Four water insecurity concerns about datacenters driving the AI revolution",
+    "evidence_class": "external_context",
+    "source_kind": "academic_essay",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000500",
+    "retrieved": "2026-09-18",
+    "note": "Sameer H. Shah (2026), PLOS Water, 5(1), e0000500; published January 13, 2026. DOI: 10.1371/journal.pwat.0000500. Abstract and relevant sections inspected online. Essay synthesizes reporting, legal filings, and planning records; its research agenda is not an independent causal estimate of local effects. Original bytes not archived."
   }
 ]

@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
 | Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
-| Keep Assignment 1 drafting paused | Standing user instruction recorded in the repository | Improve preparation without composing submission prose |
+| Draft Assignment 1 with APA 7 | Explicit user request, September 18, 2026 (UTC): “Draft the powerful research memorandum with proper APA 7.” | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
 | Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
 | Merge and release completed repository work | User authorization | Perform relevant checks; preserve privacy and review boundaries |
@@ -32,7 +32,7 @@ Repository authorization does not supply a human fidelity review. It also does n
 
 Prior AI-authored introductions are planning context. They do not verify autobiographical claims. Personal reflection and endorsement of an argument remain the user's responsibility.
 
-The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. The [focused evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) is the immediate preparation priority; drafting authorization remains pending.
+The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [review record](assignments/assignment-01/DRAFT-REVIEW.md), and the supporting [evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md).
 
 ## Resume from evidence, not recollection
 

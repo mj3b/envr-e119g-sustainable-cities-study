@@ -1,14 +1,14 @@
-# Assignment 1 · Readiness to draft
+# Assignment 1 · Draft review checklist
 
 [Assignments](../README.md) / [Assignment 1](README.md) / Readiness
 
-**Current state:** drafting remains paused. This is an internal quality instrument; it does not add requirements to the instructor's rubric.
+**Current state:** drafting explicitly authorized on September 18, 2026 (UTC); student review pending. This is an internal quality instrument; it does not add requirements to the instructor’s rubric.
 
-Start with the [focused evidence packet](EVIDENCE-PACKET.md) and its pending human review queue.
+Read the [memorandum draft](memorandum-draft.md), [draft review record](DRAFT-REVIEW.md), and [focused evidence packet](EVIDENCE-PACKET.md) together. Human source review remains pending.
 
 ## Authorization and authorship
 
-- [ ] Mark explicitly resumes drafting.
+- [x] Mark explicitly resumes drafting: “Draft the powerful research memorandum with proper APA 7.”
 - [ ] Mark supplies and approves the personal account or motivation used.
 - [ ] The topic is bounded, with any provisional case choice stated honestly.
 
@@ -24,7 +24,7 @@ Start with the [focused evidence packet](EVIDENCE-PACKET.md) and its pending hum
 
 Preparation review can focus on the claims proposed for a narrow assignment. This worksheet does not bypass machine promotion rules or create an approved deliverable. A class master brief still requires G1–G3 for its declared scope, including class-level lecture completeness. See the [deliverable standard](../../standards/DELIVERABLES.md).
 
-## After drafting is authorized
+## Review before submission
 
 - [ ] Apply E5 editing and verify the approximate word count under the brief's counting rule.
 - [ ] Check each citation against the sentence it supports.

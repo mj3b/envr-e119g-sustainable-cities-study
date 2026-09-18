@@ -8,7 +8,7 @@ The inquiry matters because resource commitments connect institutional authority
 
 ## The closest work already overlaps
 
-**Scope:** a preliminary scan on September 18, 2026, using three targeted searches and three opened sources. This is not a systematic literature review. These are positioning references, not additions to the admitted canonical claim corpus or completed source-fidelity reviews.
+**Scope:** a preliminary scan on September 18, 2026, using three targeted searches and three opened sources. This is not a systematic literature review. The scan itself did not admit new canonical claims. Shah was subsequently checked for the Assignment 1 draft and registered as `EXT-SHAH-2026` with `LIT-SHAH-01`; human source review remains pending. The other comparisons retain the limited inspection scope below.
 
 | Reference and inspection scope | Existing contribution | Consequence for this project |
 | :--- | :--- | :--- |

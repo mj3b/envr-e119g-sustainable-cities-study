@@ -2,7 +2,7 @@
 
 [Class overview](../README.md) · [Assignment 1 materials](../../../../assignments/assignment-01/README.md)
 
-> **Boundary:** Assignment 1 drafting remains paused. This page identifies reusable research components; it is not a memo, personal reflection or approved master brief.
+> **Boundary:** Assignment 1 drafting is authorized. This page supplies research components for review; it is not a memo, personal reflection or approved master brief.
 
 | Component | Course anchor | Preparatory output |
 | :--- | :--- | :--- |

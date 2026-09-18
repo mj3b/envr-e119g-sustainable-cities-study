@@ -55,10 +55,10 @@
   },
   {
     "id": "S-01",
-    "text": "Development evaluation needs plural concerns; income alone cannot settle social valuation.",
+    "text": "Development evaluation requires attention to multiple dimensions of people's lives, including health and education; income alone cannot settle social valuation.",
     "evidence_class": "assigned_reading",
     "source_id": "S00",
-    "locator": "PDF pages 5–6, printed 20–21",
+    "locator": "PDF page 3, printed 18, Pluralist conception; PDF pages 5–6, printed 20–21",
     "class_number": 1,
     "speaker_role": "author",
     "speaker_confidence": "not_applicable",
@@ -69,7 +69,9 @@
     "depends_on": [],
     "status": "source_checked",
     "human_review": "pending",
-    "limitations": []
+    "limitations": [
+      "Passages inspected in the supplied extracted text. This essay does not prescribe a specific local indicator set; municipal application is synthesis."
+    ]
   },
   {
     "id": "S-02",
@@ -1038,6 +1040,80 @@
     "human_review": "pending",
     "limitations": [
       "Working-paper/chapter equivalence remains unresolved. Extracted text inspected."
+    ]
+  },
+  {
+    "id": "CD-06",
+    "text": "Costanza and Daly acknowledge that their sustainability principles fall short of a complete operational blueprint with measurements, while arguing that uncertainty must be addressed in policy design.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 10, printed 45, opening paragraphs following the operational principles",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "strong-sustainability"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Extracted text inspected. The principles do not establish a defensible hydrological threshold for a particular locality. Human fidelity review remains pending."
+    ]
+  },
+  {
+    "id": "CASE-DAL-04",
+    "text": "The minutes record the public works director stating that Google paid for three studies and that the City participated throughout the process.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-DAL-MIN",
+    "locator": "Page 4, response about who paid for the three studies",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Attributed statement in municipal minutes; underlying studies and funding documentation have not been inspected here. Funding alone does not establish methodological independence or bias."
+    ]
+  },
+  {
+    "id": "CASE-DAL-05",
+    "text": "The minutes record all councilors stating that they reviewed the information provided and considered the infrastructure agreement to be in the overall best interest of the City.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-DAL-MIN",
+    "locator": "Page 6, paragraph immediately before Resolution 21-028 motion",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Records councilors’ stated review and judgment, not an independent verification of evidence quality, completeness, review practice, or subsequent outcomes."
+    ]
+  },
+  {
+    "id": "LIT-SHAH-01",
+    "text": "Shah links data-center water insecurity concerns to disclosure, community experience, and institutional arrangements, and calls for context-specific empirical investigation and institutional analysis.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-SHAH-2026",
+    "locator": "Abstract; A call for future research, paragraphs 1–4",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Scholarly essay synthesizing reported cases and public records. This bounded claim records its framing and research agenda, not proof that a particular agreement caused harm or that this repository has an original finding."
     ]
   }
 ]

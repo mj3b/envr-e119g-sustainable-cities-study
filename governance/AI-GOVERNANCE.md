@@ -15,7 +15,7 @@ The supplied syllabus permits exploration of generative AI and requires acknowle
 | Human reviewer | Check a defined packet against originals and explain a disposition | Approves only the inspected content and scope, with a dated receipt |
 | Automated checks | Reject specific structural, temporal, unit and workflow inconsistencies | Cannot certify source meaning, completeness, legal authority or causal validity |
 
-Repository merging and release authorization does not approve G1–G3 or authorize Assignment 1 drafting. The user's standing instructions control those boundaries separately.
+Repository merging and release authorization does not approve G1–G3. Assignment 1 drafting was separately authorized by the user on September 18, 2026 (UTC); student review and submission remain separate actions.
 
 ## Controls tied to actual failure modes
 

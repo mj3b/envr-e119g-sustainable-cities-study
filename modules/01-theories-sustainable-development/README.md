@@ -22,6 +22,6 @@
 
 ## Current limits
 
-The dossiers develop the inspected claims into research questions, rival explanations and evidence plans. Full source coverage and human fidelity review remain pending. North’s reprint and Ostrom’s working paper require edition reconciliation. No approved class master brief, selected geography or assignment draft is implied.
+The dossiers develop the inspected claims into research questions, rival explanations and evidence plans. Full source coverage and human fidelity review remain pending. North’s reprint and Ostrom’s working paper require edition reconciliation. No approved class master brief or selected geography is implied. The separately authorized [Assignment 1 draft](../../assignments/assignment-01/memorandum-draft.md) remains pending student review.
 
 **Recommended route:** class overview → reading argument → lecture alignment → synthesis → unresolved evidence. The aim is to make each inference inspectable before it becomes a conclusion.

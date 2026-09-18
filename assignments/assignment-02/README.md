@@ -40,4 +40,4 @@ Use the selected theory to justify a specific test. Explain why that test can an
 - Mark can explain the argument, its strongest alternative, and its evidentiary limits.
 - Personal statements come from Mark, and the AI acknowledgment describes the assistance accurately.
 
-Follow the [deliverable standard](../../standards/DELIVERABLES.md) and [AI governance](../../governance/AI-GOVERNANCE.md). Assignment 1 drafting remains paused; this preparation guide does not resume it. No assignment is marked submitted merely because a repository file exists.
+Follow the [deliverable standard](../../standards/DELIVERABLES.md) and [AI governance](../../governance/AI-GOVERNANCE.md). Assignment 1 now has separate drafting authorization; this later-assignment guide remains preparation only. No assignment is marked submitted merely because a repository file exists.

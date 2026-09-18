@@ -6,13 +6,13 @@
 
 | Current mode | Evidence authority | Submission state |
 | :--- | :--- | :--- |
-| Research preparation; Assignment 1 drafting paused | Archived syllabus, relevant TA guidance, and the user's supplied Assignment 1 prompt | No submission recorded here |
+| Assignment 1 draft pending student review; later assignments in preparation | Archived syllabus, relevant TA guidance, and the user's supplied Assignment 1 prompt | No submission recorded here |
 
 ## The semester pathway
 
 | Assignment | Verified format | Intellectual task | Preparation record |
 | :--- | :--- | :--- | :--- |
-| 1 | Memo, approximately 800–1,000 words | Personal engagement, present knowledge, further inquiry | [Research memo preparation](assignment-01/README.md) |
+| 1 | Memo, approximately 800–1,000 words | Personal engagement, present knowledge, further inquiry | [Research memorandum](assignment-01/README.md) |
 | 2 | Memo or blog, 1,000–1,200 words | Course theory and research method | [Theory and method](assignment-02/README.md) |
 | 3 | PowerPoint, 5 minutes | Synthesize the earlier inquiry and explain implications | [Synthesis presentation](assignment-03/README.md) |
 | 4 | Memo or blog, 1,300–1,500 words | Learning and practical strategies for cities | [Strategies, policy, and practice](assignment-04/README.md) |
