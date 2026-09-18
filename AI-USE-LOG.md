@@ -45,15 +45,15 @@ On September 18, 2026 (UTC), Mark explicitly authorized an APA 7 research memora
 
 ## Disclosure in the draft
 
-At Mark’s request, the standalone Research Transparency and AI Assistance section was removed when the document was reshaped into a six-section memorandum. A 32-word, unheaded acknowledgment before References identifies ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting. It retains Mark’s responsibility for the submitted argument and citations. Private prompts are not quoted.
+At Mark’s request, an earlier revision removed the standalone Research Transparency and AI Assistance section. The current revision restores a separate Closing Reflection. A 32-word, unheaded acknowledgment before References identifies ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting. It retains Mark’s responsibility for the submitted argument and citations. Private prompts are not quoted.
 
 The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex. Original readings and public records support the substantive claims.
 
-The current draft contains 998 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+The preceding revision contained 998 argument words and a 32-word acknowledgment. It separated observed, interpreted and normative statements, gave affected populations a research question, and followed the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. That earlier Word export was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
 
 ## Reflection and research-question revision
 
-Mark supplied expanded first-person context and initially limited the authoring prompt to personal reflection. Later annotations authorized changes to the opening, research questions and closing. His latest instruction targets approximately 1,000 words and permits up to 1,100. Codex retained the following revisions:
+Mark supplied expanded first-person context and initially limited the authoring prompt to personal reflection. Later annotations authorized changes to the opening, research questions and closing. That revision targeted approximately 1,000 words with expansion permitted. The following records its changes before the later full pressure test:
 
 | Part | Change | Boundary |
 | :--- | :--- | :--- |
@@ -63,7 +63,22 @@ Mark supplied expanded first-person context and initially limited the authoring 
 | Further investigation | Tests decision-time assumptions, implementation constraints, and competing explanations for outcomes | Prospective design; neither preregistration nor a completed causal evaluation |
 | Closing | Merges reflection into the research agenda and ends with accountability after the original decision-makers have moved on | An unanswered question; no allegation of failed safeguards |
 
-The questions apply practices documented in the [influence register](standards/INFLUENCES.md): update conditions, actor constraints, explicit comparisons and measurement boundaries. The memo demonstrates those practices without presenting organizational reputations as case evidence. Its current body and acknowledgment total 1,030 words. Source-based analysis and the tensions section remain intact. Human review and case selection remain open. A further Central Issue review compared the approval-only question with Mark’s earlier framing. The revision restores monitoring and correction, retains water as the bounded resource focus, and makes the proposed standard explicit without claiming that procedural safeguards ensure environmental protection. No new external source or case finding was added.
+The questions apply practices documented in the [influence register](standards/INFLUENCES.md): update conditions, actor constraints, explicit comparisons and measurement boundaries. The memo demonstrates those practices without presenting organizational reputations as case evidence. That revision’s body and acknowledgment totaled 1,030 words. Source-based analysis and the tensions section remain intact. Human review and case selection remain open. A further Central Issue review compared the approval-only question with Mark’s earlier framing. The revision restores monitoring and correction, retains water as the bounded resource focus, and makes the proposed standard explicit without claiming that procedural safeguards ensure environmental protection. No new external source or case finding was added.
+
+## Full memorandum pressure test · September 18, 2026
+
+The current title is **Water Commitments and Accountability in AI Infrastructure**. The full pressure test examined evidence, competing interpretations, causal claims, personal voice, cultural attribution, APA references and presentation. It restores a standalone Closing Reflection and keeps the [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) separate from the memorandum. The [pre-submission review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) records the pressure test.
+
+| Fresh checking and correction | Scope and limit |
+| :--- | :--- |
+| Sen and Costanza–Daly passages | Supplied extracted text and covers; official indexed publisher metadata. No fresh original-page image inspection; two direct publisher opens failed. |
+| Costanza–Daly paraphrase | Restored **renewable-resource** harvesting and waste-emissions qualifiers; preserved the p. 45 allowance for action despite incomplete measurement. |
+| Municipal paraphrase | Changed the city’s reported role to involvement **throughout the process**, avoiding an unsupported implication of technical study authorship. Official minutes pp. 4–6 were freshly inspected. |
+| OHA, Shah and tool references | Official pages and relevant passages or product metadata checked. These checks establish neither Mark’s identity nor local water outcomes; exact historical model versions remain unrecorded. |
+| Rival explanations and inference | Clarified that a dated response provides evidence of implementation, and that residents’ accounts could reveal omissions; neither establishes a causal effect by itself. |
+| Review boundaries | All eight human review actions remain pending. No canonical registry, human review receipt, source original or submission status was changed by this pressure test. |
+
+The revised argument is **997 words**, with a **32-word acknowledgment**, or **1,029 combined**. Mark permits expansion beyond 1,000 words; the course’s approximate 800–1,000-word guidance remains unchanged. The count excludes the memo fields, headings, References and separate review appendix. Authentic personal inputs are supplied; final voice and interpretation remain for Mark to approve. The revised memo has six rendered pages; the separate companion has eight. All fourteen pages were visually inspected, and source-text fidelity was checked for both. The review record distinguishes requested fonts from renderer substitutions. These production checks do not complete Mark’s source or voice review.
 
 ## Planned tools are not completed research
 
