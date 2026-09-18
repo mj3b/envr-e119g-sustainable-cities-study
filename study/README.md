@@ -27,3 +27,5 @@
 4. Record a correction or a surviving belief with its support. Set the next review after a related class or new source arrives.
 
 [Course knowledge](../cross-course/README.md) supplies the arguments. [Methodology](../METHODOLOGY.md) explains the research design. [AI evaluation](../governance/EVALUATION.md) tests assistance and controls; it does not substitute for student understanding.
+
+[Research value and originality](RESEARCH-POSITIONING.md) compares the inquiry with three nearby sources and separates a promising contribution from an unsupported novelty claim.

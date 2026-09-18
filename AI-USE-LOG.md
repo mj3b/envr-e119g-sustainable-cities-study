@@ -35,6 +35,10 @@ Dates span UTC midnight; the Assignment 1 target is September 18 in the user's l
 | Prior AI-drafted memo in a referenced conversation | Kept out of the repository; current assignment artifacts remain preparation |
 | Stale-review test fixture | Created synthetic receipts only inside temporary tests; live receipts remain empty |
 
+## Research positioning follow-up
+
+After the user asked about novelty, a bounded scan compared three nearby sources on regulation, water insecurity and decision evidence. The resulting [positioning note](study/RESEARCH-POSITIONING.md) makes no claim of an exhaustive review or established originality. These references remain outside the admitted canonical claims.
+
 ## Before a submission
 
 Mark must verify retained interpretations and write or confirm his personal reflection. Cite and acknowledge the actual assistance used under `SYL` PDF p. 7 and `TA-03`, following current course instructions. Do not copy this log as a claim that every generated sentence has been checked.

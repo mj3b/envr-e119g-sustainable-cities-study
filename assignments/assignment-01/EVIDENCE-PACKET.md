@@ -103,7 +103,11 @@ Bibliographic details below come from the [source registry](../../cross-course/e
 
 For North, reconcile the used passage with the assigned edition or cite the supplied reprint accurately with a version note. If that cannot be completed for this deadline, omit the unresolved citation and develop the reviewed Sen and Costanza–Daly analysis instead. Do not cite an unread edition as though it was inspected.
 
-## 8 · Human review queue for the deadline
+## 8 · Contribution and human review
+
+The [preliminary literature comparison](../../study/RESEARCH-POSITIONING.md) finds close predecessors on regulation, transparency and local water governance. The memorandum can propose a valuable inquiry without claiming that the topic or method is unprecedented. Originality requires a finding and a closer comparison with that literature.
+
+### Human review queue for the deadline
 
 | Order | Review action | Exit condition |
 | :--- | :--- | :--- |
