@@ -2,7 +2,7 @@
 
 [Home](../../README.md) / [Assignments](../README.md) / [Assignment 1](README.md) / Evidence packet
 
-**Purpose:** support the revised memorandum, **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**, with inspectable evidence and review tasks. The course guidance remains approximately 800–1,000 words. This packet preserves earlier planning alongside the current passage-review targets; it contains no submission prose.
+**Purpose:** support the revised memorandum, **When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era**, with inspectable evidence and review tasks. The course guidance remains approximately 800–1,000 words. This packet preserves earlier planning alongside the current passage-review targets; it contains no submission prose.
 
 | Working direction | Status | Immediate dependency |
 | :--- | :--- | :--- |
@@ -10,7 +10,7 @@
 
 The September 18 due date is recorded in `SYL`, PDF p. 6. The exact live submission time has not been verified. Mark explicitly authorized drafting on September 18, 2026 (UTC); the memorandum remains pending student review.
 
-The [authorized draft](memorandum-draft.md) uses North, Sen, Costanza and Daly, the municipal minutes, Shah (2026) and the Office of Hawaiian Affairs’ cultural account. Its **956-word argument and 44-word acknowledgment total 1,000 words**; all material before References totals **1,059**. Mark permits expansion beyond 1,000; this is not a course waiver. The [draft review](DRAFT-REVIEW.md), [human review appendix](HUMAN-REVIEW-APPENDIX.md) and current [revision notes](REVISION-NOTES.md) distinguish evidence checks from pending human review. The [PR #8 pressure test](PRE-SUBMISSION-REVIEW.md) is historical. The appendix remains separate from the memo by default.
+The [authorized draft](memorandum-draft.md) uses North, Sen, Costanza and Daly, the municipal minutes, Shah (2026) and the Office of Hawaiian Affairs’ cultural account. Its **916-word argument and 44-word acknowledgment total 960 words**; all material before References totals **1,023**. Mark permits expansion beyond 1,000; this is not a course waiver. The [draft review](DRAFT-REVIEW.md), [human review appendix](HUMAN-REVIEW-APPENDIX.md) and current [revision notes](REVISION-NOTES.md) distinguish evidence checks from pending human review. The [PR #8 pressure test](PRE-SUBMISSION-REVIEW.md) is historical. The appendix remains separate from the memo by default.
 
 ## 1 · The question worth carrying into the memo
 
@@ -90,7 +90,7 @@ These are competing possibilities, not findings. The available packet cannot est
 
 ## 5 · Earlier 900-word planning allocation
 
-Retained as preparation history, this allocation predates the current draft and its separate Closing Reflection. It is not the final section or word-count record. The current argument contains 956 words, plus a 44-word acknowledgment. Bibliography is excluded under `TA-02`; confirm the live counting rule before submission.
+Retained as preparation history, this allocation predates the current draft and its separate Closing Reflection. It is not the final section or word-count record. The current argument contains 916 words, plus a 44-word acknowledgment. Bibliography is excluded under `TA-02`; confirm the live counting rule before submission.
 
 | Function | Allocation | Evidence or student work needed |
 | :--- | ---: | :--- |

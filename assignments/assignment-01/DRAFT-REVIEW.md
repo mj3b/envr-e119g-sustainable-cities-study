@@ -8,12 +8,12 @@
 
 | Item | Current record |
 | :--- | :--- |
-| Title | When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure |
+| Title | When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era |
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
 | Question | What keeps a municipal water commitment publicly defensible as conditions and community needs change? |
-| Argument body | 956 words |
-| Brief AI acknowledgment | 44 words; combined with body, 1,000 words |
-| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction permits expansion beyond 1,000; it does not establish an instructor exception. All pre-References text, including metadata/title/headings/list numerals, totals 1,059 words |
+| Argument body | 916 words |
+| Brief AI acknowledgment | 44 words; combined with body, 960 words |
+| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction permits expansion beyond 1,000; it does not establish an instructor exception. All pre-References text, including metadata/title/headings/list numerals, totals 1,023 words |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
 
@@ -34,11 +34,11 @@ The [earlier full pressure test](PRE-SUBMISSION-REVIEW.md) preserves the PR #8 b
 
 ## How the current revision develops the inquiry
 
-The provisional commitment assurance chain connects justification, disclosure, monitoring, triggers, authority and remedy. The standalone Closing Reflection returns to the responsibility learned in Hawaiʻi after explaining how the readings complicate this proposed framework. North directs attention to incentives and enforcement; Sen raises the public choice of criteria; Costanza and Daly require examination of the ecological conditions supporting promised benefits. These are current interpretations for Mark to review, without invented memories or claims of completed personal reading.
+The provisional commitment-accountability gap names the distance between authorization and the capacity to reassess. The commitment-assurance chain connects justification, disclosure, monitoring, triggers, authority and remedy. The standalone Closing Reflection returns to the responsibility learned in Hawaiʻi after explaining how the readings complicate this proposed framework. North directs attention to incentives and enforcement; Sen raises the public choice of criteria; Costanza and Daly require examination of the ecological conditions supporting promised benefits. These are current interpretations for Mark to review, without invented memories or claims of completed personal reading.
 
 | Revision | Evidence or reasoning it preserves |
 | :--- | :--- |
-| Three operational questions | What justified one commitment; what connected monitoring to action; what changed for users and ecological conditions |
+| Three operational questions | What evidence and assumptions justified approval; what mechanisms, if any, connected monitoring to institutional action; what changed for users and ecological conditions |
 | A stronger counterargument | Transparent, enforceable terms can still permit an unfair or ecologically excessive allocation |
 | Qualified implementation inference | A response record provides evidence to check against monitoring and required action; documentation alone is not proof of effectiveness |
 | Conditional outcome attribution | A safeguard’s effect requires implementation evidence, a usable baseline/comparison and examination of rival explanations |
@@ -60,7 +60,7 @@ These are AI-assisted passage and metadata checks, not human fidelity approvals.
 | `EXT-OHA-AINA` · Office of Hawaiian Affairs (n.d.) | “ʻĀina – Land & Sea,” paragraphs 2–4 after the opening proverb | An attributed Native Hawaiian institutional account of mālama ʻāina, reciprocal care and ancestral relationships; not evidence of Mark’s identity or exact childhood instruction |
 | `EXT-SHAH-2026` · Shah (2026) | Primary PLOS Water essay, abstract and “A call for future research”; bibliographic metadata. Introduction inspected in earlier review | Water insecurity, disclosure and context-specific institutional inquiry; an essay, not an original local causal estimate |
 
-The September 18 pressure test freshly checked the supplied extracted Sen and Costanza–Daly passages and bibliographic covers; it did not freshly inspect original page images. Indexed official publisher metadata supported the reference details where direct publisher opens failed. Municipal minutes, OHA, Shah and the existing AI product URLs were reopened. A second AI check found the revised source claims supported within these limits. No underlying municipal study, executed agreement or later outcome dataset was inspected.
+The September 18 pressure test freshly checked the supplied extracted Sen and Costanza–Daly passages and bibliographic covers; it did not freshly inspect original page images. Indexed official publisher metadata supported the reference details where direct publisher opens failed. Municipal minutes, OHA, Shah and the existing AI product URLs were reopened during the preceding reviews. The final-substitution pass freshly reopened OHA’s defining passage; the other source-check scopes are retained from those reviews. A second AI check found the revised source claims supported within these limits. No underlying municipal study, executed agreement or later outcome dataset was inspected.
 
 Canonical support includes `N-02` (supplied reprint, with journal correspondence recorded separately), `S-01`, `S-03`, `CD-01`, `CD-04`, `CD-06`, `CASE-DAL-01`, `CASE-DAL-02`, `CASE-DAL-04`, `CASE-DAL-05`, `LIT-SHAH-01` and `CULT-OHA-01`.
 
@@ -89,9 +89,9 @@ The tool references identify software used; the unheaded acknowledgment explains
 | Check | Status |
 | :--- | :--- |
 | Source support, scope and citation metadata | AI-assisted review completed within the locators above; corrected wording rechecked |
-| Body and acknowledgment length | 956 + 44 = 1,000 words, excluding metadata, title, headings, list numerals and references; all pre-References text is 1,059 words |
+| Body and acknowledgment length | 916 + 44 = 960 words, excluding metadata, title, headings, list numerals and references; all pre-References text is 1,023 words |
 | Personal facts | Uses Mark’s supplied classrooms/community, lands/waters and Georgia context; no invented event, universal education claim or implied Native Hawaiian identity |
-| Revised Word memo and separate companion | Memo: six pages, exact source-text fidelity, six analytical sections, three native numbered questions and nine hanging-indent references. Companion: nine pages, substantive source text preserved, nine tables and six clickable source links. All fifteen final pages visually inspected |
+| Revised Word memo and separate companion | Memo: five pages, exact source-text fidelity, six analytical sections, three native numbered questions and nine hanging-indent references. Companion: nine pages, substantive source text preserved, nine tables and six clickable source links. All fourteen final-substitution pages visually inspected |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
 | Human review and submission | Pending; G1–G3 and live human receipts unchanged |
 
