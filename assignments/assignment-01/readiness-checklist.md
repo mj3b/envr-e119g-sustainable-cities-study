@@ -8,7 +8,7 @@ Read the [memorandum draft](memorandum-draft.md), [draft review record](DRAFT-RE
 
 ## Authorization and authorship
 
-- [x] Mark explicitly resumes drafting: “Draft the powerful research memorandum with proper APA 7.”
+- [x] Mark explicitly authorizes drafting the research memorandum with APA 7.
 - [ ] Mark supplies and approves the personal account or motivation used.
 - [ ] The topic is bounded, with any provisional case choice stated honestly.
 

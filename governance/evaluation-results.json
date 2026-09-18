@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "evaluated_at": "2026-09-18T03:09:26.001037Z",
+  "evaluated_at": "2026-09-18T03:21:55.592217Z",
   "executor": "automated Python runner; invoked in an AI-assisted work session",
   "scope": "repository files; local source digests included",
   "automated_status": "pass",
@@ -38,7 +38,7 @@
         "-v"
       ],
       "exit_code": 0,
-      "output": "test_bounded_automated_clock_skew (test_assurance.AssuranceTests) ... ok\ntest_dead_and_escaping_links (test_assurance.AssuranceTests) ... ok\ntest_missing_and_failed_check_cannot_pass (test_assurance.AssuranceTests) ... ok\ntest_only_exact_pending_receipt_link_is_exempt (test_assurance.AssuranceTests) ... ok\ntest_receipt_cannot_certify_human_fidelity (test_assurance.AssuranceTests) ... ok\ntest_receipt_excluded_and_ignored_sources_excluded (test_assurance.AssuranceTests) ... ok\ntest_stale_receipt_after_prose_edit (test_assurance.AssuranceTests) ... ok\ntest_untracked_raw_file_fails_privacy_before_staging (test_assurance.AssuranceTests) ... ok\ntest_bad_source (test_integrity.IntegrityTests) ... ok\ntest_complete_review_allows_promotion (test_integrity.IntegrityTests) ... ok\ntest_cycle (test_integrity.IntegrityTests) ... ok\ntest_missing_locator (test_integrity.IntegrityTests) ... ok\ntest_pass_without_reviewer (test_integrity.IntegrityTests) ... ok\ntest_passed_gates_do_not_erase_omissions (test_integrity.IntegrityTests) ... ok\ntest_peer_laundering (test_integrity.IntegrityTests) ... ok\ntest_promotion_fails_closed (test_integrity.IntegrityTests) ... ok\ntest_unauthorized_draft (test_integrity.IntegrityTests) ... ok\ntest_valid_calibration (test_integrity.IntegrityTests) ... ok\ntest_wrong_archive_path (test_integrity.IntegrityTests) ... ok\ntest_alternative_ownership (test_research.ResearchTests) ... ok\ntest_capacity_is_not_energy (test_research.ResearchTests) ... ok\ntest_complete_packet (test_research.ResearchTests) ... ok\ntest_hindsight_leak (test_research.ResearchTests) ... ok\ntest_measurement_cycle (test_research.ResearchTests) ... ok\ntest_missing_temporal_access (test_research.ResearchTests) ... ok\ntest_outcome_cannot_use_scenario (test_research.ResearchTests) ... ok\ntest_research_approval_needs_receipt (test_research.ResearchTests) ... ok\ntest_schema_rejects_missing_disconfirmation (test_research.ResearchTests) ... ok\ntest_schemas (test_research.ResearchTests) ... ok\ntest_stale_review_rejected (test_research.ResearchTests) ... ok\ntest_unknown_cannot_pass_selection (test_research.ResearchTests) ... ok\ntest_unknown_is_not_zero (test_research.ResearchTests) ... ok\ntest_wrong_authority_type (test_research.ResearchTests) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 2.123s\n\nOK"
+      "output": "test_bounded_automated_clock_skew (test_assurance.AssuranceTests) ... ok\ntest_dead_and_escaping_links (test_assurance.AssuranceTests) ... ok\ntest_missing_and_failed_check_cannot_pass (test_assurance.AssuranceTests) ... ok\ntest_only_exact_pending_receipt_link_is_exempt (test_assurance.AssuranceTests) ... ok\ntest_receipt_cannot_certify_human_fidelity (test_assurance.AssuranceTests) ... ok\ntest_receipt_excluded_and_ignored_sources_excluded (test_assurance.AssuranceTests) ... ok\ntest_stale_receipt_after_prose_edit (test_assurance.AssuranceTests) ... ok\ntest_untracked_raw_file_fails_privacy_before_staging (test_assurance.AssuranceTests) ... ok\ntest_bad_source (test_integrity.IntegrityTests) ... ok\ntest_complete_review_allows_promotion (test_integrity.IntegrityTests) ... ok\ntest_cycle (test_integrity.IntegrityTests) ... ok\ntest_missing_locator (test_integrity.IntegrityTests) ... ok\ntest_pass_without_reviewer (test_integrity.IntegrityTests) ... ok\ntest_passed_gates_do_not_erase_omissions (test_integrity.IntegrityTests) ... ok\ntest_peer_laundering (test_integrity.IntegrityTests) ... ok\ntest_promotion_fails_closed (test_integrity.IntegrityTests) ... ok\ntest_unauthorized_draft (test_integrity.IntegrityTests) ... ok\ntest_valid_calibration (test_integrity.IntegrityTests) ... ok\ntest_wrong_archive_path (test_integrity.IntegrityTests) ... ok\ntest_alternative_ownership (test_research.ResearchTests) ... ok\ntest_capacity_is_not_energy (test_research.ResearchTests) ... ok\ntest_complete_packet (test_research.ResearchTests) ... ok\ntest_hindsight_leak (test_research.ResearchTests) ... ok\ntest_measurement_cycle (test_research.ResearchTests) ... ok\ntest_missing_temporal_access (test_research.ResearchTests) ... ok\ntest_outcome_cannot_use_scenario (test_research.ResearchTests) ... ok\ntest_research_approval_needs_receipt (test_research.ResearchTests) ... ok\ntest_schema_rejects_missing_disconfirmation (test_research.ResearchTests) ... ok\ntest_schemas (test_research.ResearchTests) ... ok\ntest_stale_review_rejected (test_research.ResearchTests) ... ok\ntest_unknown_cannot_pass_selection (test_research.ResearchTests) ... ok\ntest_unknown_is_not_zero (test_research.ResearchTests) ... ok\ntest_wrong_authority_type (test_research.ResearchTests) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 2.230s\n\nOK"
     },
     {
       "id": "local_markdown_links",
@@ -48,26 +48,26 @@
       "output": "Local Markdown path targets resolve"
     }
   ],
-  "fingerprint": "dd12f12f27f935eff3cf7e83ab560b0983e90aa903ae5520ee12e674038e94b1",
+  "fingerprint": "86cc6207c7dd1adac6acef2ba3449bcd815240bc5de9942c3dfb78a0b5e80b0b",
   "files": {
     ".githooks/pre-commit": "f644b4ba0d812dc0aacd10202554fb0f578cfcbfa514325c9aed6ac31ea48c9f",
     ".githooks/pre-push": "ffc5f4ea7d96d52134bfece428f16d742483ee9433f463b3618e4de4740e8e3c",
     ".github/workflows/validate.yml": "26cb25df7b43356fbfebda4a6158fcf39e0aad34e0ec365129cdd421be68ac11",
     ".gitignore": "1d892549c0873a3dd45ec25945bb954c2e6f368891541f4b796b6dfa3ae6254a",
     "AGENTS.md": "98ed0584a9105f13e396653df0eaf74325fc371dc6fc1f2ec12998f854f1c2fe",
-    "AI-USE-LOG.md": "6e5eca29905ca2a40b8120bdcaa59cf4713ec270b518f9e22e5174b39c6c7bee",
-    "BUILD-STATUS.md": "bb462ff6689a8e80bd1948f06b30ad1a1a206e869b37f2c03ff4903e2f4ac5f0",
+    "AI-USE-LOG.md": "c20b2f76026a1841c6f19ba7b21c77576ed10e89187d11f73a6a6014191b9b45",
+    "BUILD-STATUS.md": "09dccaad888ef339016db1f309dddcf8e2bfc7d065eeb8da187ec8189de4900f",
     "CITATION-POLICY.md": "9a570e9a789100bfee67e9f6c7d143bd411fa6316edb06825ed653eda378e0f4",
     "COURSE-MAP.md": "ab1cc711a611a2d3ff10c211bad8ba099f0537f6320b9d3f2700efb389a9cf8d",
-    "MEMORY.md": "a8f300b61bc7037e7cc9b4e6d7c8c555f6c2de0a0c845689783285ab02ad03d7",
+    "MEMORY.md": "a73061cd0e545748674aed0831e3a83880b51346315c7928dcfa0d53d32efd85",
     "METHODOLOGY.md": "20d0ac791fb248825d0fb9d01c026f8061368ae2662b241dc9e2d71ebc0bd11b",
     "README.md": "245abb615fb3e8842cc07e5006df40d0f4a8765446c15e834240e9d19b6f60df",
     "assignments/README.md": "9ef3e0a605e836dab6ed569a68758cfa4cf9d407b14706991dbba30c4df0d7a2",
-    "assignments/assignment-01/DRAFT-REVIEW.md": "18cfe082664a44ec21e06d709943a04d99c46eb9fac984b6c51eac3ce5338035",
-    "assignments/assignment-01/EVIDENCE-PACKET.md": "b500661a0df725b6a833e548060c450f6b9c127dca2671dff05faec1f671fe18",
+    "assignments/assignment-01/DRAFT-REVIEW.md": "cba9c28c903e618f5e50bad245a86754bea696c56a8e02dc43e9df3818959d1e",
+    "assignments/assignment-01/EVIDENCE-PACKET.md": "94c7953ffb4d71abe27a234cb35a75440ecbc985e34e9664cb4073c3d638d2d5",
     "assignments/assignment-01/README.md": "93f7e9c319c02badb15c9494139612b24e610604346187b47c1f69392e3a863f",
-    "assignments/assignment-01/memorandum-draft.md": "a644739eda20e20382badcaecf8c537a43f9198a7bb63e4930e5fda82931d3f2",
-    "assignments/assignment-01/readiness-checklist.md": "996137f0d4da3c36f683c796c853e2b699be2b1f600a191665a0c530a35f745f",
+    "assignments/assignment-01/memorandum-draft.md": "48246bcf0c5b94015a475874947240d4994c33fa462aa27997bf1952280e6bac",
+    "assignments/assignment-01/readiness-checklist.md": "33453564c19630c7203e179e94876f5cb2e2b0ba50df9403784799f72880e721",
     "assignments/assignment-01/reflection-and-evidence-worksheet.md": "949490d2d6e93647eefbc6b646eee05a518a669eab1345af0bd768bb22942429",
     "assignments/assignment-01/relevance/a1-r1.json": "4db00b29988c7296980a286cd62e1fa8097007959e58ad3b6be520cdabaccdcf",
     "assignments/assignment-01/relevance/a1-r2.json": "75387321bb8fa5e04198125ebbfe94d60d094c938549be089e97a9ff4b30e395",

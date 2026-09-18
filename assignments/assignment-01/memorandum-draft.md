@@ -8,7 +8,7 @@ September 18, 2026
 
 ## Research Transparency and AI Assistance
 
-ChatGPT (OpenAI, n.d.-a) supported preliminary topic exploration. Codex (OpenAI, n.d.-b) organized source material, generated the initial draft, and assisted with revision, citation checks, and formatting. My drafting instruction was, “Draft the powerful research memorandum with proper APA 7.” I supplied the personal background and research directions. I remain responsible for the final argument, interpretation of sources, and submitted text. A private research repository documents source provenance, evidence checks, and AI assistance.
+ChatGPT (OpenAI, n.d.-a) supported exploratory framing. Codex (OpenAI, n.d.-b) organized source material, generated the initial draft, and assisted with revision and citation formatting. It also performed preliminary checks of claims against cited passages. A private repository distinguishes source claims from analytical interpretations and records provenance, uncertainty, and competing explanations. These AI-assisted checks remain provisional. I retain responsibility for assessing the evidence, verifying citations, and defending the interpretation and argument submitted under my name.
 
 ## Personal Engagement and the Research Question
 

@@ -12,7 +12,7 @@
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
 | Question | How can cities make resource commitments whose assumptions can be examined, monitored and revised? |
 | Argument body | 880 words |
-| Opening transparency note | 71 words; combined with body, 951 words |
+| Opening transparency note | 73 words; combined with body, 953 words |
 | Counting method | Whitespace-delimited words; excludes title, metadata, section headings and references. The course permits approximately 800–1,000 words and excludes bibliography; this conservative total includes the transparency note |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
@@ -51,23 +51,23 @@ North was omitted after checking the supplied reprint’s different pagination. 
 
 | Item | What the draft says or records |
 | :--- | :--- |
-| Actual assistance | ChatGPT supported early topic exploration; Codex organized source material, generated the initial draft and assisted with revision, citation checks and formatting |
-| Prompt | Retains Mark’s instruction: “Draft the powerful research memorandum with proper APA 7.” |
-| Responsibility | Mark remains responsible for the final argument, source interpretation and submitted text; no completed personal review is asserted |
+| Actual assistance | ChatGPT supported exploratory framing; Codex organized sources, generated the initial draft, assisted with revision/formatting and performed preliminary checks against cited passages |
+| Prompt privacy | The submitted disclosure describes purpose, scope and responsibility without quoting private instructions. The inspected course passages do not expressly require verbatim prompts |
+| Responsibility | Mark retains responsibility for evidence assessment, citation verification and the submitted interpretation and argument; AI-assisted checks remain provisional |
 | References | OpenAI, `n.d.-a`, identifies ChatGPT; `n.d.-b` identifies Codex. Tool titles distinguish the two entries. No unrecorded model/version or publication date is invented |
-| Private repository | One sentence describes source provenance, evidence checks and AI assistance. It is a working research record, not a substitute for the original sources or a claim of faculty access |
+| Private repository | Distinguishes source claims from analytical interpretations and records provenance, uncertainty and competing explanations. No faculty access or independent validation is implied |
 | Prompt/output preservation | This task and the private working records preserve drafting context. No public conversation link or raw private material is published |
 
 Course provenance: `SYL`, PDF p. 7, requires acknowledgment/citation and student responsibility. `TA-03`, transcript 1:41:59–1:42:57, addresses transparency and consistent referencing. `L2-06`, 1:44:48–1:46:16, addresses knowing the work well enough to detect AI errors. Speaker-role identification remains provisional; no audio verification is claimed.
 
-The tool references identify software used; the opening statement explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available.
+The tool references identify software used; the opening statement explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available. Following Mark’s document annotation, the disclosure now explains research roles and the provisional status of AI checks without reproducing a prompt. This conclusion about prompt quotation is limited to the inspected course guidance.
 
 ## Production and student review
 
 | Check | Status |
 | :--- | :--- |
 | Source support, scope and citation metadata | AI-assisted review completed within the locators above |
-| Body and disclosure length | 880 + 71 = 951 words, excluding headings and references |
+| Body and disclosure length | 880 + 73 = 953 words, excluding headings and references |
 | Personal facts | Restricted to Mark’s supplied account; interpretation and wording pending his review |
 | Word formatting and all-page visual inspection | Six pages rendered and inspected; title page, page numbers, 1-inch margins, double spacing, first-line body indents, reference hanging indents and italics checked |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
