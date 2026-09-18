@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "status": {
+      "enum": [
+        "provisional",
+        "reviewed"
+      ]
+    },
+    "selection": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rubric": {
+      "type": "object"
+    },
+    "criteria": {
+      "const": [
+        "primary_records",
+        "decision_traceability",
+        "quantitative_evidence",
+        "affected_populations",
+        "competing_interpretations",
+        "course_fit"
+      ]
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessments": {
+            "type": "object",
+            "properties": {
+              "primary_records": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "decision_traceability": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "quantitative_evidence": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "affected_populations": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "competing_interpretations": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "course_fit": {
+                "type": "object",
+                "properties": {
+                  "score": {
+                    "enum": [
+                      null,
+                      0,
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "score",
+                  "reason"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "primary_records",
+              "decision_traceability",
+              "quantitative_evidence",
+              "affected_populations",
+              "competing_interpretations",
+              "course_fit"
+            ],
+            "additionalProperties": false
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "next_action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "personal_fit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selection_ready": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "assessments",
+          "source_ids",
+          "claim_ids",
+          "next_action",
+          "personal_fit",
+          "selection_ready"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "retrieval_priority": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "priority_rationale": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "as_of",
+    "status",
+    "selection",
+    "rubric",
+    "criteria",
+    "candidates",
+    "retrieval_priority",
+    "priority_rationale"
+  ],
+  "additionalProperties": false
+}

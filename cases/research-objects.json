@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "RQ-01",
+    "type": "research_question",
+    "title": "Evidence at urban commitment",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [],
+    "claim_ids": [
+      "N-02",
+      "L2-03",
+      "TA-04"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "question": "What did the responsible institution know when it committed shared resources, what uncertainty remained, and what later evidence tested its assumptions?",
+      "question_kind": "explanatory",
+      "boundary": "One selected decision, place, population, and time window; selection pending.",
+      "answerability": "Reconstruct contemporaneous record, information access, authority and later comparable measurements.",
+      "update_condition": "Revise if no contemporaneous record or coherent decision boundary can be established."
+    }
+  },
+  {
+    "id": "H-01",
+    "type": "hypothesis",
+    "title": "Monitoring turns conditions into observable corrections",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [],
+    "claim_ids": [
+      "O-02",
+      "L2-03"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "question_id": "RQ-01",
+      "mechanism": "A named actor receives usable measurements, detects deviation, and can enforce correction.",
+      "prediction": "Dated monitoring and enforcement records connect trigger, response, and subsequent observations.",
+      "disconfirming_evidence": "Conditions exist with no monitoring or response, or apparent improvement predates intervention.",
+      "rival": "H-02",
+      "test": "Process tracing first; causal attribution requires comparison of workload, weather, technology and reporting boundaries."
+    }
+  },
+  {
+    "id": "H-02",
+    "type": "hypothesis",
+    "title": "Changed operations explain apparent improvement",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [],
+    "claim_ids": [
+      "L2-03",
+      "CD-02"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "question_id": "RQ-01",
+      "mechanism": "Workload, weather, or cooling changes alter demand independently of a governance condition.",
+      "prediction": "Demand changes track operating conditions without documented enforcement.",
+      "disconfirming_evidence": "Comparable operating periods change specifically when enforcement is triggered.",
+      "rival": "H-01",
+      "test": "Compare interval operations and intervention chronology; retain unknown if records are unavailable."
+    }
+  },
+  {
+    "id": "ASM-01",
+    "type": "assumption",
+    "title": "Comparable boundaries across time",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [],
+    "claim_ids": [
+      "L2-03"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "statement": "The facility, meter coverage and accounting definitions remain comparable across the decision window.",
+      "test": "Match facility IDs, grid versus on-site generation, reporting periods, water sources and meter definitions.",
+      "failure_consequence": "Split the series and withdraw before/after outcome comparisons.",
+      "state": "untested"
+    }
+  },
+  {
+    "id": "ASM-02",
+    "type": "assumption",
+    "title": "Public availability is distinct from institutional access",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [],
+    "claim_ids": [
+      "N-02",
+      "S-03"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "statement": "A published document may have reached decision-makers earlier or later than residents.",
+      "test": "Inspect packet distribution dates, receipt logs, hearing exhibits and contemporaneous testimony.",
+      "failure_consequence": "Record access as unknown; do not infer concealment or ignorance from an absent public record.",
+      "state": "untested"
+    }
+  },
+  {
+    "id": "ACT-GA-PSC",
+    "type": "actor",
+    "title": "Georgia Public Service Commission",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-GEORGIA"
+    ],
+    "claim_ids": [
+      "CASE-GA-01"
+    ],
+    "source_ids": [
+      "EXT-GA-PSC"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Georgia Public Service Commission",
+      "role": "Regulator",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-HI-COMMITTEES",
+    "type": "actor",
+    "title": "Senate Energy/Intergovernmental Affairs and Agriculture/Environment committees",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-HAWAII"
+    ],
+    "claim_ids": [
+      "CASE-HI-01"
+    ],
+    "source_ids": [
+      "EXT-HI-SCR95"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Senate Energy/Intergovernmental Affairs and Agriculture/Environment committees",
+      "role": "Legislative committees",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-TVA",
+    "type": "actor",
+    "title": "TVA Board of Directors",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "TVA Board of Directors",
+      "role": "Reported service approval authority",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-MLGW",
+    "type": "actor",
+    "title": "Memphis Light, Gas and Water",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Memphis Light, Gas and Water",
+      "role": "Utility and interested reporting source",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-LOUDOUN-BOS",
+    "type": "actor",
+    "title": "Loudoun Board of Supervisors",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-LOUDOUN"
+    ],
+    "claim_ids": [
+      "X-01"
+    ],
+    "source_ids": [
+      "EXT-LOUDOUN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Loudoun Board of Supervisors",
+      "role": "County land-use authority",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-DAL-COUNCIL",
+    "type": "actor",
+    "title": "The Dalles City Council",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "The Dalles City Council",
+      "role": "Municipal voting body",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-DAL-MANAGER",
+    "type": "actor",
+    "title": "The Dalles City Manager",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "The Dalles City Manager",
+      "role": "Agreement execution role",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-DAL-PARTIES",
+    "type": "actor",
+    "title": "Moraine Industries LLC and Design LLC",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Moraine Industries LLC and Design LLC",
+      "role": "Named agreement parties",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-DAL-PUBLIC",
+    "type": "actor",
+    "title": "Residents contributing public comments",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Residents contributing public comments",
+      "role": "Recorded participants; not a population sample",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-TUC-COUNCIL",
+    "type": "actor",
+    "title": "Tucson Mayor and Council",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-TUC-01"
+    ],
+    "source_ids": [
+      "EXT-TUC-DRAFT"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Tucson Mayor and Council",
+      "role": "Proposed city agreement review",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "ACT-PIMA",
+    "type": "actor",
+    "title": "Pima County government",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-PIMA-01"
+    ],
+    "source_ids": [
+      "EXT-PIMA-CLOSE"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "name": "Pima County government",
+      "role": "County land-sale pathway",
+      "stated_position": "See attributed source claim; interests beyond the record remain hypotheses.",
+      "incentive_hypothesis": "Examine duties, costs, benefits and accountability without inferring motive from institutional identity.",
+      "population_boundary": "Do not generalize this actor’s position to all residents or customers."
+    }
+  },
+  {
+    "id": "AUTH-GA",
+    "type": "authority",
+    "title": "Large-load rule authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-GEORGIA"
+    ],
+    "claim_ids": [
+      "CASE-GA-01"
+    ],
+    "source_ids": [
+      "EXT-GA-PSC"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-GA-PSC",
+      "action": "Large-load rule",
+      "jurisdiction": "Georgia; Georgia Power service territory, local anchor pending",
+      "instrument": "Regulator release; operative order missing",
+      "authority_status": "reported",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-GA",
+    "type": "decision",
+    "title": "Large-load rule",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-GEORGIA"
+    ],
+    "claim_ids": [
+      "CASE-GA-01"
+    ],
+    "source_ids": [
+      "EXT-GA-PSC"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": "2025-01-23",
+      "authority_id": "AUTH-GA",
+      "action": "Large-load rule",
+      "record_status": "reported",
+      "boundary": "Georgia; Georgia Power service territory, local anchor pending",
+      "evidence_ids": [],
+      "alternative_ids": [],
+      "outcome_ids": [],
+      "unresolved": [
+        "Regulator release; operative order missing"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-HI",
+    "type": "authority",
+    "title": "SCR95 SD1 recommendation authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-HAWAII"
+    ],
+    "claim_ids": [
+      "CASE-HI-01"
+    ],
+    "source_ids": [
+      "EXT-HI-SCR95"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-HI-COMMITTEES",
+      "action": "SCR95 SD1 recommendation",
+      "jurisdiction": "Hawaiʻi; island, community, and facility pending",
+      "instrument": "Committee recommendation only; local decision absent",
+      "authority_status": "reported",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-HI",
+    "type": "decision",
+    "title": "SCR95 SD1 recommendation",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-HAWAII"
+    ],
+    "claim_ids": [
+      "CASE-HI-01"
+    ],
+    "source_ids": [
+      "EXT-HI-SCR95"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": null,
+      "authority_id": "AUTH-HI",
+      "action": "SCR95 SD1 recommendation",
+      "record_status": "proposed",
+      "boundary": "Hawaiʻi; island, community, and facility pending",
+      "evidence_ids": [],
+      "alternative_ids": [],
+      "outcome_ids": [],
+      "unresolved": [
+        "Committee recommendation only; local decision absent"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-MEM",
+    "type": "authority",
+    "title": "Initial Paul Lowery grid-service request authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-TVA",
+      "action": "Initial Paul Lowery grid-service request",
+      "jurisdiction": "Memphis, Tennessee, Paul Lowery Road site",
+      "instrument": "Retrospective utility account; approval date and resolution pending",
+      "authority_status": "reported",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-MEM",
+    "type": "decision",
+    "title": "Initial Paul Lowery grid-service request",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": null,
+      "authority_id": "AUTH-MEM",
+      "action": "Initial Paul Lowery grid-service request",
+      "record_status": "reported",
+      "boundary": "Memphis, Tennessee, Paul Lowery Road site",
+      "evidence_ids": [
+        "EV-MEM-LATER"
+      ],
+      "alternative_ids": [],
+      "outcome_ids": [],
+      "unresolved": [
+        "Retrospective utility account; approval date and resolution pending"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-LOU",
+    "type": "authority",
+    "title": "County land-use amendments authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-LOUDOUN"
+    ],
+    "claim_ids": [
+      "X-01"
+    ],
+    "source_ids": [
+      "EXT-LOUDOUN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-LOUDOUN-BOS",
+      "action": "County land-use amendments",
+      "jurisdiction": "Loudoun County, Virginia",
+      "instrument": "Official retrospective account; adopted text pending",
+      "authority_status": "reported",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-LOU",
+    "type": "decision",
+    "title": "County land-use amendments",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-LOUDOUN"
+    ],
+    "claim_ids": [
+      "X-01"
+    ],
+    "source_ids": [
+      "EXT-LOUDOUN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": "2025-03-18",
+      "authority_id": "AUTH-LOU",
+      "action": "County land-use amendments",
+      "record_status": "reported",
+      "boundary": "Loudoun County, Virginia",
+      "evidence_ids": [],
+      "alternative_ids": [],
+      "outcome_ids": [],
+      "unresolved": [
+        "Official retrospective account; adopted text pending"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-DAL",
+    "type": "authority",
+    "title": "Infrastructure agreement execution authorization authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-DAL-COUNCIL",
+      "action": "Infrastructure agreement execution authorization",
+      "jurisdiction": "The Dalles, Oregon; municipal water system",
+      "instrument": "Resolution 21-028 vote in minutes; executed agreement pending",
+      "authority_status": "documented",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-DAL",
+    "type": "decision",
+    "title": "Infrastructure agreement execution authorization",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": "2021-11-08",
+      "authority_id": "AUTH-DAL",
+      "action": "Infrastructure agreement execution authorization",
+      "record_status": "recorded_vote",
+      "boundary": "The Dalles, Oregon; municipal water system",
+      "evidence_ids": [
+        "EV-DAL-PUBLIC",
+        "EV-DAL-ASSURANCE"
+      ],
+      "alternative_ids": [
+        "ALT-DAL-DEFER",
+        "ALT-DAL-PHASE"
+      ],
+      "outcome_ids": [
+        "OUT-DAL-01",
+        "OUT-DAL-OUTPUT"
+      ],
+      "unresolved": [
+        "Resolution 21-028 vote in minutes; executed agreement pending"
+      ]
+    }
+  },
+  {
+    "id": "AUTH-TUC",
+    "type": "authority",
+    "title": "City review of proposed Project Blue agreement authority",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-TUC-01"
+    ],
+    "source_ids": [
+      "EXT-TUC-DRAFT"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "actor_id": "ACT-TUC-COUNCIL",
+      "action": "City review of proposed Project Blue agreement",
+      "jurisdiction": "Tucson / unincorporated Pima County, Arizona; Project Blue primary site",
+      "instrument": "Draft summary; anchor vote date not yet verified",
+      "authority_status": "reported",
+      "limits": "Authority for this action does not establish authority over all regional water, power, land, or health consequences."
+    }
+  },
+  {
+    "id": "DEC-TUC",
+    "type": "decision",
+    "title": "City review of proposed Project Blue agreement",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-TUC-01"
+    ],
+    "source_ids": [
+      "EXT-TUC-DRAFT"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_date": null,
+      "authority_id": "AUTH-TUC",
+      "action": "City review of proposed Project Blue agreement",
+      "record_status": "proposed",
+      "boundary": "Tucson / unincorporated Pima County, Arizona; Project Blue primary site",
+      "evidence_ids": [],
+      "alternative_ids": [],
+      "outcome_ids": [],
+      "unresolved": [
+        "Draft summary; anchor vote date not yet verified"
+      ]
+    }
+  },
+  {
+    "id": "RQ-DAL",
+    "type": "research_question",
+    "title": "Supply assurance and public scrutiny",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01",
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "question": "Which water-supply assumptions supported the November 2021 authorization, who could inspect their basis, and what later measurements could test them?",
+      "question_kind": "explanatory",
+      "boundary": "Resolution 21-028 and The Dalles municipal water system; post-decision observation window pending.",
+      "answerability": "Retrieve executed agreement, three commissioned studies, water-rights records, and comparable meter and aquifer series.",
+      "update_condition": "Change scope if aggregate data cannot distinguish facility demand from municipal system performance."
+    }
+  },
+  {
+    "id": "EV-DAL-PUBLIC",
+    "type": "decision_evidence",
+    "title": "Public disclosure concern before the vote",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "event_date": "2021-11-01",
+      "published_date": null,
+      "available_to_actor_date": "2021-11-08",
+      "availability": "documented_at_decision",
+      "availability_basis": "The November 1 letter is attached to the council record; minutes page 4 says council received emails. This establishes recorded consideration, not each member’s reading.",
+      "actor_id": "ACT-DAL-COUNCIL",
+      "locator": "Minutes page 4 and attached letter page 7",
+      "record_role": "Public concern",
+      "content": "Disclosure was contested before authorization; underlying hydrology remains unverified."
+    }
+  },
+  {
+    "id": "EV-DAL-ASSURANCE",
+    "type": "decision_evidence",
+    "title": "Water-supply assurance in deliberation",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "event_date": "2021-11-08",
+      "published_date": null,
+      "available_to_actor_date": "2021-11-08",
+      "availability": "documented_at_decision",
+      "availability_basis": "Minutes record responses during the meeting before the motion.",
+      "actor_id": "ACT-DAL-COUNCIL",
+      "locator": "Minutes pages 4–5",
+      "record_role": "Official assurance",
+      "content": "Supply assertions informed deliberation; retrieve studies to test their basis."
+    }
+  },
+  {
+    "id": "EV-MEM-LATER",
+    "type": "decision_evidence",
+    "title": "Retrospective utility account",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-MEM",
+      "event_date": null,
+      "published_date": null,
+      "available_to_actor_date": null,
+      "availability": "unknown",
+      "availability_basis": "The document is labeled 2025; precise publication and approval dates are not established.",
+      "actor_id": "ACT-TVA",
+      "locator": "MLGW update pages 1–2, Electricity",
+      "record_role": "Retrospective summary",
+      "content": "Retrieve contemporaneous approval and studies before reconstructing decision-time knowledge."
+    }
+  },
+  {
+    "id": "TL-DAL-01",
+    "type": "timeline_event",
+    "title": "Public letter predates authorization.",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "event_date": "2021-11-01",
+      "decision_id": "DEC-DAL",
+      "event": "Public letter predates authorization.",
+      "evidence_ids": [
+        "EV-DAL-PUBLIC"
+      ],
+      "date_precision": "day"
+    }
+  },
+  {
+    "id": "TL-DAL-02",
+    "type": "timeline_event",
+    "title": "Council authorization vote.",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "event_date": "2021-11-08",
+      "decision_id": "DEC-DAL",
+      "event": "Council authorization vote.",
+      "evidence_ids": [
+        "EV-DAL-ASSURANCE"
+      ],
+      "date_precision": "day"
+    }
+  },
+  {
+    "id": "TL-TUC-01",
+    "type": "timeline_event",
+    "title": "City draft released",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-TUC-01"
+    ],
+    "source_ids": [
+      "EXT-TUC-DRAFT"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "event_date": "2025-07-14",
+      "decision_id": "DEC-TUC",
+      "event": "City manager summary issued; proposal phase.",
+      "evidence_ids": [],
+      "date_precision": "day"
+    }
+  },
+  {
+    "id": "TL-PIMA-01",
+    "type": "timeline_event",
+    "title": "Later county closing preparation",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-TUCSON"
+    ],
+    "claim_ids": [
+      "CASE-PIMA-01"
+    ],
+    "source_ids": [
+      "EXT-PIMA-CLOSE"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Context for DEC-TUC, not the same decision or contemporaneous evidence. Completed closing needs separate proof."
+    ],
+    "data": {
+      "event_date": "2025-12-24",
+      "decision_id": "DEC-TUC",
+      "event": "County memorandum reports expected closing; distinct authority and later stage.",
+      "evidence_ids": [],
+      "date_precision": "day"
+    }
+  },
+  {
+    "id": "MEAS-MEM-CAP",
+    "type": "measurement",
+    "title": "Reported initial service capacity",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [
+      "EXT-MLGW"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "metric": "grid_service_capacity",
+      "value": 150,
+      "unit": "MW",
+      "quantity_kind": "power",
+      "observation_status": "reported",
+      "geography": "Paul Lowery Road facility, Memphis",
+      "time_period": "As described in the undated 2025 update",
+      "system_boundary": "Initial grid service only; excludes Tulane Road and on-site generation",
+      "baseline": null,
+      "method": "Read utility statement; no interval meter data",
+      "uncertainty": "Service capacity does not establish utilization.",
+      "independence": "MLGW is involved in service provision.",
+      "locator": "MLGW update pages 1–2, Electricity",
+      "input_ids": [],
+      "assumption_ids": []
+    }
+  },
+  {
+    "id": "MEAS-MEM-SCALE",
+    "type": "measurement",
+    "title": "Capacity-to-energy scale calculation",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-MEMPHIS"
+    ],
+    "claim_ids": [
+      "X-02"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Illustrative upper scale at a stated constant grid load, not an estimate of actual annual facility energy."
+    ],
+    "data": {
+      "metric": "annual_grid_energy_scenario",
+      "value": 1314000,
+      "unit": "MWh",
+      "quantity_kind": "energy",
+      "observation_status": "illustrative",
+      "geography": "Paul Lowery Road facility, Memphis",
+      "time_period": "Hypothetical 365-day year",
+      "system_boundary": "Initial grid service only; excludes Tulane Road and on-site generation",
+      "baseline": "Constant 150 MW for 8,760 hours; assumed load factor 1",
+      "method": "150 MW × 8,760 h × 1 = 1,314,000 MWh",
+      "uncertainty": "Scenario only; actual operating hours and load factor unknown.",
+      "independence": "MLGW is involved in service provision.",
+      "locator": "MLGW update pages 1–2, Electricity",
+      "input_ids": [
+        "MEAS-MEM-CAP"
+      ],
+      "assumption_ids": [
+        "ASM-01"
+      ]
+    }
+  },
+  {
+    "id": "MEAS-DAL-GAP",
+    "type": "measurement",
+    "title": "Comparable water consumption series needed",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "metric": "facility_water_consumption",
+      "value": null,
+      "unit": "US gallon/year",
+      "quantity_kind": "water_volume",
+      "observation_status": "unknown",
+      "geography": "The Dalles municipal system and specified Google facility meters",
+      "time_period": "Comparable pre/post periods to be chosen",
+      "system_boundary": "Direct consumption, withdrawal, return flows and upstream water tracked separately",
+      "baseline": null,
+      "method": "Acquire meter definitions and records before calculating changes",
+      "uncertainty": "Not retrieved; unknown is not zero.",
+      "independence": "Reconcile utility meter records with operator reporting.",
+      "locator": null,
+      "input_ids": [],
+      "assumption_ids": [
+        "ASM-01"
+      ]
+    }
+  },
+  {
+    "id": "CON-DAL-01",
+    "type": "contradiction",
+    "title": "Water-rights figures need reconciliation",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-03"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "left_claim_id": "CASE-DAL-03",
+      "right_claim_id": "CASE-DAL-03",
+      "discrepancy": "3.8 versus 3.9 million US gallons per day within one record.",
+      "comparability": "Unresolved: rights, supply, and rounding may differ.",
+      "resolution_status": "open",
+      "resolution_test": "Check executed transfer instruments and studies; do not average the figures.",
+      "consequence": "Withhold a quantitative rights-transfer assertion."
+    }
+  },
+  {
+    "id": "ALT-DAL-DEFER",
+    "type": "alternative",
+    "title": "Defer until evidence can be examined",
+    "evidence_class": "our_synthesis",
+    "status": "reported",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-02"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "description": "Defer authorization pending accessible studies and planning review.",
+      "origin": "documented_proposal",
+      "feasibility": "Public request recorded; legal, fiscal and schedule feasibility requires study.",
+      "tradeoff": "May permit scrutiny while delaying investment; quantify both with records.",
+      "locator": "Attached public comment, minutes page 10"
+    }
+  },
+  {
+    "id": "ALT-DAL-PHASE",
+    "type": "alternative",
+    "title": "Phase service with measurable conditions",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "O-02",
+      "CD-04"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "description": "Stage capacity commitments around monitored supply thresholds and public reporting.",
+      "origin": "analyst_proposed",
+      "feasibility": "Unknown; test legal authority, contracts, engineering and costs.",
+      "tradeoff": "Could reduce exposure to forecast error while raising transaction costs.",
+      "locator": null
+    }
+  },
+  {
+    "id": "OUT-DAL-01",
+    "type": "outcome",
+    "title": "Post-agreement water outcome remains unknown",
+    "evidence_class": "our_synthesis",
+    "status": "proposed",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "L2-03"
+    ],
+    "source_ids": [],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "stage": "outcome",
+      "outcome_status": "unknown",
+      "description": "Whether comparable water availability or household service changed after implementation.",
+      "measurement_ids": [
+        "MEAS-DAL-GAP"
+      ],
+      "comparison": "Pre/post series with weather, other users, aquifer stocks and operating changes.",
+      "causal_status": "not_established",
+      "competing_explanations": [
+        "Weather",
+        "Other demand",
+        "Meter boundary changes",
+        "New infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "OUT-DAL-OUTPUT",
+    "type": "outcome",
+    "title": "Authorization is an output",
+    "evidence_class": "our_synthesis",
+    "status": "documented",
+    "candidate_ids": [
+      "CAND-DALLES"
+    ],
+    "claim_ids": [
+      "CASE-DAL-01"
+    ],
+    "source_ids": [
+      "EXT-DAL-MIN"
+    ],
+    "human_review": "pending",
+    "limitations": [
+      "Research interpretation or plan; no human approval implied."
+    ],
+    "data": {
+      "decision_id": "DEC-DAL",
+      "stage": "output",
+      "outcome_status": "reported",
+      "description": "Recorded authorization to execute the agreement.",
+      "measurement_ids": [],
+      "comparison": "No causal comparison claimed.",
+      "causal_status": "not_established",
+      "competing_explanations": []
+    }
+  }
+]

@@ -1,0 +1,267 @@
+{
+  "id": "DISCOVERY-01",
+  "as_of": "2026-09-17",
+  "status": "provisional",
+  "selection": null,
+  "rubric": {
+    "0": "Searched with documented result showing no usable support in that search scope; never zero environmental impact.",
+    "1": "A relevant lead or one partial source inspected.",
+    "2": "Usable evidence for this dimension, with consequential gaps.",
+    "3": "Triangulated, bounded evidence and opposing interpretations inspected.",
+    "unknown": "null means not established; no imputation and no aggregate ranking."
+  },
+  "criteria": [
+    "primary_records",
+    "decision_traceability",
+    "quantitative_evidence",
+    "affected_populations",
+    "competing_interpretations",
+    "course_fit"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "CAND-GEORGIA",
+      "assessments": {
+        "primary_records": {
+          "score": 1,
+          "reason": "Regulator announcement opened; order pending."
+        },
+        "decision_traceability": {
+          "score": 1,
+          "reason": "Date and regulator named; binding instrument pending."
+        },
+        "quantitative_evidence": {
+          "score": 1,
+          "reason": "Threshold available; cost incidence and realized load absent."
+        },
+        "affected_populations": {
+          "score": null,
+          "reason": "Ratepayer categories named; local exposure and lived accounts not inspected."
+        },
+        "competing_interpretations": {
+          "score": 1,
+          "reason": "Risk allocation versus growth benefits is a testable comparison; party filings needed."
+        },
+        "course_fit": {
+          "score": 1,
+          "reason": "Local anchor and personal reflection needed."
+        }
+      },
+      "source_ids": [
+        "EXT-GA-PSC"
+      ],
+      "claim_ids": [
+        "CASE-GA-01"
+      ],
+      "next_action": "Acquire order and one local decision",
+      "personal_fit": "User identifies Georgia as home state; relevance is user-stated, detailed personal experience remains unwritten.",
+      "selection_ready": false
+    },
+    {
+      "candidate_id": "CAND-HAWAII",
+      "assessments": {
+        "primary_records": {
+          "score": 1,
+          "reason": "Committee report opened."
+        },
+        "decision_traceability": {
+          "score": null,
+          "reason": "No facility or local service decision identified."
+        },
+        "quantitative_evidence": {
+          "score": null,
+          "reason": "No facility-specific measurements retrieved."
+        },
+        "affected_populations": {
+          "score": null,
+          "reason": "Island and affected community unresolved."
+        },
+        "competing_interpretations": {
+          "score": 1,
+          "reason": "Precautionary reporting versus development constraints is an inquiry, not an established dispute."
+        },
+        "course_fit": {
+          "score": 1,
+          "reason": "Personal connection supports interest; place/time/action still need bounding."
+        }
+      },
+      "source_ids": [
+        "EXT-HI-SCR95"
+      ],
+      "claim_ids": [
+        "CASE-HI-01"
+      ],
+      "next_action": "Bound one island and facility before ranking",
+      "personal_fit": "User identifies Hawaiʻi as place of origin; do not infer Native Hawaiian identity or community representation.",
+      "selection_ready": false
+    },
+    {
+      "candidate_id": "CAND-MEMPHIS",
+      "assessments": {
+        "primary_records": {
+          "score": 1,
+          "reason": "MLGW retrospective update inspected."
+        },
+        "decision_traceability": {
+          "score": 1,
+          "reason": "TVA approval reported; exact date and board record pending."
+        },
+        "quantitative_evidence": {
+          "score": 1,
+          "reason": "150 MW is service capacity; interval demand and outcomes absent."
+        },
+        "affected_populations": {
+          "score": null,
+          "reason": "Identify service users and nearby residents; no exposure attribution yet."
+        },
+        "competing_interpretations": {
+          "score": 1,
+          "reason": "Infrastructure reuse and curtailment benefits versus shifted burdens require separate evidence."
+        },
+        "course_fit": {
+          "score": 2,
+          "reason": "Facility is bounded; personal knowledge and exact time remain unresolved."
+        }
+      },
+      "source_ids": [
+        "EXT-MLGW"
+      ],
+      "claim_ids": [
+        "X-02"
+      ],
+      "next_action": "Retrieve TVA decision and enforceable curtailment terms",
+      "personal_fit": "Professional-interest fit remains possible; no invented personal trigger.",
+      "selection_ready": false
+    },
+    {
+      "candidate_id": "CAND-LOUDOUN",
+      "assessments": {
+        "primary_records": {
+          "score": 2,
+          "reason": "County account plus JLARC research summary opened."
+        },
+        "decision_traceability": {
+          "score": 1,
+          "reason": "March 18, 2025 rule described; adopted ordinance and vote packet pending."
+        },
+        "quantitative_evidence": {
+          "score": 1,
+          "reason": "State forecasts exist; local rule effects not measured."
+        },
+        "affected_populations": {
+          "score": 1,
+          "reason": "County identifies resident concerns; no representative population analysis."
+        },
+        "competing_interpretations": {
+          "score": 2,
+          "reason": "Economic benefits and system costs both represented in JLARC."
+        },
+        "course_fit": {
+          "score": 2,
+          "reason": "Bounded rule; choosing a resulting project is a separate unit choice."
+        }
+      },
+      "source_ids": [
+        "EXT-LOUDOUN",
+        "EXT-JLARC"
+      ],
+      "claim_ids": [
+        "X-01",
+        "CASE-VA-01"
+      ],
+      "next_action": "Retrieve adopted amendments and hearing packet",
+      "personal_fit": "Familiarity has not been established.",
+      "selection_ready": false
+    },
+    {
+      "candidate_id": "CAND-DALLES",
+      "assessments": {
+        "primary_records": {
+          "score": 2,
+          "reason": "Council minutes and attached public positions opened; execution packet missing."
+        },
+        "decision_traceability": {
+          "score": 2,
+          "reason": "Dated vote, resolution, and named parties recorded."
+        },
+        "quantitative_evidence": {
+          "score": 1,
+          "reason": "Rights/supply figures conflict; operating meter series absent."
+        },
+        "affected_populations": {
+          "score": 2,
+          "reason": "Public comments available; representativeness and exposure unknown."
+        },
+        "competing_interpretations": {
+          "score": 2,
+          "reason": "Supply assurances and disclosure concerns occur in the same record."
+        },
+        "course_fit": {
+          "score": 2,
+          "reason": "Single utility agreement fits a bounded semester inquiry."
+        }
+      },
+      "source_ids": [
+        "EXT-DAL-MIN"
+      ],
+      "claim_ids": [
+        "CASE-DAL-01",
+        "CASE-DAL-02",
+        "CASE-DAL-03"
+      ],
+      "next_action": "Retrieve executed agreement and hydrology studies",
+      "personal_fit": "Familiarity has not been established.",
+      "selection_ready": false
+    },
+    {
+      "candidate_id": "CAND-TUCSON",
+      "assessments": {
+        "primary_records": {
+          "score": 2,
+          "reason": "City draft, county index, and closing memo opened."
+        },
+        "decision_traceability": {
+          "score": 1,
+          "reason": "Several authorities and decisions; anchor motion not yet chosen."
+        },
+        "quantitative_evidence": {
+          "score": 1,
+          "reason": "Projected parameters available; no realized operating impacts."
+        },
+        "affected_populations": {
+          "score": 1,
+          "reason": "Participation and disclosure questions documented; population denominators absent."
+        },
+        "competing_interpretations": {
+          "score": 2,
+          "reason": "Disclosure restrictions and development rationale are explicit; direct opponent submissions needed."
+        },
+        "course_fit": {
+          "score": 2,
+          "reason": "Strong temporal question once one decision is bounded."
+        }
+      },
+      "source_ids": [
+        "EXT-TUC-DRAFT",
+        "EXT-PIMA-INDEX",
+        "EXT-PIMA-CLOSE"
+      ],
+      "claim_ids": [
+        "CASE-TUC-01",
+        "CASE-PIMA-01"
+      ],
+      "next_action": "Choose city or county anchor; retrieve operative vote",
+      "personal_fit": "Familiarity has not been established.",
+      "selection_ready": false
+    }
+  ],
+  "retrieval_priority": [
+    "CAND-DALLES",
+    "CAND-GEORGIA",
+    "CAND-TUCSON",
+    "CAND-LOUDOUN",
+    "CAND-MEMPHIS",
+    "CAND-HAWAII"
+  ],
+  "priority_rationale": "Retrieval sequence, not case ranking: start with a dated municipal vote and a personally relevant regulatory lead; advance Hawaiʻi when a local decision is identified. No score total selects geography."
+}

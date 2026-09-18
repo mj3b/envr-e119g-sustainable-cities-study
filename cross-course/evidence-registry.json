@@ -285,5 +285,89 @@
     "private_path": "private/raw/applied-ai-research-translator-main.zip",
     "sha256": "3cca440700f71292b208adf4180b30a61b079879f534cf51216868fa768a7d1a",
     "note": "RESEARCH-RATIONALE.md inspected for traceability and human-gate design; course implementation is original and does not copy the application."
+  },
+  {
+    "id": "EXT-GA-PSC",
+    "title": "PSC approves new power usage terms for data centers",
+    "evidence_class": "external_context",
+    "source_kind": "regulator_news_release",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://psc.ga.gov/site/assets/files/8617/media_advisory_data_centers_rule_1-23-2025.pdf",
+    "retrieved": "2026-09-17",
+    "note": "January 23, 2025 release; pages 1–2 inspected. Official account of a rule, not the adopted order or evidence of realized bill effects. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-HI-SCR95",
+    "title": "Hawaiʻi Senate committee report 3480 on SCR95 SD1",
+    "evidence_class": "external_context",
+    "source_kind": "legislative_committee_report",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/CommReports/SCR95_SD1_SSCR3480_.HTM",
+    "retrieved": "2026-09-17",
+    "note": "2026 committee recommendation inspected. Does not establish final adoption, a facility approval, or implementation. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-DAL-MIN",
+    "title": "The Dalles council minutes, November 8, 2021",
+    "evidence_class": "external_context",
+    "source_kind": "municipal_minutes",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://ompnetwork.s3-us-west-2.amazonaws.com/sites/312/documents/cc_2021-11-08_council_minutes.pdf?jYfO_44rHBJuOFVzCoOJEEfTLBPitWPC=",
+    "retrieved": "2026-09-17",
+    "note": "Pages 4–6 and attached public comments inspected. Official document hosted on a records vendor. Statements in minutes are attributed testimony, not verified hydrology. Personal contact information is not reproduced. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-TUC-DRAFT",
+    "title": "Project Blue draft agreement: city manager executive summary",
+    "evidence_class": "external_context",
+    "source_kind": "municipal_draft_summary",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/government/city-manager-office/documents/cmo-exec-summary-of-draft-project-blue-da-july-14-2025-final_1.pdf",
+    "retrieved": "2026-09-17",
+    "note": "July 14, 2025, pages 1–2 inspected. Proposed terms; summary is not an executed agreement. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-PIMA-INDEX",
+    "title": "Pima County Project Blue records index",
+    "evidence_class": "external_context",
+    "source_kind": "municipal_records_index",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://www.pima.gov/3552/Project-Blue-FAQ?contentId=fc23dbb2-01b1-4f16-abb9-0a29f803b4ea",
+    "retrieved": "2026-09-17",
+    "note": "Records links inspected through April 2026. Page mixes promotional projections and document discovery; only opened documents support detailed findings. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-PIMA-CLOSE",
+    "title": "Pima County update on closing the Project Blue land sale",
+    "evidence_class": "external_context",
+    "source_kind": "county_administrator_memorandum",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://content.civicplus.com/api/assets/7c75a978-756a-4ef6-9bb1-c08396da774d",
+    "retrieved": "2026-09-17",
+    "note": "December 24, 2025, pages 1–2 inspected. Expected closing that day is not itself a recorded deed or confirmation of completed closing. Retrieved online; original bytes not archived."
+  },
+  {
+    "id": "EXT-JLARC",
+    "title": "JLARC Data Centers in Virginia study summary",
+    "evidence_class": "external_context",
+    "source_kind": "legislative_research_summary",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://jlarc.virginia.gov/landing-2024-data-centers-in-virginia.asp",
+    "retrieved": "2026-09-17",
+    "note": "2024 study landing-page findings inspected. Statewide modeled scenarios are not observed effects of a Loudoun decision; report appendices still require inspection. Retrieved online; original bytes not archived."
   }
 ]

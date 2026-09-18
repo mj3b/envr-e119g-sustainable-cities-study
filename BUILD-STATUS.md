@@ -1,14 +1,28 @@
-# Build verification
+# Build status
 
-The initial repository implementation is complete. Research calibration remains provisional and Assignment 1 drafting remains paused.
+[Home](README.md) / Build status
 
-- 27 registered sources, 45 claims, 16 concepts, and 187 timestamped lecture segments.
-- Syllabus; all four assigned-reading uploads; Class 1 A/B/C/E and Class 2 transcripts; three class-chat screenshots; four supplementary research-skills screenshots; and research bridge snapshots archived locally.
-- Source, lecture, and synthesis fidelity gates are implemented and pending. Promotion rejects pending review and blocking omissions.
-- JSON Schema validation, cross-record checks, and local source-digest checks passed.
-- Eleven tests passed, including missing sources, missing locators, evidence-class laundering, dependency cycles, unauthorized drafts, unsafe archive paths, and gate/omission behavior.
-- Privacy checks exclude raw/private file paths from the index and Git history. The raw archive is ignored and requires separate private backup.
+**Research foundation expanded; case selection and human fidelity review remain open.**
 
-Limits: North’s scanned reprint has no successful searchable extraction; selected pages were visually checked. North and Ostrom edition mapping remains open. Class 1 segment D may be missing or may be a naming gap. Chat screenshots are partial. Full scholarly coverage and audio/speaker verification are unfinished. These limits are recorded in the omissions and divergence logs; no approved master brief or source-complete assignment packet is claimed.
+| Layer | Current state | Limit |
+| :--- | :--- | :--- |
+| Course corpus | Four reading packs, two class packs, 187 lecture segments | Full coverage, speaker verification and edition mapping pending |
+| Evidence | 34 sources; 56 claims; 16 concepts | Counts include administrative, missing and reference-only sources |
+| Research model | 44 linked objects across 12 types | Hypotheses and unknown outcomes remain provisional |
+| Case discovery | Six candidates assessed on six dimensions | Zero selection-ready cases; geography unlocked |
+| Presentation | Faculty guide, course bridge, candidate briefs, diagrams and reading paths | Prepared for eventual review; no sharing or endorsement recorded |
+| Assignment 1 | Requirements and preparation worksheets | No new draft; personal reflection remains user-owned |
 
-The four supplementary research-skills images are methods references with unknown original authorship. Their urban-case adaptations are labeled as our synthesis and do not add course requirements. Mark’s concrete personal reflection remains for him to supply.
+## Verification
+
+Structural, JSON Schema, and local source-digest validation pass. The 25-test suite passes, including stale reviews, hindsight leakage, broken authority links, inconsistent decision ownership, unknown-to-zero conversion, capacity/energy confusion, scenario-to-outcome promotion, and premature selection readiness. Privacy path/history checks pass. All 148 local Markdown links resolve. Rendered browser inspection was blocked by automatic approval review because of the private content destination; visual rendering is not verified. Human review receipts remain empty and all six class fidelity gates remain pending.
+
+The inherited positive-promotion test was updated to create synthetic content-bound receipts and resolve synthetic speaker ambiguity in its temporary fixture. No real approval was created. See [continuation audit](audit/WORK-CONTINUATION.md) and [source-discovery log](audit/SOURCE-DISCOVERY.md).
+
+## Remaining research limits
+
+North’s scanned reprint lacks a successful searchable extraction; previous visual checks cover selected pages. North and Ostrom edition equivalence remains open. Class 1 segment D may be absent or a naming gap. Chat screenshots are partial. Full lecture coverage and audio verification remain unfinished.
+
+External discovery supports bounded documentary claims; no comparable facility outcome dataset was acquired. Newly opened external sources have URLs and locators, but original bytes are not archived. Public/community coverage is incomplete, and systematic disconfirming searches remain to be completed. The [research agenda](study/RESEARCH-AGENDA.md) names the next acquisition for each candidate.
+
+The raw course archive remains ignored and needs a separate private backup. Structural consistency, visual organization and record counts do not certify source fidelity or causal validity.
