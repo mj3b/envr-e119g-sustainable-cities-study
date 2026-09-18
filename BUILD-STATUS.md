@@ -9,9 +9,9 @@
 | Layer | Available work | Limit that remains |
 | :--- | :--- | :--- |
 | Course knowledge | Four reading dossiers; two class analyses; argument maps, lecture comparisons, rivals and bounded translation tasks | North/Ostrom edition issues; whole-lecture coverage and speaker verification |
-| Evidence architecture | 35 source records, 60 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
+| Evidence architecture | 36 source records, 61 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
 | Decision research | 44 objects across 12 types; worked design; six comparable candidate dossiers | No selected geography or completed physical-outcome dataset |
-| Assignment 1 | Six-section memorandum with APA 7 citations, a brief AI acknowledgment, evidence packet and review record | Student approval, completed human source adjudication and submission remain pending |
+| Assignment 1 | Five-section memorandum with APA 7 citations, a brief AI acknowledgment, evidence packet and review record | Student approval, completed human source adjudication and submission remain pending |
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
@@ -33,7 +33,7 @@ The [automated receipt](governance/evaluation-results.json) records actual comma
 
 | Priority | Work | Decision enabled |
 | :--- | :--- | :--- |
-| 1 | Mark reviews the inspected Sen, Costanza/Daly, municipal-record and Shah passages against the draft | Human confirmation of the retained claims and qualifications |
+| 1 | Mark reviews the inspected Sen, Costanza/Daly, municipal-record, Shah and Office of Hawaiian Affairs passages against the draft | Human confirmation of the retained claims and qualifications |
 | 2 | Review the connection between personal context, governing question, distribution and ecological constraints | A coherent memo scope without prematurely locking a semester case |
 | 3 | Retain the documented omission of North unless the memo needs an additional institutional theory | The current draft avoids the unresolved edition citation |
 | 4 | Review the authorized draft for voice, argument, citations, length and AI acknowledgment | A student-approved memo ready for submission |
