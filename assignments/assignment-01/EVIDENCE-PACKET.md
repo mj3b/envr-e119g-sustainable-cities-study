@@ -10,7 +10,7 @@
 
 The September 18 due date is recorded in `SYL`, PDF p. 6. The exact live submission time has not been verified. Mark explicitly authorized drafting on September 18, 2026 (UTC); the memorandum remains pending student review.
 
-The [authorized draft](memorandum-draft.md) now uses Sen, Costanza and Daly, the municipal minutes and Shah (2026). North is omitted. The planning options below remain available for later research; the [draft review](DRAFT-REVIEW.md) records the actual used passages, 887-word body-plus-acknowledgment count and citation decisions.
+The [authorized draft](memorandum-draft.md) now uses Sen, Costanza and Daly, the municipal minutes, Shah (2026) and the Office of Hawaiian Affairs’ cultural account. North is omitted. The planning options below remain available for later research; the [draft review](DRAFT-REVIEW.md) records the actual used passages, 1,009-word body-plus-acknowledgment count and citation decisions.
 
 ## 1 · The question worth carrying into the memo
 

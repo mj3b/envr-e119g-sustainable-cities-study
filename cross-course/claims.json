@@ -1115,5 +1115,25 @@
     "limitations": [
       "Scholarly essay synthesizing reported cases and public records. This bounded claim records its framing and research agenda, not proof that a particular agreement caused harm or that this repository has an original finding."
     ]
+  },
+  {
+    "id": "CULT-OHA-01",
+    "text": "The Office of Hawaiian Affairs explains mālama ʻāina as responsibility to care for land and manage its resources within reciprocal relationships connecting Native Hawaiian people, ʻāina, and ancestors.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-OHA-AINA",
+    "locator": "ʻĀina – Land & Sea, explanatory paragraphs 2–4 following the opening proverb; paragraphs beginning To our kūpuna and Land is not a commodity",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Attributed institutional explanation of a Native Hawaiian perspective; not an exhaustive or universal definition of every Hawaiian person’s relationships or practices.",
+      "Does not establish Mark Banasihan’s ancestry or the terminology and setting of his childhood education.",
+      "Does not establish ecological outcomes or municipal legal duties in Georgia, Oregon, or another jurisdiction. Connecting this ethic to the research question is the author’s reflection."
+    ]
   }
 ]

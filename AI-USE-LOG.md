@@ -49,7 +49,21 @@ At Mark’s request, the standalone Research Transparency and AI Assistance sect
 
 The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex. Original readings and public records support the substantive claims.
 
-The current draft contains 855 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s supplied account; no earlier belief or learning transformation was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+The current draft contains 977 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+
+## Reflection and research-question revision
+
+Mark supplied expanded first-person context and initially limited the authoring prompt to personal reflection. Later annotations authorized changes to the opening, research questions and closing. His latest instruction targets approximately 1,000 words and permits up to 1,100. Codex retained the following revisions:
+
+| Part | Change | Boundary |
+| :--- | :--- | :--- |
+| Opening | States what evidence a city should require before committing shared water to a data center | The municipal record supplies a bounded illustration, not an AI-specific impact finding |
+| Personal reflection | Connects learning in Hawaiʻi with life in Georgia through a concrete question about water commitments | Uses supplied experience; no invented memory, ancestry or Georgia project claim |
+| Cultural account | Attributes mālama ʻāina to the Office of Hawaiian Affairs, with a source record, bounded claim and APA reference | Distinct from Mark’s childhood testimony; no universal curriculum or municipal policy template |
+| Further investigation | Tests decision-time assumptions, implementation constraints, and competing explanations for outcomes | Prospective design; neither preregistration nor a completed causal evaluation |
+| Closing | Merges reflection into the research agenda and ends with accountability after the original decision-makers have moved on | An unanswered question; no allegation of failed safeguards |
+
+The questions apply practices documented in the [influence register](standards/INFLUENCES.md): update conditions, actor constraints, explicit comparisons and measurement boundaries. The memo demonstrates those practices without presenting organizational reputations as case evidence. Its current body and acknowledgment total 1,009 words. Source-based analysis and the tensions section remain intact. Human review and case selection remain open.
 
 ## Planned tools are not completed research
 

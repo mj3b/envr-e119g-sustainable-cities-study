@@ -12,7 +12,8 @@
 | Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
 | Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
 | Draft Assignment 1 with APA 7 | Explicit user authorization of an APA 7 memorandum draft, September 18, 2026 (UTC) | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
-| Use the requested memo structure | User revision, September 18, 2026: To/From/Date/Subject and six analytical sections | Remove the standalone AI section; acknowledge actual assistance briefly and retain tool citations |
+| Use the requested memo structure | User revision, September 18, 2026: To/From/Date/Subject; later merged exploration and closing | Remove the standalone AI section; acknowledge actual assistance briefly and retain tool citations |
+| Apply the authoring prompt to personal reflection; follow subsequent annotation scope | User clarified and extended the revision on September 18, 2026 | Later comments authorize a stronger opening, deeper research questions and a merged exploration/closing, targeting about 1,000 words with up to 1,100 permitted; preserve the bounded municipal illustration |
 | Treat additional AI tools as planned | User clarified Perplexity, SciSpace and Claude have not been used for this memorandum | Do not cite planned tools as completed research |
 | Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
@@ -25,7 +26,9 @@ Repository authorization does not supply a human fidelity review. It also does n
 | Established context | Limit on its use |
 | :--- | :--- |
 | On September 17, the user stated that they currently reside in Georgia and were born and raised in Hawaiʻi | This informs personal context. It establishes no Indigenous identity or local environmental finding |
-| The user stated that they were taught from a young age to care for Hawaiian lands | Preserve this supplied teaching; do not invent a childhood event, feelings, or a conversion story |
+| The user specified early learning in classrooms and the wider social environment of Hawaiʻi about responsibility for sustaining lands and waters | Treat this as personal experience, not a universal curriculum. Invent no classroom event, teacher, conversation, family practice or sensory memory |
+| The user connected living in Georgia with greater analytical awareness of the lesson learned in Hawaiʻi | Develop comparative questions without ranking the places or treating Hawaiian cultural concepts as directly transferable |
+| The user asked for careful treatment of mālama ʻāina | Source the cultural explanation and preserve its Native Hawaiian grounding. Being raised in Hawaiʻi establishes no claim to Native Hawaiian ancestry or authority to speak for Kānaka Maoli |
 | The user described work in AI governance, AI assurance, and AI evaluation | Preserve the stated work domains; infer no title, credential, or specific project |
 | The user selected an integrated Assignment 1 focus on governance, affected people, and ecological limits | Develop one coherent inquiry; keep the documentary illustration separate from semester case selection |
 | The user selected an asynchronous course route in the Day 1 conversation | This is a stated preference, not an attendance record |

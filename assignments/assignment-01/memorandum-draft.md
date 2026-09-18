@@ -10,15 +10,17 @@
 
 ## Central Issue
 
-On November 8, 2021, the city council of The Dalles, Oregon, voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record public requests for studies alongside officials’ assurances of wider community benefits (City of The Dalles, 2021, pp. 4–6). That juxtaposition raises my central question: how can residents evaluate a resource commitment before authorization and determine whether its assumptions hold afterward?
+Before a city commits water to a data center, it should be able to explain what that commitment means for other users and local ecological conditions. My central question is: **What evidence should a city require before committing shared water to a data center?**
 
-I want to investigate this question in relation to AI infrastructure. The 2021 record concerns data centers and does not establish an AI workload share; its relevance is a governance precedent. My provisional claim is that credible sustainability commitments require accessible reasoning, attention to affected people, and authority to respond when conditions change. Establishing whether a particular agreement meets that standard requires evidence beyond its approval.
+The Dalles, Oregon, offers a bounded illustration. On November 8, 2021, its council voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record requests for studies alongside officials’ assurances of community benefits (City of The Dalles, 2021, pp. 4–6). The minutes do not report how much computing would serve AI. I use this decision as a governance precedent for studying the resource decisions that support AI infrastructure.
 
 ## Why It Matters to Me
 
-I was born and raised in Hawaiʻi, where we were taught from a young age to take care of the land. I now live in Georgia and work in AI governance, assurance, and evaluation. These connections make me attentive to how institutions justify decisions whose consequences may outlast the people who authorize them.
+Growing up in Hawaiʻi, I learned to understand care for the lands and waters that sustain us as a responsibility. In the classrooms and communities that shaped me, this lesson was part of my education before I encountered sustainability as an abstract research problem.
 
-My professional perspective draws me toward evidence quality, monitoring, and accountability. It may also lead me to give formal procedures more attention than residents’ experiences. I therefore want to examine whether documented safeguards address the conditions people encounter. My upbringing provides a reason to care; it supplies no finding about another community’s water security. Georgia and Hawaiʻi are starting points for inquiry, with the semester case still open.
+The Office of Hawaiian Affairs (n.d.) describes *mālama ʻāina* as responsibility for caring for land and managing what it provides, grounded in reciprocal care and Native Hawaiian relationships with ʻāina across generations.
+
+I have carried that early lesson with me to Georgia, where it shapes how I think about the institutions making decisions about land and water. A city’s commitment of water to a data center, for example, makes care for those resources a question of public responsibility: how will the decision affect other users, and who must respond if its assumptions prove wrong? My work in AI governance, assurance, and evaluation has made me attentive to how institutions justify decisions and test whether their commitments hold. That professional lens helps me frame the inquiry; understanding the answer requires evidence about the particular community and ecological conditions.
 
 ## What I Currently Know
 
@@ -40,19 +42,17 @@ The central tension concerns how institutions pursue anticipated development ben
 
 I would revise a critical assessment if credible evidence showed broader service benefits and protection of ecological conditions. Observed changes would also need to be examined against rival explanations, including weather, computing workload, and infrastructure changes.
 
-## What I Want to Explore
+## Questions for Further Investigation
 
-1. **What evidence was available before authorization, and to whom?** Dated studies, meeting packets, correspondence, and disclosure records would distinguish uncertainty at the time from knowledge acquired later.
+1. **What justified approval, and what evidence could have changed the decision?** I would reconstruct demand projections, ecological assumptions, feasible alternatives, and the information available to officials and residents. Uncertainty may have been overlooked, managed through safeguards, or accepted for expected benefits. Dated studies and deliberations could distinguish those explanations. Evidence that officials examined adverse scenarios and imposed corresponding conditions would weaken an interpretation of unexamined risk; missing records alone would not prove that no examination occurred.
 
-2. **How do benefits and risks differ across affected groups?** Service and affordability data, population information, and community testimony could identify consequences that a municipal average obscures. Testimony would need careful attribution and comparison across perspectives.
+2. **Who could act when an assumption failed?** I would identify who must measure conditions, who receives the results, and who can change operations. Staffing, funding, and incentives could affect whether that authority is exercised. A documented response to a specified trigger would show that a safeguard operated; its presence in an agreement would establish only an intended protection.
 
-3. **Who can detect a failed assumption and require correction?** Executed agreements, operating conditions, monitoring records, and enforcement actions would show whether a stated safeguard has practical force and whether authorities acted on new evidence.
+3. **Did safeguards improve outcomes, and for whom?** I would test the strongest favorable interpretation: that an agreement expanded reliable service while protecting other users and ecological conditions. Water withdrawals, consumption, and household costs require distinct measures, matched facility or service-area boundaries, and comparable periods. Where feasible, I would seek a comparison exposed to similar conditions without the same safeguard. Weather, workload, and other infrastructure changes could explain improvement; benefits preceding the safeguard would weaken attribution to it. Residents’ accounts would help identify effects the official measures missed.
 
-I would compare candidate locations by the traceability of decisions, availability of measurements, affected populations, and competing interpretations. The Dalles offers an opening example; Georgia, Hawaiʻi, Memphis, Northern Virginia, and Tucson/Pima County remain in the discovery process. A justified comparison would need compatible boundaries and observation periods.
+These questions will guide comparison across Georgia, Hawaiʻi, Memphis, Northern Virginia, The Dalles, and Tucson/Pima County; the semester case remains open.
 
-## Closing Reflection
-
-The responsibility to care for land that I learned in Hawaiʻi gives this inquiry its personal force. I want to understand what that responsibility requires when a city commits shared resources under uncertainty. My next step is to reconstruct one decision closely enough to connect its assumptions, affected people, and corrective powers. That would make a sustainability claim open to examination as conditions change.
+The responsibility I learned in Hawaiʻi now makes me ask how care for land and water can endure beyond a project’s approval. When the people who approved a project have moved on, who remains answerable to those who still depend on the water?
 
 *AI assistance: ChatGPT (OpenAI, n.d.-a) supported topic exploration. Codex (OpenAI, n.d.-b) generated the initial draft and assisted with source checks, revision, and formatting. I remain responsible for the submitted argument and citations.*
 
@@ -61,6 +61,8 @@ The responsibility to care for land that I learned in Hawaiʻi gives this inquir
 City of The Dalles. (2021, November 8). *Minutes: Regular City Council meeting*. https://ompnetwork.s3-us-west-2.amazonaws.com/sites/312/documents/cc_2021-11-08_council_minutes.pdf?jYfO_44rHBJuOFVzCoOJEEfTLBPitWPC=
 
 Costanza, R., & Daly, H. E. (1992). Natural capital and sustainable development. *Conservation Biology, 6*(1), 37–46. https://doi.org/10.1046/j.1523-1739.1992.610037.x
+
+Office of Hawaiian Affairs. (n.d.). *ʻĀina – Land & sea*. https://www.oha.org/aina/
 
 OpenAI. (n.d.-a). *ChatGPT* [Large language model]. https://chatgpt.com/
 

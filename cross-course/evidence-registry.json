@@ -381,5 +381,17 @@
     "url": "https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000500",
     "retrieved": "2026-09-18",
     "note": "Sameer H. Shah (2026), PLOS Water, 5(1), e0000500; published January 13, 2026. DOI: 10.1371/journal.pwat.0000500. Abstract and relevant sections inspected online. Essay synthesizes reporting, legal filings, and planning records; its research agenda is not an independent causal estimate of local effects. Original bytes not archived."
+  },
+  {
+    "id": "EXT-OHA-AINA",
+    "title": "ʻĀina – Land & Sea",
+    "evidence_class": "external_context",
+    "source_kind": "primary_institutional_webpage",
+    "status": "reference_only",
+    "private_path": null,
+    "sha256": null,
+    "url": "https://www.oha.org/aina/",
+    "retrieved": "2026-09-18",
+    "note": "Office of Hawaiian Affairs (n.d.). Undated institutional account of Native Hawaiian relationships with ʻāina; the footer copyright year is not a publication date. Opening explanatory paragraphs inspected online, especially those following the opening proverb. Original bytes not archived. This cultural account does not establish the author’s ancestry, childhood curriculum, or legal duties in another jurisdiction."
   }
 ]
