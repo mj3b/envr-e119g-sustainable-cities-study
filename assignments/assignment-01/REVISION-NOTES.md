@@ -2,23 +2,39 @@
 
 [Home](../../README.md) / [Assignment 1](README.md) / Revision notes · [Current memo](memorandum-draft.md) · [Human review](HUMAN-REVIEW-APPENDIX.md)
 
-**Decision:** use the supplied critique to make the inquiry more explicit while retaining its evidentiary limits. The current memo introduces a provisional commitment assurance chain, includes a verified North passage, and credits Perplexity’s editorial and framework contribution. It makes no finding of novelty, local governance failure or causal effectiveness.
+**Decision:** use the supplied critique to make the inquiry more explicit while retaining its evidentiary limits. The current memo defines a provisional commitment-accountability gap and commitment-assurance chain, retains the verified North passage, and credits Perplexity’s editorial and framework contribution. It makes no finding of novelty, local governance failure or causal effectiveness.
 
 | Version | Record |
 | :--- | :--- |
-| Input | Author-supplied Perplexity analysis received September 18, 2026; archived privately |
-| Previous version | PR #8, `407137e`; its twelve-part pressure test is retained as a historical review |
-| Current title | When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure |
-| Length | 956 body words + 44-word AI acknowledgment = 1,000; all pre-References text including metadata/title/headings/list numerals is 1,059 |
+| Input | Two author-supplied Perplexity analyses received September 18, 2026; archived privately |
+| Previous version | PR #9, `e0396c3`; the earlier PR #8 pressure test remains historical |
+| Current title | When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era |
+| Length | 916 body words + 44-word AI acknowledgment = 960; all pre-References text including metadata/title/headings/list numerals is 1,023 |
 | Source set | Six substantive sources and three AI-tool references; Perplexity is editorial input, not empirical case evidence |
 | Status | Revised for Mark’s review; human approvals and submission remain pending |
 
-## What changed and why
+## Final substitutions · second review
+
+The author requested the recommended final substitutions as written. The framework paragraph, three questions, policy relevance and closing were transferred verbatim from that section of the second analysis. The title and OHA sentence were also adopted; italic treatment of *mālama ʻāina* was preserved. A text comparison verified these substitutions. The supplied em dash and hyphenated construct names are retained under that explicit wording instruction.
+
+| Revision | Purpose and limit |
+| :--- | :--- |
+| Data centers in the AI era | Removes the title’s implication that the municipal evidence identifies AI workloads |
+| Defined gap and chain | Standardizes the two provisional constructs; neither becomes a finding about The Dalles |
+| Approval, mechanisms and outcomes | Names evidence and assumptions; asks whether any monitoring-to-action connection existed; preserves the bar on unsupported causal attribution |
+| Municipal and state relevance | Describes possible uses of the inquiry without asserting any jurisdiction’s legal authority |
+| Revised closing | Allows adequate governance, breaks in the chain or revision of the framework as possible findings |
+| Three sentence cuts | Removes the repeated AI-infrastructure transition, final Costanza–Daly interpretation and repeated equal-scrutiny sentence; the source’s uncertainty qualification and the companion’s rival tests remain |
+| OHA paraphrase | Official defining passage reopened; reciprocal and intergenerational relationships support the more direct wording |
+
+The body falls from 956 to 916 words. Together with the unchanged 44-word acknowledgment it totals 960; all pre-References text totals 1,023. Six substantive sources and three AI references are unchanged. Detailed measurement boundaries, rival explanations and continuity questions remain in the companion. The analysis’s “submission-ready” verdict is not recorded as human approval.
+
+## First review · adoption history
 
 | Suggestion | Disposition | Application or limit |
 | :--- | :--- | :--- |
 | Name the temporal accountability problem | Adopt with qualification | Investigate a possible gap between approval and the capacity to reassess; no gap is declared to exist in The Dalles |
-| Introduce a commitment assurance chain | Adopt provisionally | Justification, disclosure, monitoring, triggers, authority and remedy organize six connected questions; the sequence is not a validated causal model |
+| Introduce a commitment-assurance chain | Adopt provisionally | Justification, disclosure, monitoring, triggers, authority and remedy organize six connected questions; the sequence is not a validated causal model |
 | Sharpen the primary question and title | Adopt | Ask what keeps a commitment publicly defensible as conditions and community needs change |
 | Strengthen reflection | Adapt | Connect care for lands/waters with future communities while preserving the authenticated Hawaiʻi–Georgia continuity; invent no forced realization or cultural authority |
 | Replace numbered knowledge claims with descriptive headings | Adopt selectively | Name the limits of approval records, the choice of criteria and supporting ecological conditions |
@@ -27,7 +43,7 @@
 | Add North | Verify and include | Original AER p. 360 was visually compared with supplied reprint p. 10; rules, norms and enforcement now ground the institutional application |
 | Integrate observed/interpreted/normative distinctions into prose | Adopt | Recorded authorization, unresolved disclosure effects and the author’s stated evaluative position remain distinguishable |
 | Compress the methods and geography inventory | Adopt | Retain a bounded investigation and causal limits; the six-location universe remains in the repository |
-| Add a multilevel policy paragraph and the 2022 disclosure settlement | Defer | A concise statement of potential usefulness is sufficient; the new legal/history claims are outside the inspected evidence and unnecessary for this assignment |
+| Add a multilevel policy paragraph and the 2022 disclosure settlement | Defer | At that stage, a concise statement of potential usefulness was retained. The second review now names municipal and state officials conditionally; the proposed legal/history claims remain outside the inspected evidence and are not added |
 | Claim doctoral-level novelty or a demonstrated contribution | Exclude | Evaluative praise supplies no evidence of originality or effectiveness; future literature comparison and empirical work remain necessary |
 | Preserve the final accountability question | Adopt | Keep it after the bounded next step and the possibility that evidence will challenge the proposed framework |
 

@@ -6,7 +6,7 @@
 | :--- | :--- | :--- |
 | Water commitments, public accountability and ecological conditions | Approximately 800–1,000 words | Revised APA 7 draft; human review pending |
 
-## When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure
+## When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era
 
 | Artifact | Purpose |
 | :--- | :--- |
@@ -17,9 +17,9 @@
 | [Earlier pressure test](PRE-SUBMISSION-REVIEW.md) | Inspect the historical PR #8 review; it does not certify this later revision |
 | [Supporting evidence packet](EVIDENCE-PACKET.md) | Trace preparation claims, locators and competing interpretations |
 
-The revised argument contains **956 words**, plus a **44-word acknowledgment: 1,000 combined**. Counting the title, headings and memo fields gives **1,059 words before References**. Mark permits expansion beyond 1,000; the course’s approximate 800–1,000-word guidance remains unchanged. Confirm the live counting rule before submission. The separate review appendix is not part of the memo.
+The revised argument contains **916 words**, plus a **44-word acknowledgment: 960 combined**. Counting the title, headings and memo fields gives **1,023 words before References**. Mark permits expansion beyond 1,000; the course’s approximate 800–1,000-word guidance remains unchanged. Confirm the live counting rule before submission. The separate review appendix is not part of the memo.
 
-The draft proposes a six-link *commitment assurance chain*: justification, disclosure, monitoring, triggers, authority and remedy. It is a framework to test, not an established result or novelty claim. Nine references identify six substantive sources and the three AI tools actually used.
+The draft proposes a six-link *commitment-assurance chain*: justification, disclosure, monitoring, triggers, authority and remedy. It is a framework to test, not an established result or novelty claim. Nine references identify six substantive sources and the three AI tools actually used.
 
 Drafting and revision are authorized. Authentic personal inputs have been supplied; Mark’s approval of the final voice, source interpretations and artifact remains pending. No submission or final semester case selection is recorded.
 

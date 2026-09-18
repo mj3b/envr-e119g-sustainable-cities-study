@@ -11,9 +11,9 @@ Before submission, Mark needs to be able to explain and defend the memorandum’
 | Source checks | Fresh AI-assisted passage and reference checks completed September 18, 2026, for the earlier pressure test and current revision, including North’s original journal passage; scope and limits appear below |
 | Human source review | Pending for every used source |
 | Final artifact and submission | Approval and submission have not been recorded |
-| Version covered | Revised `memorandum-draft.md`, September 18, 2026; SHA-256 `185efe452f1715a6ab6ac3bd14786ff53f0d5246868e8c426889e3c00e48cf7b`. Human review date remains pending |
+| Version covered | Revised `memorandum-draft.md`, September 18, 2026; SHA-256 `128d6d4e2cdca58082ff8cb56208dd47651678abf5fd0901dc402bfb23c5eb06`. Human review date remains pending |
 
-The reading targets incorporate the fresh evidence audit’s corrections. AI checking covered selected passages and metadata; it did not establish local environmental outcomes or complete Mark’s source review. The current revision adds a checked North passage and incorporates Perplexity’s editorial suggestions with their limits recorded. A bounded AI review found the revised claims supported. Mark still needs to compare the wording and locators with the actual artifact he approves.
+The reading targets incorporate the fresh evidence audit’s corrections. AI checking covered selected passages and metadata; it did not establish local environmental outcomes or complete Mark’s source review. The final substitution pass retains the checked North passage and applies the second Perplexity review’s wording with its limits recorded. A bounded AI review found the revised claims supported. Mark still needs to compare the wording and locators with the actual artifact he approves.
 
 ## Review queue for the deadline
 
@@ -101,7 +101,7 @@ The large daily water figures discussed in the minutes are excluded from this me
 | Source | Office of Hawaiian Affairs (n.d.), [“ʻĀina – Land & Sea”](https://www.oha.org/aina/); `EXT-OHA-AINA` |
 | Exact locator | Explanatory paragraphs 2–4 after the opening proverb; the webpage has no printed page numbers |
 | Fresh AI check | Official webpage reopened and defining passage inspected. No publication date is supplied; the copyright year does not establish one. |
-| Claim used | The attributed account of mālama ʻāina connects care for land and what it provides with reciprocal responsibilities and Native Hawaiian relationships across generations. |
+| Claim used | The attributed account describes responsibility to care for land and properly manage what it provides, grounded in reciprocal and intergenerational relationships with ʻāina. |
 | Application in this memo | This account helps situate the concept used in Mark’s reflection. Mark supplied the childhood learning and present personal connection. |
 | Limit to retain | The webpage does not authenticate Mark’s memories or identity. Being born and raised in Hawaiʻi does not establish Native Hawaiian ancestry or authority to speak for Kānaka Maoli. |
 | Human status | Pending |
@@ -122,9 +122,9 @@ Review question: Does this wording express what I learned while respecting the c
 
 Review question: Can I explain the specific conversation my inquiry enters without claiming that the question is unprecedented?
 
-## Examine the provisional commitment assurance chain
+## Examine the provisional commitment-assurance chain
 
-Perplexity’s author-supplied critique suggested this organizing sequence. The memo adapts it as six connected questions. It is not a validated causal model or a finding that a local accountability gap exists.
+Perplexity’s author-supplied critique suggested this organizing sequence. The memo uses it as six connected questions addressing a provisional commitment-accountability gap: the distance between authorization and the capacity to reassess. It is not a validated causal model or a finding that a local accountability gap exists.
 
 | Link | Governing question | Evidence to seek |
 | :--- | :--- | :--- |
@@ -186,7 +186,7 @@ These are proposed tests. No completed local causal evaluation, preregistration 
 | Perplexity | Author-supplied editorial feedback and framework suggestions informed this revision; no independent source-fidelity approval or novelty finding is claimed |
 | SciSpace and Claude | Still planned; no use for this memorandum has been established |
 | AI acknowledgment | Explain actual contributions and retained author responsibility; check the exact final wording |
-| References | Identify the tools actually used. ChatGPT and Codex product attribution was checked during the prior revision; Perplexity’s official site and corporate identity were checked for this revision. Historical model/version identifiers remain unrecorded; actual-use claims come from the task history. Substantive assertions rely on cited readings and records. |
+| References | Identify the tools actually used. ChatGPT and Codex product attribution was checked during the prior revision; Perplexity’s official site and corporate identity were checked during the preceding revision. Historical model/version identifiers remain unrecorded; actual-use claims come from the task history. Substantive assertions rely on cited readings and records. |
 | Private prompts and repository | No raw prompts or repository access are needed to use this companion. Keep private research materials private |
 
 Mark’s explicit authorization to draft, his approval of personal wording, his approval of source interpretations, and his approval to submit the final artifact are separate records. None should be inferred from another.
@@ -205,7 +205,7 @@ No completed human review is recorded. Add a row only after the action occurs, a
 | Approved memorandum filename and revision | Pending |
 | Approval date and approving person | Pending |
 | Unresolved limitations retained in the memo | Pending |
-| Final count and counting method | 956 body words + 44 acknowledgment = 1,000; whitespace-delimited, excluding metadata, title, headings, list numerals and references. All pre-References text: 1,059 words. Separate appendix excluded. |
+| Final count and counting method | 916 body words + 44 acknowledgment = 960; whitespace-delimited, excluding metadata, title, headings, list numerals and references. All pre-References text: 1,023 words. Separate appendix excluded. |
 | Submission status and receipt | Not recorded |
 
 This companion records a limited review of the memorandum. Completing it does not certify the wider course knowledge base or close unrelated research gaps.

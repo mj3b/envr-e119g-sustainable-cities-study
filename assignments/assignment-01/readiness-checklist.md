@@ -4,7 +4,7 @@
 
 **Current state:** drafting explicitly authorized on September 18, 2026 (UTC); student review pending. This is an internal quality instrument; it does not add requirements to the instructor’s rubric.
 
-Read **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure** in the [memorandum draft](memorandum-draft.md), then use the [human review appendix](HUMAN-REVIEW-APPENDIX.md) and current [revision notes](REVISION-NOTES.md). The [earlier pressure test](PRE-SUBMISSION-REVIEW.md) records PR #8 and is historical. The appendix remains separate from the course submission by default. Fresh AI-assisted checking does not complete human source review.
+Read **When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era** in the [memorandum draft](memorandum-draft.md), then use the [human review appendix](HUMAN-REVIEW-APPENDIX.md) and current [revision notes](REVISION-NOTES.md). The [earlier pressure test](PRE-SUBMISSION-REVIEW.md) records PR #8 and is historical. The appendix remains separate from the course submission by default. Fresh AI-assisted checking does not complete human source review.
 
 ## Authorization and authorship
 
@@ -22,14 +22,14 @@ Read **When Public Commitments Outlive Their Assumptions: Governing Water for AI
 - [ ] Resource metrics preserve units, boundaries, observation periods, and uncertainty.
 - [ ] Urban relevance identifies institutions, affected populations, ecological conditions, and potential consequences.
 - [ ] The argument treats the favorable case account fairly, tests whether compliant governance could still permit harm, and identifies evidence that could change the interpretation.
-- [ ] Mark can explain each link in the provisional commitment assurance chain and identify evidence that could require a different framework.
+- [ ] Mark can explain each link in the provisional commitment-assurance chain and identify evidence that could require a different framework.
 - [ ] The requirement–evidence matrix shows which parts remain unsupported.
 
 Preparation review can focus on the claims proposed for a narrow assignment. This worksheet does not bypass machine promotion rules or create an approved deliverable. A class master brief still requires G1–G3 for its declared scope, including class-level lecture completeness. See the [deliverable standard](../../standards/DELIVERABLES.md).
 
 ## Review before submission
 
-The revised body contains **956 words**, plus **44 acknowledgment words**, for **1,000 combined**. All content before References, including title, headings and memo fields, totals **1,059 words**. Mark permits expansion beyond 1,000; this does not waive the course’s approximate 800–1,000-word guidance.
+The revised body contains **916 words**, plus **44 acknowledgment words**, for **960 combined**. All content before References, including title, headings and memo fields, totals **1,023 words**. Mark permits expansion beyond 1,000; this does not waive the course’s approximate 800–1,000-word guidance.
 
 North’s used passage is now supported by a fresh AI-assisted visual check of original AER p. 360 against reprint p. 10. Whole-article coverage and full reprint equivalence remain unresolved; human review of this passage is pending.
 

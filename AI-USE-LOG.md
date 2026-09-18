@@ -80,9 +80,9 @@ This historical PR #8 revision was titled **Water Commitments and Accountability
 
 That revision’s argument was **997 words**, with a **32-word acknowledgment**, or **1,029 combined**. Mark permits expansion beyond 1,000 words; the course’s approximate 800–1,000-word guidance remains unchanged. The count excludes the memo fields, headings, References and separate review appendix. Authentic personal inputs are supplied; final voice and interpretation remain for Mark to approve. That revision’s memo had six rendered pages; its separate companion had eight. All fourteen pages were visually inspected, and source-text fidelity was checked for both. The review record distinguishes requested fonts from renderer substitutions. These production checks do not complete Mark’s source or voice review.
 
-## Author-supplied Perplexity revision · September 18, 2026
+## First author-supplied Perplexity revision · September 18, 2026 (PR #9 history)
 
-The author subsequently supplied Perplexity analysis as editorial input. The current title is **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**. [Revision notes](assignments/assignment-01/REVISION-NOTES.md) record adoption decisions and boundaries. The earlier [PR #8 review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) remains a historical report.
+The author subsequently supplied Perplexity analysis as editorial input. That revision’s title was **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**. [Revision notes](assignments/assignment-01/REVISION-NOTES.md) record adoption decisions and boundaries. The earlier [PR #8 review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) remains a historical report.
 
 | Retained change | Evidence or boundary |
 | :--- | :--- |
@@ -93,7 +93,7 @@ The author subsequently supplied Perplexity analysis as editorial input. The cur
 | Expanded disclosure | Perplexity is now credited for author-supplied editorial feedback and framework suggestions, alongside ChatGPT and Codex. Its suggestions are not independent source evidence. |
 | Suggestions not adopted | No new novelty claim, 2022 settlement claim or unsupported allocation of legal authority across government levels was added. |
 
-The current body is **956 words**, plus a **44-word acknowledgment**, for **1,000 combined**. Counting all material before References gives **1,059 words**. Nine references comprise six substantive sources and three AI-tool entries. Mark permits expansion beyond 1,000; course guidance remains approximately 800–1,000. The current memo has six rendered pages and the companion nine; all fifteen were inspected, with source-text and structural checks passed. The [draft review record](assignments/assignment-01/DRAFT-REVIEW.md) records font substitutions and layout details. All human source, voice and final-artifact approvals remain pending.
+That revision’s body was **956 words**, plus a **44-word acknowledgment**, for **1,000 combined**. Counting all material before References gives **1,059 words**. Nine references comprise six substantive sources and three AI-tool entries. Mark permits expansion beyond 1,000; course guidance remains approximately 800–1,000. That revision’s memo had six rendered pages and the companion nine; all fifteen were inspected, with source-text and structural checks passed. The [draft review record](assignments/assignment-01/DRAFT-REVIEW.md) records font substitutions and layout details. All human source, voice and final-artifact approvals remain pending.
 
 ## Tool-use history and remaining planned tools
 
@@ -104,3 +104,11 @@ Before this revision, Mark had confirmed that Perplexity, SciSpace and Claude we
 Mark must verify retained interpretations and write or confirm his personal reflection. Cite and acknowledge the actual assistance used under `SYL` PDF p. 7 and `TA-03`, following current course instructions. Do not copy this log as a claim that every generated sentence has been checked.
 
 No faculty message, assignment submission, access grant or instructor endorsement is recorded here. Repository releases document a work stage; they do not certify the scholarship.
+
+## Final substitutions from the second Perplexity review · September 18, 2026
+
+Mark explicitly requested the remaining revisions and final substitutions as written. Codex applied the supplied title, OHA sentence, framework paragraph, three research questions, conditional policy relevance and separate closing. The two provisional constructs are now named consistently: commitment-accountability gap and commitment-assurance chain. The final-substitutions closing takes precedence over the analysis’s earlier alternative sentence. The supplied wording and punctuation were retained under Mark’s explicit instruction.
+
+Three redundant sentences were removed as recommended. The body now contains **916 words**, plus **44 acknowledgment words**, for **960 combined**; all pre-References text totals **1,023**. The nine references and acknowledgment of actual tool roles remain unchanged. OHA’s official defining passage was freshly reopened to check the direct paraphrase. Other source-check scopes remain those already recorded; no new municipal finding or legal-authority claim was introduced. Original feedback stays in ignored private storage.
+
+Exact replacement-text comparisons passed. The updated memo has five rendered pages and the separate companion nine; all fourteen pages were visually inspected, and source-text fidelity checks passed. Current artifact checks are recorded in the [draft review](assignments/assignment-01/DRAFT-REVIEW.md). Human source, personal-voice and final-artifact approvals remain pending. The external analysis’s submission-readiness rating does not complete these reviews or constitute submission.

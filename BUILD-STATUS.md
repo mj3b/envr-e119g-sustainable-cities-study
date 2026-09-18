@@ -11,7 +11,7 @@
 | Course knowledge | Four reading dossiers; two class analyses; argument maps, lecture comparisons, rivals and bounded translation tasks | North’s full reprint equivalence and Ostrom’s edition issue; whole-lecture coverage and speaker verification |
 | Evidence architecture | 37 source records, 61 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
 | Decision research | 44 objects across 12 types; worked design; six comparable candidate dossiers | No selected geography or completed physical-outcome dataset |
-| Assignment 1 | Six-section memorandum with a provisional assurance chain, verified North citation, separate Closing Reflection and actual Perplexity acknowledgment; revision notes and human-review/evidence companion | Student approval, completed human source adjudication and submission remain pending |
+| Assignment 1 | Six-section memorandum with consistent provisional constructs and a data-center title that preserves the AI-workload boundary, verified North citation, separate Closing Reflection and actual Perplexity acknowledgment; revision notes and human-review/evidence companion | Student approval, completed human source adjudication and submission remain pending |
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
@@ -29,7 +29,7 @@
 
 The [automated receipt](governance/evaluation-results.json) records actual command results and file fingerprints. A stale receipt must be regenerated. It is not an independent certificate. See [revision audit](audit/METHODS-AND-ASSURANCE.md) for scope and corrections.
 
-The [current revision notes](assignments/assignment-01/REVISION-NOTES.md) record bounded adoption of Perplexity’s critique and the verified North passage. The [pressure-test report](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) preserves the earlier PR #8 diagnosis and memo as history. The [human-review companion](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) expands the deadline queue into source-specific reading and argument checks; all human actions remain pending.
+The [current revision notes](assignments/assignment-01/REVISION-NOTES.md) record both rounds of Perplexity feedback, the exact final substitutions and the verified North passage. The [pressure-test report](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) preserves the earlier PR #8 diagnosis and memo as history. The [human-review companion](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) expands the deadline queue into source-specific reading and argument checks; all human actions remain pending. The final substitution pass produced a five-page memo and nine-page companion; all fourteen pages were visually inspected, and source-text comparisons passed.
 
 ## Deadline sequence
 
