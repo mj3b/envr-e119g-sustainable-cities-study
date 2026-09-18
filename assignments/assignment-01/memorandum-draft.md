@@ -1,46 +1,60 @@
+**To:** Nora Libertun and Cristina, ENVR E-119g: Sustainable Cities
+
+**From:** Mark Banasihan
+
+**Date:** September 18, 2026
+
+**Subject:** Evidence and accountability in municipal water commitments
+
 # Governing AI Infrastructure Before Cities Commit Shared Resources
 
-Mark Banasihan
-Harvard Extension School
-ENVR E-119g: Sustainable Cities
-Nora Libertun
-September 18, 2026
+## Central Issue
 
-## Research Transparency and AI Assistance
+On November 8, 2021, the city council of The Dalles, Oregon, voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record public requests for studies alongside officials’ assurances of wider community benefits (City of The Dalles, 2021, pp. 4–6). That juxtaposition raises my central question: how can residents evaluate a resource commitment before authorization and determine whether its assumptions hold afterward?
 
-ChatGPT (OpenAI, n.d.-a) supported exploratory framing. Codex (OpenAI, n.d.-b) organized source material, generated the initial draft, and assisted with revision and citation formatting. It also performed preliminary checks of claims against cited passages. A private repository distinguishes source claims from analytical interpretations and records provenance, uncertainty, and competing explanations. These AI-assisted checks remain provisional. I retain responsibility for assessing the evidence, verifying citations, and defending the interpretation and argument submitted under my name.
+I want to investigate this question in relation to AI infrastructure. The 2021 record concerns data centers and does not establish an AI workload share; its relevance is a governance precedent. My provisional claim is that credible sustainability commitments require accessible reasoning, attention to affected people, and authority to respond when conditions change. Establishing whether a particular agreement meets that standard requires evidence beyond its approval.
 
-## Personal Engagement and the Research Question
+## Why It Matters to Me
 
-Cities should be able to explain the evidence supporting a commitment of shared water and energy resources and identify what would require that commitment to change. I want to investigate how cities translate uncertain evidence about AI infrastructure into resource commitments that can be monitored and revised. My starting proposition is that a credible sustainability claim needs an accountable decision process: explicit assumptions, consideration of affected people, and a way to respond when observed conditions depart from expectations.
+I was born and raised in Hawaiʻi, where we were taught from a young age to take care of the land. I now live in Georgia and work in AI governance, assurance, and evaluation. These connections make me attentive to how institutions justify decisions whose consequences may outlast the people who authorize them.
 
-I was born and raised in Hawaiʻi, where we were taught from a young age to take care of the land. I now live in Georgia and work in AI governance, assurance, and evaluation. Those connections bring a personal and professional question into the same frame: what does responsible care require when institutions authorize infrastructure whose consequences may unfold over many years? Georgia and Hawaiʻi give me places from which to begin that inquiry. I want to understand how the discipline of evaluating AI systems might inform scrutiny of the resource decisions that support them, while learning where urban governance requires a different approach.
+My professional perspective draws me toward evidence quality, monitoring, and accountability. It may also lead me to give formal procedures more attention than residents’ experiences. I therefore want to examine whether documented safeguards address the conditions people encounter. My upbringing provides a reason to care; it supplies no finding about another community’s water security. Georgia and Hawaiʻi are starting points for inquiry, with the semester case still open.
 
-## What the Evidence Establishes
+## What I Currently Know
 
-A decision in The Dalles, Oregon, makes the problem concrete. On November 8, 2021, the city council voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record requests for studies and water information alongside officials’ assurances that the agreement would improve service for the wider community (City of The Dalles, 2021, pp. 4–6). This is a precedent concerning data-center infrastructure. The record does not establish the proportion of computing devoted to AI, so its relevance to my topic concerns the governance of resource commitments.
+**First, an authorization record can reveal competing positions without resolving their merits.** In The Dalles, the public works director stated that Google funded studies and the city participated in their development; councilors said they reviewed the information and considered the agreement beneficial (City of The Dalles, 2021, pp. 4, 6). This gives the favorable interpretation a documentary basis. The underlying studies, implemented terms, and later observations are still needed to assess it. Shah (2026) situates such questions within an existing debate about disclosure, community water insecurity, and institutional arrangements.
 
-The disagreement deserves careful treatment. The public works director stated that Google paid for the studies and that the city participated in their development; councilors said they had reviewed the information provided and considered the agreement beneficial (City of The Dalles, 2021, pp. 4, 6). Requests for disclosure therefore cannot establish that officials lacked evidence. Equally, the recorded assurances cannot establish subsequent environmental performance. I would need the underlying studies, implemented terms, and later observations to assess the agreement’s consequences. The question is how an interested resident could examine the reasoning and determine whether its assumptions continued to hold.
+**Second, sustainability requires an explicit account of whose welfare counts.** Sen (2000) argues for attention to multiple dimensions of people’s lives and public discussion of evaluative weights (pp. 18, 21). Applied here, employment and municipal revenue would be relevant benefits, while affordability, reliable service, and participation would also require examination. Identifying affected populations is therefore part of defining the inquiry. Aggregate benefits alone cannot settle how gains and risks are distributed.
 
-This inquiry enters an existing debate. Shah (2026) connects data-center water insecurity with disclosure, community experience, and institutional arrangements, and calls for context-specific investigation. That argument helps explain why water-use volume alone cannot answer whether development is sustainable. Access, reliability, affordability, and the ability to influence decisions also belong in the inquiry. My contribution would have to come from what a carefully reconstructed local decision reveals.
+**Third, infrastructure provision must be examined alongside ecological conditions.** Costanza and Daly (1992) distinguish natural capital from the flows of benefits it supplies and propose constraints linking resource use to regeneration and emissions to assimilative capacity (pp. 38, 44). Additional pipes or storage would need to be evaluated against those underlying conditions. The authors acknowledge that their principles fall short of a complete operational blueprint (p. 45). A defensible local assessment would require hydrological evidence, a defined observation period, and explicit uncertainty.
 
-## Development and Ecological Constraints
+## Tensions and Uncertainties
 
-Sen’s (2000) account of human development provides a way to examine those evaluative choices. He argues for attention to multiple dimensions of people’s lives and for public discussion of the weights attached to them (pp. 18, 21). Applied to infrastructure, that raises questions about whose benefits appear in an assessment and whose costs remain difficult to see. Employment or municipal revenue would be relevant evidence, but their presence would leave questions about service reliability, affordability, and participation unanswered. I would need to identify the affected populations before judging how benefits and burdens are distributed.
+The central tension concerns how institutions pursue anticipated development benefits while accounting for ecological limits and consequences for other users. A favorable agreement could expand reliable service and protect shared resources. Evaluating that possibility requires keeping three kinds of statement distinct.
 
-Costanza and Daly (1992) introduce a further constraint by distinguishing natural capital from the flows of benefits it supplies (p. 38). Their proposed sustainability principles connect resource use to regeneration and waste production to assimilative capacity (p. 44). For my inquiry, this means examining whether an infrastructure commitment preserves the ecological conditions on which continued service depends. Additional pipes or storage do not, by themselves, demonstrate that those conditions are secure. The authors also acknowledge that their principles fall short of a complete operational blueprint (p. 45). Determining a defensible local threshold would require hydrological evidence, appropriate time periods, and explicit uncertainty.
+**Observed:** The municipal minutes document authorization, official assurances, and requests for information (City of The Dalles, 2021, pp. 4–6). They do not establish subsequent environmental performance.
 
-Together, these readings make the proposed research more demanding. A favorable aggregate benefit would require examination of its distribution, while an acceptable distribution would still need to respect ecological constraints. Neither theory supplies a verdict on The Dalles. They help specify the evidence a verdict would require.
+**Interpreted:** Limited public access may constrain scrutiny even where officials possess technical evidence. Whether that occurred, and with what consequence, requires a fuller disclosure record.
 
-## Questions for Further Investigation
+**Normative:** My proposed standard is that affected people should be able to examine the reasoning behind a commitment and understand how problems can trigger corrective action.
 
-I want to pursue three connected questions. First, what assumptions about demand, supply, and environmental conditions were available to decision-makers and residents before authorization? I would compare dated studies, meeting materials, and disclosure records to distinguish uncertainty at the time from knowledge acquired later.
+I would revise a critical assessment if credible evidence showed broader service benefits and protection of ecological conditions. Observed changes would also need to be examined against rival explanations, including weather, computing workload, and infrastructure changes.
 
-Second, who could identify a failed assumption and require a response? The executed agreement, monitoring requirements, and enforcement records would help distinguish a stated commitment from an operating safeguard. Changes in measured use would also require examination of competing explanations, including weather, workload, and infrastructure changes.
+## What I Want to Explore
 
-Third, what evidence would support the strongest favorable interpretation: that an agreement expanded reliable service while protecting other users and ecological conditions? I would seek comparable observations and accounts from affected groups, alongside evidence of harm. Evidence supporting that interpretation should change my assessment.
+1. **What evidence was available before authorization, and to whom?** Dated studies, meeting packets, correspondence, and disclosure records would distinguish uncertainty at the time from knowledge acquired later.
 
-I will keep the case choice open while comparing records from Georgia, Hawaiʻi, and the other candidate locations. For this first memorandum, my aim is a defensible inquiry into how cities can make commitments that remain answerable to evidence. The obligation to care for land that I learned in Hawaiʻi gives that inquiry its personal force; the research must establish what that obligation requires of a particular decision.
+2. **How do benefits and risks differ across affected groups?** Service and affordability data, population information, and community testimony could identify consequences that a municipal average obscures. Testimony would need careful attribution and comparison across perspectives.
+
+3. **Who can detect a failed assumption and require correction?** Executed agreements, operating conditions, monitoring records, and enforcement actions would show whether a stated safeguard has practical force and whether authorities acted on new evidence.
+
+I would compare candidate locations by the traceability of decisions, availability of measurements, affected populations, and competing interpretations. The Dalles offers an opening example; Georgia, Hawaiʻi, Memphis, Northern Virginia, and Tucson/Pima County remain in the discovery process. A justified comparison would need compatible boundaries and observation periods.
+
+## Closing Reflection
+
+The responsibility to care for land that I learned in Hawaiʻi gives this inquiry its personal force. I want to understand what that responsibility requires when a city commits shared resources under uncertainty. My next step is to reconstruct one decision closely enough to connect its assumptions, affected people, and corrective powers. That would make a sustainability claim open to examination as conditions change.
+
+*AI assistance: ChatGPT (OpenAI, n.d.-a) supported topic exploration. Codex (OpenAI, n.d.-b) generated the initial draft and assisted with source checks, revision, and formatting. I remain responsible for the submitted argument and citations.*
 
 ## References
 

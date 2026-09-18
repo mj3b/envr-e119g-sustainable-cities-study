@@ -11,13 +11,13 @@
 | Title | Governing AI Infrastructure Before Cities Commit Shared Resources |
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
 | Question | How can cities make resource commitments whose assumptions can be examined, monitored and revised? |
-| Argument body | 880 words |
-| Opening transparency note | 73 words; combined with body, 953 words |
-| Counting method | Whitespace-delimited words; excludes title, metadata, section headings and references. The course permits approximately 800–1,000 words and excludes bibliography; this conservative total includes the transparency note |
+| Argument body | 855 words |
+| Brief AI acknowledgment | 32 words; combined with body, 887 words |
+| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography; this conservative total includes the acknowledgment |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
 
-The Word version uses APA student-paper formatting. Its production and visual checks are recorded below. The Markdown file preserves the same wording for repository review.
+The Word version follows the user’s memorandum format: To/From/Date/Subject, title, six analytical sections and References. APA 7 governs citations and reference styling; the memo replaces the earlier separate student title page. Its production and visual checks are recorded below. The Markdown file preserves the same wording for repository review.
 
 ## Assignment coverage
 
@@ -25,7 +25,7 @@ The Word version uses APA student-paper formatting. Its production and visual ch
 | :--- | :--- | :--- |
 | `A1-R1` · Personal engagement | Hawaiʻi upbringing, care for land, Georgia residence and AI governance work | Facts supplied by Mark; connections and final wording still require his review |
 | `A1-R2` · Current knowledge | Municipal authorization and competing positions; Shah’s existing research discussion | Documentary claims and literature interpretation, not a measured local impact |
-| `A1-R3` · Further learning | Three questions about timely evidence, corrective authority and the strongest favorable interpretation | Proposed investigation, not completed research |
+| `A1-R3` · Further learning | Three questions about timely evidence, affected groups and corrective authority | Proposed investigation, not completed research |
 | `A1-R4` · Reflection with evidence | Personal motivation connects to a bounded municipal example and source-based reasoning | No invented experience or claim of independent student verification |
 | `A1-R5` · Urban development | Shared resources, public authority, affected populations and ecological conditions | Population boundaries and local thresholds remain to be established |
 | `A1-R6` · Concepts and debates | Sen’s plural evaluation; Costanza and Daly’s natural capital and ecological constraints | The readings specify questions; neither determines the municipal verdict |
@@ -47,32 +47,33 @@ The municipal record does not establish an AI workload share, physical water con
 
 North was omitted after checking the supplied reprint’s different pagination. The draft does not cite an unread journal edition or add Ostrom merely to increase the number of authors. The bibliography contains four substantive sources and two AI-tool references.
 
-## AI transparency and repository mention
+## AI acknowledgment and planned tools
 
 | Item | What the draft says or records |
 | :--- | :--- |
-| Actual assistance | ChatGPT supported exploratory framing; Codex organized sources, generated the initial draft, assisted with revision/formatting and performed preliminary checks against cited passages |
+| Actual assistance | A brief, unheaded acknowledgment before References names ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting |
 | Prompt privacy | The submitted disclosure describes purpose, scope and responsibility without quoting private instructions. The inspected course passages do not expressly require verbatim prompts |
-| Responsibility | Mark retains responsibility for evidence assessment, citation verification and the submitted interpretation and argument; AI-assisted checks remain provisional |
+| Responsibility | The acknowledgment retains Mark’s responsibility for the submitted argument and citations. Source and personal-voice reviews remain pending |
 | References | OpenAI, `n.d.-a`, identifies ChatGPT; `n.d.-b` identifies Codex. Tool titles distinguish the two entries. No unrecorded model/version or publication date is invented |
-| Private repository | Distinguishes source claims from analytical interpretations and records provenance, uncertainty and competing explanations. No faculty access or independent validation is implied |
+| Private repository | Remains the supporting working record. The memo does not require GitHub access or include a repository reference |
+| Planned tools | Mark confirmed Perplexity, SciSpace and Claude have not been used for this memorandum. They are recorded as planned work, with no actual-use citations |
 | Prompt/output preservation | This task and the private working records preserve drafting context. No public conversation link or raw private material is published |
 
 Course provenance: `SYL`, PDF p. 7, requires acknowledgment/citation and student responsibility. `TA-03`, transcript 1:41:59–1:42:57, addresses transparency and consistent referencing. `L2-06`, 1:44:48–1:46:16, addresses knowing the work well enough to detect AI errors. Speaker-role identification remains provisional; no audio verification is claimed.
 
-The tool references identify software used; the opening statement explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available. Following Mark’s document annotation, the disclosure now explains research roles and the provisional status of AI checks without reproducing a prompt. This conclusion about prompt quotation is limited to the inspected course guidance.
+The tool references identify software used; the unheaded acknowledgment explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available. Following Mark’s latest revision request, the standalone Research Transparency and AI Assistance section is removed. A 32-word acknowledgment preserves the actual-use account without reproducing prompts or attributing research to unused tools. This conclusion about prompt quotation is limited to the inspected course guidance.
 
 ## Production and student review
 
 | Check | Status |
 | :--- | :--- |
 | Source support, scope and citation metadata | AI-assisted review completed within the locators above |
-| Body and disclosure length | 880 + 73 = 953 words, excluding headings and references |
+| Body and acknowledgment length | 855 + 32 = 887 words, excluding headings, list numerals and references |
 | Personal facts | Restricted to Mark’s supplied account; interpretation and wording pending his review |
-| Word formatting and all-page visual inspection | Six pages rendered and inspected; title page, page numbers, 1-inch margins, double spacing, first-line body indents, reference hanging indents and italics checked |
+| Word formatting and all-page visual inspection | Five pages rendered and individually inspected; memo header, six sections, native numbered questions, page numbers, bold claims, italic acknowledgment and hanging references checked |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
 | Human review and submission | Pending; G1–G3 and live human receipts unchanged |
 
-The Word artifact specifies 12-point Times New Roman. The bundled preview renderer substituted metrically compatible Liberation Serif; the six-page count applies to that rendering. The text matches the Markdown source. A PDF coordinate check confirmed consistent double-spaced leading across body and reference lines. The editable Word file was delivered separately; raw render images and private course originals are not repository artifacts.
+The Word artifact specifies 12-point Times New Roman, a compact memo header, double-spaced body text and hanging reference indents. The bundled renderer substituted metrically compatible Liberation Serif; the five-page count applies to that preview. Every page was inspected, and the prose matches the Markdown source. A coordinate check confirmed uniform body/reference leading. The three questions use native Word numbering. Raw render images and private course originals are not repository artifacts.
 
 Mark’s final review should cover the cited passages, the meaning of the personal reflection and whether he can explain the argument in his own words. Record any approval against the actual revised artifact. Confirm the live submission settings before submitting.
