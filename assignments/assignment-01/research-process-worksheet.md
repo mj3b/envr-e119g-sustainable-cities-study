@@ -1,12 +1,31 @@
-# Research-process worksheet
+# Assignment 1 · Research-process worksheet
 
-Use alongside reflection-and-evidence-worksheet.md. Supplementary references: SKILL-01 through SKILL-04; adaptations are documented in study/research-skills.md.
+[Assignments](../README.md) / [Assignment 1](README.md) / Research process
 
-| Check | Record before analysis | Record after analysis |
-| --- | --- | --- |
-| Reflection | What do I expect and why? What experience informs that expectation? | What changed, what held, and what remains uncertain? |
-| Visualization | What relationship needs a diagram or plot? Which compatible data exist? | What pattern is visible? Could scale, aggregation, or missingness create it? |
-| Evaluation | What would count as adequate support? Which contrary evidence should I seek? | Does the source support the exact claim? Which limitations affect the conclusion? |
-| Plot interpretation | What are the units, boundary, period, and baseline? | What follows from the plot, and what requires additional evidence? |
+**Purpose:** make the research decisions behind the memo visible without composing the memo.
 
-No chart is required for the short memo by these supplementary references. The worksheet supports analysis and can remain behind the submission. Do not mistake polished figures or a completed form for sufficient evidence.
+| Input authority | Status |
+| :--- | :--- |
+| Supplementary references `SKILL-01`–`SKILL-04`; adaptations in [research skills](../../study/research-skills.md) | Internal preparation, not additional grading requirements |
+
+## Before and after one evidence pass
+
+| Research action | Before inspecting evidence | After inspecting evidence |
+| :--- | :--- | :--- |
+| Frame | What is the question, place, decision, population, and period? | Did the evidence justify narrowing or revising the question? |
+| Reflect | What do I expect, and what informs that expectation? | What changed, held, or remains uncertain? |
+| Visualize | Which relationship needs a diagram or plot? Are compatible data available? | Could scale, aggregation, missingness, or boundary changes explain the pattern? |
+| Evaluate | What supports the claim, and what could disconfirm it? | Does the precise passage support the wording? Which rival remains viable? |
+| Interpret quantities | What are the units, boundary, period, denominator, and baseline? | What can be calculated, and which empirical conclusion must be withheld? |
+
+## The record to retain
+
+| Field | Required content |
+| :--- | :--- |
+| Question tested | One sentence, within the chosen scope |
+| Sources inspected | IDs, exact locators, and access limits |
+| Result | Observation, reported assertion, calculation, or interpretation clearly labeled |
+| Consequence | Retain, revise, or withhold the candidate claim, with a reason |
+| Next action | The missing record that could change the answer |
+
+A chart is optional unless a verified course prompt requires it. This worksheet can remain behind the submission. Practice with the [evidence laboratory](../../study/EVIDENCE-LAB.md); personal reflection stays in the [user-owned worksheet](reflection-and-evidence-worksheet.md).

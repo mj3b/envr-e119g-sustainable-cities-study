@@ -1,3 +1,43 @@
-# Assignment 2: Theory and method
+# Assignment 2 · Theory and method
 
-Reserved for the cumulative course inquiry. Verify the detailed requirement in the syllabus before work begins. No draft is authorized in this build.
+[Home](../../README.md) / [Assignments](../README.md) / Assignment 2
+
+| Verified format | Recorded due date / weight | Repository status |
+| :--- | :--- | :--- |
+| Memo or blog · 1,000–1,200 words | October 16 · 20% | Preparation guide; no submission artifact or approval recorded |
+
+## Verified course brief
+
+Continue the topic from Assignment 1 by explaining how relevant course theory and research methods deepen the inquiry.
+
+| Requested work | Paraphrase of the syllabus |
+| :--- | :--- |
+| Choose theory | Identify the course theory or theories that organize the analysis. |
+| Interpret the topic | Explain how the theory helps interpret or explain the urban issue. |
+| Choose research methods | Describe methods that could investigate the remaining questions. |
+
+Source: `SYL`, PDF pp. 3–4; date and weight on p. 6. More detailed live prompts, submission settings, and marking rubrics have not been inspected. This guide does not invent them.
+
+## Preparation, separate from requirements
+
+The following records are repository planning tools, not additional instructor criteria.
+
+| Prepare | Evidence or reasoning to retain | Failure to prevent |
+| :--- | :--- | :--- |
+| Question → concept | A bounded question and a theory that changes what evidence matters | A list of theorists without analytical work |
+| Mechanism → rival | A proposed explanation and a credible alternative | Treating a plausible account as established causation |
+| Method → evidence | Document reconstruction, measurement, comparison, or another justified method | Naming a method without specifying records or observations |
+| Feasibility → limit | Source access, actor/time boundaries, and what the design cannot answer | Promising an outcome evaluation without available outcome data |
+
+Use the selected theory to justify a specific test. Explain why that test can answer the question and what it would leave unresolved.
+
+[Course concepts applied](../../cross-course/course-to-research.md) · [Methodology](../../METHODOLOGY.md) · [Selection protocol](../../cases/SELECTION-PROTOCOL.md)
+
+## Ready to develop when…
+
+- The current prompt has been checked and the relevant scope is authorized.
+- The selected claims and interpretations have human review appropriate to their actual use.
+- Mark can explain the argument, its strongest alternative, and its evidentiary limits.
+- Personal statements come from Mark, and the AI acknowledgment describes the assistance accurately.
+
+Follow the [deliverable standard](../../standards/DELIVERABLES.md) and [AI governance](../../governance/AI-GOVERNANCE.md). Assignment 1 drafting remains paused; this preparation guide does not resume it. No assignment is marked submitted merely because a repository file exists.

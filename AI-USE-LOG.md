@@ -1,13 +1,46 @@
-# AI use record
+# Record of AI assistance
 
-2026-09-16, Codex: recovered the prior design and attachments; archived raw materials locally; extracted PDF/transcript text; inspected chat screenshots; built source and claim records, calibration matrices, research bridges, case leads, study questions, and Assignment 1 preparation materials. AI authored paraphrases, classifications, and provisional synthesis. Human review is pending.
+[Home](README.md) / AI use · [Governance](governance/README.md) · [Evaluation](governance/EVALUATION.md)
 
-No Assignment 1 memo was drafted. No personal experience or feelings were invented. No gate was approved on Mark’s behalf. Course AI policy: SYL PDF page 7; TA acknowledgment guidance: TA-03. Before submission, describe the actual assistance used, verify all output, and cite/acknowledge it according to the course policy.
+**Status:** AI-assisted research preparation. All human fidelity reviews remain pending. This log records actual assistance; it is not a human approval or a submission acknowledgment already made by Mark.
 
-User supplied four research-skills screenshots during curation. Codex archived them privately, registered provenance gaps, and authored explicit urban-case adaptations. These were not treated as course instructions or proof of empirical findings.
+## Session record
 
-## September 17, 2026 continuation
+| Session | Work retained | Verification and limits |
+| :--- | :--- | :--- |
+| **2026-09-16 · Codex** | Recovered prior design; archived originals privately; extracted text; proposed source/claim records, calibration matrices, case leads and Assignment 1 preparation | AI paraphrases and classifications provisional; no Assignment 1 draft or human gate approval |
+| **2026-09-17 · Foundation continuation** | Seven external source records, eight external claims, three reading claims; 44 research objects; six candidate assessments; course applications and navigation | Primary passages inspected within stated limits; 25 automated tests passed; whole-source/lecture review unfinished |
+| **2026-09-17–18 · Methods and course-depth revision** | Reconstructed course dossiers and translation tasks; revised repository navigation and standards; compared AART with pinned upstream; added decision-study design, AI governance, assurance runner, review queue and focused Assignment 1 evidence preparation | Results are in the content-bound evaluation receipt. Course interpretations remain AI-authored and human-unreviewed; no claim of learning gains, productivity gains or completed impact evaluation |
 
-Codex recovered the research conversation and unfinished local Work context; preserved existing edits; inspected primary-source discovery records; added seven external source records, eight external claims and three reading claims; authored 44 linked research objects, candidate assessments, course applications and Markdown navigation. Codex also repaired the inherited test fixture for content-bound reviews and added research-integrity failure tests.
+Dates span UTC midnight; the Assignment 1 target is September 18 in the user's local time. Tool identity is Codex; an exact underlying model/version and complete historical prompt trace are not asserted by this log.
 
-The earlier referenced conversation contains AI-drafted memo prose. It was not imported into this repository. This continuation produced no new Assignment 1 draft, personal reflection, or human approval. The faculty guide is an authored reading aid; no instructor endorsement, submission, message, or access grant occurred. All substantive interpretation and source fidelity remain subject to Mark’s review.
+## Inputs and provenance
+
+| Input | Treatment |
+| :--- | :--- |
+| Supplied readings, syllabus and transcripts | Private originals; registered source identity/digests; edition, OCR and speaker limitations retained |
+| Prior conversations | Recovery/context only; no conversion of earlier assistant claims into primary evidence |
+| Four research-skills screenshots | Private reference; authorship unknown; adaptations explicitly analyst-authored |
+| Public primary case records | Bounded documentary claims with locators; newly discovered originals not all archived |
+| AART source archive and upstream | [Pinned comparison](audit/APPLIED-TRANSLATOR-AUDIT.md); adapted workflow, no claim of executing upstream tools |
+| E5 writing references | Editorial discipline; not evidence for empirical conclusions |
+
+## Material corrections and restraint
+
+| Issue | Action taken |
+| :--- | :--- |
+| Vague “bridges” between research interests | Moved specific practices into methodology, influence provenance and bounded tasks |
+| Generic class syntheses | Added argument structure, comparison, discriminating observations and explicit limits |
+| Method names substituting for evaluation | Added task criteria, prospective design, observed automation results and pending human review |
+| Prior AI-drafted memo in a referenced conversation | Kept out of the repository; current assignment artifacts remain preparation |
+| Stale-review test fixture | Created synthetic receipts only inside temporary tests; live receipts remain empty |
+
+## Research positioning follow-up
+
+After the user asked about novelty, a bounded scan compared three nearby sources on regulation, water insecurity and decision evidence. The resulting [positioning note](study/RESEARCH-POSITIONING.md) makes no claim of an exhaustive review or established originality. These references remain outside the admitted canonical claims.
+
+## Before a submission
+
+Mark must verify retained interpretations and write or confirm his personal reflection. Cite and acknowledge the actual assistance used under `SYL` PDF p. 7 and `TA-03`, following current course instructions. Do not copy this log as a claim that every generated sentence has been checked.
+
+No faculty message, assignment submission, access grant or instructor endorsement is recorded here. Repository releases document a work stage; they do not certify the scholarship.

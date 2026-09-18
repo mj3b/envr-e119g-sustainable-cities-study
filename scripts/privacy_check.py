@@ -7,7 +7,7 @@ def git(*args):return subprocess.check_output(['git',*args]).decode()
 def forbidden(path):
     p=PurePosixPath(path)
     return ('private' in p.parts or p.suffix.lower() in {'.pdf','.zip','.png','.jpg','.jpeg','.mp3','.mp4','.wav','.srt','.vtt'} or p.name.startswith('.env') or p.name in {'prior-conversation.json','day1-conversation.json'})
-paths=git('diff','--cached','--name-only','-z').split('\0') if a.staged else git('ls-files','-z').split('\0')
+paths=git('diff','--cached','--name-only','-z').split('\0') if a.staged else git('ls-files','--cached','--others','--exclude-standard','-z').split('\0')
 if not a.staged:
     r=subprocess.run(['git','rev-list','--objects','--all'],capture_output=True,text=True)
     paths += [line.split(' ',1)[1] for line in r.stdout.splitlines() if ' ' in line]

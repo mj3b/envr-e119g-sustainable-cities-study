@@ -1,15 +1,21 @@
-# Reading and research questions
+# Costanza and Daly · inquiry and defense
 
-Answer from the source first; then identify what additional evidence a case application requires. These questions test scope and mechanism rather than recall of an author’s slogan.
+[Reading notes](reading-notes.md) · [Argument](argument-map.md) · [Class overview](../README.md)
 
-1. Which stock or ecological function could be diminished, and which observed flow helps assess it?
+Use these questions to move from accurate reading to a testable case application. The proposed observations are research designs, not findings.
 
-2. What exactly can the proposed technological substitute replace, and over what period?
+| Question | Source anchor | Required evidence |
+| :--- | :--- | :--- |
+| Which stock or function supports the measured flow? | `CD-01`, PDF p. 3 | Physical-system boundary and stock/function indicator. |
+| What substitution is proposed, and at what scale? | `CD-02`, PDF p. 6 | Performance under ordinary and stressed conditions. |
+| Does lower intensity reduce the absolute total? | `CD-02`, PDF p. 6 | Comparable intensity, activity and time series. |
+| What establishes a renewable-use or pollution threshold? | `CD-04`, PDF p. 9 | Local regeneration or assimilative-capacity evidence with uncertainty. |
+| Does the conclusion depend on discounting? | `CD-05`, PDF p. 8 | Recalculation across stated rates and horizons. |
 
-3. Does an intensity decline coexist with changing absolute demand in comparable boundaries?
+### Quantitative discipline
 
-4. What evidence would distinguish rebound from demand growth due to other causes?
+Distinguish water withdrawal from consumption, power capacity from energy use, and a modeled limit from a meter reading. If the required denominator or period is absent, write “not established.” Do not substitute zero or infer a trend from a single observation.
 
-5. Who specifies an acceptable threshold, and what happens if uncertainty is resolved too late?
+## Short oral defense
 
-For discussion, choose one question, give a tentative answer, name the claim and page that support it, and state the observation that would change your answer. Keep an unresolved question unresolved when the reading cannot settle it.
+Explain one claim in plain language. Identify its page, the inference you add, and the observation that would change your view. If the supplied source cannot answer a question, name the missing evidence instead of completing the argument from memory.

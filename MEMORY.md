@@ -1,13 +1,53 @@
-# Working memory for this research project
+# Project continuity
 
-Mark owns this private repository under `mj3b`. Classes 1 and 2 calibrate the research method together. Assignment 1 remains paused until Mark explicitly resumes drafting. Geography remains open. Never invent a personal experience, a credential, a source finding, a human review, or an observed environmental result.
+[Home](README.md) / Operational record
 
-The governing writing preference is strict E5 prose: clear purpose, concrete claims, explicit reasoning, evidence adjacent to the claim, and calibrated uncertainty. Apply [writing standards](standards/WRITING.md) and [research standards](standards/RESEARCH.md) before any substantial output. LessWrong, The Decision Lab, METR, Digital Emissions, Green Software Foundation, and Node & Norm contribute distinct methodological influences; their names do not certify this work. See [provenance and boundaries](standards/INFLUENCES.md).
+> **Record type: working instructions and preferences.**
+> This file supports continuity between work sessions. It is not research evidence, a source summary, an AI-use disclosure, or proof of completed review.
 
-The user selected an asynchronous route and wants active intellectual engagement that stretches their thinking. The shared Day 1 chat records this in the user's own message. Prior AI-authored introductions contain more detailed professional descriptions; confirm those before adopting them as autobiographical facts. Involvement with Dr. Ahmad Antar and Dr. Abid Ali at Digital Emissions is user-stated in that chat. A completed named GSF or Decision Lab certification has not been established.
+## Instructions that govern the next session
 
-Use course theory to examine a real urban decision, Digital Emissions to frame physical measurement, and Node & Norm to reconstruct evidence, authority, action, monitoring, and correction. Permit the course and contrary evidence to expose weaknesses in those methods. Preserve all six evidence classes and treat prior assistant responses as planning context.
+| Instruction | Origin | Operational consequence |
+| :--- | :--- | :--- |
+| Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
+| Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
+| Keep Assignment 1 drafting paused | Standing user instruction recorded in the repository | Improve preparation without composing submission prose |
+| Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
+| Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
+| Merge and release completed repository work | User authorization | Perform relevant checks; preserve privacy and review boundaries |
 
-This file is repository memory. It does not assert that preferences were saved to a separate account-wide memory service. Update it only from user instructions or traceable corrections; preserve the reason in Git history.
+Repository authorization does not supply a human fidelity review. It also does not record a course submission, an instructor endorsement, or permission to share course materials.
 
-The September 17 continuation establishes six open candidates: Georgia, Hawaiʻi, Memphis, Loudoun, The Dalles and Tucson/Pima. The Dalles is a worked example, not a selection. New work should begin at cases/SELECTION-PROTOCOL.md and the research agenda. Mark intends eventual faculty review and wants polished, professional Markdown whose presentation makes evidence, reasoning and limits easier to inspect. Preserve private status; no faculty sharing has been authorized or performed.
+## Context supplied by the user
+
+| Established context | Limit on its use |
+| :--- | :--- |
+| On September 17, the user stated that they currently reside in Georgia and were born and raised in Hawaiʻi | This informs personal context. It establishes no Indigenous identity or local environmental finding |
+| The user stated that they were taught from a young age to care for Hawaiian lands | Preserve this supplied teaching; do not invent a childhood event, feelings, or a conversion story |
+| The user described work in AI governance, AI assurance, and AI evaluation | Preserve the stated work domains; infer no title, credential, or specific project |
+| The user selected an integrated Assignment 1 focus on governance, affected people, and ecological limits | Develop one coherent inquiry; keep the documentary illustration separate from semester case selection |
+| The user selected an asynchronous course route in the Day 1 conversation | This is a stated preference, not an attendance record |
+| The user described involvement with Digital Emissions and named collaborators | Do not extend this into unverified credentials or professional claims |
+| The user wants active intellectual engagement and substantial research | Produce questions, tests, counterevidence, and revisions that improve understanding |
+
+Prior AI-authored introductions are planning context. They do not verify autobiographical claims. Personal reflection and endorsement of an argument remain the user's responsibility.
+
+The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. The [focused evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) is the immediate preparation priority; drafting authorization remains pending.
+
+## Resume from evidence, not recollection
+
+| To establish… | Read the maintained record… |
+| :--- | :--- |
+| Current progress and open gaps | [Build status](BUILD-STATUS.md) |
+| What an external or course source supports | [Claim registry](cross-course/claims.json) and [source registry](cross-course/evidence-registry.json) |
+| Whether source use has been approved | [Review receipts](cross-course/review-receipts.json) and the relevant fidelity gates |
+| How to choose the case | [Selection protocol](cases/SELECTION-PROTOCOL.md) and [discovery assessment](cases/DISCOVERY-ASSESSMENT.md) |
+| What evidence to retrieve next | [Research agenda](study/RESEARCH-AGENDA.md) |
+| What AI may do and how its work is checked | [AI governance](governance/AI-GOVERNANCE.md) and [evaluation](governance/EVALUATION.md) |
+| Which work used AI | [AI-use log](AI-USE-LOG.md) |
+
+The Dalles is a worked example. The six candidates remain Georgia, Hawaiʻi, Memphis, Loudoun, The Dalles, and Tucson/Pima. Their relative readiness belongs in the discovery records rather than in this continuity file.
+
+## Updating this record
+
+Update from explicit user instructions or traceable corrections. Preserve the reason in Git history. Move research findings into their source and claim records; move AI-assisted work into its use log. This file makes no claim that preferences were saved to an account-wide memory service.

@@ -1,40 +1,58 @@
-# Memphis
+# Memphis · Does a condition work in practice?
 
 [Home](../../README.md) / [Cases](../README.md) / Memphis
 
-**Status:** candidate; unselected. First-pass assessment, September 17, 2026.
+> **Candidate, unselected.** A utility account reports initial service and a curtailment agreement. Actual curtailment performance and total physical effects remain unmeasured in this packet.
 
-## The question to test
-
-What evidence supported initial grid service, and how could curtailment performance be verified?
-
-| Boundary | Current definition |
+| Research boundary | Current position |
 | :--- | :--- |
-| Place | Memphis, Tennessee, Paul Lowery Road site |
-| Window | 2024–2025 |
-| Decision | Initial 150 MW xAI grid-service approval described in MLGW 2025 update |
+| Unit | Initial 150 MW grid-service approval; contemporaneous instrument pending |
+| Place | Paul Lowery Road site, Memphis, Tennessee |
+| Time | 2024–2025 inquiry; exact approval date to verify |
+| Evidence status | First source pass: September 17, 2026; human fidelity review pending |
 
-Separate Paul Lowery from Tulane Road, the first from the second request, capacity from consumption, and a reported agreement from its actual operation.
+## What the record supports
 
-## Evidence inspected
+The [MLGW 2025 xAI update](https://www.mlgw.com/images/content/files/pdf/new/xAI%202025%20Update.pdf), pp. 1–2, reports the initial supply request and an agreement to reduce grid consumption during high demand (`X-02`, `EXT-MLGW`). It is a retrospective utility account. It supplies neither measured annual consumption nor a verified curtailment event.
 
-- [MLGW 2025 xAI Update](https://www.mlgw.com/images/content/files/pdf/new/xAI%202025%20Update.pdf) (`EXT-MLGW`).
+**Research question:** What evidence supported initial service, and could the agreed response to grid stress be independently reconstructed?
 
-Canonical claims: `X-02`. See the [claim register](../../cross-course/claims.json) for locators and limitations.
+## Course lens → research operation
 
-## Competing interpretation
+| Lens | Work it requires |
+| :--- | :--- |
+| Ostrom: observable adherence (`O-02`) | Identify a trigger, notification, meter response, and actor able to enforce the condition. |
+| North: enforcement (`N-02`) | Recover the instrument assigning obligations, discretion, exceptions, and remedies. |
+| Nora: outputs and outcomes (`L2-03`) | Separate the agreement, its activation, the measured grid response, and any wider effects. |
 
-Infrastructure reuse and controllable load may yield benefits. Workload shifts or on-site generation could explain grid-demand changes without reducing total effects.
+## Interpretations to keep in contention
 
-## Selection gaps
+| Interpretation | Evidence that could distinguish it |
+| :--- | :--- |
+| Controllable demand makes existing infrastructure more useful and relieves grid stress | Time-aligned curtailment notices, interval grid demand, service conditions, and evidence of a response during qualifying events |
+| Lower grid demand reflects workload changes or substitution to on-site generation | The same periods' workload indicators and independently documented generation, fuel use, or emissions, where accessible |
 
-- Verify precise approval date from contemporaneous TVA record.
-- Obtain system study and curtailment terms.
-- Separate first and second site and first and second power requests.
-- Seek independent community and physical-impact records.
+Neither pathway is established here. A grid-meter decline cannot by itself establish lower total electricity use or lower local emissions.
 
-Professional-interest fit remains possible; no invented personal trigger.
+## Next decisive records
 
-Next action: Retrieve TVA decision and enforceable curtailment terms.
+1. Retrieve the contemporaneous TVA approval or authoritative decision record and its exact date.
+2. Obtain the relevant system study and enforceable curtailment terms, including triggers and verification duties.
+3. Seek event-level observations and community or environmental records within the same site and period.
 
-[Compare all candidates](../DISCOVERY-ASSESSMENT.md) · [Selection protocol](../SELECTION-PROTOCOL.md)
+Keep Paul Lowery separate from Tulane Road, the initial request separate from a later request, and capacity separate from energy.
+
+## Population and distribution plan
+
+| Pathway to examine | Population and denominator needed |
+| :--- | :--- |
+| Reliability and cost allocation | Relevant service customers by class, plus event frequency and observation hours; a citywide population count cannot measure outage or cost incidence. |
+| Potential local air or noise effects | A source and operating schedule, defensible exposure boundary, and population within it; proximity alone is insufficient to establish exposure or harm. |
+
+If demographic comparisons become feasible, use the same period and spatial definition for the affected area and comparison population. Preserve uncertainty and seek accounts from those potentially affected without treating commenters as a representative sample.
+
+**Advance when:** decision authority, enforceable terms, and observable implementation are linked. **Hold when:** a utility summary and nameplate figures remain the principal evidence. A process-only question may be narrower and feasible, subject to the selection protocol.
+
+**Personal fit:** professional interest is possible; no personal trigger or familiarity is established. Memphis has no default preference.
+
+[Claim register and locators](../../cross-course/claims.json) · [Compare candidates](../DISCOVERY-ASSESSMENT.md) · [Selection protocol](../SELECTION-PROTOCOL.md) · [Measurement rules](../QUANTITATIVE-NOTES.md)

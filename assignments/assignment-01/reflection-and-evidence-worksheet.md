@@ -1,27 +1,55 @@
-# Connect personal reflection to evidence
+# Assignment 1 · Connect reflection to evidence
 
-Use a real experience to explain the question you bring to the course. Use sources to test your interpretation of that experience. Leave these fields blank until Mark supplies his account; research affiliations alone do not establish what he felt, believed, or observed.
+[Assignments](../README.md) / [Assignment 1](README.md) / Reflection worksheet
 
-| Step | Prompt for Mark | Evidence treatment |
-| --- | --- | --- |
-| Personal trigger | What particular encounter in Digital Emissions or Node & Norm made this issue matter to you? What was your role? | User-owned recollection; anonymize confidential details |
-| Prior belief | What did you initially assume about efficiency, governance, or sustainability? | Label as your belief at that time |
-| Course challenge | Which passage or lecture example changed or complicated that belief? | Reading page or lecture segment/timestamp |
-| Current knowledge | What can you now say, and how do you know it? | Separate direct observation, cited finding, and inference |
-| Urban stakes | Who gains, who bears burdens, who can decide, and what ecological constraints apply? | Case-specific evidence; identify missing voices |
-| Further inquiry | Which uncertainty would alter your assessment? What record could resolve it? | Research question and feasible next source |
+**Purpose:** connect a user-owned experience or motivation to a question that evidence can test.
 
-A paragraph can move from experience → question → evidence → interpretation → remaining uncertainty. This is a reasoning aid, not a mandatory prose template.
+| Record status | Boundary |
+| :--- | :--- |
+| Personal context supplied September 17, 2026; reflection still to be developed by Mark | AI must not invent experiences, feelings, beliefs, identity, credentials, or a learning trajectory |
 
-For this case family, possible tensions to investigate include efficient computing alongside rising total demand; a documented permit condition alongside uncertain operation; new tax revenue alongside uneven local burdens; and formal consultation alongside uncertain influence on the decision. These are hypotheses, not findings about a selected city.
+## Supplied context
 
-Personal account:
+| Mark's statement | Permitted use |
+| :--- | :--- |
+| Currently resides in Georgia | Establish a present geographic connection |
+| Born and raised in Hawaiʻi | Establish a stated connection to place; infer no Indigenous identity |
+| Works in AI governance, AI assurance, and AI evaluation | Establish the stated work domains; infer no title or credential |
+| Was taught from a young age to care for Hawaiian lands | Retain the user-owned teaching and its wording; Mark supplies its personal meaning |
 
-- Event and approximate date: [Mark to supply]
-- What I directly observed: [Mark to supply]
-- What I believed then: [Mark to supply]
-- Course evidence that challenged it: [claim ID and locator]
-- What I think now, with limits: [Mark to supply]
-- Question I want to investigate: [Mark to supply]
+The exact supplied wording is retained in the [evidence packet](EVIDENCE-PACKET.md). The user chose an integrated focus on governance, affected people, and ecological limits. No opening paragraph or reflection is drafted here.
 
-The analysis demonstrates urban relevance by explaining a mechanism and its consequences: which institutional choice changes resource use, how that affects different people, and why existing evidence cannot yet settle the outcome. Naming an environmental problem alone is insufficient.
+## Prompts for Mark
+
+| Step | Prompt | Evidence treatment |
+| :--- | :--- | :--- |
+| Personal trigger | Which particular encounter, observation, or concern made the topic matter? What was your role? | User-owned recollection; protect confidential details |
+| Prior expectation | What did you initially expect about development, resources, or governance? | Label it as a belief held at that time |
+| Course encounter | Which passage or lecture example complicated or supported that expectation? | Claim ID plus reading page or lecture timestamp |
+| Present knowledge | What can you now say, and how do you know? | Separate direct observation, reported finding, and inference |
+| Urban stakes | Who gains, who bears burdens, who can decide, and which ecological constraints matter? | Place-specific evidence and missing perspectives |
+| Further inquiry | Which uncertainty would change the assessment? What record could resolve it? | Bounded question and feasible next source |
+
+Use the supplied context without adding a specific professional encounter or childhood event. Mark decides how these experiences connect to the inquiry. A change of mind is not required.
+
+## Reflection: supplied inputs and remaining choices
+
+| Field | To be supplied by Mark |
+| :--- | :--- |
+| Specific event, if useful | Not supplied; a discrete event is not required by this worksheet |
+| Personal starting point | Georgia residence; Hawaiʻi upbringing and early teaching; work in AI governance, assurance, and evaluation |
+| Earlier belief or expectation | Pending |
+| Course evidence that bears on it | Claim ID and locator to be selected |
+| Current view and limits | Pending |
+| Proposed question | How should cities govern AI infrastructure when decisions are uncertain and benefits and resource burdens fall unevenly? |
+
+## Candidate tensions to investigate
+
+| Tension | What would need evidence? |
+| :--- | :--- |
+| Efficiency and growing demand | Comparable intensity, workload, and absolute resource use |
+| A permit condition and effective control | Binding terms, monitoring, response, and actual operation |
+| Revenue and local burdens | Fiscal benefit alongside affected populations and environmental observations |
+| Consultation and decision influence | Who participated, which alternatives changed, and the decision record |
+
+These are possible questions, not findings about a selected place. Use [case discovery](../../cases/README.md) to test feasibility. No submission paragraph is generated by completing this worksheet.

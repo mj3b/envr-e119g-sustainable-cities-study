@@ -1,17 +1,39 @@
 # North: institutions and economic change
 
-Supplied scanned reprint uses printed pages 9–18. The assigned AER citation uses 359–368. Cite the inspected PDF page and verified printed page; do not mechanically translate between editions. Full edition equivalence remains open.
+[Class overview](../README.md) · [Argument](argument-map.md) · [Questions](questions.md)
 
-## Argument and interpretation
+> **Working conclusion:** An institutional explanation must connect a rule and its enforcement to a specific choice, then show why the history matters.
 
-The explanatory problem is why economic performance changes over time and differs across societies. North directs attention to the institutional incentives within which people learn and act. The inspected opening pages connect institutions, time, and change; this does not establish that any particular institution causes a particular city's environmental outcome (N-01, PDF page 1).
+## Source and status
 
-Institutions include formal rules, informal constraints, and enforcement. A useful case analysis therefore cannot stop at a zoning ordinance or an organizational chart. It must examine the incentives those rules create and whether the relevant actors can enforce them. This urban application is our inference from N-02 (PDF page 2, printed page 10), rather than an example supplied by the author.
+Assigned: *Economic Performance Through Time*, American Economic Review 84(3), 359–368 (1994). Supplied: scanned Eafit reprint, printed pp. 9–18. Only selected PDF pages were visually inspected. Cite the supplied page; edition equivalence and full coverage remain unresolved.
 
-Learning accumulates through time and culture. Institutional evolution consequently need not produce economic improvement (N-03, PDF pages 2 and 5). Nora's discussion of switching costs and resistance makes persistence concrete (L1-02). Keep the two treatments distinguishable: the lecture's intuitive example does not supply an empirical test of the reading's larger account.
+**Evidence:** assigned reading. **Review:** source checks completed for the claims below; human fidelity review pending. Applications and objections are our synthesis.
 
-The principal analytical gain is an explanation to investigate: inherited arrangements may shape which alternatives are considered, who benefits from continuity, and what makes change costly. The principal risk is using “path dependence” as a label after observing persistence. A credible explanation needs a sequence, an identifiable mechanism, and evidence that distinguishes it from a technically or economically attractive current choice.
+## What the inspected text supports
 
-## Use and remaining limits
+| Claim | Proposition | Source locator |
+| :--- | :--- | :--- |
+| `N-01` | Institutional incentives matter for explaining economic change. | PDF p. 1, section I; visual check |
+| `N-02` | Formal rules, informal constraints and enforcement jointly structure interaction. | PDF p. 2 / printed p. 10, section II; visual check |
+| `N-03` | Accumulated learning and culture shape institutional evolution; improvement is not guaranteed. | PDF pp. 2, 5 / printed pp. 10, 13; visual check |
 
-Canonical support: N-01, N-02, N-03. These notes deepen the inspected calibration claims; they do not assert exhaustive reading coverage. Human source review and edition issues remain recorded in the class omissions report. For a later deliverable, use only a claim whose exact wording and locator have been checked. Questions and urban applications are our synthesis.
+## Analytical use
+
+### 1. Identify the institution precisely
+
+A city council is an actor. A rule specifying what it may approve is part of the institutional setting. Our case application of `N-02` separates the written rule, informal expectations and actual enforcement. A zoning ordinance alone cannot show how all three affect a decision.
+
+### 2. Reconstruct the mechanism
+
+The proposed explanation is: an inherited arrangement changes the costs or feasibility of alternatives, which influences a documented choice. Nora’s discussion of resistance and switching costs (`L1-02`, L1C 14:22–17:14) helps formulate that inquiry. It remains a lecture application, distinct from North’s inspected wording.
+
+### 3. Test persistence against a rival
+
+An old arrangement may persist because it remains the best current option. Evidence of age or repeated approval does not distinguish that account from institutional lock-in. Look for alternatives, objections, costly commitments and attempts at reform before explaining a result through path dependence.
+
+## What remains open
+
+The selected pages support a focused explanatory framework, not a complete reconstruction of North’s article. No local effect size or environmental outcome follows from these claims. Whether a stable arrangement is fair or desirable requires a separate evaluative argument; the [North–Sen comparison](../synthesis/north-sen-comparison.md) develops that distinction.
+
+[Canonical claims](../../../../cross-course/claims.json) · [Source metadata](source.yaml) · [Coverage gaps](../omissions-report.md)
