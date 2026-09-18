@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
 | Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
-| Draft Assignment 1 with APA 7 | Explicit user request, September 18, 2026 (UTC): “Draft the powerful research memorandum with proper APA 7.” | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
+| Draft Assignment 1 with APA 7 | Explicit user authorization of an APA 7 memorandum draft, September 18, 2026 (UTC) | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
 | Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
 | Merge and release completed repository work | User authorization | Perform relevant checks; preserve privacy and review boundaries |
