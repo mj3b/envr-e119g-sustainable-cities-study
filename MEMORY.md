@@ -14,9 +14,11 @@
 | Draft Assignment 1 with APA 7 | Explicit user authorization of an APA 7 memorandum draft, September 18, 2026 (UTC) | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
 | Use the current memo structure | September 18 pressure-test revision supersedes the earlier merged exploration/closing | Retain To/From/Date/Subject and a separate Closing Reflection; keep the short AI acknowledgment and tool citations |
 | Apply the full pressure test and preserve personal ownership | User expanded the review to the full memorandum on September 18, 2026 | Test sources, reasoning, alternatives, voice and APA presentation; supplied personal inputs do not approve the final wording |
-| Allow a modest expansion beyond 1,000 words | User permission for the revised draft | Current count is 997 body words plus a 32-word acknowledgment, or 1,029 combined; the course’s approximate 800–1,000 guidance has not been waived |
-| Keep the review companion separate | Current review design | Use HUMAN-REVIEW-APPENDIX.md and PRE-SUBMISSION-REVIEW.md for review; do not add the appendix to a course submission by default |
-| Treat additional AI tools as planned | User clarified Perplexity, SciSpace and Claude have not been used for this memorandum | Do not cite planned tools as completed research |
+| Allow a modest expansion beyond 1,000 words | User permission for the revised draft | Current count is 956 body words plus a 44-word acknowledgment, or 1,000 combined; all pre-References content totals 1,059. Course guidance remains approximately 800–1,000 |
+| Keep the review companion separate | Current review design | Use HUMAN-REVIEW-APPENDIX.md and current REVISION-NOTES.md; PRE-SUBMISSION-REVIEW.md is the historical PR #8 report. Do not submit the appendix by default |
+| Record Perplexity’s actual contribution | Author subsequently supplied Perplexity analysis for this revision | Credit editorial feedback and framework suggestions; do not treat that analysis as independent evidence |
+| Keep unperformed tool use out of disclosure | SciSpace and Claude remain unused | Do not cite planned tools as completed research |
+| Treat the commitment assurance chain as provisional | Current authorized revision | Test justification, disclosure, monitoring, triggers, authority and remedy; claim neither demonstrated effects nor novelty |
 | Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
 | Merge and release completed repository work | User authorization | Perform relevant checks; preserve privacy and review boundaries |
@@ -39,7 +41,7 @@ Repository authorization does not supply a human fidelity review. It also does n
 
 Prior AI-authored introductions are planning context. They do not verify autobiographical claims. Personal reflection and endorsement of an argument remain the user's responsibility.
 
-The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The current title is **Water Commitments and Accountability in AI Infrastructure**. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md), and the [pre-submission review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md). All human approvals and submission remain unrecorded.
+The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The current title is **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md), and the current [revision notes](assignments/assignment-01/REVISION-NOTES.md). North’s used original AER p. 360 passage has received an AI-assisted visual check against reprint p. 10; full-article and whole-reprint equivalence are unresolved. All human approvals and submission remain unrecorded.
 
 ## Resume from evidence, not recollection
 

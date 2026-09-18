@@ -53,6 +53,8 @@ The [worked design](cases/RESEARCH-DESIGN.md) specifies rival predictions and a 
 
 These are selected practices, not interchangeable methods or institutional endorsements. The [influence register](standards/INFLUENCES.md) names sources and limits. The former “bridges” page is now a migration pointer.
 
+The [Assignment 1 revision](assignments/assignment-01/REVISION-NOTES.md) proposes a commitment assurance chain: justification, disclosure, monitoring, triggers, authority and remedy. It organizes evidence requests for one decision. Its links, sufficiency and explanatory value remain open to testing; it supplies no finding that an accountability gap exists. The author-supplied Perplexity critique that suggested this sequence is disclosed in the AI-use record.
+
 ## Three human fidelity gates
 
 | Gate | Reviewer must establish | Current status |

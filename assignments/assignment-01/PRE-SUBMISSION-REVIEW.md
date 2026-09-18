@@ -2,6 +2,8 @@
 
 [Home](../../README.md) / [Assignment 1](README.md) / Pressure test · [Revised memorandum](memorandum-draft.md) · [Human review companion](HUMAN-REVIEW-APPENDIX.md)
 
+> **Historical review:** This report preserves the diagnosis and revision delivered in PR #8 (`407137e`). Its score, counts, unused-tool status and North omission describe that version. The [current memorandum](memorandum-draft.md) incorporates later author-supplied Perplexity feedback and a verified North citation; see [revision notes](REVISION-NOTES.md).
+
 **Review date:** September 18, 2026  
 **Baseline:** `55b476f74a5cf0caae6c16a3492c0a2b106adb26`  
 **Reviewed draft:** `assignments/assignment-01/memorandum-draft.md`  
