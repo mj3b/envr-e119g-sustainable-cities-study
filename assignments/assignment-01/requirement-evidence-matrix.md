@@ -2,20 +2,20 @@
 
 [Assignments](../README.md) / [Assignment 1](README.md) / Evidence matrix
 
-**Purpose:** identify usable inputs and gaps supporting the authorized draft. Candidate inputs are not approved evidence for submission.
+**Purpose:** connect the revised memorandum’s sections to the assignment requirements and remaining student review. AI-assisted checking does not approve the evidence for submission.
 
-The [focused evidence packet](EVIDENCE-PACKET.md) proposes a small source set, claim warrants, qualifications, and a 900-word task architecture.
+**Draft:** [Water Commitments and Accountability in AI Infrastructure](memorandum-draft.md). The [evidence packet](EVIDENCE-PACKET.md) preserves source locators and earlier planning; the [human review appendix](HUMAN-REVIEW-APPENDIX.md) defines the review work.
 
-| Requirement | Candidate inputs | Still needed |
+| Requirement | Revised draft support | Human review still needed |
 | :--- | :--- | :--- |
-| `A1-R1` · Personal engagement | Supplied Georgia residence, Hawaiʻi upbringing, early care-for-land teaching, and AI governance/assurance/evaluation work | Mark's explanation of how these connect to the inquiry; approved personal wording |
-| `A1-R2` · Present knowledge | Selected course claims plus primary case records | Bounded assertions, source fitness, and review of claims used |
-| `A1-R3` · Further inquiry | [Candidate gaps](../../cases/DISCOVERY-ASSESSMENT.md); [research agenda](../../study/RESEARCH-AGENDA.md) | Prioritize the uncertainty that matters to Mark and could change the analysis |
-| `A1-R4` · Evidence-based analysis | Reading–lecture alignment; source locators; rival explanation | Explain the inference and preserve its limits |
-| `A1-R5` · Urban development issues | `L1-04`, `L1-05`, `S-01`, `CD-03` | Affected populations, authority, place-specific ecological conditions, and possible consequences |
-| `A1-R6` · Concepts and debates | Institutions, plural evaluation, cooperation, natural capital | Choose only concepts that improve this inquiry; do not force every theory into the memo |
+| `A1-R1` · Personal engagement | “Why It Matters to Me” and standalone “Closing Reflection”; authentic expanded personal inputs; attributed OHA context | Approve the interpretation and voice; preserve the distinction between personal experience and Native Hawaiian cultural attribution |
+| `A1-R2` · Present knowledge | “What I Currently Know”; Sen pp. 18, 21; Costanza–Daly pp. 38, 44–45; municipal minutes pp. 4–6; Shah’s research context | Verify each paraphrase and limit; distinguish recorded positions from independently established outcomes |
+| `A1-R3` · Further inquiry | Three questions about decision-time evidence, safeguard operation and water-user outcomes; six cases remain open | Explain feasible evidence, rival explanations and findings that would alter the assessment |
+| `A1-R4` · Evidence-based analysis | Observed/interpreted/normative distinctions; favorable case account; challenge to the proposed governance standard | Trace claim → inference → qualification; explain why compliant terms may still be inadequate |
+| `A1-R5` · Urban development issues | Water commitments, affected users, service, costs, ecological conditions and responsibility to act | Confirm that named outcomes are proposed evaluation dimensions, not local findings |
+| `A1-R6` · Concepts and debates | Plural evaluation, natural capital, public reasoning and the limits of procedural safeguards | Explain the selected concepts and their application; North and Ostrom remain outside this draft |
 
-Requirements and their provenance are recorded in [requirements.json](requirements.json). Claim text and locators are in the [claim registry](../../cross-course/claims.json). All current human claim reviews remain pending.
+Requirements and their provenance are recorded in [requirements.json](requirements.json). Claim text and locators are in the [claim registry](../../cross-course/claims.json). All current human claim reviews remain pending. The fresh passage checks and draft-specific citations are documented in the review companions; this revision does not change the canonical registry.
 
 ## What can be carried forward?
 
@@ -26,4 +26,4 @@ Requirements and their provenance are recorded in [requirements.json](requiremen
 | A methodological influence | Explain the research action it motivates; do not treat its reputation as case evidence |
 | A personal experience | Use only Mark's supplied account and approved wording |
 
-Drafting is authorized. The [readiness checklist](readiness-checklist.md) and [draft review record](DRAFT-REVIEW.md) track the remaining work before submission.
+The argument body is 997 words; its 32-word AI acknowledgment brings the reported count to 1,029. Mark allows expansion beyond 1,000, while the course guidance remains approximately 800–1,000. The [readiness checklist](readiness-checklist.md), [pre-submission review](PRE-SUBMISSION-REVIEW.md) and [draft review record](DRAFT-REVIEW.md) track remaining work. No human approval or submission is recorded.

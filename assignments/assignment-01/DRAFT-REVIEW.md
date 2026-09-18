@@ -8,16 +8,18 @@
 
 | Item | Current record |
 | :--- | :--- |
-| Title | Governing AI Infrastructure Before Cities Commit Shared Resources |
+| Title | Water Commitments and Accountability in AI Infrastructure |
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
 | Question | What evidence should justify a city’s water commitment, and who must act if its assumptions fail? |
-| Argument body | 998 words |
-| Brief AI acknowledgment | 32 words; combined with body, 1,030 words |
-| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction targets about 1,000 and permits up to 1,100; the stated total includes the acknowledgment |
+| Argument body | 997 words |
+| Brief AI acknowledgment | 32 words; combined with body, 1,029 words |
+| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction permits expansion beyond 1,000; it does not establish an instructor exception. All pre-References text, including metadata/title/headings/list numerals, totals 1,083 words |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
 
-The Word version follows the user’s memorandum format: To/From/Date/Subject, title, five analytical sections and References. APA 7 governs citations and reference styling; the memo replaces the earlier separate student title page. Its production and visual checks are recorded below. The Markdown file preserves the same wording for repository review. The revised opening connects the evidence justifying a water commitment with responsibility to act if its assumptions fail. It distinguishes a proposed standard for accountable governance from demonstrated protection of people and ecological conditions. The personal reflection connects Hawaiʻi, Georgia and professional concerns through a concrete resource decision. At Mark’s subsequent request, the research agenda and closing are merged under “Questions for Further Investigation.” The source-based analysis and tensions section are preserved.
+The Word version follows Mark’s memorandum format: To/From/Date/Subject, title, six analytical sections and References. APA 7 governs the citations and reference styling. The Markdown preserves the same wording. A separate human-review companion provides preparation material; it is excluded from the memo’s count and is not automatically part of the course submission.
+
+The [full pressure test](PRE-SUBMISSION-REVIEW.md) records the diagnostic review before revision, with a paragraph-level outline, claim audit, cultural review, compression options and the revised memo. Its 74/100 editorial score applies to the prior draft, not to the revision or an anticipated instructor grade. The [human-review companion](HUMAN-REVIEW-APPENDIX.md) gives the exact passages, eight pending actions and their exit conditions.
 
 ## Assignment coverage
 
@@ -30,18 +32,20 @@ The Word version follows the user’s memorandum format: To/From/Date/Subject, t
 | `A1-R5` · Urban development | Shared resources, public authority, affected populations and ecological conditions | Population boundaries and local thresholds remain to be established |
 | `A1-R6` · Concepts and debates | Sen’s plural evaluation; Costanza and Daly’s natural capital and ecological constraints | The readings specify questions; neither determines the municipal verdict |
 
-## Why the exploration and closing are merged
+## What the pressure test changed
 
-The final section moves from justification to implementation to outcomes, then returns to the personal responsibility that motivates the inquiry. Its questions specify findings that could change the assessment rather than only listing documents to retrieve.
+The standalone Closing Reflection returns to the responsibility learned in Hawaiʻi after explaining how the readings complicate the evaluation framework. Sen raises the public choice of criteria; Costanza and Daly require examination of the ecological conditions supporting promised benefits. These are current interpretations for Mark to review, without invented memories or claims of completed personal reading.
 
-| Research practice | What the question asks the evidence to distinguish |
+| Revision | Evidence or reasoning it preserves |
 | :--- | :--- |
-| Competing explanations and revision | Overlooked uncertainty versus safeguards or an explicit trade-off; adverse-scenario analysis can weaken an interpretation of unexamined risk |
-| Institutional implementation | A written condition versus a documented trigger and response, with staffing, funding and incentives considered |
-| Outcome evaluation | An agreement’s intended benefit versus comparable outcomes; changes in weather, workload or infrastructure remain rival explanations |
-| Measurement and distribution | Withdrawals, consumption and household costs with compatible boundaries/periods; residents’ accounts can reveal effects missed by official measures |
+| Three distinct research questions | What justified one commitment; what conditions required a response; what changed for water users |
+| A stronger counterargument | Transparent, enforceable terms can still permit an unfair or ecologically excessive allocation |
+| Qualified implementation inference | A response record provides evidence to check against monitoring and required action; documentation alone is not proof of effectiveness |
+| Conditional outcome attribution | A safeguard’s effect requires implementation evidence, a usable baseline/comparison and examination of rival explanations |
+| Measurement and community experience | Withdrawals, consumption, costs, reliability and ecological observations need compatible boundaries/periods; residents’ accounts could reveal conditions official measures might miss |
+| Corrected paraphrases | Costanza–Daly’s renewable-resource qualifier restored; city involvement narrowed to “throughout the process” |
 
-These practices draw on the maintained [influence register](../../standards/INFLUENCES.md). They are proposed research actions, not new findings, validated organizational methods for this case, or claims of completed preregistration.
+The reasoning habits are consistent with the maintained [influence register](../../standards/INFLUENCES.md). They are proposed research actions. The memo claims no institutional endorsement, validated local causal method or completed preregistration. The same scrutiny is proposed for favorable and adverse observations.
 
 ## Source checks for the actual sentences
 
@@ -50,14 +54,16 @@ These are AI-assisted passage and metadata checks, not human fidelity approvals.
 | Source | Inspected support | Interpretation retained |
 | :--- | :--- | :--- |
 | `S00` · Sen (2000) | Supplied text, printed p. 18 / PDF p. 3; printed p. 21 / PDF p. 6. Publisher metadata confirms 2000 and DOI | Plural dimensions and public discussion of evaluative weights; application to infrastructure is the draft’s reasoning |
-| `CD92` · Costanza and Daly (1992) | Supplied text, printed pp. 38, 44–45 / PDF pp. 3, 9–10. Publisher metadata and DOI checked | Stocks and flows, regeneration/assimilation constraints, and limits of the proposed operational principles |
-| `EXT-DAL-MIN` · City of The Dalles (2021) | Primary minutes pp. 4–6; attached comment p. 7 | Recorded funding/participation statements, public requests, councilors’ reported review and the 5–0 authorization |
+| `CD92` · Costanza and Daly (1992) | Supplied text, printed pp. 38, 44–45 / PDF pp. 3, 9–10. Publisher metadata and DOI checked | Stocks and flows; renewable-resource harvesting, regeneration and waste assimilation; incomplete measurement guidance and action under uncertainty |
+| `EXT-DAL-MIN` · City of The Dalles (2021) | Primary minutes pp. 4–6 freshly reopened; attached comment p. 7 locator carried forward from the earlier review | Recorded funding and city involvement throughout the process, public requests, councilors’ reported review and the 5–0 authorization |
 | `EXT-OHA-AINA` · Office of Hawaiian Affairs (n.d.) | “ʻĀina – Land & Sea,” paragraphs 2–4 after the opening proverb | An attributed Native Hawaiian institutional account of mālama ʻāina, reciprocal care and ancestral relationships; not evidence of Mark’s identity or exact childhood instruction |
-| `EXT-SHAH-2026` · Shah (2026) | Primary PLOS Water essay, abstract, introduction and “A call for future research”; bibliographic metadata | Water insecurity, disclosure and context-specific institutional inquiry; an essay, not an original local causal estimate |
+| `EXT-SHAH-2026` · Shah (2026) | Primary PLOS Water essay, abstract and “A call for future research”; bibliographic metadata. Introduction inspected in earlier review | Water insecurity, disclosure and context-specific institutional inquiry; an essay, not an original local causal estimate |
+
+The September 18 pressure test freshly checked the supplied extracted Sen and Costanza–Daly passages and bibliographic covers; it did not freshly inspect original page images. Indexed official publisher metadata supported the reference details where direct publisher opens failed. Municipal minutes, OHA, Shah and the existing AI product URLs were reopened. A second AI check found the revised source claims supported within these limits. No underlying municipal study, executed agreement or later outcome dataset was inspected.
 
 Canonical support includes `S-01`, `S-03`, `CD-01`, `CD-04`, `CD-06`, `CASE-DAL-01`, `CASE-DAL-02`, `CASE-DAL-04`, `CASE-DAL-05`, `LIT-SHAH-01` and `CULT-OHA-01`.
 
-The municipal record does not establish an AI workload share, physical water consumption, subsequent performance or the absence of technical evidence. Its relevance is a governance analogy. The draft tests a favorable interpretation as well as possible harms.
+The municipal record does not establish an AI workload share, physical water consumption, subsequent performance or the absence of technical evidence. Its relevance is a bounded documentary illustration informing the AI-infrastructure inquiry. The draft tests a favorable interpretation as well as possible harms.
 
 North was omitted after checking the supplied reprint’s different pagination. The draft does not cite an unread journal edition or add Ostrom merely to increase the number of authors. The bibliography contains five substantive sources and two AI-tool references.
 
@@ -81,13 +87,13 @@ The tool references identify software used; the unheaded acknowledgment explains
 
 | Check | Status |
 | :--- | :--- |
-| Source support, scope and citation metadata | AI-assisted review completed within the locators above |
-| Body and acknowledgment length | 998 + 32 = 1,030 words, excluding headings, list numerals and references |
-| Personal facts | Uses Mark’s expanded account of classrooms, communities, lands/waters and Georgia perspective; no invented memory, universal education claim or implied Native Hawaiian identity |
-| Word formatting and all-page visual inspection | Five pages rendered and individually inspected; five analytical sections, three native numbered questions, seven references and exact Markdown prose fidelity verified |
+| Source support, scope and citation metadata | AI-assisted review completed within the locators above; corrected wording rechecked |
+| Body and acknowledgment length | 997 + 32 = 1,029 words, excluding metadata, title, headings, list numerals and references; all pre-References text is 1,083 words |
+| Personal facts | Uses Mark’s supplied classrooms/community, lands/waters and Georgia context; no invented event, universal education claim or implied Native Hawaiian identity |
+| Revised Word memo and separate companion | Memo: six pages, exact Markdown prose match, six analytical sections, three native numbered questions and seven hanging-indent references. Companion: eight pages, all substantive source text preserved, eight tables and five clickable source links. All fourteen rendered pages visually inspected |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
 | Human review and submission | Pending; G1–G3 and live human receipts unchanged |
 
-The Word artifact specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The title and analytical headings are single-spaced with 6 points before and no added spacing after; the References heading retains double spacing. This heading-only adjustment keeps the closing with the research questions. The brief italic acknowledgment uses compact 13.5-point leading; body/reference baselines measure 27.6 points in the preview. The bundled renderer substituted metrically compatible Liberation Serif, and its final five-page output was inspected in full. The merged research agenda and closing fit within the margins. Raw render images and private course originals are not repository artifacts.
+The Word memo specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The title and analytical headings are single-spaced with 6 points before and no added spacing after; the References heading retains double spacing. The brief italic acknowledgment uses compact 13.5-point leading. The bundled renderer substituted Liberation Serif, with 27.6-point body baseline spacing. The full Closing Reflection and acknowledgment remain together on page 5; References begin on page 6. The separate companion requests Calibri 11, with 10-point table text; the preview substituted Carlito. Source guides use labeled prose, while review/comparison tables have repeating headers and rows kept intact. Visible-character bounds passed on every page; invisible trailing spaces were excluded from that geometric check. Raw render images and private course originals are not repository artifacts.
 
-Mark’s final review should cover the cited passages, the meaning of the personal reflection and whether he can explain the argument in his own words. Record any approval against the actual revised artifact. Confirm the live submission settings before submitting.
+Mark’s final review should cover the cited passages, the meaning of the personal reflection and whether he can explain the argument in his own words. Record approval against the actual revised artifact. The companion provides the review path and an empty action log; it supplies no completed human receipt. Confirm the live submission settings before submitting.

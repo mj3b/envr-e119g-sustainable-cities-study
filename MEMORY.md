@@ -12,8 +12,10 @@
 | Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
 | Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
 | Draft Assignment 1 with APA 7 | Explicit user authorization of an APA 7 memorandum draft, September 18, 2026 (UTC) | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
-| Use the requested memo structure | User revision, September 18, 2026: To/From/Date/Subject; later merged exploration and closing | Remove the standalone AI section; acknowledge actual assistance briefly and retain tool citations |
-| Apply the authoring prompt to personal reflection; follow subsequent annotation scope | User clarified and extended the revision on September 18, 2026 | Later comments authorize a stronger opening, deeper research questions and a merged exploration/closing, targeting about 1,000 words with up to 1,100 permitted; preserve the bounded municipal illustration |
+| Use the current memo structure | September 18 pressure-test revision supersedes the earlier merged exploration/closing | Retain To/From/Date/Subject and a separate Closing Reflection; keep the short AI acknowledgment and tool citations |
+| Apply the full pressure test and preserve personal ownership | User expanded the review to the full memorandum on September 18, 2026 | Test sources, reasoning, alternatives, voice and APA presentation; supplied personal inputs do not approve the final wording |
+| Allow a modest expansion beyond 1,000 words | User permission for the revised draft | Current count is 997 body words plus a 32-word acknowledgment, or 1,029 combined; the course’s approximate 800–1,000 guidance has not been waived |
+| Keep the review companion separate | Current review design | Use HUMAN-REVIEW-APPENDIX.md and PRE-SUBMISSION-REVIEW.md for review; do not add the appendix to a course submission by default |
 | Treat additional AI tools as planned | User clarified Perplexity, SciSpace and Claude have not been used for this memorandum | Do not cite planned tools as completed research |
 | Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
@@ -37,7 +39,7 @@ Repository authorization does not supply a human fidelity review. It also does n
 
 Prior AI-authored introductions are planning context. They do not verify autobiographical claims. Personal reflection and endorsement of an argument remain the user's responsibility.
 
-The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [review record](assignments/assignment-01/DRAFT-REVIEW.md), and the supporting [evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md).
+The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The current title is **Water Commitments and Accountability in AI Infrastructure**. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md), and the [pre-submission review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md). All human approvals and submission remain unrecorded.
 
 ## Resume from evidence, not recollection
 

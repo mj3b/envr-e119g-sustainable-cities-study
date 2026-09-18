@@ -11,7 +11,7 @@
 | Course knowledge | Four reading dossiers; two class analyses; argument maps, lecture comparisons, rivals and bounded translation tasks | North/Ostrom edition issues; whole-lecture coverage and speaker verification |
 | Evidence architecture | 36 source records, 61 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
 | Decision research | 44 objects across 12 types; worked design; six comparable candidate dossiers | No selected geography or completed physical-outcome dataset |
-| Assignment 1 | Five-section memorandum linking justification, monitoring and correction, with APA 7 citations, a brief AI acknowledgment, evidence packet and review record | Student approval, completed human source adjudication and submission remain pending |
+| Assignment 1 | Six-section memorandum with a restored Closing Reflection, APA 7 citations and brief AI acknowledgment; full pressure test and separate human-review/evidence companion | Student approval, completed human source adjudication and submission remain pending |
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
@@ -24,10 +24,12 @@
 | Privacy | Tracked and non-ignored untracked paths plus reachable Git history; authored prose separately inspected for private raw content |
 | Navigation | Inline local Markdown path targets checked by the runner; anchors and external-link availability are outside that check |
 | Layout | Representative pages rendered locally with network requests blocked; no whole-page overflow in inspected desktop/narrow layouts |
-| Memorandum layout | Five-page Word memo rendered and all pages inspected; [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records typography and preview limits |
+| Memorandum and companion layout | Six-page Word memo and eight-page review companion rendered; all fourteen pages visually inspected and source-text fidelity checked. [Draft review](assignments/assignment-01/DRAFT-REVIEW.md) records typography and preview limits |
 | Human review | Live receipts remain empty; both classes' G1, G2 and G3 remain pending |
 
 The [automated receipt](governance/evaluation-results.json) records actual command results and file fingerprints. A stale receipt must be regenerated. It is not an independent certificate. See [revision audit](audit/METHODS-AND-ASSURANCE.md) for scope and corrections.
+
+The [pressure-test report](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) preserves the baseline diagnosis and revised memo. The [human-review companion](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) expands the deadline queue into source-specific reading and argument checks; all human actions remain pending.
 
 ## Deadline sequence
 

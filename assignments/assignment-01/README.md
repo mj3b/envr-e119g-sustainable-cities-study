@@ -4,17 +4,21 @@
 
 | Scope | Verified format | Status |
 | :--- | :--- | :--- |
-| Personally grounded urban-sustainability inquiry | Approximately 800–1,000 words | APA 7 draft; student review pending |
+| Water commitments, public accountability and ecological conditions | Approximately 800–1,000 words | Revised APA 7 draft; human review pending |
 
-## Read the draft
+## Water Commitments and Accountability in AI Infrastructure
 
 | Artifact | Purpose |
 | :--- | :--- |
-| [Research memorandum](memorandum-draft.md) | Read the six-section memo, personal reflection, APA citations and brief AI acknowledgment |
+| [Research memorandum](memorandum-draft.md) | Read the memo, including the restored standalone Closing Reflection, APA citations and brief AI acknowledgment |
 | [Draft review record](DRAFT-REVIEW.md) | Inspect evidence choices, remaining checks and student-review status |
+| [Human review appendix](HUMAN-REVIEW-APPENDIX.md) | Follow the source reading guide, eight review actions and final-artifact record; kept separate from the memo |
+| [Pre-submission review](PRE-SUBMISSION-REVIEW.md) | Inspect the full pressure test and corrections before deciding what is ready to submit |
 | [Supporting evidence packet](EVIDENCE-PACKET.md) | Trace preparation claims, locators and competing interpretations |
 
-The user explicitly authorized drafting on September 18, 2026 (UTC). Draft status does not imply submission, human source approval, or a final semester case selection.
+The revised argument contains **997 words**, plus a **32-word acknowledgment: 1,029 combined**. Mark permits expansion beyond 1,000 words; the course’s approximate 800–1,000-word guidance remains unchanged. Confirm the live counting rule before submission. References and the separate review appendix are outside this reported count.
+
+Drafting and revision are authorized. Authentic personal inputs have been supplied; Mark’s approval of the final voice, source interpretations and artifact remains pending. No submission or final semester case selection is recorded.
 
 ## The course brief
 
@@ -31,7 +35,7 @@ The syllabus lists September 18 and 10% (`SYL`, PDF p. 6). Confirm live submissi
 
 ## Focused evidence packet
 
-[Governing AI infrastructure](EVIDENCE-PACKET.md) connects the user-selected governance, people, and ecological dimensions through one guiding question. It includes the supplied personal context, a small course-claim set, a municipal illustration, rival interpretations, a 900-word task architecture, and a pending human review queue. It contains no memo prose and does not select the semester case.
+[Governing AI infrastructure](EVIDENCE-PACKET.md) connects the user-selected governance, people, and ecological dimensions through one guiding question. It includes supplied personal context, passage locators, a municipal illustration, rival interpretations, the earlier 900-word planning allocation, and an updated eight-action human review queue. It contains no memo prose and does not select the semester case.
 
 ## Preparation and review path
 
