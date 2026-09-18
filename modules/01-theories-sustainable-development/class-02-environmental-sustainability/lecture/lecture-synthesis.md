@@ -23,3 +23,9 @@ L2-06 [instructor_lecture]: Nora asks students to know their case well enough to
 L2-07 [instructor_lecture]: Nora reassures a student that a small real case can contain sufficient complexity for the semester. (L2, Speaker 2, 1:47:00–1:47:12).
 
 Speaker roles are inferred from context, not verified against audio. These paraphrases do not certify full lecture coverage.
+
+## Research interpretation: conditions, implementation, and consequences
+
+`L2-01` and `L2-02` motivate specifying the resource, participants, incentives and setting before transferring a governance proposal. `L2-03` prevents treating a signed condition as an environmental result. A proposed water project, an operating plant and a measured change in aquifer demand represent different stages. `L2-04` asks what valuation omits and whether a financial offset preserves the relevant physical function. These are our applications of the lecture claims.
+
+For case selection, Nora’s `L2-05`–`L2-07` and Cristina’s `TA-01` and `TA-04` support a focused inquiry that can grow across the course. The comparative discovery stage serves that choice. It does not turn the assignment into a six-city study. The personal account remains Mark’s, and the evidence may require narrowing the initial question.

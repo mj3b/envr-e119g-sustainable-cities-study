@@ -3,7 +3,9 @@
   "claim_ids": [
     "CD-01",
     "CD-02",
-    "CD-03"
+    "CD-03",
+    "CD-04",
+    "CD-05"
   ],
   "argument_map": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/argument-map.md",
   "limitations": [

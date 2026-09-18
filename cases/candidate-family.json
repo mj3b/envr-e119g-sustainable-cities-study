@@ -3,7 +3,7 @@
   "status": "candidate_family",
   "geography_locked": false,
   "selected_case_id": null,
-  "unit": "one urban AI/data-center approval, expansion, or utility decision",
+  "unit": "One bounded urban infrastructure decision; facility, service, agreement, or rule change. Distinguish these decision types before comparison.",
   "required_fields": [
     "place",
     "time_window",
@@ -55,6 +55,74 @@
         "Seek independent community and physical-impact records"
       ],
       "selected": false
+    },
+    {
+      "id": "CAND-GEORGIA",
+      "place": "Georgia; Georgia Power service territory, local anchor pending",
+      "time_window": "2024–2026; January 23, 2025 rule as candidate decision",
+      "decision": "Large-load contract and billing rule",
+      "source_ids": [
+        "EXT-GA-PSC"
+      ],
+      "fit": "Traceable regulatory action; urban facility and affected customer group still need bounding.",
+      "gaps": [
+        "Obtain adopted order and applicable tariff",
+        "Choose a Georgia locality and facility linked to this service territory",
+        "Acquire cost-allocation filings and bill outcomes"
+      ],
+      "selected": false
+    },
+    {
+      "id": "CAND-HAWAII",
+      "place": "Hawaiʻi; island, community, and facility pending",
+      "time_window": "2026 inquiry; project window unresolved",
+      "decision": "SCR95 SD1 committee recommendation is a discovery lead",
+      "source_ids": [
+        "EXT-HI-SCR95"
+      ],
+      "fit": "Potential prospective governance contrast; no facility decision established.",
+      "gaps": [
+        "Verify final resolution disposition",
+        "Identify one facility or urban service decision",
+        "Obtain local resource and community records"
+      ],
+      "selected": false
+    },
+    {
+      "id": "CAND-DALLES",
+      "place": "The Dalles, Oregon; municipal water system",
+      "time_window": "2021 decision; subsequent monitoring period to be bounded",
+      "decision": "November 8, 2021 Resolution 21-028",
+      "source_ids": [
+        "EXT-DAL-MIN"
+      ],
+      "fit": "Dated vote with official and public positions in one record.",
+      "gaps": [
+        "Executed agreement and commissioned studies",
+        "Meter series with withdrawal/consumption definitions",
+        "Water-rights and aquifer boundaries"
+      ],
+      "selected": false
+    },
+    {
+      "id": "CAND-TUCSON",
+      "place": "Tucson / unincorporated Pima County, Arizona; Project Blue primary site",
+      "time_window": "July–December 2025 decision sequence; 2026 follow-up discovery",
+      "decision": "Proposed city agreement and later county land-sale pathway; select one anchor decision",
+      "source_ids": [
+        "EXT-TUC-DRAFT",
+        "EXT-PIMA-INDEX",
+        "EXT-PIMA-CLOSE"
+      ],
+      "fit": "Authority and disclosure sequence; city and county pathways must remain separate.",
+      "gaps": [
+        "August city minutes and exact motion",
+        "Executed county agreement and recorded deed",
+        "Power agreement and revised water/cooling specifications"
+      ],
+      "selected": false
     }
-  ]
+  ],
+  "discovery_status": "first_pass_complete_selection_pending",
+  "discovery_record": "cases/discovery.json"
 }

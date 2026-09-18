@@ -2,6 +2,7 @@ import copy,json,shutil,sys,tempfile,unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from validate import ROOT,validate,promotion_errors
+from integrity import claim_digest,gate_digest
 class IntegrityTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name)
@@ -34,11 +35,24 @@ class IntegrityTests(unittest.TestCase):
             for g in d['gates']:g.update(status='pass',reviewer='test-reviewer',reason='Synthetic test approval only')
             p.write_text(json.dumps(d))
         p=self.root/'cross-course/claims.json';d=json.loads(p.read_text())
-        for c in d:c.update(status='source_checked',human_review='approved')
+        for c in d:
+            c.update(status='source_checked',human_review='approved')
+            # Synthetic fixture only: real speaker uncertainty must be human resolved.
+            if c['speaker_role']=='unknown':c['speaker_role']='student'
+            if c['evidence_class'] in {'instructor_lecture','ta_guidance','peer_discourse'} and c['speaker_confidence'] in {'low','not_applicable'}:c['speaker_confidence']='medium'
         p.write_text(json.dumps(d))
         p=self.root/'cross-course/omissions.json';d=json.loads(p.read_text())
         for o in d:o['status']='resolved'
         p.write_text(json.dumps(d))
+        receipts=[]
+        def receipt(target,value):
+            receipts.append(dict(target=target,digest=value,decision='approved',reviewer='test-reviewer',rationale='Synthetic fixture only',reviewed_at='2026-01-01T00:00:00Z'))
+        for c in json.loads((self.root/'cross-course/claims.json').read_text()):
+            receipt('claim:'+c['id'],claim_digest(self.root,c['id']))
+        for p in (self.root/'modules').rglob('fidelity-gates.json'):
+            pack=json.loads(p.read_text())
+            for gate in pack['gates']:receipt(f'gate:{pack["class_number"]}:{gate["id"]}',gate_digest(self.root,pack,gate))
+        (self.root/'cross-course/review-receipts.json').write_text(json.dumps(receipts))
         self.assertEqual(promotion_errors(self.root,1),[])
         self.assertEqual(promotion_errors(self.root,2),[])
     def test_passed_gates_do_not_erase_omissions(self):

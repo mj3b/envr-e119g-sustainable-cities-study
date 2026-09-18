@@ -73,6 +73,16 @@ def validate(root=ROOT,local=False):
         if not req['drafting_authorized']:
             if any((root/'assignments/assignment-01').glob('*draft*')):errors.append('Assignment draft exists while paused')
     except (KeyError,TypeError,ValueError,OSError) as e:errors.append(f'Malformed or missing required record: {e}')
+    try:
+        from integrity import checks
+        errors.extend(checks(root))
+    except (KeyError,TypeError,ValueError,OSError,RecursionError) as e:
+        errors.append(f'Malformed cross-file record: {e}')
+    try:
+        from research_checks import checks as research_checks
+        errors.extend(research_checks(root))
+    except (KeyError,TypeError,ValueError,OSError,RecursionError) as e:
+        errors.append(f'Malformed research record: {e}')
     return errors
 
 def promotion_errors(root,class_number):
@@ -95,6 +105,8 @@ def promotion_errors(root,class_number):
     if any(id not in by_id or by_id[id]['human_review']!='approved' or by_id[id]['status']!='source_checked' for id in closure):errors.append('Included claims and dependencies require human approval and source checks')
     omissions=load(root,'cross-course/omissions.json')
     if any(o['status']=='open' and o['severity']=='blocking' and o['class_number'] in [None,class_number] for o in omissions):errors.append('Blocking omissions remain open')
+    from integrity import checks
+    errors.extend(checks(root))
     return errors
 
 def schema_errors(root=ROOT):
@@ -103,6 +115,7 @@ def schema_errors(root=ROOT):
     except ImportError:
         return ['Schema validation requires requirements-dev.txt (pip install -r requirements-dev.txt)']
     pairs=[('source_record','cross-course/evidence-registry.json'),('claims','cross-course/claims.json'),('concepts','cross-course/concept-registry.json')]
+    pairs += [('research_objects','cases/research-objects.json'),('discovery','cases/discovery.json')]
     pairs += [('fidelity_gates',str(p.relative_to(root))) for p in (root/'modules').rglob('fidelity-gates.json')]
     pairs += [('lecture_alignment',str(p.relative_to(root))) for p in (root/'modules').rglob('alignment.json')]
     pairs += [('reading_analysis',str(p.relative_to(root))) for p in (root/'modules').rglob('analysis.json')]

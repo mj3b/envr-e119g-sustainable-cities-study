@@ -7,3 +7,5 @@ Class 2, September 11: environmental sustainability. Ostrom examines cooperation
 The syllabus’s later sequence addresses sustainable cities, air pollution and wildfire, waste and contamination, heat, flooding, water scarcity, and integration. The five assignments develop one inquiry from personal engagement through theory/method, synthesis, strategies, and presentation. Consult SYL for the authoritative schedule and prompts; this map is a navigation summary.
 
 Repository calibration remains open until both class packs pass the three fidelity gates. Assignment 1 is the first downstream use case and remains undrafted.
+
+For a navigable view, begin at [course knowledge](cross-course/README.md). The [course-to-research bridge](cross-course/course-to-research.md) connects claims to empirical questions and rival explanations. [Assignment navigation](assignments/README.md) separates the semester sequence from case discovery.

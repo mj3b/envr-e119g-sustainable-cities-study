@@ -1,0 +1,894 @@
+{
+  "commit": "26b7d3f3933e2ea1dc2ad6ccb5eda20f9d0260af",
+  "files": [
+    {
+      "path": ".githooks/pre-commit",
+      "sha256": "f644b4ba0d812dc0aacd10202554fb0f578cfcbfa514325c9aed6ac31ea48c9f",
+      "bytes": 88,
+      "words": 8,
+      "kind": "extensionless"
+    },
+    {
+      "path": ".githooks/pre-push",
+      "sha256": "ffc5f4ea7d96d52134bfece428f16d742483ee9433f463b3618e4de4740e8e3c",
+      "bytes": 447,
+      "words": 41,
+      "kind": "extensionless"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "1caec6d9f8d3a4ce587c43912c4f3442caa6e85b5f5da62770dafca999e7f8e9",
+      "bytes": 655,
+      "words": 64,
+      "kind": ".yml"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "1d892549c0873a3dd45ec25945bb954c2e6f368891541f4b796b6dfa3ae6254a",
+      "bytes": 44,
+      "words": 5,
+      "kind": "extensionless"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d480fd0bf18588fd2d4a2e7eb7d2ec3bc2e78fcede58565d92f6fb69ff192201",
+      "bytes": 561,
+      "words": 78,
+      "kind": ".md"
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "8f5cea1214dbe7b917da438e3ad3c347d8ec6c4177575ef5413e3231611651c0",
+      "bytes": 980,
+      "words": 131,
+      "kind": ".md"
+    },
+    {
+      "path": "BUILD-STATUS.md",
+      "sha256": "33a90b57e63b56f7ff84317267cb38307e158c19eb0fdd5017fe61a9c1154caa",
+      "bytes": 1728,
+      "words": 232,
+      "kind": ".md"
+    },
+    {
+      "path": "CITATION-POLICY.md",
+      "sha256": "7ba48065690fbbfebe89ceec5e3ce8f2e9d317814a4148ec830f3a70dc861b1d",
+      "bytes": 1490,
+      "words": 200,
+      "kind": ".md"
+    },
+    {
+      "path": "COURSE-MAP.md",
+      "sha256": "8814d74375d79363c80aa5888536f506657c8400831f90a8c30a4ed8103c2682",
+      "bytes": 1017,
+      "words": 132,
+      "kind": ".md"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "f0714cf0a45fb8bce68c9732a45ccbdeb56f4fab8a1b15dab53359815aacaae8",
+      "bytes": 2184,
+      "words": 288,
+      "kind": ".md"
+    },
+    {
+      "path": "README.md",
+      "sha256": "32974c35dbfebb3fc06ce7b756b3d082faa1ae101906da13fd458ff44ecd44be",
+      "bytes": 2896,
+      "words": 325,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-01/README.md",
+      "sha256": "4cb6b3d017a9c76ea43b105c09b5ed4dc043f1eb5c1869f971d34d593577b3ba",
+      "bytes": 1203,
+      "words": 151,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-01/readiness-checklist.md",
+      "sha256": "eb8c1baa45e1a2dc837a15373437b5c865ee5d4ab1b3ce62b12300d62c3f4d86",
+      "bytes": 962,
+      "words": 150,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-01/reflection-and-evidence-worksheet.md",
+      "sha256": "da60ea2ab5c067466e4f47811065eaebb59a16d101d55d896f09500485925f16",
+      "bytes": 2397,
+      "words": 378,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r1.json",
+      "sha256": "4db00b29988c7296980a286cd62e1fa8097007959e58ad3b6be520cdabaccdcf",
+      "bytes": 265,
+      "words": 31,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r2.json",
+      "sha256": "75387321bb8fa5e04198125ebbfe94d60d094c938549be089e97a9ff4b30e395",
+      "bytes": 295,
+      "words": 34,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r3.json",
+      "sha256": "c862bac0b45ff12f69e6bfdc345c01da583d05805170a69727b292f15b3bdf61",
+      "bytes": 280,
+      "words": 33,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r4.json",
+      "sha256": "807b3b4954f1151bb9f6d1190720d0188c942dedd00c8498f2e3608ce57ccb5c",
+      "bytes": 294,
+      "words": 34,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r5.json",
+      "sha256": "a85a52a9dd1897fb9e2ed41c18f2316d8f9cb77253e8c7fbba610a3a9f8be7a3",
+      "bytes": 306,
+      "words": 35,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/relevance/a1-r6.json",
+      "sha256": "53071ae5740e99bec54382d781d91c19fe7f6db88bc6e0a09ee3090097f1480f",
+      "bytes": 304,
+      "words": 35,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/requirement-evidence-matrix.md",
+      "sha256": "a2dc3b96108b3f0a2d1fd360a7583e1a300c8edb9706919736c185bda5c9880c",
+      "bytes": 885,
+      "words": 132,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-01/requirements.json",
+      "sha256": "a1ed5bcfa30076d990a9c72bcf0e4528bf1bffd9562c0f91eba54ae35e474427",
+      "bytes": 1110,
+      "words": 114,
+      "kind": ".json"
+    },
+    {
+      "path": "assignments/assignment-01/research-process-worksheet.md",
+      "sha256": "6d23422eff8f8871ae968e33720201ae8b8636f8daa8704a366eb8442cc6a7c7",
+      "bytes": 1130,
+      "words": 172,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-02/README.md",
+      "sha256": "be3c24ff9c7873a244c4c59840e656a309e2f40e232cfc95f325aa9ba9b5e5a8",
+      "bytes": 185,
+      "words": 29,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-03/README.md",
+      "sha256": "64b267e3f89d42b794eb7ecefb7783499972d9e5aa6d9e3e1baaa06b5cec6a17",
+      "bytes": 190,
+      "words": 28,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "357fa07f1b3e6b4bddea496ad51b3b3b8a465c07b05db7cd2176c9b13c6267fa",
+      "bytes": 200,
+      "words": 30,
+      "kind": ".md"
+    },
+    {
+      "path": "assignments/assignment-05/README.md",
+      "sha256": "aac13058be022ad46dad6b2cb2fb5908b820f4e41ac587ad7be9ee37db8a2967",
+      "bytes": 199,
+      "words": 30,
+      "kind": ".md"
+    },
+    {
+      "path": "bridges/README.md",
+      "sha256": "374534b39132489686d83fe3872b1a448818fcf80a60134766490cf27fa92902",
+      "bytes": 1661,
+      "words": 246,
+      "kind": ".md"
+    },
+    {
+      "path": "cases/README.md",
+      "sha256": "5a4ee863bbd927ab76165f07b1ba35f5fe6feabb10628d0d00aea9d16918efc8",
+      "bytes": 1133,
+      "words": 143,
+      "kind": ".md"
+    },
+    {
+      "path": "cases/candidate-family.json",
+      "sha256": "2052c9a602069b82f3f45d025f8a33333489c90133ac515b2f78399414cf2bac",
+      "bytes": 1834,
+      "words": 172,
+      "kind": ".json"
+    },
+    {
+      "path": "cases/decision-record.template.json",
+      "sha256": "5fcf12ae71f40bf09525cac0b35fc53b40bffd530f0c5eb27e96064f97950081",
+      "bytes": 535,
+      "words": 53,
+      "kind": ".json"
+    },
+    {
+      "path": "cases/measurement-record.template.json",
+      "sha256": "4846283912cbdcd6a5a064d9182e6b0b6b10d0654d9879daf3615ca2976efbe9",
+      "bytes": 320,
+      "words": 32,
+      "kind": ".json"
+    },
+    {
+      "path": "config/course.yaml",
+      "sha256": "4117ae3fcf169c65f83c46b40f2a88859bee1e3cf76fbb6718e0667fe52df317",
+      "bytes": 199,
+      "words": 19,
+      "kind": ".yaml"
+    },
+    {
+      "path": "config/reading-profile.yaml",
+      "sha256": "abe94c7801334f75345bb35a14c2c2b05fe86cc9620238461b8ce22866625316",
+      "bytes": 346,
+      "words": 21,
+      "kind": ".yaml"
+    },
+    {
+      "path": "config/source-types.yaml",
+      "sha256": "9cbb10add8412cb094128b1fc7826e0f7fc6e236390a444766986adb110f71ee",
+      "bytes": 328,
+      "words": 21,
+      "kind": ".yaml"
+    },
+    {
+      "path": "cross-course/author-registry.json",
+      "sha256": "36f0862906a5e7027354a616d643258c7be3831ee3bc591797018852ff11ba9e",
+      "bytes": 414,
+      "words": 51,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/claims.json",
+      "sha256": "f88f8846de80f3a04fe2fdb250716acd2d6b5e76b5aa4684ee2fc12761678392",
+      "bytes": 26960,
+      "words": 2417,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/concept-registry.json",
+      "sha256": "af32837f0482477bc5443f24c0503242ab982f873d03a5931bf55a0f561b52be",
+      "bytes": 5058,
+      "words": 476,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/cumulative-synthesis.md",
+      "sha256": "6a658894ebaf563b4b6300b97ac2a25d83d1206d15b3bf5ca8a211cad5e132b0",
+      "bytes": 407,
+      "words": 53,
+      "kind": ".md"
+    },
+    {
+      "path": "cross-course/evidence-registry.json",
+      "sha256": "bf787be31f08500681ccedbb2627d1a19023893f7665825eb3d05dd4fdfa30d6",
+      "bytes": 13373,
+      "words": 1105,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/lecture-segment-index.json",
+      "sha256": "cd10ab652af21895f49f8358cb3354baa19773e132c813efd595db27355d3a7e",
+      "bytes": 41373,
+      "words": 3181,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/omissions.json",
+      "sha256": "3d3431a753f451475c52a6754c4620a066dca9f85c03e8114b787328d6c0fd13",
+      "bytes": 2158,
+      "words": 216,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/theory-registry.json",
+      "sha256": "7ee610f53f5593ee64e4705f011e30e16438566910f6a884ac7da47faa0a6fb6",
+      "bytes": 890,
+      "words": 108,
+      "kind": ".json"
+    },
+    {
+      "path": "cross-course/unresolved-questions.md",
+      "sha256": "3f5238c82b4c5941e661cf77688932654ba6c3d44a3fbd677bec094a32ae4181",
+      "bytes": 398,
+      "words": 53,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/README.md",
+      "sha256": "42b0ccea2c50c8419260d846650aab4174c80b0c06b8cdbbbcd57d5f5fd73adb",
+      "bytes": 391,
+      "words": 55,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/divergence-log.md",
+      "sha256": "2bb02a7a591e4de32574642e847d9e24c1e162bca95b48a9b68cffb63476692f",
+      "bytes": 504,
+      "words": 91,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/fidelity-gates.json",
+      "sha256": "a8c83c8ade52435f800e0dd5772781244a441221205823fb93e015e37f80aace",
+      "bytes": 1251,
+      "words": 91,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/alignment.json",
+      "sha256": "e9d400aca67aaa34ea614b3954cc4a748e354dfc46efca8dc7935f50ea421f87",
+      "bytes": 1514,
+      "words": 151,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/claims.json",
+      "sha256": "5d28c30137e8a9a23b9237f0320454882cf633093f97ffbb4718230d8b3df43e",
+      "bytes": 89,
+      "words": 10,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/instructor-emphasis.md",
+      "sha256": "34d5ec92c750213f9aeb224f8293456ac17a282b46dc26cf7eae2b88a4894a66",
+      "bytes": 774,
+      "words": 124,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/lecture-synthesis.md",
+      "sha256": "0f21beab357f0b6a6fe93c0436ec58e31670cabbbbd3c1f0084e334cb87cc476",
+      "bytes": 1046,
+      "words": 123,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/reading-alignment.md",
+      "sha256": "13c453e218c440f08ab6cdad02c220998dfd5ddc21825b72f2ec41c222a0f779",
+      "bytes": 868,
+      "words": 147,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/analysis.json",
+      "sha256": "a4f55749620f1a24f4dbe40da815aaf6c2df3355775a8bbac2c0b9d45c900525",
+      "bytes": 301,
+      "words": 23,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/argument-map.md",
+      "sha256": "1ffb4f7bf7d536fd0b6d4b77bafff579b4f57fe0e3be5830820dda65905d1f0b",
+      "bytes": 263,
+      "words": 30,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/claims.json",
+      "sha256": "3f1482d310d9c285b2198c268de0b5e57514326bd0c20b709ccd85f8bae6d4ea",
+      "bytes": 60,
+      "words": 8,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/concepts.json",
+      "sha256": "d1e9a2022325492d6538812bb3dfc3c3bd3733a48b5a5167e90d4aec9627bc59",
+      "bytes": 69,
+      "words": 7,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/questions.md",
+      "sha256": "a8ea9aab2b46fdf15face7fe61cfa10b4767823c6b267530558f723f3a48ae0f",
+      "bytes": 273,
+      "words": 37,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/reading-notes.md",
+      "sha256": "430d85972205b274bce584e9e1741e1e03658f70f6fcf6c02a1a7ee17ef1ee02",
+      "bytes": 800,
+      "words": 106,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/source.yaml",
+      "sha256": "7be566baa048dc92d508769ad60919709da5ff44b064f2186f3ca30f8c663dce",
+      "bytes": 73,
+      "words": 4,
+      "kind": ".yaml"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/omissions-report.md",
+      "sha256": "51024cd147870a19e56c77a4675912729756b94f11a11ba82c99274dd39bd777",
+      "bytes": 662,
+      "words": 92,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/peer-discourse/README.md",
+      "sha256": "e1d515903c8705cd6a3a521d0b346878e0aed782f291827d8944300f3aee6559",
+      "bytes": 640,
+      "words": 89,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/peer-discourse/records.json",
+      "sha256": "41cfcac9e6591fd2605452f8a1bae55de80c0e2d0a3feee94f5522454158a983",
+      "bytes": 50,
+      "words": 7,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/analysis.json",
+      "sha256": "27fdace7671026af1a5bd10ee7f47232c71fcb870bf0a607ade114fc3140832a",
+      "bytes": 299,
+      "words": 23,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/argument-map.md",
+      "sha256": "1cf624975f6c1481576f0fd8f9ebd5ecff8c43d617c1b9c1fe165f2b1344a816",
+      "bytes": 280,
+      "words": 35,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/claims.json",
+      "sha256": "b4ac11ef2b8a74739ab7fbd3641ca342129fbeda362549c1aca13fe3df3855dc",
+      "bytes": 60,
+      "words": 8,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/concepts.json",
+      "sha256": "49c98bd26659b50b8c04761a73e331de445acc0d750573bd09719fc7f4ea7ac2",
+      "bytes": 75,
+      "words": 7,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/questions.md",
+      "sha256": "90df5cfb86f1aa1b1e3ea242bedfe694dee6423e6c65b8c50d4d1a3f892e8c08",
+      "bytes": 308,
+      "words": 43,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/reading-notes.md",
+      "sha256": "04054c996963169f67c7a62209bfae1ca61060c2e53a90306791e561893c71ee",
+      "bytes": 727,
+      "words": 100,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/source.yaml",
+      "sha256": "c25be5dcad605c42b4c34ca7aa79d5db237f9e85432765ac2e37d4b730242e58",
+      "bytes": 73,
+      "words": 4,
+      "kind": ".yaml"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/assignment-relevance.md",
+      "sha256": "8773c16b83e5cb11b3a1a1c6c203fdc773a1561834e7b7b537ffe2a89156908f",
+      "bytes": 338,
+      "words": 49,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/concept-map.md",
+      "sha256": "33f4f332c5d5e345b4e0695a123795b76a32b32439de912b72364777d309f876",
+      "bytes": 206,
+      "words": 25,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/north-sen-comparison.md",
+      "sha256": "20855b330f3d7a59a67d627b561457f391f884d30e073f79da8a4618a1281f11",
+      "bytes": 309,
+      "words": 39,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/syn-01.json",
+      "sha256": "267f8266f67c3a09356644ff35ae075d292e1ebf52c816f5aa592f4b8dac3d19",
+      "bytes": 354,
+      "words": 39,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/tensions-and-complements.md",
+      "sha256": "87e0e50d998b1495e75e488bcf97919d6216278a71fc3c3a2ec6c0722e905c81",
+      "bytes": 188,
+      "words": 25,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/urban-application.md",
+      "sha256": "38cae44a54dc4f96860c86789811255eb858a21aabd2bc8c8b16a9c63b87c234",
+      "bytes": 242,
+      "words": 34,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/README.md",
+      "sha256": "6a6eaa2137f9405c4d912193d4d92bf864ec820ca5e16dc98d04434f3ade342c",
+      "bytes": 391,
+      "words": 55,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/analysis.json",
+      "sha256": "192468f1de2c05a22160897e0f94d4206841b646a50d29b6b992273bf5fa2c6e",
+      "bytes": 314,
+      "words": 23,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/argument-map.md",
+      "sha256": "07b32414f779be7762343884f2b23675ceec9f4414ef50a83ab4e4e1ce9aa4aa",
+      "bytes": 306,
+      "words": 38,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/claims.json",
+      "sha256": "e9021cc99620c6673d44c8ec4b0709cee679d03d20539ae8cf540a2b86d8c1b8",
+      "bytes": 63,
+      "words": 8,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/concepts.json",
+      "sha256": "5a99c1c87b9fdb30a73834e2f6e2babeb5321977de27fbc46f85114c9a76a82c",
+      "bytes": 104,
+      "words": 8,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/questions.md",
+      "sha256": "4e1e7bc490ecf9538011d9eca14e999223e5abc4fbc25cdd417f746c4f1574f5",
+      "bytes": 311,
+      "words": 43,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/reading-notes.md",
+      "sha256": "0dc96cb7aefceb6ced8bcb2f4bc8753be40622769591e927dbde1858de7e9db2",
+      "bytes": 773,
+      "words": 100,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/source.yaml",
+      "sha256": "af02dc06470ffdc3e072ffab5f0adf479e9bf7c93798d5a90e9e73582992990e",
+      "bytes": 74,
+      "words": 4,
+      "kind": ".yaml"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/divergence-log.md",
+      "sha256": "e9b38f433f6f26c4b447408796f2b2042fb80d72b70b6eeb1e3a8b58735c5c10",
+      "bytes": 813,
+      "words": 139,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/fidelity-gates.json",
+      "sha256": "e468ee77ddec56a34eef236c48c8cce4d2f086609e318ce465cf6e0c7f3b95ce",
+      "bytes": 1219,
+      "words": 87,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/alignment.json",
+      "sha256": "ee11efce144d68b1a3abb2e530bb03c2a614125cfdb2b6f8ed8addfc9a98688c",
+      "bytes": 1442,
+      "words": 136,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/claims.json",
+      "sha256": "e8ef2e59847476589635d806a053a4427c7c25dea3d711eb5422bf58632c5243",
+      "bytes": 167,
+      "words": 16,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/instructor-emphasis.md",
+      "sha256": "48149dbd89d582fc85fcc7e00b0d9b701984a7d1cb0eaaa1516cb410ae4d8c8d",
+      "bytes": 1069,
+      "words": 168,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/lecture-synthesis.md",
+      "sha256": "3788edca06304a94e9adc86c98ce183f63d985cf359c5251391d06cf22caabca",
+      "bytes": 2044,
+      "words": 265,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/reading-alignment.md",
+      "sha256": "98a5010a284bb305c6ca59eea5d0675084ea559bfb6e689c0eaf1407070552ae",
+      "bytes": 784,
+      "words": 137,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/omissions-report.md",
+      "sha256": "87fa797d87863d458f03ce259fde1b9285f298c99b3c576c901b2d449be3b29e",
+      "bytes": 550,
+      "words": 72,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/analysis.json",
+      "sha256": "b1de1353032b308dbe348db6809757856577d1c3dc7fa58a064692c6e43e5d46",
+      "bytes": 303,
+      "words": 23,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/argument-map.md",
+      "sha256": "8a18434f39bb5988d7b79f28ccb67b140ec39c5c9b94e509f1c21cde52a84f02",
+      "bytes": 318,
+      "words": 37,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/claims.json",
+      "sha256": "9e665daf92c4bb8726ad30f511188a7e59944c72ddc0eb77efa60c41c4ecd820",
+      "bytes": 60,
+      "words": 8,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/concepts.json",
+      "sha256": "7d471f7fe6532bbc732897d674d882a68af9afac4b2e31aee8422eda3764cd3a",
+      "bytes": 76,
+      "words": 7,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/questions.md",
+      "sha256": "3980fdc4d0053c065612dcd2f3b719fb47de96e4df834d43beb4a66b42d97911",
+      "bytes": 310,
+      "words": 43,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/reading-notes.md",
+      "sha256": "dea5d49a04a1d3f5b9bbec6125425b5e3880b20a5e0321e7005d6e61aba9960d",
+      "bytes": 965,
+      "words": 123,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/source.yaml",
+      "sha256": "59bc3ebb167fe7489aa6a46f2dca7ac1800f26dcb2c4317c7a7834caee15171b",
+      "bytes": 73,
+      "words": 4,
+      "kind": ".yaml"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/peer-discourse/README.md",
+      "sha256": "3f6d1c3c230b52ceb9808fe2072474bd59a52ed3b508eb693af829ed337b148b",
+      "bytes": 1183,
+      "words": 160,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/peer-discourse/records.json",
+      "sha256": "151d64e14ba75c79b8bcf830780f68053aaaaed7505da477bf92a0a4a5dab578",
+      "bytes": 102,
+      "words": 11,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/assignment-relevance.md",
+      "sha256": "155e1eb5d04f277e1a750e60a4a26774125e2b4843ba6e4642c8cc44cd0c4043",
+      "bytes": 385,
+      "words": 54,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/concept-map.md",
+      "sha256": "69c0f2659cf70727f40edba11fe24519167a1429a9de3b16d8ee599ccbd34f4d",
+      "bytes": 219,
+      "words": 29,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/syn-02.json",
+      "sha256": "74878b0fd610bf214d80efff0e82fa2013343291bb0b87babfc1c111572e4cab",
+      "bytes": 333,
+      "words": 34,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/syn-03.json",
+      "sha256": "253ec8f33287470afe5bd57bf1e169a25a2dad24b4445113ecd78ee170583d7a",
+      "bytes": 315,
+      "words": 34,
+      "kind": ".json"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/tensions-and-complements.md",
+      "sha256": "0a384537a56721f6a752a2c7b1c35eebde834d7c53ec458ff6c68ef79cb802c4",
+      "bytes": 229,
+      "words": 28,
+      "kind": ".md"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/urban-application.md",
+      "sha256": "30556512e4a5d726eba192db152ec7f1a1094db7bdbfccf0ee33de331fb240ca",
+      "bytes": 258,
+      "words": 34,
+      "kind": ".md"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "44ff0dc2f1e40311b8239e83146749ab9d9cee2a650e699f5464755d552ee20d",
+      "bytes": 19,
+      "words": 1,
+      "kind": ".txt"
+    },
+    {
+      "path": "schemas/README.md",
+      "sha256": "255033943207ef4044441a9eb962ad6b9f36c867997a45659d70c70148ed07eb",
+      "bytes": 894,
+      "words": 107,
+      "kind": ".md"
+    },
+    {
+      "path": "schemas/assignment_relevance.schema.json",
+      "sha256": "b249446237b0d10fcfb8dc251e57501ca7d61a09e46c81857dda770ce13b2470",
+      "bytes": 738,
+      "words": 66,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/claims.schema.json",
+      "sha256": "b94c273721b7772d5b9987b664194ffa42a0f903eb742ee1f02d477976d5a343",
+      "bytes": 2395,
+      "words": 176,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/concepts.schema.json",
+      "sha256": "548914c145489c9089ae2feb05e7c822059f23cb7a1070a10b3fc2f48ebee8f1",
+      "bytes": 1168,
+      "words": 94,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/fidelity_gates.schema.json",
+      "sha256": "feee105423b5539f4873ec11b9e6f96113c2eadda0e2745c6868a0f9cbf359c9",
+      "bytes": 1674,
+      "words": 125,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/lecture_alignment.schema.json",
+      "sha256": "8c80e207cd7590fec1e009a1fe515cbc878a2108836081bc683539bc343ad8c7",
+      "bytes": 913,
+      "words": 73,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/reading_analysis.schema.json",
+      "sha256": "54df80a5389058da803cc1ac3a587e94e0e36077d8c6016af10ded240b62b18f",
+      "bytes": 652,
+      "words": 58,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/source_record.schema.json",
+      "sha256": "dab0d7b03a443eceb32aea0df2693648ec3f595c56b341960e1550c46b9a02b1",
+      "bytes": 1660,
+      "words": 131,
+      "kind": ".json"
+    },
+    {
+      "path": "schemas/synthesis.schema.json",
+      "sha256": "1db0bde028c1c3c854de93248d066e159bd6feda28c0622b9a2334b71c3c8c54",
+      "bytes": 882,
+      "words": 76,
+      "kind": ".json"
+    },
+    {
+      "path": "scripts/ingest.py",
+      "sha256": "a22e748842d6f88f01a9031cbdbba63d304bb3bef311374b1a37af9350dd341e",
+      "bytes": 872,
+      "words": 48,
+      "kind": ".py"
+    },
+    {
+      "path": "scripts/privacy_check.py",
+      "sha256": "fc74c74b531e5a8f8ae53f8523b36ae9c3f70b83c3dce992d384e7ab130f3241",
+      "bytes": 1138,
+      "words": 87,
+      "kind": ".py"
+    },
+    {
+      "path": "scripts/promote.py",
+      "sha256": "ee425df952c763dd9be1631d2d0bbc34b9d574069af8354c7e08848b3a1cc94d",
+      "bytes": 1166,
+      "words": 67,
+      "kind": ".py"
+    },
+    {
+      "path": "scripts/status.py",
+      "sha256": "cbbe32d2e2e3fe3901af483e5ae1c5137dd7f71b23a49c1c26dd03c120446ad2",
+      "bytes": 570,
+      "words": 32,
+      "kind": ".py"
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "143bb651b10630348b0b6d4977c9574c99bea86b459e25f62d38cffaa98a2de5",
+      "bytes": 8645,
+      "words": 560,
+      "kind": ".py"
+    },
+    {
+      "path": "study/README.md",
+      "sha256": "a3021f218fe3592898fbfd5ed245d7012d0387177b586a143b32227aecad1a50",
+      "bytes": 489,
+      "words": 77,
+      "kind": ".md"
+    },
+    {
+      "path": "study/discussion-prep.md",
+      "sha256": "a5ee6d7af81bda4f78182d7dd75656f749ec2b7f0cdf289819f4015b25e9131f",
+      "bytes": 481,
+      "words": 70,
+      "kind": ".md"
+    },
+    {
+      "path": "study/learning-log.md",
+      "sha256": "7e021bef731e1a1c2f8c2f359e63e4a94830552783112a122651357faa8f6409",
+      "bytes": 135,
+      "words": 32,
+      "kind": ".md"
+    },
+    {
+      "path": "study/research-skills.md",
+      "sha256": "40a6479af4467898fcf13bfb067d9930d174322b58813aeb83f9d06fe6d9c0cb",
+      "bytes": 2548,
+      "words": 365,
+      "kind": ".md"
+    },
+    {
+      "path": "study/retrieval-questions.json",
+      "sha256": "f35afb3dadc114d21ed4609e733527987f5b605fda1c500f1df3d4b2f92a0c29",
+      "bytes": 1532,
+      "words": 164,
+      "kind": ".json"
+    },
+    {
+      "path": "tests/test_integrity.py",
+      "sha256": "48ec50eb4e4ca94c4bdfa8b157e9107dd0e141cc98df2174580b2a5484dcf989",
+      "bytes": 3620,
+      "words": 154,
+      "kind": ".py"
+    }
+  ]
+}

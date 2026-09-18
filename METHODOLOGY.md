@@ -13,3 +13,11 @@ Each gate needs a recorded human reviewer and rationale. Pending is not pass. Th
 The reading–lecture matrix classifies alignment, extension, tension, lecture-only application, and peer lead. The emphasis map uses explicit pedagogical treatment, not unmeasured word frequency. Divergences remain visible even when they are complementary interpretations. Omissions records identify absent sources, incomplete coding, edition issues, and uncertainties.
 
 A changing source invalidates its digest. Re-ingestion requires rechecking dependent claims and returning affected gates to pending. Keep earlier decisions and the rationale for corrections in version control. Do not silently overwrite an interpretation with an apparently stronger claim.
+
+## Decision-centered research
+
+The [selection protocol](cases/SELECTION-PROTOCOL.md) separates discovery from geographical commitment. The [research model](cases/RESEARCH-OBJECTS.md) gives questions, hypotheses, assumptions, actors, authority, timelines, decision-time evidence, measurements, contradictions, alternatives and outcomes stable identities. All research objects are our synthesis and retain supporting source/claim references.
+
+The six-candidate comparison is a first-pass evidence assessment. Ordinal scores have explicit reasons, unknowns remain null, and no aggregate score selects geography. Evidence-rich jurisdictions may be overrepresented by accessible records; personal familiarity and opposing interpretations receive separate attention.
+
+Event, publication and actor-access dates are distinct. A later account cannot be used as timely decision evidence without proof of earlier access. A reported condition is separate from its operation and its physical outcome. Measurement boundaries and rival explanations constrain any causal claim. These checks extend the original fidelity controls.

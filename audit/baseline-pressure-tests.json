@@ -1,0 +1,32 @@
+[
+  {
+    "test": "dangling reading claim",
+    "detected": false,
+    "errors": []
+  },
+  {
+    "test": "dangling study claim",
+    "detected": false,
+    "errors": []
+  },
+  {
+    "test": "dangling assignment relevance",
+    "detected": false,
+    "errors": []
+  },
+  {
+    "test": "unknown selected case",
+    "detected": false,
+    "errors": []
+  },
+  {
+    "test": "claim text changed after approval",
+    "detected": false,
+    "errors": []
+  },
+  {
+    "test": "unknown speaker approved",
+    "detected": false,
+    "errors": []
+  }
+]

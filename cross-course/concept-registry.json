@@ -92,7 +92,8 @@
     "term": "Observable rule adherence and reciprocal cooperation",
     "definition": "Observable rule adherence and reciprocal cooperation",
     "claim_ids": [
-      "O-02"
+      "O-02",
+      "O-04"
     ],
     "first_class": 2,
     "definition_status": "source_derived",
@@ -103,7 +104,8 @@
     "term": "Stocks yielding future goods and ecological services",
     "definition": "Stocks yielding future goods and ecological services",
     "claim_ids": [
-      "CD-01"
+      "CD-01",
+      "CD-05"
     ],
     "first_class": 2,
     "definition_status": "source_derived",
@@ -125,7 +127,8 @@
     "term": "Separate maintenance of natural and human-made capital",
     "definition": "Separate maintenance of natural and human-made capital",
     "claim_ids": [
-      "CD-03"
+      "CD-03",
+      "CD-04"
     ],
     "first_class": 2,
     "definition_status": "source_derived",

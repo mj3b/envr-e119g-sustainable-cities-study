@@ -835,5 +835,209 @@
     "limitations": [
       "Original author, publication date, and URL unknown; supplementary methodological reference."
     ]
+  },
+  {
+    "id": "CASE-GA-01",
+    "text": "The PSC announced a January 23, 2025 rule allowing additional contract and billing terms for new Georgia Power customers above a stated 100 MW threshold.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-GA-PSC",
+    "locator": "Page 1, announcement and new-rule paragraphs",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Obtain operative order for exact applicability. MW is power; the release calls it energy. Protection from cost shifting is an intended effect, not a measured result."
+    ]
+  },
+  {
+    "id": "CASE-HI-01",
+    "text": "Senate committees recommended SCR95 SD1, requesting a working group to examine large-data-center impacts and possible reporting, water assessment, and grid-planning requirements.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-HI-SCR95",
+    "locator": "Purpose; amendments (2)(A)–(E); concluding recommendation",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "A committee recommendation does not prove adoption or create an implemented reporting requirement. No specific facility decision established."
+    ]
+  },
+  {
+    "id": "CASE-DAL-01",
+    "text": "The Dalles council voted 5–0 on November 8, 2021 to authorize execution of an infrastructure agreement with Moraine Industries LLC and Design LLC.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-DAL-MIN",
+    "locator": "Page 6, Resolution 21-028 motion and vote",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Inspected source supports this bounded attribution; human fidelity review remains pending."
+    ]
+  },
+  {
+    "id": "CASE-DAL-02",
+    "text": "The council minutes record official assurances about water supply alongside public requests for studies and disclosure.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-DAL-MIN",
+    "locator": "Pages 4–5, discussion; page 7, attached public comment",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Minutes establish that positions were recorded. They do not verify supply sufficiency or represent all residents."
+    ]
+  },
+  {
+    "id": "CASE-DAL-03",
+    "text": "The minutes use both 3.8 and 3.9 million gallons per day when discussing transferred water supply or rights.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-DAL-MIN",
+    "locator": "Page 4, Anderson response; page 5, item 8",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "May reflect rounding, different definitions, or transcription. Neither value is a meter observation of facility water consumption."
+    ]
+  },
+  {
+    "id": "CASE-TUC-01",
+    "text": "The July 14, 2025 city summary describes a draft Project Blue agreement and acknowledges that early nondisclosure requirements constrained information sharing.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-TUC-DRAFT",
+    "locator": "Page 1, Purpose",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Describes the city manager’s account and a proposal; does not establish enforceable terms or actual water outcomes."
+    ]
+  },
+  {
+    "id": "CASE-PIMA-01",
+    "text": "Pima County’s December 24, 2025 memorandum reports prepared closing documents, deposited escrow funds, and an expected land-sale closing that day.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-PIMA-CLOSE",
+    "locator": "Pages 1–2, opening and final paragraphs",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "A later county pathway; obtain the recorded deed to establish completed closing. Does not establish operational commencement."
+    ]
+  },
+  {
+    "id": "CASE-VA-01",
+    "text": "JLARC distinguishes current cost allocation from modeled future system-cost increases associated with data-center demand.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-JLARC",
+    "locator": "Findings: Data centers are currently paying their full cost of service; Data centers create additional financial risks",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Statewide study summary; retrieve methods, scenarios, and appendices before quantitative reuse."
+    ]
+  },
+  {
+    "id": "CD-04",
+    "text": "Costanza and Daly propose that renewable-resource harvesting stay within regeneration and waste emissions within assimilative capacity.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 9, printed 44, operational principle 3(a)–(b)",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "strong-sustainability"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Normative operational proposal; does not establish local ecological thresholds. Extracted text inspected; quotation requires original-page check."
+    ]
+  },
+  {
+    "id": "CD-05",
+    "text": "Costanza and Daly explain that the chosen discount rate materially changes natural-capital valuation and discuss reasons for lower public-policy rates.",
+    "evidence_class": "assigned_reading",
+    "source_id": "CD92",
+    "locator": "PDF page 8, printed 43, discounting discussion",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "natural-capital"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Does not establish one empirically correct discount rate. Extracted text inspected."
+    ]
+  },
+  {
+    "id": "O-04",
+    "text": "Ostrom describes trust and reciprocity as conditional opportunities for cooperation; assuming those capacities alone does not guarantee cooperation.",
+    "evidence_class": "assigned_reading",
+    "source_id": "O09",
+    "locator": "Supplied 2008 working paper, PDF page 12",
+    "class_number": 2,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "paraphrase",
+    "concept_ids": [
+      "trust-reciprocity"
+    ],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Working-paper/chapter equivalence remains unresolved. Extracted text inspected."
+    ]
   }
 ]
