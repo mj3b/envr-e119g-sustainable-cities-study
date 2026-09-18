@@ -45,9 +45,15 @@ On September 18, 2026 (UTC), Mark explicitly authorized an APA 7 research memora
 
 ## Disclosure in the draft
 
-The revised opening note identifies ChatGPT’s exploratory framing and Codex’s source organization, initial drafting, revision, citation formatting and preliminary passage checks. It distinguishes source claims from analysis, records the provisional status of AI checks and states Mark’s responsibility. Following Mark’s annotation, it describes this research process without quoting private prompts. The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts in the memorandum. APA-style tool references use OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex because no specific historical version or publication date is recorded. Original readings and public records support the substantive claims.
+At Mark’s request, the standalone Research Transparency and AI Assistance section was removed when the document was reshaped into a six-section memorandum. A 32-word, unheaded acknowledgment before References identifies ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting. It retains Mark’s responsibility for the submitted argument and citations. Private prompts are not quoted.
 
-The draft contains 880 argument words and a 73-word transparency note. Its factual personal content comes from Mark’s supplied account. Passage checks covered Sen, Costanza/Daly, The Dalles minutes and Shah’s essay; North was omitted to avoid an unresolved edition citation. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records locators, scope and document checks. The Word draft was rendered and all six pages inspected, with its text checked against the Markdown source. No human review, faculty access grant or submission is inferred from document creation.
+The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex. Original readings and public records support the substantive claims.
+
+The current draft contains 855 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s supplied account; no earlier belief or learning transformation was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+
+## Planned tools are not completed research
+
+Mark confirmed that Perplexity, SciSpace and Claude have not been used for this memorandum. They are intended for later research and are excluded from the current acknowledgment and References. Before describing any as used, record the actual task, date, retained result, original sources checked and contribution to the argument. Product names or a deep-research feature label do not establish that research was performed.
 
 ## Before a submission
 

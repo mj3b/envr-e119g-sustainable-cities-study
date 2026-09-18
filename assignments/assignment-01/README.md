@@ -10,7 +10,7 @@
 
 | Artifact | Purpose |
 | :--- | :--- |
-| [Research memorandum](memorandum-draft.md) | Review the argument, personal reflection, in-text citations and references |
+| [Research memorandum](memorandum-draft.md) | Read the six-section memo, personal reflection, APA citations and brief AI acknowledgment |
 | [Draft review record](DRAFT-REVIEW.md) | Inspect evidence choices, remaining checks and student-review status |
 | [Supporting evidence packet](EVIDENCE-PACKET.md) | Trace preparation claims, locators and competing interpretations |
 
