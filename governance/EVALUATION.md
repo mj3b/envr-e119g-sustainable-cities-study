@@ -42,6 +42,8 @@ The runner executes schema/structural validation, local links, privacy path/hist
 
 The fingerprint excludes ignored private originals. Freshness alone therefore does not revalidate those bytes; repeat `--local` when original-source integrity matters. The receipt identifies that distinction in its scope.
 
+The automated run timestamp allows up to five minutes of clock skew between machines. This tolerance does not apply to source chronology or human review receipts; their checks are unchanged.
+
 A failed or stale run cannot support a “checks pass” statement. No command changes human reviews or gate states.
 
 ## Human evaluation protocol

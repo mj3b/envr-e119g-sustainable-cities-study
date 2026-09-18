@@ -21,6 +21,8 @@ An independent agent review found that privacy checks originally omitted untrack
 
 The review also found an overly broad missing-link exception for the generated receipt. The exception is now restricted to the exact receipt destination. Regression tests reproduce both failure modes. The live human-review register was not modified.
 
+The first CI run exposed a roughly two-minute clock difference between the local evaluation timestamp and the CI runner. Automated receipt validation now permits a bounded five-minute skew, with a regression test rejecting a larger future timestamp. Source chronology and human-review timestamp checks are unchanged.
+
 Normative questions were separated from empirical falsification: values require explicit reasons and contestation; observations alone cannot settle them. No named outside organization is presented as endorsing the method.
 
 ## Presentation verification

@@ -20,7 +20,7 @@
 | Check | Result and scope |
 | :--- | :--- |
 | Structure and source digests | Schema/reference validation and local archived-source digest checks; current result in [run receipt](governance/evaluation-results.json) |
-| Failure tests | 32 tests covering source/class integrity, reviews, timing, units, selection and assurance-record errors |
+| Failure tests | 33 tests covering source/class integrity, reviews, timing, units, selection and assurance-record errors |
 | Privacy | Tracked and non-ignored untracked paths plus reachable Git history; authored prose separately inspected for private raw content |
 | Navigation | Inline local Markdown path targets checked by the runner; anchors and external-link availability are outside that check |
 | Layout | Representative pages rendered locally with network requests blocked; no whole-page overflow in inspected desktop/narrow layouts |

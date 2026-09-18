@@ -6,7 +6,7 @@ import json
 import re
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -74,7 +74,9 @@ def receipt_errors(root, result, files):
         errors.append('Automated receipt cannot certify human fidelity')
     try:
         dt = datetime.fromisoformat(result['evaluated_at'].replace('Z', '+00:00'))
-        if dt.tzinfo is None or dt > datetime.now(timezone.utc):
+        # Local and CI clocks can differ. This tolerance concerns only the
+        # automated run timestamp, never source chronology or human receipts.
+        if dt.tzinfo is None or dt > datetime.now(timezone.utc) + timedelta(minutes=5):
             errors.append('Invalid evaluation time')
     except (KeyError, ValueError, TypeError):
         errors.append('Invalid evaluation time')

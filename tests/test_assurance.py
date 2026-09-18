@@ -3,6 +3,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -71,6 +72,14 @@ class AssuranceTests(unittest.TestCase):
         self.assertEqual(count, 2)
         self.assertEqual(len(errors), 1)
         self.assertIn('missing local link: evaluation-results.json', errors[0])
+
+    def test_bounded_automated_clock_skew(self):
+        files = inventory(self.root)
+        result = self.receipt(files)
+        result['evaluated_at'] = (datetime.now(timezone.utc) + timedelta(minutes=4)).isoformat()
+        self.assertEqual(receipt_errors(self.root, result, files), [])
+        result['evaluated_at'] = (datetime.now(timezone.utc) + timedelta(minutes=6)).isoformat()
+        self.assertTrue(any('Invalid evaluation time' in x for x in receipt_errors(self.root, result, files)))
 
     def test_untracked_raw_file_fails_privacy_before_staging(self):
         (self.root / 'leak.pdf').write_text('Synthetic test content')
