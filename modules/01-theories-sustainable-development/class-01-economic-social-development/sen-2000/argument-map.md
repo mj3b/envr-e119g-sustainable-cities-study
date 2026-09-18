@@ -1,14 +1,41 @@
-# Argument reconstruction: Sen
+# Sen · argument reconstruction
 
-1. Development involves several evaluative concerns (S-01).
-2. A single aggregate can obscure those concerns when treated as a complete assessment (S-02).
-3. Choosing and weighting concerns requires reasoned public discussion (S-03).
-4. Therefore, development evaluation should keep substantive dimensions and the reasoning behind their weights visible.
+[Reading notes](reading-notes.md) · [Questions](questions.md) · [Class overview](../README.md)
 
-The conclusion is an analytical reconstruction. Its warrant is that relevant differences can disappear under aggregation. To apply it, show which difference matters in this case and how the headline metric hides it. Merely adding indicators does not establish a better judgment.
+> **Status:** analytical reconstruction of the inspected claims. This map does not claim exhaustive coverage or human approval.
 
-A serious objection is that decisions require prioritization and limited information. A plural framework could become an unmanageable list. The response in this repository is to identify a small set of decision-relevant dimensions, disclose tradeoffs, and test whether the decision changes under plausible alternative weights. This response is our method proposal, not a claim that Sen supplies this exact procedure.
+## Claim → warrant → implication
 
-A useful test asks whether two alternatives with similar aggregate scores produce materially different opportunities or burdens for identifiable groups. If those differences are negligible for the decision, explain why; do not force the plural framework to manufacture a disagreement.
+| Step | Support | Warrant or inference |
+| :--- | :--- | :--- |
+| Development has several evaluative concerns. | `S-01`, PDF pp. 5–6 | A proposed concern must matter to people or to the stated decision. |
+| An aggregate can obscure those concerns. | `S-02`, PDF p. 7 | Show an important difference that aggregation actually conceals. |
+| Weights require public reasoning. | `S-03`, PDF p. 6 | The judgment should be explainable and open to contestation. |
+| Preserve dimensions and reasons in the comparison. | Our reconstruction | A transparent comparison can still require a difficult choice. |
 
-Support: S-01, S-02, S-03. This reconstruction is provisional and requires human review alongside the supplied source.
+## Objection and response
+
+| Objection | Serious response | Remaining burden |
+| :--- | :--- | :--- |
+| Decisions need prioritization; a plural framework may become unwieldy. | Limit the comparison to dimensions that could change the decision. | Explain exclusions and examine missing affected groups. |
+| Two alternatives may differ little beyond the aggregate score. | Test that possibility instead of presuming hidden harm. | Use comparable measures, uncertainty ranges and a common period. |
+| Public reasoning may reproduce unequal power. | Examine participation, access to evidence and whose objections receive answers. | Hearing attendance is not proof of representation or influence. |
+
+## Illustrative comparison
+
+Two hypothetical projects can have the same fiscal return while differing in local resource demand and who bears its costs. That logical example motivates disaggregated inquiry. It is not a claim about any of the six candidate places, and no weighting exercise can substitute for missing measurements.
+
+## Applied translation card
+
+This card fixes the task and criteria for the next review. It is not a claim that the current interpretation was preregistered or independently validated. The [Dalles worked packet](../../../../cases/worked-example.md) is a method demonstration; geography remains unselected.
+
+| Field | Specification |
+| :--- | :--- |
+| Claim and route | `S-01`–`S-03`, PDF pp. 5–7; analytical lens. |
+| Bounded task | Identify the evaluative questions left open by the Dalles authorization packet. |
+| Permitted inputs | The three Sen claims; `CASE-DAL-01`–`CASE-DAL-03`; the linked worked-example packet. No invented resident preferences. |
+| Required output | Separate recorded positions, analyst-proposed outcome dimensions and missing affected-population evidence. |
+| Next-run success / failure | Success: each attributed position is located and proposed dimensions are labeled. Failure: one public letter stands for all residents, or a preferred weight is attributed to Sen. |
+| Abstention rule | Do not judge representativeness or distributional fairness from the limited deliberation record. |
+| Current worked result | The packet contains supply assurances and a disclosure concern. It does not establish all affected groups, their weights or later well-being outcomes. |
+| Review and update | Human decision pending; provisional disposition: **hold evaluative conclusion**. Revisit after testimony coverage, criteria and disaggregated consequences are examined. |

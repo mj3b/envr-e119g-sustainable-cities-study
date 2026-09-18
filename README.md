@@ -2,92 +2,96 @@
 
 <sub>ENVR E-119g · SUSTAINABLE CITIES · FALL 2026</sub>
 
-# Cities, resources, and the evidence behind decisions
+# Cities, resources, and public decisions
 
-**A course-grounded research notebook by Mark Banasihan**
+**A course-grounded research notebook · Mark Banasihan**
 
-[Faculty reading guide](docs/FACULTY-GUIDE.md) · [Course knowledge](cross-course/README.md) · [Case discovery](cases/README.md) · [Research method](METHODOLOGY.md)
+[Course knowledge](cross-course/README.md) · [Case discovery](cases/README.md) · [Methodology](METHODOLOGY.md) · [AI governance](governance/README.md)
 
 </div>
 
 ---
 
+> **Working question**
 > What did an urban institution know when it committed shared resources, what remained uncertain, and what later evidence tested its assumptions?
 
-This repository develops that question through the course’s treatment of institutions, human development, collective action, and natural capital. The working case family is AI and data-center infrastructure. Six places are under investigation; the semester case remains open.
+AI and data-center infrastructure provide the working case family. The course supplies competing ways to examine institutions, human development, collective action, and ecological limits. The research connects those ideas to a bounded decision, its affected populations, and evidence that could change the interpretation.
 
-The research follows a decision from evidence and authority through implementation to measurable consequences. An approved project, a contractual promise, and an observed environmental outcome each require different support.
+| Research stage | Review state | Deliverable boundary |
+| :--- | :--- | :--- |
+| Six candidates; geography open | Human fidelity reviews pending | Assignment 1 drafting paused |
 
-## Research at a glance
+[Current status and limitations](BUILD-STATUS.md) · [Faculty reading guide](docs/FACULTY-GUIDE.md)
 
-| Course foundation | Case discovery | Evidence architecture | Review state |
-| :--- | :--- | :--- | :--- |
-| Four reading packs; two class packs | Six candidate locations assessed | 34 sources; 56 claims; 44 research objects | Human fidelity gates pending |
-| Reading and lecture interpretations kept distinct | One bounded case to be selected | 12 object types; dated evidence access | Assignment 1 drafting paused |
+**For the September 18 memorandum:** start with the [Assignment 1 evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md). It connects the user's stated background with focused claims, exact locators, competing interpretations and a 900-word argument plan. Source review and drafting remain separate next steps.
 
-Counts describe the current authored packet, not source completeness. See [build status](BUILD-STATUS.md) and [open limitations](cross-course/omissions.json).
+## Start with the work
 
-## Follow the inquiry
+| Explore | Open | What to inspect |
+| :--- | :--- | :--- |
+| **The intellectual foundation** | [Course knowledge](cross-course/README.md) | Reading arguments, lecture distinctions, and unresolved tensions |
+| **The research design** | [Methodology](METHODOLOGY.md) | Questions, competing explanations, evidence needs, and stopping rules |
+| **The choice of case** | [Discovery assessment](cases/DISCOVERY-ASSESSMENT.md) | Primary-record richness, decision traceability, and selection limits |
+| **A reconstructed decision** | [The Dalles worked example](cases/worked-example.md) | Authority, evidence timing, alternatives, and a numerical discrepancy |
+| **The next consequential tests** | [Research agenda](study/RESEARCH-AGENDA.md) | Missing records and findings that could alter the analysis |
+| **Accountability for AI assistance** | [Governance and evaluation](governance/README.md) | Permitted work, review responsibilities, tests, and remaining limitations |
+
+## From course concepts to an answer
 
 ```mermaid
 flowchart LR
-    A["Course concepts<br/>What should we ask?"] --> B["Case discovery<br/>Where can we test it?"]
-    B --> C["Decision record<br/>Who knew and decided?"]
-    C --> D["Measurements<br/>What changed?"]
-    D --> E["Interpretation<br/>What follows, with what limits?"]
+    A["Course concepts<br/>Frame the question"] --> B["Case discovery<br/>Test feasibility"]
+    B --> C["Decision record<br/>Reconstruct knowledge and authority"]
+    C --> D["Measurements<br/>Examine consequences"]
+    D --> E["Interpretation<br/>Test rivals and limits"]
     E -. "Revise the question" .-> A
-    classDef theory fill:#eef2ff,stroke:#6366a0,color:#172554;
-    classDef inquiry fill:#ecfdf5,stroke:#3f8171,color:#164e43;
-    classDef judgment fill:#fff7ed,stroke:#ad7845,color:#663c20;
-    class A theory;
-    class B,C,D inquiry;
+    classDef foundation fill:#edf2f7,stroke:#526681,color:#162638;
+    classDef evidence fill:#eef6f2,stroke:#427563,color:#173e32;
+    classDef judgment fill:#fbf3e8,stroke:#9b7641,color:#5b3f18;
+    class A foundation;
+    class B,C,D evidence;
     class E judgment;
 ```
 
-| To understand… | Open… | What it provides |
-| :--- | :--- | :--- |
-| The intellectual argument | [Course → research](cross-course/course-to-research.md) | Concepts, mechanisms, tests, rival explanations, and limits |
-| Why these six places | [Discovery assessment](cases/DISCOVERY-ASSESSMENT.md) | Comparison and reasons to defer selection |
-| How one decision is reconstructed | [The Dalles worked example](cases/worked-example.md) | Authority, timing, competing positions, and a numerical discrepancy |
-| How research becomes inspectable | [Research object guide](cases/RESEARCH-OBJECTS.md) | Questions, hypotheses, actors, decisions, measurements, and outcomes |
-| What must be learned next | [Research agenda](study/RESEARCH-AGENDA.md) | Retrieval tasks and evidence that could change the analysis |
-| How this supports the course | [Course map](COURSE-MAP.md) · [Assignments](assignments/README.md) | Calibration packs and the semester deliverable pathway |
+Each step produces something a reader can inspect. [Research objects](cases/RESEARCH-OBJECTS.md) connect questions and hypotheses to actors, authority, timelines, evidence, measurements, contradictions, alternatives, and outcomes. A permission, a forecast, and a measured result retain their distinct meanings.
 
-## Six candidates, one eventual case
+## Six places under investigation
 
-| Candidate | Decision under investigation | Main unresolved boundary |
+| Candidate | Decision focus | Evidence gap that matters |
 | :--- | :--- | :--- |
 | [Georgia](cases/candidates/georgia.md) | Large-load utility terms | Connect the state rule to one urban locality |
-| [Hawaiʻi](cases/candidates/hawaii.md) | Data-center inquiry and possible local decision | Identify an island, facility, and consequential action |
-| [Memphis](cases/candidates/memphis.md) | Initial Paul Lowery electricity-service approval | Recover the contemporaneous approval and conditions |
+| [Hawaiʻi](cases/candidates/hawaii.md) | Data-center inquiry and a possible local decision | Establish an island, facility, and consequential action |
+| [Memphis](cases/candidates/memphis.md) | Initial Paul Lowery electricity-service approval | Recover contemporaneous approval and conditions |
 | [Northern Virginia / Loudoun](cases/candidates/loudoun.md) | Data-center land-use amendments | Separate county zoning from regional power authority |
-| [The Dalles, Oregon](cases/candidates/dalles.md) | Water infrastructure agreement authorization | Test supply assurances against the underlying studies |
-| [Tucson / Pima County](cases/candidates/tucson.md) | City proposal and subsequent county pathway | Choose one authority and decision in the sequence |
+| [The Dalles, Oregon](cases/candidates/dalles.md) | Water infrastructure agreement authorization | Test supply assurances against underlying studies |
+| [Tucson / Pima County](cases/candidates/tucson.md) | City proposal and subsequent county pathway | Bound one decision within the sequence |
 
-These are discovery candidates. Neither the worked example nor the retrieval order selects a case.
+The worked example demonstrates the method. Case selection still requires the [selection protocol](cases/SELECTION-PROTOCOL.md).
 
-## Evidence that can be challenged
+## Read, check, and build
 
-Six evidence classes keep assigned readings, instructor lectures, TA guidance, peer discourse, external context, and our synthesis separate. Claims carry source locators and review status. Research records distinguish event dates, publication dates, and evidence available to a particular actor. Unknown measurements remain unknown.
-
-[Citation policy](CITATION-POLICY.md) · [Writing standard](standards/WRITING.md) · [Research standard](standards/RESEARCH.md) · [AI-use record](AI-USE-LOG.md)
+| Reader's task | Reference |
+| :--- | :--- |
+| Locate a class or assignment | [Course map](COURSE-MAP.md) · [Assignment preparation](assignments/README.md) |
+| Trace a statement to its source | [Citation policy](CITATION-POLICY.md) · [Claim registry](cross-course/claims.json) |
+| Assess reasoning and presentation | [Research standard](standards/RESEARCH.md) · [E5 writing](standards/WRITING.md) · [Markdown design](standards/MARKDOWN.md) |
+| Understand AI's contribution | [AI-use record](AI-USE-LOG.md) · [Evaluation](governance/EVALUATION.md) |
 
 <details>
-<summary><strong>Repository map and verification</strong></summary>
+<summary><strong>Repository map and technical verification</strong></summary>
 
-```text
-modules/        Reading arguments, lecture alignment, class synthesis
-cross-course/   Sources, claims, concepts, omissions, review receipts
-cases/          Discovery, candidate briefs, linked research objects
-study/          Retrieval practice, research agenda, learning records
-assignments/    Requirements and preparation, separate from submission prose
-standards/      Writing, research, and deliverable rules
-docs/          Faculty reading guide
-audit/         Reconciliation, source discovery, and change records
-schemas/        Machine-readable contracts
-scripts/        Validation, privacy, ingestion, and status checks
-private/        Ignored local archive; never committed
-```
+| Directory | Contents |
+| :--- | :--- |
+| `modules/` | Reading analyses, lecture alignment, and class synthesis |
+| `cross-course/` | Canonical sources, claims, concepts, omissions, and review receipts |
+| `cases/` | Discovery assessments, candidate briefs, and research objects |
+| `study/` | Retrieval practice, research agenda, and learning records |
+| `assignments/` | Requirements and preparation for the semester inquiry |
+| `governance/` | AI-use responsibilities, assurance, and evaluation |
+| `standards/` | Research, writing, presentation, and deliverable rules |
+| `audit/` | Source discovery, reconciliation, and change records |
+| `schemas/`, `scripts/`, `tests/` | Data contracts and repeatable checks |
+| `private/` | Ignored local source archive; never committed |
 
 Install `requirements-dev.txt`, then run:
 
@@ -98,10 +102,10 @@ python3 scripts/privacy_check.py
 python3 scripts/status.py
 ```
 
-Use `--local` to check archived source digests. Install hooks with `git config core.hooksPath .githooks`. Passing checks establishes structural consistency; human review establishes whether used claims faithfully represent their sources.
+Use `--local` with validation to check archived source digests. Install hooks with `git config core.hooksPath .githooks`. Automated checks establish record consistency within their scope. Human review must establish whether a claim faithfully represents its source.
 
 </details>
 
 ---
 
-<sub>Private working repository. Authored research is organized for eventual faculty review. Raw course materials, transcripts, screenshots, and conversations stay in the ignored archive. No faculty access or publication is implied.</sub>
+<sub>Private working repository. Authored research is prepared for eventual faculty review. Raw readings, recordings, screenshots, and conversations remain in the ignored archive. No instructor endorsement, faculty access, or submission is implied.</sub>

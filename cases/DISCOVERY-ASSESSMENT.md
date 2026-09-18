@@ -1,8 +1,10 @@
-# What the first source pass supports
+# Evidence readiness across six candidates
 
 [Home](../README.md) / [Cases](README.md) / Discovery assessment
 
-All six candidates remain open. The table describes evidence inspected by September 17, 2026. It measures readiness for research, not environmental performance. No candidate has a complete selection packet.
+> **Six open candidates; no complete selection packet.** These judgments describe the source pass completed September 17, 2026. Expanded dossiers do not imply that additional records or measurements have been acquired.
+
+## Comparable dimensions, distinct decisions
 
 | Candidate | Primary records | Traceability | Quantitative | Populations | Rival interpretations | Course fit |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -13,18 +15,43 @@ All six candidates remain open. The table describes evidence inspected by Septem
 | [The Dalles, Oregon](candidates/dalles.md) | 2 | 2 | 1 | 2 | 2 | 2 |
 | [Tucson / Pima County](candidates/tucson.md) | 2 | 1 | 1 | 1 | 2 | 2 |
 
-**Legend:** 1 = partial lead; 2 = usable evidence with gaps; 3 = triangulated and bounded evidence; ? = unknown. No totals. Full reasons and source IDs are in [discovery.json](discovery.json); the [protocol](SELECTION-PROTOCOL.md) defines the scale and selection gate.
+**Read the scale:** 1 = partial lead; 2 = usable evidence with consequential gaps; 3 = triangulated and bounded evidence; ? = unknown. A documented search can yield 0 under the protocol, but none is assigned here. There are no totals or compensating weights. Full reasons and source IDs reside in [discovery.json](discovery.json); the [selection protocol](SELECTION-PROTOCOL.md) defines advancement.
 
-## What changes the next retrieval decision
+A population score of 2 for the Dalles reflects available public positions. It does not mean demographic denominators, representative testimony, or exposure estimates are complete. A quantitative score of 1 may reflect a threshold or projected quantity, without an outcome series.
 
-The Dalles has the most directly inspected municipal vote in this pass. Its unresolved studies and measurements make it useful for demonstrating the method. Georgia deserves early follow-up because a dated regulatory lead can be paired with Mark’s stated connection to the state. Neither judgment selects geography.
+## What the next pass must resolve
 
-Tucson/Pima offers a multi-authority sequence that requires careful bounding. Loudoun combines a local rule with a broader research report, but the geographic scales differ. Memphis remains promising if the contemporaneous approval and curtailment terms can be recovered. Hawaiʻi needs a local decision before a comparable assessment is possible.
+| Candidate | Current foothold | Decisive acquisition | Hold if unresolved |
+| :--- | :--- | :--- | :--- |
+| Georgia | Dated regulator announcement and user-stated connection | Adopted order plus one local implementation decision | Intended cost protection is the only available result |
+| Hawaiʻi | Committee inquiry and user-stated connection | Final disposition and one island-specific action | No local decision or resource system can be bounded |
+| Memphis | Site-specific utility account | Contemporaneous approval, curtailment terms, and feasible event observations | Capacity and promises substitute for operation |
+| Loudoun | County policy account and statewide research | Adopted amendments, hearing record, and local unit choice | Statewide forecasts stand in for county effects |
+| The Dalles | Dated vote and contrasting recorded positions | Executed agreement, technical studies, and measurement definitions | Supply assertions cannot be independently examined |
+| Tucson / Pima | City proposal and later county record | Exact anchor motion, executed instrument, and version chronology | Separate institutions and project versions are merged into one event |
 
-These judgments depend on a limited source pass. They should change when operative records, usable measurements, or a better local anchor become available. Record abundance can reflect disclosure practices and institutional capacity; it is not an unbiased measure of research importance.
+The current retrieval queue begins with the Dalles and Georgia, followed by Tucson/Pima, Loudoun, Memphis, and Hawaiʻi. This is the recorded work sequence, not a merit ranking. The Dalles provides a directly inspected municipal vote; Georgia pairs a regulatory lead with personal relevance. Hawaiʻi can move earlier when a local anchor appears. No candidate is entitled to selection because it was investigated first.
 
-## Dimensions still missing across candidates
+## Population evidence remains a substantive gap
 
-None has a verified, comparable local outcome series in this packet. Affected populations require more than a place name or an aggregate census count: define who can plausibly experience which pathway, within what area and period. Public comments are valuable primary accounts of positions, with unknown representativeness.
+Each dossier specifies a proposed pathway, geographic boundary, and denominator. None supplies a verified, comparable local outcome series. The next pass must distinguish:
 
-The course-fit column draws on Nora’s focus on case/place/time and familiarity (`L2-05`–`L2-07`) and Cristina’s balance of interest, evidence, and learning questions (`TA-01`, `TA-04`). Detailed personal reflection remains unfilled. No geographical or demographic identity is inferred from a connection to a place.
+| Research question | Appropriate unit |
+| :--- | :--- |
+| Who pays a service cost? | Customer accounts or households within the applicable territory and tariff |
+| Who may encounter a physical effect? | People within a defensible exposure boundary during the relevant period |
+| Who participated? | Documented participants and opportunities to participate |
+| Whose account is missing? | A documented gap in representation; absence from records alone does not establish consent |
+
+These units may overlap, but they are not interchangeable. Report uncertainty and incomplete coverage alongside any eventual count.
+
+## Selection discipline
+
+| Bias to examine | Corrective question |
+| :--- | :--- |
+| Record abundance | Does access reflect institutional capacity or disclosure practice rather than the importance of the question? |
+| Familiarity and controversy | Would the candidate still merit attention if the expected conclusion were wrong? |
+| Uneven searching | Have the alternatives received a comparable first pass, including a search for contrary evidence? |
+| Scope drift | Does the question still concern one decision, authority, place, and period? |
+
+Course fit follows Nora's case/place/time and familiarity guidance (`L2-05`–`L2-07`) and Cristina's interest–evidence–learning balance (`TA-01`, `TA-04`). Personal reflection remains unfilled. The eventual selection needs the protocol's complete packet and a human decision; the table cannot make that judgment.

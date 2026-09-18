@@ -1,14 +1,33 @@
-# Before drafting can resume
+# Assignment 1 · Readiness to draft
 
-- [ ] Mark explicitly asks to draft.
-- [ ] Mark supplies and approves his personal reflection.
-- [ ] A bounded case or transparently provisional case is identified.
-- [ ] Every used factual claim has an inspected source and locator.
-- [ ] Each used class pack passes source, lecture, and synthesis fidelity review.
-- [ ] Reading, instructor, TA, peer, external, and synthesis attributions remain distinct.
-- [ ] Resource metrics specify units, boundaries, dates, and uncertainty.
-- [ ] Important urban issues are expressed through actors, institutions, distribution, ecological constraints, and outcomes.
-- [ ] Questions identify what could change the analysis.
-- [ ] AI-use acknowledgment and references are planned.
+[Assignments](../README.md) / [Assignment 1](README.md) / Readiness
 
-After later drafting: verify approximate word count, references, personal voice, and every claim with Mark before submission. This checklist is an internal quality instrument, not an additional instructor rubric.
+**Current state:** drafting remains paused. This is an internal quality instrument; it does not add requirements to the instructor's rubric.
+
+Start with the [focused evidence packet](EVIDENCE-PACKET.md) and its pending human review queue.
+
+## Authorization and authorship
+
+- [ ] Mark explicitly resumes drafting.
+- [ ] Mark supplies and approves the personal account or motivation used.
+- [ ] The topic is bounded, with any provisional case choice stated honestly.
+
+## Evidence and reasoning
+
+- [ ] Every used factual claim has an inspected source and precise locator.
+- [ ] Human review covers used source claims, relevant lecture interpretation, and the resulting synthesis; pending limits are explicit.
+- [ ] Assigned reading, instructor, TA, peer, external context, and our synthesis retain distinct attributions.
+- [ ] Resource metrics preserve units, boundaries, observation periods, and uncertainty.
+- [ ] Urban relevance identifies institutions, affected populations, ecological conditions, and potential consequences.
+- [ ] The argument considers a credible alternative and identifies evidence that could change it.
+- [ ] The requirement–evidence matrix shows which parts remain unsupported.
+
+Preparation review can focus on the claims proposed for a narrow assignment. This worksheet does not bypass machine promotion rules or create an approved deliverable. A class master brief still requires G1–G3 for its declared scope, including class-level lecture completeness. See the [deliverable standard](../../standards/DELIVERABLES.md).
+
+## After drafting is authorized
+
+- [ ] Apply E5 editing and verify the approximate word count under the brief's counting rule.
+- [ ] Check each citation against the sentence it supports.
+- [ ] Include an accurate AI acknowledgment.
+- [ ] Mark verifies personal voice, understanding, and the final argument.
+- [ ] Record the reviewed artifact and actual submission status separately.

@@ -1,14 +1,15 @@
-# Research bridges
+# Methods have moved into the research design
 
-These methods support the course inquiry. They do not validate either research program through the course.
+[Home](../README.md) / Former research bridges
 
-| Input | Reuse | Boundary | Source |
-| --- | --- | --- | --- |
-| Digital Emissions / IRIS | Source, assertion, transformation, finding, decision; validity intervals; facility identity | Methodology does not supply measured environmental impacts | DE-PROV, Core entities / Temporal claims |
-| Scott / IRIS proposed separation | Keep research findings, assurance, and human decisions distinguishable | ADR is proposed; no claim of deployed effectiveness | DE-BOUND, Status / Decision |
-| Node & Norm | Distinguish world, evidence, annotation, and inference; examine practical authority and control operation | Environmental adaptation is exploratory; missing evidence does not prove absent control | NN-CHARTER, sections 4, 7–9 |
-| GDI | Reconstruct evidence, alternatives, uncertainty, and authority | Complete records do not establish substantive human judgment or better outcomes | NN-GDI, Claim register C7–C8 |
+The earlier “bridges” label grouped outside research interests without making their analytical job clear. Their useful practices now live in the methodology and evidence workflow.
 
-For the case, inspect electricity, water, emissions, land, and hardware boundaries with facility-specific primary data. A DE database or AI-generated record is a research lead until its underlying source and transformation have been checked. Preserve the source version used at decision time and distinguish later evidence.
+| To understand… | Read |
+| :--- | :--- |
+| Which method answers which question | [Methodology](../METHODOLOGY.md) |
+| What is borrowed, from whom, and with what limits | [Influence register](../standards/INFLUENCES.md) |
+| How a claim becomes a bounded analytical task | [Translator audit](../audit/APPLIED-TRANSLATOR-AUDIT.md) |
+| How decision evidence and measurements connect | [Worked research design](../cases/RESEARCH-DESIGN.md) |
+| Who reviews AI assistance and how failures are detected | [AI governance and assurance](../governance/README.md) |
 
-Course pressure test: North asks what incentives shape a decision; Sen asks whose valued outcomes are represented; Ostrom asks how interdependent actors cooperate; Costanza and Daly ask what ecological constraints remain. These questions may expose limitations in the methods themselves.
+Private Digital Emissions and Node & Norm snapshots retain their source IDs (`DE-PROV`, `DE-BOUND`, `NN-CHARTER`, `NN-GDI`) in the evidence registry. Their inclusion establishes methodological provenance, not environmental findings or course endorsement.

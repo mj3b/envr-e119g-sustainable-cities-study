@@ -1,31 +1,48 @@
 # The next evidence that could change the inquiry
 
-[Home](../README.md) / Research agenda
+[Home](../README.md) / [Study](README.md) / Research agenda
 
-The next phase should resolve case-selection uncertainty. Collect the operative record and one measurable consequence for a bounded decision before expanding general background.
+**Purpose:** resolve case-selection uncertainty through records that could change the choice or interpretation.
 
-| Priority | Retrieval task | Decision enabled | Stop or revise when… |
+| Current decision | Search rule |
+| :--- | :--- |
+| Six candidates remain open | Prioritize the operative decision record and a feasible outcome measure before expanding general background |
+
+## Retrieval queue
+
+This is a work order, not a case ranking or a selection. Personal knowledge, access, and new evidence can change the sequence.
+
+| Order / candidate | Retrieve next | Test enabled | Revise the approach if… |
 | :--- | :--- | :--- | :--- |
-| 1 | The Dalles executed agreement, three referenced studies, water-rights instruments | Determine whether supply claims can be tested | Facility and system boundaries cannot be reconciled |
-| 2 | Georgia adopted large-load order, tariff, and one local facility/service record | Connect a personally relevant geography to a specific urban decision | The selected facility is outside the relevant utility territory |
-| 3 | Tucson city motion and county executed agreement/deed | Choose one authority and temporal anchor | Several distinct decisions remain conflated |
-| 4 | Loudoun adopted amendments and hearing packet | Reconstruct evidence before the rule change | A county rule is being credited with regional grid outcomes |
-| 5 | TVA approval, system study, and curtailment terms for Paul Lowery | Establish decision time and enforceability | Capacity is the only numerical evidence available |
-| 6 | Hawaiʻi local facility lead and final SCR95 disposition | Decide whether a bounded island case is viable | A statewide inquiry is the only record located |
+| 1 · [The Dalles](../cases/candidates/dalles.md) | Executed agreement, referenced studies, and water-rights instruments | Can the supply assurance and its definitions be reconstructed? | Facility use, rights, and system supply remain conflated |
+| 2 · [Georgia](../cases/candidates/georgia.md) | Operative large-load order, tariff, and one local service decision | Does one urban facility connect to an enforceable rule? | The facility lies outside the relevant utility territory or decision period |
+| 3 · [Tucson / Pima](../cases/candidates/tucson.md) | City motion and county executed agreement or recorded deed | Which decision, actor, and sequence is actually being studied? | Separate city and county actions cannot be bounded coherently |
+| 4 · [Loudoun](../cases/candidates/loudoun.md) | Adopted amendments, hearing packet, and contemporaneous analysis | What evidence and alternatives preceded the rule change? | A county zoning action is being credited with regional grid outcomes |
+| 5 · [Memphis](../cases/candidates/memphis.md) | Initial approval, system study, and curtailment terms for Paul Lowery | What was authorized, known, and enforceable then? | Only a later summary is available; capacity alone cannot answer a consumption question |
+| 6 · [Hawaiʻi](../cases/candidates/hawaii.md) | Local facility lead and final SCR95 disposition | Is there a bounded island decision with a retrievable record? | The record supports only a statewide inquiry and no facility decision |
 
-These priorities order retrieval work. All candidates remain open, and Mark’s ability to assess a place can change the order.
+## A comparable retrieval pass
 
-## Course questions to defend aloud
+For each candidate, seek the same functions even when the documents differ.
 
-1. Which institution creates the incentive in your explanation, and what record establishes it? What would distinguish path dependence from a current technical advantage?
-2. Which value judgment enters the choice of an outcome measure? Whose position is missing from the available testimony?
-3. What makes the resource shared, rival, or excludable? Which actor can observe a breach and respond?
-4. Which ecological stock supports the measured flow? What regeneration or assimilative limit would make the proposed intervention insufficient?
-5. Which record establishes what was available then? Are you using hindsight to criticize an uncertainty that was unavoidable?
-6. What plausible evidence would make the project look more beneficial, or more harmful, than your present interpretation?
-7. Can you reproduce each numerical transformation and state why its inputs belong to the same boundary?
-8. Which sentence is your own interpretation, which is a source claim, and which is a personal reflection only you can supply?
+| Evidence function | Minimum useful retrieval | What remains separate |
+| :--- | :--- | :--- |
+| Authority and action | Operative instrument, vote, date, conditions, and responsible institution | A proposal or press release |
+| Decision-time knowledge | Dated packet, analysis, or correspondence with actor access | Later evidence or retrospective recollection |
+| Affected populations | Defined geography plus appropriate population and testimony sources | Assuming one participant represents all residents |
+| Quantitative feasibility | Available metric, unit, period, boundary, and collection method | Capacity, forecasts, and scenarios treated as observations |
+| Competing interpretation | A credible alternative account or contradictory record | Counting repeated versions of one source as independent support |
 
-## Record learning, not simulated reflection
+Complete a bounded pass across candidates before treating one richer search as comparative superiority. Record unavailable documents and search scope; an unsuccessful search does not prove that a record or event never existed.
 
-For each retrieval pass, record the prior question, evidence found, assumption tested, and change in interpretation. Leave Mark’s experience and personal change of mind for Mark to supply. Use the [learning log](learning-log.md) and [reflection worksheet](../assignments/assignment-01/reflection-and-evidence-worksheet.md); no first-person narrative is generated here.
+## Stop, revise, or proceed
+
+| Finding | Next action |
+| :--- | :--- |
+| A bounded decision and usable evidence are available | Update the discovery assessment with citations and limitations |
+| The central measure is unavailable but another question is answerable | Revise the question explicitly; preserve the original limitation |
+| Multiple authorities or facilities remain mixed | Narrow the unit of analysis before calculation |
+| A rival explanation cannot be distinguished | Retain a descriptive conclusion or state the unresolved explanatory limit |
+| A candidate appears ready | Apply the [selection protocol](../cases/SELECTION-PROTOCOL.md); record the decision separately |
+
+Source retrieval does not authorize Assignment 1 drafting or supply personal reflection. Use [discussion preparation](discussion-prep.md) to defend the emerging reasoning and the [learning log](learning-log.md) to record actual changes in understanding.

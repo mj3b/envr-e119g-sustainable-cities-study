@@ -1,4 +1,6 @@
-# Divergence log
+# Class 01 · divergence log
+
+[Class overview](README.md) · [Omissions](omissions-report.md)
 
 | ID | Evidence | Difference | Resolution |
 | --- | --- | --- | --- |

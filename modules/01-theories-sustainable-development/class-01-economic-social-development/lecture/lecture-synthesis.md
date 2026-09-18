@@ -1,19 +1,29 @@
-# Lecture calibration notes
+# Class 01 lecture · institutions, scale and distribution
 
-L1-01 [instructor_lecture]: Nora explains institutional rules through predictability, incentives, and bounded risks. (L1C, Speaker 1, 11:28–14:22).
+[Class overview](../README.md) · [Reading alignment](reading-alignment.md) · [Emphasis register](instructor-emphasis.md)
 
-L1-02 [instructor_lecture]: Nora connects path dependence to the costs and resistance involved in changing inherited arrangements. (L1C, Speaker 1, 14:22–17:14).
+> **Analytical contribution:** classroom discussion moves from institutional explanation to the geography of authority and the legitimacy of imposing burdens.
 
-L1-03 [instructor_lecture]: Nora frames Sen through capabilities, freedoms, education, and environmental conditions at the individual level. (L1E, Speaker 1, 06:36–09:50).
+## Inspected lecture claims
 
-L1-04 [instructor_lecture]: Nora describes a mismatch between environmental problem geographies and governing jurisdictions, alongside communication and implementation barriers. (L1C, Speaker 1, 08:33–11:28).
+| Claim | Classroom emphasis | Locator |
+| :--- | :--- | :--- |
+| `L1-01` | Rules make conduct more predictable through incentives and bounded risks. | L1C, Speaker 1, 11:28–14:22 |
+| `L1-02` | Inherited arrangements can make change costly and generate resistance. | L1C, Speaker 1, 14:22–17:14 |
+| `L1-03` | Capabilities, freedoms, education and environmental conditions focus attention on individual opportunity. | L1E, Speaker 1, 06:36–09:50 |
+| `L1-04` | Environmental problem boundaries and governing jurisdictions can differ. | L1C, Speaker 1, 08:33–11:28 |
+| `L1-05` | Development conflicts raise the question of who may demand sacrifice from communities. | L1E, Speaker 1, 03:56–06:36 |
 
-L1-05 [instructor_lecture]: Nora raises the question of who may demand sacrifices from communities when development and environmental protection conflict. (L1E, Speaker 1, 03:56–06:36).
+## Interpretation for research
 
-Speaker roles are inferred from context, not verified against audio. These paraphrases do not certify full lecture coverage.
+The first two claims suggest tracing a decision through rules, incentives and prior commitments. The next three ask whether the approving institution governs the affected system and whose opportunities its choice changes. Our synthesis combines these into a decision map with separate columns for **authority**, **physical reach** and **affected people**.
 
-## Research interpretation: incentives, scale, and distribution
+An authority mismatch is an investigative lead. It does not, by itself, prove poor governance: coordination across jurisdictions may exist. Likewise, an inherited arrangement may remain useful. The case record must distinguish those possibilities.
 
-Our synthesis of `L1-01` and `L1-04` asks whether the actor with approval power governs the physical system affected by its decision. A county land-use approval and regional electricity planning can have different boundaries. Record both authorities before attributing a result to one body. The mismatch is a question to investigate, not evidence that a particular case is poorly governed.
+## What the lecture adds to the readings
 
-`L1-02` suggests testing a dated sequence of commitments and switching costs. `L1-03` and `L1-05` add a distributional question: what options do affected people have, and who can ask them to bear a cost? These lecture applications are kept separate from the exact North and Sen reading claims. See the [course bridge](../../../../cross-course/course-to-research.md) for observable implications and counterarguments.
+North’s inspected claims support institutional explanation. Sen’s support plural evaluation and public reasoning. The explicit capabilities framing and local jurisdiction examples retain lecture attribution. The [alignment matrix](reading-alignment.md) identifies extensions rather than merging all classroom statements into author claims.
+
+## Confidence and coverage
+
+Speaker 1 is inferred to be Nora in these segments, with medium confidence; audio verification is unavailable. Timestamps restart in each file. A/B/C/E were supplied, while D’s status is unresolved. The five selected claims do not establish full lecture coverage or frequency-ranked emphasis.

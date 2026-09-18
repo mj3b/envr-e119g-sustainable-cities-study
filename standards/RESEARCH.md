@@ -1,33 +1,55 @@
 # Research reasoning standard
 
-The unit of inquiry is a consequential urban infrastructure decision in a specified place and period. A useful answer must distinguish what was known at decision time, what decision-makers did, and what happened afterward. The research may conclude that an effect remains unknown.
+[Home](../README.md) / Research standard · [Methodology](../METHODOLOGY.md) · [Worked design](../cases/RESEARCH-DESIGN.md)
 
-## Form a question that evidence could answer
+**Unit of inquiry:** one consequential urban infrastructure decision in a specified place and period. Distinguish what was known, what an actor did, and what happened afterward. An effect may remain unknown.
 
-Specify the actor, action, system boundary, affected population, observation window, and outcome. Separate descriptive questions (what conditions existed?), explanatory questions (why did the authority act?), causal questions (what difference did the action make?), and normative questions (what should count as acceptable?). Different questions require different evidence.
+## Define an answerable question
 
-Start with two plausible explanations, including one that could weaken the preferred interpretation. For example, a resource decline after a permit condition could reflect enforcement, lower workload, weather, or a changed reporting boundary. A timeline alone cannot distinguish them. Seek records that separate predictions: operating logs, workload measures, weather data, enforcement events, and stable boundaries. Where comparison is impossible, describe a sequence and mechanism plausibility without estimating a causal effect.
+| Specify | Why it matters |
+| :--- | :--- |
+| Actor, action and authority | Identifies the choice being explained and the power to act |
+| System and affected population | Prevents facility, city, utility and community boundaries from drifting |
+| Decision and observation windows | Separates contemporaneous knowledge from later outcomes |
+| Kind of question | Description, explanation, causal attribution and normative judgment need different support |
+| Rival and update condition | Makes the favored interpretation vulnerable to meaningful criticism |
 
-## Appraise each consequential claim
+Start with two plausible explanations, including one that could weaken the preferred account. A decline after a permit condition could reflect enforcement, workload, weather or a changed reporting boundary. Seek records that separate those predictions. Without a defensible comparison, describe sequence and mechanism plausibility without estimating a causal effect.
 
-Record the precise claim, source and locator, source's role and incentives, observation period, collection method, unit, boundary, missingness, and the reasoning connecting source to conclusion. Note what the source cannot establish. Check whether apparently independent reports rely on the same press release, testimony, or dataset. Count underlying observations, not URLs.
+## Appraise a consequential claim
 
-Use measured, modeled, projected, reported, or inferred accurately. Preserve contradictory evidence. Record a disconfirming search even if it returns nothing, including the sources and scope searched. An unsuccessful search establishes a search limit; it does not establish that an event never occurred.
+| Claim element | Inspection question |
+| :--- | :--- |
+| Source and locator | Does the inspected passage support this exact proposition and its scope? |
+| Production and incentives | Who collected or reported the evidence, how, and with what stake? |
+| Observation | What was measured or observed, during which period and within which boundary? |
+| Warrant | Why does that observation support this conclusion? |
+| Independence | Do apparent confirmations repeat one release, testimony or dataset? |
+| Missingness and uncertainty | What is unavailable, uninspected, imprecise or contested? |
+| Disconfirmation | What credible observation would change the interpretation? |
 
-## Distinguish judgments
+Use *measured*, *modeled*, *projected*, *reported* and *inferred* accurately. Preserve contrary evidence. Log a disconfirming search even if nothing is found, including source scope and access failures. Search failure establishes a research limit, not the absence of an event.
 
-| Judgment | Necessary support | Common overreach |
-| --- | --- | --- |
+## Keep judgments distinct
+
+| Judgment | Necessary support | Overreach to catch |
+| :--- | :--- | :--- |
 | A condition existed | Contemporaneous decision or binding instrument | Inferring compliance from the document |
-| A control operated | Dated operational or enforcement record | Inferring environmental benefit from activity |
+| A control operated | Dated monitoring, response or enforcement record | Inferring benefit from activity |
 | A physical outcome changed | Comparable observations and uncertainty | Attributing the change solely to the control |
-| The intervention caused change | Defensible comparison and competing-explanation assessment | Treating before/after differences as an effect |
-| The change was desirable | Explicit values, distribution, alternatives, ecological constraints | Using one aggregate metric as a complete judgment |
+| Intervention caused change | Defensible comparison and assessment of rivals | Treating before/after difference as an effect |
+| Change was desirable | Explicit values, distribution, alternatives and ecological constraints | One aggregate metric standing for the whole judgment |
 
-These are separate evidentiary questions. They need not form a universal hierarchy: residents may be the strongest sources about experienced access barriers, while a meter is better suited to electricity use.
+These questions have different sources of authority. Residents may provide the strongest evidence of experienced access barriers; a meter is better suited to electricity use. Do not rank all evidence on a single scale that erases the question being asked.
 
-## Decision sensitivity and stopping
+## Decide what to retrieve next
 
-Prioritize missing evidence by whether it could change the case choice, conclusion, or recommended action. Define an adequate stopping point before expanding the search indefinitely. For Assignment 1, a well-supported question with explicit unknowns can be sufficient; a completed impact evaluation is not required. For a semester recommendation, identify what the decision-maker can actually do, who bears residual risk, and what would trigger revision.
+| Decision | Rule |
+| :--- | :--- |
+| Prioritize | Retrieve evidence likely to change case choice, conclusion or action before adding general background |
+| Stop | Define an adequate stopping point before expanding the search indefinitely |
+| Narrow | Reduce the claim when records cannot sustain its original scope |
+| Reopen | Recheck dependencies when an assumption or source changes |
+| Record | Preserve the reason, alternative, test, result and effect on the argument |
 
-Keep an assumptions log with the current basis, alternative, test, result, and effect on the argument. Update claims and dependent interpretations when evidence changes. Structural validation is one check on record consistency, not a scholarly quality score or human review.
+For Assignment 1, a well-supported inquiry with explicit unknowns can be sufficient. A semester recommendation requires evidence about feasible action, residual risk and revision triggers. Structural consistency is one check on the record; scholarly adequacy requires substantive judgment.

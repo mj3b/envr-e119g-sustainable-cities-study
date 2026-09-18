@@ -1,25 +1,45 @@
-# Costanza and Daly: natural capital and physical scale
+# Costanza and Daly: natural capital and physical limits
 
-Conservation Biology 6(1), 37–46 (1992). Uploaded PDF page 2 corresponds to printed 37. Claims below use the uploaded edition and checked printed-page locators.
+[Class overview](../README.md) · [Argument](argument-map.md) · [Questions](questions.md)
 
-## Argument and interpretation
+> **Working conclusion:** A sustainability claim needs evidence about ecological stocks, functions and absolute resource demand, alongside efficiency.
 
-Costanza and Daly locate economic activity within ecological conditions that supply goods and services. Natural capital is a stock that yields future flows, including ecosystem functions (CD-01, PDF page 3, printed 38). A flow measure for one year is therefore insufficient to establish that the underlying stock or function is maintained.
+## Source and status
 
-Their complementarity argument challenges the assumption that manufactured capital can generally replace natural capital. Efficiency improvements and increased physical throughput also need to be distinguished (CD-02, PDF page 6, printed 41). The argument permits attention to particular substitutions and technical improvements; it should not be paraphrased as a claim that no substitution is ever possible.
+*Natural Capital and Sustainable Development*, Conservation Biology 6(1), 37–46 (1992). Supplied PDF p. 2 = printed p. 37. The operational-principle and discounting additions were inspected in extracted text; direct quotation requires original-page review.
 
-The strong-sustainability discussion maintains natural and human-made capital separately and relates throughput to ecological capacity (CD-03, PDF page 9, printed 44). Applying that position requires specifying the stock, function, timescale, and relevant constraint. Calling a project “strongly sustainable” without such a specification would turn the concept into a label.
+**Evidence:** assigned reading. **Review:** source checks completed for the claims below; human fidelity review pending. Applications and objections are our synthesis.
 
-For digital infrastructure, lower electricity per useful operation can coexist with higher total electricity demand. That is an arithmetic possibility. Establishing an actual increase requires data on both rate and activity; establishing rebound requires evidence that the efficiency change contributed to increased demand. Neither follows from this reading alone.
+## What the inspected text supports
 
-Nora adds a tension between valuation and making harm tradable (L2-04). Monetary valuation may help a decision-maker notice an environmental consequence while leaving unresolved whether compensation can replace the affected function. The case inquiry should preserve this tension and ask which losses remain unacceptable or irreversible under the decision's explicit values.
+| Claim | Proposition | Source locator |
+| :--- | :--- | :--- |
+| `CD-01` | Natural capital is a stock yielding future goods and ecological services. | PDF p. 3 / printed p. 38 |
+| `CD-02` | Natural and manufactured capital are largely complementary; efficiency differs from throughput growth. | PDF p. 6 / printed p. 41 |
+| `CD-03` | Strong sustainability maintains natural and human-made capital separately. | PDF p. 9 / printed p. 44 |
+| `CD-04` | Proposed operating principles keep harvesting within regeneration and waste within assimilative capacity. | PDF p. 9 / printed p. 44, principle 3(a)–(b) |
+| `CD-05` | The chosen discount rate materially changes natural-capital valuation. | PDF p. 8 / printed p. 43 |
 
-## Use and remaining limits
+## Analytical use
 
-Canonical support: CD-01, CD-02, CD-03. These notes deepen the inspected calibration claims; they do not assert exhaustive reading coverage. Human source review and edition issues remain recorded in the class omissions report. For a later deliverable, use only a claim whose exact wording and locator have been checked. Questions and urban applications are our synthesis.
+### 1. Separate stock, flow and function
 
-## Additional inspected arguments
+Annual water use is a flow. A water-bearing system and its capacity to sustain services require other measurements. Our application of `CD-01` asks which physical stock or function the decision could affect and which observation would demonstrate maintenance or depletion.
 
-Operational principle 3 asks that renewable harvesting stay within regeneration and waste emissions within assimilative capacity (`CD-04`, PDF p. 9, printed p. 44). This makes a local threshold an empirical research need. A technology label or one annual withdrawal total cannot establish whether a stock or sink is maintained.
+### 2. Specify what can substitute for what
 
-The discounting discussion identifies how the selected rate changes natural-capital valuation (`CD-05`, PDF p. 8, printed p. 43). A case application should show sensitivity to the rate and time horizon, while making the evaluative choice explicit. The passage does not establish a universal rate for every public decision. These claims were checked against extracted text; original-page review is needed before direct quotation.
+Complementarity (`CD-02`) challenges treating manufactured additions as general replacements for ecological losses. An application still needs to identify the particular function, location and time horizon. The inspected claim does not establish that no substitution is ever possible.
+
+### 3. Test absolute scale
+
+An efficiency rate and an activity level jointly determine a total. A lower rate can coexist with higher demand; the [class application](../synthesis/urban-application.md) works through a labeled numerical example. Calling that pattern “rebound” requires the additional causal claim that efficiency induced more activity.
+
+### 4. Expose the valuation choice
+
+Discounting changes how future consequences enter a present comparison (`CD-05`). The case should show which rate and horizon were used and whether alternatives alter the result. The reading does not establish a universally correct rate or supply a local ecological threshold.
+
+## What remains open
+
+`CD-04` supplies normative operating principles, not measured regeneration or sink capacity for a candidate place. Those require local evidence. Nora’s valuation discussion (`L2-04`, 1:22:17–1:27:11) adds a separate question about whether pricing harm makes it acceptably tradable. Monetary compensation and preservation of a physical function need separate arguments.
+
+[Canonical claims](../../../../cross-course/claims.json) · [Source metadata](source.yaml) · [Coverage gaps](../omissions-report.md)

@@ -1,9 +1,37 @@
-# Assignment 1 preparation
+# Assignment 1 · Research memo preparation
 
-The memo is paused. The repository prepares a source-grounded research packet; it contains no memo draft.
+[Home](../../README.md) / [Assignments](../README.md) / Assignment 1
 
-The task is an approximately 800–1,000-word memo combining personal engagement, current knowledge, questions for further investigation, and evidence-based analysis of sustainable urban development. Requirements come from SYL PDF page 3 and the user’s supplied prompt. TA-02 excludes bibliography from the count. TA-03 permits APA or Chicago and asks for transparent AI acknowledgment. The syllabus lists September 18 and 10% (PDF page 6); confirm submission settings in Canvas.
+| Scope | Verified format | Status |
+| :--- | :--- | :--- |
+| Preparation for a personally grounded urban-sustainability inquiry | Approximately 800–1,000 words | Drafting paused; no memo draft in this packet |
 
-Start with reflection-and-evidence-worksheet.md. Use the readiness checklist and requirement matrix to prepare evidence. The case may be introduced provisionally; the repository does not require a completed semester study to identify worthwhile questions. It does require honest attribution, bounded claims, and user approval before drafting resumes.
+## The course brief
 
-Supplementary research habits are in [research-process worksheet](research-process-worksheet.md) and [research skills](../../study/research-skills.md). These are user-supplied methods references, not additional grading requirements.
+| Required work | Source |
+| :--- | :--- |
+| Explain personal engagement with the topic | `SYL`, PDF p. 3; user-supplied prompt |
+| Describe present knowledge and relevant concepts or debates | `SYL`, PDF p. 3 |
+| Identify questions and learning still needed | `SYL`, PDF p. 3 |
+| Combine personal reflection with evidence-based urban analysis | `SYL`, PDF p. 3 |
+| Exclude bibliography from the stated word count | `TA-02`, `L2`, 1:37:53–1:41:19 |
+| Use APA or Chicago and acknowledge AI assistance | `TA-03`, `L2`, 1:41:59–1:42:57; AI responsibility also `SYL`, p. 7 |
+
+The syllabus lists September 18 and 10% (`SYL`, PDF p. 6). Confirm live submission settings before submitting. Transcript role identification remains provisional pending audio verification.
+
+## Focused evidence packet
+
+[Governing AI infrastructure](EVIDENCE-PACKET.md) connects the user-selected governance, people, and ecological dimensions through one guiding question. It includes the supplied personal context, a small course-claim set, a municipal illustration, rival interpretations, a 900-word task architecture, and a pending human review queue. It contains no memo prose and does not select the semester case.
+
+## Preparation path
+
+| Step | Open | Produce |
+| :--- | :--- | :--- |
+| 1 · Identify authentic engagement | [Reflection and evidence worksheet](reflection-and-evidence-worksheet.md) | Mark's own experience or motivation, without invented detail |
+| 2 · Bound the inquiry | [Research-process worksheet](research-process-worksheet.md) | A question, assumptions, and evidence needs |
+| 3 · Map support | [Requirement–evidence matrix](requirement-evidence-matrix.md) | Candidate claims and remaining gaps for each requirement |
+| 4 · Review readiness | [Readiness checklist](readiness-checklist.md) | Explicit authorization and the relevant human review record |
+
+A provisional case can support an honest inquiry if its status and limits are clear. This assignment does not require a completed impact evaluation. The six-case discovery process remains open, and the personal connection to a place does not determine selection by itself.
+
+[Machine-readable requirements](requirements.json) · [Supplementary study habits](../../study/research-skills.md) · [Deliverable standard](../../standards/DELIVERABLES.md)
