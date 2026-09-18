@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "evaluated_at": "2026-09-18T15:00:10.379380Z",
+  "evaluated_at": "2026-09-18T15:17:19.229006Z",
   "executor": "automated Python runner; invoked in an AI-assisted work session",
   "scope": "repository files; local source digests included",
   "automated_status": "pass",
@@ -38,7 +38,7 @@
         "-v"
       ],
       "exit_code": 0,
-      "output": "test_bounded_automated_clock_skew (test_assurance.AssuranceTests) ... ok\ntest_dead_and_escaping_links (test_assurance.AssuranceTests) ... ok\ntest_missing_and_failed_check_cannot_pass (test_assurance.AssuranceTests) ... ok\ntest_only_exact_pending_receipt_link_is_exempt (test_assurance.AssuranceTests) ... ok\ntest_receipt_cannot_certify_human_fidelity (test_assurance.AssuranceTests) ... ok\ntest_receipt_excluded_and_ignored_sources_excluded (test_assurance.AssuranceTests) ... ok\ntest_stale_receipt_after_prose_edit (test_assurance.AssuranceTests) ... ok\ntest_untracked_raw_file_fails_privacy_before_staging (test_assurance.AssuranceTests) ... ok\ntest_bad_source (test_integrity.IntegrityTests) ... ok\ntest_complete_review_allows_promotion (test_integrity.IntegrityTests) ... ok\ntest_cycle (test_integrity.IntegrityTests) ... ok\ntest_missing_locator (test_integrity.IntegrityTests) ... ok\ntest_pass_without_reviewer (test_integrity.IntegrityTests) ... ok\ntest_passed_gates_do_not_erase_omissions (test_integrity.IntegrityTests) ... ok\ntest_peer_laundering (test_integrity.IntegrityTests) ... ok\ntest_promotion_fails_closed (test_integrity.IntegrityTests) ... ok\ntest_unauthorized_draft (test_integrity.IntegrityTests) ... ok\ntest_valid_calibration (test_integrity.IntegrityTests) ... ok\ntest_wrong_archive_path (test_integrity.IntegrityTests) ... ok\ntest_alternative_ownership (test_research.ResearchTests) ... ok\ntest_capacity_is_not_energy (test_research.ResearchTests) ... ok\ntest_complete_packet (test_research.ResearchTests) ... ok\ntest_hindsight_leak (test_research.ResearchTests) ... ok\ntest_measurement_cycle (test_research.ResearchTests) ... ok\ntest_missing_temporal_access (test_research.ResearchTests) ... ok\ntest_outcome_cannot_use_scenario (test_research.ResearchTests) ... ok\ntest_research_approval_needs_receipt (test_research.ResearchTests) ... ok\ntest_schema_rejects_missing_disconfirmation (test_research.ResearchTests) ... ok\ntest_schemas (test_research.ResearchTests) ... ok\ntest_stale_review_rejected (test_research.ResearchTests) ... ok\ntest_unknown_cannot_pass_selection (test_research.ResearchTests) ... ok\ntest_unknown_is_not_zero (test_research.ResearchTests) ... ok\ntest_wrong_authority_type (test_research.ResearchTests) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 3.363s\n\nOK"
+      "output": "test_bounded_automated_clock_skew (test_assurance.AssuranceTests) ... ok\ntest_dead_and_escaping_links (test_assurance.AssuranceTests) ... ok\ntest_missing_and_failed_check_cannot_pass (test_assurance.AssuranceTests) ... ok\ntest_only_exact_pending_receipt_link_is_exempt (test_assurance.AssuranceTests) ... ok\ntest_receipt_cannot_certify_human_fidelity (test_assurance.AssuranceTests) ... ok\ntest_receipt_excluded_and_ignored_sources_excluded (test_assurance.AssuranceTests) ... ok\ntest_stale_receipt_after_prose_edit (test_assurance.AssuranceTests) ... ok\ntest_untracked_raw_file_fails_privacy_before_staging (test_assurance.AssuranceTests) ... ok\ntest_bad_source (test_integrity.IntegrityTests) ... ok\ntest_complete_review_allows_promotion (test_integrity.IntegrityTests) ... ok\ntest_cycle (test_integrity.IntegrityTests) ... ok\ntest_missing_locator (test_integrity.IntegrityTests) ... ok\ntest_pass_without_reviewer (test_integrity.IntegrityTests) ... ok\ntest_passed_gates_do_not_erase_omissions (test_integrity.IntegrityTests) ... ok\ntest_peer_laundering (test_integrity.IntegrityTests) ... ok\ntest_promotion_fails_closed (test_integrity.IntegrityTests) ... ok\ntest_unauthorized_draft (test_integrity.IntegrityTests) ... ok\ntest_valid_calibration (test_integrity.IntegrityTests) ... ok\ntest_wrong_archive_path (test_integrity.IntegrityTests) ... ok\ntest_alternative_ownership (test_research.ResearchTests) ... ok\ntest_capacity_is_not_energy (test_research.ResearchTests) ... ok\ntest_complete_packet (test_research.ResearchTests) ... ok\ntest_hindsight_leak (test_research.ResearchTests) ... ok\ntest_measurement_cycle (test_research.ResearchTests) ... ok\ntest_missing_temporal_access (test_research.ResearchTests) ... ok\ntest_outcome_cannot_use_scenario (test_research.ResearchTests) ... ok\ntest_research_approval_needs_receipt (test_research.ResearchTests) ... ok\ntest_schema_rejects_missing_disconfirmation (test_research.ResearchTests) ... ok\ntest_schemas (test_research.ResearchTests) ... ok\ntest_stale_review_rejected (test_research.ResearchTests) ... ok\ntest_unknown_cannot_pass_selection (test_research.ResearchTests) ... ok\ntest_unknown_is_not_zero (test_research.ResearchTests) ... ok\ntest_wrong_authority_type (test_research.ResearchTests) ... ok\n\n----------------------------------------------------------------------\nRan 33 tests in 3.250s\n\nOK"
     },
     {
       "id": "local_markdown_links",
@@ -48,25 +48,25 @@
       "output": "Local Markdown path targets resolve"
     }
   ],
-  "fingerprint": "0c8fd24b38550e6c560a15f5d0ae9575548ec51dcdb0915889eee06d41bc50e3",
+  "fingerprint": "e7390510905156ba24c51423e4657dd41cdf95fc45f28369d857e51058fb7353",
   "files": {
     ".githooks/pre-commit": "f644b4ba0d812dc0aacd10202554fb0f578cfcbfa514325c9aed6ac31ea48c9f",
     ".githooks/pre-push": "ffc5f4ea7d96d52134bfece428f16d742483ee9433f463b3618e4de4740e8e3c",
     ".github/workflows/validate.yml": "26cb25df7b43356fbfebda4a6158fcf39e0aad34e0ec365129cdd421be68ac11",
     ".gitignore": "1d892549c0873a3dd45ec25945bb954c2e6f368891541f4b796b6dfa3ae6254a",
     "AGENTS.md": "98ed0584a9105f13e396653df0eaf74325fc371dc6fc1f2ec12998f854f1c2fe",
-    "AI-USE-LOG.md": "f171341d55ecf79e3826e7953c40af14eb59fbacfdc1b9a30e60586b161f8bac",
-    "BUILD-STATUS.md": "8863b8ea85c09909cf03da344118af8ec10d0aa9f7486a47207dbbbaf8ffff5d",
+    "AI-USE-LOG.md": "b275fc538e1604bf15b8f8d838c3711e4c9ce48eb58853015b594a1c3fe9396c",
+    "BUILD-STATUS.md": "d31c1f29de0b4da129a272b6cd115fd53ca5d0e10646a89c7caec011a27df3c7",
     "CITATION-POLICY.md": "9a570e9a789100bfee67e9f6c7d143bd411fa6316edb06825ed653eda378e0f4",
     "COURSE-MAP.md": "ab1cc711a611a2d3ff10c211bad8ba099f0537f6320b9d3f2700efb389a9cf8d",
     "MEMORY.md": "1999b9d94b16132cf3e11a8c2ed1f38b59b167d0b585e08c565c028f606bb090",
     "METHODOLOGY.md": "20d0ac791fb248825d0fb9d01c026f8061368ae2662b241dc9e2d71ebc0bd11b",
     "README.md": "245abb615fb3e8842cc07e5006df40d0f4a8765446c15e834240e9d19b6f60df",
     "assignments/README.md": "9ef3e0a605e836dab6ed569a68758cfa4cf9d407b14706991dbba30c4df0d7a2",
-    "assignments/assignment-01/DRAFT-REVIEW.md": "9bd7902da94bd415cf6ee854e9269574a068dae354ddb45aeed399ea57aa4f10",
-    "assignments/assignment-01/EVIDENCE-PACKET.md": "bbfa9751243062c986f36180b203ec5eda8384f385d2405fd0c613cf7112d710",
+    "assignments/assignment-01/DRAFT-REVIEW.md": "51c7e80549400a248358f8e39dfdd9f02e70f7b717df46b04742ba6b5a6ca9f2",
+    "assignments/assignment-01/EVIDENCE-PACKET.md": "98bc1156e98132cd8ae8760bffd32b536fcf4e1d34fb19a5acf0d6d77954545f",
     "assignments/assignment-01/README.md": "3fa2902b8975edea8fafb60985e2ad85ebc14a6241285c8cc93e04f1997f6d70",
-    "assignments/assignment-01/memorandum-draft.md": "fdd596d56c952bd908018baad6caf97753ecd97a5eee43fc9c4cacf8bb98f8f6",
+    "assignments/assignment-01/memorandum-draft.md": "d9b615571af456ebb856f3ef850e32c0b39625558389604b63a598aeb82cf795",
     "assignments/assignment-01/readiness-checklist.md": "33453564c19630c7203e179e94876f5cb2e2b0ba50df9403784799f72880e721",
     "assignments/assignment-01/reflection-and-evidence-worksheet.md": "949490d2d6e93647eefbc6b646eee05a518a669eab1345af0bd768bb22942429",
     "assignments/assignment-01/relevance/a1-r1.json": "4db00b29988c7296980a286cd62e1fa8097007959e58ad3b6be520cdabaccdcf",

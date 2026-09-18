@@ -11,7 +11,7 @@
 | Course knowledge | Four reading dossiers; two class analyses; argument maps, lecture comparisons, rivals and bounded translation tasks | North/Ostrom edition issues; whole-lecture coverage and speaker verification |
 | Evidence architecture | 36 source records, 61 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
 | Decision research | 44 objects across 12 types; worked design; six comparable candidate dossiers | No selected geography or completed physical-outcome dataset |
-| Assignment 1 | Five-section memorandum with APA 7 citations, a brief AI acknowledgment, evidence packet and review record | Student approval, completed human source adjudication and submission remain pending |
+| Assignment 1 | Five-section memorandum linking justification, monitoring and correction, with APA 7 citations, a brief AI acknowledgment, evidence packet and review record | Student approval, completed human source adjudication and submission remain pending |
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
