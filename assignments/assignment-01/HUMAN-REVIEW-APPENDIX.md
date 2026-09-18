@@ -1,6 +1,6 @@
 # Assignment 1 · Human review and evidence companion
 
-[Home](../../README.md) / [Assignment 1](README.md) / Human review · [Memorandum](memorandum-draft.md) · [Pressure test](PRE-SUBMISSION-REVIEW.md)
+[Home](../../README.md) / [Assignment 1](README.md) / Human review · [Memorandum](memorandum-draft.md) · [Earlier pressure test](PRE-SUBMISSION-REVIEW.md) · [Current revision](REVISION-NOTES.md)
 
 Before submission, Mark needs to be able to explain and defend the memorandum’s claims, personal interpretation and final wording. This companion gives that review a defined scope. Keep it with the private research record; including it in the course submission is a separate decision.
 
@@ -8,12 +8,12 @@ Before submission, Mark needs to be able to explain and defend the memorandum’
 | :--- | :--- |
 | Drafting and revision | Explicitly authorized by Mark |
 | Authentic personal inputs | Supplied by Mark; final interpretation and wording await his approval |
-| Source checks | Fresh AI-assisted passage and reference checks completed September 18, 2026, for the pressure-test baseline and revised memo; scope and limits appear below |
+| Source checks | Fresh AI-assisted passage and reference checks completed September 18, 2026, for the earlier pressure test and current revision, including North’s original journal passage; scope and limits appear below |
 | Human source review | Pending for every used source |
 | Final artifact and submission | Approval and submission have not been recorded |
-| Version covered | Revised `memorandum-draft.md`, September 18, 2026; SHA-256 `5e56ad862dcc84d111ba29571e3640f14619ffaa7d8ed97d1a73a5b23fa722f9`. Human review date remains pending |
+| Version covered | Revised `memorandum-draft.md`, September 18, 2026; SHA-256 `185efe452f1715a6ab6ac3bd14786ff53f0d5246868e8c426889e3c00e48cf7b`. Human review date remains pending |
 
-The reading targets incorporate the fresh evidence audit’s corrections. AI checking covered selected passages and metadata; it did not establish local environmental outcomes or complete Mark’s source review. A second AI passage check found the revised qualifiers supported. Mark still needs to compare the wording and locators with the actual artifact he approves.
+The reading targets incorporate the fresh evidence audit’s corrections. AI checking covered selected passages and metadata; it did not establish local environmental outcomes or complete Mark’s source review. The current revision adds a checked North passage and incorporates Perplexity’s editorial suggestions with their limits recorded. A bounded AI review found the revised claims supported. Mark still needs to compare the wording and locators with the actual artifact he approves.
 
 ## Review queue for the deadline
 
@@ -22,19 +22,33 @@ Work through the actual sentences in the revised memorandum. A correction may re
 | Order | Review action | Exit condition |
 | :--- | :--- | :--- |
 | 1 | Read the personal reflection and separate Closing Reflection aloud. Confirm the relationship among Hawaiʻi, Georgia, professional experience and the research question. | Mark approves the interpretation and wording as his own; any overstated connection is revised. |
-| 2 | Compare the Sen and Costanza–Daly paraphrases with the pages listed below. | The source’s argument, the memo’s application and the source’s limits remain distinct. |
+| 2 | Compare the North, Sen and Costanza–Daly paraphrases with the pages listed below. | The source’s argument, the memo’s application and the source’s limits remain distinct. |
 | 3 | Read The Dalles minutes pp. 4–7 beside every municipal claim in the memo. | Date, vote, attributed statements and disclosure questions are accurate; authorization is kept distinct from implementation and outcomes. |
 | 4 | Check the Office of Hawaiian Affairs account and Shah’s essay against their uses. | Cultural attribution is precise; Shah supplies a research context without being presented as local impact evidence. |
-| 5 | Trace the claim → inference → qualification examples below, the favorable case account and the challenge to the proposed governance standard. | Mark can name a plausible finding that would change his assessment and explain why. |
+| 5 | Trace the proposed assurance chain and claim → inference → qualification examples below, including the favorable case account and the challenge to the framework. | Mark can name a plausible finding that would change his assessment and explain why. |
 | 6 | Check the AI acknowledgment, references, final length and live assignment instructions. | Actual assistance is described; unused tools are excluded; Mark’s permission to expand is distinguished from the course’s approximate word guidance. |
 | 7 | Read the complete memo as a skeptical reader, including the final research questions and standalone closing. | Mark can explain its argument without relying on the AI draft, and the questions remain answerable in a bounded investigation. |
 | 8 | Approve the exact final artifact, then record submission separately if it occurs. | The review names a file/revision and date. Any submission record reflects an actual upload or receipt. |
 
-All eight actions remain pending. Drafting authorization does not complete them. North is omitted from the current memo, so reconciling its reprint pagination is unnecessary for this submission unless its claim is reintroduced.
+All eight actions remain pending. Drafting authorization does not complete them. North is now included: the specific passage has been checked at original AER p. 360 against the supplied reprint’s p. 10. This does not establish full equivalence between the editions.
 
 ## Source-by-source reading guide
 
 Printed page numbers and PDF page numbers differ for the supplied readings. Use the printed pages in the memo’s citations and the PDF pages to navigate the supplied file.
+
+### North · What connects rules with behavior?
+
+| Item | Review target |
+| :--- | :--- |
+| Source | North (1994), [“Economic performance through time”](https://www.jstor.org/stable/2118057); original journal scan `N94-AER`, separately archived from supplied reprint `N94` |
+| Exact locator | AER printed p. 360 / PDF p. 3, Section II, first paragraph; corresponds to supplied reprint printed p. 10 / PDF p. 2 |
+| Fresh AI check | Original journal scan from the Norwegian University of Life Sciences host, journal metadata and the cited page visually inspected; the two specific passages compared |
+| Claim used | Formal rules, informal norms and enforcement jointly shape incentives. |
+| Application in this memo | Examine how a safeguard is enforced alongside what its written terms require. |
+| Limit to retain | The reading establishes no fact about enforcement in The Dalles. Only this passage’s correspondence was checked; full-article review and complete reprint equivalence remain unresolved. |
+| Human status | Pending |
+
+Review question: Can I distinguish a rule’s wording from the incentives and enforcement that shape how people act, without assuming how this operated in the case?
 
 ### Sen · What counts as a benefit?
 
@@ -108,11 +122,27 @@ Review question: Does this wording express what I learned while respecting the c
 
 Review question: Can I explain the specific conversation my inquiry enters without claiming that the question is unprecedented?
 
+## Examine the provisional commitment assurance chain
+
+Perplexity’s author-supplied critique suggested this organizing sequence. The memo adapts it as six connected questions. It is not a validated causal model or a finding that a local accountability gap exists.
+
+| Link | Governing question | Evidence to seek |
+| :--- | :--- | :--- |
+| Justification | What evidence and assumptions supported approval? | Dated studies, demand and supply assumptions, considered alternatives |
+| Disclosure | What could affected people inspect and challenge? | Released materials, requests, access conditions and responses |
+| Monitoring | Which conditions were measured over time? | Indicators, units, observation periods and measurement records |
+| Trigger | What condition required review or intervention? | Defined thresholds, review dates and actual observations |
+| Authority | Who had the power and responsibility to respond? | Executed terms, assigned duties, resources and continuity arrangements |
+| Remedy | What corrective action was available and taken? | Response provisions, action records and subsequent observations |
+
+The links can interact and operate through several institutions. Identify the responsible actor and period for each. A missing public record leaves a question unresolved; it does not establish that a safeguard was absent or that harm occurred. Evidence that all six links existed would still leave the adequacy of the allocation and the causes of outcomes open to evaluation.
+
 ## Trace each inference
 
 | Starting claim | Inference or application to examine | Qualification that must survive revision |
 | :--- | :--- | :--- |
 | Officials reported studies and anticipated benefits; the record also contains requests for information. | Public access and the adequacy of official evidence may differ. Both deserve investigation. | The minutes alone cannot establish inadequate analysis or a causal effect of disclosure. |
+| North connects formal rules, informal norms and enforcement with incentives. | The terms of an agreement must be examined alongside how people implement and enforce them. | This is an application of institutional theory; local enforcement remains unverified. |
 | Sen argues for plural dimensions and public discussion of evaluative weights. | A single economic total may leave questions about affordability, service and participation unanswered. | Local evidence must establish which populations and consequences matter in this decision. |
 | Costanza and Daly distinguish natural capital from the flows it supplies. | Added water infrastructure cannot by itself establish that ecological conditions are protected. | The memo has not measured local resource stocks, regeneration, assimilation or depletion. |
 | Hypothetical evidence: a safeguard appears in an executed agreement. | The clause describes an intended protection and identifies an implementation question. | Whether a safeguard exists in this case, operated when needed, or caused better outcomes still requires evidence. |
@@ -153,9 +183,10 @@ These are proposed tests. No completed local causal evaluation, preregistration 
 | :--- | :--- |
 | ChatGPT | Used for topic exploration |
 | Codex | Generated the initial draft and assisted with source checks, revision, pressure testing and formatting |
-| Perplexity, SciSpace and Claude | Planned for later; Mark confirmed they have not been used for this memorandum |
+| Perplexity | Author-supplied editorial feedback and framework suggestions informed this revision; no independent source-fidelity approval or novelty finding is claimed |
+| SciSpace and Claude | Still planned; no use for this memorandum has been established |
 | AI acknowledgment | Explain actual contributions and retained author responsibility; check the exact final wording |
-| References | Identify the tools actually used. Official ChatGPT and Codex URLs and product attribution were freshly checked. Historical model/version identifiers remain unrecorded; actual-use claims come from the task history. Substantive assertions rely on cited readings and records. |
+| References | Identify the tools actually used. ChatGPT and Codex product attribution was checked during the prior revision; Perplexity’s official site and corporate identity were checked for this revision. Historical model/version identifiers remain unrecorded; actual-use claims come from the task history. Substantive assertions rely on cited readings and records. |
 | Private prompts and repository | No raw prompts or repository access are needed to use this companion. Keep private research materials private |
 
 Mark’s explicit authorization to draft, his approval of personal wording, his approval of source interpretations, and his approval to submit the final artifact are separate records. None should be inferred from another.
@@ -174,7 +205,7 @@ No completed human review is recorded. Add a row only after the action occurs, a
 | Approved memorandum filename and revision | Pending |
 | Approval date and approving person | Pending |
 | Unresolved limitations retained in the memo | Pending |
-| Final count and counting method | 997 body words + 32 acknowledgment = 1,029; whitespace-delimited, excluding metadata, title, headings, list numerals and references. All pre-References text: 1,083 words. Separate appendix excluded. |
+| Final count and counting method | 956 body words + 44 acknowledgment = 1,000; whitespace-delimited, excluding metadata, title, headings, list numerals and references. All pre-References text: 1,059 words. Separate appendix excluded. |
 | Submission status and receipt | Not recorded |
 
 This companion records a limited review of the memorandum. Completing it does not certify the wider course knowledge base or close unrelated research gaps.

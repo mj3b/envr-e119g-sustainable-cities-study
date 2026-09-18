@@ -18,7 +18,21 @@
     "private_path": "private/raw/North -Economic Performance.pdf",
     "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
     "class_number": 1,
-    "version_note": "Assigned: American Economic Review 84(3), 359–368 (1994). Uploaded copy: Revista Universidad Eafit No. 93 reprint, opening printed page 9; edition equivalence unverified."
+    "version_note": "Assigned: American Economic Review 84(3), 359–368 (1994). Uploaded copy: Revista Universidad Eafit No. 93 reprint, opening printed page 9. The N-02 passage in section II was visually compared at reprint printed p. 10 (PDF p. 2) and original AER printed p. 360 (PDF p. 3 of N94-AER). The specific proposition is supported in both; full edition equivalence remains unresolved."
+  },
+  {
+    "id": "N94-AER",
+    "title": "North, Economic Performance Through Time, American Economic Review journal scan",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/North-1994-AER-journal-scan.pdf",
+    "sha256": "1ff53492eae702d65eec8f2e8584df3ff377ba2c8acf5a4b4360ef0098ed2283",
+    "class_number": 1,
+    "url": "https://arken.nmbu.no/~sigury/AOS_234/320_Pensum/North%201994%20Economic%20performance%20Through%20Time.pdf",
+    "retrieved": "2026-09-18",
+    "version_note": "American Economic Review 84(3), 359–368 (June 1994), a journal scan reproduced from JSTOR and hosted by the Norwegian University of Life Sciences. Stable article reference: https://www.jstor.org/stable/2118057 . Includes a JSTOR cover; PDF p. 3 is printed p. 360. Section II, first paragraph, was visually inspected and compared with N94 printed p. 10 / PDF p. 2 for N-02. This supports the memorandum’s North (1994, p. 360) citation without asserting full reprint equivalence or full-article review.",
+    "note": "Download completed on 2026-09-18 at approximately 16:21:39 UTC, as recorded by the downloaded file’s modification time. Original download bytes archived privately without alteration. Human fidelity review remains pending; N-02 retains its supplied-reprint provenance under N94."
   },
   {
     "id": "S00",

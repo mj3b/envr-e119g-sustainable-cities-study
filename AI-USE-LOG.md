@@ -45,11 +45,11 @@ On September 18, 2026 (UTC), Mark explicitly authorized an APA 7 research memora
 
 ## Disclosure in the draft
 
-At Mark’s request, an earlier revision removed the standalone Research Transparency and AI Assistance section. The current revision restores a separate Closing Reflection. A 32-word, unheaded acknowledgment before References identifies ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting. It retains Mark’s responsibility for the submitted argument and citations. Private prompts are not quoted.
+At Mark’s request, an earlier revision removed the standalone Research Transparency and AI Assistance section. The current memo retains a separate Closing Reflection. The current 44-word, unheaded acknowledgment before References identifies ChatGPT’s topic exploration, Codex’s drafting, checking and formatting, and author-supplied Perplexity editorial feedback and framework suggestions. It retains Mark’s responsibility for the submitted argument and citations. Private prompts are not quoted.
 
-The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex. Original readings and public records support the substantive claims.
+The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex, plus Perplexity AI, `n.d.` for Perplexity. Original readings and public records support the substantive claims.
 
-The preceding revision contained 998 argument words and a 32-word acknowledgment. It separated observed, interpreted and normative statements, gave affected populations a research question, and followed the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. That earlier Word export was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+An earlier revision contained 998 argument words and a 32-word acknowledgment. It separated observed, interpreted and normative statements, gave affected populations a research question, and followed the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. That earlier Word export was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
 
 ## Reflection and research-question revision
 
@@ -67,7 +67,7 @@ The questions apply practices documented in the [influence register](standards/I
 
 ## Full memorandum pressure test · September 18, 2026
 
-The current title is **Water Commitments and Accountability in AI Infrastructure**. The full pressure test examined evidence, competing interpretations, causal claims, personal voice, cultural attribution, APA references and presentation. It restores a standalone Closing Reflection and keeps the [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) separate from the memorandum. The [pre-submission review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) records the pressure test.
+This historical PR #8 revision was titled **Water Commitments and Accountability in AI Infrastructure**. Its full pressure test examined evidence, competing interpretations, causal claims, personal voice, cultural attribution, APA references and presentation. It restored a standalone Closing Reflection and kept the [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) separate from the memorandum. The [pre-submission review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) records the pressure test.
 
 | Fresh checking and correction | Scope and limit |
 | :--- | :--- |
@@ -78,11 +78,26 @@ The current title is **Water Commitments and Accountability in AI Infrastructure
 | Rival explanations and inference | Clarified that a dated response provides evidence of implementation, and that residents’ accounts could reveal omissions; neither establishes a causal effect by itself. |
 | Review boundaries | All eight human review actions remain pending. No canonical registry, human review receipt, source original or submission status was changed by this pressure test. |
 
-The revised argument is **997 words**, with a **32-word acknowledgment**, or **1,029 combined**. Mark permits expansion beyond 1,000 words; the course’s approximate 800–1,000-word guidance remains unchanged. The count excludes the memo fields, headings, References and separate review appendix. Authentic personal inputs are supplied; final voice and interpretation remain for Mark to approve. The revised memo has six rendered pages; the separate companion has eight. All fourteen pages were visually inspected, and source-text fidelity was checked for both. The review record distinguishes requested fonts from renderer substitutions. These production checks do not complete Mark’s source or voice review.
+That revision’s argument was **997 words**, with a **32-word acknowledgment**, or **1,029 combined**. Mark permits expansion beyond 1,000 words; the course’s approximate 800–1,000-word guidance remains unchanged. The count excludes the memo fields, headings, References and separate review appendix. Authentic personal inputs are supplied; final voice and interpretation remain for Mark to approve. That revision’s memo had six rendered pages; its separate companion had eight. All fourteen pages were visually inspected, and source-text fidelity was checked for both. The review record distinguishes requested fonts from renderer substitutions. These production checks do not complete Mark’s source or voice review.
 
-## Planned tools are not completed research
+## Author-supplied Perplexity revision · September 18, 2026
 
-Mark confirmed that Perplexity, SciSpace and Claude have not been used for this memorandum. They are intended for later research and are excluded from the current acknowledgment and References. Before describing any as used, record the actual task, date, retained result, original sources checked and contribution to the argument. Product names or a deep-research feature label do not establish that research was performed.
+The author subsequently supplied Perplexity analysis as editorial input. The current title is **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**. [Revision notes](assignments/assignment-01/REVISION-NOTES.md) record adoption decisions and boundaries. The earlier [PR #8 review](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) remains a historical report.
+
+| Retained change | Evidence or boundary |
+| :--- | :--- |
+| One primary question and a provisional commitment assurance chain | Justification, disclosure, monitoring, triggers, authority and remedy organize investigation; the chain is neither validated nor claimed as novel. |
+| Named knowledge claims and epistemic distinctions in prose | The memo distinguishes documentary observations, interpretation and normative commitments without implying measured outcomes. |
+| North’s institutional argument restored | A fresh AI-assisted visual check inspected original AER p. 360 against supplied reprint p. 10. The new `N94-AER` source record preserves that edition; `N94`’s original file and hash are preserved. Full-article coverage and whole-reprint equivalence remain unresolved. |
+| Concise method and case-selection language | Three subquestions remain answerable; semester geography stays open and the Closing Reflection remains separate. |
+| Expanded disclosure | Perplexity is now credited for author-supplied editorial feedback and framework suggestions, alongside ChatGPT and Codex. Its suggestions are not independent source evidence. |
+| Suggestions not adopted | No new novelty claim, 2022 settlement claim or unsupported allocation of legal authority across government levels was added. |
+
+The current body is **956 words**, plus a **44-word acknowledgment**, for **1,000 combined**. Counting all material before References gives **1,059 words**. Nine references comprise six substantive sources and three AI-tool entries. Mark permits expansion beyond 1,000; course guidance remains approximately 800–1,000. The current memo has six rendered pages and the companion nine; all fifteen were inspected, with source-text and structural checks passed. The [draft review record](assignments/assignment-01/DRAFT-REVIEW.md) records font substitutions and layout details. All human source, voice and final-artifact approvals remain pending.
+
+## Tool-use history and remaining planned tools
+
+Before this revision, Mark had confirmed that Perplexity, SciSpace and Claude were unused for the memo; their exclusion was accurate for that stage. The subsequently supplied Perplexity analysis changes its status to actual editorial assistance. SciSpace and Claude remain unused. Any future use should record the task, retained result, checked original sources and contribution before entering the disclosure. Product names do not establish that research was performed.
 
 ## Before a submission
 

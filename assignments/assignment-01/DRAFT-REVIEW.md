@@ -8,18 +8,18 @@
 
 | Item | Current record |
 | :--- | :--- |
-| Title | Water Commitments and Accountability in AI Infrastructure |
+| Title | When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure |
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
-| Question | What evidence should justify a city’s water commitment, and who must act if its assumptions fail? |
-| Argument body | 997 words |
-| Brief AI acknowledgment | 32 words; combined with body, 1,029 words |
-| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction permits expansion beyond 1,000; it does not establish an instructor exception. All pre-References text, including metadata/title/headings/list numerals, totals 1,083 words |
+| Question | What keeps a municipal water commitment publicly defensible as conditions and community needs change? |
+| Argument body | 956 words |
+| Brief AI acknowledgment | 44 words; combined with body, 1,000 words |
+| Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction permits expansion beyond 1,000; it does not establish an instructor exception. All pre-References text, including metadata/title/headings/list numerals, totals 1,059 words |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
 
 The Word version follows Mark’s memorandum format: To/From/Date/Subject, title, six analytical sections and References. APA 7 governs the citations and reference styling. The Markdown preserves the same wording. A separate human-review companion provides preparation material; it is excluded from the memo’s count and is not automatically part of the course submission.
 
-The [full pressure test](PRE-SUBMISSION-REVIEW.md) records the diagnostic review before revision, with a paragraph-level outline, claim audit, cultural review, compression options and the revised memo. Its 74/100 editorial score applies to the prior draft, not to the revision or an anticipated instructor grade. The [human-review companion](HUMAN-REVIEW-APPENDIX.md) gives the exact passages, eight pending actions and their exit conditions.
+The [earlier full pressure test](PRE-SUBMISSION-REVIEW.md) preserves the PR #8 baseline and revision. Its 74/100 editorial score does not assess the current memo. The [current revision notes](REVISION-NOTES.md) record how Perplexity’s feedback was adopted, narrowed or deferred and how North’s citation was resolved. The [human-review companion](HUMAN-REVIEW-APPENDIX.md) gives the exact passages, eight pending actions and their exit conditions.
 
 ## Assignment coverage
 
@@ -30,15 +30,15 @@ The [full pressure test](PRE-SUBMISSION-REVIEW.md) records the diagnostic review
 | `A1-R3` · Further learning | Three linked tests of decision-time justification, operating safeguards, and outcomes for affected groups | Proposed investigation, not completed research |
 | `A1-R4` · Reflection with evidence | Personal motivation connects to a bounded municipal example and source-based reasoning | No invented experience or claim of independent student verification |
 | `A1-R5` · Urban development | Shared resources, public authority, affected populations and ecological conditions | Population boundaries and local thresholds remain to be established |
-| `A1-R6` · Concepts and debates | Sen’s plural evaluation; Costanza and Daly’s natural capital and ecological constraints | The readings specify questions; neither determines the municipal verdict |
+| `A1-R6` · Concepts and debates | North’s institutional incentives; Sen’s plural evaluation; Costanza and Daly’s natural capital and ecological constraints | The readings specify questions; none determines the municipal verdict |
 
-## What the pressure test changed
+## How the current revision develops the inquiry
 
-The standalone Closing Reflection returns to the responsibility learned in Hawaiʻi after explaining how the readings complicate the evaluation framework. Sen raises the public choice of criteria; Costanza and Daly require examination of the ecological conditions supporting promised benefits. These are current interpretations for Mark to review, without invented memories or claims of completed personal reading.
+The provisional commitment assurance chain connects justification, disclosure, monitoring, triggers, authority and remedy. The standalone Closing Reflection returns to the responsibility learned in Hawaiʻi after explaining how the readings complicate this proposed framework. North directs attention to incentives and enforcement; Sen raises the public choice of criteria; Costanza and Daly require examination of the ecological conditions supporting promised benefits. These are current interpretations for Mark to review, without invented memories or claims of completed personal reading.
 
 | Revision | Evidence or reasoning it preserves |
 | :--- | :--- |
-| Three distinct research questions | What justified one commitment; what conditions required a response; what changed for water users |
+| Three operational questions | What justified one commitment; what connected monitoring to action; what changed for users and ecological conditions |
 | A stronger counterargument | Transparent, enforceable terms can still permit an unfair or ecologically excessive allocation |
 | Qualified implementation inference | A response record provides evidence to check against monitoring and required action; documentation alone is not proof of effectiveness |
 | Conditional outcome attribution | A safeguard’s effect requires implementation evidence, a usable baseline/comparison and examination of rival explanations |
@@ -53,6 +53,7 @@ These are AI-assisted passage and metadata checks, not human fidelity approvals.
 
 | Source | Inspected support | Interpretation retained |
 | :--- | :--- | :--- |
+| `N94-AER` · North (1994) | Original AER scan printed p. 360 / PDF p. 3, Section II, visually compared with supplied reprint printed p. 10 / PDF p. 2 | Formal rules, informal norms and enforcement jointly shape incentives; application to the agreement is the memo’s reasoning |
 | `S00` · Sen (2000) | Supplied text, printed p. 18 / PDF p. 3; printed p. 21 / PDF p. 6. Publisher metadata confirms 2000 and DOI | Plural dimensions and public discussion of evaluative weights; application to infrastructure is the draft’s reasoning |
 | `CD92` · Costanza and Daly (1992) | Supplied text, printed pp. 38, 44–45 / PDF pp. 3, 9–10. Publisher metadata and DOI checked | Stocks and flows; renewable-resource harvesting, regeneration and waste assimilation; incomplete measurement guidance and action under uncertainty |
 | `EXT-DAL-MIN` · City of The Dalles (2021) | Primary minutes pp. 4–6 freshly reopened; attached comment p. 7 locator carried forward from the earlier review | Recorded funding and city involvement throughout the process, public requests, councilors’ reported review and the 5–0 authorization |
@@ -61,39 +62,39 @@ These are AI-assisted passage and metadata checks, not human fidelity approvals.
 
 The September 18 pressure test freshly checked the supplied extracted Sen and Costanza–Daly passages and bibliographic covers; it did not freshly inspect original page images. Indexed official publisher metadata supported the reference details where direct publisher opens failed. Municipal minutes, OHA, Shah and the existing AI product URLs were reopened. A second AI check found the revised source claims supported within these limits. No underlying municipal study, executed agreement or later outcome dataset was inspected.
 
-Canonical support includes `S-01`, `S-03`, `CD-01`, `CD-04`, `CD-06`, `CASE-DAL-01`, `CASE-DAL-02`, `CASE-DAL-04`, `CASE-DAL-05`, `LIT-SHAH-01` and `CULT-OHA-01`.
+Canonical support includes `N-02` (supplied reprint, with journal correspondence recorded separately), `S-01`, `S-03`, `CD-01`, `CD-04`, `CD-06`, `CASE-DAL-01`, `CASE-DAL-02`, `CASE-DAL-04`, `CASE-DAL-05`, `LIT-SHAH-01` and `CULT-OHA-01`.
 
 The municipal record does not establish an AI workload share, physical water consumption, subsequent performance or the absence of technical evidence. Its relevance is a bounded documentary illustration informing the AI-infrastructure inquiry. The draft tests a favorable interpretation as well as possible harms.
 
-North was omitted after checking the supplied reprint’s different pagination. The draft does not cite an unread journal edition or add Ostrom merely to increase the number of authors. The bibliography contains five substantive sources and two AI-tool references.
+North’s earlier omission is superseded. The actual journal passage has now been inspected and archived as `N94-AER`, allowing the precise p. 360 citation. Original source `N94` and its canonical claims retain the supplied reprint’s identity. Full-article review and complete edition equivalence remain unresolved. Ostrom remains outside this memo. The bibliography contains six substantive sources and three AI-tool references.
 
 ## AI acknowledgment and planned tools
 
 | Item | What the draft says or records |
 | :--- | :--- |
-| Actual assistance | A brief, unheaded acknowledgment before References names ChatGPT’s topic exploration and Codex’s generated draft, source checks, revision and formatting |
+| Actual assistance | A brief, unheaded acknowledgment before References names ChatGPT’s topic exploration, Codex’s drafting/checks/formatting, and Perplexity’s author-supplied editorial feedback and framework suggestions |
 | Prompt privacy | The submitted disclosure describes purpose, scope and responsibility without quoting private instructions. The inspected course passages do not expressly require verbatim prompts |
 | Responsibility | The acknowledgment retains Mark’s responsibility for the submitted argument and citations. Source and personal-voice reviews remain pending |
-| References | OpenAI, `n.d.-a`, identifies ChatGPT; `n.d.-b` identifies Codex. Tool titles distinguish the two entries. No unrecorded model/version or publication date is invented |
+| References | OpenAI, `n.d.-a`, identifies ChatGPT; `n.d.-b` identifies Codex. Perplexity AI, `n.d.`, identifies the additional tool; the acknowledgment describes its actual contribution. No unrecorded model/version or publication date is invented |
 | Private repository | Remains the supporting working record. The memo does not require GitHub access or include a repository reference |
-| Planned tools | Mark confirmed Perplexity, SciSpace and Claude have not been used for this memorandum. They are recorded as planned work, with no actual-use citations |
+| Planned tools | SciSpace and Claude remain unused. Perplexity’s new editorial contribution is disclosed and cited |
 | Prompt/output preservation | This task and the private working records preserve drafting context. No public conversation link or raw private material is published |
 
 Course provenance: `SYL`, PDF p. 7, requires acknowledgment/citation and student responsibility. `TA-03`, transcript 1:41:59–1:42:57, addresses transparency and consistent referencing. `L2-06`, 1:44:48–1:46:16, addresses knowing the work well enough to detect AI errors. Speaker-role identification remains provisional; no audio verification is claimed.
 
-The tool references identify software used; the unheaded acknowledgment explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available. Following Mark’s latest revision request, the standalone Research Transparency and AI Assistance section is removed. A 32-word acknowledgment preserves the actual-use account without reproducing prompts or attributing research to unused tools. This conclusion about prompt quotation is limited to the inspected course guidance.
+The tool references identify software used; the unheaded acknowledgment explains how it contributed. The memo’s substantive assertions cite readings and public records. APA’s [generative AI policy](https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai) is supplementary guidance; course instructions control this assignment. A precise model/version can be added if the actual historical identifier becomes available. Following Mark’s latest revision request, the standalone Research Transparency and AI Assistance section is removed. A 44-word acknowledgment preserves the actual-use account without reproducing prompts or attributing research to unused tools. This conclusion about prompt quotation is limited to the inspected course guidance.
 
 ## Production and student review
 
 | Check | Status |
 | :--- | :--- |
 | Source support, scope and citation metadata | AI-assisted review completed within the locators above; corrected wording rechecked |
-| Body and acknowledgment length | 997 + 32 = 1,029 words, excluding metadata, title, headings, list numerals and references; all pre-References text is 1,083 words |
+| Body and acknowledgment length | 956 + 44 = 1,000 words, excluding metadata, title, headings, list numerals and references; all pre-References text is 1,059 words |
 | Personal facts | Uses Mark’s supplied classrooms/community, lands/waters and Georgia context; no invented event, universal education claim or implied Native Hawaiian identity |
-| Revised Word memo and separate companion | Memo: six pages, exact Markdown prose match, six analytical sections, three native numbered questions and seven hanging-indent references. Companion: eight pages, all substantive source text preserved, eight tables and five clickable source links. All fourteen rendered pages visually inspected |
+| Revised Word memo and separate companion | Memo: six pages, exact source-text fidelity, six analytical sections, three native numbered questions and nine hanging-indent references. Companion: nine pages, substantive source text preserved, nine tables and six clickable source links. All fifteen final pages visually inspected |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
 | Human review and submission | Pending; G1–G3 and live human receipts unchanged |
 
-The Word memo specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The title and analytical headings are single-spaced with 6 points before and no added spacing after; the References heading retains double spacing. The brief italic acknowledgment uses compact 13.5-point leading. The bundled renderer substituted Liberation Serif, with 27.6-point body baseline spacing. The full Closing Reflection and acknowledgment remain together on page 5; References begin on page 6. The separate companion requests Calibri 11, with 10-point table text; the preview substituted Carlito. Source guides use labeled prose, while review/comparison tables have repeating headers and rows kept intact. Visible-character bounds passed on every page; invisible trailing spaces were excluded from that geometric check. Raw render images and private course originals are not repository artifacts.
+The Word memo specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The title and analytical headings are single-spaced with 6 points before and no added spacing after; the References heading retains double spacing. The brief italic acknowledgment uses compact 13.5-point leading. The bundled renderer substituted Liberation Serif, with 27.6-point body/reference leading. The title has equal side indents to balance its two lines without changing the wording. The 44-word acknowledgment retains compact 13.5-point leading. The companion requests Calibri 11 with 10-point table text and renders as Carlito; its tables have repeating headers and intact rows. Final source-text and structural checks passed, and all pages were inspected for clipping and overflow. Raw render images and private course originals are not repository artifacts.
 
 Mark’s final review should cover the cited passages, the meaning of the personal reflection and whether he can explain the argument in his own words. Record approval against the actual revised artifact. The companion provides the review path and an empty action log; it supplies no completed human receipt. Confirm the live submission settings before submitting.

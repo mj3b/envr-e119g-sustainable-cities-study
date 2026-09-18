@@ -31,7 +31,7 @@ Reading, instructor, TA and peer statements retain separate attribution. The syn
 | Item | Current state |
 | :--- | :--- |
 | Human fidelity | Pending; all three gates remain subject to review. |
-| Source coverage | North: selected-page visual checks, unresolved edition mapping. Sen: joined-word extraction, quotations need page review. Lecture: A/B/C/E supplied; the status of segment D and full discussion coverage remains uncertain. |
+| Source coverage | North: N-02 matched at supplied p. 10 and original AER p. 360; full edition equivalence remains unresolved. Sen: joined-word extraction, quotations need page review. Lecture: A/B/C/E supplied; the status of segment D and full discussion coverage remains uncertain. |
 | Research use | Provisional interpretation and case discovery; no local causal result established. |
 | Assignment use | Inputs to the authorized Assignment 1 draft. Human source review and student approval remain pending. |
 

@@ -2,7 +2,7 @@
 
 [Home](../../README.md) / [Assignments](../README.md) / [Assignment 1](README.md) / Evidence packet
 
-**Purpose:** support the revised memorandum, **Water Commitments and Accountability in AI Infrastructure**, with inspectable evidence and review tasks. The course guidance remains approximately 800–1,000 words. This packet preserves earlier planning alongside the current passage-review targets; it contains no submission prose.
+**Purpose:** support the revised memorandum, **When Public Commitments Outlive Their Assumptions: Governing Water for AI Infrastructure**, with inspectable evidence and review tasks. The course guidance remains approximately 800–1,000 words. This packet preserves earlier planning alongside the current passage-review targets; it contains no submission prose.
 
 | Working direction | Status | Immediate dependency |
 | :--- | :--- | :--- |
@@ -10,15 +10,28 @@
 
 The September 18 due date is recorded in `SYL`, PDF p. 6. The exact live submission time has not been verified. Mark explicitly authorized drafting on September 18, 2026 (UTC); the memorandum remains pending student review.
 
-The [authorized draft](memorandum-draft.md) uses Sen, Costanza and Daly, the municipal minutes, Shah (2026) and the Office of Hawaiian Affairs’ cultural account. North is omitted. Its **997-word argument and 32-word acknowledgment total 1,029 words**. Mark permits expansion beyond 1,000; this is not a course waiver. The [draft review](DRAFT-REVIEW.md), [human review appendix](HUMAN-REVIEW-APPENDIX.md) and [pre-submission review](PRE-SUBMISSION-REVIEW.md) distinguish fresh AI checks from pending human review. The appendix remains separate from the memo by default.
+The [authorized draft](memorandum-draft.md) uses North, Sen, Costanza and Daly, the municipal minutes, Shah (2026) and the Office of Hawaiian Affairs’ cultural account. Its **956-word argument and 44-word acknowledgment total 1,000 words**; all material before References totals **1,059**. Mark permits expansion beyond 1,000; this is not a course waiver. The [draft review](DRAFT-REVIEW.md), [human review appendix](HUMAN-REVIEW-APPENDIX.md) and current [revision notes](REVISION-NOTES.md) distinguish evidence checks from pending human review. The [PR #8 pressure test](PRE-SUBMISSION-REVIEW.md) is historical. The appendix remains separate from the memo by default.
 
 ## 1 · The question worth carrying into the memo
 
-**Current guiding question:** What evidence should justify a city’s water commitment, and who must act if its assumptions fail?
+**Current guiding question:** What keeps a municipal water commitment publicly defensible as conditions and community needs change?
 
 The earlier framing asked how cities should govern AI infrastructure amid uncertainty and potentially uneven benefits and resource burdens. The revised question bounds that concern to a water commitment without predetermining its effects.
 
 The inquiry connects three dimensions through one decision: **who can authorize and correct it; whose opportunities and burdens count; which ecological conditions the commitment must respect.** Evidence must establish whether and how burdens are uneven in a specific case; the question does not establish that finding in advance.
+
+### A provisional framework to test
+
+| Commitment assurance chain | Evidence question |
+| :--- | :--- |
+| Justification | Which assumptions and reasons supported approval? |
+| Disclosure | What could officials and affected people examine? |
+| Monitoring | Which observations tested the assumptions? |
+| Triggers | What conditions required reconsideration? |
+| Authority | Which institution had responsibility and capacity to respond? |
+| Remedy | What corrective action was available and taken? |
+
+The chain is an organizing proposal retained after author-supplied Perplexity feedback, not an empirical finding or established original contribution. A missing connection raises a question; it does not prove harm. The [revision notes](REVISION-NOTES.md) distinguish adopted suggestions from unsupported claims left out.
 
 ### User-supplied personal context
 
@@ -40,12 +53,13 @@ The course asks for personal engagement, current knowledge, and further question
 
 | Claim and exact locator | Warrant for using it | Qualification to retain |
 | :--- | :--- | :--- |
+| `N94-AER` · North’s original AER p. 360: formal rules, informal norms and enforcement jointly shape incentives | Examine how an agreement operates beyond its written terms | The used passage was visually checked against reprint p. 10; whole-article coverage and complete reprint equivalence are unresolved. Human review remains pending |
 | `S00` · Draft passage review: plural dimensions and public discussion of evaluative weights. PDF pp. 3, 6 / printed pp. 18, 21 | Ask which benefits, burdens and affected populations belong in the evaluation | The reading does not supply the memo’s particular municipal criteria, establish local effects or decide weights for the student |
 | `CD92` · Draft passage review: natural capital supplies flows; renewable-resource harvesting relates to regeneration, and waste emissions to assimilative capacity. PDF pp. 3, 9 / printed pp. 38, 44; measurement limits at PDF p. 10 / printed p. 45 | Distinguish water-service infrastructure from supporting ecological conditions and identify the measurement work still needed | These arguments supply no local threshold or depletion finding. Page 45 also allows action despite incomplete measurement |
 
-These draft-specific passage targets refine the preparation packet; the canonical registry is unchanged. Related canonical records include `S-01`, `CD-01` and `CD-04`. Fresh AI checks used extracted text and covers, with indexed publisher metadata; original page images were not freshly inspected. Human source review remains pending.
+These passage targets refine the preparation packet. `N94-AER` preserves the newly checked original journal edition separately from the preserved `N94` reprint file and identity. The North p. 360 comparison was visual. The prior Sen and Costanza–Daly checks used extracted text and covers with indexed publisher metadata; those original page images were not freshly inspected. Related canonical records include `S-01`, `CD-01` and `CD-04`. All human source review remains pending.
 
-**Reserve readings, omitted from this draft:** North’s `N-02` requires reconciliation of reprint and assigned pagination if reintroduced. Ostrom’s monitoring argument (`O-02`, supplied 2008 working paper, PDF p. 25) requires reconciliation with the assigned 2009 chapter. Neither is needed merely to display another author.
+**Reserve reading, omitted from this draft:** Ostrom’s monitoring argument (`O-02`, supplied 2008 working paper, PDF p. 25) requires reconciliation with the assigned 2009 chapter. Its inclusion would need a specific analytical purpose.
 
 [Claim registry](../../cross-course/claims.json) · [Course analysis](../../cross-course/course-to-research.md)
 
@@ -76,7 +90,7 @@ These are competing possibilities, not findings. The available packet cannot est
 
 ## 5 · Earlier 900-word planning allocation
 
-Retained as preparation history, this allocation predates the current draft and its separate Closing Reflection. It is not the final section or word-count record. The current argument contains 997 words, plus a 32-word acknowledgment. Bibliography is excluded under `TA-02`; confirm the live counting rule before submission.
+Retained as preparation history, this allocation predates the current draft and its separate Closing Reflection. It is not the final section or word-count record. The current argument contains 956 words, plus a 44-word acknowledgment. Bibliography is excluded under `TA-02`; confirm the live counting rule before submission.
 
 | Function | Allocation | Evidence or student work needed |
 | :--- | ---: | :--- |
@@ -104,12 +118,12 @@ Bibliographic details below come from the [source registry](../../cross-course/e
 | :--- | :--- | :--- |
 | `S00` | `(Sen, 2000, pp. 18, 21)` | Sen, A. (2000). A decade of human development. *Journal of Human Development, 1*(1), 17–23. https://doi.org/10.1080/14649880050008746 |
 | `CD92` | `(Costanza & Daly, 1992, pp. 38, 44)`; p. 45 for measurement limits | Costanza, R., & Daly, H. E. (1992). Natural capital and sustainable development. *Conservation Biology, 6*(1), 37–46. https://doi.org/10.1046/j.1523-1739.1992.610037.x |
-| `N94` | Edition decision required before final citation | Assigned record: North, D. C. (1994). Economic performance through time. *The American Economic Review, 84*(3), 359–368. The inspected reprint has different pages; do not substitute an inferred journal pinpoint |
+| `N94-AER` | `(North, 1994, p. 360)` | North, D. C. (1994). Economic performance through time. *American Economic Review, 84*(3), 359–368. https://www.jstor.org/stable/2118057. Original AER passage visually inspected; reprint p. 10 compared |
 | `EXT-DAL-MIN` | `(City of The Dalles, 2021, pp. 4–6)` | City of The Dalles. (2021, November 8). *Minutes: Regular City Council Meeting*. Use the linked municipal record above |
 | `EXT-OHA-AINA` | `(Office of Hawaiian Affairs, n.d.)` | [ʻĀina – Land & Sea](https://www.oha.org/aina/); explanatory paragraphs after the opening proverb. Cultural account, not verification of personal memory or ancestry |
 | `EXT-SHAH-2026` | `(Shah, 2026)` | [Four water insecurity concerns about datacenters driving the AI revolution](https://doi.org/10.1371/journal.pwat.0000500); abstract and “A call for future research.” Existing research context, not a local causal estimate |
 
-North is omitted from the current memo. Reconcile its used passage with the assigned edition, or cite the supplied reprint accurately, only if a North claim is reintroduced. Do not cite an unread edition as though it was inspected. The [human review appendix](HUMAN-REVIEW-APPENDIX.md) provides the complete source-by-source reading guide, including actual AI tool use.
+North p. 360 is now included on the basis of the inspected original AER scan. This resolves the used passage’s citation without certifying the whole article or full reprint equivalence. The [human review appendix](HUMAN-REVIEW-APPENDIX.md) provides the source-by-source reading guide. The memo’s nine references comprise six substantive sources plus ChatGPT, Codex and Perplexity; Perplexity’s role is author-supplied editorial feedback and framework suggestions, not source verification.
 
 ## 8 · Contribution and human review
 
@@ -120,14 +134,14 @@ The [preliminary literature comparison](../../study/RESEARCH-POSITIONING.md) fin
 | Order | Review action | Exit condition |
 | :--- | :--- | :--- |
 | 1 | Read the personal section and standalone Closing Reflection aloud | Mark approves the relationship among supplied experience, research question and final voice |
-| 2 | Read Sen pp. 18 and 21 and Costanza–Daly pp. 38 and 44–45 beside the actual paraphrases | Source arguments, applications and qualifications remain distinct, including renewable-resource scope and action under uncertainty |
+| 2 | Read North’s original AER p. 360, Sen pp. 18 and 21, and Costanza–Daly pp. 38 and 44–45 beside the paraphrases | Source arguments, applications and qualifications remain distinct; the North passage check does not imply full edition equivalence |
 | 3 | Inspect municipal minutes pp. 4–7 beside each municipal claim | Date, vote, attributed statements and limits are accurate; authorization is distinct from implementation and outcomes |
 | 4 | Check OHA’s defining passage and Shah’s abstract/research agenda | Cultural attribution is precise; the research essay is not presented as local impact evidence |
-| 5 | Trace claim → inference → qualification; test the favorable account and objection to the proposed governance standard | Mark can explain a plausible finding that would change the assessment |
-| 6 | Check actual AI assistance, APA references, final length and live course instructions | Disclosure is accurate; unused tools stay excluded; user permission to expand is distinguished from course guidance |
+| 5 | Trace claim → inference → qualification; test the favorable account and each link in the provisional assurance chain | Mark can explain a finding that would change the assessment or require a different framework |
+| 6 | Check the three used AI tools, nine APA references, both word-count scopes and live instructions | Perplexity’s editorial role is accurate; SciSpace and Claude stay excluded; user permission is distinct from course guidance |
 | 7 | Read the full memo skeptically, including the research questions and separate closing | Mark can explain the argument and the questions remain answerable within a bounded investigation |
 | 8 | Approve the exact final artifact; record submission separately if it occurs | Review identifies a file/revision and date; any submission status reflects an actual upload or receipt |
 
-All eight human actions remain pending. Authentic inputs and drafting authorization are supplied; they do not establish approval of final voice, source interpretations or submission. North is omitted, so edition reconciliation is conditional on reintroducing its claim.
+All eight human actions remain pending. Authentic inputs and drafting authorization are supplied; they do not establish approval of final voice, source interpretations or submission. North’s used original AER passage is checked by AI; human interpretation review remains pending, and broader edition questions remain open.
 
-This scoped review does not pass G1–G3, create a human receipt, bypass promotion checks or certify the course knowledge base. Use the separate [human review appendix](HUMAN-REVIEW-APPENDIX.md), [pre-submission review](PRE-SUBMISSION-REVIEW.md), [readiness checklist](readiness-checklist.md) and [requirement–evidence matrix](requirement-evidence-matrix.md) to record the remaining work.
+This scoped review does not pass G1–G3, create a human receipt, bypass promotion checks or certify the course knowledge base. Use the separate [human review appendix](HUMAN-REVIEW-APPENDIX.md), current [revision notes](REVISION-NOTES.md), [readiness checklist](readiness-checklist.md) and [requirement–evidence matrix](requirement-evidence-matrix.md) to record remaining work. The [PR #8 pressure test](PRE-SUBMISSION-REVIEW.md) remains available as history.
