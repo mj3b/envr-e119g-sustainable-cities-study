@@ -1,7 +1,7 @@
 {
   "id": "A1",
-  "status": "research_preparation_only",
-  "drafting_authorized": false,
+  "status": "draft_pending_student_review",
+  "drafting_authorized": true,
   "word_count": {
     "minimum": 800,
     "maximum": 1000,

@@ -6,7 +6,7 @@
 
 | Current authorization | Governing brief | Responsibility |
 | :--- | :--- | :--- |
-| Assignment 1 preparation only; drafting paused | Verified assignment requirements and relevant course guidance | Mark approves the argument, personal voice, and use of AI |
+| Assignment 1 drafting authorized; student review pending | Verified assignment requirements and relevant course guidance | Mark approves the argument, personal voice, and use of AI |
 
 [Assignment sequence](../COURSE-MAP.md#one-inquiry-across-five-assignments) · [E5 writing](WRITING.md) · [Research standard](RESEARCH.md) · [AI governance](../governance/AI-GOVERNANCE.md)
 

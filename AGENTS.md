@@ -7,7 +7,7 @@ These rules govern AI-assisted work in this repository. The researcher's instruc
 | Boundary | Required behavior |
 | :--- | :--- |
 | Privacy | Keep the repository private under `mj3b`. Never commit `private/`, raw course materials, credentials or personal contact details. Synced project `sources/` is read-only. |
-| Assignment 1 | Do not draft until the user explicitly resumes drafting. Evidence packets, argument plans and worksheets are permitted. |
+| Assignment 1 | The user explicitly authorized an APA 7 memorandum draft on September 18, 2026 (UTC). Drafting and revision are permitted; student review and course submission remain separate actions. |
 | Personal voice | Do not invent experiences, feelings, identity, credentials or student reflection. |
 | Human review | Never approve G1–G3 or claims on a human's behalf. Synthetic test receipts stay in temporary fixtures. Merge/release authorization does not approve scholarly gates. |
 | Evidence | Preserve all six classes, locators, source versions, qualifications and unknowns. Keep source claims, lecture claims and synthesis distinct. Prior AI summaries are not primary evidence. |

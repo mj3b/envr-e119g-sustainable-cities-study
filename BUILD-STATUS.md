@@ -2,16 +2,16 @@
 
 [Home](README.md) / Build status · [Assignment 1 packet](assignments/assignment-01/EVIDENCE-PACKET.md) · [Evaluation](governance/EVALUATION.md)
 
-> **Immediate purpose:** support the September 18 Assignment 1 memorandum with a focused evidence packet. The repository now contains fuller analysis and explicit assurance; human source review and the actual memo remain unfinished.
+> **Immediate purpose:** deliver an APA 7 Assignment 1 draft for Mark’s review. Drafting was explicitly authorized on September 18, 2026 (UTC). The [memorandum](assignments/assignment-01/memorandum-draft.md) and [review record](assignments/assignment-01/DRAFT-REVIEW.md) remain subject to student review; no course submission or human fidelity approval is recorded.
 
 ## What is populated
 
 | Layer | Available work | Limit that remains |
 | :--- | :--- | :--- |
 | Course knowledge | Four reading dossiers; two class analyses; argument maps, lecture comparisons, rivals and bounded translation tasks | North/Ostrom edition issues; whole-lecture coverage and speaker verification |
-| Evidence architecture | 34 source records, 56 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
+| Evidence architecture | 35 source records, 60 claims, 16 concepts; 187 lecture-segment records | Counts include missing/reference-only sources; metadata is not full substantive coverage |
 | Decision research | 44 objects across 12 types; worked design; six comparable candidate dossiers | No selected geography or completed physical-outcome dataset |
-| Assignment 1 | Focused source packet, authentic user context, 900-word argument plan, review sequence | No authorized draft, completed human source adjudication or submission |
+| Assignment 1 | Authorized APA 7 memorandum draft, evidence packet, authentic user context and review record | Student approval, completed human source adjudication and submission remain pending |
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
@@ -32,10 +32,10 @@ The [automated receipt](governance/evaluation-results.json) records actual comma
 
 | Priority | Work | Decision enabled |
 | :--- | :--- | :--- |
-| 1 | Verify the few Sen, Costanza/Daly and municipal-record passages proposed in the Assignment 1 packet | Which claims can be used confidently and with what qualifications |
+| 1 | Mark reviews the inspected Sen, Costanza/Daly, municipal-record and Shah passages against the draft | Human confirmation of the retained claims and qualifications |
 | 2 | Review the connection between personal context, governing question, distribution and ecological constraints | A coherent memo scope without prematurely locking a semester case |
-| 3 | Resolve optional North edition citation or omit it for this deadline | Avoid an inaccurate pinpoint or unread-edition citation |
-| 4 | Resume drafting only on explicit instruction; then review voice, argument, citations, length and AI acknowledgment | A student-approved memo ready for submission |
+| 3 | Retain the documented omission of North unless the memo needs an additional institutional theory | The current draft avoids the unresolved edition citation |
+| 4 | Review the authorized draft for voice, argument, citations, length and AI acknowledgment | A student-approved memo ready for submission |
 
 ## Research still open
 

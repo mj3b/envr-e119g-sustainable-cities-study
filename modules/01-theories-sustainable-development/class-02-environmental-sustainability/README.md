@@ -33,6 +33,6 @@ Reading, instructor, TA and peer statements retain separate attribution. The syn
 | Human fidelity | Pending; all three gates remain subject to review. |
 | Source coverage | Ostrom: supplied 2008 working paper differs from the assigned 2009 chapter. Lecture: speaker roles and one output/outcome wording issue need audio verification. Three screenshots show only part of the peer discussion. |
 | Research use | Provisional interpretation and case discovery; no local causal result established. |
-| Assignment use | Preparatory material only. Assignment 1 drafting remains paused. |
+| Assignment use | Inputs to the authorized Assignment 1 draft. Human source review and student approval remain pending. |
 
 [Omissions](omissions-report.md) · [Divergences](divergence-log.md) · [Fidelity gates](fidelity-gates.json)

@@ -55,7 +55,7 @@ Source: `SYL`, PDF pp. 9–16. November 27 is the Thanksgiving break. The detail
 
 Source: `SYL`, PDF pp. 3–6. Participation accounts for the remaining 20%. The syllabus lists October 20 for Assignment 3; confirm this date against the live course because it falls outside the listed Friday meeting pattern. The repository does not record a submission or a grade.
 
-Assignment 1 preparation remains authorized; drafting remains paused. See the [deliverable standard](standards/DELIVERABLES.md) for evidence selection, student review, and release records.
+Assignment 1 drafting is authorized; the [memorandum draft](assignments/assignment-01/memorandum-draft.md) remains pending student review. See the [deliverable standard](standards/DELIVERABLES.md) for evidence selection, student review, and release records.
 
 ## What later classes should change
 

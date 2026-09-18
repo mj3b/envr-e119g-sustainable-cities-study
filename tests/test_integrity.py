@@ -26,6 +26,8 @@ class IntegrityTests(unittest.TestCase):
     def test_pass_without_reviewer(self):
         p=next((self.root/'modules').rglob('fidelity-gates.json'));d=json.loads(p.read_text());d['gates'][0]['status']='pass';p.write_text(json.dumps(d));self.assertTrue(any('without review' in e for e in validate(self.root)))
     def test_unauthorized_draft(self):
+        p=self.root/'assignments/assignment-01/requirements.json'
+        data=json.loads(p.read_text());data['drafting_authorized']=False;p.write_text(json.dumps(data))
         (self.root/'assignments/assignment-01/memo-draft.md').write_text('unauthorized');self.assertTrue(any('draft exists' in e for e in validate(self.root)))
     def test_wrong_archive_path(self):
         p=self.root/'cross-course/evidence-registry.json';d=json.loads(p.read_text());d[0]['private_path']='../escape.pdf';p.write_text(json.dumps(d));self.assertTrue(any('Unsafe archive' in e for e in validate(self.root)))

@@ -19,11 +19,11 @@ AI and data-center infrastructure provide the working case family. The course su
 
 | Research stage | Review state | Deliverable boundary |
 | :--- | :--- | :--- |
-| Six candidates; geography open | Human fidelity reviews pending | Assignment 1 drafting paused |
+| Six candidates; geography open | Human fidelity reviews pending | Assignment 1 draft pending student review |
 
 [Current status and limitations](BUILD-STATUS.md) · [Faculty reading guide](docs/FACULTY-GUIDE.md)
 
-**For the September 18 memorandum:** start with the [Assignment 1 evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md). It connects the user's stated background with focused claims, exact locators, competing interpretations and a 900-word argument plan. Source review and drafting remain separate next steps.
+**For the September 18 memorandum:** read the [research memorandum draft](assignments/assignment-01/memorandum-draft.md) alongside its [review record](assignments/assignment-01/DRAFT-REVIEW.md). The [evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) preserves the supporting claims, locators, alternatives and preparation history. Mark’s review of the argument, sources and personal wording remains pending.
 
 ## Start with the work
 
@@ -72,7 +72,7 @@ The worked example demonstrates the method. Case selection still requires the [s
 
 | Reader's task | Reference |
 | :--- | :--- |
-| Locate a class or assignment | [Course map](COURSE-MAP.md) · [Assignment preparation](assignments/README.md) |
+| Locate a class or assignment | [Course map](COURSE-MAP.md) · [Assignment work](assignments/README.md) |
 | Trace a statement to its source | [Citation policy](CITATION-POLICY.md) · [Claim registry](cross-course/claims.json) |
 | Assess reasoning and presentation | [Research standard](standards/RESEARCH.md) · [E5 writing](standards/WRITING.md) · [Markdown design](standards/MARKDOWN.md) |
 | Understand AI's contribution | [AI-use record](AI-USE-LOG.md) · [Evaluation](governance/EVALUATION.md) |
@@ -86,7 +86,7 @@ The worked example demonstrates the method. Case selection still requires the [s
 | `cross-course/` | Canonical sources, claims, concepts, omissions, and review receipts |
 | `cases/` | Discovery assessments, candidate briefs, and research objects |
 | `study/` | Retrieval practice, research agenda, and learning records |
-| `assignments/` | Requirements and preparation for the semester inquiry |
+| `assignments/` | Requirements, evidence packets and drafts for the semester inquiry |
 | `governance/` | AI-use responsibilities, assurance, and evaluation |
 | `standards/` | Research, writing, presentation, and deliverable rules |
 | `audit/` | Source discovery, reconciliation, and change records |

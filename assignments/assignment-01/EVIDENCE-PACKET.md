@@ -8,7 +8,9 @@
 | :--- | :--- | :--- |
 | Connect governance, affected people, and ecological limits | User selected all three dimensions; working question proposed; The Dalles is an illustration; no geography selected | Personal context supplied; interpretation, wording, and used claims still need Mark's review |
 
-The September 18 due date is recorded in `SYL`, PDF p. 6. The exact live submission time has not been verified. Assignment 1 drafting remains paused until Mark explicitly resumes it.
+The September 18 due date is recorded in `SYL`, PDF p. 6. The exact live submission time has not been verified. Mark explicitly authorized drafting on September 18, 2026 (UTC); the memorandum remains pending student review.
+
+The [authorized draft](memorandum-draft.md) now uses Sen, Costanza and Daly, the municipal minutes and Shah (2026). North is omitted. The planning options below remain available for later research; the [draft review](DRAFT-REVIEW.md) records the actual used passages, 951-word body-plus-disclosure count and citation decisions.
 
 ## 1 · The question worth carrying into the memo
 
@@ -118,4 +120,4 @@ The [preliminary literature comparison](../../study/RESEARCH-POSITIONING.md) fin
 | 5 | Review the claim → inference → qualification chain and strongest rival | The argument remains within evidence and labels uncertainty |
 | 6 | After authorized drafting, verify length, citations, personal voice, and AI acknowledgment | Mark approves the actual artifact; submission is separately recorded |
 
-Personal context and the integrated emphasis have been supplied. Review actions and drafting authorization remain pending. This queue defines a scoped preparation review. It does not pass G1–G3, create a review receipt, bypass promotion checks, or certify a class master brief. See the [readiness checklist](readiness-checklist.md), [requirement–evidence matrix](requirement-evidence-matrix.md), and [AI governance](../../governance/AI-GOVERNANCE.md).
+Personal context and the integrated emphasis have been supplied. Drafting is explicitly authorized; the review actions remain pending. This queue defines a scoped preparation review. It does not pass G1–G3, create a review receipt, bypass promotion checks, or certify a class master brief. See the [readiness checklist](readiness-checklist.md), [requirement–evidence matrix](requirement-evidence-matrix.md), and [AI governance](../../governance/AI-GOVERNANCE.md).

@@ -2,7 +2,7 @@
 
 [Assignments](../README.md) / [Assignment 1](README.md) / Evidence matrix
 
-**Purpose:** identify usable inputs and gaps before writing. Candidate inputs are not approved evidence for submission.
+**Purpose:** identify usable inputs and gaps supporting the authorized draft. Candidate inputs are not approved evidence for submission.
 
 The [focused evidence packet](EVIDENCE-PACKET.md) proposes a small source set, claim warrants, qualifications, and a 900-word task architecture.
 
@@ -26,4 +26,4 @@ Requirements and their provenance are recorded in [requirements.json](requiremen
 | A methodological influence | Explain the research action it motivates; do not treat its reputation as case evidence |
 | A personal experience | Use only Mark's supplied account and approved wording |
 
-The [readiness checklist](readiness-checklist.md) controls the transition to authorized drafting.
+Drafting is authorized. The [readiness checklist](readiness-checklist.md) and [draft review record](DRAFT-REVIEW.md) track the remaining work before submission.
