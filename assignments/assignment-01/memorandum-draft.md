@@ -10,9 +10,11 @@
 
 ## Central Issue
 
-Before a city commits water to a data center, it should be able to explain what that commitment means for other users and local ecological conditions. My central question is: **What evidence should a city require before committing shared water to a data center?**
+A city’s commitment to supply water to a data center can remain in force after the conditions that justified it have changed. **What evidence should justify that commitment, and who must act if its assumptions fail?**
 
-The Dalles, Oregon, offers a bounded illustration. On November 8, 2021, its council voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record requests for studies alongside officials’ assurances of community benefits (City of The Dalles, 2021, pp. 4–6). The minutes do not report how much computing would serve AI. I use this decision as a governance precedent for studying the resource decisions that support AI infrastructure.
+My starting proposition is that credible sustainability commitments require explicit assumptions, attention to affected people, and monitoring linked to authority to act. Whether those arrangements protect people and ecological conditions remains an empirical question.
+
+The Dalles, Oregon, offers a bounded illustration. On November 8, 2021, its council voted 5–0 to authorize an infrastructure agreement associated with Google’s development. The minutes record requests for studies alongside officials’ assurances of community benefits (City of The Dalles, 2021, pp. 4–6). I use this decision as a governance precedent for AI infrastructure; the minutes establish neither an AI workload share nor subsequent environmental performance.
 
 ## Why It Matters to Me
 

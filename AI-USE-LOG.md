@@ -49,7 +49,7 @@ At Mark’s request, the standalone Research Transparency and AI Assistance sect
 
 The inspected syllabus and lecture passages require acknowledgment, citation, transparency and responsibility; they do not expressly require verbatim prompts or a standalone AI section. APA-style references identify the tools actually used: OpenAI, `n.d.-a` for ChatGPT and `n.d.-b` for Codex. Original readings and public records support the substantive claims.
 
-The current draft contains 977 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
+The current draft contains 998 argument words and a 32-word acknowledgment. It separates observed, interpreted and normative statements, gives affected populations a research question, and follows the user’s To/From/Date/Subject format. Personal facts remain limited to Mark’s expanded supplied account: early learning in classrooms and the wider social environment of Hawaiʻi, responsibility for lands and waters, current life in Georgia and AI governance work. No concrete memory or ancestry claim was invented. The [draft review](assignments/assignment-01/DRAFT-REVIEW.md) records the source and document checks. The revised Word memo was rendered as five pages and all pages visually inspected; text fidelity, native list numbering and reference formatting were checked. Human review and submission remain pending.
 
 ## Reflection and research-question revision
 
@@ -57,13 +57,13 @@ Mark supplied expanded first-person context and initially limited the authoring 
 
 | Part | Change | Boundary |
 | :--- | :--- | :--- |
-| Opening | States what evidence a city should require before committing shared water to a data center | The municipal record supplies a bounded illustration, not an AI-specific impact finding |
+| Opening | Connects evidence for approval with responsibility to act when assumptions fail; distinguishes the proposed governance standard from observed outcomes | Continuing commitments under changing conditions are the research problem, not an established finding about The Dalles |
 | Personal reflection | Connects learning in Hawaiʻi with life in Georgia through a concrete question about water commitments | Uses supplied experience; no invented memory, ancestry or Georgia project claim |
 | Cultural account | Attributes mālama ʻāina to the Office of Hawaiian Affairs, with a source record, bounded claim and APA reference | Distinct from Mark’s childhood testimony; no universal curriculum or municipal policy template |
 | Further investigation | Tests decision-time assumptions, implementation constraints, and competing explanations for outcomes | Prospective design; neither preregistration nor a completed causal evaluation |
 | Closing | Merges reflection into the research agenda and ends with accountability after the original decision-makers have moved on | An unanswered question; no allegation of failed safeguards |
 
-The questions apply practices documented in the [influence register](standards/INFLUENCES.md): update conditions, actor constraints, explicit comparisons and measurement boundaries. The memo demonstrates those practices without presenting organizational reputations as case evidence. Its current body and acknowledgment total 1,009 words. Source-based analysis and the tensions section remain intact. Human review and case selection remain open.
+The questions apply practices documented in the [influence register](standards/INFLUENCES.md): update conditions, actor constraints, explicit comparisons and measurement boundaries. The memo demonstrates those practices without presenting organizational reputations as case evidence. Its current body and acknowledgment total 1,030 words. Source-based analysis and the tensions section remain intact. Human review and case selection remain open. A further Central Issue review compared the approval-only question with Mark’s earlier framing. The revision restores monitoring and correction, retains water as the bounded resource focus, and makes the proposed standard explicit without claiming that procedural safeguards ensure environmental protection. No new external source or case finding was added.
 
 ## Planned tools are not completed research
 

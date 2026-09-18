@@ -10,14 +10,14 @@
 | :--- | :--- |
 | Title | Governing AI Infrastructure Before Cities Commit Shared Resources |
 | Intended reader | Nora Libertun and Cristina, for the Assignment 1 research memorandum |
-| Question | What evidence should a city require before committing shared water to a data center? |
-| Argument body | 977 words |
-| Brief AI acknowledgment | 32 words; combined with body, 1,009 words |
+| Question | What evidence should justify a city’s water commitment, and who must act if its assumptions fail? |
+| Argument body | 998 words |
+| Brief AI acknowledgment | 32 words; combined with body, 1,030 words |
 | Counting method | Whitespace-delimited words; excludes title, metadata, section headings, list numerals and references. The course permits approximately 800–1,000 words and excludes bibliography. Mark’s latest instruction targets about 1,000 and permits up to 1,100; the stated total includes the acknowledgment |
 | Case status | The Dalles illustrates a documented decision; the six-location discovery process remains open |
 | Student decisions remaining | Verify source interpretation, personal voice, argument and final submission version |
 
-The Word version follows the user’s memorandum format: To/From/Date/Subject, title, five analytical sections and References. APA 7 governs citations and reference styling; the memo replaces the earlier separate student title page. Its production and visual checks are recorded below. The Markdown file preserves the same wording for repository review. The revised opening states the question directly, and the personal reflection connects Hawaiʻi, Georgia and professional concerns through a concrete resource decision. At Mark’s subsequent request, the research agenda and closing are merged under “Questions for Further Investigation.” The source-based analysis and tensions section are preserved.
+The Word version follows the user’s memorandum format: To/From/Date/Subject, title, five analytical sections and References. APA 7 governs citations and reference styling; the memo replaces the earlier separate student title page. Its production and visual checks are recorded below. The Markdown file preserves the same wording for repository review. The revised opening connects the evidence justifying a water commitment with responsibility to act if its assumptions fail. It distinguishes a proposed standard for accountable governance from demonstrated protection of people and ecological conditions. The personal reflection connects Hawaiʻi, Georgia and professional concerns through a concrete resource decision. At Mark’s subsequent request, the research agenda and closing are merged under “Questions for Further Investigation.” The source-based analysis and tensions section are preserved.
 
 ## Assignment coverage
 
@@ -82,12 +82,12 @@ The tool references identify software used; the unheaded acknowledgment explains
 | Check | Status |
 | :--- | :--- |
 | Source support, scope and citation metadata | AI-assisted review completed within the locators above |
-| Body and acknowledgment length | 977 + 32 = 1,009 words, excluding headings, list numerals and references |
+| Body and acknowledgment length | 998 + 32 = 1,030 words, excluding headings, list numerals and references |
 | Personal facts | Uses Mark’s expanded account of classrooms, communities, lands/waters and Georgia perspective; no invented memory, universal education claim or implied Native Hawaiian identity |
 | Word formatting and all-page visual inspection | Five pages rendered and individually inspected; five analytical sections, three native numbered questions, seven references and exact Markdown prose fidelity verified |
 | Automated repository checks | Current result recorded in the [evaluation receipt](../../governance/evaluation-results.json) after all edits |
 | Human review and submission | Pending; G1–G3 and live human receipts unchanged |
 
-The Word artifact specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The brief italic acknowledgment uses compact 13.5-point leading; body/reference baselines measure 27.6 points in the preview. The bundled renderer substituted metrically compatible Liberation Serif, and its final five-page output was inspected in full. The merged research agenda and closing fit within the margins. Raw render images and private course originals are not repository artifacts.
+The Word artifact specifies 12-point Times New Roman, a compact memo header, double-spaced body and references, native question numbering and hanging reference indents. The title and analytical headings are single-spaced with 6 points before and no added spacing after; the References heading retains double spacing. This heading-only adjustment keeps the closing with the research questions. The brief italic acknowledgment uses compact 13.5-point leading; body/reference baselines measure 27.6 points in the preview. The bundled renderer substituted metrically compatible Liberation Serif, and its final five-page output was inspected in full. The merged research agenda and closing fit within the margins. Raw render images and private course originals are not repository artifacts.
 
 Mark’s final review should cover the cited passages, the meaning of the personal reflection and whether he can explain the argument in his own words. Record any approval against the actual revised artifact. Confirm the live submission settings before submitting.
