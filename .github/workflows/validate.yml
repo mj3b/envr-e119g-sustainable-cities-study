@@ -19,3 +19,32 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: python scripts/assure.py --check
       - run: python scripts/assure.py
+  prepare_review_packet:
+    # Produce a fresh receipt without bypassing the stored-receipt gate above.
+    # Read-only permissions: this job cannot approve scholarship or commit files.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require private repository
+        env:
+          REPOSITORY_PRIVATE: ${{ github.event.repository.private }}
+        run: test "$REPOSITORY_PRIVATE" = true
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Evaluate current tracked work
+        run: python scripts/assure.py
+      - name: Export tracked review snapshot
+        run: git archive --format=zip --output=tracked-review-snapshot.zip HEAD
+      - name: Retain successful evaluation packet
+        uses: actions/upload-artifact@v4
+        with:
+          name: study-review-packet-${{ github.run_id }}
+          path: |
+            governance/evaluation-results.json
+            tracked-review-snapshot.zip
+          retention-days: 7
+          if-no-files-found: error
