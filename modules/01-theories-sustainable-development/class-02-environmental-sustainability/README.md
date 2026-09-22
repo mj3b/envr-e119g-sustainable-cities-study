@@ -17,6 +17,8 @@
 
 Reading, instructor, TA and peer statements retain separate attribution. The synthesis adds research designs without treating them as source findings.
 
+**September 22 update:** [Re-supplied transcript and implications for the water case](lecture/2026-09-22-source-review.md). The export is registered separately; no audio verification or human fidelity approval is implied.
+
 ## 03 · Put the concepts to work
 
 | Task | Analysis |

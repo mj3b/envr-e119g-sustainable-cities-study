@@ -407,5 +407,86 @@
     "url": "https://www.oha.org/aina/",
     "retrieved": "2026-09-18",
     "note": "Office of Hawaiian Affairs (n.d.). Undated institutional account of Native Hawaiian relationships with ʻāina; the footer copyright year is not a publication date. Opening explanatory paragraphs inspected online, especially those following the opening proverb. Original bytes not archived. This cultural account does not establish the author’s ancestry, childhood curriculum, or legal duties in another jurisdiction."
+  },
+  {
+    "id": "L2-R20260922",
+    "title": "September 11 lecture, transcript export supplied September 22",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/ENVR E-119G_ September 11_ Class 2-Environmental Sustainability_otter_ai.zip",
+    "sha256": "a9e1989c039b9ba561f0a9086478258489841406091e53857f05caa8c490e222",
+    "retrieved": "2026-09-22",
+    "note": "ZIP contains one timestamped transcript and one automated summary; no audio or video. Transcript, selected complete passages, and timestamps inspected. Speaker 2 is inferred instructor and speaker 4 inferred TA; audio verification remains unavailable. ZIP digest differs from L2; this is a separate export record, not proof of changed lecture content.",
+    "class_number": 2
+  },
+  {
+    "id": "L3",
+    "title": "September 18 lecture, supplied transcript export",
+    "evidence_class": "instructor_lecture",
+    "source_kind": "mixed_speaker_transcript",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/ENVR E-119G_ September 18_  Class 3 -Sustainable Cities_otter_ai.zip",
+    "sha256": "1d2a3046620aa25469c03ff3a76fdfa634f0e5e86b83488ff0e114d30fab1c27",
+    "retrieved": "2026-09-22",
+    "note": "Previously supplied ZIP with transcript and automated summary. Relevant water-sharing and participation passages read in the conversation. No audio verification or complete Class 3 fidelity review is claimed.",
+    "class_number": 3
+  },
+  {
+    "id": "LOW22",
+    "title": "Lowe et al., City planning policies to support health and sustainability",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/City-planning-policies-to-support-health-and-susta.pdf",
+    "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+    "retrieved": "2026-09-22",
+    "note": "Supplied Lancet Global Health article (2022), 10(6), e882-e894. Focused use of policy-content method and limitations on PDF pp. 9-10 / printed e890-e891. No local causal outcome is imported from it.",
+    "class_number": 3
+  },
+  {
+    "id": "SAT97",
+    "title": "Satterthwaite, Sustainable Cities or Cities that Contribute to Sustainable Development?",
+    "evidence_class": "assigned_reading",
+    "source_kind": "assigned_reading",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/Satterwhite Sustainable_Cities_or_Cities_that_Contri.pdf",
+    "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+    "retrieved": "2026-09-22",
+    "note": "Supplied Urban Studies 34(10), 1667-1691 (1997). This record is the supplied journal article, not the 2021 reader edition. Focused use: printed pp. 1669-1670 and 1680-1682.",
+    "class_number": 3
+  },
+  {
+    "id": "A1-SUBMITTED",
+    "title": "Accountability for Municipal Water Commitments to Data Centers, September 18 memorandum",
+    "evidence_class": "our_synthesis",
+    "source_kind": "user_supplied_memorandum",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/Banasihan, Mark Julius_Assignment-1-Research-Memorandum.pdf",
+    "sha256": "16cc40e3cdf3773d969e5045674a4d418865d5814f113fb9c209d9bc0a339531",
+    "retrieved": "2026-09-22",
+    "note": "User reports this four-page PDF as submitted. Submission was not checked in Canvas. Supplied artifact takes precedence over earlier repository drafts for interpreting the learning trajectory; no human fidelity approval is inferred from submission."
+  },
+  {
+    "id": "EXT-GOVAI-EA",
+    "title": "Embedded Assessments for Frontier AI",
+    "evidence_class": "external_context",
+    "source_kind": "research_proposal",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/Embedded Assessments for Frontier AI.pdf",
+    "sha256": "9ac61b9e58a15ceb54ba58840e960e3fa3b5a927b0ed7e6a1b340138b09c1f2c",
+    "retrieved": "2026-09-22",
+    "note": "Charnock, Williams, Kara, Anderljung, Tlaie Boria, Casper, Reuel, and Freund. Supplied 42-page manuscript; no publication date established from the title page. Relevant sections and selected page images inspected. Use as a proposal about assessment design and access limits, not empirical evidence about The Dalles or proof of this workflow. No independent verification of incident narratives or legal claims in its references."
+  },
+  {
+    "id": "EXT-GOVAI-IR",
+    "title": "Improving Frontier AI Incident Reporting Regimes",
+    "evidence_class": "external_context",
+    "source_kind": "policy_brief",
+    "status": "available",
+    "private_path": "private/raw/2026-09-22/Policy_Brief_Improving_Frontier_AI_Incident_Reporting_Regimes.pdf",
+    "sha256": "1a21f6b04a9ceebceaf7749abe7287f14f100e27e828e9cca9b7bce1d9f842ee",
+    "retrieved": "2026-09-22",
+    "note": "Zaheed Kara, September 2026, GovAI policy brief. The brief says it has not undergone official peer review and expresses author views. Recommendations 5 and 7 are methodological inputs; PDF pages 13-14 and 16-17 are printed pages 12-13 and 15-16. Current law and incident accounts are not independently verified in this course integration."
   }
 ]

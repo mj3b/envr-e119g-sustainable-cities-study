@@ -46,3 +46,9 @@ Weak: “The city had strong governance.”
 Precise research question: “Which authority could enforce the operating condition, and what record shows that it exercised that authority?”
 
 These examples are editorial exercises, not case findings. A prose linter can flag patterns; it cannot assess truth, voice, or scholarly contribution. Human review remains necessary.
+
+## Reflection and decision records
+
+Explain what prompted a research choice, why the evidence bears on it, what alternative remains plausible, which action follows, and what could change the choice. Do not announce improved thinking in place of showing the changed question or test. Do not invent personal feelings or a change of mind; Mark can retain an earlier view while specifying how to examine it.
+
+Separate actions Mark has taken from actions proposed for him and work performed by AI. Keep the exact meanings of technical nouns consistent. Vary editorial connectors and remove the repeated words Mark flagged: “sharpened” and “distinction” should not appear as routine transitions in this reflection. Source quotations retain their original wording.

@@ -19,11 +19,11 @@ AI and data-center infrastructure provide the working case family. The course su
 
 | Research stage | Review state | Deliverable boundary |
 | :--- | :--- | :--- |
-| Six candidates; geography open | Human fidelity reviews pending | Assignment 1 draft pending student review |
+| Six candidates; The Dalles provisional | Human fidelity reviews pending | Assignment 1 submitted per user; Assignment 2 preparation |
 
 [Current status and limitations](BUILD-STATUS.md) · [Faculty reading guide](docs/FACULTY-GUIDE.md)
 
-**For the September 18 memorandum:** read the [research memorandum draft](assignments/assignment-01/memorandum-draft.md) alongside its [review record](assignments/assignment-01/DRAFT-REVIEW.md). The [evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) preserves the supporting claims, locators, alternatives and preparation history. Mark’s review of the argument, sources and personal wording remains pending.
+**Current work:** read the [Class 3 follow-up draft](assignments/assignment-02/class-03-follow-up.md) with its [evidence supplement](assignments/assignment-02/class-03-evidence-note.md) and [research decisions](assignments/assignment-02/research-decisions.md). The user reports the September 18 memorandum and earlier discussion as submitted; the new reply remains unsubmitted and subject to personal review. The [earlier memorandum draft](assignments/assignment-01/memorandum-draft.md) and [review record](assignments/assignment-01/DRAFT-REVIEW.md) are retained as history.
 
 ## Start with the work
 

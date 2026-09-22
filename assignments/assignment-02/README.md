@@ -4,7 +4,21 @@
 
 | Verified format | Recorded due date / weight | Repository status |
 | :--- | :--- | :--- |
-| Memo or blog · 1,000–1,200 words | October 16 · 20% | Preparation guide; no submission artifact or approval recorded |
+| Memo or blog · 1,000–1,200 words | October 16 · 20% | Preparation packet and discussion draft; author review pending |
+
+## Current preparation
+
+The user reports Assignment 1 and the earlier Class 3 discussion as submitted. This packet continues their water-commitment inquiry; it is not an Assignment 2 submission or a new approval.
+
+| Read | Purpose |
+| --- | --- |
+| [Class 3 follow-up](class-03-follow-up.md) | Draft connecting the earlier question to Class 2 and explicit research decisions. |
+| [Evidence supplement](class-03-evidence-note.md) | Source roles, human activities, and unresolved records. |
+| [Research decisions](research-decisions.md) | Reasons, alternatives, update conditions, and pending student checks. |
+| [Next evidence packet](next-evidence-packet.md) | One assurance and the records needed to test it. |
+| [AI-method note](ai-method-notes.md) | What the two supplied papers contribute and where the analogy stops. |
+| [Public-source register](public-source-register.md) | Earlier acquisition plan, with external-source verification scope preserved. |
+| [Editorial record](editorial-and-integration.md) | Changes to voice, attribution, and integration. |
 
 ## Verified course brief
 
