@@ -1135,5 +1135,279 @@
       "Does not establish Mark Banasihan’s ancestry or the terminology and setting of his childhood education.",
       "Does not establish ecological outcomes or municipal legal duties in Georgia, Oregon, or another jurisdiction. Connecting this ethic to the research question is the author’s reflection."
     ]
+  },
+  {
+    "id": "L2R-01",
+    "text": "The instructor presents Ostrom as investigating conditions in which people cooperate and limit shared-resource use voluntarily in their own interest.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 20:33-22:59, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification."
+    ]
+  },
+  {
+    "id": "L2R-02",
+    "text": "A student group asks whether meeting basic needs is a prerequisite for building community trust.",
+    "evidence_class": "peer_discourse",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 25:04-26:11, Speaker 10 reporting group discussion",
+    "class_number": 2,
+    "speaker_role": "student",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification.",
+      "A student question, not a demonstrated prerequisite."
+    ]
+  },
+  {
+    "id": "L2R-03",
+    "text": "The instructor says lack of awareness can help explain resource overuse and discusses how knowledge and human connection can influence action.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 33:09-35:29, Speaker 2; 35:29-37:30 gives a behavioral illustration",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification.",
+      "The class illustration supplies no effect-size estimate for this study."
+    ]
+  },
+  {
+    "id": "L2R-04",
+    "text": "The instructor discusses context, repeated interaction, trust, reciprocity, and time horizons without presenting one universally effective cooperation recipe.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 44:36-50:03, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification."
+    ]
+  },
+  {
+    "id": "L2R-05",
+    "text": "The instructor recounts a park-access exercise in which a mapped service deficit and residents' stated preferences did not coincide.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 50:03-53:22, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification.",
+      "Instructor account only; no independent historical validation, and no inference about water users' preferences."
+    ]
+  },
+  {
+    "id": "L2R-06",
+    "text": "The instructor asks whose present and future benefits count, over which time horizon, and which outcome or resource use a sustainability proposal aims to improve.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 1:08:01-1:12:36, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification."
+    ]
+  },
+  {
+    "id": "L2R-07",
+    "text": "The instructor emphasizes the value of actual human interaction and warns against treating AI-mediated activity as a complete substitute for it.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 1:35:46-1:37:53, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification."
+    ]
+  },
+  {
+    "id": "TA2R-01",
+    "text": "The TA asks students to acknowledge AI assistance and to connect their own reflection with evidence rather than follow a rigid template.",
+    "evidence_class": "ta_guidance",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 1:41:59-1:42:30 and 1:43:24-1:44:48, Speaker 4",
+    "class_number": 2,
+    "speaker_role": "ta",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification."
+    ]
+  },
+  {
+    "id": "L2R-08",
+    "text": "The instructor permits AI collaboration while requiring students to own submitted work and choose a case they know well enough to detect errors.",
+    "evidence_class": "instructor_lecture",
+    "source_id": "L2-R20260922",
+    "locator": "Transcript 1:44:48-1:46:16, Speaker 2",
+    "class_number": 2,
+    "speaker_role": "instructor",
+    "speaker_confidence": "medium",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "AI-assisted check of supplied transcript; speaker role inferred from conversation. No audio or field verification.",
+      "This does not establish Mark's local familiarity with The Dalles or completed source review."
+    ]
+  },
+  {
+    "id": "EA-01",
+    "text": "The supplied embedded-assessment proposal identifies infrastructure access, personnel access, and documentation review as complementary information channels.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-GOVAI-EA",
+    "locator": "Section 3.2, PDF pp. 21-23; relevant text and p. 21 image inspected",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Proposal for frontier AI developers; not a validation of public-document-only urban research."
+    ]
+  },
+  {
+    "id": "EA-02",
+    "text": "The embedded-assessment proposal treats monitor coverage, accuracy, and timely escalation and review as separate assessment targets.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-GOVAI-EA",
+    "locator": "Section 3.1.1 and Table 1, PDF pp. 12-15; p. 14 image inspected",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Assessment design proposed in another domain; no effectiveness finding about municipal monitoring."
+    ]
+  },
+  {
+    "id": "IR-01",
+    "text": "Kara recommends retaining agent actions, system versions, affected artifacts, and human decisions and interventions to support investigation.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-GOVAI-IR",
+    "locator": "Recommendation 5, PDF pp. 13-14 / printed pp. 12-13",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Author policy recommendation; not a legal obligation established for this student project."
+    ]
+  },
+  {
+    "id": "IR-02",
+    "text": "Kara recommends corrective-action plans with a responsible person or team and deadline, followed by checks of implementation and effectiveness.",
+    "evidence_class": "external_context",
+    "source_id": "EXT-GOVAI-IR",
+    "locator": "Recommendation 7, PDF pp. 16-17 / printed pp. 15-16",
+    "class_number": null,
+    "speaker_role": "source_author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Policy brief explicitly lacks official peer review. Applying correction records to research is our adaptation."
+    ]
+  },
+  {
+    "id": "LOW-01",
+    "text": "Lowe et al. state that their study did not examine policy implementation or whether and how governments track performance against targets.",
+    "evidence_class": "assigned_reading",
+    "source_id": "LOW22",
+    "locator": "PDF p. 9, printed e890, Policy-relevant research; p. 10, e891, local adaptation and limitations",
+    "class_number": 3,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "Use of this method here is a single-researcher adaptation."
+    ]
+  },
+  {
+    "id": "SAT-01",
+    "text": "Satterthwaite combines meeting human needs with preserving environmental capital and limiting transfer of environmental costs beyond a city or into the future.",
+    "evidence_class": "assigned_reading",
+    "source_id": "SAT97",
+    "locator": "Printed pp. 1669-1670 and 1680-1682 / PDF pp. 3-4 and 14-16",
+    "class_number": 3,
+    "speaker_role": "author",
+    "speaker_confidence": "not_applicable",
+    "statement_type": "attributed_paraphrase",
+    "concept_ids": [],
+    "depends_on": [],
+    "status": "source_checked",
+    "human_review": "pending",
+    "limitations": [
+      "The supplied edition is the 1997 article. No local outcome follows from the conceptual framework."
+    ]
   }
 ]

@@ -2,9 +2,17 @@
 
 [Home](README.md) / Build status · [Assignment 1 packet](assignments/assignment-01/EVIDENCE-PACKET.md) · [Evaluation](governance/EVALUATION.md)
 
-> **Immediate purpose:** deliver an APA 7 Assignment 1 draft for Mark’s review. Drafting was explicitly authorized on September 18, 2026 (UTC). The [memorandum](assignments/assignment-01/memorandum-draft.md) and [review record](assignments/assignment-01/DRAFT-REVIEW.md) remain subject to student review; no course submission or human fidelity approval is recorded.
+> **Historical September 18 purpose:** deliver an APA 7 Assignment 1 draft for Mark’s review. Drafting was explicitly authorized on September 18, 2026 (UTC). The [memorandum](assignments/assignment-01/memorandum-draft.md) and [review record](assignments/assignment-01/DRAFT-REVIEW.md) remain subject to student review; no course submission or human fidelity approval is recorded.
 
-## What is populated
+## September 22 continuation
+
+Mark reports that Assignment 1 and the original Class 3 discussion were submitted. The supplied four-page memorandum is now registered as `A1-SUBMITTED`; Canvas was not inspected. Earlier draft and layout records below remain historical. The current task is the [Assignment 2 preparation packet](assignments/assignment-02/README.md), including a new discussion draft, Class 2 source review, and AI-method limits. Human source and voice approvals remain pending.
+
+The re-supplied Class 2 ZIP contains transcript and summary text, no recording. Its digest differs from the original `L2` record, so both identities are preserved. Two supplied GovAI papers are registered as methodological context. Class 3 reading and transcript records are added without claiming a complete Class 3 calibration.
+
+The current automated receipt reports the checks actually run. Local review uses a tracked snapshot retrieved from private GitHub Actions; full reachable-history checking is performed in CI. Raw-source `--local` checks remain incomplete because the historical private archive is unavailable in this runtime. No grade, independent validation, local water outcome, or faculty endorsement is established.
+
+## Historical September 18 build state
 
 | Layer | Available work | Limit that remains |
 | :--- | :--- | :--- |
@@ -15,7 +23,7 @@
 | Governance | AI-use responsibilities, failure controls, evaluation protocol and human review queue | Automated checks cannot approve source meaning or establish learning benefit |
 | Presentation | Reader paths, tables, diagrams, faculty guide and consistent Markdown conventions | Local rendering is approximate; actual GitHub/Mermaid rendering not certified |
 
-## Verification evidence
+## Historical verification and current receipt
 
 | Check | Result and scope |
 | :--- | :--- |
@@ -31,7 +39,7 @@ The [automated receipt](governance/evaluation-results.json) records actual comma
 
 The [current revision notes](assignments/assignment-01/REVISION-NOTES.md) record both rounds of Perplexity feedback, the exact final substitutions and the verified North passage. The [pressure-test report](assignments/assignment-01/PRE-SUBMISSION-REVIEW.md) preserves the earlier PR #8 diagnosis and memo as history. The [human-review companion](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md) expands the deadline queue into source-specific reading and argument checks; all human actions remain pending. The final substitution pass produced a five-page memo and nine-page companion; all fourteen pages were visually inspected, and source-text comparisons passed.
 
-## Deadline sequence
+## Historical Assignment 1 review sequence
 
 | Priority | Work | Decision enabled |
 | :--- | :--- | :--- |
