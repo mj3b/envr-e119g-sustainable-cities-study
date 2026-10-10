@@ -1,3 +1,7 @@
+Current session: [detailed disclosure](methods/AI-DISCLOSURE.md) and [machine-readable activity](methods/ai-activity.json). Entries below retain their historical scope; no missing prompt, model version, or human review has been reconstructed.
+
+---
+
 # Record of AI assistance
 
 [Home](README.md) / AI use · [Governance](governance/README.md) · [Evaluation](governance/EVALUATION.md)

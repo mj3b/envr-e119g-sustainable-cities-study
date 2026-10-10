@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "expected_visibility": "public",
+  "owner_authorized_public": true,
+  "authorization_date": "2026-10-09",
+  "permission_to_use_ai": {
+    "basis": "owner_report_in_current_conversation",
+    "independently_inspected_faculty_permission": false,
+    "endorses_case_or_method": false
+  },
+  "forbid_raw_course_materials": true,
+  "forbid_private_correspondence": true,
+  "human_scholarly_approval_by_automation": false,
+  "historical_semantic_publication_audit": "not_completed",
+  "review_draft_authorized": true,
+  "submission_authorized": false
+}

@@ -1,3 +1,7 @@
+October 9 public-curation update: see [working checkpoint](docs/releases/public-research-review-v01.md). Earlier status below is historical. Current source closure remains B. GO — NARROWED COURT/INSTRUMENT QUESTION. A review draft is authorized; submission is not.
+
+---
+
 # Research status and next decision
 
 [Home](README.md) / Build status · [Assignment 1 packet](assignments/assignment-01/EVIDENCE-PACKET.md) · [Evaluation](governance/EVALUATION.md)

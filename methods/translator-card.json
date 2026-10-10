@@ -1,0 +1,33 @@
+{
+  "id": "TR-CERR-001",
+  "artifact_type": "AI-authored bounded task candidate",
+  "upstream": "node-and-norm/applied-ai-research-translator",
+  "adaptation_only": true,
+  "upstream_runtime_executed": false,
+  "question": "What legal effect did the court assign to pertinencia screening when determining whether to review the original groundwater assessment?",
+  "inputs": [
+    {
+      "source": "Segundo Tribunal Ambiental, R-271-2020/R-270-2020",
+      "locator": "PDF pp. 64–65, considerations 93–94"
+    },
+    {
+      "source": "SEA Ordinario 202299102452",
+      "locator": "PDF p. 2, paragraphs 4–8"
+    }
+  ],
+  "output": "Attributed comparison of instrument functions, with missing-original limits",
+  "failure_conditions": [
+    "Infers contents of an uninspected filing",
+    "Treats screening as amendment or execution right",
+    "Treats proposed savings as measured outcome",
+    "Infers motive from chronology"
+  ],
+  "advisory_disposition": "eligible_for_human_review",
+  "claim_truth_determined": false,
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "operational_authorization": false
+}

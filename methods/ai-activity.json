@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "record_type": "Task-level AI contribution record",
+  "coverage": "This public-curation and review-draft session; olderactivity recordsremainhistorical and may beincomplete",
+  "activities": [
+    {
+      "id": "ACT01",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Scope and public-mode authorization",
+      "inputs_description": "User instructions and GitHub metadata",
+      "output_description": "Recorded intentional public visibility, authorized review draft, and separate publication restrictions",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "No AI authority to approve scholarly gates; facultypermission is an owner report"
+    },
+    {
+      "id": "ACT02",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Prior-output preservation",
+      "inputs_description": "Mounted historical exports",
+      "output_description": "Copied two source-closure artifacts byte-for-byte; indexed30exports",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Remaining28files metadata-only inGit; archivalcopy does not constitute source revalidation"
+    },
+    {
+      "id": "ACT03",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Original-source retrieval and inspection",
+      "inputs_description": "Web browser, Files, localPDFtext/renderings",
+      "output_description": "Checked selected original legal passages and recorded partial/failed course-source access",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "AI-performed not Mark-performed; exact source scopes in draft-source-checks.json"
+    },
+    {
+      "id": "ACT04",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Cerrillos review-draft authoring",
+      "inputs_description": "ChatGPT",
+      "output_description": "Generated first-person candidate prose, English legal paraphrases, argument structure, and reference list",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Student voice and all substantive claims await human approval; no new empirical measurements"
+    },
+    {
+      "id": "ACT05",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Research-integrity procedure",
+      "inputs_description": "ChatGPT with ALLEA2023 originalcode",
+      "output_description": "Authored a prospective source/claim/review/correction protocol",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Adaptation, not certification or retroactive preregistration"
+    },
+    {
+      "id": "ACT06",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Translator adaptation",
+      "inputs_description": "GitHub README and ChatGPT",
+      "output_description": "Mapped source/claim/task/evaluation/human-decision records and a candidate task card",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Upstream runtime not installed or executed; self-developed method, not independent validation"
+    },
+    {
+      "id": "ACT07",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Jev pilot preparation",
+      "inputs_description": "Official TypeSafe docs and ChatGPT",
+      "output_description": "Authored optional standard-library adapter,12syntheticAI-authoredfixtures,blindedrequests and checks",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Zero live provider calls; mockfixtures are fabricatedtestdata; human referencelabelreview pending"
+    },
+    {
+      "id": "ACT08",
+      "date": "2026-10-09",
+      "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+      "task": "Repository engineering and deterministic checks",
+      "inputs_description": "GitHub tools, Python, git, unittest",
+      "output_description": "Authored and tested publication controls, documentation, local-link/hash/schema checks",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected GitHub and local tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier not exposed as an auditable provider result",
+      "prompt_availability": "Current conversation user instructions; historical prompts not reconstructed; not published where restricted source data may be present",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Outcome receipts generated by executed scripts; they do not certify source truth or human review"
+    }
+  ],
+  "performed_without_model_judgment": [
+    "SHA256computation",
+    "JSON parsing/schema checks",
+    "wordcount",
+    "unit tests",
+    "local-linkchecks",
+    "git metadata operations"
+  ],
+  "not_performed_in_this_session": [
+    "Interviews",
+    "Environmental field measurements",
+    "Community consultation",
+    "Course submission",
+    "Human scholarly approval",
+    "Live Jev evaluation",
+    "Upstream Translator runtime execution"
+  ],
+  "live_jev_calls": 0
+}
