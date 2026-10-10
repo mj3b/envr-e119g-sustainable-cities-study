@@ -331,6 +331,134 @@
           "detail": "56 unit tests; 732 inline repository-relative Markdown path targets; structural/schema and local snapshot path/history checks. Full original Git history unavailable locally."
         }
       ]
+    },
+    {
+      "id": "ACT13",
+      "date": "2026-10-10",
+      "date_basis": "UTC",
+      "record_created_at": "2026-10-10T02:16:48.830646+00:00",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub connector, web retrieval and local Python execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "No auditable backend deployment identifier returned for this task",
+      "exact_prompt_sha256": null,
+      "prompt_availability": "Owner's visitor-facing README and archive request in this conversation",
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "task": "Public-facing research narrative and reading routes",
+      "inputs_description": "Pinned review.2 repository snapshot; owner instruction to explain research for non-researchers and employers",
+      "output_description": "Rewritten root and selected directory READMEs; reader guide; archived-in-place index",
+      "limitation": "Candidate public prose; no human voice approval, claimed personal experience, source closure or revision of Assignment 2",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "not_performed": [
+        "Assignment 2 prose revision",
+        "live Jev evaluation",
+        "upstream Translator runtime execution",
+        "field measurements",
+        "course submission",
+        "human scholarly approval"
+      ]
+    },
+    {
+      "id": "ACT14",
+      "date": "2026-10-10",
+      "date_basis": "UTC",
+      "record_created_at": "2026-10-10T02:16:48.830664+00:00",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub connector, web retrieval and local Python execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "No auditable backend deployment identifier returned for this task",
+      "exact_prompt_sha256": null,
+      "prompt_availability": "Owner's visitor-facing README and archive request in this conversation",
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "task": "Bounded primary-source check and quantitative method specification",
+      "inputs_description": "Original judgment at VIS-S01; official METR methods pages VIS-S02–VIS-S03; historical ledger and draft inspection register",
+      "output_description": "Separate visitor-source-check record; local measurement protocol; deterministic record counter and tests",
+      "limitation": "AI interpretation pending human review; historical 2025 method is not current tool-performance evidence; no water-savings or AI-productivity estimate",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "not_performed": [
+        "Assignment 2 prose revision",
+        "live Jev evaluation",
+        "upstream Translator runtime execution",
+        "field measurements",
+        "course submission",
+        "human scholarly approval"
+      ]
+    },
+    {
+      "id": "ACT15",
+      "date": "2026-10-10",
+      "date_basis": "UTC",
+      "record_created_at": "2026-10-10T02:16:48.830669+00:00",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub connector, web retrieval and local Python execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "No auditable backend deployment identifier returned for this task",
+      "exact_prompt_sha256": null,
+      "prompt_availability": "Owner's visitor-facing README and archive request in this conversation",
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "task": "Documentation audit, validation and visitor-edition delivery",
+      "inputs_description": "All 125 baseline Markdown files; selected current navigation pages; unchanged protected research and earlier AI-use records",
+      "output_description": "Per-path audit; checked record snapshot; PR and review.3 release scope; actual CI and release metadata establish publication",
+      "limitation": "Documentation screen is not a full scholarly rereading, rights audit or proof of source truth; local reconstructed Git history is not full original history",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "not_performed": [
+        "Assignment 2 prose revision",
+        "live Jev evaluation",
+        "upstream Translator runtime execution",
+        "field measurements",
+        "course submission",
+        "human scholarly approval"
+      ],
+      "execution_events": [
+        {
+          "action": "initial container command",
+          "result": "client_error",
+          "detail": "Tool invocation returned ClientError; no repository change established by it."
+        },
+        {
+          "action": "public git ls-remote from container",
+          "result": "failed",
+          "detail": "github.com could not be resolved; no clone or fetch completed."
+        },
+        {
+          "action": "verified existing GitHub Actions file snapshot",
+          "result": "passed",
+          "detail": "Mounted review.2 artifact SHA256 ab64ec78d889eb063e201d307461b907c84b9f8034f543199b4eb05019461cd2 matched the recorded artifact digest; live main still 981440ccd0cc204e591ebf6dc1d5e4480e3f96db. Local Git history reconstructed for tests only."
+        },
+        {
+          "action": "local preview default Chromium launch",
+          "result": "failed",
+          "detail": "Playwright default browser executable was absent."
+        },
+        {
+          "action": "local previews using installed Chromium",
+          "result": "passed",
+          "detail": "README visually inspected at1200px and390px; reader guide visually inspected at1200px; no page-level overflow in four generated layouts; GitHub and math rendering unverified."
+        },
+        {
+          "action": "local snapshot checks",
+          "result": "passed",
+          "detail": "65 unit tests, structural/schema, publication/path checks and 841 inline relative Markdown path targets passed. Original remote Git history was not available locally. Some Python starts emitted an unrelated spreadsheet-runtime warmup warning; no spreadsheet task was performed."
+        }
+      ]
     }
   ],
   "performed_without_model_judgment": [

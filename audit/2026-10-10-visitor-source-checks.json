@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-10T02:16:48.829230+00:00",
+  "activity": "Bounded verification for the visitor-facing explanation and local measurement method",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null
+  },
+  "sources": [
+    {
+      "id": "VIS-S01",
+      "title": "Sentencia, Rol R-271-2020, acumulada causa Rol R-270-2020",
+      "issuer": "Segundo Tribunal Ambiental",
+      "date": "2024-02-26",
+      "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf",
+      "type": "original judicial decision",
+      "file_type": "PDF",
+      "pages": 73,
+      "inspection": "Parsed opening metadata; PDF pp.64–65, considerations93–94, and p.72 operative provisions1–2 visually inspected via page screenshots",
+      "full_file_read": false,
+      "source_bytes_archived": false,
+      "sha256": null,
+      "primary_for": "Court's own reasoning and operative order",
+      "secondary_for": "Underlying redesign request, screening determination and filings described by the court",
+      "permitted_public_claim": "The court described the proposed change of cooling and continued reviewing the original groundwater assessment; screening and environmental qualification were treated as legally different.",
+      "locator": "PDF pp.64–65, considerations93–94",
+      "confidence": "High for observed Spanish wording; English paraphrase remains AI-authored and human-unreviewed",
+      "prohibited_inference": "No inspection of the complete 2022 submission or determination, implementation, environmental outcome, representative agreement, new causal finding or current-law advice"
+    },
+    {
+      "id": "VIS-S02",
+      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "authors_as_displayed": [
+        "Joel Becker",
+        "Nate Rush",
+        "Beth Barnes",
+        "David Rein"
+      ],
+      "issuer": "METR",
+      "date": "2025-07-10",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "type": "organizational research publication",
+      "file_type": "HTML",
+      "inspection": "Methodology, core result, generalization limits and discussion read; no chart values extracted",
+      "full_page_text_accessible": true,
+      "figures_visually_inspected": false,
+      "sha256": null,
+      "permitted_public_claim": "Study separates forecasted usefulness from recorded task completion and compares allowed/disallowed AI conditions.",
+      "locator": "Methodology; Core Result; Discussion",
+      "confidence": "High for stated method; no extrapolation to this repository or current tool performance",
+      "version_note": "Live page includes a February2026 follow-up link; this update uses only the dated 2025 method, not a claim about latest productivity"
+    },
+    {
+      "id": "VIS-S03",
+      "title": "Task-Completion Time Horizons of Frontier AI Models",
+      "issuer": "METR",
+      "url": "https://metr.org/time-horizons/",
+      "type": "organizational methods web publication",
+      "file_type": "HTML",
+      "last_updated_as_displayed": "2026-09-08",
+      "inspection": "Definition, Methodological Details and FAQ on runtime, task domain and reliability read; no plotted values extracted",
+      "full_page_text_accessible": true,
+      "figures_visually_inspected": false,
+      "sha256": null,
+      "permitted_public_claim": "Task horizon is defined by human task duration and a chosen reliability level within a task distribution, not agent runtime or all forms of work.",
+      "locator": "Definition; Methodological Details; FAQ",
+      "confidence": "High for stated definition; no replication, endorsement or transfer of frontier trends",
+      "version_note": "Page states it is no longer actively updated; no current frontier ranking is claimed"
+    }
+  ],
+  "case_evidence_held_fixed": [
+    "assignments/assignment-02/review-draft-v01.md",
+    "assignments/assignment-02/review-notes-v01.md",
+    "research/cerrillos/draft-source-checks.json",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json",
+    "cross-course/claims.json",
+    "cross-course/evidence-registry.json",
+    "cross-course/review-receipts.json",
+    "research/CURRENT.md"
+  ],
+  "uninspected_original_dependencies_resolved": false,
+  "new_environmental_results": false,
+  "new_theory_claims": false
+}

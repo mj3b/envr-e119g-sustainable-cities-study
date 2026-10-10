@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scope": "Deterministic census of two named files; no source adjudication",
+  "input_sha256": {
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103",
+    "research/cerrillos/draft-source-checks.json": "8e3dd0b8d7aa955c2ead615b5b8494c0ae95a5b5929a0a5eae1cca01a0a1f95f"
+  },
+  "historical_ledger": {
+    "population": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json",
+    "unit": "historical ledger entry",
+    "entries": 44,
+    "status_counts": {
+      "blocked": 6,
+      "closed": 24,
+      "discarded": 3,
+      "locator-only": 4,
+      "qualified": 7
+    },
+    "interpretation": "Inherited mixed claim/access labels, not renewed source verification"
+  },
+  "draft_register": {
+    "population": "research/cerrillos/draft-source-checks.json#new_claim_evidence",
+    "unit": "draft legal-claim entry",
+    "entries": 4,
+    "status_counts": {
+      "qualified": 4
+    },
+    "human_review_state_counts": {
+      "pending": 4
+    },
+    "uninspected_original_dependency_count": 5,
+    "uninspected_original_dependencies": [
+      "PERTI-2022-3020",
+      "7349-1 PERT MOD CERRILLOS DATACENTER EMI 0.pdf",
+      "Resolution 202213101388 (complete original)",
+      "Resolution 463/2021",
+      "Standalone July 1, 2024 renunciation request"
+    ],
+    "interpretation": "Recorded review states only; underlying passages are not reviewed by this counter"
+  },
+  "overlap_warning": "Populations overlap in substance; do not sum them as independent or deduplicated claims",
+  "study_wide_review_coverage": null,
+  "coverage_limitation": "No complete material-claim denominator and content-bound accepted human reviews established by this counter",
+  "environmental_effect_estimate": null,
+  "ai_productivity_estimate": null,
+  "human_scholarly_approval_by_this_script": false
+}

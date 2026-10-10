@@ -24,3 +24,9 @@ For an author-supplied model response, record both the provider named by the aut
 “Checked” requires a named activity and scope: a script matched hashes; the assistant compared a claim with a supplied passage; or a named human reviewed the identified version. Agreement among models is a diagnostic result, not source independence. An AI-written check cannot be recorded as Mark’s personal verification.
 
 No fieldwork, interviews, community consultation, environmental measurements, course submission, or human scholarly approval occurred in this writing update. Existing research evidence and its limits remain unchanged. Public sharing requires its own review under the [publication policy](../governance/PUBLICATION.md).
+
+## Visitor-edition update
+
+The visitor-facing README and guide were AI-authored in ChatGPT. Web retrieval supplied the bounded original-judgment and METR-method checks recorded in the visitor audit; web retrieval is an access channel, not an independent reviewer. Python generated record counts and documentation checks. These additions are documented in `ACT13`–`ACT15` in the [activity record](ai-activity.json).
+
+No additional model provider was invoked, no live Jev evaluation occurred, and the upstream Translator was not executed in this increment. The [measurement protocol](MEASUREMENT.md) specifies future comparisons without reporting them as performed experiments.

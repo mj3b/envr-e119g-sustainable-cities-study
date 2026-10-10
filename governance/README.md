@@ -21,3 +21,17 @@
 | May this be used for the intended purpose? | Assignment policy, scope of review, unresolved limits, actual AI disclosure | Mark; course staff determine course expectations |
 
 A passing test suite covers specified failure modes. It is not a measurement of AI truthfulness or a certification of research quality. All current human fidelity gates remain pending.
+
+## Reproduce the current record checks
+
+```sh
+python -m pip install -r requirements-dev.txt
+python scripts/research_progress.py --check
+python scripts/publication_check.py
+python scripts/assure.py --check
+python scripts/assure.py
+```
+
+The stored receipt is checked before regeneration so stale results are visible. The progress check compares deterministic counts and input hashes; it does not reclassify claims. Full reachable-history checks run in GitHub CI. Local snapshots have a narrower history scope and must be labeled accordingly.
+
+[Measurement rules](../methods/MEASUREMENT.md) · [Release record](../docs/releases/README.md)

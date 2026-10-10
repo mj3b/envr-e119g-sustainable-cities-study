@@ -1,50 +1,24 @@
-# Six places. One defensible research decision.
+# Earlier case discovery and retained alternatives
 
-Historical discovery and method-workbench index. The six candidate records retain the scope of their original comparison. Use [current research](../research/CURRENT.md) for conditional Cerrillos selection, the narrowed question, and fallback roles.
+[Home](../README.md) / [History](../archive/README.md) / Case discovery · [Current Cerrillos case](../research/cerrillos/README.md)
 
-[Home](../README.md) / Case discovery
+Cerrillos is the current case for the narrowed court-and-instrument inquiry. **Memphis remains the AI-specific fallback. Red Hill remains methodological calibration and a conditional cross-sector fallback.** Their roles are recorded in the [current decision](../research/CURRENT.md).
 
-> **Discovery remains open.** The research unit is one consequential decision in a defined place and period. No geography has been selected; Memphis has no default preference.
+The six dossiers below preserve the original discovery stage. They are archived in place as analytical history and acquisition plans, not six active candidates awaiting another tournament.
 
-A candidate earns attention by making an important question answerable. The dossiers below distinguish what has been inspected, what might explain the decision, whose interests require evidence, and which record would change the assessment.
+| Earlier dossier | Scope at the discovery stage |
+| :--- | :--- |
+| [Georgia](candidates/georgia.md) | Large-load policy and billing conditions |
+| [Hawaiʻi](candidates/hawaii.md) | A place-based infrastructure question requiring a tighter decision boundary |
+| [Memphis](candidates/memphis.md) | Service and authorization questions for the AI-specific alternative |
+| [Loudoun](candidates/loudoun.md) | Land-use amendment records |
+| [The Dalles](candidates/dalles.md) | Infrastructure-agreement authorization |
+| [Tucson / Pima](candidates/tucson.md) | Successive city and county development pathways |
 
-## Candidate desk
+The [discovery assessment](DISCOVERY-ASSESSMENT.md), [selection protocol](SELECTION-PROTOCOL.md) and [worked example](worked-example.md) document earlier reasoning. Their evidence has not been freshly revalidated by this navigation update. The units differ and cannot be pooled as equivalent observations.
 
-| Candidate | Decision under examination | Decisive gap |
-| :--- | :--- | :--- |
-| [Georgia](candidates/georgia.md) | Large-load contract and billing rule, with a local anchor to identify | Adopted order, applicable terms, and cost incidence |
-| [Hawaiʻi](candidates/hawaii.md) | Local infrastructure action still to be identified | Island, community, decision, and responsible authority |
-| [Memphis](candidates/memphis.md) | Initial service at the Paul Lowery Road site | Contemporaneous approval and verifiable curtailment terms |
-| [Loudoun](candidates/loudoun.md) | March 2025 land-use amendments | Operative text, decision record, and a coherent local outcome boundary |
-| [The Dalles](candidates/dalles.md) | November 2021 infrastructure-agreement authorization | Executed terms, supply assumptions, and comparable observations |
-| [Tucson / Pima](candidates/tucson.md) | City proposal and later county land-sale pathway | One anchor decision and separation of successive project versions |
+## Method workbench
 
-These units differ. A statewide rule, county ordinance, municipal authorization, and service agreement cannot be treated as interchangeable observations.
+[Research design](RESEARCH-DESIGN.md) · [Research objects](RESEARCH-OBJECTS.md) · [Quantitative notes](QUANTITATIVE-NOTES.md)
 
-## Follow the inquiry
-
-| Step | Artifact | What it enables |
-| :---: | :--- | :--- |
-| 1 | [Discovery assessment](DISCOVERY-ASSESSMENT.md) | Compare six evidence dimensions and identify the next consequential gap |
-| 2 | [Selection protocol](SELECTION-PROTOCOL.md) | Bound the question, control the search, and record a justified selection |
-| 3 | [The Dalles worked example](worked-example.md) | Inspect a populated decision reconstruction with unresolved outcomes |
-| 4 | [Research object guide](RESEARCH-OBJECTS.md) | Connect actors, authority, assumptions, measurements, alternatives, and outcomes |
-| 5 | [Quantitative reasoning](QUANTITATIVE-NOTES.md) | Define units, denominators, baselines, uncertainty, and limits on attribution |
-
-## What counts as new evidence?
-
-| Material | What it can establish | Boundary to preserve |
-| :--- | :--- | :--- |
-| Operative decision, contract, or docket | Authority, terms, timing, and recorded alternatives | A condition's existence is separate from implementation |
-| Meter, monitoring, or administrative series | Observations within its stated boundary | Coverage, definitions, missingness, and changes over time |
-| Community testimony | A recorded position or lived account | Representativeness and causal attribution need additional evidence |
-| Institutional or developer statement | What that party reported or promised | Independent verification remains a separate task |
-| Journalism or dataset catalogue | Leads, chronology, and routes to records | Repetition of one release does not add independent observations |
-
-Hugging Face may help discover a dataset or distribute a permitted derivative. Each usable dataset still needs its original producer, definitions, provenance, and fit to the decision.
-
-## Research state and ownership
-
-The [candidate family](candidate-family.json), [dimension assessments](discovery.json), and [research objects](research-objects.json) are canonical. The dossiers are analytical reading aids and acquisition plans; proposed population measures are not acquired data.
-
-A candidate advances when an operative instrument, decision-time evidence, affected-population boundary, or usable measurement closes a consequential gap. Better formatting and more background articles cannot change its evidence score. The original decision and measurement templates remain compatibility sketches; populated work follows the typed research-object contract.
+The [candidate family](candidate-family.json), [discovery records](discovery.json) and [research objects](research-objects.json) retain their canonical identities. The newer [measurement protocol](../methods/MEASUREMENT.md) explains which quantities remain unavailable for the current case.
