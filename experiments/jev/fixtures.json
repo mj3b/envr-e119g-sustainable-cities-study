@@ -1,0 +1,134 @@
+[
+  {
+    "id": "SYN-01",
+    "passage": "Forecast: next year the facility is expected to save water.",
+    "claim": "The facility has measured water savings.",
+    "reference_label": "insufficient",
+    "error_kind": "projection_outcome",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-02",
+    "passage": "The response does not authorize execution.",
+    "claim": "The response authorizes execution.",
+    "reference_label": "contradicted",
+    "error_kind": "screening_authority",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-03",
+    "passage": "The response does not amend the permit.",
+    "claim": "The response does not amend the permit.",
+    "reference_label": "supported",
+    "error_kind": "negation",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-04",
+    "passage": "The claimant alleges that wells were affected.",
+    "claim": "The source records a claimant allegation about wells.",
+    "reference_label": "supported",
+    "error_kind": "attribution",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-05",
+    "passage": "The claimant alleges that wells were affected.",
+    "claim": "The wells were proven to be affected.",
+    "reference_label": "insufficient",
+    "error_kind": "attribution",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-06",
+    "passage": "A right to withdraw 10 L/s is recorded.",
+    "claim": "Observed withdrawal was 10 L/s.",
+    "reference_label": "insufficient",
+    "error_kind": "quantity_type",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-07",
+    "passage": "The company proposed a change after review.",
+    "claim": "The review caused the company to propose the change.",
+    "reference_label": "insufficient",
+    "error_kind": "chronology",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-08",
+    "passage": "The judgment orders a new assessment.",
+    "claim": "The judgment orders a new assessment.",
+    "reference_label": "supported",
+    "error_kind": "legal_action",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-09",
+    "passage": "The judgment orders a new assessment.",
+    "claim": "The new assessment has been implemented successfully.",
+    "reference_label": "insufficient",
+    "error_kind": "implementation",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-10",
+    "passage": "A party withdrew its claim.",
+    "claim": "The community unanimously approved the project.",
+    "reference_label": "insufficient",
+    "error_kind": "representativeness",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-11",
+    "passage": "Measured use was 4 cubic metres in March.",
+    "claim": "Measured use was 4 cubic metres in March.",
+    "reference_label": "supported",
+    "error_kind": "observation",
+    "source_available": true,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  },
+  {
+    "id": "SYN-12",
+    "passage": "No source text has been retrieved.",
+    "claim": "The missing report establishes water savings.",
+    "reference_label": "insufficient",
+    "error_kind": "missing_source",
+    "source_available": false,
+    "data_class": "synthetic",
+    "reference_origin": "AI-authored fixture",
+    "human_reference_review": null
+  }
+]

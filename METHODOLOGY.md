@@ -1,3 +1,7 @@
+Current supplement: [research-integrity protocol](methods/RESEARCH-INTEGRITY.md). The October 9 public-sharing and review-drafting authorization supersedes older private/preparation-only instructions prospectively. Substantive human gates remain unchanged.
+
+---
+
 # How this research earns its conclusions
 
 [Home](README.md) / Methodology · [Worked design](cases/RESEARCH-DESIGN.md) · [AI assurance](governance/README.md)

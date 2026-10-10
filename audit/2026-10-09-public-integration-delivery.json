@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-10T00:12:39.195843+00:00",
+  "activity": "deterministic file delivery; not source revalidation or human approval",
+  "base_commit": "7995550b0757734ab8d10660b47c38585cfa5c63",
+  "trigger_commit": "74950f9e9277389ed3c52717bfb667e8d154fde0",
+  "compact_sha256": "ab625b6644bbf80f268105e2ca5c4c01b8e38deab8ea21c7e10ed84b3dcd4067",
+  "history_sha256": "a0cfa5802921e40aa44923bca5fa3fe199cf41ce4bfa2eb47e66b2c923ac480e",
+  "compact_blob_shas": [
+    "8ed0b7f75a0ce6f39dbf738ff3ab13157aae3d78",
+    "6c9cd18bce725bcb1b443ba0377033d6d0b0c73b",
+    "4da3217eadec3ee1754be6590ce9acb80bb9ee20"
+  ],
+  "history_blob_shas": [
+    "e33ecebd48c2e332b75fb559942eff301e7e594b",
+    "ab8a0c8f40a35522944aff1fd84047e12c2d8fa3"
+  ],
+  "materialized_files": [
+    {
+      "path": "README.md",
+      "old_sha256": "c142be9d862450fa84c027fe0adbc2ce4c784e453c047b68f871067d769d4e4c",
+      "sha256": "365f4c191f98105e56e2a20cf5223f0a64c216d2272d63eafb7e05ab313ea3c1"
+    },
+    {
+      "path": "AGENTS.md",
+      "old_sha256": "98ed0584a9105f13e396653df0eaf74325fc371dc6fc1f2ec12998f854f1c2fe",
+      "sha256": "94a30aa14a498b58404a3bdd35a30153ab4faf0d0009f072ae7c28d977cec6e9"
+    },
+    {
+      "path": "governance/PUBLICATION.md",
+      "old_sha256": null,
+      "sha256": "6d02cf58989ca70a1ffdf691a6846e4dfa9c6dd619ecb32b4e4d757a0943fa72"
+    },
+    {
+      "path": "governance/publication-policy.json",
+      "old_sha256": null,
+      "sha256": "02fdb5822275f2a13f1fbb6967f2c0de29233a2378b3c875f9be9536f04ea1c0"
+    },
+    {
+      "path": "methods/RESEARCH-INTEGRITY.md",
+      "old_sha256": null,
+      "sha256": "e1eb71e3863b0d6660531ca580cf3a91ba03f70ff9750d98ba71ea8a774b3883"
+    },
+    {
+      "path": "methods/AI-DISCLOSURE.md",
+      "old_sha256": null,
+      "sha256": "f6436246df47d0a6c65e84499fec1e0b351fe40e5d55e8a3e39f5dde49f2c854"
+    },
+    {
+      "path": "methods/TRANSLATOR-BRIDGE.md",
+      "old_sha256": null,
+      "sha256": "1794fd6ffa74a630b3096e7cb52e0e52b328f8c602b50a5c85fcbfbd00a772f4"
+    },
+    {
+      "path": "methods/translator-card.json",
+      "old_sha256": null,
+      "sha256": "eefab2076b4d4f358da5cf52821c91b98fb8b26af5f0541db0f0ce7cb15ef3a5"
+    },
+    {
+      "path": "research/CURRENT.md",
+      "old_sha256": null,
+      "sha256": "c1dbb0e7a2d9bd506a2798947ac10ba6ce0d9d661aed3216fb651f44ac16295f"
+    },
+    {
+      "path": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md",
+      "old_sha256": null,
+      "sha256": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366"
+    },
+    {
+      "path": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json",
+      "old_sha256": null,
+      "sha256": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103"
+    },
+    {
+      "path": "research/preservation-index.json",
+      "old_sha256": null,
+      "sha256": "edb35abdffa4f6375f67f9ca04e355ba01cdd16e6171a93cf8a4ddd0d46c3eab"
+    },
+    {
+      "path": "research/course-session-crosswalk.json",
+      "old_sha256": null,
+      "sha256": "1d414ed63e41b8bb8c862a4a06651d3aceff566a08d0f4cde03ac9a267e2ef20"
+    },
+    {
+      "path": "experiments/jev/README.md",
+      "old_sha256": null,
+      "sha256": "34d212db0d805971b251a6dfd9d0279b0ba5515bf0fdf8149f9fcdc7301737da"
+    },
+    {
+      "path": "experiments/jev/fixtures.json",
+      "old_sha256": null,
+      "sha256": "31193715f6d4fff239ac51873359b8f002dd8d07ecb0f0b5148403e8a8e08cea"
+    },
+    {
+      "path": "experiments/jev/runner.py",
+      "old_sha256": null,
+      "sha256": "93e012ccbd1a67b724c76739c54c9c54735a4cd2f4f1029f17aa47fea59ba386"
+    },
+    {
+      "path": "scripts/publication_check.py",
+      "old_sha256": null,
+      "sha256": "d649a7b43db79c507ed9a7308ffa8dda1d6bd132a4a08df8684dc8e68fb46924"
+    },
+    {
+      "path": "tests/test_public_methods.py",
+      "old_sha256": null,
+      "sha256": "ce2c610bc3df66d8702bff1399b8551bf0c1d4248920f1c6540118eb8617da3c"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "old_sha256": "9b12b7d0d04670fde9a66c90b4651eb85336b47855ad426fc60d736ef1819297",
+      "sha256": "1953aa6a53cd40ac7407edb35ba2a8174730522e42eade1997a701cd2c7070ed"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "old_sha256": "a18536eace7965c1ee4c63bf32eeb6f4d13478a172b2c22fd75bde2e53f1f68e",
+      "sha256": "398f0fee12efe38b6d5d33444e632a10d3eb4948a01003cd1f1dfcf27b9989f8"
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "old_sha256": "990abf8b12e68a81d264eba184c4b210ad285b34106c5634d04630c5e33d2b51",
+      "sha256": "abeb135387c7a04b7af440daae029e4e698f662ccb5620fd6eecb58837791e57"
+    },
+    {
+      "path": "BUILD-STATUS.md",
+      "old_sha256": "70b6280cf86a2ede31493ee982120edfa36b7ac1404525a7853a09fc0b418b7b",
+      "sha256": "d811bcd1c1315c5a6aa34f76b1dc123ddd677b7f690952af8f16c0dab653a68f"
+    },
+    {
+      "path": "assignments/assignment-02/README.md",
+      "old_sha256": "8d80770f53190d37b9f16e730c9c6ed603fb00a52a4d8404e017a2aa529cb3bd",
+      "sha256": "ea330221eb6c33b1d080c87b7ce952f0fee21f08e54a9076dba8ed695ece8402"
+    },
+    {
+      "path": "docs/releases/public-research-review-v01.md",
+      "old_sha256": null,
+      "sha256": "bfe9f96f6f249763e03dbded2ce417f96f1192569b586598c52d89b73e325ac7"
+    },
+    {
+      "path": "assignments/assignment-02/review-draft-v01.md",
+      "old_sha256": null,
+      "sha256": "62f3e96b6a12cccc0bf47164433fbf7ef22011049ac7da8e48c1843e9ee50cdc"
+    },
+    {
+      "path": "assignments/assignment-02/review-notes-v01.md",
+      "old_sha256": null,
+      "sha256": "881f0f9a432175c23fe33a526788f9d72570258177e47ba0c78d66ee00733f90"
+    },
+    {
+      "path": "research/cerrillos/draft-source-checks.json",
+      "old_sha256": null,
+      "sha256": "8e3dd0b8d7aa955c2ead615b5b8494c0ae95a5b5929a0a5eae1cca01a0a1f95f"
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "old_sha256": null,
+      "sha256": "b89064b409f1a93597d9e80827b468ecd3938ca4bc0e6e2f75e5c672576f8e2f"
+    }
+  ],
+  "historical_transfer_note": "The earlier 12-part transfer failed XZ decompression in workflow run 38006886267. It was not used. The two historical files were retransferred from the preserved local originals, with their existing per-file SHA-256 values verified. This repairs delivery only; it does not revise their contents or source statuses.",
+  "delivery_permission_note": "Workflow run 38007908194 passed preparation and repository checks but could not push workflow changes with its GitHub Actions token. This run stages non-workflow Git blobs only. The authorized GitHub connector must create the final tree and move the feature-branch ref.",
+  "public_scope": "28 curated files, including two unchanged historical exports; other historical exports indexed, not represented as published",
+  "human_scholarly_approval": null,
+  "live_jev_calls": 0
+}

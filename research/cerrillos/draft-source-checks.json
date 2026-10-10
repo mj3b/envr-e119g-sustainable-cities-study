@@ -1,0 +1,161 @@
+{
+  "record_created_at": "2026-10-09T23:54:15.974008+00:00",
+  "artifact_type": "AI-performed inspection register, not human verification",
+  "scope": "Review draft v0.1 only; no reopening of broad technical question",
+  "historical_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "all_human_reviews_pending": true,
+  "sources": [
+    {
+      "id": "DRAFT-S01",
+      "title": "Sentencia, Rol R-271-2020, acumulada causa Rol R-270-2020",
+      "issuer": "Segundo Tribunal Ambiental",
+      "date": "2024-02-26",
+      "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf",
+      "type": "original judicial decision",
+      "pages": 73,
+      "full_text_available": true,
+      "inspection_scope": "Selected text and page images: PDF pp. 64–65, considerations 93–94; p. 72, operative provisions 1–2. Project-context pp. 2–4 also consulted; p. 3 map viewed. This is not a fresh full-document reading.",
+      "visuals_inspected": "p. 3 project map, pp. 64–65 and 72 legal-text images",
+      "primary_for": "Own reasoning and operative order",
+      "secondary_for": "Contents of redesign request, screening determination, and party filings described in it",
+      "confidence": "High for directly observed wording; English interpretation requires human legal-language review",
+      "sha256": null,
+      "hash_limitation": "Browser inspection; source PDF bytes not archived in this update"
+    },
+    {
+      "id": "DRAFT-S02",
+      "title": "Ordinario N.º 202299102452: Complementa Oficio del ANT.",
+      "issuer": "Servicio de Evaluación Ambiental, Dirección Ejecutiva",
+      "date": "2022-05-30",
+      "date_basis": "Identified as May 30 by the original judgment; digitally inserted date not separately signature-validated",
+      "url": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2022/06/06/of_202299102452.pdf",
+      "type": "original administrative guidance",
+      "pages": 3,
+      "full_text_available": true,
+      "inspection_scope": "Full parsed text; particularly p. 2, paras. 4–8",
+      "visuals_inspected": "p. 2 text image",
+      "primary_for": "General pertinencia guidance in this instrument",
+      "secondary_for": null,
+      "confidence": "High for observed provisions, subject to dated scope",
+      "sha256": null
+    },
+    {
+      "id": "DRAFT-S03",
+      "title": "Resolución Exenta N.º 202413001362",
+      "issuer": "Comisión de Evaluación de la Región Metropolitana de Santiago",
+      "date": null,
+      "date_basis": "2024 resolution; exact signature day not independently established; September 12 URL directory is a repository date, not a proven issuance date",
+      "url": "https://seia.sea.gob.cl/archivos/2024/09/12/Res._N_202413001362_firmada.pdf",
+      "type": "original administrative resolution",
+      "pages": 5,
+      "full_text_available": true,
+      "inspection_scope": "Text, especially pp. 2–3; p. 3 operative provisions 1–3",
+      "visuals_inspected": "p. 3 text image",
+      "primary_for": "Own acknowledgment of renunciation and stated legal consequences",
+      "secondary_for": "July 1 letter and holder declarations described/quoted in resolution",
+      "confidence": "High for stated operative consequences; no implemented-outcome inference",
+      "sha256": null
+    },
+    {
+      "id": "DRAFT-S04",
+      "title": "Economic Performance through Time",
+      "author": "Douglass C. North",
+      "date": "1993-12-09",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1993/north/lecture/",
+      "type": "original Nobel lecture text served through search extraction",
+      "inspection_scope": "Sections I–II returned by search and read; direct URL fetch returned HTTP 403",
+      "pages": null,
+      "full_text_available": "Search returned extended lecture text, direct website rendering blocked",
+      "visuals_inspected": false,
+      "primary_for": "Bounded institution definition in section II",
+      "confidence": "Qualified by access method; does not establish supplied-file or syllabus-edition equivalence",
+      "sha256": null
+    },
+    {
+      "id": "DRAFT-S05",
+      "title": "Sustainable Cities or Cities that Contribute to Sustainable Development?",
+      "author": "David Satterthwaite",
+      "date": "1997-10",
+      "url": "https://journals.sagepub.com/doi/10.1080/0042098975394",
+      "publication": "Urban Studies 34(10), 1667–1691",
+      "type": "publisher abstract of peer-reviewed scholarship",
+      "inspection_scope": "Abstract and publication metadata only",
+      "full_text_available": false,
+      "visuals_inspected": false,
+      "primary_for": "Broad environmental/social/economic/political-goal framing explicitly in abstract",
+      "confidence": "High for abstract wording; no substantive full-body or 2021 chapter claims",
+      "sha256": null
+    },
+    {
+      "id": "DRAFT-S06",
+      "title": "Can Smartphone App Trainings Help Reduce Exposure to Air Pollution? Experimental Evidence from Bogotá",
+      "authors": [
+        "Allen Blackman",
+        "Bridget Hoffmann"
+      ],
+      "date": "2025-11",
+      "url": "https://doi.org/10.3368/le.101.4.030724-0022R1",
+      "publication": "Land Economics 101(4), 499–520",
+      "type": "original supplied peer-reviewed publication",
+      "supplied_filename": "Blackman_Smartphone air pollution.pdf",
+      "pages": 22,
+      "full_text_available": true,
+      "inspection_scope": "Selected text printed pp. 506 and 513 (PDF pp. 8,15); limitations p.515 also consulted",
+      "visuals_inspected": "PDF p.8 theory-of-change figure in available rendering; no numerical result table used in draft",
+      "primary_for": "Authors separate hypothesized mechanisms and modeled benefits from measured experimental outcomes",
+      "confidence": "High for the stated methodological distinction; no transfer of measured effect sizes to Chile",
+      "sha256": "52fdf6bcc383873c510986d22396025b3f2aa6758757666bd6bb4bd10dc0ec3b"
+    }
+  ],
+  "uninspected_originals": [
+    "PERTI-2022-3020",
+    "7349-1 PERT MOD CERRILLOS DATACENTER EMI 0.pdf",
+    "Resolution 202213101388 (complete original)",
+    "Resolution 463/2021",
+    "Standalone July 1, 2024 renunciation request"
+  ],
+  "course_access_failure": "Files search returned no results; listed syllabus and Module I files returned no readable text/images; materialize reported no downloadable backing. Their absence is not inferred.",
+  "edition_equivalence": "North, Ostrom and Satterthwaite supplied versions vs syllabus editions remain unverified; no equivalence is asserted here.",
+  "date_discrepancies_preserved": [
+    "RCA127: judgment February24,2020 vs renunciationresolution February20,2020",
+    "Prior registry account February25,2020 is inherited, not freshly verified"
+  ],
+  "new_claim_evidence": [
+    {
+      "id": "DRAFT-C01",
+      "claim": "The court treated the 2022 pertinencia response as distinct from amendment of RCA127 and continued reviewing the original groundwater assessment.",
+      "source": "DRAFT-S01",
+      "locator": "pp.64–65, considerations93–94",
+      "status": "qualified",
+      "qualification": "Original court reasoning; not full inspection of underlying2022instrument",
+      "human_review": "pending"
+    },
+    {
+      "id": "DRAFT-C02",
+      "claim": "The court partly annulled the RCA and suspended the remaining effects pending complementary qualification.",
+      "source": "DRAFT-S01",
+      "locator": "p.72, operative provisions1–2",
+      "status": "qualified",
+      "qualification": "Legalorder, not compliance or environmentaloutcome observation",
+      "human_review": "pending"
+    },
+    {
+      "id": "DRAFT-C03",
+      "claim": "SEA guidance states that a pertinencia response does not grant execution rights or displace other applicable duties.",
+      "source": "DRAFT-S02",
+      "locator": "p.2, paras.4–8",
+      "status": "qualified",
+      "qualification": "Datedgeneral guidance, not a new opinion on every project or current law",
+      "human_review": "pending"
+    },
+    {
+      "id": "DRAFT-C04",
+      "claim": "Resolution202413001362 acknowledges renunciation and states the project may not proceed under RCA127terms.",
+      "source": "DRAFT-S03",
+      "locator": "p.3, operativeprovisions1–3",
+      "status": "qualified",
+      "qualification": "No motive, consensus, implementation, or ecologicaleffect inference",
+      "human_review": "pending"
+    }
+  ]
+}

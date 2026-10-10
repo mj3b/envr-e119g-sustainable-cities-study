@@ -1,0 +1,35 @@
+{
+  "basis": "owner correction and earlier intake; this update does not claim fresh full-text review of all sessions",
+  "confirmed_session_count_by_owner": 5,
+  "sessions": [
+    {
+      "syllabus_class": 1,
+      "date": "2026-09-04",
+      "topic": "Economic and Social Development"
+    },
+    {
+      "syllabus_class": 2,
+      "date": "2026-09-11",
+      "topic": "Environmental Sustainability"
+    },
+    {
+      "syllabus_class": 3,
+      "date": "2026-09-18",
+      "topic": "Sustainable Cities"
+    },
+    {
+      "syllabus_class": 4,
+      "date": "2026-09-25",
+      "accepted_archive_label": "Class 5",
+      "topic": "Air Pollution and Wildfires: Sources, Drivers, and Impacts"
+    },
+    {
+      "syllabus_class": 5,
+      "date": "2026-10-02",
+      "accepted_archive_label": "Class 6",
+      "topic": "Air Pollution and Wildfires: Mitigation and Urban Policy"
+    }
+  ],
+  "excluded_archive": "ENVR E-119G_ September 25, Class 4 - Sustainable Cities_otter_ai.zip",
+  "exclusion_reason": "owner identified this archive as mislabeled and directed omission; no deletion of the original outside Git"
+}

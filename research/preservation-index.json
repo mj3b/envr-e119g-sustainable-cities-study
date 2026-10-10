@@ -1,0 +1,247 @@
+{
+  "scope": "30 exports recoverable in the earlier prepared package; not every conversation output",
+  "archive_research_findings_revised": false,
+  "metadata_only_is_not_content_access": true,
+  "records": [
+    {
+      "filename": "ENVR_E119g_Assignment2_Feedback_and_Lecture_Alignment.md",
+      "sha256": "4834f35698ee90fb6049f6c4a505f276a9265bca3343dc69607b842111613617",
+      "bytes": 14308,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cerrillos_Memo_Claim_Evidence_Ledger.md",
+      "sha256": "58ebbe50b8bb26ab08ee6a94af1cf63b81eb5fe763e316b9420b1458a72d9f72",
+      "bytes": 20207,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cerrillos_Source_Closure_Ledger.json",
+      "sha256": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103",
+      "bytes": 44733,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json",
+      "disposition": "exact_public_copy"
+    },
+    {
+      "filename": "ENVR_E119g_Cerrillos_Source_Closure_Ledger.md",
+      "sha256": "7f781d67a16bacf6dba878f5f68d04cc3ccc38d1621240c1c8a692f437b0158f",
+      "bytes": 31101,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cerrillos_Source_Closure_Research_Design.md",
+      "sha256": "0b41a33b13154b9747db8c6cc41ff60693a211997c529757ca4847d4a2d50caf",
+      "bytes": 46839,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cerrillos_Source_Closure_Sprint.md",
+      "sha256": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366",
+      "bytes": 30505,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md",
+      "disposition": "exact_public_copy"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Manifest_Assignment1_Registered.json",
+      "sha256": "92ed13429af2ecc21b42d2f6b4d2ffc5d7cdddbe57a60f42cbd1430b14243524",
+      "bytes": 308560,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Manifest_C001_Designated.json",
+      "sha256": "555e6822839a996418639835f050a2068173fe16df2b5a6e44ae3e13c0d0a058",
+      "bytes": 332724,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Manifest_Ready_For_Authorization.json",
+      "sha256": "992d864e2174d1ce538f32017a47e9678b1b83908182cc2eb3832d132b5caa20",
+      "bytes": 420253,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Report_Assignment1_Registered.md",
+      "sha256": "ab89aff4110c3f0c080bea732bfbb0a250fe07677e6146785a4aa24d2a223b8c",
+      "bytes": 51075,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Report_C001_Designated.md",
+      "sha256": "8f747b81e5e8ec401b6ed9e6494a40812ee3bca2d6e1f73ef67b40408686e505",
+      "bytes": 53120,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Corpus_Integrity_Report_Ready_For_Authorization.md",
+      "sha256": "9af229ebc776f9f7ca7504f51a6e98094eac6f8bbcbe63864a87eef838907919",
+      "bytes": 54041,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch1.json",
+      "sha256": "8b06f7eea2fa6e759a7a51d88bbca7689b904ac2c9a38b3568b7ab36cd35e6c3",
+      "bytes": 15214,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch2.json",
+      "sha256": "3f53b6197a9643a988d32dfb2b4ad4f3df556aba6a7fbd364ce13154006737c6",
+      "bytes": 50566,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch2.md",
+      "sha256": "d0ae52090393fd1882123e2625e25071942e860c06b810bbf1da12fb67c26484",
+      "bytes": 22002,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch3.json",
+      "sha256": "466f0ae17f75b92a5bab4c9c1cdd11a26df64b2d45358b8677d1a7adef85e482",
+      "bytes": 88865,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch3.md",
+      "sha256": "bd31e7711827eeb361e5c5c2f5decb6a60fcbeb975497dfccf6489b79864adc7",
+      "bytes": 40640,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch4.json",
+      "sha256": "c3ac1fca31b24c9257e6a6b7ccbc7a0a2d10f99263850e86377ef3dd6efaad25",
+      "bytes": 100350,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Cumulative_Source_Manifest_Batch4.md",
+      "sha256": "9954660eb25ee50ffab27e6fc817a24d0aa5d07fa7719bf11463600b6156291b",
+      "bytes": 45722,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Final_Core_Source_Checksums.sha256",
+      "sha256": "6367b542cf6444f8cad37f4348fea489834bc5e967c7f512bd524ba96768a260",
+      "bytes": 2899,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Final_Corpus_Integrity_Manifest.json",
+      "sha256": "c0c06126b93ec97ed6ef112fb9d5e76ed2b753b38fe8d5f09f8158b8b0d417ed",
+      "bytes": 248224,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Final_Corpus_Integrity_Report.md",
+      "sha256": "6321cdbf69e2f6c81df326e72dc1bcb5d89a64b1a225e4e0032bd10611aa3dc0",
+      "bytes": 60829,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_5_Case_Selection_Report.md",
+      "sha256": "f0ef6b5975d4de23c9e5b34bfe52ecd285e624f99d9af6a7bac4739d6360274e",
+      "bytes": 68612,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_5_Claim_Evidence_Ledger.json",
+      "sha256": "23d3742bb467f9ffd34ffde919c8c1beb781a6dc3d93a744767ca1a4ce861e90",
+      "bytes": 93902,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_5_Claim_Evidence_Ledger.md",
+      "sha256": "81866839d34f0341d1d5b267ae47f93b605f37e1bbb83f2eb86293adad867ede",
+      "bytes": 43520,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_Claim_Evidence_Ledger.json",
+      "sha256": "129e26f774443b0990e7ed559f9e1a0b3ccc889f6bb57b43520c2d44233c7c75",
+      "bytes": 190345,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_Claim_Evidence_Ledger.md",
+      "sha256": "487023f32883b5394bd8566e9e81f4650c782ac0bdc6a068dd460844cb187908",
+      "bytes": 96532,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Gate2_Research_Report.md",
+      "sha256": "c19d6157bd27d9633a37a8a769ad4904fc55a172a49974ea681082c5db25fa4a",
+      "bytes": 100775,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Modules_I_II_Reading_Map.md",
+      "sha256": "a0bd8ae97d7e00ce4e8bd6091985cdb9804c3aeef3491e28752ba6c72e826986",
+      "bytes": 18543,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    },
+    {
+      "filename": "ENVR_E119g_Modules_I_II_Reading_Register.json",
+      "sha256": "212b90e46cab7eef15c03e30fc4e55c13c6cb6575cd3a2a306fb33f59b0b387a",
+      "bytes": 40817,
+      "source_function": "historical AI-assisted research export; not original scholarly evidence",
+      "public_content_path": null,
+      "disposition": "separate_archive_pending_item_level_publication_review"
+    }
+  ]
+}
