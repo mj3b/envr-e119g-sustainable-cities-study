@@ -91,10 +91,10 @@ jobs:
               target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(data)
           audit=root/'audit/2026-10-09-public-integration-delivery.json'
           if audit.exists(): raise ValueError('Delivery record already exists')
-          audit.write_text(json.dumps({'schema_version':1,'recorded_at_utc':datetime.now(timezone.utc).isoformat(),'activity':'deterministic file delivery; not source revalidation or human approval','base_commit':payload['base_commit'],'trigger_commit':os.environ['GITHUB_SHA'],'compact_sha256':compact_digest,'history_sha256':history_digest,'compact_blob_shas':compact_shas,'history_blob_shas':history_shas,'materialized_files':[{k:e[k] for k in ('path','old_sha256','sha256')} for e in payload['files']],'historical_transfer_note':'The earlier 12-part transfer failed XZ decompression in workflow run 38006886267. It was not used. The two historical files were retransferred from the preserved local originals, with their existing per-file SHA-256 values verified. This repairs delivery only; it does not revise their contents or source statuses.','public_scope':'28 curated files, including two unchanged historical exports; other historical exports indexed, not represented as published','human_scholarly_approval':None,'live_jev_calls':0},indent=2,ensure_ascii=False)+'\n')
+          audit.write_text(json.dumps({'schema_version':1,'recorded_at_utc':datetime.now(timezone.utc).isoformat(),'activity':'deterministic file delivery; not source revalidation or human approval','base_commit':payload['base_commit'],'trigger_commit':os.environ['GITHUB_SHA'],'compact_sha256':compact_digest,'history_sha256':history_digest,'compact_blob_shas':compact_shas,'history_blob_shas':history_shas,'materialized_files':[{k:e[k] for k in ('path','old_sha256','sha256')} for e in payload['files']],'historical_transfer_note':'The earlier 12-part transfer failed XZ decompression in workflow run 38006886267. It was not used. The two historical files were retransferred from the preserved local originals, with their existing per-file SHA-256 values verified. This repairs delivery only; it does not revise their contents or source statuses.','delivery_permission_note':'Workflow run 38007908194 passed preparation and repository checks but could not push workflow changes with its GitHub Actions token. This run stages non-workflow Git blobs only. The authorized GitHub connector must create the final tree and move the feature-branch ref.','public_scope':'28 curated files, including two unchanged historical exports; other historical exports indexed, not represented as published','human_scholarly_approval':None,'live_jev_calls':0},indent=2,ensure_ascii=False)+'\n')
           print('Verified and materialized 28 curated files; preserved both historical exports byte-for-byte.')
           PY
-      - name: Remove temporary transfer workflows
+      - name: Remove temporary transfer workflows from the prepared tree
         run: |
           git rm --ignore-unmatch .github/workflows/inspect-staged-archive.yml .github/workflows/apply-public-curation.yml
           git add -A
@@ -104,15 +104,23 @@ jobs:
           python scripts/assure.py
           python scripts/assure.py --check
           git add governance/evaluation-results.json
-      - name: Commit and push only if the branch has not changed
+      - name: Store non-workflow blobs for connector publication
         env:
-          TARGET_BRANCH: research/assignment-02-evidence-integration-20261009
+          GH_TOKEN: ${{ github.token }}
         run: |
-          current=$(git ls-remote origin "refs/heads/$TARGET_BRANCH" | cut -f1)
-          test "$current" = "$GITHUB_SHA"
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Integrate public research integrity, Cerrillos review draft, and optional Jev protocol'
-          git push origin "HEAD:refs/heads/$TARGET_BRANCH"
-          echo "DELIVERY_COMMIT=$(git rev-parse HEAD)"
-          echo "DELIVERY_TREE=$(git rev-parse HEAD^{tree})"
+          python3 - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          def upload(name):
+              if name.startswith('.github/workflows/'): return {'path':name,'action':'connector_workflow_change'}
+              data=pathlib.Path(name).read_bytes()
+              expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              request=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Content-Type':'application/json','Accept':'application/vnd.github+json'},method='POST')
+              with urllib.request.urlopen(request,timeout=30) as response: obj=json.load(response)
+              if obj['sha']!=expected: raise ValueError('Uploaded blob hash mismatch: '+name)
+              return {'path':name,'mode':'100644','type':'blob','sha':obj['sha']}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
+          print('CONNECTOR_BASE_COMMIT',os.environ['GITHUB_SHA'])
+          print('CONNECTOR_TREE_ENTRIES',json.dumps(entries,separators=(',',':')))
+          print('No branch ref, workflow file, pull request, human review, or scholarly conclusion was changed by this upload step.')
+          PY
