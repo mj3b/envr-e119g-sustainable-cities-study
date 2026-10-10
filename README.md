@@ -1,46 +1,52 @@
-# Sustainable Cities: evidence and research record
+# Water, digital infrastructure and public accountability
 
-ENVR E-119g · Mark Julius Banasihan · Working research notebook
+Mark Julius Banasihan · ENVR E-119g: Sustainable Cities · Research in progress
 
-This repository records course study, source access, analytical revisions, and Assignment 2 preparation. It became public by the owner's explicit choice on October 9, 2026. Public availability, automated checks, and course permission to use AI do not constitute faculty endorsement or scholarly approval.
+A data center can propose a cooling system that uses less groundwater. Establishing what that proposal changes in law, and what it changes in the environment, takes different evidence.
 
-## Start with the current inquiry
+This project investigates that problem through the **Cerrillos Data Center proceedings in Chile, 2020–2024**. It asks how a proposed cooling redesign was treated during review of the project's environmental authorization. The aim is to make a consequential public decision understandable: what was proposed, what authorities could rely on, and which claims the available record can support.
 
-[Current Cerrillos question](research/CURRENT.md) · [Assignment 2 review draft](assignments/assignment-02/review-draft-v01.md) · [Draft verification notes](assignments/assignment-02/review-notes-v01.md)
+[Read the case](research/cerrillos/README.md) · [Read the review draft](assignments/assignment-02/review-draft-v01.md) · [Inspect AI use](AI-USE-LOG.md) · [Browse research history](archive/README.md)
 
-The source-closure decision remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. The current inquiry concerns the legal treatment of environmental screening and authorization in the Cerrillos Data Center proceedings. It does not establish AI-specific demand, implemented savings, or environmental recovery.
+## Why this matters
 
-## Inspect how the work was produced
+An environmental improvement claim can influence how people judge an infrastructure project. Residents need to understand the commitments on which a decision rests. Public officials and project teams need to distinguish an engineering proposal from an enforceable obligation. Anyone assessing a sustainability claim needs to know whether a number describes an expectation or an observation.
 
-[Research-integrity protocol](methods/RESEARCH-INTEGRITY.md) explains the source-to-claim chain, counterevidence, version limits, human review, and correction procedure. [AI-use disclosure](methods/AI-DISCLOSURE.md) distinguishes actual assistance, historical reports, planned tools, and work still requiring human verification. [Activity records](methods/ai-activity.json) are machine-readable. The [AI systems register](methods/AI-SYSTEMS.md) distinguishes direct assistance, supplied outputs, prepared tools, and deterministic execution.
+The study concentrates on **regulatory accountability through environmental review**. Its practical value lies in reconstructing that connection between evidence and authority, rather than assigning a sustainability label to a project. A favorable design claim is the beginning of an inquiry into consequences.
 
-The [Translator adaptation](methods/TRANSLATOR-BRIDGE.md) structures reviewable tasks. The [optional Jev experiment](experiments/jev/README.md) prepares a claim-support test; no live Jev evaluation has been performed for this study. Neither is a theory of urban development or an authority to close evidence gaps.
+For employers and collaborators, the work is an inspectable example of problem definition, source criticism, decision analysis and research communication. The [reader's guide](docs/START-HERE.md) connects those practices to specific artifacts. The [contribution records](methods/AI-SYSTEMS.md) separate AI-authored work from human decisions and review still to be completed.
 
-## Writing and documentation
+## The case in plain language
 
-[Mark’s writing rules and voice registers](standards/WRITING.md) define sentence, argument, evidence, and audience practices. [Editorial provenance](standards/WRITING-PROVENANCE.md) records the supplied reconstruction and its gaps. The [Markdown audit](audit/2026-10-10-markdown-consistency.md) separates current corrections from historical records retained unchanged.
+In its 2024 judgment, Chile's Second Environmental Tribunal described a proposed switch from water-based cooling to air-cooled equipment. It nevertheless continued reviewing the original groundwater assessment. The court's reasoning treats a screening response and a change to an environmental qualification as legally different acts. [Original judgment, considerations 93–94, PDF pp. 64–65](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64).
 
-[Writing and AI-records release scope](docs/releases/v0.3.0-review.2.md) documents this increment. Research status remains a working review record.
+The question is why the proposed technical change did not settle the legal issue under review. The study follows the court's reasoning while keeping its account of other filings separate from direct inspection of those filings.
 
-## Evidence and preservation
+Cerrillos is a **computing-infrastructure case**. The current evidence supplies no basis for attributing the redesign or dispute to AI workloads. The [exact question, contribution and non-claims](research/CURRENT.md) govern the study.
 
-[Historical source-closure report](research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md) · [Unchanged historical ledger](research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json) · [Current inspection record](research/cerrillos/draft-source-checks.json) · [Artifact preservation index](research/preservation-index.json)
+## What you can inspect now
 
-The two historical source-closure files retain their exact bytes. Their original confidence labels remain historical assessments. The current inspection record identifies precisely which original passages were revisited for the draft. The remaining earlier exports are inventoried and retained in the owner's separate archive pending item-level public-sharing review. Fingerprinting a file does not publish its contents or make it an original source.
+| Start with your question | Open the work |
+| :--- | :--- |
+| What is being investigated, and why should I care? | [Reader's guide](docs/START-HERE.md) and [case guide](research/cerrillos/README.md) |
+| What does the developing argument look like? | [Assignment 2 review draft](assignments/assignment-02/review-draft-v01.md) and [verification notes](assignments/assignment-02/review-notes-v01.md) |
+| How are evidence and uncertainty handled? | [Methods](methods/README.md), [inspection records](research/cerrillos/draft-source-checks.json) and [measurement rules](methods/MEASUREMENT.md) |
+| How was the work produced and changed? | [AI-use log](AI-USE-LOG.md), [writing standard](standards/WRITING.md), [history](archive/README.md) and [release record](docs/releases/README.md) |
 
-## Course record and boundaries
+## Measurement without overstating progress
 
-[Course map](COURSE-MAP.md) · [Course-session correction](research/course-session-crosswalk.json) · [Existing methodology](METHODOLOGY.md) · [AI-use log and history](AI-USE-LOG.md) · [Public-sharing policy](governance/PUBLICATION.md)
+The [reproducible record snapshot](research/progress.json) distinguishes historical ledger labels from the draft's separate inspection record. It counts documents and claims within named files; it cannot score the truth of the research.
 
-Older documents preserve earlier case choices, private-storage rules, and preparation-only restrictions. The dated current decision supersedes those instructions prospectively; historical findings are not silently rewritten. The original course assignment prompt must be checked before submission. Raw readings, recordings, transcripts, private correspondence, and credentials stay outside Git.
+The quantitative method starts with a more demanding question: **what exactly would a number establish?** A projected reduction requires comparable baseline and revised designs, consistent units, and supported operating assumptions. Measured savings require operating observations. The technical inputs needed for that comparison remain uninspected in the current record.
 
-## Checks
+METR's work on [developer productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) and [task-completion horizons](https://metr.org/time-horizons/) informs the separation of a defined test from broader claims about usefulness. The [local measurement protocol](methods/MEASUREMENT.md) applies that discipline here. It is neither a METR benchmark nor evidence that AI has improved this study's productivity.
 
-```sh
-python -m pip install -r requirements-dev.txt
-python scripts/publication_check.py
-python scripts/assure.py
-python scripts/assure.py --check
-```
+## Where the study stands
 
-These checks test structure, content consistency, path/history restrictions, and local links. They cannot certify the truth of a claim, the adequacy of a legal interpretation, public-sharing rights, or substantive human review. G1–G3 and claim approvals remain human-controlled.
+**A narrowed court-and-instrument inquiry is ready for draft review.** The full engineering comparison remains blocked by missing inspection of original records. The draft awaits human review of its sources, legal-language interpretation, voice and assignment requirements. The maintained decision is **B. GO — NARROWED COURT/INSTRUMENT QUESTION**.
+
+This work establishes no implemented water savings, aquifer recovery, net environmental benefit or representative community agreement. [Current limits](research/CURRENT.md).
+
+Developed for ENVR E-119g, this repository publishes authored research records, methods and code. AI assistance is disclosed; course permission does not imply faculty endorsement or permission to republish course materials. Raw readings, transcripts and private correspondence remain outside the public repository. [Sharing policy](governance/PUBLICATION.md).
+
+[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Visitor-edition release](docs/releases/v0.3.0-review.3.md)

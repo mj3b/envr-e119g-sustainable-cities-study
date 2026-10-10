@@ -1,3 +1,22 @@
+# Current work status
+
+[Home](README.md) / Status · [Current case](research/cerrillos/README.md) · [Releases](docs/releases/README.md)
+
+The current public edition foregrounds the Cerrillos research question, why it matters, and the existing Assignment 2 review draft. The [exact question and non-claims](research/CURRENT.md) remain authoritative.
+
+| Work | State |
+| :--- | :--- |
+| Assignment 2 review draft v0.1 | Available; unchanged by the visitor edition; human and assignment review pending |
+| Full engineering comparison | Blocked by the five uninspected original-record dependencies in the draft register |
+| Measurement | Deterministic record counts available; water savings and AI-productivity effects unmeasured |
+| Public navigation | Current inquiry and methods first; older records archived in place |
+| Repository delivery | Inspect the actual PR, post-merge checks and GitHub release; a prepared scope alone does not establish publication |
+
+[Visitor-edition scope](docs/releases/v0.3.0-review.3.md) · [AI-use log](AI-USE-LOG.md) · [Maintenance audit](audit/2026-10-10-public-readme-audit.md)
+
+<details>
+<summary>Historical build narrative, retained from the previous checkpoint</summary>
+
 October 10 writing and AI-records update: [release scope](docs/releases/v0.3.0-review.2.md), [Markdown audit](audit/2026-10-10-markdown-consistency.md), [writing rules](standards/WRITING.md), and [AI-use log](AI-USE-LOG.md). The preceding curated checkpoint is `v0.3.0-review.1`, merged through PR #12. Remote PR, CI and release records establish completion of each increment; a documentation plan is not a release receipt.
 
 The current research boundary remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. Assignment 2 review draft v0.1 is unchanged by this update. Its original-source dependencies, prompt check and human review remain open. Jev remains optional with zero live calls recorded. The following September build records retain their historical scope.
@@ -65,3 +84,5 @@ The [current revision notes](assignments/assignment-01/REVISION-NOTES.md) record
 | Private archive requires separate backup | Git is not a backup of ignored originals |
 
 The [research agenda](study/RESEARCH-AGENDA.md) assigns the next consequential retrieval. No faculty access, endorsement, message or course submission is implied by repository completion.
+
+</details>

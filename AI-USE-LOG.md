@@ -2,6 +2,16 @@
 
 [Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
+## Visitor-facing research edition
+
+The owner requested a clearer account of why the research matters to non-researchers, employers and collaborators, with current work foregrounded and older material organized. `ACT13`–`ACT15` in the [activity record](methods/ai-activity.json) document this increment.
+
+AI authored the public narrative, selected reading routes and measurement specifications. Python counted named record populations and screened all baseline Markdown files for documentation patterns. The assistant separately inspected selected pages of the original court judgment and the methods text of two official METR publications for the public explanation. The [source-check record](audit/2026-10-10-visitor-source-checks.json) defines that limited inspection; it does not amend the draft's existing source register or resolve its missing originals.
+
+The [history index](archive/README.md) archives earlier work in place. No historical research file is deleted or moved. Existing Assignment 2 prose, current case decision, canonical claims, human-review records, prior activity objects and the earlier AI-use narrative are preserved. The [audit](audit/2026-10-10-public-readme-audit.md) records the scope of the review and actual check limitations.
+
+Record counts describe the contents of identified files. Proposed demand and effort equations are method specifications; no water-savings, environmental-effect, AI-productivity or evaluator-accuracy result is produced. Jev was not called live and the upstream Translator was not executed. Human interpretation, voice acceptance and course submission remain separate.
+
 ## Current coverage and authority
 
 This log records AI assistance and related verification activity. It does not certify human source review or course submission. The public repository and Assignment 2 review draft are owner-authorized. Mark’s report of course permission to use AI remains an attributed report; neither that permission nor a repository release constitutes faculty endorsement or permission to republish raw course material.
