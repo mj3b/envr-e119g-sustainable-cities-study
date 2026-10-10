@@ -1,0 +1,136 @@
+name: Prepare public research edition
+on:
+  push:
+    branches: [docs/public-research-story-20261010]
+    paths: [.github/workflows/prepare-visitor-edition.yml]
+permissions:
+  contents: write
+concurrency:
+  group: envr-public-research-edition
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require authorized repository and branch
+        env:
+          PRIVATE: ${{ github.event.repository.private }}
+        run: |
+          test "$GITHUB_REPOSITORY" = mj3b/envr-e119g-sustainable-cities-study
+          test "$GITHUB_REF" = refs/heads/docs/public-research-story-20261010
+          test "$PRIVATE" = false
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Verify payload, input files and protected research
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          base='981440ccd0cc204e591ebf6dc1d5e4480e3f96db'
+          shas=['d4b69b8f4c2e97a399e893b48d55cfcadfa21122','e1304b5f37fa886428ab573559fb250d4b099578','fcfc7286f02ab353eda206f3cbe1a9a2ea75b960','3ef22ca21baa71cdf24957332dfa0908df36ac5e','fdcb2088103f292395f24333831ebf5f10aa2bc5']
+          parts=[]
+          for sha in shas:
+              req=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req,timeout=30) as response: obj=json.loads(response.read(100000))
+              if obj.get('encoding')!='base64': raise ValueError('Unexpected encoding')
+              data=base64.b64decode(''.join(obj['content'].split()),validate=True)
+              if hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()!=sha: raise ValueError('Blob mismatch')
+              parts.append(data)
+          packed=b''.join(parts)
+          if hashlib.sha256(packed).hexdigest()!='bdbe13a73bbbedd9f00926302697b0573784f82eef415989ffbf403f48273bec': raise ValueError('Packed payload mismatch')
+          decoder=lzma.LZMADecompressor(memlimit=100000000)
+          raw=decoder.decompress(packed,max_length=2000000)
+          if not decoder.eof or decoder.unused_data: raise ValueError('Invalid compressed stream')
+          if hashlib.sha256(raw).hexdigest()!='3eecf83b3025a35d3a32e70b927674de86205946c3764f71fe3531ccb7e4e547': raise ValueError('Raw payload mismatch')
+          payload=json.loads(raw)
+          if payload['schema']!=1 or payload['repository']!=repo or payload['base_commit']!=base or len(payload['files'])!=22: raise ValueError('Unexpected payload')
+          subprocess.run(['git','merge-base','--is-ancestor',base,'HEAD'],check=True)
+          root=pathlib.Path.cwd()
+          def safe(name):
+              p=pathlib.PurePosixPath(name)
+              if p.is_absolute() or any(x in ('..','.git','private') for x in p.parts) or '\\' in name or p.suffix not in ('.md','.json','.py'): raise ValueError('Unsafe path')
+              target=root.joinpath(*p.parts)
+              if target.is_symlink() or any(p.is_symlink() for p in target.parents): raise ValueError('Symlink')
+              return target
+          def protect():
+              for name,digest in payload['protected_sha256'].items():
+                  if hashlib.sha256(safe(name).read_bytes()).hexdigest()!=digest: raise ValueError('Protected research differs: '+name)
+          protect()
+          seen=set(); pending=[]
+          original_activities=json.loads((root/'methods/ai-activity.json').read_text())['activities']
+          original_log=(root/'AI-USE-LOG.md').read_bytes()
+          for entry in payload['files']:
+              name=entry['path']
+              if name in seen: raise ValueError('Duplicate path')
+              seen.add(name); target=safe(name)
+              prior=target.read_bytes() if target.is_file() else None
+              old=hashlib.sha256(prior).hexdigest() if prior is not None else None
+              if old!=entry['old_sha256']: raise ValueError('Base conflict: '+name)
+              op=entry['operation']
+              if op=='content': data=entry['content'].encode('utf-8')
+              elif op=='append': data=prior+entry['text'].encode('utf-8')
+              elif op=='wrap': data=entry['prefix'].encode('utf-8')+prior+entry['suffix'].encode('utf-8')
+              elif op=='insert_before':
+                  marker=entry['marker'].encode('utf-8')
+                  if prior.count(marker)!=1: raise ValueError('Ambiguous insertion')
+                  data=prior.replace(marker,entry['text'].encode('utf-8')+marker,1)
+              elif op=='append_activities':
+                  obj=json.loads(prior)
+                  ids={a['id'] for a in obj['activities']}
+                  if any(a['id'] in ids for a in entry['activities']): raise ValueError('Activity ID collision')
+                  obj['activities'].extend(entry['activities'])
+                  data=(json.dumps(obj,indent=2,ensure_ascii=False)+'\n').encode('utf-8')
+              else: raise ValueError('Unexpected operation')
+              data.decode('utf-8')
+              if hashlib.sha256(data).hexdigest()!=entry['sha256']: raise ValueError('Output hash mismatch: '+name)
+              pending.append((target,data))
+          for target,data in pending:
+              target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(data)
+          protect()
+          current=json.loads((root/'methods/ai-activity.json').read_text())['activities']
+          if current[:len(original_activities)]!=original_activities: raise ValueError('Historical activities altered')
+          insertion=next(e['text'].encode() for e in payload['files'] if e['path']=='AI-USE-LOG.md')
+          if (root/'AI-USE-LOG.md').read_bytes().replace(insertion,b'',1)!=original_log: raise ValueError('Historical log altered')
+          print('Verified 22 delivered files and 9 protected research files. No historical activity object or prior AI-use narrative changed.')
+          print('PAYLOAD_SHA256',hashlib.sha256(packed).hexdigest())
+          PY
+      - name: Exclude temporary delivery workflow from prepared tree
+        run: |
+          git rm .github/workflows/prepare-visitor-edition.yml
+          git add -A
+      - name: Run actual full-history checks and regenerate receipt
+        run: |
+          python scripts/research_progress.py --check
+          python scripts/publication_check.py
+          python scripts/assure.py
+          python scripts/assure.py --check
+          git add governance/evaluation-results.json
+      - name: Store checked non-workflow blobs for connector publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          def upload(name):
+              if name=='.github/workflows/prepare-visitor-edition.yml': return {'path':name,'mode':'100644','type':'blob','sha':None}
+              if name.startswith('.github/'): raise ValueError('Unexpected workflow edit')
+              data=pathlib.Path(name).read_bytes()
+              expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              request=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Content-Type':'application/json','Accept':'application/vnd.github+json'},method='POST')
+              with urllib.request.urlopen(request,timeout=30) as response: obj=json.load(response)
+              if obj['sha']!=expected: raise ValueError('Uploaded hash mismatch')
+              return {'path':name,'mode':'100644','type':'blob','sha':obj['sha']}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
+          print('CONNECTOR_BASE_COMMIT',os.environ['GITHUB_SHA'])
+          print('CONNECTOR_TREE_ENTRIES',json.dumps(entries,separators=(',',':')))
+          print('Only stored blobs; branch reference, PR, release and human review unchanged by this step.')
+          PY
