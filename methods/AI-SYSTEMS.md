@@ -30,3 +30,9 @@ No fieldwork, interviews, community consultation, environmental measurements, co
 The visitor-facing README and guide were AI-authored in ChatGPT. Web retrieval supplied the bounded original-judgment and METR-method checks recorded in the visitor audit; web retrieval is an access channel, not an independent reviewer. Python generated record counts and documentation checks. These additions are documented in `ACT13`–`ACT15` in the [activity record](ai-activity.json).
 
 No additional model provider was invoked, no live Jev evaluation occurred, and the upstream Translator was not executed in this increment. The [measurement protocol](MEASUREMENT.md) specifies future comparisons without reporting them as performed experiments.
+
+## Regular public-checkpoint publication
+
+For `v0.3.0`, ChatGPT authored release and onboarding prose and repository-operation instructions. Python, Git, the GitHub connector and GitHub Actions supplied the documented deterministic checks and delivery operations. Web retrieval was limited to official GitHub release documentation. This is a continuation of the existing tool roles; no additional model provider was invoked.
+
+`ACT16` and `ACT17` in the [activity record](ai-activity.json) preserve the baseline and execution boundaries. No auditable backend deployment ID, token total or cost was returned for these tasks. Human scholarly acceptance remains separately recorded. Jev and the upstream Translator were unused in this publication step.

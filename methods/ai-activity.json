@@ -459,6 +459,92 @@
           "detail": "65 unit tests, structural/schema, publication/path checks and 841 inline relative Markdown path targets passed. Original remote Git history was not available locally. Some Python starts emitted an unrelated spreadsheet-runtime warmup warning; no spreadsheet task was performed."
         }
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "date_basis": "UTC",
+      "record_created_at": "2026-10-10T03:32:29.686974Z",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub connector, official web documentation and local Python/Git execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "No auditable backend deployment identifier returned for this task",
+      "exact_prompt_sha256": null,
+      "prompt_availability": "Owner public-checkpoint approval and GitHub-maintenance authorization in this conversation; private cohort details omitted from publication",
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "baseline_commit": "0e12b7c6570d27174e25fb9727d85b271d1d32db",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "not_performed": [
+        "case-source revalidation",
+        "Assignment 2 prose revision",
+        "live Jev evaluation",
+        "upstream Translator runtime execution",
+        "environmental measurement",
+        "course submission",
+        "human scholarly approval"
+      ],
+      "id": "ACT16",
+      "task": "Public checkpoint, reader onboarding and versioned sharing",
+      "inputs_description": "Pinned review.3 repository and owner request for a regular release accessible to new researchers and professional readers",
+      "output_description": "v0.3.0 release notes, entry-page links, first-visit route, sharing/citation guidance and explicit publication-versus-review policy",
+      "limitation": "AI-authored editorial work; no new empirical claim, independent audience testing or human acceptance of the research argument"
+    },
+    {
+      "date": "2026-10-10",
+      "date_basis": "UTC",
+      "record_created_at": "2026-10-10T03:32:29.686974Z",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub connector, official web documentation and local Python/Git execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "No auditable backend deployment identifier returned for this task",
+      "exact_prompt_sha256": null,
+      "prompt_availability": "Owner public-checkpoint approval and GitHub-maintenance authorization in this conversation; private cohort details omitted from publication",
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "baseline_commit": "0e12b7c6570d27174e25fb9727d85b271d1d32db",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "not_performed": [
+        "case-source revalidation",
+        "Assignment 2 prose revision",
+        "live Jev evaluation",
+        "upstream Translator runtime execution",
+        "environmental measurement",
+        "course submission",
+        "human scholarly approval"
+      ],
+      "id": "ACT17",
+      "task": "Documentation screening, preservation checks and authorized release operations",
+      "inputs_description": "All 134 baseline Markdown files, existing AI history, nine protected research records, live repository and release metadata",
+      "output_description": "Publication audit, regenerated automated receipt and authorized PR/release operations; actual remote records establish completion",
+      "limitation": "Local history is a reconstructed file snapshot; remote CI checks reachable history. Publication is separate from scholarly acceptance.",
+      "execution_events": [
+        {
+          "action": "direct public git clone",
+          "result": "failed",
+          "detail": "Local runtime could not resolve github.com; no clone completed."
+        },
+        {
+          "action": "verify mounted review.3 snapshot",
+          "result": "passed",
+          "detail": "Archive SHA-256 e74a2cab09e36e4fa93a3910ab78692e67a33ab54f4b560ef2d7ebf703e54953 matched GitHub artifact 11657390235. Reconstructed root tree 183554b9fcec24bc9f4c0103480bdfa24c942546 matched live base commit."
+        },
+        {
+          "action": "baseline Markdown screen",
+          "result": "passed",
+          "detail": "All 134 Markdown files decoded and screened; 53 triggered maintenance patterns. Flags are candidates, not confirmed errors."
+        }
+      ],
+      "operation_status_rule": "PR, CI, release and cleanup completion are established by GitHub records; no future success is asserted in this activity entry"
     }
   ],
   "performed_without_model_judgment": [

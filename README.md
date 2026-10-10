@@ -6,7 +6,9 @@ A data center can propose a cooling system that uses less groundwater. Establish
 
 This project investigates that problem through the **Cerrillos Data Center proceedings in Chile, 2020–2024**. It asks how a proposed cooling redesign was treated during review of the project's environmental authorization. The aim is to make a consequential public decision understandable: what was proposed, what authorities could rely on, and which claims the available record can support.
 
-[Read the case](research/cerrillos/README.md) · [Read the review draft](assignments/assignment-02/review-draft-v01.md) · [Inspect AI use](AI-USE-LOG.md) · [Browse research history](archive/README.md)
+[Start here](docs/START-HERE.md) · [Read the case](research/cerrillos/README.md) · [Read the review draft](assignments/assignment-02/review-draft-v01.md) · [Inspect AI use](AI-USE-LOG.md)
+
+For a fixed version to share or cite, use the [v0.3.0 public research checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0). The research remains in progress; a release preserves the work and its stated limits.
 
 ## Why this matters
 
@@ -49,4 +51,4 @@ This work establishes no implemented water savings, aquifer recovery, net enviro
 
 Developed for ENVR E-119g, this repository publishes authored research records, methods and code. AI assistance is disclosed; course permission does not imply faculty endorsement or permission to republish course materials. Raw readings, transcripts and private correspondence remain outside the public repository. [Sharing policy](governance/PUBLICATION.md).
 
-[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Visitor-edition release](docs/releases/v0.3.0-review.3.md)
+[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Public checkpoint](docs/releases/v0.3.0.md)

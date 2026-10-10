@@ -2,6 +2,12 @@
 
 [Home](../README.md) / Reader's guide · [Case guide](../research/cerrillos/README.md)
 
+## A first visit
+
+You can follow this study without running code or learning Git. Read the [main overview](../README.md) for the public problem, then the [case guide](../research/cerrillos/README.md) for the question and available evidence. The [review draft](../assignments/assignment-02/review-draft-v01.md) shows the developing argument; its status note identifies what still needs review.
+
+New researchers can follow one claim from the draft to the [source-check record](../research/cerrillos/draft-source-checks.json), then compare the stated support with the cited original passage. Colleagues and employers can use the practice-to-artifact table below to examine how the work was structured. The [AI-use record](../AI-USE-LOG.md) explains how those artifacts were produced.
+
 ## The problem behind the paperwork
 
 Consider a project whose developers propose a design that would use less water. A resident may reasonably ask what the change means for local water resources. A public official may need to know which requirements can be enforced. A project manager may need to know which design is allowed to proceed.
@@ -39,3 +45,9 @@ Obtaining the missing originals could permit a fuller comparison. It could also 
 AI has helped organize material, propose and critique analysis, draft prose, and write repository tooling. Scripts check defined properties such as file hashes, record structure and local links. Human source interpretation and final approval are separate activities. The [system register](../methods/AI-SYSTEMS.md) describes actual assistance and tools prepared but unused.
 
 The next step is review of the existing Assignment 2 draft against the cited passages and current assignment brief. The purpose of this public record is to make that review possible.
+
+## Share the version you read
+
+Use the [v0.3.0 public checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0) when passing the study to a colleague, cohort member or employer. Its links open a fixed version. The repository's main page continues to evolve, and earlier checkpoints remain in the [release history](releases/README.md).
+
+Describe it as an ongoing, AI-assisted research study of water, computing infrastructure and environmental review. Sharing the work invites scrutiny; it conveys no endorsement by a reader, employer, fellowship, instructor or institution. The [citation policy](../CITATION-POLICY.md) explains how to identify the version and its supporting sources.
