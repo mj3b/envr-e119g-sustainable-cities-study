@@ -1,8 +1,8 @@
 # Current work status
 
-[Home](README.md) / Status · [Current case](research/cerrillos/README.md) · [Releases](docs/releases/README.md)
+[Home](README.md) / Status · [Current case](research/cerrillos/README.md) · [Public checkpoint](docs/releases/v0.3.0.md) · [Release history](docs/releases/README.md)
 
-The current public edition foregrounds the Cerrillos research question, why it matters, and the existing Assignment 2 review draft. The [exact question and non-claims](research/CURRENT.md) remain authoritative.
+The `v0.3.0` public checkpoint brings together the Cerrillos research question, why it matters, and the existing Assignment 2 review draft. A regular repository release preserves an edition for sharing; the research retains the review states below. The [exact question and non-claims](research/CURRENT.md) remain authoritative.
 
 | Work | State |
 | :--- | :--- |
@@ -12,7 +12,7 @@ The current public edition foregrounds the Cerrillos research question, why it m
 | Public navigation | Current inquiry and methods first; older records archived in place |
 | Repository delivery | Inspect the actual PR, post-merge checks and GitHub release; a prepared scope alone does not establish publication |
 
-[Visitor-edition scope](docs/releases/v0.3.0-review.3.md) · [AI-use log](AI-USE-LOG.md) · [Maintenance audit](audit/2026-10-10-public-readme-audit.md)
+[Public checkpoint scope](docs/releases/v0.3.0.md) · [AI-use log](AI-USE-LOG.md) · [Maintenance audit](audit/2026-10-10-public-readme-audit.md)
 
 <details>
 <summary>Historical build narrative, retained from the previous checkpoint</summary>

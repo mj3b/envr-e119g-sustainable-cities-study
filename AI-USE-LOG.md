@@ -2,6 +2,16 @@
 
 [Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
+## Regular public checkpoint, v0.3.0
+
+The owner authorized a regular public release after the visitor edition and requested an accessible route for new researchers and professional readers. `ACT16` and `ACT17` in the [activity record](methods/ai-activity.json) record this publication step.
+
+ChatGPT reviewed the existing entry pages and release metadata, authored release notes and limited onboarding, sharing and citation guidance, and designed the delivery checks. Python screened the baseline Markdown files and compared file hashes. Connected GitHub tools and GitHub Actions perform the recorded repository operations. The official GitHub release documentation was consulted for publication semantics; no case-source revalidation or new literature review occurred.
+
+The prior AI-use narrative and all earlier activity objects are preserved. The existing Assignment 2 draft, source-closure report and ledger, canonical evidence records and human-review receipts remain unchanged. A regular release concerns distribution of a defined repository edition. It does not convert pending scholarly review into approval.
+
+The [publication audit](audit/2026-10-10-v030-publication.md), automated receipt, PR checks and release record distinguish prepared work from completed delivery. No live Jev call, upstream Translator execution, fieldwork, environmental outcome measurement or course submission occurred in this update. No human scholarly review was signed by AI or automation.
+
 ## Visitor-facing research edition
 
 The owner requested a clearer account of why the research matters to non-researchers, employers and collaborators, with current work foregrounded and older material organized. `ACT13`–`ACT15` in the [activity record](methods/ai-activity.json) document this increment.

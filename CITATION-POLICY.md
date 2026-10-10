@@ -48,3 +48,9 @@ Several websites repeating one release remain one underlying evidence chain. Sea
 Use APA or Chicago consistently, following `TA-03` and any current course directions. Generate each entry from the inspected source record, then check author, title, year, edition and locator manually. Include AI assistance actually used, following syllabus PDF p. 7. The [Assignment 1 evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) contains the focused source route; it is not a completed bibliography approved for submission.
 
 Original PDFs, transcripts, screenshots, conversations and extraction caches stay in ignored `private/`. The repository is public by the owner’s October 9 authorization; follow the [publication policy](governance/PUBLICATION.md). Course-content redistribution and faculty access require attention to actual permissions; a citation does not grant a reproduction license.
+
+## Cite a public checkpoint
+
+When discussing this repository's method or research record, identify the author, repository title and version you inspected. A suitable attribution is: Mark Julius Banasihan, *Water, digital infrastructure and public accountability*, v0.3.0, ongoing AI-assisted research record developed for ENVR E-119g: Sustainable Cities. Include the [fixed release](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0) and the relevant file or section. Use the publication date shown on that release when your citation style requires it.
+
+A citation to this checkpoint identifies the research record. For a factual or legal claim, cite the inspected original source and its locator as well. Preserve the draft's review status and the [AI contribution record](AI-USE-LOG.md); neither public availability nor versioning supplies scholarly endorsement.
