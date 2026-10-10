@@ -47,4 +47,4 @@ Several websites repeating one release remain one underlying evidence chain. Sea
 
 Use APA or Chicago consistently, following `TA-03` and any current course directions. Generate each entry from the inspected source record, then check author, title, year, edition and locator manually. Include AI assistance actually used, following syllabus PDF p. 7. The [Assignment 1 evidence packet](assignments/assignment-01/EVIDENCE-PACKET.md) contains the focused source route; it is not a completed bibliography approved for submission.
 
-Original PDFs, transcripts, screenshots, conversations and extraction caches stay in ignored `private/`. The repository remains private. Course-content redistribution and faculty access require attention to actual permissions; a citation does not grant a reproduction license.
+Original PDFs, transcripts, screenshots, conversations and extraction caches stay in ignored `private/`. The repository is public by the owner’s October 9 authorization; follow the [publication policy](governance/PUBLICATION.md). Course-content redistribution and faculty access require attention to actual permissions; a citation does not grant a reproduction license.

@@ -1,5 +1,7 @@
 # Research value and the claim to originality
 
+Historical September positioning note. Its provisional assessments do not supersede the accepted finding that Urban Correction Capacity is insufficiently differentiated as a broad theory. The current contribution is the [bounded Cerrillos documentary inquiry](../research/CURRENT.md). No novelty conclusion is renewed by this documentation update.
+
 [Home](../README.md) / [Study](README.md) / Research positioning · [Assignment 1](../assignments/assignment-01/EVIDENCE-PACKET.md)
 
 > **Assessment:** worthwhile and potentially distinctive; novelty is unproven. “Groundbreaking” is not an evidence-supported description of the current project.

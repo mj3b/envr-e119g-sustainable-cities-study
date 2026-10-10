@@ -4,7 +4,7 @@
 
 **Design aim:** let a reader locate the question, inspect the evidence, and recognize the limits with little navigation or visual effort.
 
-The [E5 writing standard](WRITING.md) governs the argument. This page governs how the repository presents it.
+The [Mark’s writing rules and voice register system](WRITING.md) governs the argument. This page governs how the repository presents it.
 
 ## Page anatomy
 

@@ -1,5 +1,7 @@
 # Assignment 2 repository integration
 
+Historical intake record: the text below describes the pre-draft, transfer-pending stage. PR #12 subsequently merged the curated update, and the owner separately authorized Assignment 2 review drafting. See [current scope](../research/CURRENT.md) and the [AI-use log](../AI-USE-LOG.md).
+
 [Home](../README.md) / Audit / October 9 integration
 
 Status: maintenance in progress. Mark authorized commits, pull requests, merges, branch cleanup, and release documentation in the current conversation. This authorization does not approve scholarly claims or permit Assignment 2 drafting.

@@ -1,5 +1,7 @@
 # Assignment 1 · Research memorandum
 
+Historical Assignment 1 draft and review directory. The user-designated submitted artifact is registered separately in the existing project record; files here are not silently relabelled as that final submission. Current work concerns [Assignment 2](../assignment-02/README.md).
+
 [Home](../../README.md) / [Assignments](../README.md) / Assignment 1
 
 | Scope | Verified format | Status |

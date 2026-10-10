@@ -1,5 +1,7 @@
 # Editorial changes and integration boundaries
 
+Historical September 22 integration record. The Dalles reference and the phrase “new draft” concern that package. Current Assignment 2 work is the [Cerrillos review draft](review-draft-v01.md), with its separate [verification notes](review-notes-v01.md).
+
 [Assignment 2](README.md) / Editorial record
 
 The reflection now shows why a source affects a research choice. Generic claims that thinking improved were removed. Technical terms keep consistent meanings; connective language has been simplified. Headings identify the argument's sequence without turning every sentence into a list.

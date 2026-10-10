@@ -1,12 +1,45 @@
-Current session: [detailed disclosure](methods/AI-DISCLOSURE.md) and [machine-readable activity](methods/ai-activity.json). Entries below retain their historical scope; no missing prompt, model version, or human review has been reconstructed.
+# Record of AI systems and assistance
 
----
+[Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
-# Record of AI assistance
+## Current coverage and authority
 
-[Home](README.md) / AI use · [Governance](governance/README.md) · [Evaluation](governance/EVALUATION.md)
+This log records AI assistance and related verification activity. It does not certify human source review or course submission. The public repository and Assignment 2 review draft are owner-authorized. Mark’s report of course permission to use AI remains an attributed report; neither that permission nor a repository release constitutes faculty endorsement or permission to republish raw course material.
 
-**Status:** AI-assisted research preparation and authorized memorandum drafting. All human fidelity reviews remain pending. This log records actual assistance; it is not a human approval or a submission acknowledgment already made by Mark.
+The current record combines the contemporaneous October activity entries with retained September history. Exact prompts, resolved backend model identifiers, costs, and unrecorded human actions are not reconstructed. The September entries from **Session record** onward are preserved verbatim from the preceding repository version. Their present-tense status statements apply to those stages, not to current case selection or authorization.
+
+## October research curation and recovery
+
+PR #12 merged at `62ac291605b791511c4178493da3bd767bf481c0`; `v0.3.0-review.1` records that working checkpoint. The linked activity record, `ACT01`–`ACT08`, describes public-mode reconciliation, preservation, selected source checks, the Cerrillos review draft, research-integrity procedure, Translator adaptation, Jev preparation, and repository engineering. These entries are historical records of that session, not fresh execution in this update.
+
+The source-closure report and ledger were preserved byte-for-byte. A 30-item preservation index records recoverable exports; only two of those exports were published in full in that increment. Neither indexed filenames nor preserved AI-generated analysis establish renewed inspection of the original sources.
+
+The recovery record also preserves failed operations: the earlier multipart archive failed decompression; a later workflow passed preparation checks but could not push workflow changes with its available permission; the first release-finalization attempt failed before release creation. Successful subsequent delivery and finalization are recorded separately. A failure is not erased by a successful retry.
+
+The root log previously pointed readers to October JSON records while its session narrative ended in September. This update closes that navigation gap without inventing a complete account of intervening exploration. Gate analysis and source-closure claims remain subject to their existing primary-source and human-review requirements.
+
+## Writing and documentation update, October 10, 2026 UTC
+
+Mark requested a public-facing writing and voice-register standard, detailed AI-use records, an audit of Markdown pages, and a further documented release. This is editorial and repository maintenance. The source-closure verdict remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**.
+
+| Activity | AI contribution or tool action | Verification and remaining limit |
+| :--- | :--- | :--- |
+| Source intake for the writing standard | The assistant read the existing standard, relevant repository policies, the supplied `Pasted text.txt` installment, and recovered preference context | Attachment bytes, UTF-8 readability and SHA-256 were checked; selected sections informed the revision. The source packet’s recovery labels were not independently authenticated against classroom originals. |
+| Writing-standard revision | AI authored the register system, sentence diagnostics, editorial sequence, provenance note and hypothetical examples | Compared the new rules with the inspected input and explicit preferences. Human voice review remains separate; no case findings were added. |
+| Repository-wide Markdown screen | Python inventoried every Markdown file in the pinned baseline and flagged selected status, authority, AI-use and naming patterns; the assistant reviewed the flagged passages and current navigation | The audit records a disposition for every baseline Markdown path. This is a documentation-consistency screen, not a complete scholarly rereading, rights audit or fresh external-source verification. |
+| AI-record maintenance | AI expanded this log, added the system register, and appended task records | Original `ACT01`–`ACT08` activity objects and the September narrative remain intact. Explanatory metadata distinguishes historical fields from current update fields. |
+| Local checks | Python/Git compared files and ran the publication and assurance checks on the retrieved snapshot | Actual results are in the generated receipt. Local history covers the snapshot reconstruction only; remote CI must check the repository’s reachable history before merge. |
+| Remote operations | Connected GitHub tools stage changes and handle the authorized PR; GitHub Actions runs recorded checks and release operations | Completion is established by the PR, CI runs and release record, not by a plan in this log. No scholarly approval is supplied by these operations. |
+
+A direct public Git clone in the local runtime failed because the host could not be resolved. Work used the downloaded GitHub Actions tracked snapshot instead. A previously unavailable Files reference was rediscovered by exact upload metadata; the supplied attachment was then readable. No source was declared missing merely because one access route failed.
+
+The new [system register](methods/AI-SYSTEMS.md) identifies actual, supplied, prepared, and unused systems. Jev was not called live in this update. The Translator runtime was not executed. No interviews, environmental measurements, community consultation, new Assignment 2 prose, slides, submission, or human approval were produced by this editorial task.
+
+[Markdown audit and dispositions](audit/2026-10-10-markdown-consistency.md) · [Writing-source provenance](standards/WRITING-PROVENANCE.md) · [Release scope](docs/releases/v0.3.0-review.2.md)
+
+## Historical entries
+
+The following text retains its earlier wording and scope. Use the dated [current research decision](research/CURRENT.md) for the selected case and present evidentiary boundary.
 
 ## Session record
 

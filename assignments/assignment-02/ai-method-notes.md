@@ -1,5 +1,7 @@
 # What the two AI papers contribute
 
+Historical September 22 method note. Its references to a private repository and session-specific authority describe that stage. Current practice follows the [integrity protocol](../../methods/RESEARCH-INTEGRITY.md), [AI systems register](../../methods/AI-SYSTEMS.md), and [publication policy](../../governance/PUBLICATION.md).
+
 [Assignment 2](README.md) / AI-method note
 
 These are methodological influences on the research workflow. They supply neither municipal observations nor proof that this workflow is effective. Source claims below are attributed to the supplied papers; applications are proposed choices for this course study.

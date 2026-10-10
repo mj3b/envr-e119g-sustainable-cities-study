@@ -12,9 +12,15 @@ The source-closure decision remains **B. GO — NARROWED COURT/INSTRUMENT QUESTI
 
 ## Inspect how the work was produced
 
-[Research-integrity protocol](methods/RESEARCH-INTEGRITY.md) explains the source-to-claim chain, counterevidence, version limits, human review, and correction procedure. [AI-use disclosure](methods/AI-DISCLOSURE.md) distinguishes actual assistance, historical reports, planned tools, and work still requiring human verification. [Activity records](methods/ai-activity.json) are machine-readable.
+[Research-integrity protocol](methods/RESEARCH-INTEGRITY.md) explains the source-to-claim chain, counterevidence, version limits, human review, and correction procedure. [AI-use disclosure](methods/AI-DISCLOSURE.md) distinguishes actual assistance, historical reports, planned tools, and work still requiring human verification. [Activity records](methods/ai-activity.json) are machine-readable. The [AI systems register](methods/AI-SYSTEMS.md) distinguishes direct assistance, supplied outputs, prepared tools, and deterministic execution.
 
 The [Translator adaptation](methods/TRANSLATOR-BRIDGE.md) structures reviewable tasks. The [optional Jev experiment](experiments/jev/README.md) prepares a claim-support test; no live Jev evaluation has been performed for this study. Neither is a theory of urban development or an authority to close evidence gaps.
+
+## Writing and documentation
+
+[Mark’s writing rules and voice registers](standards/WRITING.md) define sentence, argument, evidence, and audience practices. [Editorial provenance](standards/WRITING-PROVENANCE.md) records the supplied reconstruction and its gaps. The [Markdown audit](audit/2026-10-10-markdown-consistency.md) separates current corrections from historical records retained unchanged.
+
+[Writing and AI-records release scope](docs/releases/v0.3.0-review.2.md) documents this increment. Research status remains a working review record.
 
 ## Evidence and preservation
 
@@ -24,7 +30,7 @@ The two historical source-closure files retain their exact bytes. Their original
 
 ## Course record and boundaries
 
-[Course map](COURSE-MAP.md) · [Course-session correction](research/course-session-crosswalk.json) · [Existing methodology](METHODOLOGY.md) · [Earlier AI-use log](AI-USE-LOG.md) · [Public-sharing policy](governance/PUBLICATION.md)
+[Course map](COURSE-MAP.md) · [Course-session correction](research/course-session-crosswalk.json) · [Existing methodology](METHODOLOGY.md) · [AI-use log and history](AI-USE-LOG.md) · [Public-sharing policy](governance/PUBLICATION.md)
 
 Older documents preserve earlier case choices, private-storage rules, and preparation-only restrictions. The dated current decision supersedes those instructions prospectively; historical findings are not silently rewritten. The original course assignment prompt must be checked before submission. Raw readings, recordings, transcripts, private correspondence, and credentials stay outside Git.
 

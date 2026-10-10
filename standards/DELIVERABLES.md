@@ -6,9 +6,9 @@
 
 | Current authorization | Governing brief | Responsibility |
 | :--- | :--- | :--- |
-| Assignment 1 drafting authorized; student review pending | Verified assignment requirements and relevant course guidance | Mark approves the argument, personal voice, and use of AI |
+| Assignment 2 review draft authorized; later deliverables remain preparation-only | Current assignment prompt and relevant course guidance; original prompt details still require the check recorded with the draft | Mark reviews the argument, personal voice, citations, and AI disclosure before any submission |
 
-[Assignment sequence](../COURSE-MAP.md#one-inquiry-across-five-assignments) · [E5 writing](WRITING.md) · [Research standard](RESEARCH.md) · [AI governance](../governance/AI-GOVERNANCE.md)
+[Assignment sequence](../COURSE-MAP.md#one-inquiry-across-five-assignments) · [Mark’s writing rules](WRITING.md) · [Research standard](RESEARCH.md) · [AI governance](../governance/AI-GOVERNANCE.md)
 
 ## 1. Assemble the evidence packet
 

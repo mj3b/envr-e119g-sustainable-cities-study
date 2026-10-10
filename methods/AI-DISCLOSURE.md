@@ -22,4 +22,4 @@ Do not reconstruct unavailable historical prompts, token usage, costs, model ver
 
 Source access performed by the assistant must not be described as a human double-check. Conversely, deterministic hash or schema computation is not model judgment, even when AI authored the code or invoked it. Model-generated prose and analysis remain AI-assisted work until the author has reviewed them; editing does not erase that history.
 
-[Activity records](ai-activity.json) distinguish contemporaneous activity from inherited source-closure reports. [Earlier log](../AI-USE-LOG.md) remains unchanged in substance. Unknown historical coverage remains unknown.
+[Activity records](ai-activity.json) distinguish contemporaneous activity from inherited source-closure reports. The [AI-use log](../AI-USE-LOG.md) adds current session records while retaining earlier narrative. The [system register](AI-SYSTEMS.md) records whether a tool was directly used, supplied through its output, prepared, or unused. Unknown historical coverage remains unknown.

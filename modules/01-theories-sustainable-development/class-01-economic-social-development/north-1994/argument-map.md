@@ -28,7 +28,7 @@ Explanatory success does not justify the resulting distribution of benefits and 
 
 ## Applied translation card
 
-This card fixes the task and criteria for the next review. It is not a claim that the current interpretation was preregistered or independently validated. The [Dalles worked packet](../../../../cases/worked-example.md) is a method demonstration; geography remains unselected.
+This card fixes the task and criteria for the next review. It is not a claim that the current interpretation was preregistered or independently validated. The [Dalles worked packet](../../../../cases/worked-example.md) is a method demonstration; the card predates the [current Cerrillos selection](../../../../research/CURRENT.md).
 
 | Field | Specification |
 | :--- | :--- |

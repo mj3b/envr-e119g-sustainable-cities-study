@@ -20,6 +20,6 @@ AI may author candidate analysis and drafts, but may never approve G1–G3, sign
 
 ## Work sequence
 
-Read [methodology](METHODOLOGY.md), [integrity protocol](methods/RESEARCH-INTEGRITY.md), [writing rules](standards/WRITING.md), and [Markdown rules](standards/MARKDOWN.md). Define bounded inputs, outputs, checks, and abstention conditions. Keep observed activity in [AI activity](methods/ai-activity.json); link historical logs rather than replacing them.
+Read [methodology](METHODOLOGY.md), [integrity protocol](methods/RESEARCH-INTEGRITY.md), [writing rules](standards/WRITING.md), and [Markdown rules](standards/MARKDOWN.md). Define bounded inputs, outputs, checks, and abstention conditions. Keep observed activity in [AI activity](methods/ai-activity.json) and the [AI-use log](AI-USE-LOG.md); update the [system register](methods/AI-SYSTEMS.md) when tool use changes. Link historical logs rather than replacing them. For documentation changes, run the [Markdown inventory screen](audit/2026-10-10-markdown-consistency.md) and review flagged current instructions before release.
 
 Run the publication check and existing assurance suite. Inspect failures, regenerate the actual stored receipt, and verify remote CI before merging. Maintenance authorization is not scholarly approval. Jev is optional, off by default, and cannot rewrite the authoritative ledger or submit coursework. No provider key belongs in chat, a commit, or a workflow log.

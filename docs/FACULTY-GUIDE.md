@@ -2,21 +2,21 @@
 
 [Home](../README.md) / Faculty reading guide
 
-This notebook investigates what an urban institution knew before committing shared resources and how later evidence could test the decision's assumptions. AI and data-center infrastructure provide the candidate case family. Course concepts shape the questions, evidence requirements, and interpretation.
+This notebook follows the Cerrillos Data Center’s environmental review through a narrowed court/instrument question. It examines recorded institutional treatment of a proposed redesign and environmental authorization. It is a computing-infrastructure case; AI workload causation and measured environmental improvement are outside the supported claim.
 
 | Present contribution | Present boundary |
 | :--- | :--- |
-| A course knowledge base, comparison of six candidates, and a worked decision reconstruction | Case selection, human fidelity reviews, and empirical outcome assessment remain open |
+| A course knowledge base, preserved discovery history, source-closure record, and Assignment 2 review draft | Full technical comparison is blocked; substantive human review and submission remain separate |
 
 ## A ten-minute reading path
 
 | Time | Read | Question to put to the work |
 | :--- | :--- | :--- |
 | 2 minutes | [Course concepts applied to research](../cross-course/course-to-research.md) | Does each theory sharpen a question or change the evidence required? |
-| 2 minutes | [Candidate comparison](../cases/DISCOVERY-ASSESSMENT.md) | Is the decision bounded and the necessary record obtainable? |
-| 3 minutes | [The Dalles worked example](../cases/worked-example.md) | Does the interpretation stay within the source and its temporal limits? |
+| 2 minutes | [Current question and limits](../research/CURRENT.md) | Is the decision bounded and the necessary record obtainable? |
+| 3 minutes | [Cerrillos draft and source notes](../assignments/assignment-02/README.md) | Does the interpretation stay within the source and its temporal limits? |
 | 2 minutes | [AI assurance and evaluation](../governance/EVALUATION.md) | Which failures can the checks detect, and which still require judgment? |
-| 1 minute | [Research agenda](../study/RESEARCH-AGENDA.md) | Could the next evidence change the argument? |
+| 1 minute | [AI systems and contribution record](../methods/AI-SYSTEMS.md) | Could the next evidence change the argument? |
 
 ## How the course changes the inquiry
 
@@ -46,12 +46,14 @@ Public links lead to external records. Course locators refer to privately held c
 
 | Open issue | Consequence for interpretation |
 | :--- | :--- |
-| No case selected; material gaps in every candidate | Read comparisons as discovery work |
+| Cerrillos conditionally selected; central technical originals remain uninspected | Use the narrowed instrument question; preserve earlier comparisons as discovery history |
 | Human source, lecture, and synthesis reviews pending | Structural checks do not establish faithful interpretation |
-| North and Ostrom edition differences; incomplete coverage review | Use the stated locators and scope, not implied full-reading certification |
+| North, Ostrom and Satterthwaite edition differences; incomplete coverage review | Use the stated locators and scope, not implied full-reading certification |
 | Transcript-role inference and possible Class 1 segment gap | Speaker attribution and completeness remain provisional |
 | Missing comparable physical measurements | No causal environmental effect is established by the current packet |
 
 [Current status](../BUILD-STATUS.md) records progress. [AI governance](../governance/AI-GOVERNANCE.md) assigns responsibility, and the [AI-use log](../AI-USE-LOG.md) describes assistance.
 
-The user's Georgia and Hawaiʻi connections inform interest; personal reflection remains theirs to write. This guide records no instructor endorsement, submission, or sharing action. Useful feedback would sharpen the research question, challenge an inference, or identify a record that could change case selection.
+The user's Georgia and Hawaiʻi connections inform interest; personal reflection remains theirs to write. This guide records no instructor endorsement, submission, or sharing action. Useful feedback would sharpen the research question, challenge an inference, or identify a record that changes the permitted question or interpretation.
+
+[Mark’s writing rules](../standards/WRITING.md) and [editorial provenance](../standards/WRITING-PROVENANCE.md) explain the prose standard. The [Markdown audit](../audit/2026-10-10-markdown-consistency.md) records documentation corrections; it does not certify the research claims.

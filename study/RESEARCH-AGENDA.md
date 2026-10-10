@@ -1,5 +1,7 @@
 # The next evidence that could change the inquiry
 
+Historical discovery agenda. Its open-selection and draft-authorization statements describe an earlier stage. The current next step is human review of the [Cerrillos draft and evidence limits](../assignments/assignment-02/README.md); further source retrieval must stay within the authorized question.
+
 [Home](../README.md) / [Study](README.md) / Research agenda
 
 **Purpose:** resolve case-selection uncertainty through records that could change the choice or interpretation.

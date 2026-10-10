@@ -1,4 +1,6 @@
-October 9 public-curation update: see [working checkpoint](docs/releases/public-research-review-v01.md). Earlier status below is historical. Current source closure remains B. GO — NARROWED COURT/INSTRUMENT QUESTION. A review draft is authorized; submission is not.
+October 10 writing and AI-records update: [release scope](docs/releases/v0.3.0-review.2.md), [Markdown audit](audit/2026-10-10-markdown-consistency.md), [writing rules](standards/WRITING.md), and [AI-use log](AI-USE-LOG.md). The preceding curated checkpoint is `v0.3.0-review.1`, merged through PR #12. Remote PR, CI and release records establish completion of each increment; a documentation plan is not a release receipt.
+
+The current research boundary remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. Assignment 2 review draft v0.1 is unchanged by this update. Its original-source dependencies, prompt check and human review remain open. Jev remains optional with zero live calls recorded. The following September build records retain their historical scope.
 
 ---
 
