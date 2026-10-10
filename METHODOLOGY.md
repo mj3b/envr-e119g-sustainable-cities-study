@@ -6,7 +6,7 @@ Current supplement: [research-integrity protocol](methods/RESEARCH-INTEGRITY.md)
 
 [Home](README.md) / Methodology · [Worked design](cases/RESEARCH-DESIGN.md) · [AI assurance](governance/README.md)
 
-> **Working design:** comparative discovery leading to one bounded urban decision case. Course interpretation and empirical case research have separate evidence requirements. Geography remains open.
+> **Working design:** comparative discovery leading to one bounded urban decision case. Course interpretation and empirical case research have separate evidence requirements. Cerrillos is the conditionally selected case for the [narrowed court/instrument question](research/CURRENT.md). Earlier comparative discovery records retain their historical scope.
 
 The central question is what an institution knew when it committed shared resources, how authority and uncertainty shaped that decision, and what later evidence can establish about its consequences. Current material supports documentary reconstruction and research design. It does not yet support an estimate of environmental impact caused by governance.
 
@@ -53,7 +53,7 @@ The [worked design](cases/RESEARCH-DESIGN.md) specifies rival predictions and a 
 | METR | Define task and comparator; distinguish perceived usefulness from observed performance | [Evaluation protocol](governance/EVALUATION.md), including what is unmeasured |
 | Digital Emissions / IRIS | Trace transformations; define facility, time and measurement boundaries | Measurements, unit checks and decision-time evidence |
 | Node & Norm / GDI | Reconstruct decision rights, alternatives, uncertainty and correction | Decision objects and review authority |
-| E5 | Build a bounded argument a reader can inspect | [Writing](standards/WRITING.md) and [Markdown](standards/MARKDOWN.md) standards |
+| Mark’s writing rules and voice registers | Build a bounded argument a reader can inspect | [Writing](standards/WRITING.md), [editorial provenance](standards/WRITING-PROVENANCE.md), and [Markdown](standards/MARKDOWN.md) standards |
 
 These are selected practices, not interchangeable methods or institutional endorsements. The [influence register](standards/INFLUENCES.md) names sources and limits. The former “bridges” page is now a migration pointer.
 

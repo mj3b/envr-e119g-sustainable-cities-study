@@ -4,7 +4,7 @@ These influences inform how the repository asks questions and evaluates evidence
 
 | Influence | Source and relevant idea | Repository application | Boundary |
 | --- | --- | --- | --- |
-| E5 | Four private writing references identified in WRITING.md | Audience, argument, evidence, voice, and disciplined revision | A writing system cannot establish empirical truth |
+| Mark’s writing rules and voice registers | Supplied preferences and reconstructed writing packet; [provenance and access limits](WRITING-PROVENANCE.md) | Audience, grammar, argument, evidence, voice and revision | Local editorial synthesis; missing source definitions remain unresolved; a writing system cannot establish empirical truth |
 | LessWrong | [About](https://www.lesswrong.com/about): improving reasoning and decision-making | Expose assumptions, compare explanations, state update conditions | No universal LessWrong prose rulebook is claimed |
 | The Decision Lab | [How we work](https://thedecisionlab.com/how-we-work): behavioral research and experimentation | Examine actors' incentives, context, feasibility, and observable behavior | Organizational self-description is not independent evidence of intervention effectiveness |
 | METR | [Research organization](https://metr.org/about) and [2025 developer study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) | Distinguish expectations from measured performance; define the task, population, comparison, and limits | Results about developers do not establish environmental outcomes |

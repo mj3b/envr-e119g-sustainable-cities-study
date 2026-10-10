@@ -4,7 +4,7 @@
 
 > **Design question:** What did an institution know when it committed shared resources, which alternatives were feasible, and whose concerns entered the decision?
 
-**Status:** proposed application of `SYN-01`. Geography remains open. This design can be applied to one bounded decision within any viable candidate.
+**Status:** proposed application of `SYN-01`. This earlier design predates the [current Cerrillos selection](../../../../research/CURRENT.md). This design can be applied to one bounded decision within any viable candidate.
 
 ## Evidence packet
 

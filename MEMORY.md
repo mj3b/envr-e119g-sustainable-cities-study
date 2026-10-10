@@ -1,5 +1,7 @@
 # Project continuity
 
+Current authority: [Cerrillos decision](research/CURRENT.md), [AI systems](methods/AI-SYSTEMS.md), [AI-use log](AI-USE-LOG.md), and [review.2 scope](docs/releases/v0.3.0-review.2.md). Earlier dated planning below remains a continuity record, not a fresh source inspection.
+
 [Home](README.md) / Operational record
 
 > **Record type: working instructions and preferences.**
@@ -7,9 +9,22 @@
 
 ## Instructions that govern the next session
 
+| Instruction | Scope |
+| :--- | :--- |
+| Continue the narrowed Cerrillos court/instrument question | Preserve the approved question and exact non-claims in `research/CURRENT.md`; Memphis is the AI-specific fallback and Red Hill methodological calibration/conditional fallback |
+| Keep maintenance separate from research authorization | The writing update changes documentation; Assignment 2 review prose and substantive claims are unchanged |
+| Use Mark’s writing and register standard | The public title is personal; source lineage and incomplete teaching material remain in the provenance note |
+| Maintain AI-use records with the work | Distinguish direct use, supplied model outputs, prepared tools, deterministic checks and actual human review |
+| Preserve public-sharing restrictions | Raw course materials, correspondence, credentials and unreviewed source exports remain outside Git |
+| Verify before merge and release | Regenerate the actual receipt; inspect remote CI; document the exact release target; never fill a human-review field on Mark’s behalf |
+
+## Historical Assignment 1 planning and preferences
+
+The following table preserves earlier planning context. Its word counts, tool exclusions, six-candidate inventory and drafting directions describe those versions; current authorization is stated above.
+
 | Instruction | Origin | Operational consequence |
 | :--- | :--- | :--- |
-| Keep the repository private under `mj3b` | User direction; repository rules | Do not publish source materials or commit `private/` |
+| Keep the owner-authorized public repository under `mj3b` | October 9 user direction; [publication policy](governance/PUBLICATION.md) | Publish curated authored material only; raw course material, correspondence and `private/` remain excluded |
 | Preserve six open candidates | User direction in the research continuation | Use the selection protocol; do not default to Memphis |
 | Draft Assignment 1 with APA 7 | Explicit user authorization of an APA 7 memorandum draft, September 18, 2026 (UTC) | Supersedes the drafting pause; prepare a reviewable draft without claiming student approval or submission |
 | Use the current memo structure | September 18 pressure-test revision supersedes the earlier merged exploration/closing | Retain To/From/Date/Subject and a separate Closing Reflection; keep the short AI acknowledgment and tool citations |
@@ -20,7 +35,7 @@
 | Record Perplexity’s actual contribution | Author subsequently supplied Perplexity analysis for this revision | Credit editorial feedback and framework suggestions; do not treat that analysis as independent evidence |
 | Keep unperformed tool use out of disclosure | SciSpace and Claude remain unused | Do not cite planned tools as completed research |
 | Treat the commitment-assurance chain as provisional | Current authorized revision | Test justification, disclosure, monitoring, triggers, authority and remedy; claim neither demonstrated effects nor novelty |
-| Use E5 writing discipline | User direction and inspected E5 materials | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
+| Use Mark’s writing rules and voice registers | User direction; [editorial provenance](standards/WRITING-PROVENANCE.md) preserves the teaching lineage and gaps | Apply the [writing standard](standards/WRITING.md) and [Markdown design](standards/MARKDOWN.md) |
 | Prepare for eventual faculty review | User direction | Make evidence, reasoning, uncertainty, and navigation inspectable |
 | Merge and release completed repository work | User authorization | Perform relevant checks; preserve privacy and review boundaries |
 
@@ -42,7 +57,7 @@ Repository authorization does not supply a human fidelity review. It also does n
 
 Prior AI-authored introductions are planning context. They do not verify autobiographical claims. Personal reflection and endorsement of an argument remain the user's responsibility.
 
-The user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The current title is **When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era**. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md), and the current [revision notes](assignments/assignment-01/REVISION-NOTES.md). North’s used original AER p. 360 passage has received an AI-assisted visual check against reprint p. 10; full-article and whole-reprint equivalence are unresolved. All human approvals and submission remain unrecorded.
+Historical Assignment 1 status: the user identified September 18 as the Assignment 1 deadline. The exact live submission time remains unverified. Drafting is now authorized. The current title is **When Public Commitments Outlive Their Assumptions: Governing Water for Data Centers in the AI Era**. The immediate priority is Mark’s review of the [memorandum draft](assignments/assignment-01/memorandum-draft.md), its [human review appendix](assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md), and the current [revision notes](assignments/assignment-01/REVISION-NOTES.md). North’s used original AER p. 360 passage has received an AI-assisted visual check against reprint p. 10; full-article and whole-reprint equivalence are unresolved. All human approvals and submission remain unrecorded.
 
 ## Resume from evidence, not recollection
 
@@ -51,12 +66,12 @@ The user identified September 18 as the Assignment 1 deadline. The exact live su
 | Current progress and open gaps | [Build status](BUILD-STATUS.md) |
 | What an external or course source supports | [Claim registry](cross-course/claims.json) and [source registry](cross-course/evidence-registry.json) |
 | Whether source use has been approved | [Review receipts](cross-course/review-receipts.json) and the relevant fidelity gates |
-| How to choose the case | [Selection protocol](cases/SELECTION-PROTOCOL.md) and [discovery assessment](cases/DISCOVERY-ASSESSMENT.md) |
-| What evidence to retrieve next | [Research agenda](study/RESEARCH-AGENDA.md) |
+| Current case, fallback roles and permitted question | [Current Cerrillos decision](research/CURRENT.md); earlier [discovery assessment](cases/DISCOVERY-ASSESSMENT.md) retained as history |
+| What evidence or review to complete next | [Assignment 2 verification notes](assignments/assignment-02/review-notes-v01.md) |
 | What AI may do and how its work is checked | [AI governance](governance/AI-GOVERNANCE.md) and [evaluation](governance/EVALUATION.md) |
 | Which work used AI | [AI-use log](AI-USE-LOG.md) |
 
-The Dalles is a worked example. The six candidates remain Georgia, Hawaiʻi, Memphis, Loudoun, The Dalles, and Tucson/Pima. Their relative readiness belongs in the discovery records rather than in this continuity file.
+The Dalles is a worked example. The earlier candidate inventory comprised Georgia, Hawaiʻi, Memphis, Loudoun, The Dalles, and Tucson/Pima. Their relative readiness belongs in the discovery records rather than in this continuity file.
 
 ## Updating this record
 

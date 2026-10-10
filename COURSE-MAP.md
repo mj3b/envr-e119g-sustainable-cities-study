@@ -8,6 +8,8 @@
 | :--- | :--- | :--- |
 | Classes 1 and 2 have authored research packs | Archived syllabus (`SYL`), PDF pp. 3–7 and 9–16 | Later topics are mapped from the schedule; their readings have not been analyzed here |
 
+Current session-number corrections are recorded in the [course-session crosswalk](research/course-session-crosswalk.json). The [preservation index](research/preservation-index.json) distinguishes additional lecture/reading exports from material actually published in this repository. The schedule and earlier coverage account below are not proof that every later reading or recording has been analysed.
+
 ## The current foundation
 
 These research applications are **our synthesis**. The reading and lecture packs retain the source claims on which they depend.

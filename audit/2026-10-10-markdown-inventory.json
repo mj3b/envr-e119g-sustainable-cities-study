@@ -1,0 +1,2309 @@
+{
+  "schema_version": 1,
+  "record_type": "Historical documentation-consistency audit, not evidence revalidation",
+  "input_commit": "62ac291605b791511c4178493da3bd767bf481c0",
+  "input_artifact_id": 11651609935,
+  "input_artifact_sha256": "be8780cb0b90d3cbe49469c83b8390b1a0f9deb88b3d20f86f6a5be425b22477",
+  "baseline_markdown_count": 121,
+  "baseline_flagged_files": 52,
+  "coverage": "All baseline Markdown bytes decoded and screened; AI review focused on flagged passages, current navigation, and changed documents. Not an exhaustive semantic rereading.",
+  "patterns": {
+    "legacy_writing_label": "\\bE5\\b",
+    "private_only_language": "repository remains private|this private repository|keep (?:the )?repository private|private-only",
+    "open_case_language": "geography remains (?:open|unselected)|six open candidates|no case selected|case selection remains open|six candidates remain",
+    "authorization_language": "preparation.only|do not draft|does not.*permit.*draft|no submission recorded",
+    "named_ai_or_tool": "\\b(?:ChatGPT|Codex|Perplexity|SciSpace|Claude|Jev|Translator|Otter)\\b",
+    "version_or_check_count": "\\bv0\\.\\d|\\b\\d+ (?:unit )?tests|\\b\\d+ .*Markdown.*(?:links|targets)"
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "access": "readable_utf8",
+      "bytes": 2882,
+      "lines": 25,
+      "sha256": "94a30aa14a498b58404a3bdd35a30153ab4faf0d0009f072ae7c28d977cec6e9",
+      "hits": [
+        {
+          "line": 7,
+          "flags": [
+            "private_only_language",
+            "authorization_language"
+          ]
+        },
+        {
+          "line": 25,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds ongoing AI-record and documentation-audit maintenance to operating rules.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "access": "readable_utf8",
+      "bytes": 18132,
+      "lines": 126,
+      "sha256": "abeb135387c7a04b7af440daae029e4e698f662ccb5620fd6eecb58837791e57",
+      "hits": [
+        {
+          "line": 15,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 19,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 29,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 30,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        },
+        {
+          "line": 48,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 52,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 54,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 87,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 89,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 97,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 104,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 112,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 114,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 122,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds October continuity, systems and current editorial activity; preserves the existing September narrative verbatim from Session record onward.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "BUILD-STATUS.md",
+      "access": "readable_utf8",
+      "bytes": 7342,
+      "lines": 65,
+      "sha256": "d811bcd1c1315c5a6aa34f76b1dc123ddd677b7f690952af8f16c0dab653a68f",
+      "hits": [
+        {
+          "line": 26,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 35,
+          "flags": [
+            "version_or_check_count"
+          ]
+        },
+        {
+          "line": 44,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated current status panel while preserving the full historical build narrative.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "CITATION-POLICY.md",
+      "access": "readable_utf8",
+      "bytes": 3953,
+      "lines": 50,
+      "sha256": "9a570e9a789100bfee67e9f6c7d143bd411fa6316edb06825ed653eda378e0f4",
+      "hits": [
+        {
+          "line": 50,
+          "flags": [
+            "private_only_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Removes an obsolete private-repository statement; raw-source restrictions remain.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "COURSE-MAP.md",
+      "access": "readable_utf8",
+      "bytes": 6376,
+      "lines": 68,
+      "sha256": "ab1cc711a611a2d3ff10c211bad8ba099f0537f6320b9d3f2700efb389a9cf8d",
+      "hits": [],
+      "disposition": "updated",
+      "disposition_reason": "Adds session-crosswalk and coverage limits without replacing syllabus data or claiming unperformed reading analysis.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "MEMORY.md",
+      "access": "readable_utf8",
+      "bytes": 7529,
+      "lines": 63,
+      "sha256": "936f1f1a7f172bf3f70fc2b611141a4c01c318c8ff460e4d203a0ba68dbb86dc",
+      "hits": [
+        {
+          "line": 12,
+          "flags": [
+            "private_only_language"
+          ]
+        },
+        {
+          "line": 13,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 20,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 21,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 23,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        },
+        {
+          "line": 59,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Separates current operational instructions from dated Assignment 1 preferences and obsolete case/drafting directions.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "access": "readable_utf8",
+      "bytes": 7454,
+      "lines": 76,
+      "sha256": "398f0fee12efe38b6d5d33444e632a10d3eb4948a01003cd1f1dfcf27b9989f8",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "authorization_language"
+          ]
+        },
+        {
+          "line": 9,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 33,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 56,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        },
+        {
+          "line": 60,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Renames active writing influence and preserves source provenance.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "README.md",
+      "access": "readable_utf8",
+      "bytes": 3680,
+      "lines": 40,
+      "sha256": "365f4c191f98105e56e2a20cf5223f0a64c216d2272d63eafb7e05ab313ea3c1",
+      "hits": [
+        {
+          "line": 17,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 29,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds stable writing, audit and release paths without implying scholarly approval.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/README.md",
+      "access": "readable_utf8",
+      "bytes": 2277,
+      "lines": 29,
+      "sha256": "9ef3e0a605e836dab6ed569a68758cfa4cf9d407b14706991dbba30c4df0d7a2",
+      "hits": [
+        {
+          "line": 9,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Updates the current assignment-navigation status without revising archived syllabus formats.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/DRAFT-REVIEW.md",
+      "access": "readable_utf8",
+      "bytes": 14492,
+      "lines": 100,
+      "sha256": "b89601ee6ca5353a61c42c49a9d58270e3ffb94f06ed0ee348f4dce23fbb520a",
+      "hits": [
+        {
+          "line": 22,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 75,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 78,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 80,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/EVIDENCE-PACKET.md",
+      "access": "readable_utf8",
+      "bytes": 17239,
+      "lines": 147,
+      "sha256": "4d5c3b84d812afd3476eb803751aa382f2437538f2e476890c9925c2a9279cc7",
+      "hits": [
+        {
+          "line": 34,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 42,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 126,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 141,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/HUMAN-REVIEW-APPENDIX.md",
+      "access": "readable_utf8",
+      "bytes": 21939,
+      "lines": 211,
+      "sha256": "c133c238f8d44fdc574edce990a09f62a910ef05fb6b0af066e0b8168201fa63",
+      "hits": [
+        {
+          "line": 16,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 127,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 174,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 184,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 185,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 186,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 187,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 189,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/PRE-SUBMISSION-REVIEW.md",
+      "access": "readable_utf8",
+      "bytes": 56395,
+      "lines": 427,
+      "sha256": "fdd4da2ddc8a5c9682a7af0ddb095eb8945f1b5563d08bd3ecd1dad4b9418b50",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 66,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 112,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 114,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 180,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 181,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 192,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 294,
+          "flags": [
+            "open_case_language"
+          ]
+        },
+        {
+          "line": 380,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 390,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 392,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 425,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/README.md",
+      "access": "readable_utf8",
+      "bytes": 4603,
+      "lines": 54,
+      "sha256": "92baf77c1713f1e7fd3736f0eb7c2a7d0e93de2734eb848f6b85616ffbd9aa4d",
+      "hits": [
+        {
+          "line": 16,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/REVISION-NOTES.md",
+      "access": "readable_utf8",
+      "bytes": 8584,
+      "lines": 69,
+      "sha256": "d58a12ec74ecaa7983a6ef3a31fef5c11044d308122aa24a15058ec70b968934",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 5,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 9,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 13,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 63,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 67,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 69,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/memorandum-draft.md",
+      "access": "readable_utf8",
+      "bytes": 8746,
+      "lines": 73,
+      "sha256": "128d6d4e2cdca58082ff8cb56208dd47651678abf5fd0901dc402bfb23c5eb06",
+      "hits": [
+        {
+          "line": 53,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 65,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 67,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 69,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/readiness-checklist.md",
+      "access": "readable_utf8",
+      "bytes": 3999,
+      "lines": 41,
+      "sha256": "95dcf509b6b852f2c2e6bd178ccf4f0185ccf3dd68dbb5ca20590cf90114b7d9",
+      "hits": [
+        {
+          "line": 38,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/reflection-and-evidence-worksheet.md",
+      "access": "readable_utf8",
+      "bytes": 3741,
+      "lines": 55,
+      "sha256": "949490d2d6e93647eefbc6b646eee05a518a669eab1345af0bd768bb22942429",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "assignments/assignment-01/requirement-evidence-matrix.md",
+      "access": "readable_utf8",
+      "bytes": 3813,
+      "lines": 29,
+      "sha256": "b0b06b5c141b349425d709ff762b02274eff571e454dd511822b00e457a5af94",
+      "hits": [
+        {
+          "line": 13,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-01/research-process-worksheet.md",
+      "access": "readable_utf8",
+      "bytes": 2029,
+      "lines": 31,
+      "sha256": "af10ec71fdd6ed22119d59e68d2cd7a5528994bd404f2bd0363417a4fc19c2ed",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "assignments/assignment-02/README.md",
+      "access": "readable_utf8",
+      "bytes": 755,
+      "lines": 7,
+      "sha256": "ea330221eb6c33b1d080c87b7ce952f0fee21f08e54a9076dba8ed695ece8402",
+      "hits": [
+        {
+          "line": 3,
+          "flags": [
+            "version_or_check_count"
+          ]
+        },
+        {
+          "line": 5,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/ai-method-notes.md",
+      "access": "readable_utf8",
+      "bytes": 5655,
+      "lines": 43,
+      "sha256": "b1e07201d4607ef8df60e21d86829c25f9031e366fbb2a45e429de74455ccad1",
+      "hits": [
+        {
+          "line": 33,
+          "flags": [
+            "private_only_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/class-03-evidence-note.md",
+      "access": "readable_utf8",
+      "bytes": 5648,
+      "lines": 43,
+      "sha256": "0c90468785b5e30a95b1cd0ae215a2192694712bfd03f8e07fa4e370e2b1849a",
+      "hits": [
+        {
+          "line": 35,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 43,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/class-03-follow-up.md",
+      "access": "readable_utf8",
+      "bytes": 5991,
+      "lines": 47,
+      "sha256": "1f2fa3fa92eb16b9c3a6a348cadee27b0af5946b8140422aa8945b90780438c1",
+      "hits": [
+        {
+          "line": 27,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 45,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/editorial-and-integration.md",
+      "access": "readable_utf8",
+      "bytes": 2114,
+      "lines": 21,
+      "sha256": "0fe060f080667f52288d6bf8de852e78112e62205622752cdf794dd266ddb609",
+      "hits": [],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/next-evidence-packet.md",
+      "access": "readable_utf8",
+      "bytes": 3396,
+      "lines": 34,
+      "sha256": "b3b7b5655b1d2a8eb904f03701ea30dd077b867e94933412f3c9f913e9645db4",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "assignments/assignment-02/public-source-register.md",
+      "access": "readable_utf8",
+      "bytes": 18511,
+      "lines": 235,
+      "sha256": "9751bb8b4de12649f2ee39bc004be3e56a339f49cf5daf41209981f97efa2401",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "assignments/assignment-02/research-decisions.md",
+      "access": "readable_utf8",
+      "bytes": 5994,
+      "lines": 77,
+      "sha256": "4b11eef06bf9d5bafe8ebb3d91954567f9facf9138d5de4584629cf2bb274fdf",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "assignments/assignment-02/review-draft-v01.md",
+      "access": "readable_utf8",
+      "bytes": 10189,
+      "lines": 72,
+      "sha256": "62f3e96b6a12cccc0bf47164433fbf7ef22011049ac7da8e48c1843e9ee50cdc",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "version_or_check_count"
+          ]
+        },
+        {
+          "line": 54,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-02/review-notes-v01.md",
+      "access": "readable_utf8",
+      "bytes": 4161,
+      "lines": 33,
+      "sha256": "881f0f9a432175c23fe33a526788f9d72570258177e47ba0c78d66ee00733f90",
+      "hits": [
+        {
+          "line": 33,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-03/README.md",
+      "access": "readable_utf8",
+      "bytes": 2923,
+      "lines": 44,
+      "sha256": "f2f2a6fee94cfc17fbcb10c45613e61a38baed27430010a7aa2f561f76e1613d",
+      "hits": [
+        {
+          "line": 44,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "access": "readable_utf8",
+      "bytes": 2832,
+      "lines": 42,
+      "sha256": "6d6828f315f9e405057a38a704c9c3ad8de850eba7e5cc2229de1e34a27cce1a",
+      "hits": [
+        {
+          "line": 42,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "assignments/assignment-05/README.md",
+      "access": "readable_utf8",
+      "bytes": 2925,
+      "lines": 44,
+      "sha256": "e613133a8dd1182d3a82aa149b620dffeb08af4283c9131cf29acf86c05aaad2",
+      "hits": [
+        {
+          "line": 44,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/2026-09-22-class2-integration.md",
+      "access": "readable_utf8",
+      "bytes": 5359,
+      "lines": 41,
+      "sha256": "d9bdd8e5085b059be77288e9da400d23db5fd92a263072e77f0d520444926255",
+      "hits": [
+        {
+          "line": 19,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 20,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 21,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 22,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 23,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 24,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/2026-10-09-assignment2-update.md",
+      "access": "readable_utf8",
+      "bytes": 1452,
+      "lines": 17,
+      "sha256": "7d5a7a54c1b479819732e29d79e45f46641eddd6b7852c4a2cce9931444707e8",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "authorization_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/APPLIED-TRANSLATOR-AUDIT.md",
+      "access": "readable_utf8",
+      "bytes": 11301,
+      "lines": 102,
+      "sha256": "1c547f8f3d1dbd459ece5c199eff5a99c23ceaadd8bda0fc38bf099f26863012",
+      "hits": [
+        {
+          "line": 3,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 9,
+          "flags": [
+            "version_or_check_count"
+          ]
+        },
+        {
+          "line": 10,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 11,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 18,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 20,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 33,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 75,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 81,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/CHAT-RECONCILIATION.md",
+      "access": "readable_utf8",
+      "bytes": 2410,
+      "lines": 19,
+      "sha256": "35d1c33611edb4b8010e0b684565ab81a909f90573d534f564af77cbf2e9c5cf",
+      "hits": [
+        {
+          "line": 3,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 11,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/METHODS-AND-ASSURANCE.md",
+      "access": "readable_utf8",
+      "bytes": 3850,
+      "lines": 36,
+      "sha256": "bfc11ed4eb565f6acdd1a58044ddbc4ae28b2773e90905d98c54c10906e84c7a",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "version_or_check_count"
+          ]
+        },
+        {
+          "line": 11,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 34,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "audit/SOURCE-DISCOVERY.md",
+      "access": "readable_utf8",
+      "bytes": 3811,
+      "lines": 24,
+      "sha256": "ae7a0772a3e1045f5d7ab312db350c0a97d24d8a44acf55ba414e5ae57f9e60f",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "audit/WORK-CONTINUATION.md",
+      "access": "readable_utf8",
+      "bytes": 3809,
+      "lines": 36,
+      "sha256": "18d99e8d2e09cc9dd97a3acf14420bcd0b8a58f47bdd3bf6e80476469a1d503a",
+      "hits": [
+        {
+          "line": 13,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "bridges/README.md",
+      "access": "readable_utf8",
+      "bytes": 1093,
+      "lines": 15,
+      "sha256": "042cf1964c634b5571ccaececa5319da000d794ccb4020989a20b0abc133734e",
+      "hits": [
+        {
+          "line": 11,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "cases/DISCOVERY-ASSESSMENT.md",
+      "access": "readable_utf8",
+      "bytes": 4974,
+      "lines": 57,
+      "sha256": "e569050627bbd96ae63141c327683908cb8d7e2cc69be015e9f32e740e2112f7",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "cases/QUANTITATIVE-NOTES.md",
+      "access": "readable_utf8",
+      "bytes": 6614,
+      "lines": 82,
+      "sha256": "43bd3077fbd73e04191d9d95d8ca652393ddd548596448927eb22c0679dff69d",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/README.md",
+      "access": "readable_utf8",
+      "bytes": 4111,
+      "lines": 48,
+      "sha256": "fb1793b57266ad374fb399947d5f2d9706fd3f78e80b2f97168efead1d49f2a1",
+      "hits": [],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "cases/RESEARCH-DESIGN.md",
+      "access": "readable_utf8",
+      "bytes": 5454,
+      "lines": 61,
+      "sha256": "f3c0082275eea4a4bd80d5558712c9cdd66b5797ba4cc73f8fb7424da3d031e7",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/RESEARCH-OBJECTS.md",
+      "access": "readable_utf8",
+      "bytes": 5928,
+      "lines": 84,
+      "sha256": "0d23e62eaa99731972ab4a0e96ea8c77e5553435b59553e7b22f8db684186c5e",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/SELECTION-PROTOCOL.md",
+      "access": "readable_utf8",
+      "bytes": 4470,
+      "lines": 42,
+      "sha256": "37746ff6f96dba21963a7fdbbd556d93320206e4f92e2917f14be03f2438ab6c",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/dalles.md",
+      "access": "readable_utf8",
+      "bytes": 4294,
+      "lines": 58,
+      "sha256": "6e3d3671e6cea3bb34326675cd40df70bd6ed7c4ecf1ff84ee21b07335d7888d",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/georgia.md",
+      "access": "readable_utf8",
+      "bytes": 4040,
+      "lines": 55,
+      "sha256": "54f09f9ba11c9165a1ff36e14e4a956b53cbc3fd8f21de4fd7736ab806c2c005",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/hawaii.md",
+      "access": "readable_utf8",
+      "bytes": 4217,
+      "lines": 56,
+      "sha256": "d45cf93bd1436cc37263cb47259ab6b6e0b1af5e7b1d042ff89617286f32068c",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/loudoun.md",
+      "access": "readable_utf8",
+      "bytes": 4194,
+      "lines": 60,
+      "sha256": "bdfbce337737e0209a08ffc71be1374b02dd0dbf341cef4470b47968441db8b3",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/memphis.md",
+      "access": "readable_utf8",
+      "bytes": 4196,
+      "lines": 58,
+      "sha256": "3cd6ed62c691ed648c745297cb18d81848433f18a46727a868eebaf308db63cb",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/candidates/tucson.md",
+      "access": "readable_utf8",
+      "bytes": 4551,
+      "lines": 62,
+      "sha256": "d76918c2ffea4b720efc6664ded5f41eb758f61671557ed9c7f281b0e4f35542",
+      "hits": [],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cases/worked-example.md",
+      "access": "readable_utf8",
+      "bytes": 3085,
+      "lines": 31,
+      "sha256": "6c7f4f3c890cc56165404ab43226fdd65c1058a2fa2d01c1bea0e4443f075f1b",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cross-course/README.md",
+      "access": "readable_utf8",
+      "bytes": 2492,
+      "lines": 25,
+      "sha256": "a61800c7a2cb739c3a69e0976d043842ea81dcbc226e201c3be32aad5c2bef73",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cross-course/course-to-research.md",
+      "access": "readable_utf8",
+      "bytes": 6294,
+      "lines": 54,
+      "sha256": "6b985961d169208c6c48a33bae833e4f2f268db3649f5e4d7c16bf81c305b447",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cross-course/cumulative-synthesis.md",
+      "access": "readable_utf8",
+      "bytes": 4242,
+      "lines": 38,
+      "sha256": "c5cc316e0416cfba077b53d39d5dece6a452cd33ba6d2805e752ddd7073e2106",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "cross-course/unresolved-questions.md",
+      "access": "readable_utf8",
+      "bytes": 3385,
+      "lines": 34,
+      "sha256": "ab731e19316c5cb00b28742d59469010769979956e1ac70a79843ba20deee4ac",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "docs/FACULTY-GUIDE.md",
+      "access": "readable_utf8",
+      "bytes": 4830,
+      "lines": 57,
+      "sha256": "712c860ca656ba27c34b2aea120d3477d726add183af583999375016461d4eb9",
+      "hits": [
+        {
+          "line": 49,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Updates reader route and current scope to Cerrillos, with AI and editorial provenance links; course-theory statements retained.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "docs/releases/public-research-review-v01.md",
+      "access": "readable_utf8",
+      "bytes": 1716,
+      "lines": 11,
+      "sha256": "bfe9f96f6f249763e03dbded2ce417f96f1192569b586598c52d89b73e325ac7",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "private_only_language"
+          ]
+        },
+        {
+          "line": 7,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "experiments/jev/README.md",
+      "access": "readable_utf8",
+      "bytes": 3534,
+      "lines": 30,
+      "sha256": "34d212db0d805971b251a6dfd9d0279b0ba5515bf0fdf8149f9fcdc7301737da",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 3,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 5,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 9,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 15,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 24,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 25,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 28,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "governance/AI-GOVERNANCE.md",
+      "access": "readable_utf8",
+      "bytes": 5297,
+      "lines": 56,
+      "sha256": "ca5e28454b63c939b3292e505f208943dbd2ffe4769615208f298167831a33de",
+      "hits": [
+        {
+          "line": 5,
+          "flags": [
+            "private_only_language"
+          ]
+        },
+        {
+          "line": 30,
+          "flags": [
+            "private_only_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Links actual system roles and updates authorization without changing human gates.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "governance/EVALUATION.md",
+      "access": "readable_utf8",
+      "bytes": 5406,
+      "lines": 59,
+      "sha256": "1ee676dab74a8c349515947cee163b45443dda1817d04dbadc6d604b43c9b100",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "governance/PUBLICATION.md",
+      "access": "readable_utf8",
+      "bytes": 2402,
+      "lines": 21,
+      "sha256": "6d02cf58989ca70a1ffdf691a6846e4dfa9c6dd619ecb32b4e4d757a0943fa72",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "governance/README.md",
+      "access": "readable_utf8",
+      "bytes": 1730,
+      "lines": 23,
+      "sha256": "2446d36c4c4d39ecfcc4424ff2949a77b618d8d866b91c6531a258528d2d211c",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "governance/REVIEW-QUEUE.md",
+      "access": "readable_utf8",
+      "bytes": 3256,
+      "lines": 33,
+      "sha256": "47d7f797727e21e00991f0d84fbc59d4b7585391d6e0ea20d6a2ee6b5048b5ab",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "methods/AI-DISCLOSURE.md",
+      "access": "readable_utf8",
+      "bytes": 2874,
+      "lines": 25,
+      "sha256": "f6436246df47d0a6c65e84499fec1e0b351fe40e5d55e8a3e39f5dde49f2c854",
+      "hits": [
+        {
+          "line": 19,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 20,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Reconciles the disclosure page with the expanded root log and system register.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "methods/RESEARCH-INTEGRITY.md",
+      "access": "readable_utf8",
+      "bytes": 4051,
+      "lines": 29,
+      "sha256": "e1eb71e3863b0d6660531ca580cf3a91ba03f70ff9750d98ba71ea8a774b3883",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "methods/TRANSLATOR-BRIDGE.md",
+      "access": "readable_utf8",
+      "bytes": 1921,
+      "lines": 17,
+      "sha256": "1794fd6ffa74a630b3096e7cb52e0e52b328f8c602b50a5c85fcbfbd00a772f4",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 3,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 7,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        },
+        {
+          "line": 17,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/README.md",
+      "access": "readable_utf8",
+      "bytes": 2412,
+      "lines": 27,
+      "sha256": "51b5c32325d828bf7ea06259933bc83ceb1e9fc103c0a65b230ba3e0c9c4f1a8",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/README.md",
+      "access": "readable_utf8",
+      "bytes": 2341,
+      "lines": 38,
+      "sha256": "b29cedc887b29d53b184468f16b56b24e47debfff9061fa024252345e3ba6f26",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/divergence-log.md",
+      "access": "readable_utf8",
+      "bytes": 581,
+      "lines": 9,
+      "sha256": "78dc252ae5770951079f38cac24387f5a09848cfd72f0adc9f915b3e21c4fb6d",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/instructor-emphasis.md",
+      "access": "readable_utf8",
+      "bytes": 1342,
+      "lines": 17,
+      "sha256": "aea94bef314a91bccd71ba4b2d466289d30bafd2ca7aa2115dd3c2af46db92e1",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/lecture-synthesis.md",
+      "access": "readable_utf8",
+      "bytes": 2427,
+      "lines": 29,
+      "sha256": "af0afa09e4495e5112cb2ca194044ad9a20e068bbcacafc45f0962c2b653a423",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/lecture/reading-alignment.md",
+      "access": "readable_utf8",
+      "bytes": 1696,
+      "lines": 19,
+      "sha256": "388f87352132d0be8f815b0e80f044ee24b0d3efa58b7562912ab66d26749d77",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/argument-map.md",
+      "access": "readable_utf8",
+      "bytes": 3428,
+      "lines": 42,
+      "sha256": "9683504c138d7a77a390598a2b4e9148930230f07c67792ab283651f2bdf9c9d",
+      "hits": [
+        {
+          "line": 31,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Clarifies the date scope of an instructional case-selection reference; theory and claim records unchanged.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/questions.md",
+      "access": "readable_utf8",
+      "bytes": 1637,
+      "lines": 20,
+      "sha256": "69c3c027aa4f00d43b45672f9db2b05d8532c36e631f8a4497922e2721e3926f",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/reading-notes.md",
+      "access": "readable_utf8",
+      "bytes": 4163,
+      "lines": 52,
+      "sha256": "67c80f92ee392e4c0a29c3daaa645e0f721682c05d3ca0068d378a1ad9665928",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/omissions-report.md",
+      "access": "readable_utf8",
+      "bytes": 1461,
+      "lines": 16,
+      "sha256": "34a3729a6fa423231d5c2a3a917f72781911f04d8136c42d442183a885b82a20",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/peer-discourse/README.md",
+      "access": "readable_utf8",
+      "bytes": 1341,
+      "lines": 16,
+      "sha256": "68c1015b003aa436bb6b76d8b4b931343a0eb72124d3688d1664649f9e55ce04",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/argument-map.md",
+      "access": "readable_utf8",
+      "bytes": 3420,
+      "lines": 41,
+      "sha256": "79678c4c32b51061862a5281b28cb072c3f58a6d9d92ab6401be3d3dd525ad0f",
+      "hits": [
+        {
+          "line": 30,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Clarifies the date scope of an instructional case-selection reference; theory and claim records unchanged.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/questions.md",
+      "access": "readable_utf8",
+      "bytes": 1644,
+      "lines": 24,
+      "sha256": "c05be62e8b5fab26dcd47d9c7e5c1fcf28418b17bcd96f2b2c2804df06541e29",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/reading-notes.md",
+      "access": "readable_utf8",
+      "bytes": 2832,
+      "lines": 39,
+      "sha256": "95cdaeb269645e6fae04d56c88e100b731f614784e6388f29ee8bec714c35802",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/assignment-relevance.md",
+      "access": "readable_utf8",
+      "bytes": 1628,
+      "lines": 22,
+      "sha256": "b02d2e7c8e519fbc87f0597b67241b8a0a7447e38993207355dca251646eb8c1",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/concept-map.md",
+      "access": "readable_utf8",
+      "bytes": 1508,
+      "lines": 26,
+      "sha256": "3497d2d3309a107c835a70b1ec22bf37d13745b0a528a67a695163f0549398e0",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/north-sen-comparison.md",
+      "access": "readable_utf8",
+      "bytes": 2258,
+      "lines": 32,
+      "sha256": "627d6b40583a32b3e77342c15b4c377415c8a2e90fa0cd3e77ced7e037aaccf1",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/tensions-and-complements.md",
+      "access": "readable_utf8",
+      "bytes": 2036,
+      "lines": 20,
+      "sha256": "d4275dbd35c392187d39c419c5d13766161b8bb3b505485af0bc357e18c33de7",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-01-economic-social-development/synthesis/urban-application.md",
+      "access": "readable_utf8",
+      "bytes": 2630,
+      "lines": 32,
+      "sha256": "82bb08cc8444e6d000387ad93abe40b077942044eb60a8115792b5e4de80b6d4",
+      "hits": [
+        {
+          "line": 7,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Clarifies historical scope of a generic course application without changing its concepts.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/README.md",
+      "access": "readable_utf8",
+      "bytes": 2647,
+      "lines": 40,
+      "sha256": "16287f4fb441320b00ed93e2b30190a8bf44480e1776b4de40f0d746927b0b95",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/argument-map.md",
+      "access": "readable_utf8",
+      "bytes": 3532,
+      "lines": 40,
+      "sha256": "f5d39cbacfae108031b4b7a4105db83a5c9a0d21340d07f0f6065502543547e7",
+      "hits": [
+        {
+          "line": 29,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Clarifies the date scope of an instructional case-selection reference; theory and claim records unchanged.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/questions.md",
+      "access": "readable_utf8",
+      "bytes": 1586,
+      "lines": 21,
+      "sha256": "f67d0d2d6fb4e6716c201e98b604baa0651de7a7038ca10be916f0e1cf0bdda8",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/reading-notes.md",
+      "access": "readable_utf8",
+      "bytes": 3376,
+      "lines": 45,
+      "sha256": "43b72cae081c95220e99814a15fb15bb70c118de167c37a4b1ab3eaa49b5e2c4",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/divergence-log.md",
+      "access": "readable_utf8",
+      "bytes": 902,
+      "lines": 11,
+      "sha256": "f64faa418f376d7db6d5cf291c4afd8a2f7813ef2b5db7f1f752486d4d2e53fa",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/2026-09-22-source-review.md",
+      "access": "readable_utf8",
+      "bytes": 5711,
+      "lines": 37,
+      "sha256": "a6a3c72d41608e08d4a2a777941e26824c27d1b0454eb9ccdd7b648fbf84831b",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/instructor-emphasis.md",
+      "access": "readable_utf8",
+      "bytes": 1556,
+      "lines": 19,
+      "sha256": "35769d6d7405306c5e11f2e2c4ec9e01829291e6a23e283203b0b5c6b03e7537",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/lecture-synthesis.md",
+      "access": "readable_utf8",
+      "bytes": 2726,
+      "lines": 36,
+      "sha256": "3c9e4ace8bdd7223c0af627c75492c4ce468b32f488117262c0fc8716f22b061",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/lecture/reading-alignment.md",
+      "access": "readable_utf8",
+      "bytes": 1655,
+      "lines": 17,
+      "sha256": "f582c5c725741ae265956a4cd8cd83abad735e2ec8ecc659943b34f92cb77738",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/omissions-report.md",
+      "access": "readable_utf8",
+      "bytes": 1432,
+      "lines": 16,
+      "sha256": "a5a09e8e85c1423d6bf5e715302b1c9ac8495554b30106f3cd5a7bad69792738",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/argument-map.md",
+      "access": "readable_utf8",
+      "bytes": 3531,
+      "lines": 42,
+      "sha256": "78ff8da953bc256afc58858b8a0125cb75c4adfd2d30f2f728f2791cd147a6ba",
+      "hits": [
+        {
+          "line": 31,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Clarifies the date scope of an instructional case-selection reference; theory and claim records unchanged.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/questions.md",
+      "access": "readable_utf8",
+      "bytes": 1661,
+      "lines": 21,
+      "sha256": "5ffb388e713b73cb632be64b470680abcf9ae3fe12096e803186e5904acf8297",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/reading-notes.md",
+      "access": "readable_utf8",
+      "bytes": 3105,
+      "lines": 40,
+      "sha256": "fa18381e2ee310f4771a2f17f52cb11efed1a472b52a370633d4761da1fabaa3",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/peer-discourse/README.md",
+      "access": "readable_utf8",
+      "bytes": 1997,
+      "lines": 20,
+      "sha256": "89874610d4123c03e18859fdef63c749e7d9ee9105a57cf893fd5199bd14c59b",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/assignment-relevance.md",
+      "access": "readable_utf8",
+      "bytes": 1708,
+      "lines": 22,
+      "sha256": "45a90a34321f8defdbbf6bbe47c6e7f1935b9d75513ab33a2be56156008e92cb",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/concept-map.md",
+      "access": "readable_utf8",
+      "bytes": 1602,
+      "lines": 27,
+      "sha256": "c79dd3e8adf4fb5520a60c1450e41cf94170fb1d3da4d24c6925e9cbae99eaea",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/tensions-and-complements.md",
+      "access": "readable_utf8",
+      "bytes": 2272,
+      "lines": 28,
+      "sha256": "8bf283fc82187a7db5c9ea97bf1760f8547a93f568b94f591a01efbe2c6f5a52",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/synthesis/urban-application.md",
+      "access": "readable_utf8",
+      "bytes": 2686,
+      "lines": 36,
+      "sha256": "4f1af4696f9dac7fff35eb7e01e811ea9a16f7d178cef78feeac9a1ade9931fd",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "research/CURRENT.md",
+      "access": "readable_utf8",
+      "bytes": 3123,
+      "lines": 31,
+      "sha256": "c1dbb0e7a2d9bd506a2798947ac10ba6ce0d9d661aed3216fb651f44ac16295f",
+      "hits": [
+        {
+          "line": 25,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_contextual_flags",
+      "disposition_reason": "Flagged passages retained in their document context; no live-authority correction selected. No new verification of source meaning or old activity is implied.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md",
+      "access": "readable_utf8",
+      "bytes": 30505,
+      "lines": 179,
+      "sha256": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366",
+      "hits": [
+        {
+          "line": 104,
+          "flags": [
+            "named_ai_or_tool"
+          ]
+        }
+      ],
+      "disposition": "retain_historical_or_protected",
+      "disposition_reason": "Version-bound evidence, assignment work, prior audit or discovery history retained; current pointers apply prospectively.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "schemas/README.md",
+      "access": "readable_utf8",
+      "bytes": 1285,
+      "lines": 9,
+      "sha256": "a37c7a1ff4757c37d10d7cb8114cb67daa67916140fc6ee5f8280b82c0e5adb6",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "standards/DELIVERABLES.md",
+      "access": "readable_utf8",
+      "bytes": 5712,
+      "lines": 80,
+      "sha256": "07741943000c540c8330ddc1a1b7d5f4b2fcaeb99e4cc65d6cc621160bd7b6fc",
+      "hits": [
+        {
+          "line": 11,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Renames the active editorial cross-reference.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "standards/INFLUENCES.md",
+      "access": "readable_utf8",
+      "bytes": 3147,
+      "lines": 19,
+      "sha256": "46b3545fbae113bd8eebea45aca3d43e679478d0c5bfc2f9eb0e303f1444d668",
+      "hits": [
+        {
+          "line": 7,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Replaces active course-labelled influence with the current standard while retaining source lineage.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "standards/MARKDOWN.md",
+      "access": "readable_utf8",
+      "bytes": 3240,
+      "lines": 50,
+      "sha256": "ca6ee46b3a29ce5922496fff939de385a18125c8e72a25bf5cc9a2dde3b7e966",
+      "hits": [
+        {
+          "line": 7,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Renames the active writing link while preserving its stable path.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "standards/RESEARCH.md",
+      "access": "readable_utf8",
+      "bytes": 4099,
+      "lines": 55,
+      "sha256": "2cf2951c6667fb8b5ac1920ba20f41d23670d27c930435b29da7363211a01774",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "standards/WRITING.md",
+      "access": "readable_utf8",
+      "bytes": 4814,
+      "lines": 54,
+      "sha256": "5c0d7e1ab38038c7e96c5a3647bbcc82e23ec2cd5588df44a8766c20cfeeeebb",
+      "hits": [
+        {
+          "line": 1,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        },
+        {
+          "line": 3,
+          "flags": [
+            "legacy_writing_label"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Replaces course-labelled public title with Mark’s writing and register system; extends grammar, evidence, register, revision and AI attribution rules without rebranding source teaching as original doctrine.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "study/EVIDENCE-LAB.md",
+      "access": "readable_utf8",
+      "bytes": 6823,
+      "lines": 113,
+      "sha256": "ddaf468ca29d0a5b81eff2f751ba4cac681fa1654f10be6fa5569ace1670f864",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "study/README.md",
+      "access": "readable_utf8",
+      "bytes": 2200,
+      "lines": 31,
+      "sha256": "fb5f7216144766346f7d5f5d4af87d2745b3765676f27a8fa39352c49d0e0269",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "study/RESEARCH-AGENDA.md",
+      "access": "readable_utf8",
+      "bytes": 4275,
+      "lines": 48,
+      "sha256": "11614f5ed439fbab66ec5be54305b168ff0c326b07490046308fd0e9cf023ba0",
+      "hits": [
+        {
+          "line": 9,
+          "flags": [
+            "open_case_language"
+          ]
+        }
+      ],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "study/RESEARCH-POSITIONING.md",
+      "access": "readable_utf8",
+      "bytes": 4549,
+      "lines": 34,
+      "sha256": "8ab8979b878dd137728c625c4cb38ee008dc6d0385a74b1e310bae90b38aad62",
+      "hits": [],
+      "disposition": "updated",
+      "disposition_reason": "Adds a dated/current-state boundary to historical material; original analysis retained below the annotation.",
+      "review_type": "AI editorial/status triage; no human scholarly approval"
+    },
+    {
+      "path": "study/discussion-prep.md",
+      "access": "readable_utf8",
+      "bytes": 3347,
+      "lines": 59,
+      "sha256": "f083090b976c2eb89d500f7f201aa9e26cd5da2c8a255f60a365cd11221ab06b",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "study/learning-log.md",
+      "access": "readable_utf8",
+      "bytes": 1709,
+      "lines": 34,
+      "sha256": "7eb3c007ec03fc4c20fec10028c15828e8a91f98116481bf257f9425bf287a2d",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    },
+    {
+      "path": "study/research-skills.md",
+      "access": "readable_utf8",
+      "bytes": 2802,
+      "lines": 39,
+      "sha256": "4e67de235476135320937000e0d16683b4548802191a7a1177ce30783dc5f840",
+      "hits": [],
+      "disposition": "no_pattern_trigger",
+      "disposition_reason": "Complete UTF-8 inventory screen returned no selected maintenance pattern; this is not semantic approval.",
+      "review_type": "automated inventory/pattern screen only"
+    }
+  ],
+  "new_paths_reviewed": [
+    "audit/2026-10-10-markdown-consistency.md",
+    "audit/2026-10-10-markdown-inventory.json",
+    "docs/releases/v0.3.0-review.2.md",
+    "methods/AI-SYSTEMS.md",
+    "scripts/markdown_audit.py",
+    "standards/WRITING-PROVENANCE.md",
+    "tests/test_editorial_records.py"
+  ],
+  "protected_sha256": {
+    "assignments/assignment-02/review-draft-v01.md": "62f3e96b6a12cccc0bf47164433fbf7ef22011049ac7da8e48c1843e9ee50cdc",
+    "assignments/assignment-02/review-notes-v01.md": "881f0f9a432175c23fe33a526788f9d72570258177e47ba0c78d66ee00733f90",
+    "research/cerrillos/draft-source-checks.json": "8e3dd0b8d7aa955c2ead615b5b8494c0ae95a5b5929a0a5eae1cca01a0a1f95f",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103",
+    "cross-course/claims.json": "309fd4fa9ff0f0abe5bdd027981b0bb34a22004727a206ed15037e220f154776",
+    "cross-course/evidence-registry.json": "b964dd03e2c61cebe612fb61b29f609324643c1187755cc44716240d2a1d39e4",
+    "cross-course/review-receipts.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "research/CURRENT.md": "c1dbb0e7a2d9bd506a2798947ac10ba6ce0d9d661aed3216fb651f44ac16295f"
+  },
+  "preserved_log_suffix": {
+    "starts_with": "## Session record",
+    "sha256": "d7f7e4efcced9e31f3bf45a084555f7a0fb647cb568d3395b239e73c07326df0"
+  },
+  "preserved_activity_objects_sha256": "3619e98f5fdb981136c74b32388215a430d3282f4ebbc39f9825ad93eead1be1",
+  "human_approval": null,
+  "research_revalidation_performed": false,
+  "live_jev_calls_this_update": 0,
+  "limits": [
+    "pattern matching can miss stale prose or flag valid historical language",
+    "not a source-truth or legal verification",
+    "not a copyright/confidentiality certification",
+    "no external-link or browser-rendering certification",
+    "local Git history is reconstructed snapshot only; remote CI checks reachable history"
+  ]
+}

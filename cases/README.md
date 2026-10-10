@@ -1,5 +1,7 @@
 # Six places. One defensible research decision.
 
+Historical discovery and method-workbench index. The six candidate records retain the scope of their original comparison. Use [current research](../research/CURRENT.md) for conditional Cerrillos selection, the narrowed question, and fallback roles.
+
 [Home](../README.md) / Case discovery
 
 > **Discovery remains open.** The research unit is one consequential decision in a defined place and period. No geography has been selected; Memphis has no default preference.

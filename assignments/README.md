@@ -6,7 +6,7 @@
 
 | Current mode | Evidence authority | Submission state |
 | :--- | :--- | :--- |
-| Assignment 1 draft pending student review; later assignments in preparation | Archived syllabus, relevant TA guidance, and the user's supplied Assignment 1 prompt | No submission recorded here |
+| Assignment 2 review draft v0.1 available; Assignments 3–5 remain preparation-only | Archived course requirements and current user authorization; Assignment 2 original-prompt check remains open | Assignment 1 submission is user-reported in the project record; no Assignment 2 submission or human approval is inferred |
 
 ## The semester pathway
 
