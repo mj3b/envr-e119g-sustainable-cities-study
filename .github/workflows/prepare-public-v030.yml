@@ -1,0 +1,131 @@
+name: Prepare regular public checkpoint
+on:
+  push:
+    branches: [release/public-v0.3.0]
+    paths: [.github/workflows/prepare-public-v030.yml]
+permissions:
+  contents: write
+concurrency:
+  group: envr-public-v030
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require authorized public repository and branch
+        env:
+          PRIVATE: ${{ github.event.repository.private }}
+        run: |
+          test "$GITHUB_REPOSITORY" = mj3b/envr-e119g-sustainable-cities-study
+          test "$GITHUB_REF" = refs/heads/release/public-v0.3.0
+          test "$PRIVATE" = false
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Verify payload and preserve research before applying documentation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          base='0e12b7c6570d27174e25fb9727d85b271d1d32db'
+          sha='ec637d54c0f2b9a0bf79ee19552f6aacfe5801d0'
+          request=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+          with urllib.request.urlopen(request,timeout=30) as response: obj=json.loads(response.read(100000))
+          if obj.get('encoding')!='base64': raise ValueError('Unexpected encoding')
+          packed=base64.b64decode(''.join(obj['content'].split()),validate=True)
+          if hashlib.sha1(b'blob '+str(len(packed)).encode()+b'\0'+packed).hexdigest()!=sha: raise ValueError('Blob hash mismatch')
+          if hashlib.sha256(packed).hexdigest()!='9d2d19460f3d4dcf673a39ac663a0908e00e669af25b71ab9a21298e0b44aa2c': raise ValueError('Packed hash mismatch')
+          decoder=lzma.LZMADecompressor(memlimit=100000000)
+          raw=decoder.decompress(packed,max_length=2000000)
+          if not decoder.eof or decoder.unused_data: raise ValueError('Invalid compressed stream')
+          if hashlib.sha256(raw).hexdigest()!='f59c36e93db0839ef14fa267b65d3070a341c636c574969843cb2d752bd7dc63': raise ValueError('Payload hash mismatch')
+          payload=json.loads(raw)
+          if payload['schema']!=1 or payload['repository']!=repo or payload['base_commit']!=base or len(payload['files'])!=10: raise ValueError('Unexpected payload')
+          subprocess.run(['git','merge-base','--is-ancestor',base,'HEAD'],check=True)
+          root=pathlib.Path.cwd()
+          def safe(name):
+              rel=pathlib.PurePosixPath(name)
+              if rel.is_absolute() or any(p in ('..','.git','private') for p in rel.parts) or '\\' in name or rel.suffix not in ('.md','.json'): raise ValueError('Unsafe path')
+              target=root.joinpath(*rel.parts)
+              if target.is_symlink() or any(p.is_symlink() for p in target.parents): raise ValueError('Symlink')
+              return target
+          def protect():
+              for name,digest in payload['protected_sha256'].items():
+                  if hashlib.sha256(safe(name).read_bytes()).hexdigest()!=digest: raise ValueError('Protected research differs: '+name)
+          protect()
+          pending=[]; seen=set()
+          for entry in payload['files']:
+              name=entry['path']
+              if name in seen: raise ValueError('Duplicate path')
+              seen.add(name); target=safe(name)
+              prior=target.read_bytes() if target.is_file() else None
+              old=hashlib.sha256(prior).hexdigest() if prior is not None else None
+              if old!=entry['old_sha256']: raise ValueError('Base conflict: '+name)
+              op=entry['operation']
+              if op=='content': data=entry['content'].encode('utf-8')
+              elif op=='append': data=prior+entry['text'].encode('utf-8')
+              elif op=='replace':
+                  data=prior
+                  for before,after in entry['replacements']:
+                      if data.count(before.encode())!=1: raise ValueError('Ambiguous replacement: '+name)
+                      data=data.replace(before.encode(),after.encode(),1)
+              elif op=='append_activities':
+                  obj=json.loads(prior); ids={a['id'] for a in obj['activities']}
+                  if any(a['id'] in ids for a in entry['activities']): raise ValueError('Activity collision')
+                  obj['activities'].extend(entry['activities'])
+                  data=(json.dumps(obj,indent=2,ensure_ascii=False)+'\n').encode()
+              else: raise ValueError('Unexpected operation')
+              if hashlib.sha256(data).hexdigest()!=entry['sha256']: raise ValueError('Output hash mismatch: '+name)
+              data.decode('utf-8'); pending.append((target,data))
+          for target,data in pending:
+              target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(data)
+          protect()
+          activities=json.loads((root/'methods/ai-activity.json').read_text())['activities'][:payload['prior_activities']]
+          if hashlib.sha256(json.dumps(activities,sort_keys=True,ensure_ascii=False).encode()).hexdigest()!=payload['prior_activity_objects_sha256']: raise ValueError('Earlier activity objects altered')
+          log=(root/'AI-USE-LOG.md').read_bytes().replace(payload['log_inserted'].encode(),b'',1)
+          if hashlib.sha256(log).hexdigest()!=payload['prior_log_sha256']: raise ValueError('Earlier AI-use narrative altered')
+          note=(root/'docs/releases/v0.3.0.md').read_text()
+          if payload['status_note'] not in note: raise ValueError('Required status note missing')
+          if 'B. GO — NARROWED COURT/INSTRUMENT QUESTION' not in note: raise ValueError('Research boundary changed')
+          print('Verified 10 documentation files, 9 protected research hashes and all 15 earlier activity objects.')
+          print('Payload SHA-256:',hashlib.sha256(raw).hexdigest())
+          PY
+      - name: Remove temporary preparation workflow from the intended tree
+        run: |
+          git rm .github/workflows/prepare-public-v030.yml
+          git add -A
+      - name: Run full-history checks and write the actual receipt
+        run: |
+          python scripts/research_progress.py --check
+          python scripts/publication_check.py
+          python scripts/assure.py
+          python scripts/assure.py --check
+          git add governance/evaluation-results.json
+      - name: Store checked non-workflow blobs for connector publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          def upload(name):
+              if name=='.github/workflows/prepare-public-v030.yml': return {'path':name,'mode':'100644','type':'blob','sha':None}
+              if name.startswith('.github/'): raise ValueError('Unexpected workflow change')
+              data=pathlib.Path(name).read_bytes()
+              expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Content-Type':'application/json','Accept':'application/vnd.github+json'},method='POST')
+              with urllib.request.urlopen(req,timeout=30) as response: obj=json.load(response)
+              if obj['sha']!=expected: raise ValueError('Uploaded hash mismatch')
+              return {'path':name,'mode':'100644','type':'blob','sha':obj['sha']}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
+          print('CONNECTOR_BASE_COMMIT',os.environ['GITHUB_SHA'])
+          print('CONNECTOR_TREE_ENTRIES',json.dumps(entries,separators=(',',':')))
+          print('Only stored blobs; no branch ref, release or scholarly review was changed by this step.')
+          PY
