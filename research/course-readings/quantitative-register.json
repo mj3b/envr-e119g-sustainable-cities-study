@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-14",
+  "scope": "Published quantities and transparent arithmetic from the supplied readings; no downloaded study dataset or new Cerrillos measurement",
+  "records": [
+    {
+      "id": "Q01",
+      "source_id": "M1-LOWE",
+      "value": 25,
+      "unit": "cities",
+      "locator": "PDF pp. 1–3",
+      "time_basis": "Policy collection 2019-01-01 to 2019-08-31",
+      "population_or_boundary": "Convenience sample in 19 countries",
+      "quantity_type": "sample_count",
+      "permitted_use": "Describe study scope",
+      "qualifier": "Not representative of all cities; 19 high-income and six middle-income cities; zero low-income cities.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q02",
+      "source_id": "M1-LOWE",
+      "value": 24,
+      "unit": "policy measures",
+      "locator": "PDF p. 2",
+      "time_basis": "2019 collection",
+      "population_or_boundary": "The study indicator instrument",
+      "quantity_type": "instrument_count",
+      "permitted_use": "Design a bounded policy-content codebook",
+      "qualifier": "Number of indicators is not the number implemented or legally binding.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q03",
+      "source_id": "M1-LOWE",
+      "value": [
+        0.83,
+        0.91
+      ],
+      "unit": "Cohen kappa range",
+      "locator": "PDF p. 2, printed e883",
+      "time_basis": "Initial coding calibration",
+      "population_or_boundary": "First three cities",
+      "quantity_type": "reported_reviewer_agreement",
+      "permitted_use": "Illustrate a separate calibration procedure",
+      "qualifier": "Not a measure of truth or a study-wide agreement claim; no kappa computed for Mark.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q04",
+      "source_id": "M2-PIRACHA",
+      "value": 171,
+      "unit": "reviewed documents",
+      "locator": "PDF p. 3, section 1.3",
+      "time_basis": "Mixed publication periods, mainly preceding 20 years",
+      "population_or_boundary": "Academic, policy and media sources",
+      "quantity_type": "review_count",
+      "permitted_use": "Describe review design",
+      "qualifier": "The 38, 72, 41 and 27 category counts overlap; do not add them as mutually exclusive.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q05",
+      "source_id": "M2-CHAKRABORTY",
+      "value": 61117,
+      "unit": "census tracts",
+      "locator": "PDF pp. 3 and 7",
+      "time_basis": "2011–2015 modeled annual PM2.5; 2015 housing/ACS",
+      "population_or_boundary": "Eligible tracts in 1,892 counties containing public housing",
+      "quantity_type": "analytic_sample_count",
+      "permitted_use": "Specify coverage and exclusions",
+      "qualifier": "Tracts require at least 500 people and 200 housing units; not all continental-US tracts.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q06",
+      "source_id": "M2-CHAKRABORTY",
+      "value": 6685,
+      "unit": "public-housing developments",
+      "locator": "PDF p. 4 Table 3; p. 7",
+      "time_basis": "2015 housing; 2011–2015 PM2.5",
+      "population_or_boundary": "Complete-case developments with at least 11 residents",
+      "quantity_type": "analytic_sample_count",
+      "permitted_use": "Keep development-level denominator separate",
+      "qualifier": "Not the same population as 7,000 initially geocoded developments.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q07",
+      "source_id": "M2-CHAKRABORTY",
+      "value": 311,
+      "unit": "developments",
+      "locator": "PDF p. 7",
+      "time_basis": "2015",
+      "population_or_boundary": "Subset of 7,000 geocoded developments with suppressed counts",
+      "quantity_type": "data_processing_count",
+      "permitted_use": "Record suppression handling",
+      "qualifier": "Substitution of 1 for suppressed values likely undercounts units/residents; do not infer no residents.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q08",
+      "source_id": "M2-CHAKRABORTY",
+      "value": [
+        35,
+        24
+      ],
+      "unit": "percent of respective populations, approximately",
+      "locator": "PDF p. 3 and Figure 2",
+      "time_basis": "2011–2015 PM2.5 and 2015 population",
+      "population_or_boundary": "PHD residents versus general population in highest PM2.5 tract quartile",
+      "quantity_type": "descriptive_distribution",
+      "permitted_use": "Illustrate difference between aggregate environment and population distribution",
+      "qualifier": "Rounded reported shares, not individual dose or causal harm; no Chilean transfer.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q09",
+      "source_id": "M2-KALAPODIS",
+      "value": [
+        13,
+        17
+      ],
+      "unit": "workshop participants",
+      "locator": "PDF p. 11",
+      "time_basis": "Workshops in Spain and Greece; acknowledgement p. 33 dates them July 2023 and April 2024",
+      "population_or_boundary": "Two stakeholder workshops",
+      "quantity_type": "sample_count",
+      "permitted_use": "Describe evidence generation",
+      "qualifier": "Cannot establish representativeness or community consensus.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q10",
+      "source_id": "M2-BLACKMAN",
+      "value": 665,
+      "unit": "participants",
+      "locator": "PDF p. 5, printed 503",
+      "time_basis": "Baseline 2020-03-02 to 2020-03-14",
+      "population_or_boundary": "Recruited university students in Bogotá",
+      "quantity_type": "baseline_sample_count",
+      "permitted_use": "Identify initial sample",
+      "qualifier": "Not the complete-case regression denominator.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q11",
+      "source_id": "M2-BLACKMAN",
+      "value": 578,
+      "unit": "participants",
+      "locator": "PDF p. 5",
+      "time_basis": "Endline 2020-05-11 to 2020-06-19",
+      "population_or_boundary": "Students participating in endline",
+      "quantity_type": "followup_sample_count",
+      "permitted_use": "Record attrition",
+      "qualifier": "536 answered all questions.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q12",
+      "source_id": "M2-BLACKMAN",
+      "value": 536,
+      "unit": "participants",
+      "locator": "PDF pp. 5 and 13 Table 4",
+      "time_basis": "Baseline/endline 2020",
+      "population_or_boundary": "226 treatment and 310 control complete cases",
+      "quantity_type": "analytic_sample_count",
+      "permitted_use": "State denominator for the reported regression",
+      "qualifier": "Session randomization; not 536 independent assignment units.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q13",
+      "source_id": "M2-BLACKMAN",
+      "value": 30,
+      "unit": "baseline sessions",
+      "locator": "PDF p. 5",
+      "time_basis": "2020-03-02 to 2020-03-14",
+      "population_or_boundary": "14 treatment sessions and 16 control sessions",
+      "quantity_type": "randomization_unit_count",
+      "permitted_use": "Separate cluster assignment from respondent observations",
+      "qualifier": "Standard errors cluster at baseline session level.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q14",
+      "source_id": "M2-BLACKMAN",
+      "value": 0.092,
+      "unit": "probability points",
+      "locator": "PDF p. 13, printed 511, Table 4 Panel B, Behavior",
+      "time_basis": "Endline report concerning past two weeks",
+      "population_or_boundary": "536 complete-case respondents",
+      "quantity_type": "estimated_treatment_coefficient",
+      "permitted_use": "Describe a 9.2 percentage-point increase in reported any-avoidance behavior",
+      "qualifier": "Bundled intervention; not a pollutant or mortality reduction; conventional p=0.008, FDR q=0.021.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q15",
+      "source_id": "M2-BLACKMAN",
+      "value": 0.045,
+      "unit": "probability points",
+      "locator": "PDF p. 13, Table 4 Panel B, Behavior Mask",
+      "time_basis": "Endline report concerning past two weeks",
+      "population_or_boundary": "536 complete-case respondents",
+      "quantity_type": "estimated_treatment_coefficient",
+      "permitted_use": "Describe a 4.5 percentage-point change in reported mask behavior",
+      "qualifier": "Conventional p=0.020; FDR q=0.027; reported self-behavior, not measured exposure.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q16",
+      "source_id": "M2-BLACKMAN",
+      "value": 0.07,
+      "unit": "probability points",
+      "locator": "PDF p. 13, Table 4 Panel B, Behavior Windows",
+      "time_basis": "Endline report concerning past two weeks",
+      "population_or_boundary": "536 complete-case respondents",
+      "quantity_type": "estimated_treatment_coefficient",
+      "permitted_use": "Describe a 7 percentage-point change in reported window closing",
+      "qualifier": "Conventional p=0.003; FDR q=0.021; do not infer health benefit.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q17",
+      "source_id": "M2-GU",
+      "value": 152,
+      "unit": "cities",
+      "locator": "PDF p. 6, section 3.1; manuscript p. 19 table",
+      "time_basis": "AQI 2014; system presence by end-2015",
+      "population_or_boundary": "Chinese cities with population over 250,000 and available AQI",
+      "quantity_type": "reported_analytic_sample_count",
+      "permitted_use": "Report only as the manuscript-stated sample size",
+      "qualifier": "Subgroup counts do not reconcile; see issue I04; final journal edition uninspected.",
+      "independent_replication": false
+    },
+    {
+      "id": "Q18",
+      "source_id": "M2-GU",
+      "value": 100,
+      "unit": "metres",
+      "locator": "PDF p. 8",
+      "time_basis": "WorldPop derived from 2010 census",
+      "population_or_boundary": "Population raster used in TOD measurement",
+      "quantity_type": "input_spatial_resolution",
+      "permitted_use": "Record scale of source input",
+      "qualifier": "Not a personal exposure measure or same-year 2014 population measurement.",
+      "independent_replication": false
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "I01",
+      "source_id": "M2-BLACKMAN",
+      "locator": "PDF p. 16, printed p. 514, Scenarios and Results",
+      "status": "blocked_for_numeric_reuse",
+      "observed": "The page prints PM2.5 scenario thresholds as 15, 20 and 10 mg/m³. The unit was visually confirmed; it is not silently converted to micrograms.",
+      "missing_dependency": "Original appendix and author/publisher clarification of the intended units.",
+      "permitted_use": "Flag an unresolved source unit, without offering exposure advice or assuming an intended correction."
+    },
+    {
+      "issue_id": "I02",
+      "source_id": "M2-BLACKMAN",
+      "locator": "PDF p. 16, printed p. 514, Results",
+      "status": "blocked_for_numeric_reuse",
+      "observed": "The middle scenario is described as a 64.3% reduction from 10.5 baseline deaths to 6.7 post-intervention deaths per year.",
+      "arithmetic_check": {
+        "formula": "100 * (10.5 - 6.7) / 10.5",
+        "value": 36.19047619047619,
+        "unit": "percent change implied by the printed baseline and post values",
+        "role": "Internal-consistency check; not a corrected research estimate"
+      },
+      "missing_dependency": "Appendix Table A10, model calculations and clarification whether the values denote avoided or remaining deaths.",
+      "permitted_use": "Keep the trial behavioral estimates separate; withhold the mortality and monetary headline as verified evidence. Do not declare the whole trial invalid."
+    },
+    {
+      "issue_id": "I03",
+      "source_id": "M2-CHAKRABORTY",
+      "locator": "PDF p. 4 Table 2 caption versus PDF p. 8 Statistical models",
+      "status": "qualified_method_description",
+      "observed": "Table 2 says unstructured correlation matrix; methods say independent correlation for Phase 1.",
+      "missing_dependency": "Analysis code, corrected specification or author clarification.",
+      "permitted_use": "Describe GEE-based observational work while preserving this specification discrepancy; no local replication claim."
+    },
+    {
+      "issue_id": "I04",
+      "source_id": "M2-GU",
+      "locator": "PDF p. 6, manuscript lines 33–38",
+      "status": "blocked_subgroup_reconciliation",
+      "observed": "The manuscript states 152 total cities, 116 neither-mode cities and 37 transit cities; subgroup counts are 7 both, 14 rail-only and 15 BRT-only.",
+      "arithmetic_check": {
+        "neither_plus_transit": 153,
+        "transit_subgroups_sum": 36
+      },
+      "missing_dependency": "The original city roster and final journal version, or author clarification.",
+      "permitted_use": "Retain exact manuscript statements and qualify sample accounting; do not replace 37 by 36 or 152 by 153."
+    }
+  ],
+  "math_boundaries": [
+    "Probability point to percentage point: multiply a binary-outcome regression coefficient by 100.",
+    "Do not recompute a reported relative percent change from rounded printed baselines.",
+    "Do not aggregate sources with different measures, populations, units or research designs.",
+    "No flow-rate-to-annual-volume calculation was made."
+  ]
+}

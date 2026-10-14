@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-14",
+  "baseline_commit": "018880848a557931f0a381926cfa98e78645fb45",
+  "scope": "Modules I-II source recovery, candidate review, pinned Translator structural execution and documentation integration; not case-source revalidation",
+  "preserved_files": {
+    "research/CURRENT.md": "c1dbb0e7a2d9bd506a2798947ac10ba6ce0d9d661aed3216fb651f44ac16295f",
+    "assignments/assignment-02/review-draft-v01.md": "62f3e96b6a12cccc0bf47164433fbf7ef22011049ac7da8e48c1843e9ee50cdc",
+    "assignments/assignment-02/review-notes-v01.md": "881f0f9a432175c23fe33a526788f9d72570258177e47ba0c78d66ee00733f90",
+    "research/cerrillos/draft-source-checks.json": "8e3dd0b8d7aa955c2ead615b5b8494c0ae95a5b5929a0a5eae1cca01a0a1f95f",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366",
+    "cross-course/claims.json": "309fd4fa9ff0f0abe5bdd027981b0bb34a22004727a206ed15037e220f154776",
+    "cross-course/evidence-registry.json": "b964dd03e2c61cebe612fb61b29f609324643c1187755cc44716240d2a1d39e4"
+  },
+  "original_pdfs_published": false,
+  "full_extracted_text_published": false,
+  "human_approval": null,
+  "failures": [
+    "Container Git DNS retrieval failed; hash-verified earlier GitHub Actions archive used.",
+    "Checksum-list path prefix absent after unpacking; basename-level verification passed.",
+    "Two sequential local validator invocations timed out before complete receipt; final parallel invocation completed.",
+    "McConnell local PDF download and web screenshot access failed; only publisher HTML treated as inspected."
+  ],
+  "documentation_screen": "scripts/markdown_audit.py was run on every current Markdown file; current Translator bridge and disclosures updated, older dated no-execution statements retained. This is not a whole-repository scholarly rereading."
+}

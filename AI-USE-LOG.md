@@ -2,6 +2,18 @@
 
 [Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
+## Recovery and additional execution, 14 October 2026
+
+ACT21 records recovery of 23 complete transferred changes after the interruption. The final test-file record was incomplete, so its replacement is newly authored. A repeat run completed 55 original upstream schema checks; its 88 candidate-artifact hashes match the preserved earlier run. The original upstream PDF-intake command also ran on all eleven supplied PDFs in a private directory: ten yielded nonempty text, and the North scan yielded none. Intake creates text and templates, not a scientific interpretation. The [completion checks](research/course-readings/completion-checks.json) preserve these limits, failures and log hashes. No original PDF or full extraction was added to public Git. Human review, case findings and Assignment 2 prose remain unchanged.
+
+## Course-source review and Translator checks, 14 October 2026
+
+ACT18–ACT20 record the restored six Module I uploads and five supplied Module II PDFs, source-specific candidate readings, quantitative checks and assignment-relevance guidance. ChatGPT read source text and selected page images and authored the interpretations. Python checked original hashes and serialized the candidate records. The pinned upstream Translator's five schema-validation scripts completed 55 checks across eleven packs. That is actual structural execution, not independent source interpretation, scientific replication, provider-backed agent execution or human approval.
+
+The [course-source guide](research/course-readings/README.md), [source cards](research/course-readings/source-cards.json), [quantity register](research/course-readings/quantitative-register.json) and [execution receipt](research/course-readings/translator-execution.json) make the inputs and limits inspectable. Four source-level numerical or specification questions are preserved. McConnell publisher HTML was accessed separately; local PDF download and screenshot attempts failed. Module III Canvas links were not treated as original-file access.
+
+Two sequential local validation attempts timed out before a terminal receipt. Their partial directories were not counted as completed runs. The completed bounded-parallel retry is separately documented. Direct Git DNS access failed; the connected GitHub tools and a hash-verified pinned archive supplied the baseline. No raw course material is published, no human gate is signed, and the existing Assignment 2 draft and case verdict remain unchanged.
+
 ## Regular public checkpoint, v0.3.0
 
 The owner authorized a regular public release after the visitor edition and requested an accessible route for new researchers and professional readers. `ACT16` and `ACT17` in the [activity record](methods/ai-activity.json) record this publication step.

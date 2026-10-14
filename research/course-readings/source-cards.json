@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "record_type": "AI-authored bounded course-source cards; pending human review",
+  "created_at_utc": "2026-10-14T04:00:06.692248+00:00",
+  "upstream_translator_commit": "4e5d742378dd2fecbafd525eeb9754c975b83aa0",
+  "case_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "counts": {
+    "uploaded_pdf_sources": 11,
+    "module_I_physical_pages": 107,
+    "module_II_supplied_physical_pages": 126
+  },
+  "cards": [
+    {
+      "source_id": "M1-NORTH",
+      "filename": "North -Economic Performance.pdf",
+      "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+      "size_bytes": 11273722,
+      "physical_pages": 10,
+      "title": "Economic Performance Through Time",
+      "authors": [
+        "Douglass C. North"
+      ],
+      "publication_identity": "Revista Universidad Eafit, no. 93, printed pp. 9–18; essay prepared as Nobel Prize Lecture, 9 December 1993",
+      "supplied_version": "Image-only journal reproduction; PDF metadata names the print-file preparer, not the scholarly author",
+      "syllabus_edition_relation": "Different supplied layout from syllabus American Economic Review 84(3), 1994, pp. 359–368. Publication year of this reproduction is not established from its pages; no whole-text or pagination equivalence asserted.",
+      "source_type": "journal_reproduction",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "image_only_readable_by_vision; no OCR performed",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_inspection_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "core_theory",
+      "claim": {
+        "claim_id": "M1-NORTH-C1",
+        "text": "North defines institutions through formal constraints, informal constraints and enforcement characteristics that jointly shape incentives.",
+        "evidence_quote": "Institutions are the humanly devised constraints that structure human interaction.",
+        "locator": "PDF p. 2, printed p. 10, section II; qualification at PDF p. 8, printed p. 16",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "The essay does not establish which actor or rule caused the Cerrillos decision.",
+          "Formal rules, informal norms and enforcement may diverge; see printed p. 16."
+        ],
+        "permitted_use": "Distinguish rule wording, institutional actor, authority, and evidence of enforcement.",
+        "prohibited_inference": "Do not equate a proposed design or formal policy with an implemented obligation; do not cite AER page numbers for this reproduction.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Separate formal rule, actor and enforcement evidence",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest",
+      "metadata_note": "PDF metadata author names a file preparer. Scholarly authorship follows visible title page: Douglass C. North."
+    },
+    {
+      "source_id": "M1-SEN",
+      "filename": "A Decade of Human Development.pdf",
+      "sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+      "size_bytes": 246059,
+      "physical_pages": 8,
+      "title": "A Decade of Human Development",
+      "authors": [
+        "Amartya Sen"
+      ],
+      "publication_identity": "Journal of Human Development 1(1), 2000, pp. 17–23; DOI 10.1080/14649880050008746",
+      "supplied_version": "Publisher article with cover page; online-publication date on cover is 3 August 2010",
+      "syllabus_edition_relation": "Article citation matches the syllabus work; cover date is separately recorded and is not a replacement for the 2000 article year.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visual_inspection_pages": [],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "optional_evaluative_lens",
+      "claim": {
+        "claim_id": "M1-SEN-C1",
+        "text": "Sen presents human development as plural evaluation and treats the weighting of concerns as a matter for explicit social choice and public discussion.",
+        "evidence_quote": "What weights may emerge is ultimately a matter for social choice",
+        "locator": "PDF pp. 3, 6–8; printed pp. 18, 21–23",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "Sen warns against overconcentration on an aggregate index; printed p. 22.",
+          "The paper supplies neither local preference weights nor a Cerrillos distributional assessment."
+        ],
+        "permitted_use": "Ask which concerns are included in evaluation and who has grounds to contest them.",
+        "prohibited_inference": "Do not manufacture a composite sustainability score or treat employment/revenue as a complete welfare measure.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Audit evaluation criteria and unmeasured concerns",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "filename": "Ostrom, E., 2009. Building trust to solve commons dilemmas.pdf",
+      "sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+      "size_bytes": 160315,
+      "physical_pages": 39,
+      "title": "Building Trust to Solve Commons Dilemmas: Taking Small Steps to Test an Evolving Theory of Collective Action",
+      "authors": [
+        "Elinor Ostrom"
+      ],
+      "publication_identity": "Working paper W08–23, 22 September 2008; forthcoming in Games, Groups, and the Global Good; SSRN 1304695",
+      "supplied_version": "Original-author working paper, 39 pages, with figures at end",
+      "syllabus_edition_relation": "Syllabus names the 2009 chapter, pp. 207–228. The supplied 2008 working paper is directly inspected; chapter equivalence is unverified.",
+      "source_type": "author_working_paper",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "visual_inspection_pages": [],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "conditional_mechanism_lens",
+      "claim": {
+        "claim_id": "M1-OSTROM-C1",
+        "text": "Ostrom argues that cooperation depends on context, including norms, information, communication, monitoring and sanctions; no single variable has the same effect in every setting.",
+        "evidence_quote": "no single variable has the same effect in all settings.",
+        "locator": "PDF pp. 7, 21–26; monitoring and graduated sanctions on p. 25",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "Asymmetric power is identified as an important further experimental task, pp. 23–24.",
+          "The cited studies are summarized by Ostrom, not independently revalidated here."
+        ],
+        "permitted_use": "Use only if actual case evidence concerns cooperation, reciprocity, monitoring or asymmetric access.",
+        "prohibited_inference": "Do not infer community trust from withdrawal, or transplant a commons design prescription into Chilean permitting.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Test whether a trust or cooperation mechanism is actually evidenced",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "filename": "Costanza-NaturalCapitalSustainable-1992.pdf",
+      "sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+      "size_bytes": 1605434,
+      "physical_pages": 11,
+      "title": "Natural Capital and Sustainable Development",
+      "authors": [
+        "Robert Costanza",
+        "Herman E. Daly"
+      ],
+      "publication_identity": "Conservation Biology 6(1), March 1992, pp. 37–46; JSTOR 2385849",
+      "supplied_version": "Journal article reproduced through JSTOR with one cover page",
+      "syllabus_edition_relation": "The article identity and printed span correspond to the syllabus; the PDF has 11 physical pages.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "visual_inspection_pages": [
+        2,
+        3,
+        4
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "targeted_ecological_criterion",
+      "claim": {
+        "claim_id": "M1-COSTANZA-C1",
+        "text": "Costanza and Daly distinguish natural-capital stocks from service flows and propose limits on harvesting and waste emissions relative to regeneration and assimilative capacity.",
+        "evidence_quote": "harvesting rates should not exceed regeneration rates",
+        "locator": "PDF pp. 3–4, 9–10; printed pp. 38–39, 44–45",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "The operational principles fall short of a complete measurement blueprint; printed p. 45.",
+          "No local aquifer stock, recharge, abstraction or ecosystem observation is supplied."
+        ],
+        "permitted_use": "Keep project demand, ecological stock and ecosystem-service claims separate.",
+        "prohibited_inference": "Do not infer aquifer recovery or sustainability from a proposed flow-rate reduction.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Separate stock, flow and ecological sufficiency",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "filename": "Satterwhite Sustainable_Cities_or_Cities_that_Contri.pdf",
+      "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+      "size_bytes": 246535,
+      "physical_pages": 26,
+      "title": "Sustainable Cities or Cities that Contribute to Sustainable Development?",
+      "authors": [
+        "David Satterthwaite"
+      ],
+      "publication_identity": "Urban Studies 34(10), 1997, pp. 1667–1691",
+      "supplied_version": "Journal article; 25 article pages followed by one blank physical page",
+      "syllabus_edition_relation": "Syllabus cites the 2021 Earthscan reader chapter, pp. 80–106, with additional ambiguous pagination in the user transcription. The 1997 supplied article is directly inspected; equivalence remains unverified.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visual_inspection_pages": [
+        3,
+        4,
+        26
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "core_sustainability_lens",
+      "claim": {
+        "claim_id": "M1-SATTERTHWAITE-C1",
+        "text": "Satterthwaite assesses city environmental performance both within city boundaries and through costs transferred to other people, ecosystems and future periods.",
+        "evidence_quote": "reducing the transfer of environmental costs",
+        "locator": "PDF pp. 3–4, printed pp. 1669–1670; article ending p. 25; blank physical p. 26",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "The paper cautions against selecting only easily measured environmental indicators.",
+          "It does not measure a water–electricity trade-off or externalized costs for Cerrillos."
+        ],
+        "permitted_use": "State the study boundary and keep possible burden transfers as unresolved dependencies.",
+        "prohibited_inference": "Do not label the project environmentally beneficial on one resource measure; do not use 2021 pagination for the 1997 article.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Specify spatial, temporal and resource boundaries",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest",
+      "page_count_note": "26 physical pages: 25 article pages plus a visually confirmed blank final page. Indexed text reports 25 pages; no source-byte change."
+    },
+    {
+      "source_id": "M1-LOWE",
+      "filename": "City-planning-policies-to-support-health-and-susta.pdf",
+      "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+      "size_bytes": 464769,
+      "physical_pages": 13,
+      "title": "City planning policies to support health and sustainability: an international comparison of policy indicators for 25 cities",
+      "authors": [
+        "Melanie Lowe",
+        "Deepti Adlakha",
+        "James F. Sallis",
+        "Deborah Salvo",
+        "Ester Cerin",
+        "Anne Vernez Moudon",
+        "Carl Higgs",
+        "Erica Hinckson",
+        "Jonathan Arundel",
+        "Geoff Boeing",
+        "Shiqin Liu",
+        "Perla Mansour",
+        "Klaus Gebel",
+        "Anna Puig-Ribera",
+        "Pinki Bhasin Mishra",
+        "Tamara Bozovic",
+        "Jacob Carson",
+        "Jan Dygrýn",
+        "Alex A. Florindo",
+        "Thanh Phuong Ho",
+        "Hannah Hook",
+        "Ruth F. Hunter",
+        "Poh-Chin Lai",
+        "Javier Molina-García",
+        "Kornsupha Nitvimol",
+        "Adewale L. Oyeyemi",
+        "Carolina D. G. Ramos",
+        "Eugen Resendiz",
+        "Jens Troelsen",
+        "Frank Witlox",
+        "Billie Giles-Corti"
+      ],
+      "publication_identity": "The Lancet Global Health 10(6), 2022, pp. e882–e894",
+      "supplied_version": "Published journal article, 13 pages",
+      "syllabus_edition_relation": "Syllabus citation lists only part of the author group; the supplied first-page byline has the full group.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_empirical_article_or_author_manuscript",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "visual_inspection_pages": [
+        3
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "primary_methods_comparator",
+      "claim": {
+        "claim_id": "M1-LOWE-C1",
+        "text": "Lowe and colleagues assess the presence, specificity, measurability and evidence consistency of planning policies, while explicitly leaving implementation and government performance tracking unexamined.",
+        "evidence_quote": "We did not examine policy implementation",
+        "locator": "PDF pp. 2–3 and 9–10; printed pp. e883–e884 and e890–e891",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "Convenience sample: 25 cities, 19 countries; 19 high-income and six middle-income cities, no low-income cities.",
+          "Agreement coefficients concern the first three cities, not a full-sample validity certificate.",
+          "Full coding appendix is separate and uninspected."
+        ],
+        "permitted_use": "Adapt descriptive fields for aspirations, specifications, measurable targets and source status; code legal effect separately.",
+        "prohibited_inference": "Do not treat a policy-quality score as implementation, legal validity or causal environmental performance.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Design a document-coding matrix without collapsing legal effect",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [
+        {
+          "name": "Policy documents collected January–August 2019 and separate coding appendix",
+          "source_locator": "PDF pp. 2, 9–10",
+          "access": "paper_description_only; underlying documents and appendix not retrieved"
+        }
+      ],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "filename": "Piracha Pollution(1).pdf",
+      "sha256": "bede33bff48c42a79076e312a132284f518736d9cfb17ff55df8a8fde2f580ce",
+      "size_bytes": 558955,
+      "physical_pages": 19,
+      "title": "Urban Air Pollution, Urban Heat Island and Human Health: A Review of the Literature",
+      "authors": [
+        "Awais Piracha",
+        "Muhammad Tariq Chaudhary"
+      ],
+      "publication_identity": "Sustainability 14(15), 9234, published 28 July 2022; DOI 10.3390/su14159234",
+      "supplied_version": "Published literature review, 19 pages",
+      "syllabus_edition_relation": "Uploaded (1) alias has the same hash as the earlier uploaded article.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        13
+      ],
+      "visual_inspection_pages": [
+        1,
+        3,
+        13
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "course_context",
+      "claim": {
+        "claim_id": "M2-PIRACHA-C1",
+        "text": "Piracha and Chaudhary connect planning and technological approaches to air pollution and urban heat, while calling for empirical tests of mitigation effectiveness.",
+        "evidence_quote": "need for empirical research on the effectiveness",
+        "locator": "PDF p. 3, section 1.3; p. 13, section 6",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "The reviewed material mixes academic studies, policy documents and media; 171 documents are described, with overlapping categories.",
+          "The paper is a review, not a pooled causal estimate or a Cerrillos engineering assessment.",
+          "Page 3 extracted text duplicates/interleaves passages; page image is the reading authority."
+        ],
+        "permitted_use": "Use to ask whether a single intervention shifts burdens across air, heat, energy and water; keep that as a question.",
+        "prohibited_inference": "Do not import general technology claims as measured Cerrillos benefits.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Map coupled hazards without adding unsupported project effects",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "filename": "Chakraborty_Airpollution(1).pdf",
+      "sha256": "9572067dba3fbd1160741a555b85314428b491faae84c4618a1a396954ffa183",
+      "size_bytes": 1640462,
+      "physical_pages": 10,
+      "title": "Air pollution exposure disparities in US public housing developments",
+      "authors": [
+        "Jayajit Chakraborty",
+        "Timothy W. Collins",
+        "Sara E. Grineski",
+        "Jacob J. Aun"
+      ],
+      "publication_identity": "Scientific Reports 12, 9887, 2022; DOI 10.1038/s41598-022-13942-3",
+      "supplied_version": "Published observational spatial analysis, 10 pages",
+      "syllabus_edition_relation": "Uploaded (1) alias has the same hash as the earlier uploaded article.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_empirical_article_or_author_manuscript",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "visual_inspection_pages": [
+        2,
+        3,
+        4
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "distributional_methods_reserve",
+      "claim": {
+        "claim_id": "M2-CHAKRABORTY-C1",
+        "text": "Chakraborty and colleagues associate public-housing location and resident characteristics with modeled outdoor PM2.5 concentrations; the study does not establish personal dose, indoor exposure or a causal siting mechanism.",
+        "evidence_quote": "did not examine indoor air quality problems",
+        "locator": "PDF pp. 3–8; Table 1, Table 2 and Materials and methods",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "61,117 eligible tracts and 6,685 complete-case developments are distinct analysis populations.",
+          "Table 2 specifies an unstructured correlation matrix, while p. 8 specifies independent correlation for Phase 1; unresolved.",
+          "Suppressed values for 311 of 7,000 developments were replaced by 1 for the tract analysis, likely undercounting residents/units.",
+          "HUD voucher-based housing and indoor air quality are outside the analysis."
+        ],
+        "permitted_use": "Preserve exposure unit, population eligibility and distributional questions; obtain local data before making local equity claims.",
+        "prohibited_inference": "Do not treat a US modeled spatial association as proof of harm or unequal participation in Cerrillos.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Audit who and what an exposure measure actually represents",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [
+        {
+          "name": "CACES modeled PM2.5 2011–2015; HUD Picture of Subsidized Households 2015; ACS five-year estimates",
+          "source_locator": "PDF pp. 6–8",
+          "access": "paper_description_only; datasets not downloaded"
+        }
+      ],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "filename": "Kalapodis_Towards resilient infrastructure(1).pdf",
+      "sha256": "7039350d590a583edabe13e23ea8a75e0eeccdec176becdd61f1f8769a937896",
+      "size_bytes": 7223950,
+      "physical_pages": 44,
+      "title": "Towards Resilient Critical Infrastructure in the Face of Extreme Wildfire Events: Lessons and Policy Pathways from the US and EU",
+      "authors": [
+        "Nikolaos Kalapodis",
+        "Georgios Sakkas",
+        "Danai Kazantzidou-Firtinidou",
+        "Fermín Alcasena",
+        "Monica Cardarilli",
+        "George Eftychidis",
+        "Cassie Koerner",
+        "Lori Moore-Merrell",
+        "Emilia Gugliandolo",
+        "Konstantinos Demestichas",
+        "Dionysios Kolaitis",
+        "Mohamed Eid",
+        "Vasiliki Varela",
+        "Claudia Berchtold",
+        "Kostas Kalabokidis",
+        "Olga Roussou",
+        "Krishna Chandramouli",
+        "Maria Pantazidou",
+        "Mike Cox",
+        "Anthony Schultz"
+      ],
+      "publication_identity": "Infrastructures 10(9), 246, published 17 September 2025; DOI 10.3390/infrastructures10090246",
+      "supplied_version": "Published comparative review and workshop-informed synthesis, 44 pages",
+      "syllabus_edition_relation": "Uploaded (1) alias has the same hash as the earlier article; supplied full byline extends the syllabus author list.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        32,
+        33
+      ],
+      "visual_inspection_pages": [
+        1,
+        3,
+        4,
+        10,
+        11,
+        33
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "course_context",
+      "claim": {
+        "claim_id": "M2-KALAPODIS-C1",
+        "text": "Kalapodis and colleagues combine policy review, institutional comparison and case synthesis; their recommendations require further longitudinal evaluation of implementation effectiveness.",
+        "evidence_quote": "Future research should explore the effectiveness of implemented recommendations",
+        "locator": "PDF pp. 10–11, section 2; p. 33, Limitations and Future Research",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "Two workshops involved 13 and 17 participants; that is not a representative public-preference sample.",
+          "Regional case selection limits generalization even within the EU and US.",
+          "Underlying statutes, project claims and case records were not independently revalidated here."
+        ],
+        "permitted_use": "Separate a policy recommendation from evidence of its implementation; compare actors and governance levels explicitly.",
+        "prohibited_inference": "Do not infer that technology alone resolves governance problems, or that EU/US legal rules apply to Chile.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Identify implementation evidence missing from a policy recommendation",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [
+        {
+          "name": "EFFIS, NIFC, MTBS and ICS incident data cited by the review",
+          "source_locator": "PDF p. 33, Data Availability Statement",
+          "access": "paper_description_only; datasets not downloaded"
+        }
+      ],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "filename": "Blackman_Smartphone air pollution(1).pdf",
+      "sha256": "52fdf6bcc383873c510986d22396025b3f2aa6758757666bd6bb4bd10dc0ec3b",
+      "size_bytes": 1721201,
+      "physical_pages": 22,
+      "title": "Can Smartphone App Trainings Help Reduce Exposure to Air Pollution? Experimental Evidence from Bogotá",
+      "authors": [
+        "Allen Blackman",
+        "Bridget Hoffmann"
+      ],
+      "publication_identity": "Land Economics 101(4), November 2025, pp. 499–520; DOI 10.3368/le.101.4.030724-0022R1",
+      "supplied_version": "Published session-randomized trial with separate modeled health-benefit section, 22 pages",
+      "syllabus_edition_relation": "Uploaded (1) alias has the same hash as the earlier uploaded article.",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_empirical_article_or_author_manuscript",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_and_page_images_accessible",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "visual_inspection_pages": [
+        5,
+        8,
+        13,
+        16
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "primary_methods_comparator",
+      "claim": {
+        "claim_id": "M2-BLACKMAN-C1",
+        "text": "Blackman and Hoffmann estimate effects of a bundled training intervention on reported avoidance behavior; the separate health-benefit simulation is not an observed mortality result or an isolated app effect.",
+        "evidence_quote": "we rely on self-reported outcomes",
+        "locator": "PDF pp. 5–8, 13, 15–18; printed pp. 503–506, 511, 513–516",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "665 baseline, 578 endline and 536 complete-case participants are different denominators; assignment occurred across 30 baseline sessions.",
+          "One bundled treatment arm cannot identify the app component alone.",
+          "Self-reporting, pandemic overlap and student-sample external validity limit interpretation.",
+          "Printed p. 514 has unreconciled units and mortality arithmetic; modeled mortality and monetized-benefit figures remain blocked.",
+          "The separate appendix and participant-level data were not supplied or retrieved."
+        ],
+        "permitted_use": "Use to distinguish intervention, mechanism, measured response and modeled consequence. The behavioral estimate is a methods example, not a water-project effect.",
+        "prohibited_inference": "Do not say the app alone reduced pollution or deaths; do not transfer the trial effect to Cerrillos or repeat the headline monetary benefit as verified.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Trace an intervention claim through measurement and extrapolation",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [
+        {
+          "name": "Trial survey, intervention materials, appendix, Bogotá air monitoring and epidemiological model inputs",
+          "source_locator": "PDF pp. 5–8, 15–18 and supplementary-material notice p. 1",
+          "access": "main_article_only; no participant records or appendix downloaded"
+        }
+      ],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    },
+    {
+      "source_id": "M2-GU",
+      "filename": "Gu Air Pollution and TOD(1).pdf",
+      "sha256": "08db8a6a3cc89e945b6ee4c010d86f3405fc064131bfef48575e93d597fbf5a1",
+      "size_bytes": 3136687,
+      "physical_pages": 31,
+      "title": "Transit-oriented Development and Air Quality in Chinese Cities: A City-level Examination",
+      "authors": [
+        "Peiqin Gu",
+        "Dongxu He",
+        "Yulin Chen",
+        "P. Christopher Zegras",
+        "Yang Jiang"
+      ],
+      "publication_identity": "Syllabus: Transportation Research Part D: Transport and Environment 68 (2019), pp. 10–25; supplied manuscript does not establish final publication layout",
+      "supplied_version": "31-page line-numbered author manuscript; textual extraction omits material visible on page images",
+      "syllabus_edition_relation": "Same hash as earlier manuscript; publication status/date of this file and equivalence with published article remain unverified.",
+      "source_type": "author_manuscript",
+      "original_or_secondary": "original_empirical_article_or_author_manuscript",
+      "source_access": "original_uploaded_bytes_opened",
+      "readability": "text_layer_incomplete; images_required",
+      "complete_looking": true,
+      "completeness_scope": "Physical page count, source identity, available extraction and ending checked; completeness relative to another edition or online supplement is not established.",
+      "focused_reading_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        19,
+        20
+      ],
+      "visual_inspection_pages": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "figure_table_inspection": "Selected relevant tables, figures or scanned text only; rendering alone is not inspection.",
+      "assignment2_priority": "measurement_methods_reserve",
+      "claim": {
+        "claim_id": "M2-GU-C1",
+        "text": "Gu and colleagues report an association between rail-oriented development and lower average AQI, with no significant BRT association in the spatial model; average AQI and proxy inputs limit interpretation.",
+        "evidence_quote": "correlates negatively with air pollution concentrations",
+        "locator": "PDF pp. 6–9 and 19–20; sections 3.1 and 5",
+        "status": "qualified",
+        "confidence": "high for the bounded source description; no confidence assigned to its transfer to Cerrillos",
+        "contrary_or_qualifying_evidence": [
+          "Source states 152 cities, 116 neither-mode cities and 37 transit cities, while subgroups 7 + 14 + 15 sum to 36; unresolved sample-accounting discrepancy.",
+          "AQI data are from 2014; other inputs have different dates, including 2010 population and systems by end-2015.",
+          "Average AQI can conceal pollutant-specific relationships; employment uses POI proxies.",
+          "No effect is not established by a statistically nonsignificant BRT coefficient."
+        ],
+        "permitted_use": "Check units, aggregation, temporal alignment and source denominators before transferring a quantitative claim.",
+        "prohibited_inference": "Do not claim rail caused clean air or BRT is ineffective; do not silently repair the sample totals or cite journal pagination for the manuscript.",
+        "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim"
+      },
+      "task": {
+        "name": "Audit measurement aggregation and inconsistent denominators",
+        "output": "Candidate source-to-method mapping with provenance, explicit limits and a pending human review"
+      },
+      "data_candidates": [
+        {
+          "name": "2014 city AQI, climate records, yearbooks, Baidu spatial data, WorldPop 2010",
+          "source_locator": "PDF pp. 6–9",
+          "access": "paper_description_only; no data retrieved"
+        }
+      ],
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "inspection_scope": "Bounded source review of the passages listed; no exhaustive replication, whole bibliography revalidation or whole-edition comparison.",
+      "hash_comparison": "matches earlier preserved source/reading manifest"
+    }
+  ]
+}

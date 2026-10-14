@@ -1,0 +1,8 @@
+{
+  "repository": "node-and-norm/applied-ai-research-translator",
+  "commit": "4e5d742378dd2fecbafd525eeb9754c975b83aa0",
+  "path": "src/translator/cli.py",
+  "cli_sha256": "fb57d33297a1a934cc744594d5872468da7a05a842f609647bc83e4bbd6bab2d",
+  "source_archive_sha256": "bd5b5de85e0f2b497ff51b1ebb74d39295fe59604d78797ba957c08e640116cf",
+  "code_inspection": "Copies supplied PDF, invokes pdftotext -layout -nopgbrk, and writes stub agent_spec and eval_plan; no provider API or semantic analysis."
+}

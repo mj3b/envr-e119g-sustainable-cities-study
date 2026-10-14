@@ -52,3 +52,7 @@ This work establishes no implemented water savings, aquifer recovery, net enviro
 Developed for ENVR E-119g, this repository publishes authored research records, methods and code. AI assistance is disclosed; course permission does not imply faculty endorsement or permission to republish course materials. Raw readings, transcripts and private correspondence remain outside the public repository. [Sharing policy](governance/PUBLICATION.md).
 
 [Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Public checkpoint](docs/releases/v0.3.0.md)
+
+## Course-reading checkpoint
+
+The [Modules I–II reading guide](research/course-readings/README.md) now connects the supplied course sources to the study. It records source versions, numerical limitations and actual Translator schema checks. The [Assignment 2 relevance map](research/course-readings/ASSIGNMENT-02-RELEVANCE.md) explains which readings strengthen the existing draft. Source access and automated checks remain separate from human scholarly review.

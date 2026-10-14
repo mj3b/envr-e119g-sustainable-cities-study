@@ -17,3 +17,7 @@ Establish whether each material sentence is supported by its cited version. Chec
 ## Earlier preparation
 
 Earlier methods and integration notes retain their historical wording and dates. They are indexed under [research history](../../archive/README.md) rather than presented as the current draft. The owner's October 9, 2026 drafting authorization supersedes their preparation-only restrictions; it does not confer scholarly approval.
+
+## Source-review update, 14 October 2026
+
+The [reading relevance map](../../research/course-readings/ASSIGNMENT-02-RELEVANCE.md) proposes focused revisions based on the restored Module I PDFs and Module II review. Draft v0.1 is unchanged. The original assignment brief remains required for final compliance checking.
