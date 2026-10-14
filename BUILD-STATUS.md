@@ -1,3 +1,10 @@
+# Current integration status
+
+Assignment 2 v0.2 and Assignment 3 preparation are available for student review. Modules I–III reading records and October 9 guidance are integrated. The [integration audit](audit/2026-10-14-assignment-integration.json) records recovery and its limits. The [release scope](docs/releases/v0.3.2.md) is publication documentation, not scholarly acceptance. The original Assignment 2 brief and final student review remain pending.
+
+<details>
+<summary>Earlier build checkpoints, preserved</summary>
+
 # Current work status
 
 [Home](README.md) / Status · [Current case](research/cerrillos/README.md) · [Public checkpoint](docs/releases/v0.3.0.md) · [Release history](docs/releases/README.md)
@@ -84,5 +91,8 @@ The [current revision notes](assignments/assignment-01/REVISION-NOTES.md) record
 | Private archive requires separate backup | Git is not a backup of ignored originals |
 
 The [research agenda](study/RESEARCH-AGENDA.md) assigns the next consequential retrieval. No faculty access, endorsement, message or course submission is implied by repository completion.
+
+</details>
+
 
 </details>

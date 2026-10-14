@@ -2,6 +2,16 @@
 
 [Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
+## Assignment integration and resumption, October 14, 2026
+
+ACT22–ACT25 in the [machine-readable activity record](methods/ai-activity.json) cover Module III and October 9 integration, Assignment 2 v0.2, Assignment 3 rehearsal preparation, Module I analytical profiles, and interruption recovery. ChatGPT authored candidate interpretations, prose and code; source locators and human-pending fields distinguish assistance from approval. [The integration audit](audit/2026-10-14-assignment-integration.json) records exact checks and failed recovery attempts.
+
+The integration rechecked six original PDF hashes, 48 earlier candidate-artifact hashes and 29 exact private transcript excerpts. The preserved Module III receipt records the earlier six intake commands and 30 structural checks; this integration did not rerun them. Three original legal PDFs were re-inspected at named pages. No original redesign filing was newly inspected. No live Jev call, provider-backed Translator loop, independent field observation, video recording, course submission or human scholarly approval occurred.
+
+The previous workflow referenced 61 intended changes. Only three of fifteen compressed parts were retrieved, yielding eight complete change records and a partial draft. Surviving page images supported reconstruction of the memo ending and references. The remaining integration files were completed from preserved packets and original sources. They are not represented as a complete byte-identical recovery. The recovery wrapper first failed on an unavailable dependency, then on a missing blob; the data-only diagnostic succeeded. Publication follows checks of the completed content, not those failed temporary runs.
+
+Work mode was not activated by this assistant. The conversation's GitHub connection and execution tools performed the work. Mode choice does not establish reliability or explain the earlier application error. The [handoff](docs/WORK-HANDOFF.md) records entry points for continued work without assuming that all private originals transfer automatically.
+
 ## Recovery and additional execution, 14 October 2026
 
 ACT21 records recovery of 23 complete transferred changes after the interruption. The final test-file record was incomplete, so its replacement is newly authored. A repeat run completed 55 original upstream schema checks; its 88 candidate-artifact hashes match the preserved earlier run. The original upstream PDF-intake command also ran on all eleven supplied PDFs in a private directory: ten yielded nonempty text, and the North scan yielded none. Intake creates text and templates, not a scientific interpretation. The [completion checks](research/course-readings/completion-checks.json) preserve these limits, failures and log hashes. No original PDF or full extraction was added to public Git. Human review, case findings and Assignment 2 prose remain unchanged.

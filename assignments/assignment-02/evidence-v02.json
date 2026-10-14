@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-14T20:14:30.014281+00:00",
+  "record_type": "Version-specific draft claim evidence; does not overwrite the canonical ledger",
+  "draft": "assignments/assignment-02/review-draft-v02.md",
+  "draft_sha256": "ec69a4542b3305b9284f713ae21f09c40ddd3dd3a0f740a2b03010bfb60b02d1",
+  "preserved_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "sources": [
+    {
+      "ref": "A2V2-S01",
+      "title": "Sentencia, Rol R-271-2020, acumulada causa Rol R-270-2020",
+      "issuer": "Segundo Tribunal Ambiental",
+      "date": "2024-02-26",
+      "source_type": "original official judgment",
+      "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf",
+      "physical_pages": 73,
+      "directly_inspected": "Official PDF text and page images for PDF pp. 64–65 and 72; indexed opening and context",
+      "primary_for": "Judicial reasoning and operative orders",
+      "secondary_for": "The court’s descriptions and quotations of the uninspected redesign submission and screening determination",
+      "sha256": null,
+      "hash_limitation": "Web representations inspected; a fresh raw-byte download failed. No inherited hash is relabeled as a new byte check.",
+      "visual_pages": [
+        64,
+        65,
+        72
+      ]
+    },
+    {
+      "ref": "A2V2-S02",
+      "title": "Ordinario N.º 202299102452: Complementa Oficio del ANT.",
+      "issuer": "Servicio de Evaluación Ambiental",
+      "date": "2022",
+      "source_type": "original official administrative guidance",
+      "url": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2022/06/06/of_202299102452.pdf",
+      "physical_pages": 3,
+      "directly_inspected": "Official PDF text and page image, p. 2, paras. 4–8",
+      "primary_for": "Scope described by this 2022 guidance",
+      "secondary_for": "Judgments quoted within the guidance unless independently inspected",
+      "sha256": null,
+      "hash_limitation": "No new original-byte acquisition; direct web inspection only",
+      "visual_pages": [
+        2
+      ]
+    },
+    {
+      "ref": "A2V2-S03",
+      "title": "Resolución Exenta N.º 202413001362",
+      "issuer": "Comisión de Evaluación de la Región Metropolitana de Santiago",
+      "date": "2024; exact signing day not resolved",
+      "source_type": "original official administrative resolution",
+      "url": "https://seia.sea.gob.cl/archivos/2024/09/12/Res._N_202413001362_firmada.pdf",
+      "physical_pages": 5,
+      "directly_inspected": "Official PDF text and page image, p. 3, operative provisions 1–3",
+      "primary_for": "Recorded renunciation treatment and operative statements",
+      "secondary_for": "The standalone July 1 renunciation request, which remains uninspected",
+      "sha256": null,
+      "hash_limitation": "No new original-byte acquisition; URL directory date is not treated as issuance date",
+      "visual_pages": [
+        3
+      ]
+    },
+    {
+      "ref": "A2V2-S04",
+      "title": "Economic Performance Through Time",
+      "source_type": "journal_reproduction",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "filename": "North -Economic Performance.pdf",
+      "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+      "version": "Image-only journal reproduction; PDF metadata names the print-file preparer, not the scholarly author",
+      "edition_limit": "Supplied Eafit reproduction, printed pp.9–18. Issue record says 1994; article record says published online in 2012. Neither text nor pagination equivalence to the syllabus AER edition is asserted.",
+      "inspection": "Supplied original relevant pages used in the draft, with North read visually",
+      "linked_record": {
+        "path": "research/course-readings/source-cards.json",
+        "entry": "M1-NORTH"
+      }
+    },
+    {
+      "ref": "A2V2-S05",
+      "title": "Sustainable Cities or Cities that Contribute to Sustainable Development?",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_author_review_or_theoretical_argument; cited empirical studies were not separately inspected",
+      "filename": "Satterwhite Sustainable_Cities_or_Cities_that_Contri.pdf",
+      "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+      "version": "Journal article; 25 article pages followed by one blank physical page",
+      "edition_limit": "Syllabus cites the 2021 Earthscan reader chapter, pp. 80–106, with additional ambiguous pagination in the user transcription. The 1997 supplied article is directly inspected; equivalence remains unverified.",
+      "inspection": "Supplied original relevant pages used; inspection scope remains bounded.",
+      "linked_record": {
+        "path": "research/course-readings/source-cards.json",
+        "entry": "M1-SATTERTHWAITE"
+      }
+    },
+    {
+      "ref": "A2V2-S06",
+      "title": "City planning policies to support health and sustainability: an international comparison of policy indicators for 25 cities",
+      "source_type": "journal_article",
+      "original_or_secondary": "original_empirical_article_or_author_manuscript",
+      "filename": "City-planning-policies-to-support-health-and-susta.pdf",
+      "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+      "version": "Published journal article, 13 pages",
+      "edition_limit": "Syllabus citation lists only part of the author group; the supplied first-page byline has the full group.",
+      "inspection": "Supplied original relevant pages used; inspection scope remains bounded.",
+      "linked_record": {
+        "path": "research/course-readings/source-cards.json",
+        "entry": "M1-LOWE"
+      }
+    },
+    {
+      "ref": "A2V2-S07",
+      "title": "Cities in Amazonia: People and Nature in Harmony",
+      "source_type": "original multi-author IDB monograph",
+      "filename": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+      "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "physical_pages": 229,
+      "doi": "10.18235/0013757",
+      "editor": "Nora Libertun de Duren",
+      "contributions_used": [
+        {
+          "authors": [
+            "María Irene Gauto Espinola",
+            "Duval Llaguno Ribadeneira"
+          ],
+          "title": "Nature-Based Solutions",
+          "printed_pages": "157–161",
+          "pdf_pages": "158–162"
+        },
+        {
+          "authors": [
+            "Nora Libertun de Duren"
+          ],
+          "title": "Navigating Paradoxes and Charting Sustainable Futures in Urban Amazonia",
+          "printed_pages": "173, within chapter 169–174",
+          "pdf_pages": "174, within chapter 170–175"
+        }
+      ],
+      "scope": "Selected contributions, not a claim that all chapter findings were verified"
+    },
+    {
+      "ref": "A2V2-S08",
+      "source_type": "machine transcript of original classroom lecture; no audio verification",
+      "date": "2026-10-09; owner designation and archive title",
+      "title": "Water Pollution and Urban Waste: Sources, Drivers, and Impacts",
+      "public_record": "research/lecture-2026-10-09/guidance.json",
+      "transcript_sha256": "570a0717e2b399f4bcd519a11cf66864b05634476d0f05c0017e075698182a6b",
+      "locator": "Speaker 3, 45:58–48:56",
+      "speaker_attribution": "Nora Libertun de Duren, contextually supported, not voice-verified",
+      "scope": "Teaching example; no independent inspection of Fortaleza law or program evaluation"
+    },
+    {
+      "ref": "A2V2-S09",
+      "title": "Accountability for Municipal Water Commitments to Data Centers",
+      "author": "Mark Julius Banasihan",
+      "date": "2026-09-18",
+      "source_type": "authoritative submitted student work",
+      "filename": "Banasihan, Mark Julius_Assignment-1-Research-Memorandum.pdf",
+      "sha256": "16cc40e3cdf3773d969e5045674a4d418865d5814f113fb9c209d9bc0a339531",
+      "locator": "pp. 1–3",
+      "scope": "Continuity of the author’s inquiry and expressed normative starting point; no evidence of Cerrillos"
+    }
+  ],
+  "material_claims": [
+    {
+      "id": "A2-01",
+      "bounded_claim": "My first memorandum examined accountability for water commitments as assumptions change.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S09",
+      "locator": "Submitted memo p. 1 and research agenda pp. 2–3",
+      "claim_function": "author-continuity",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The submitted memo leaves the semester case open on p. 3; it presents a provisional inquiry rather than a Cerrillos finding.",
+      "permitted_use": "Use for progression from Assignment 1.",
+      "prohibited_inference": "Prior concern establishes the facts or merits of Cerrillos.",
+      "missing_dependency": "Mark must confirm that the narrowed case faithfully develops the submitted inquiry. No additional case facts follow from autobiographical continuity.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-02",
+      "bounded_claim": "The tribunal described a proposal to replace water-based cooling towers with air-cooled equipment.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S01",
+      "locator": "Judgment consideration 93, PDF p. 64",
+      "claim_function": "court-attributed description",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "Consideration 93 is the court’s account of the proposal. Neither the original design attachment nor installed equipment was inspected through that account.",
+      "permitted_use": "Describe the court’s account only.",
+      "prohibited_inference": "The underlying technical submission or installed equipment has been directly inspected.",
+      "missing_dependency": "Original PERTI-2022-3020 request and principal attachment are required for a direct technical description; Mark must verify the bounded English paraphrase of consideration 93.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-03",
+      "bounded_claim": "The court reported that the 2022 screening found such entry unnecessary, yet distinguished that determination from modification of RCA 127/2020, the original environmental qualification.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S01",
+      "locator": "Considerations 93–94, PDF pp. 64–65",
+      "claim_function": "judicial reasoning",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The court distinguishes screening from amendment of the RCA and continues the original groundwater issue. That is compatible with the rival explanation that ordinary review performed its intended function.",
+      "permitted_use": "Explain the distinction the court made.",
+      "prohibited_inference": "The full reasoning of Resolution 202213101388 has been independently reconstructed.",
+      "missing_dependency": "The complete Resolution 202213101388 is required to reconstruct the screening authority’s own reasoning and qualifications, separate from the court’s description.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-04",
+      "bounded_claim": "The SEA’s 2022 guidance grants neither execution rights nor authorization through a pertinencia response and preserves applicable requirements; the response cannot amend an RCA.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S02",
+      "locator": "p. 2, paras. 4–8",
+      "claim_function": "historical instrument content",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "Paragraphs 4–8 preserve applicable environmental requirements and sectoral authorizations; they do not make screening equivalent to every other authorization. The memo concerns this historical guidance, not a complete account of present law.",
+      "permitted_use": "Explain what this guidance states in the 2022–2024 record.",
+      "prohibited_inference": "A comprehensive account of current Chilean law or of every possible legal consequence.",
+      "missing_dependency": "Verify the Spanish modality and cross-references before submission. Any assertion about a later instrument or current general law requires that instrument’s independent inspection.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-05",
+      "bounded_claim": "The judgment partially annulled the RCA, ordered reconsideration of the groundwater assessment addressing climate change with the stated qualification, and barred execution pending a complementary RCA.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S01",
+      "locator": "p. 72, operative provisions 1–2",
+      "claim_function": "operative judicial order",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The operative order partially annuls, suspends remaining effects and requires reconsideration; treatment of an eventual cooling modification is qualified by its applicability. The order is not an operating observation.",
+      "permitted_use": "Describe the order and retain the conditional treatment of a cooling modification.",
+      "prohibited_inference": "The order itself proves construction, water savings or ecological recovery.",
+      "missing_dependency": "Human legal-language review of operative provisions 1–2 is pending. A subsequent complementary RCA or implementation claim requires the corresponding original instrument or observation.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-06",
+      "bounded_claim": "A later resolution acknowledged the holder’s renunciation and declared that the project could not proceed under the original RCA’s terms.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S03",
+      "locator": "p. 3, operative provisions 1–3",
+      "claim_function": "operative administrative statement",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The later administrative resolution is distinct from the holder’s underlying letter and any litigation withdrawal. Its RCA date also differs from the court record; exact signing date is not inferred from the download-directory date.",
+      "permitted_use": "Describe this instrument separately from the letter and litigation withdrawals.",
+      "prohibited_inference": "Representative agreement, motives, or a complete assessment of a different future project.",
+      "missing_dependency": "The standalone July 1, 2024 renunciation letter remains necessary for direct attribution of the holder’s words or motives. Human review of the resolution’s operative scope remains pending.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-07",
+      "bounded_claim": "North includes formal constraints, informal constraints and enforcement in institutions and distinguishes institutions from organizations.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S04",
+      "locator": "Supplied reproduction printed pp. 10–11; PDF pp. 2–3",
+      "claim_function": "author’s theoretical distinctions",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "North explicitly separates organizations from institutions and cautions that institutions need not be socially efficient. The argument supplies questions about incentives and enforcement, not a diagnosis of this authority.",
+      "permitted_use": "Guide the questions about authority and operative requirements.",
+      "prohibited_inference": "A diagnosed causal failure of the Chilean authority.",
+      "missing_dependency": "Verify the application against actual case instruments. The supplied Eafit reproduction is cited on its own pagination; whole-text equivalence to the AER syllabus edition remains unverified.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-08",
+      "bounded_claim": "Satterthwaite includes transferred environmental costs across people, ecosystems and time and warns against privileging easily measured indicators.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S05",
+      "locator": "Printed pp. 1669–1670; PDF pp. 3–4",
+      "claim_function": "author’s evaluative framework",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "Satterthwaite’s evaluative framework concerns environmental costs across boundaries and uneven data availability; it does not measure Cerrillos exposure, distribution or net benefit.",
+      "permitted_use": "State the environmental boundary and limits of available measures.",
+      "prohibited_inference": "Proximity proves exposure, unequal burdens or net environmental benefit.",
+      "missing_dependency": "Local environmental and affected-population observations would be needed for those empirical claims. The 2021 reader chapter remains uninspected; the memo uses the supplied 1997 article.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-09",
+      "bounded_claim": "Lowe and colleagues systematically coded policy content but excluded implementation and performance tracking from the study.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S06",
+      "locator": "Printed pp. e883, e890; PDF pp. 2, 9",
+      "claim_function": "author-described method and scope",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The authors’ policy-content study expressly excludes implementation and performance tracking. Its city sample and coder-agreement estimates do not validate the proposed legal-effect categories.",
+      "permitted_use": "Support a transparent document-coding adaptation.",
+      "prohibited_inference": "Their original indicators validate legal-effect categories or this study’s coder reliability.",
+      "missing_dependency": "The study’s own coding decisions require passage-level checking and human review. Do not report inter-rater reliability without an independently performed comparison.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-10",
+      "bounded_claim": "The assigned Nature-Based Solutions section connects ecological functions with human well-being.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S07",
+      "locator": "Gauto Espinola and Llaguno Ribadeneira, printed pp. 157–161",
+      "claim_function": "chapter-author argument",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The section is authored by Gauto Espinola and Llaguno Ribadeneira, within a volume edited by Libertun de Duren. Its ecological and social functions are a framing for interventions, not measured benefits of the Chilean redesign.",
+      "permitted_use": "Clarify the content required in an environmental-benefit claim.",
+      "prohibited_inference": "All chapters were authored by the editor or cooling redesign is a nature-based solution.",
+      "missing_dependency": "Any classification of the cooling redesign as nature-based requires original technical evidence of the relevant ecological mechanism. The present memo expressly withholds that classification.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-11",
+      "bounded_claim": "The Amazonia conclusion identifies reliable local data as necessary for evaluating promising initiatives.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S07",
+      "locator": "Libertun de Duren, printed p. 173; PDF p. 174",
+      "claim_function": "chapter-author argument",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending"
+      },
+      "contrary_or_qualifying_evidence": "The conclusion discusses data gaps in Amazonia and the difficulty of evaluating promising initiatives. Its relevance to Cerrillos is an explicit methodological application, not a local data-gap finding.",
+      "permitted_use": "Support explicit limits on environmental-effect claims.",
+      "prohibited_inference": "Data inadequacy, as a case fact, is proved for Cerrillos by a regional monograph.",
+      "missing_dependency": "Evidence of particular missing, inadequate or uncollected Cerrillos measurements must come from the case record. Mark’s acceptance of the conceptual application remains pending.",
+      "human_review": "pending"
+    },
+    {
+      "id": "A2-12",
+      "bounded_claim": "The October 9 lecture distinguished establishing initiatives from sustaining institutional commitments as people and priorities change.",
+      "status": "qualified",
+      "evidence_ref": "A2V2-S08",
+      "locator": "45:58–48:56, Speaker 3",
+      "claim_function": "contextually attributed lecture guidance",
+      "confidence": {
+        "textual_attribution": "high within the inspected passage and recorded version",
+        "case_application": "conditional; requires the stated case evidence",
+        "human_source_review": "pending",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "contrary_or_qualifying_evidence": "The supplied machine transcript supports the bounded paraphrase. Speaker identity is contextual, timestamps mark turn starts, and the Fortaleza statute and causal evaluation were not supplied or independently inspected.",
+      "permitted_use": "Explain the conceptual connection, with transcript limits.",
+      "prohibited_inference": "A Fortaleza law’s causal effectiveness has been independently verified.",
+      "missing_dependency": "Audio is needed for disputed exact wording or speaker verification; the original Fortaleza law and evaluation would be required for an empirical claim about that program. Neither is used for a new case finding here.",
+      "human_review": "pending"
+    }
+  ],
+  "originals_still_uninspected": [
+    "PERTI-2022-3020",
+    "7349-1 PERT MOD CERRILLOS DATACENTER EMI 0.pdf",
+    "Resolution 202213101388 (complete original)",
+    "Resolution 463/2021",
+    "Standalone July 1, 2024 renunciation request"
+  ],
+  "design_status": "Prospective documentary research plan; hypotheses and evaluative choices are not reported empirical findings",
+  "planned_method": "Code dated assertions and instrument effects with original-language text and English paraphrase; retain rival explanations and missing dependencies",
+  "normative_choice": "Affected people should be able to examine commitments and assumptions; candidate author position grounded in submitted Assignment 1",
+  "word_count": {
+    "method": "Whitespace tokens; exclude headings, title, header, review-status note and references. Separate disclosure count.",
+    "argument_words": 1043,
+    "argument_with_section_headings": 1067,
+    "disclosure_words": 91,
+    "argument_plus_disclosure": 1134,
+    "formal_limit_confirmed": false
+  },
+  "reference_coverage": {
+    "distinct_works_cited": 9,
+    "reference_entries": 9,
+    "matching_entries_confirmed_by_editorial_check": true,
+    "in_text_only_personal_communication_style_used": false,
+    "citation_style_compliance": "Formal course brief still needed; Lowe lists first 19 authors, ellipsis, final author. A final style check is pending.",
+    "source_unit_note": "Nine bibliography works include two separately authored sections from one physical Amazonia volume. The source register also records the submitted Assignment 1 for continuity; that student-work reference is not an additional citation in the memo bibliography."
+  },
+  "bibliographic_qualifications": [
+    "North Eafit issue record is 1994 while the article webpage displays a 2012 online date; neither proves equivalence with AER.",
+    "Satterthwaite supplied 1997 article differs from the 2021 syllabus chapter.",
+    "Amazonia chapter title page omits urban while its bylined opening/running title includes urban; the reference follows the bylined opening.",
+    "Renunciation instrument date is left at year precision; URL directory date is not an issuance finding."
+  ],
+  "public_web_checks": [
+    {
+      "url": "https://publicaciones.eafit.edu.co/index.php/revista-universidad-eafit/article/view/1412",
+      "scope": "article metadata; 2012 displayed online date and 1994 issue link"
+    },
+    {
+      "url": "https://publicaciones.eafit.edu.co/index.php/revista-universidad-eafit/issue/view/261",
+      "scope": "volume 30, issue 93 (1994); North pp. 9–18"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214109X22000699",
+      "scope": "publisher search result confirms Lowe DOI; DOI resolver returned 403"
+    }
+  ],
+  "human_scholarly_approval": null,
+  "submission_performed": false,
+  "resumption": {
+    "recorded_at": "2026-10-14T21:05:04.061925+00:00",
+    "recovery": "Draft prefix recovered from three Git blobs; ending and references reconstructed from four surviving rendered page images. Bibliography abbreviated after 19 authors for Lowe; judicial-reasoning citation added; contribution made explicitly prospective. This is not a byte-identical recovery of the lost Markdown.",
+    "original_intended_draft_sha256": "2a7b14168bfcce43658942a43c60772c422bb65a6737a8e1f51d9291c6f77e3b",
+    "independent_checks_this_turn": "Original court PDF pages 64–65,72, SEA guidance p.2, renunciation resolution p.3 visually re-inspected online. North issue metadata inspected; original case instrument gaps unchanged.",
+    "human_approval": null
+  },
+  "source_version_note": "North issue year is confirmed by publisher issue record; publisher article record separately says 2012. The supplied scan is cited, not AER pagination."
+}

@@ -27,3 +27,7 @@ Source: `SYL`, PDF pp. 3–6. Dates and weights are recorded in the [course map]
 | What the verified brief requests | Sources, alternatives, calculations, and review records that could support it | Personal reflection, understanding, judgments, and approval of final wording |
 
 Select the claims actually used, preserve source and lecture distinctions, and disclose unresolved limits. Follow the [deliverable standard](../standards/DELIVERABLES.md), [citation policy](../CITATION-POLICY.md), and [AI governance](../governance/AI-GOVERNANCE.md). A source-rich packet does not establish that the student understands or endorses an argument.
+
+## Current editions
+
+[Assignment 2 v0.2](assignment-02/README.md) is the revised review memo. [Assignment 3](assignment-03/README.md) contains a rehearsal script, source map and questions for a five-minute presentation. Previous preparation instructions remain historical; current human-review and brief-confirmation requirements appear beside the active artifacts.

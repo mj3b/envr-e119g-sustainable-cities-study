@@ -10,5 +10,57 @@
   "argument_map": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/costanza-daly-1992/argument-map.md",
   "limitations": [
     "Calibration subset; full coverage and human review pending."
-  ]
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-COSTANZA",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+    "title": "Natural Capital and Sustainable Development",
+    "authors": [
+      "Robert Costanza",
+      "Herman E. Daly"
+    ],
+    "publication_identity": "Conservation Biology 6(1), March 1992, pp. 37–46; JSTOR 2385849",
+    "supplied_version": "Journal article reproduced through JSTOR with one cover page",
+    "edition_relation": "The article identity and printed span correspond to the syllabus; the PDF has 11 physical pages.",
+    "source_bound_claim": "Costanza and Daly distinguish natural-capital stocks from service flows and propose limits on harvesting and waste emissions relative to regeneration and assimilative capacity.",
+    "source_locator": "PDF pp. 3–4, 9–10; printed pp. 38–39, 44–45",
+    "argument_steps": [
+      {
+        "label": "Stock and flow",
+        "statement": "Natural capital is a stock yielding future goods and services; reducing a demand flow does not by itself show maintenance of the supporting stock.",
+        "locator_or_basis": "Printed pp.38–39; PDF pp.3–4"
+      },
+      {
+        "label": "Ecological criterion",
+        "statement": "Proposed harvesting and emission constraints refer to regeneration and assimilative capacities, rather than equipment performance alone.",
+        "locator_or_basis": "Printed p.44; PDF p.9"
+      },
+      {
+        "label": "Measurement limit",
+        "statement": "The principles are not a complete operational measurement blueprint. A local application needs compatible abstraction, recharge and ecological observations.",
+        "locator_or_basis": "Printed p.45; PDF p.10 plus study-specific dependency"
+      }
+    ],
+    "assignment_2_role": "targeted_ecological_criterion",
+    "permitted_use": "Keep project demand, ecological stock and ecosystem-service claims separate.",
+    "prohibited_inference": "Do not infer aquifer recovery or sustainability from a proposed flow-rate reduction.",
+    "qualifications": [
+      "The operational principles fall short of a complete measurement blueprint; printed p. 45.",
+      "No local aquifer stock, recharge, abstraction or ecosystem observation is supplied."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
 }

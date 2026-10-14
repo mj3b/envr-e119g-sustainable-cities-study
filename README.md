@@ -56,3 +56,9 @@ Developed for ENVR E-119g, this repository publishes authored research records, 
 ## Course-reading checkpoint
 
 The [Modules I–II reading guide](research/course-readings/README.md) now connects the supplied course sources to the study. It records source versions, numerical limitations and actual Translator schema checks. The [Assignment 2 relevance map](research/course-readings/ASSIGNMENT-02-RELEVANCE.md) explains which readings strengthen the existing draft. Source access and automated checks remain separate from human scholarly review.
+
+## Current assignment work
+
+The [Assignment 2 review draft v0.2](assignments/assignment-02/README.md) incorporates the approved course-reading and October 9 lecture revisions. [Assignment 3 preparation](assignments/assignment-03/README.md) explains the same inquiry in a proposed five-minute presentation. Both await final student review; neither has been submitted.
+
+The [Module I source analyses](modules/01-theories-sustainable-development/README.md) now make their reasoning explicit. [Module III](research/course-readings/module-iii/README.md) and [October 9 guidance](research/lecture-2026-10-09/README.md) distinguish source claims, proposed case applications and limits. The narrowed case verdict and earlier evidence records are preserved.

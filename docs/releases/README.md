@@ -24,3 +24,7 @@ Earlier descriptions apply to their release dates. For the evolving case and evi
 ## Course-reading checkpoint
 
 [Version 0.3.1 scope note](v0.3.1.md) records the Modules I–II source review and actual Translator schema-validation exercise. The GitHub release and its tag, once published, establish the delivery event; the scope note alone does not.
+
+## Assignment integration
+
+[v0.3.2 scope](v0.3.2.md) documents Assignment 2 v0.2, Assignment 3 preparation, enriched Module I analysis, Module III and October 9 integration. A committed scope note is not proof that the corresponding GitHub release has been published; consult the release's live metadata. Earlier releases and tags remain history.

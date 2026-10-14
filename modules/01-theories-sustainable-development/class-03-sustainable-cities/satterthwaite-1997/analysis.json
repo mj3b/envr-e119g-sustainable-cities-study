@@ -1,0 +1,60 @@
+{
+  "source_id": "SAT97",
+  "claim_ids": [],
+  "argument_map": "modules/01-theories-sustainable-development/class-03-sustainable-cities/satterthwaite-1997/argument-map.md",
+  "limitations": [
+    "Syllabus cites the 2021 Earthscan reader chapter, pp. 80–106, with additional ambiguous pagination in the user transcription. The 1997 supplied article is directly inspected; equivalence remains unverified.",
+    "No canonical or human-approved claims are created by this dossier."
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-SATTERTHWAITE",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+    "title": "Sustainable Cities or Cities that Contribute to Sustainable Development?",
+    "authors": [
+      "David Satterthwaite"
+    ],
+    "publication_identity": "Urban Studies 34(10), 1997, pp. 1667–1691",
+    "supplied_version": "Journal article; 25 article pages followed by one blank physical page",
+    "edition_relation": "Syllabus cites the 2021 Earthscan reader chapter, pp. 80–106, with additional ambiguous pagination in the user transcription. The 1997 supplied article is directly inspected; equivalence remains unverified.",
+    "source_bound_claim": "Satterthwaite assesses city environmental performance both within city boundaries and through costs transferred to other people, ecosystems and future periods.",
+    "source_locator": "PDF pp. 3–4, printed pp. 1669–1670; article ending p. 25; blank physical p. 26",
+    "argument_steps": [
+      {
+        "label": "Boundary",
+        "statement": "Assess performance within a city and costs transferred to people, ecosystems or future periods.",
+        "locator_or_basis": "Printed pp.1669–1670; PDF pp.3–4"
+      },
+      {
+        "label": "Measurement selection",
+        "statement": "Easily obtained indicators can crowd out important environmental problems with scarce data; improvement in one area may impose costs elsewhere.",
+        "locator_or_basis": "Printed p.1670; PDF p.4"
+      },
+      {
+        "label": "Case use",
+        "statement": "Specify whose water system and which time period the inquiry addresses. Keep potential electricity tradeoffs and distributional effects as questions until the case records support them.",
+        "locator_or_basis": "Study application; the article provides no Cerrillos estimates"
+      }
+    ],
+    "assignment_2_role": "core_sustainability_lens",
+    "permitted_use": "State the study boundary and keep possible burden transfers as unresolved dependencies.",
+    "prohibited_inference": "Do not label the project environmentally beneficial on one resource measure; do not use 2021 pagination for the 1997 article.",
+    "qualifications": [
+      "The paper cautions against selecting only easily measured environmental indicators.",
+      "It does not measure a water–electricity trade-off or externalized costs for Cerrillos."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
+}

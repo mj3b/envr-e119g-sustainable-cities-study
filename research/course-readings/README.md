@@ -54,3 +54,9 @@ The public repository stores authored analysis, short source anchors, metadata, 
 ## Execution checkpoint after recovery
 
 The [completion record](completion-checks.json) adds a successful repeat of 55 schema checks and eleven actual upstream PDF-intake commands. Intake produced ten nonempty text extractions and one empty extraction for the North scan. The candidate readings remain AI-authored and awaiting human source review. The incomplete transfer was recovered before integration; original analysis and earlier execution records retain their dates.
+
+## Modules I–III integration
+
+The [six Module III sources](module-iii/README.md) are now integrated alongside the eleven supplied Module I–II PDFs. That is 17 distinct supplied PDFs, not all 38 syllabus works and not McConnell's separately inspected publisher HTML. The [October 9 transcript guidance](../lecture-2026-10-09/README.md) is a separate source type. The book's 229 physical pages are counted once; selected-section reading does not imply exhaustive verification.
+
+Use the [current Assignment 2 draft and notes](../../assignments/assignment-02/README.md) for the approved revision direction. Earlier source-selection plans remain dated history. All new public materials preserve the difference between AI-authored interpretation, software execution and human approval.

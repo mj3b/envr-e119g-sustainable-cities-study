@@ -26,3 +26,7 @@ The upstream README describes source intake, falsifiable claims, bounded tasks, 
 The [example card](translator-card.json) applies the pattern to the narrowed inquiry. It is an AI-authored candidate record with human review pending. “Accept for review” is not “the claim is true,” and neither is permission to implement a development project. No source-closure status is modified by this bridge.
 
 </details>
+
+## October 14 assignment integration
+
+See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-10-14-assignment-integration.json). Module III's prior software receipt is now integrated. The current activity rehashed preserved source/candidate artifacts and did not rerun the upstream validators or provider model loop. Assignment 2 v0.2 and Assignment 3 preparation are AI-assisted drafts awaiting the owner's source-fidelity and final-voice review. Earlier entries describe earlier work, not retrospective proof of current execution.

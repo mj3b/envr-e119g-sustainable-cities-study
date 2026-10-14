@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-14T18:28:16.827777+00:00",
+  "status": "Pre-delivery metadata correction; no original source edited.",
+  "previous_source_cards_sha256": "4509a93e3ccd907e69fde80f168789dd4d95e0d92293afc32a78877d9ac64f1e",
+  "updated_source_cards_sha256": "817776e8f996561a383b5213367f3ae7924124f94e3d6592e081fb0d88a60f1d",
+  "changes": [
+    "Zerbo reference-list ending corrected from45 to48 after direct ending inspection.",
+    "Paletta targeted substantive-reading range excludes reference-only page14.",
+    "Amazonia Figure1.1 on PDF30 added to detailed visual inspection list."
+  ],
+  "execution_action": "Preserve first successful receipt and rerun the six-source workflow with corrected metadata in new private directories."
+}

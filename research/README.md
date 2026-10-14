@@ -29,3 +29,7 @@ Historical analysis remains evidence of the research process. Reuse of its subst
 ## Course sources and Assignment 2
 
 Read the [Modules I–II guide](course-readings/README.md), [air-quality analysis](course-readings/MODULE-II.md), and [source-selection map](course-readings/ASSIGNMENT-02-RELEVANCE.md). Original PDFs remain private. Candidate interpretation and actual software execution have separate records.
+
+## Integrated course support
+
+[Module III](course-readings/module-iii/README.md) and [October 9 lecture guidance](lecture-2026-10-09/README.md) are now integrated. The [Assignment 2 evidence record](../assignments/assignment-02/evidence-v02.json) supports the revised memo without replacing the preserved source-closure ledger or changing its verdict.

@@ -637,6 +637,58 @@
         "reviewed_at": null
       },
       "limitation": "Recovered analysis remains AI-authored. PDF intake generated templates and ten nonempty text extractions, with North empty; no model/provider loop, OCR, Jev call, human approval or assignment prose revision. Failed retrieval and timed-out checks are separately recorded."
+    },
+    {
+      "id": "ACT22",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T21:07:10.591052+00:00",
+      "task": "Integrate Module III and October 9 source review",
+      "inputs_description": "Six supplied PDFs, preserved review and transcript packets",
+      "output_description": "Public reading records, selected reading guides and 29 attributed lecture paraphrases",
+      "ai_contribution": "Source analysis, drafting or code preparation as described; not a human review",
+      "deterministic_operations": "Rehash six originals and 48 candidate artifacts; match 29 private excerpts against supplied text",
+      "limits": "No new upstream validator run or audio verification; preserved earlier execution remains separately dated",
+      "human_approval": null,
+      "live_jev_calls": 0
+    },
+    {
+      "id": "ACT23",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T21:07:10.591052+00:00",
+      "task": "Revise Assignment 2 and prepare Assignment 3",
+      "inputs_description": "Approved plan, partial draft, surviving page images and original source passages",
+      "output_description": "Review draft v0.2, evidence ledger, review notes, rehearsal script and timing/source map",
+      "ai_contribution": "Source analysis, drafting or code preparation as described; not a human review",
+      "deterministic_operations": "Recover and reconstruct draft; re-inspect three original legal PDFs at named pages; count words",
+      "limits": "No assignment submission, actual rehearsal, new case measurements or human scholarly approval",
+      "human_approval": null,
+      "live_jev_calls": 0
+    },
+    {
+      "id": "ACT24",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T21:07:10.591052+00:00",
+      "task": "Enrich Module I source-analysis records",
+      "inputs_description": "Six supplied reading cards, actual passages and existing schema/IDs",
+      "output_description": "Six substantive profiles and Class 3 reading route",
+      "ai_contribution": "Source analysis, drafting or code preparation as described; not a human review",
+      "deterministic_operations": "Extend schema and add source claims, applications, locators, qualifications and pending reviews",
+      "limits": "No promotion of canonical claim status or class fidelity gates",
+      "human_approval": null,
+      "live_jev_calls": 0
+    },
+    {
+      "id": "ACT25",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T21:07:10.591052+00:00",
+      "task": "Recover interrupted repository delivery and document mode choice",
+      "inputs_description": "Live branch, incomplete referenced transfer and preserved artifacts",
+      "output_description": "Integration audit, versioned documents, tests and release preparation",
+      "ai_contribution": "Source analysis, drafting or code preparation as described; not a human review",
+      "deterministic_operations": "GitHub reads/writes; data-only recovery; local source-hash and consistency checks",
+      "limits": "Only three of fifteen parts retrieved; eight complete change records and draft fragment recovered; remaining work reconstructed, not claimed byte-identical",
+      "human_approval": null,
+      "live_jev_calls": 0
     }
   ],
   "performed_without_model_judgment": [
@@ -697,5 +749,16 @@
     "earlier_fields": "Historical zero-use or non-execution fields remain about their original increments.",
     "live_jev_calls_in_increment": 0,
     "upstream_provider_runloop_calls": 0
+  },
+  "assignment_integration_update": {
+    "recorded_at": "2026-10-14T21:07:10.591052+00:00",
+    "activity_ids": [
+      "ACT22",
+      "ACT23",
+      "ACT24",
+      "ACT25"
+    ],
+    "status": "AI-authored revision and repository integration; human final review pending",
+    "earlier_not_performed_fields": "Earlier session-specific fields are historical and are not rewritten as current claims."
   }
 }
