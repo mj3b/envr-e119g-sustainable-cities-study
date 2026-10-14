@@ -1,0 +1,64 @@
+name: Recover and verify assignment update
+on:
+  push:
+    branches: [research/assignment-02-module-03-20261014]
+    paths: [.github/workflows/recover-and-verify-assignment.yml]
+permissions:
+  contents: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Reuse the inspected and pinned materialization step
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import hashlib,os,pathlib,subprocess,sys,yaml
+          assert os.environ['GITHUB_REPOSITORY']=='mj3b/envr-e119g-sustainable-cities-study'
+          assert os.environ['GITHUB_REF']=='refs/heads/research/assignment-02-module-03-20261014'
+          data=pathlib.Path('.github/workflows/prepare-assignment-integration.yml').read_bytes()
+          assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()=='38793fab4875a3b58b76801a7cc7382ef0d54b2c'
+          steps=yaml.safe_load(data)['jobs']['prepare']['steps']
+          selected=[s for s in steps if s.get('name')=='Apply only hash-bound authored changes']
+          assert len(selected)==1
+          code=selected[0]['run']
+          assert code.startswith("python3 - <<'PY'\n") and code.endswith('\nPY\n')
+          code=code[len("python3 - <<'PY'\n"):-len('\nPY\n')]
+          subprocess.run([sys.executable,'-c',code],check=True)
+          print('Reused only the pinned, inspected data-materialization step; no branch publication.')
+          PY
+      - name: Verify the prepared content tree
+        run: |
+          git rm --ignore-unmatch .github/workflows/prepare-assignment-integration.yml .github/workflows/recover-and-verify-assignment.yml audit/assignment-delivery-trigger.json
+          git add -A
+          python scripts/markdown_audit.py > "$RUNNER_TEMP/assignment-markdown-screen.json"
+          python scripts/publication_check.py
+          python scripts/assure.py
+          python scripts/assure.py --check
+          git add governance/evaluation-results.json
+          tree=$(git write-tree)
+          mkdir -p "$RUNNER_TEMP/assignment-recovery"
+          git archive --format=zip --output="$RUNNER_TEMP/assignment-recovery/prepared-source.zip" "$tree"
+          git diff --cached --stat > "$RUNNER_TEMP/assignment-recovery/change-stat.txt"
+          git diff --cached --raw > "$RUNNER_TEMP/assignment-recovery/tree-changes.txt"
+          printf '%s\n' "$tree" > "$RUNNER_TEMP/assignment-recovery/prepared-tree.txt"
+          printf '%s\n' "$GITHUB_SHA" > "$RUNNER_TEMP/assignment-recovery/trigger-commit.txt"
+          cp governance/evaluation-results.json "$RUNNER_TEMP/assignment-recovery/evaluation-results.json"
+          cp "$RUNNER_TEMP/assignment-markdown-screen.json" "$RUNNER_TEMP/assignment-recovery/markdown-screen.json"
+          sha256sum "$RUNNER_TEMP/assignment-recovery/prepared-source.zip"
+          echo 'Prepared files only; main, release, scholarly approval and course submission unchanged.'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: recovered-assignment-inspection-${{ github.run_id }}
+          path: ${{ runner.temp }}/assignment-recovery/
+          retention-days: 2
+          if-no-files-found: error
