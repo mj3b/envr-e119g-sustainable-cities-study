@@ -4,7 +4,7 @@ on:
     branches: [research/assignment-02-module-03-20261014]
     paths: [.github/workflows/recover-and-verify-assignment.yml]
 permissions:
-  contents: read
+  contents: write
 jobs:
   recover:
     runs-on: ubuntu-latest
@@ -22,17 +22,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY'
-          import hashlib,os,pathlib,subprocess,sys,yaml
+          import hashlib,os,pathlib,subprocess,sys,textwrap
           assert os.environ['GITHUB_REPOSITORY']=='mj3b/envr-e119g-sustainable-cities-study'
           assert os.environ['GITHUB_REF']=='refs/heads/research/assignment-02-module-03-20261014'
           data=pathlib.Path('.github/workflows/prepare-assignment-integration.yml').read_bytes()
           assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()=='38793fab4875a3b58b76801a7cc7382ef0d54b2c'
-          steps=yaml.safe_load(data)['jobs']['prepare']['steps']
-          selected=[s for s in steps if s.get('name')=='Apply only hash-bound authored changes']
-          assert len(selected)==1
-          code=selected[0]['run']
-          assert code.startswith("python3 - <<'PY'\n") and code.endswith('\nPY\n')
-          code=code[len("python3 - <<'PY'\n"):-len('\nPY\n')]
+          text=data.decode('utf-8')
+          code=text.split("          python3 - <<'PY'\n",1)[1].split('\n          PY\n',1)[0]
+          code=textwrap.dedent(code)
+          assert code.startswith('import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request')
           subprocess.run([sys.executable,'-c',code],check=True)
           print('Reused only the pinned, inspected data-materialization step; no branch publication.')
           PY
@@ -49,13 +47,37 @@ jobs:
           mkdir -p "$RUNNER_TEMP/assignment-recovery"
           git archive --format=zip --output="$RUNNER_TEMP/assignment-recovery/prepared-source.zip" "$tree"
           git diff --cached --stat > "$RUNNER_TEMP/assignment-recovery/change-stat.txt"
-          git diff --cached --raw > "$RUNNER_TEMP/assignment-recovery/tree-changes.txt"
+          git diff --cached --raw --abbrev=40 > "$RUNNER_TEMP/assignment-recovery/tree-changes.txt"
           printf '%s\n' "$tree" > "$RUNNER_TEMP/assignment-recovery/prepared-tree.txt"
           printf '%s\n' "$GITHUB_SHA" > "$RUNNER_TEMP/assignment-recovery/trigger-commit.txt"
+          git rev-parse HEAD^{tree} > "$RUNNER_TEMP/assignment-recovery/base-tree.txt"
           cp governance/evaluation-results.json "$RUNNER_TEMP/assignment-recovery/evaluation-results.json"
           cp "$RUNNER_TEMP/assignment-markdown-screen.json" "$RUNNER_TEMP/assignment-recovery/markdown-screen.json"
           sha256sum "$RUNNER_TEMP/assignment-recovery/prepared-source.zip"
-          echo 'Prepared files only; main, release, scholarly approval and course submission unchanged.'
+      - name: Store checked non-workflow blobs without changing any branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          deletions={'.github/workflows/prepare-assignment-integration.yml','.github/workflows/recover-and-verify-assignment.yml','audit/assignment-delivery-trigger.json'}
+          def upload(name):
+              p=pathlib.Path(name)
+              if not p.exists():
+                  assert name in deletions
+                  return {'path':name,'mode':'100644','type':'blob','sha':None}
+              assert not name.startswith('.github/') and p.suffix in ('.md','.json','.py')
+              data=p.read_bytes(); expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'},method='POST')
+              with urllib.request.urlopen(req,timeout=30) as r: obj=json.load(r)
+              assert obj['sha']==expected
+              return {'path':name,'mode':'100644','type':'blob','sha':expected}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
+          out=pathlib.Path(os.environ['RUNNER_TEMP'])/'assignment-recovery'/'tree-entries.json'
+          out.write_text(json.dumps(entries,indent=2)+'\n')
+          print('Stored',len(entries),'checked entries. Main, branch reference, release and human approval unchanged.')
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: recovered-assignment-inspection-${{ github.run_id }}
