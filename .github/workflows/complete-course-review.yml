@@ -1,0 +1,127 @@
+name: Complete recovered course review
+on:
+  push:
+    branches: [research/module-02-translator-20261014]
+    paths: [.github/workflows/complete-course-review.yml]
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Reconstruct reviewed records and apply bounded completion additions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          assert os.environ['GITHUB_REPOSITORY']==repo
+          assert os.environ['GITHUB_REF']=='refs/heads/research/module-02-translator-20261014'
+          def blob(sha):
+              req=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req,timeout=30) as r: obj=json.load(r)
+              assert obj['encoding']=='base64'
+              data=base64.b64decode(''.join(obj['content'].split()),validate=True)
+              assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==sha
+              return data
+          parts=['d0491d71957969dfda6f60c4c89359366028cf7f','2793f2b8791bc58f78a4c9c1377245c11f136d11','5664cfe25da7827e69a4aa7d41863df3d66bb67c','1998d163f182d94aa2f7e77e0db5b4680b262b39']
+          dec=lzma.LZMADecompressor(memlimit=100000000)
+          raw=dec.decompress(b''.join(blob(s) for s in parts),max_length=3000000)
+          assert not dec.eof
+          assert hashlib.sha256(raw).hexdigest()=='f722d9a38ac56477a36c8f948c9346c7d42e9ba2b3826b5d4d3678a4d45e143d'
+          text=raw.decode(); pos=text.index('"files":[')
+          header=json.loads(text[:pos]+'"files":[]}');pos+=len('"files":[')
+          decoder=json.JSONDecoder(); entries=[]
+          while True:
+              try: entry,end=decoder.raw_decode(text,pos)
+              except json.JSONDecodeError: break
+              entries.append(entry);pos=end
+              if text[pos:pos+1]==',':pos+=1
+              else:break
+          assert len(entries)==23
+          assert header['base_commit']=='018880848a557931f0a381926cfa98e78645fb45'
+          subprocess.run(['git','merge-base','--is-ancestor',header['base_commit'],'HEAD'],check=True)
+          packed=blob('fd6010ceb40870c5cb92130cb9b85c99e57b1655')
+          assert hashlib.sha256(packed).hexdigest()=='7502fab8ed9459780ea9748c5a50d936c7d6ba9a80d9925fea7006817e45919c'
+          extra_raw=lzma.decompress(packed,memlimit=100000000)
+          assert hashlib.sha256(extra_raw).hexdigest()=='9dcbdf99e0f7f51ffccea0f5ebf45e11c1972905f9195a2a3af0fa918aee6b54'
+          extras=json.loads(extra_raw);assert extras['schema']==1 and len(extras['files'])==10
+          root=pathlib.Path.cwd()
+          def safe(name):
+              p=pathlib.PurePosixPath(name)
+              assert not p.is_absolute() and not any(x in p.parts for x in ('..','.git','private','sources','transcripts'))
+              assert p.suffix in ('.md','.json','.py') and '\\' not in name
+              target=root.joinpath(*p.parts)
+              assert not target.is_symlink() and not any(p.is_symlink() for p in target.parents)
+              return target
+          def protect():
+              for name,digest in header['protected'].items(): assert hashlib.sha256(safe(name).read_bytes()).hexdigest()==digest,name
+          protect()
+          historical=json.loads((root/'methods/ai-activity.json').read_text())['activities']
+          def apply(e,original):
+              path=safe(e['path']);prior=path.read_bytes() if path.is_file() else None
+              assert (hashlib.sha256(prior).hexdigest() if prior is not None else None)==e['old_sha256' if original else 'prior_sha256'],e['path']
+              op=e['operation']
+              if op=='content': data=e['content'].encode()
+              elif op=='insert': data=prior[:e['position']]+e['text'].encode()+prior[e['position']:]
+              elif op=='append': data=prior+e['text'].encode()
+              elif op=='wrap': data=e['prefix'].encode()+prior+e['suffix'].encode()
+              elif op=='append_activities':
+                  obj=json.loads(prior);ids={a['id'] for a in obj['activities']}
+                  assert not any(a['id'] in ids for a in e['activities'])
+                  obj['activities'].extend(e['activities'])
+                  if 'course_reading_execution_update' in e:obj['course_reading_execution_update']=e['course_reading_execution_update']
+                  data=(json.dumps(obj,indent=2,ensure_ascii=False)+'\n').encode()
+              else:raise ValueError(op)
+              data.decode('utf-8')
+              assert hashlib.sha256(data).hexdigest()==e['sha256' if original else 'after_sha256'],e['path']
+              path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
+          for e in entries:apply(e,True)
+          for e in extras['files']:apply(e,False)
+          protect()
+          assert json.loads((root/'methods/ai-activity.json').read_text())['activities'][:len(historical)]==historical
+          print('Recovered 23 complete records; applied 10 completion records; protected research and prior AI activities unchanged.')
+          PY
+      - name: Remove temporary workflows and run actual checks
+        run: |
+          git rm .github/workflows/inspect-translator-baseline.yml .github/workflows/recover-interrupted-course-edit.yml .github/workflows/complete-course-review.yml
+          git add -A
+          python scripts/markdown_audit.py > "$RUNNER_TEMP/course-markdown-screen.json"
+          python scripts/research_progress.py --check
+          python scripts/publication_check.py
+          python scripts/assure.py
+          python scripts/assure.py --check
+          git add governance/evaluation-results.json
+      - name: Store checked file blobs for connector commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          def upload(name):
+              path=pathlib.Path(name)
+              if not path.exists():
+                  assert name in ['.github/workflows/inspect-translator-baseline.yml','.github/workflows/recover-interrupted-course-edit.yml','.github/workflows/complete-course-review.yml']
+                  return {'path':name,'mode':'100644','type':'blob','sha':None}
+              assert not name.startswith('.github/')
+              data=path.read_bytes();expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'},method='POST')
+              with urllib.request.urlopen(req,timeout=30) as r:obj=json.load(r)
+              assert obj['sha']==expected
+              return {'path':name,'mode':'100644','type':'blob','sha':expected}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:entries=list(pool.map(upload,names))
+          print('CONNECTOR_BASE_COMMIT',os.environ['GITHUB_SHA'])
+          print('CONNECTOR_BASE_TREE',subprocess.check_output(['git','rev-parse','HEAD^{tree}']).decode().strip())
+          print('CONNECTOR_TREE_ENTRIES',json.dumps(entries,separators=(',',':')))
+          print('Stored checked blobs only. No branch update, PR merge, release or human approval inferred.')
+          PY
