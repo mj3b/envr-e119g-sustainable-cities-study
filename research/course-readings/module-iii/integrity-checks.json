@@ -1,0 +1,113 @@
+{
+  "recorded_at_utc": "2026-10-14T18:29:59.661594+00:00",
+  "source_checks": [
+    {
+      "source_id": "M3-AKHTAR",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "source_sha256_matches": true,
+      "pdf_pages_match": true,
+      "short_anchor_found_with_linebreak_normalization": true
+    }
+  ],
+  "passed_candidate_schema_checks": 30,
+  "candidate_artifact_hashes_checked": 48,
+  "local_markdown_link_checks": [
+    {
+      "from": "README.md",
+      "target": "MODULE-III-REVIEW.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "AMAZONIA-READING-MAP.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "ASSIGNMENT-02-REVISION-MAP.md",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "source-manifest.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "source-cards.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "claim-evidence-ledger.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "quantitative-register.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "translator-evidence/execution-receipt.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "first-successful-execution-receipt.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "execution-interruption.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "review-corrections.json",
+      "exists": true
+    },
+    {
+      "from": "README.md",
+      "target": "run_module_iii_checks.py",
+      "exists": true
+    }
+  ],
+  "json_files_parsed": 45,
+  "raw_pdf_files_in_delivery": 0,
+  "original_article_extractions_in_delivery": 0,
+  "short_quotation_files": 6,
+  "repository_changed": false,
+  "case_sources_revalidated": false,
+  "human_scholarly_approval": null,
+  "limits": "Checks establish local file consistency, quotation presence and schemas. They do not verify underlying datasets, every source claim, ecological effects or scholarly acceptance."
+}

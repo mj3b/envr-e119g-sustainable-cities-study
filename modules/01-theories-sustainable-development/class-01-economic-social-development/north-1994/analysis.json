@@ -8,5 +8,56 @@
   "argument_map": "modules/01-theories-sustainable-development/class-01-economic-social-development/north-1994/argument-map.md",
   "limitations": [
     "Calibration subset; full coverage and human review pending."
-  ]
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-NORTH",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+    "title": "Economic Performance Through Time",
+    "authors": [
+      "Douglass C. North"
+    ],
+    "publication_identity": "Revista Universidad Eafit, no. 93, printed pp. 9–18; essay prepared as Nobel Prize Lecture, 9 December 1993",
+    "supplied_version": "Image-only journal reproduction; PDF metadata names the print-file preparer, not the scholarly author",
+    "edition_relation": "Different supplied layout from syllabus American Economic Review 84(3), 1994, pp. 359–368. Publication year of this reproduction is not established from its pages; no whole-text or pagination equivalence asserted.",
+    "source_bound_claim": "North defines institutions through formal constraints, informal constraints and enforcement characteristics that jointly shape incentives.",
+    "source_locator": "PDF p. 2, printed p. 10, section II; qualification at PDF p. 8, printed p. 16",
+    "argument_steps": [
+      {
+        "label": "Institutional object",
+        "statement": "Separate formal constraints, informal constraints and enforcement; then distinguish institutions from organizations.",
+        "locator_or_basis": "Supplied printed pp.10–11; PDF pp.2–3"
+      },
+      {
+        "label": "Mechanism to investigate",
+        "statement": "Ask which rule can change incentives, which actor holds the relevant authority, and whether evidence shows the rule being enforced. These are study questions, not North's findings about Chile.",
+        "locator_or_basis": "Application of source argument; case-specific evidence required"
+      },
+      {
+        "label": "Counterpressure",
+        "statement": "North rejects the presumption that institutions are necessarily socially efficient; bargaining power and learning shape change. Do not treat formal legalization as proof of adequate governance.",
+        "locator_or_basis": "Supplied printed pp.11–14; PDF pp.3–6"
+      }
+    ],
+    "assignment_2_role": "core_theory",
+    "permitted_use": "Distinguish rule wording, institutional actor, authority, and evidence of enforcement.",
+    "prohibited_inference": "Do not equate a proposed design or formal policy with an implemented obligation; do not cite AER page numbers for this reproduction.",
+    "qualifications": [
+      "The essay does not establish which actor or rule caused the Cerrillos decision.",
+      "Formal rules, informal norms and enforcement may diverge; see printed p. 16."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
 }

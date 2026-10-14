@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-14T21:07:10.591052+00:00",
+  "baseline_commit": "6b39353d3e6df173250c61ce329ed01e39f56767",
+  "protected_sha256": {
+    "research/CURRENT.md": "c1dbb0e7a2d9bd506a2798947ac10ba6ce0d9d661aed3216fb651f44ac16295f",
+    "assignments/assignment-02/review-draft-v01.md": "62f3e96b6a12cccc0bf47164433fbf7ef22011049ac7da8e48c1843e9ee50cdc",
+    "assignments/assignment-02/review-notes-v01.md": "881f0f9a432175c23fe33a526788f9d72570258177e47ba0c78d66ee00733f90",
+    "research/cerrillos/draft-source-checks.json": "8e3dd0b8d7aa955c2ead615b5b8494c0ae95a5b5929a0a5eae1cca01a0a1f95f",
+    "cross-course/claims.json": "309fd4fa9ff0f0abe5bdd027981b0bb34a22004727a206ed15037e220f154776",
+    "cross-course/evidence-registry.json": "b964dd03e2c61cebe612fb61b29f609324643c1187755cc44716240d2a1d39e4",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Sprint.md": "28723630b7a61a8fb855856681f469edaa06ebac8f6d5fba40092fee5b44b366",
+    "research/cerrillos/history/ENVR_E119g_Cerrillos_Source_Closure_Ledger.json": "c2d26c7fa5a8882b72eb3337050d078eb75a4b045f717ed063483907c56fe103"
+  },
+  "module3_original_hash_checks": [
+    {
+      "source_id": "M3-AKHTAR",
+      "sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "matches": true
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "matches": true
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "matches": true
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "matches": true
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "matches": true
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "matches": true
+    }
+  ],
+  "module3_candidate_artifact_hashes_checked": 48,
+  "prior_execution_receipt_sha256": "a1dd5dfc402899363b71900a94585fd3baf95a00e31069e37ccd69951fe5fa83",
+  "new_translator_validator_execution": false,
+  "prior_validator_checks": 30,
+  "lecture_original_hash_verified": true,
+  "lecture_exact_excerpt_matches_private": 29,
+  "audio_verification": false,
+  "public_lecture_derivative": "Paraphrases, locators and limits only; no raw transcript or exact excerpts",
+  "recovery": {
+    "planned_file_count": 61,
+    "available_compressed_parts": 3,
+    "unretrieved_parts": 12,
+    "complete_change_records_recovered": 8,
+    "draft_fragment_recovered": true,
+    "ending_reconstructed_from_page_images": true,
+    "full_original_payload_recovered": false,
+    "diagnostic_run": 38636150472,
+    "artifact_sha256": "ef26f6b6d4c33f78d4a3ce942d02605350da9d9652317ddc7db0bb419e9d8046"
+  },
+  "operational_failures": [
+    {
+      "run": 38635708911,
+      "reason": "Recovery wrapper required unavailable yaml module; removed dependency"
+    },
+    {
+      "run": 38635884270,
+      "reason": "Referenced transfer blob returned HTTP404; no prepared content published"
+    },
+    {
+      "operation": "workflow-runs URL read",
+      "reason": "Connector allowlist rejected endpoint; repository runs endpoint used instead"
+    }
+  ],
+  "source_reinspection": [
+    {
+      "source": "A2V2-S01",
+      "pages": [
+        64,
+        65,
+        72
+      ],
+      "type": "official PDF visual and text",
+      "new_raw_file_checksum": null
+    },
+    {
+      "source": "A2V2-S02",
+      "pages": [
+        2
+      ],
+      "type": "official PDF visual and text",
+      "new_raw_file_checksum": null
+    },
+    {
+      "source": "A2V2-S03",
+      "pages": [
+        3
+      ],
+      "type": "official PDF visual and text",
+      "new_raw_file_checksum": null
+    }
+  ],
+  "new_field_observations": 0,
+  "new_case_technical_inputs": 0,
+  "human_scholarly_approval": null,
+  "course_submission": false,
+  "work_mode_interface_switch": false,
+  "case_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION"
+}

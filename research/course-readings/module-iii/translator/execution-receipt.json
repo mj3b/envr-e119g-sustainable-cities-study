@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-14T18:28:17.615764+00:00",
+  "finished_at_utc": "2026-10-14T18:28:41.066908+00:00",
+  "upstream_repository": "node-and-norm/applied-ai-research-translator",
+  "upstream_commit": "4e5d742378dd2fecbafd525eeb9754c975b83aa0",
+  "upstream_file_hashes": {
+    "README.md": "382ed1f5904ea890137ef6dd26b9b30ce29c8251e1852614bd0648f05b913983",
+    "runloop/run_t_c02.py": "c649c2a69c52ff1990598665819d41059222121743220fa6a2e8398a3f5ab051",
+    "schemas/agent_spec.schema.json": "33b433456c8850e4a6b91cdcaf10849a733f1c2de18438b79c2d4e2b011ca7b1",
+    "schemas/claims.schema.json": "145fc2ea8edaee8b6dfeab9690b2a631da0520026c45062b055c188cf8fd3704",
+    "schemas/decision_summary.schema.json": "5103f96acdada9b1cbadc6d9f7252a639ccc316322c9bb567fd118ad74faebb3",
+    "schemas/run_input.schema.json": "e93824a0f2e47a89b36dc419ae7498491ca7b4d286aabc9cbdc7f46a251d9e2b",
+    "schemas/run_output.schema.json": "7f07c752727251a6ffae7f8da8cf3c9c8effeb85afa7ca8e81948e7964a6d785",
+    "schemas/safety_policy_intake.schema.json": "f91642018b723a546126815686e5384df16e98625b84c22e6f1a53acc8d5dc3c",
+    "schemas/tasks.schema.json": "e4b182c534ca5f946c5145f21cef625d25335ae5abe51d8a9cf4f1922232cb6e",
+    "scripts/validate_claims.sh": "7519a9b8d4fc02044f4272fe0f3b434d0c286bb8840c7e5eeaa62e3c21f21fb4",
+    "scripts/validate_pack.sh": "6122d3d858a4933d367c766f83b44ea14fc9c7867e3ad02a52e7e0e6cb0525b6",
+    "scripts/validate_run_input.sh": "b9069e4bb06e1b6f6a71b7a86ce90a581c0a7086bf25ac3d863bb7b943635a82",
+    "scripts/validate_run_output.sh": "4d74ab0ab8938ff553d9b6ed3a9bdca6542e4b6dd8aa5b20c392bcf50f47086d",
+    "scripts/validate_tasks.sh": "c79c47666310a676efd3784a8ad56b32b8602fb89db38afb020037252c666c4d"
+  },
+  "pdf_cli_sha256": "fb57d33297a1a934cc744594d5872468da7a05a842f609647bc83e4bbd6bab2d",
+  "study_candidate_builder_sha256": "ae5152cdf6b2700882657c6e3f2e2948590fae02d50d32b567d6b9199399acd4",
+  "this_wrapper_sha256": "c9ec6ec0917bf0f59b807acf2b0b2d263e80893e3ff2973649b5396a326f2767",
+  "source_cards_sha256": "817776e8f996561a383b5213367f3ae7924124f94e3d6592e081fb0d88a60f1d",
+  "runtime": {
+    "python": "3.13.5",
+    "jsonschema": "4.26.0",
+    "pdftotext": "pdftotext version 25.06.0\nCopyright 2005-2025 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+  },
+  "source_checks": [
+    {
+      "source_id": "M3-AKHTAR",
+      "filename": "Aktar_water-13-02660.pdf",
+      "sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "byte_check": "pass",
+      "physical_pages": 35
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "filename": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+      "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "byte_check": "pass",
+      "physical_pages": 229
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "filename": "Gutberlet_reimagining urban wm.pdf",
+      "sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "byte_check": "pass",
+      "physical_pages": 5
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "filename": "Hettiarachchi_Organic Waste Buyback.pdf",
+      "sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "byte_check": "pass",
+      "physical_pages": 15
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "filename": "Palette_plastic valorisation.pdf",
+      "sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "byte_check": "pass",
+      "physical_pages": 15
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "filename": "Vulnerability_and_everyday_health_risks_of_urban_i.pdf",
+      "sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "byte_check": "pass",
+      "physical_pages": 5
+    }
+  ],
+  "pdf_intake": [
+    {
+      "source_id": "M3-AKHTAR",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Various Natural and Anthropogenic Factors Responsible for Water Quality Degradation: A Review",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Aktar_water-13-02660.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/various_natural_and_anthropogenic_factors_responsible_for_wa_b0a40aa8\n",
+      "stderr": "",
+      "copied_pdf_sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "matches_original": true,
+      "extracted_text_bytes": 229653,
+      "extracted_text_sha256": "bed9c4e5cf43a9e0184ec2cd86fce6f8d81098dc5e94a96f707c33f457feb72d",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Cities in Amazonia: People and Nature in Harmony",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/cities_in_amazonia_people_and_nature_in_harmony_2a59c783\n",
+      "stderr": "",
+      "copied_pdf_sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "matches_original": true,
+      "extracted_text_bytes": 584440,
+      "extracted_text_sha256": "83a5cd98be17ae3e9a155c3a3bd4f8f145789a64d650c134a36c25838bf4bf5c",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Reimagining urban waste management: Addressing social, climate, and resource challenges in modern cities",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Gutberlet_reimagining urban wm.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/reimagining_urban_waste_management_addressing_social_climate_26fe5d9b\n",
+      "stderr": "",
+      "copied_pdf_sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "matches_original": true,
+      "extracted_text_bytes": 47304,
+      "extracted_text_sha256": "b9ed0364775521f2f5f159b7baec8f2e92636dc8e6b43a3ccf46c441425c488a",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Organic Waste Buyback as a Viable Method to Enhance Sustainable Municipal Solid Waste Management in Developing Countries",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Hettiarachchi_Organic Waste Buyback.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/organic_waste_buyback_as_a_viable_method_to_enhance_sustaina_3d738ad9\n",
+      "stderr": "",
+      "copied_pdf_sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "matches_original": true,
+      "extracted_text_bytes": 86498,
+      "extracted_text_sha256": "35c204390ba291f33cba2c136fe1d587d7fd330b83cf863dc7a059d279fd7b33",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Barriers and challenges to plastics valorisation in the context of a circular economy: Case studies from Italy",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Palette_plastic valorisation.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/barriers_and_challenges_to_plastics_valorisation_in_the_cont_409e579a\n",
+      "stderr": "",
+      "copied_pdf_sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "matches_original": true,
+      "extracted_text_bytes": 116405,
+      "extracted_text_sha256": "be997dbf4bd42612d83d53b51348184274da9d298015e387b6e38afd18d3584f",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Vulnerability and everyday health risks of urban informal settlements in Sub-Saharan Africa",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Vulnerability_and_everyday_health_risks_of_urban_i.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/vulnerability_and_everyday_health_risks_of_urban_informal_se_1d0968fa\n",
+      "stderr": "",
+      "copied_pdf_sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "matches_original": true,
+      "extracted_text_bytes": 41385,
+      "extracted_text_sha256": "8a0e3b7f5ecf15e5736fb41df8ff6128a61a771b64b9e9c1b6c94eed92658b7b",
+      "nonempty_text": true
+    }
+  ],
+  "candidate_pack_count": 6,
+  "validator_invocations": 30,
+  "passed": 30,
+  "failed": 0,
+  "commands": [
+    {
+      "source_id": "M3-AKHTAR",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AKHTAR"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AKHTAR",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AKHTAR"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AKHTAR",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AKHTAR"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AKHTAR",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AKHTAR/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AKHTAR",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AKHTAR/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AMAZONIA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AMAZONIA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AMAZONIA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AMAZONIA/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-AMAZONIA/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-GUTBERLET"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-GUTBERLET"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-GUTBERLET"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-GUTBERLET/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-GUTBERLET/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-HETTIARACHCHI"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-HETTIARACHCHI"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-HETTIARACHCHI"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-HETTIARACHCHI/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-HETTIARACHCHI/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-PALETTA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-PALETTA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-PALETTA"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-PALETTA/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-PALETTA/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-ZERBO"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-ZERBO"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-ZERBO"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-ZERBO/run_input.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/module3_work/review/translator-evidence/candidate-packs/M3-ZERBO/run_output.json"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    }
+  ],
+  "artifact_sha256": {
+    "candidate-packs/M3-AKHTAR/README.md": "fa11eb8cc741e2d7b570c578916d3030cb422a9973b54f4819d020c736221b0a",
+    "candidate-packs/M3-AKHTAR/agent_spec.json": "f57f3e271e5a75243dfc3331d8bb82fae509df05928984265fd493cc275ff3ab",
+    "candidate-packs/M3-AKHTAR/claims.json": "525111791fd63ef3c8d0d29190b1f415af65229b2e447ee16ce70159397074c3",
+    "candidate-packs/M3-AKHTAR/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-AKHTAR/run_input.json": "393f80c60c1cdbf9e7550f6f1e13b57081b03a596f0c15535da807820e312244",
+    "candidate-packs/M3-AKHTAR/run_output.json": "714fe3404a15de1b99e4c82e0eeb4a7aee7a8883a81a43df2393e0898a615ea5",
+    "candidate-packs/M3-AKHTAR/source/paper_text.txt": "cdc930a7ba7e08207b771b659730d3dd9fa7356a49486225cadf654648a443da",
+    "candidate-packs/M3-AKHTAR/tasks.json": "db7df35794a8bac104a49e781b8aee4a6e67752b5c6cce2e54f12b65fe03bb81",
+    "candidate-packs/M3-AMAZONIA/README.md": "941bd78d77be17b5412478b08d039d539f57f3d15a3265c7cb421ded51c9ecda",
+    "candidate-packs/M3-AMAZONIA/agent_spec.json": "c612da170d1bb212013d0ad2875b13b8eb04cbaf9dc431008fd9fa8929f9a1e3",
+    "candidate-packs/M3-AMAZONIA/claims.json": "eb7659d08d096760014492b28ae0d64241976d28b29029f81b3e5419c55dece0",
+    "candidate-packs/M3-AMAZONIA/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-AMAZONIA/run_input.json": "0864a2008a971f64949dab6a07af5274dfd10264c13ef98e2af960acdc49e22d",
+    "candidate-packs/M3-AMAZONIA/run_output.json": "055f195feb834265c75705f9d7934d3458ca7290e493d7d8ba2c308446f2970a",
+    "candidate-packs/M3-AMAZONIA/source/paper_text.txt": "9a274b5b4ebb448ebcfe7fa904502e76e633da81cc895c23342e41acf9daf5bf",
+    "candidate-packs/M3-AMAZONIA/tasks.json": "66fb2f75c28337af4dd1734dfb41122c0c6e34804a1e9442336d32d2b2f6fb8a",
+    "candidate-packs/M3-GUTBERLET/README.md": "b0d54450d1f6ec29ac94e34712d2d0d203266834c2eaae7f7b57adefe67a4075",
+    "candidate-packs/M3-GUTBERLET/agent_spec.json": "e5dffc9aa6cb4837772364529516f55430f4cc288193f1866cc1516efc2d3159",
+    "candidate-packs/M3-GUTBERLET/claims.json": "b3272212998ba6a1d70d1c932fd7da2d90561ff167c6c48dc7b700cac1637807",
+    "candidate-packs/M3-GUTBERLET/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-GUTBERLET/run_input.json": "015eff5c33687f07dfa052de5757b4283d1f00cbaac8c5456583bfc03820484f",
+    "candidate-packs/M3-GUTBERLET/run_output.json": "0fbfe2fc3049e3a65deee39fc4b8c5d384dbee0ea48696ce4c3389249663d98c",
+    "candidate-packs/M3-GUTBERLET/source/paper_text.txt": "cc2ffe5da7f3f9e913e902521e0099bb8d008066ec578fc57fb7cd9a60e67be7",
+    "candidate-packs/M3-GUTBERLET/tasks.json": "fd28a48b29aaf008e66dd538c6cff0f45c42856fa7e97ebf81e7c4f50dd19f84",
+    "candidate-packs/M3-HETTIARACHCHI/README.md": "26d246c83019dbbe9da2bcc3ebb41ff44caa586345b4c0dcce4c6e2bd20526a3",
+    "candidate-packs/M3-HETTIARACHCHI/agent_spec.json": "734d9db7eecf74a2b433540d1992c8854463459aab0b077708012eff75e1b9d7",
+    "candidate-packs/M3-HETTIARACHCHI/claims.json": "b4430d800ab062d91fa038cb9199c7a3fd742de8cef01fe5e92012b321bdae38",
+    "candidate-packs/M3-HETTIARACHCHI/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-HETTIARACHCHI/run_input.json": "da9abb391520be9cea4a8b27f3178b7805433d4fadd72d7b15cf165d0d4cd8bb",
+    "candidate-packs/M3-HETTIARACHCHI/run_output.json": "f36b175a75a04a6c08cdde4acc077d09d66d14e6ec2cbbbfb3be12aebeea363b",
+    "candidate-packs/M3-HETTIARACHCHI/source/paper_text.txt": "3813736acf08c5216d11e30af9a4b4b335f3f09c71486b518ea1ae306f2e4a52",
+    "candidate-packs/M3-HETTIARACHCHI/tasks.json": "0f5fd8a0bde0b789ed235cd6d1bd119a5aefe14d7f6864278bb3b9b7e1f8dcf4",
+    "candidate-packs/M3-PALETTA/README.md": "33a930c6cb9e91bc64ca169bb9ced955705d3560403c0816e3a3aae8d52f935c",
+    "candidate-packs/M3-PALETTA/agent_spec.json": "d73bbac641edd990bcddb5071078516f20d335d1e114ff2f1a0e8ccfb42ce8b1",
+    "candidate-packs/M3-PALETTA/claims.json": "0a19667f505dce49a8c101b33132d65887f385e9e465a733671c59f651ae1d73",
+    "candidate-packs/M3-PALETTA/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-PALETTA/run_input.json": "96b1adb4e8ff0fdf32c3d52afea3bb66a408116f673d0f07a678edb38b875858",
+    "candidate-packs/M3-PALETTA/run_output.json": "702999619619eec3ce277eb3696e4b1d9caeb962ea9357cb94cfa1955a804c64",
+    "candidate-packs/M3-PALETTA/source/paper_text.txt": "35f844acf78738935bda4b8882a3ee13658bb356675083ce8a8078e0c249b8cf",
+    "candidate-packs/M3-PALETTA/tasks.json": "77b2ab0efef7774f8176ce37d016bfe9b5b2abe9e7bffc978b9d7e0e347cd9bf",
+    "candidate-packs/M3-ZERBO/README.md": "a3648f7dd0ac9828fb6e1968aa08b58f5b100826bb740d540477d37437e1f643",
+    "candidate-packs/M3-ZERBO/agent_spec.json": "3914f0977eb0903f2ede49d529689f89304c7af7d310af14ed8a8ca54bd4c875",
+    "candidate-packs/M3-ZERBO/claims.json": "5539d33c182a3919c26fc17932ddaf26be8db78178735355e33eb0dd35c3c168",
+    "candidate-packs/M3-ZERBO/eval_plan.json": "c1e53b69b3e5ae64cc596ab59e542d977189de693c623d92fd5f648652c3a8b9",
+    "candidate-packs/M3-ZERBO/run_input.json": "1ab2dce1ad2e57dfbdd1b701b344e52a22a2af9554de5898230fe3c9dee86ff1",
+    "candidate-packs/M3-ZERBO/run_output.json": "8bf09f92931b3a89f1fe4ce340474f67764a762976d408408b8ef68e511d6cff",
+    "candidate-packs/M3-ZERBO/source/paper_text.txt": "b7ca5028d7a0ba508d02026ed1761c175ef006b44bc22e32911994a129d2b2ac",
+    "candidate-packs/M3-ZERBO/tasks.json": "d9ee01547239be9f110f6f0648ae042689fb08556849ef4d8a8c84fed8456dbe"
+  },
+  "candidate_origin": "Six source-use propositions authored by the assisting AI from direct targeted reading of the uploaded publications.",
+  "local_adaptation": "Imported the previously published study artifact builder; changed the corpus-description string from eleven readings to six Module III readings. Original upstream CLI and validators retain their pinned hashes.",
+  "semantic_validation_by_software": false,
+  "all_book_claims_validated": false,
+  "provider_api_calls": 0,
+  "live_jev_calls": 0,
+  "human_gate_written": false,
+  "decision_summary_written": false,
+  "human_scholarly_approval": null,
+  "scope_limits": [
+    "Nonempty extraction is not proof of complete or correctly ordered text.",
+    "validate_pack.sh checks agent_spec.json only; other schemas have separate invocations.",
+    "Schema tests do not establish source fidelity, causal validity, replication or peer review.",
+    "No claims about the pending October 9 transcript are included.",
+    "No source PDFs or full extractions belong in the public delivery packet."
+  ]
+}

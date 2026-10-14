@@ -1,44 +1,25 @@
-# Assignment 3 · Synthesis presentation
+# Assignment 3: explain the inquiry in five minutes
 
-[Home](../../README.md) / [Assignments](../README.md) / Assignment 3
+[Home](../../README.md) · [Assignment 2](../assignment-02/README.md) · [October 9 guidance](../../research/lecture-2026-10-09/README.md)
 
-| Verified format | Recorded due date / weight | Repository status |
-| :--- | :--- | :--- |
-| PowerPoint · 5 minutes | October 20 · 10% | Preparation guide; no submission artifact or approval recorded |
+Working title: **When a water-saving proposal meets an existing approval**.
 
-## Verified course brief
+The [rehearsal script](rehearsal-script-v01.md) explains one problem, the documented treatment, the theoretical choices, the method and the contribution. Its **532 spoken words** exclude headings and status notes. [Timing and source mapping](preparation.json) preserve proposed allocations totaling 300 seconds. No rehearsal or actual delivery duration has been recorded. Adjust the script after speaking it aloud, rather than claim that a word count guarantees five minutes.
 
-Communicate the main ideas, insights, and questions developed in Assignment 1 or Assignment 2, connecting the inquiry to course themes.
+The October 9 transcript permits presenting Assignment 1 or 2 and specifies five minutes. This plan uses Assignment 2. No slide count, final upload format or due date was established. No slides or recording have been produced.
 
-| Requested work | Paraphrase of the syllabus |
-| :--- | :--- |
-| State the challenge | Identify the topic or urban challenge. |
-| Establish relevance | Explain why it matters for sustainable cities. |
-| Select explanation | Use key ideas, theories, or evidence to explain it. |
-| Discuss implications | Identify implications for sustainability, resilience, or quality of life. |
+## Rehearsal questions
 
-Source: `SYL`, PDF pp. 4; date and weight on p. 6. The archived syllabus lists October 20 even though ordinary meetings are on Fridays; confirm the live date rather than silently changing it. More detailed live prompts, submission settings, and marking rubrics have not been inspected. This guide does not invent them.
+**Did the redesign save water?** The available inquiry establishes institutional treatment. It does not establish implementation or measured savings; original design inputs and operating observations remain separate dependencies.
 
-## Preparation, separate from requirements
+**Was the agency wrong?** The distinction between screening and authorization may reflect ordinary regulation operating as intended. The memo tests alternatives and does not infer institutional failure from different legal effects.
 
-The following records are repository planning tools, not additional instructor criteria.
+**What makes this urban research?** The inquiry concerns infrastructure dependent on environmental resources and the institutions governing its development. Satterthwaite directs attention to people, resource systems and costs beyond a site's boundary. The current records do not establish a distribution of household harms.
 
-| Prepare | Evidence or reasoning to retain | Failure to prevent |
-| :--- | :--- | :--- |
-| Central claim | One message the audience can assess in five minutes | A condensed inventory of every source |
-| Evidence sequence | A small set of claims with source IDs and visual support | Figures whose units, boundaries, or sources are unclear |
-| Urban implication | An implication supported by the preceding analysis | A recommendation stronger than the evidence |
-| Delivery | Storyboard, source notes, and measured rehearsal | Assuming slide count establishes speaking time |
+**Why cite Amazonia for a Chilean case?** Specific contributions sharpen the evaluation questions; they are not geographically transferred findings or proof of a nature-based cooling design.
 
-Prepare a storyboard before slides. The internal five-minute sequence in the deliverable standard is a planning aid; the verified brief governs.
+**What did AI do?** It assisted source organization, interpretation, drafting and code. Recorded software checks cover structure and file handling. Human source fidelity and final voice remain the student's responsibility.
 
-[Deliverable standard](../../standards/DELIVERABLES.md#presentation-planning) · [Discussion rehearsal](../../study/discussion-prep.md) · [Evidence laboratory](../../study/EVIDENCE-LAB.md)
+## Optional visual support
 
-## Ready to develop when…
-
-- The current prompt has been checked and the relevant scope is authorized.
-- The selected claims and interpretations have human review appropriate to their actual use.
-- Mark can explain the argument, its strongest alternative, and its evidentiary limits.
-- Personal statements come from Mark, and the AI acknowledgment describes the assistance accurately.
-
-Follow the [deliverable standard](../../standards/DELIVERABLES.md) and [AI governance](../../governance/AI-GOVERNANCE.md). Assignment 1 now has separate drafting authorization; this later-assignment guide remains preparation only. No assignment is marked submitted merely because a repository file exists.
+A future presentation could use one simple distinction table: proposed design; screening; authorization; implementation; measured effect. That is an editorial suggestion, not a course requirement or an established sequence of causation. Each documented case step needs its own source. Avoid a water-saving percentage, aquifer-recovery image or consensus claim unsupported by the records.

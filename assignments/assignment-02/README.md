@@ -1,23 +1,11 @@
-# Assignment 2: theory and method
+# Assignment 2: regulatory accountability in Cerrillos
 
-[Home](../../README.md) / [Assignments](../README.md) / Assignment 2 · [Case guide](../../research/cerrillos/README.md)
+[Home](../../README.md) · [Current research boundary](../../research/CURRENT.md)
 
-## Read the current draft
+Start with the [revised review draft v0.2](review-draft-v02.md). It asks how a proposed cooling redesign and an existing environmental authorization received different treatment in judicial review, and why that distinction matters to sustainable cities.
 
-**[When a Redesign Does Not Replace an Authorization](review-draft-v01.md)** is review draft v0.1. It develops the narrowed Cerrillos court-and-instrument question through regulatory accountability and environmental review.
+The [review notes](review-notes-v02.md) explain the changes and remaining submission checks. The [claim–evidence record](evidence-v02.json) preserves source versions, locators, rival explanations and missing originals. [Version 0.1](review-draft-v01.md) remains available as history.
 
-Read it with the [verification and revision notes](review-notes-v01.md). The draft is an AI-authored candidate prepared for Mark's review. It has neither been submitted nor recorded as human-approved. This visitor-edition update leaves the draft and its source-check record unchanged.
+The owner approved revision and case direction, not a completed scholarly review. The original assignment brief remains unconfirmed. The memo is not submitted. The technical redesign comparison remains blocked; the narrowed court/instrument inquiry remains permitted.
 
-## Review it as an argument
-
-Establish whether each material sentence is supported by its cited version. Check the treatment of Spanish legal terms and separate the court's own reasoning from its account of underlying filings. Confirm any first-person account with Mark, and recheck the original assignment brief before submission. The previously recorded 1,000–1,200-word range is not newly verified instructor text.
-
-[Exact question and non-claims](../../research/CURRENT.md) · [Inspection record](../../research/cerrillos/draft-source-checks.json) · [AI-use disclosure](../../methods/AI-DISCLOSURE.md)
-
-## Earlier preparation
-
-Earlier methods and integration notes retain their historical wording and dates. They are indexed under [research history](../../archive/README.md) rather than presented as the current draft. The owner's October 9, 2026 drafting authorization supersedes their preparation-only restrictions; it does not confer scholarly approval.
-
-## Source-review update, 14 October 2026
-
-The [reading relevance map](../../research/course-readings/ASSIGNMENT-02-RELEVANCE.md) proposes focused revisions based on the restored Module I PDFs and Module II review. Draft v0.1 is unchanged. The original assignment brief remains required for final compliance checking.
+Course support: [Module I](../../modules/01-theories-sustainable-development/README.md), [Module II](../../research/course-readings/MODULE-II.md), [Module III](../../research/course-readings/module-iii/README.md), and [October 9 guidance](../../research/lecture-2026-10-09/README.md). [Assignment 3 preparation](../assignment-03/README.md) explains the same bounded inquiry for a five-minute presentation.

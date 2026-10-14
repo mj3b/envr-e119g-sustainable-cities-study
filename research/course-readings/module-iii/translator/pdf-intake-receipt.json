@@ -1,0 +1,183 @@
+{
+  "started_at_utc": "2026-10-14T18:28:17.615764+00:00",
+  "finished_at_utc": "2026-10-14T18:28:22.981217+00:00",
+  "commands": [
+    {
+      "source_id": "M3-AKHTAR",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Various Natural and Anthropogenic Factors Responsible for Water Quality Degradation: A Review",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Aktar_water-13-02660.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/various_natural_and_anthropogenic_factors_responsible_for_wa_b0a40aa8\n",
+      "stderr": "",
+      "copied_pdf_sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "matches_original": true,
+      "extracted_text_bytes": 229653,
+      "extracted_text_sha256": "bed9c4e5cf43a9e0184ec2cd86fce6f8d81098dc5e94a96f707c33f457feb72d",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Cities in Amazonia: People and Nature in Harmony",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/cities_in_amazonia_people_and_nature_in_harmony_2a59c783\n",
+      "stderr": "",
+      "copied_pdf_sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "matches_original": true,
+      "extracted_text_bytes": 584440,
+      "extracted_text_sha256": "83a5cd98be17ae3e9a155c3a3bd4f8f145789a64d650c134a36c25838bf4bf5c",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Reimagining urban waste management: Addressing social, climate, and resource challenges in modern cities",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Gutberlet_reimagining urban wm.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/reimagining_urban_waste_management_addressing_social_climate_26fe5d9b\n",
+      "stderr": "",
+      "copied_pdf_sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "matches_original": true,
+      "extracted_text_bytes": 47304,
+      "extracted_text_sha256": "b9ed0364775521f2f5f159b7baec8f2e92636dc8e6b43a3ccf46c441425c488a",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Organic Waste Buyback as a Viable Method to Enhance Sustainable Municipal Solid Waste Management in Developing Countries",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Hettiarachchi_Organic Waste Buyback.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/organic_waste_buyback_as_a_viable_method_to_enhance_sustaina_3d738ad9\n",
+      "stderr": "",
+      "copied_pdf_sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "matches_original": true,
+      "extracted_text_bytes": 86498,
+      "extracted_text_sha256": "35c204390ba291f33cba2c136fe1d587d7fd330b83cf863dc7a059d279fd7b33",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Barriers and challenges to plastics valorisation in the context of a circular economy: Case studies from Italy",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Palette_plastic valorisation.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/barriers_and_challenges_to_plastics_valorisation_in_the_cont_409e579a\n",
+      "stderr": "",
+      "copied_pdf_sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "matches_original": true,
+      "extracted_text_bytes": 116405,
+      "extracted_text_sha256": "be997dbf4bd42612d83d53b51348184274da9d298015e387b6e38afd18d3584f",
+      "nonempty_text": true
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "/mnt/data/module3_work/translator/src/translator/cli.py",
+        "make-pack",
+        "--title",
+        "Vulnerability and everyday health risks of urban informal settlements in Sub-Saharan Africa",
+        "--out",
+        "/mnt/data/module3_work/private-intake-final",
+        "--pdf",
+        "/mnt/data/Vulnerability_and_everyday_health_risks_of_urban_i.pdf"
+      ],
+      "exit_code": 0,
+      "stdout": "✅ Created pack: /mnt/data/module3_work/private-intake-final/vulnerability_and_everyday_health_risks_of_urban_informal_se_1d0968fa\n",
+      "stderr": "",
+      "copied_pdf_sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "matches_original": true,
+      "extracted_text_bytes": 41385,
+      "extracted_text_sha256": "8a0e3b7f5ecf15e5736fb41df8ff6128a61a771b64b9e9c1b6c94eed92658b7b",
+      "nonempty_text": true
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "M3-AKHTAR",
+      "filename": "Aktar_water-13-02660.pdf",
+      "sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "byte_check": "pass",
+      "physical_pages": 35
+    },
+    {
+      "source_id": "M3-AMAZONIA",
+      "filename": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+      "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "byte_check": "pass",
+      "physical_pages": 229
+    },
+    {
+      "source_id": "M3-GUTBERLET",
+      "filename": "Gutberlet_reimagining urban wm.pdf",
+      "sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "byte_check": "pass",
+      "physical_pages": 5
+    },
+    {
+      "source_id": "M3-HETTIARACHCHI",
+      "filename": "Hettiarachchi_Organic Waste Buyback.pdf",
+      "sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "byte_check": "pass",
+      "physical_pages": 15
+    },
+    {
+      "source_id": "M3-PALETTA",
+      "filename": "Palette_plastic valorisation.pdf",
+      "sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "byte_check": "pass",
+      "physical_pages": 15
+    },
+    {
+      "source_id": "M3-ZERBO",
+      "filename": "Vulnerability_and_everyday_health_risks_of_urban_i.pdf",
+      "sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "byte_check": "pass",
+      "physical_pages": 5
+    }
+  ],
+  "raw_outputs_private": true
+}

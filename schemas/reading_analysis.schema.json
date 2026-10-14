@@ -24,6 +24,76 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "substantive_analysis": {
+      "type": "object",
+      "required": [
+        "record_type",
+        "source_card_id",
+        "supplied_source_sha256",
+        "source_bound_claim",
+        "source_locator",
+        "argument_steps",
+        "permitted_use",
+        "prohibited_inference",
+        "human_review"
+      ],
+      "properties": {
+        "source_card_id": {
+          "type": "string"
+        },
+        "supplied_source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "argument_steps": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "statement",
+              "locator_or_basis"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "statement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "locator_or_basis": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "human_review": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer",
+            "approved_at"
+          ],
+          "properties": {
+            "status": {
+              "const": "pending"
+            },
+            "reviewer": {
+              "type": "null"
+            },
+            "approved_at": {
+              "type": "null"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
     }
   },
   "required": [

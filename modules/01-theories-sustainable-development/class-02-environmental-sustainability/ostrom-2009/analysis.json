@@ -9,5 +9,56 @@
   "argument_map": "modules/01-theories-sustainable-development/class-02-environmental-sustainability/ostrom-2009/argument-map.md",
   "limitations": [
     "Calibration subset; full coverage and human review pending."
-  ]
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-OSTROM",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+    "title": "Building Trust to Solve Commons Dilemmas: Taking Small Steps to Test an Evolving Theory of Collective Action",
+    "authors": [
+      "Elinor Ostrom"
+    ],
+    "publication_identity": "Working paper W08–23, 22 September 2008; forthcoming in Games, Groups, and the Global Good; SSRN 1304695",
+    "supplied_version": "Original-author working paper, 39 pages, with figures at end",
+    "edition_relation": "Syllabus names the 2009 chapter, pp. 207–228. The supplied 2008 working paper is directly inspected; chapter equivalence is unverified.",
+    "source_bound_claim": "Ostrom argues that cooperation depends on context, including norms, information, communication, monitoring and sanctions; no single variable has the same effect in every setting.",
+    "source_locator": "PDF pp. 7, 21–26; monitoring and graduated sanctions on p. 25",
+    "argument_steps": [
+      {
+        "label": "Puzzle",
+        "statement": "Cooperation varies even in simplified dilemmas; context changes the effects of communication, group attributes and property rights.",
+        "locator_or_basis": "Working-paper pp.3–8"
+      },
+      {
+        "label": "Mechanism",
+        "statement": "Trust and reciprocity connect expectations about others to willingness to cooperate; monitoring and sanctions must be assessed in their setting.",
+        "locator_or_basis": "Working-paper pp.8,21–26"
+      },
+      {
+        "label": "Conditional use",
+        "statement": "Use only where the case records support a cooperation mechanism. Litigation withdrawal is not evidence of trust or representative consent.",
+        "locator_or_basis": "Study limitation, not a Chilean empirical finding"
+      }
+    ],
+    "assignment_2_role": "conditional_mechanism_lens",
+    "permitted_use": "Use only if actual case evidence concerns cooperation, reciprocity, monitoring or asymmetric access.",
+    "prohibited_inference": "Do not infer community trust from withdrawal, or transplant a commons design prescription into Chilean permitting.",
+    "qualifications": [
+      "Asymmetric power is identified as an important further experimental task, pp. 23–24.",
+      "The cited studies are summarized by Ostrom, not independently revalidated here."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
 }

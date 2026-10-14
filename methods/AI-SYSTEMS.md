@@ -44,3 +44,7 @@ The earlier Translator entries above describe earlier increments. In this increm
 ## Additional execution after interrupted transfer
 
 ACT21 adds a repeat 55-check structural run and eleven original upstream PDF-intake commands. The intake CLI uses `pdftotext` and writes templates; it does not call an AI model. North yielded an empty extraction and remains visually read. Raw PDFs, full extractions and generic CLI templates stay outside public Git. The [completion record](../research/course-readings/completion-checks.json) gives counts, hashes and failures. No provider-backed agent loop, live Jev call or human gate ran.
+
+## October 14 assignment integration
+
+See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-10-14-assignment-integration.json). Module III's prior software receipt is now integrated. The current activity rehashed preserved source/candidate artifacts and did not rerun the upstream validators or provider model loop. Assignment 2 v0.2 and Assignment 3 preparation are AI-assisted drafts awaiting the owner's source-fidelity and final-voice review. Earlier entries describe earlier work, not retrospective proof of current execution.

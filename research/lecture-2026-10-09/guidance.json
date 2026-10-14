@@ -1,0 +1,882 @@
+{
+  "schema_version": 1,
+  "record_type": "Public paraphrase derivative of private transcript-review ledger",
+  "source_sha256": "570a0717e2b399f4bcd519a11cf66864b05634476d0f05c0017e075698182a6b",
+  "parent_ledger_sha256": "d027f4e1a546eac10a0db2315f3b9405f04d31f1185544de69bd687a914ab255",
+  "speaker_attribution": "Contextual, not audio verified",
+  "raw_transcript_or_exact_excerpts_published": false,
+  "claims": [
+    {
+      "claim_id": "G01",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Nora permits a topic change but requires Assignment 2 to increase complexity rather than repeat Assignment 1.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T006",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "01:51",
+        "original_lines": [
+          16,
+          18
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Explain the move from a broad water-accountability concern to a bounded institutional inquiry.",
+      "prohibited_inference": "The instructor approved Cerrillos specifically, or a new topic waives Assignment 2 requirements.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G02",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina treats a partial inquiry into a larger system as acceptable and discourages abandoning a topic solely because solving everything seems overwhelming.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T073",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "59:11",
+        "original_lines": [
+          217,
+          219
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Keep the narrowed question and identify the particular part of the larger problem it can examine.",
+      "prohibited_inference": "Evidence can be omitted, or an incomplete empirical claim can be called established.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G03",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "A topic change may require added context and reasoning while still meeting the assignment questions.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T073",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "59:11",
+        "original_lines": [
+          217,
+          219
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Briefly explain case selection and intellectual continuity.",
+      "prohibited_inference": "Reproduce Assignment 1 with only a new place name.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G04",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Nora emphasizes coherence between what the student is trying to accomplish and the evidence or arguments offered.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T075",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:02:03",
+        "original_lines": [
+          223,
+          225
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Align the research question, unit of analysis, method, and permitted conclusion.",
+      "prohibited_inference": "Claim that the course requires a completed new empirical study or licenses unsupported findings.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G05",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina identifies a sustainability-related, narrow, precise theme, with context and time where applicable, as a key expectation.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T076",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:04:19",
+        "original_lines": [
+          226,
+          228
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Retain the bounded Cerrillos 2020–2024 episode and state the sustainable-cities connection.",
+      "prohibited_inference": "Every assignment must use the same geographic scale or a newly estimated quantitative effect.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G06",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina expects students to explain which course theory fits their topic and how it helps them understand it.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T076",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:04:19",
+        "original_lines": [
+          226,
+          228
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Give each selected theory an analytical job.",
+      "prohibited_inference": "A list of author names is sufficient theoretical engagement.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G07",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina presents case studies, public-health indicators, policies, and budget allocations over time as examples of methods or evidence, not mandatory components.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T076",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:04:19",
+        "original_lines": [
+          226,
+          228
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Use a documentary method fitted to the question.",
+      "prohibited_inference": "Require interviews, statistical estimation, budget analysis, or a second case without source support.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G08",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina warns that readers may stop at the word limit. Her 1,200-word figure is introduced as an example, and bibliography is excluded in her explanation.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T073",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "59:11",
+        "original_lines": [
+          217,
+          219
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Enforce the actual cap once confirmed and show the word count.",
+      "prohibited_inference": "Treat the example as verification of a 1,000–1,200-word requirement or presume every appendix and disclosure is excluded.",
+      "missing_dependency": "Original Assignment 2 prompt for the precise cap, minimum, counting convention, and disclosure treatment.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G09",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina emphasizes organizing ideas and communicating the intended message efficiently.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T074",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:01:44",
+        "original_lines": [
+          220,
+          222
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Prefer a selective, readable argument to an exhaustive research inventory.",
+      "prohibited_inference": "Remove qualifications needed to preserve the claim.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G10",
+      "category": "ai_authorship_guidance",
+      "bounded_claim": "Nora welcomes AI use that strengthens learning while requiring the student to retain control of thought, voice, and responsibility.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T075",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:02:03",
+        "original_lines": [
+          223,
+          225
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Disclose substantive AI assistance and have Mark explain and review the argument.",
+      "prohibited_inference": "Infer human verification, a prescribed disclosure template, unrestricted republication, or instructor endorsement of model output.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G11",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Nora distinguishes large foundational theories from frameworks and course terminology, emphasizing consistency and the author’s role and audience.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T079",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:06:17",
+        "original_lines": [
+          235,
+          237
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Use North for institutional reasoning, Satterthwaite for evaluative boundaries, and precise course terms.",
+      "prohibited_inference": "Label every classroom concept a new theory or portray method as proof of a substantive result.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G12",
+      "category": "assignment_3_guidance",
+      "bounded_claim": "Nora explicitly permits Assignment 3 to present work from Assignment 1 or Assignment 2.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T075",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:02:03",
+        "original_lines": [
+          223,
+          225
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Choose which earlier assignment to communicate.",
+      "prohibited_inference": "Require Assignment 3 to use Assignment 2 exclusively.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G13",
+      "category": "assignment_3_guidance",
+      "bounded_claim": "Cristina identifies Assignment 3 as a five-minute presentation and warns that the time limit will be enforced.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T073",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "59:11",
+        "original_lines": [
+          217,
+          219
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Plan to finish within five minutes.",
+      "prohibited_inference": "Interpret transcription artifacts such as “minute 500” literally or treat the casual wrap-up comment as an extension.",
+      "missing_dependency": "Original Assignment 3 brief and Canvas for due date and final submission rules.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G14",
+      "category": "assignment_3_guidance",
+      "bounded_claim": "Cristina describes an engaging five-minute presentation and anticipated Canvas video or link submission; the delivery arrangements remain tentative in this discussion.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T080",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:07:56",
+        "original_lines": [
+          238,
+          240
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Prepare a spoken communication plan later, preserving the evidence boundary.",
+      "prohibited_inference": "Claim that Canvas was configured, a precise codec or format was mandated, or slides were required.",
+      "missing_dependency": "Current Canvas instructions and any later instructor clarification.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G15",
+      "category": "assignment_3_guidance",
+      "bounded_claim": "Nora describes possible peer sharing outside class as still under discussion.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T081",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:08:38",
+        "original_lines": [
+          241,
+          243
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Keep peer-sharing arrangements unresolved.",
+      "prohibited_inference": "Invent a requirement to present live in class or use a particular sharing platform.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "G16",
+      "category": "assignment_2_guidance",
+      "bounded_claim": "Cristina lists references, grammar, and word limits among the considerations; she describes oral expectations rather than publishing a scored rubric.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T076",
+        "recorded_speaker": "Speaker 1",
+        "attributed_speaker": "Cristina Davila Gonzalez",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "1:04:19",
+        "original_lines": [
+          226,
+          228
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Include citation, prose, and length checks.",
+      "prohibited_inference": "Invent weights, a point schedule, or a formal rubric from the oral examples.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L01",
+      "category": "lecture_framework",
+      "bounded_claim": "Nora distinguishes local planning and land-use actions from the larger timescale of changing global climatic conditions.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T007",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "04:50",
+        "original_lines": [
+          19,
+          21
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Locate an institutional action within the scale the study can address.",
+      "prohibited_inference": "Claim that local climate action is useless or prove a Chile-specific causal mechanism.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L02",
+      "category": "measurement",
+      "bounded_claim": "Nora explains that measurement choices affect interpretation and responses, and warns that averages can obscure heterogeneous urban conditions.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T007",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "04:50",
+        "original_lines": [
+          19,
+          21
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Specify what a measure captures, its population and boundary, and the endpoint it can support.",
+      "prohibited_inference": "Declare all averages invalid or substitute more data for a defined question.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L03",
+      "category": "communication",
+      "bounded_claim": "Nora asks students to consider both their means of making an argument and the audience receiving it.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T008",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "07:48",
+        "original_lines": [
+          22,
+          24
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Write a research memorandum intelligible to urban-policy readers.",
+      "prohibited_inference": "Tailor facts to audience preference or use persuasive language to strengthen unsupported claims.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L04",
+      "category": "measurement",
+      "bounded_claim": "Nora treats the scale and duration of an educational intervention as relevant to the kind of response being measured.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T016",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "13:02",
+        "original_lines": [
+          46,
+          48
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Keep information, behavior, policy change, and environmental effect separate.",
+      "prohibited_inference": "Attribute the recalled one-line intervention to the Blackman–Hoffmann bundled app trial without a matching original source.",
+      "missing_dependency": "The prior guest’s slides or original study if a specific experimental finding is used.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L05",
+      "category": "risk_framework",
+      "bounded_claim": "Nora explains risk with reference to exposure, likelihood, and impact, and vulnerability through the conditions and capacities of those exposed.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T039",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "18:48",
+        "original_lines": [
+          115,
+          117
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Distinguish the environmental threat, who may encounter it, and their capacity to respond.",
+      "prohibited_inference": "Claim a validated numeric risk equation or estimate Cerrillos risk from the classroom analogy.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L06",
+      "category": "risk_framework",
+      "bounded_claim": "Nora emphasizes resources to act, unequal vulnerability, the costs of action and inaction, and the dynamic nature of those conditions.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T040",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "21:54",
+        "original_lines": [
+          118,
+          120
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Ask what each decision would address, whose position may differ, and what remains unmeasured.",
+      "prohibited_inference": "Treat inaction as free, assume a preferred option has zero cost, or invent household losses or benefits.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L07",
+      "category": "reading_use",
+      "bounded_claim": "Nora asks students to use the day’s readings as frameworks or entry points rather than necessarily studying each at the same depth as North.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T044",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "25:39",
+        "original_lines": [
+          130,
+          132
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Review all assigned readings while selecting only those that improve the memo.",
+      "prohibited_inference": "Ignore the readings or assume every reading must be cited.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L08",
+      "category": "housing_framework",
+      "bounded_claim": "Nora distinguishes qualitative housing problems from a simple shortage of units, discussing services, crowding, tenure, and hazardous location.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T045",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "28:42",
+        "original_lines": [
+          133,
+          135
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Ask which dimension a policy or technical intervention actually addresses.",
+      "prohibited_inference": "Infer that Cerrillos residents live in informal settlements or export classroom thresholds to the case.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L09",
+      "category": "implementation",
+      "bounded_claim": "Nora describes a possible incentive to pursue visible housing construction instead of laborious legal and house-by-house improvements.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T050",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "34:24",
+        "original_lines": [
+          148,
+          150
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Preserve timing, administrative burden, and political visibility as possible rival mechanisms for investigation.",
+      "prohibited_inference": "Claim that Chilean officials chose expedience or that technical redesign was politically caused.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L10",
+      "category": "circularity",
+      "bounded_claim": "Nora frames circular economy through reduced consumption, recirculation of products, and regeneration of nature.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T054",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "39:41",
+        "original_lines": [
+          160,
+          162
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Prevent the memo from equating any efficiency change with circularity or ecological restoration.",
+      "prohibited_inference": "Reclassify the proposed cooling redesign as nature-based or circular merely because less water is projected.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L11",
+      "category": "institutional_durability",
+      "bounded_claim": "In her Fortaleza example, Nora distinguishes project design, implementation, and continued support, emphasizing consolidation into law rather than reliance on goodwill.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T056",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "45:58",
+        "original_lines": [
+          166,
+          168
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Use the lecture as a conceptual bridge to institutional durability and instrument-specific inquiry.",
+      "prohibited_inference": "Treat law as sufficient proof of actual funding, enforcement, implementation, environmental performance, or a verified Fortaleza legal mechanism.",
+      "missing_dependency": "Original Fortaleza law, implementation records, and evaluation if the program’s actual legal effect or performance is asserted.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L12",
+      "category": "institutional_durability",
+      "bounded_claim": "Nora says a legal mandate can matter when personnel, priorities, or resources change; she does not provide the original instrument or its wording in the transcript.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T057",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "48:56",
+        "original_lines": [
+          169,
+          171
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Ask which record assigns continuing obligations, while preserving other capacity conditions.",
+      "prohibited_inference": "Infer that an environmental screening has the same effect as a statute or that a mandate guarantees ecological gains.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    },
+    {
+      "claim_id": "L13",
+      "category": "measurement",
+      "bounded_claim": "Nora distinguishes an individual’s disposal action from the subsequent technical success of recycling.",
+      "status": "qualified",
+      "source": "L20261009-T",
+      "source_type": "User-supplied machine transcript of classroom discussion",
+      "original_vs_secondary": "Directly inspected supplied transcript; derivative of audio, which was not supplied",
+      "locator": {
+        "utterance_id": "T066",
+        "recorded_speaker": "Speaker 3",
+        "attributed_speaker": "Nora Libertun de Duren",
+        "speaker_attribution_basis": "Contextual address and handoff, not voice identification",
+        "speaker_turn_start": "54:48",
+        "original_lines": [
+          196,
+          198
+        ]
+      },
+      "confidence": {
+        "textual_support": "high for the bounded paraphrase of the supplied text",
+        "audio_fidelity": "unverified",
+        "speaker_attribution": "contextually supported"
+      },
+      "qualifying_evidence": "Timestamps identify turn starts, not independently verified video times. Automatic transcription can contain errors.",
+      "permitted_use": "Keep upstream action, institutional processing, implementation, and effects distinct.",
+      "prohibited_inference": "Use individual participation as evidence that downstream material recovery occurred.",
+      "missing_dependency": "Audio verification remains unavailable; confirm material ambiguous wording before quoting as exact speech.",
+      "human_source_fidelity_approval": null
+    }
+  ],
+  "human_review": null,
+  "case_claims_closed": false
+}

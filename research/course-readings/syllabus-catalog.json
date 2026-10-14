@@ -175,13 +175,16 @@
       "class_number": 6,
       "class_date": "2026-10-09",
       "citation_as_user_supplied": "Akhtar, N., Syakir Ishak, M.I., Bhawani, S.A. and Umar, K., 2021. Various natural and anthropogenic factors responsible for water quality degradation: A review. Water, 13(19), p.2660.",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-AKHTAR",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Aktar_water-13-02660.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259318",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Aktar_water-13-02660.pdf",
+      "sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb"
     },
     {
       "reading_id": "M3-GUTBERLET",
@@ -189,13 +192,16 @@
       "class_number": 6,
       "class_date": "2026-10-09",
       "citation_as_user_supplied": "Gutberlet, J. and Bramryd, T., 2025. Reimagining urban waste management: Addressing social, climate, and resource challenges in modern cities. Cities, 156, p.105553.",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-GUTBERLET",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Gutberlet_reimagining urban wm.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259319",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Gutberlet_reimagining urban wm.pdf",
+      "sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25"
     },
     {
       "reading_id": "M3-ZERBO",
@@ -203,13 +209,16 @@
       "class_number": 6,
       "class_date": "2026-10-09",
       "citation_as_user_supplied": "Zerbo, A., Delgado, R.C. and González, P.A., 2020. Vulnerability and everyday health risks of urban informal settlements in Sub-Saharan Africa. Global health journal, 4(2), pp.46-50.",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-ZERBO",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Vulnerability_and_everyday_health_risks_of_urban_i.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259320",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Vulnerability_and_everyday_health_risks_of_urban_i.pdf",
+      "sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1"
     },
     {
       "reading_id": "M3-AMAZONIA",
@@ -217,13 +226,16 @@
       "class_number": 7,
       "class_date": "2026-10-16",
       "citation_as_user_supplied": "Libertun de Duren. N et al. 2025. Cities in Amazonia: People and Nature in Harmony. See “Nature Based Solutions” https://doi.org/10.18235/0013757",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-AMAZONIA",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259321",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+      "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f"
     },
     {
       "reading_id": "M3-PALETTA",
@@ -231,13 +243,16 @@
       "class_number": 7,
       "class_date": "2026-10-16",
       "citation_as_user_supplied": "Paletta, A., Leal Filho, W., Balogun, A.L., Foschi, E. and Bonoli, A., 2019. Barriers and challenges to plastics valorisation in the context of a circular economy: Case studies from Italy. Journal of Cleaner Production, 241, p.118149.",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-PALETTA",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Palette_plastic valorisation.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259323",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Palette_plastic valorisation.pdf",
+      "sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93"
     },
     {
       "reading_id": "M3-HETTIARACHCHI",
@@ -245,13 +260,16 @@
       "class_number": 7,
       "class_date": "2026-10-16",
       "citation_as_user_supplied": "Hettiarachchi H, Meegoda JN, Ryu S. Organic Waste Buyback as a Viable Method to Enhance Sustainable Municipal Solid Waste Management in Developing Countries. Int J Environ Res Public Health. 2018 Nov 7;15(11):2483.",
-      "pdf_status": "no_supplied_pdf_verified",
-      "source_card_id": null,
-      "translator_status": "not_run",
+      "pdf_status": "original_bytes_accessible_hash_rechecked",
+      "source_card_id": "M3-HETTIARACHCHI",
+      "translator_status": "prior_recorded_PDF_intake_and_five_structural_checks; integration_rehash_only; human_review_pending",
       "human_source_review": "not_started",
       "user_named_attachment": "Hettiarachchi_Organic Waste Buyback.pdf",
       "canvas_locator": "https://canvas.harvard.edu/courses/176346/modules/items/2259322",
-      "canvas_access": "link supplied; original content not accessed"
+      "canvas_access": "link supplied; original content not accessed",
+      "source_card_path": "research/course-readings/module-iii/source-cards.json",
+      "filename": "Hettiarachchi_Organic Waste Buyback.pdf",
+      "sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd"
     },
     {
       "reading_id": "M4-ZHAO",
@@ -484,5 +502,6 @@
       "event": "Final class meeting; no reading specified"
     }
   ],
-  "assignment_brief": "Original Assignment 2 prompt remains unverified; Friday deadline is user-reported. The complete reading list does not establish word count, marking criteria or AI policy."
+  "assignment_brief": "Original Assignment 2 prompt remains unverified; Friday deadline is user-reported. The complete reading list does not establish word count, marking criteria or AI policy.",
+  "last_integration_at": "2026-10-14T21:05:04.061925+00:00"
 }

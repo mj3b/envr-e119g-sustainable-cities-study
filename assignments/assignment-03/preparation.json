@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "status": "preparation_only; human review and actual rehearsal pending",
+  "source": "research/lecture-2026-10-09/guidance.json",
+  "assignment_2_basis_sha256": "ec69a4542b3305b9284f713ae21f09c40ddd3dd3a0f740a2b03010bfb60b02d1",
+  "script_sha256": "1c5e2c99a26c841fa095cecdffafb49ae2df799bbd6d1f626560b40a63ff959d",
+  "spoken_word_count": 532,
+  "count_method": "Whitespace tokens excluding status and headings",
+  "target_seconds": 300,
+  "planned_sections_seconds": [
+    45,
+    80,
+    70,
+    65,
+    40
+  ],
+  "timing_basis": "Editorial allocations, not measured speaking times",
+  "rehearsal_seconds": null,
+  "slide_count_requirement": null,
+  "submission_format_confirmed": false,
+  "human_approval": null,
+  "source_map": [
+    {
+      "section": 1,
+      "basis": "A1 continuity; A2 research question; opening is an illustrative question, not a recorded dialogue"
+    },
+    {
+      "section": 2,
+      "basis": "A2V2-S01 considerations 93–94, PDF64–65 and operative1–2 PDF72; A2V2-S02 p2; A2V2-S03 p3"
+    },
+    {
+      "section": 3,
+      "basis": "A2V2-S04 printed10–11; A2V2-S05 printed1669–1670; A2V2-S07 NBS157–161 and conclusion173"
+    },
+    {
+      "section": 4,
+      "basis": "Proposed method and unresolved dependencies in A2v02, not completed fieldwork"
+    },
+    {
+      "section": 5,
+      "basis": "Bounded intended contribution, nonclaims and actual AI disclosure"
+    }
+  ]
+}

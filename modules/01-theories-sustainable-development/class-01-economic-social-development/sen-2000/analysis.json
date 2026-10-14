@@ -8,5 +8,56 @@
   "argument_map": "modules/01-theories-sustainable-development/class-01-economic-social-development/sen-2000/argument-map.md",
   "limitations": [
     "Calibration subset; full coverage and human review pending."
-  ]
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-SEN",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+    "title": "A Decade of Human Development",
+    "authors": [
+      "Amartya Sen"
+    ],
+    "publication_identity": "Journal of Human Development 1(1), 2000, pp. 17–23; DOI 10.1080/14649880050008746",
+    "supplied_version": "Publisher article with cover page; online-publication date on cover is 3 August 2010",
+    "edition_relation": "Article citation matches the syllabus work; cover date is separately recorded and is not a replacement for the 2000 article year.",
+    "source_bound_claim": "Sen presents human development as plural evaluation and treats the weighting of concerns as a matter for explicit social choice and public discussion.",
+    "source_locator": "PDF pp. 3, 6–8; printed pp. 18, 21–23",
+    "argument_steps": [
+      {
+        "label": "Evaluative object",
+        "statement": "Human development accommodates several forms of deprivation and well-being rather than treating income as a sufficient index.",
+        "locator_or_basis": "Printed p.18; PDF p.3"
+      },
+      {
+        "label": "Weighting",
+        "statement": "Weights require explicit social choice and public discussion; a mechanical metric cannot establish which interests should count.",
+        "locator_or_basis": "Printed p.21; PDF p.6"
+      },
+      {
+        "label": "Application boundary",
+        "statement": "The study can ask which evaluative criteria and positions enter a record. It cannot infer representative preferences or assign welfare weights from their mere inclusion.",
+        "locator_or_basis": "Study application; no Cerrillos population evidence supplied"
+      }
+    ],
+    "assignment_2_role": "optional_evaluative_lens",
+    "permitted_use": "Ask which concerns are included in evaluation and who has grounds to contest them.",
+    "prohibited_inference": "Do not manufacture a composite sustainability score or treat employment/revenue as a complete welfare measure.",
+    "qualifications": [
+      "Sen warns against overconcentration on an aggregate index; printed p. 22.",
+      "The paper supplies neither local preference weights nor a Cerrillos distributional assessment."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
 }

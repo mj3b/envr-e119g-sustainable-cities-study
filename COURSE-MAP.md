@@ -72,3 +72,7 @@ These are proposed research tasks, not findings from unread materials. Each new 
 ## Complete reading-list reconciliation, 14 October 2026
 
 The [38-reading catalog](research/course-readings/syllabus-catalog.json) records the complete syllabus list supplied in the conversation. The [current source-access guide](research/course-readings/README.md) distinguishes restored Module I originals, the five supplied Module II PDFs, separately accessed McConnell publisher HTML, and pending Module III uploads. This is a dated update, not a revision of historical lecture or edition records.
+
+## October 14 integration update
+
+Modules I–III have 17 supplied PDF records; the full syllabus catalog contains 38 readings. McConnell's publisher HTML is separate from supplied PDF processing. [Module I](modules/01-theories-sustainable-development/README.md) now includes six substantive analyses and a Class 3 reading route. [Module III](research/course-readings/module-iii/README.md) includes the six readings across October 9 and 16, with section-level authorship for Amazonia. [October 9 guidance](research/lecture-2026-10-09/README.md) concerns a separate transcript source; later readings are not relabeled as already taught.

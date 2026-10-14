@@ -1,0 +1,188 @@
+{
+  "created_at_utc": "2026-10-14T18:21:07.758941+00:00",
+  "record_status": "AI-authored source review; human scholarly review pending",
+  "input_scope": "Six newly supplied Module III PDFs only. Earlier supplied course sources and the current repository provide the comparison framework.",
+  "october_9_lecture": "not supplied in this batch; no statement attributed to that session",
+  "assignment_2_brief": "original instructions not confirmed in this review",
+  "case_verdict_unchanged": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "study_repository_inspected_commit": "6b39353d3e6df173250c61ce329ed01e39f56767",
+  "scholarly_approval": null,
+  "new_case_source_revalidation": false,
+  "assignment_drafted_or_revised": false,
+  "web_research_performed": false,
+  "reference_chain_limit": "A publication's account of a cited study is not direct inspection of that study.",
+  "claims": [
+    {
+      "text": "Akhtar and colleagues distinguish contamination sources, transport pathways and effects on water systems, and argue that no single criterion characterizes water quality.",
+      "evidence_quote": "At present, there is no single criterion for any water resources that can characterize water quality.",
+      "locator": "Supplied PDF pp. 2–5, Figure 1; discussion p. 27.",
+      "permitted_use": "Keep groundwater demand, water quality and ecological or health effects as separate claims requiring appropriate observations.",
+      "prohibited_inference": "A projected reduction in groundwater withdrawal demonstrates contamination reduction, safe water or aquifer recovery.",
+      "contrary_or_qualifying_evidence": [
+        "Multiple sources and interacting contaminants complicate attribution.",
+        "This is a broad review; its cited local measurements were not independently inspected."
+      ],
+      "missing_dependency": "Cerrillos-specific withdrawal, discharge, contaminant, receptor and monitoring evidence for any substantive environmental-effect claim.",
+      "claim_id": "M3-AKHTAR-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-AKHTAR",
+      "source": "Aktar_water-13-02660.pdf",
+      "source_type": "Journal review article; thematic synthesis",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "4d0ce53116855cdff45db45b176acbd945daf264b9d43dadbd27e4dc80a0f9eb",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    },
+    {
+      "text": "The Nature-Based Solutions section connects ecosystem interventions with governance, local knowledge and protection of livelihoods; its proposed scaling measures include zoning and institutional coordination.",
+      "evidence_quote": "Municipal zoning regulations should be updated to mandate green infrastructure in new developments and protect ecologically sensitive areas.",
+      "locator": "Gauto Espinola and Llaguno Ribadeneira, Nature-Based Solutions, printed pp. 157–161 (PDF 158–162), especially p. 161.",
+      "permitted_use": "Explain why judging a proposed environmental intervention requires attention to ecological functions, implementation conditions and affected people.",
+      "prohibited_inference": "Nora authored every section; the cooling redesign is nature-based; Amazonian interventions prove benefits or policy failure in Cerrillos.",
+      "contrary_or_qualifying_evidence": [
+        "This section recommends actions and cites outside studies; it is not one intervention trial.",
+        "Nora Libertun de Duren identifies data/evaluation gaps in her conclusion, printed p. 173.",
+        "Ecology, institutions and scales differ from the Chilean case."
+      ],
+      "missing_dependency": "Original effect studies for numerical NbS claims; Cerrillos original instruments and site evidence for case conclusions.",
+      "claim_id": "M3-AMAZONIA-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-AMAZONIA",
+      "source": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+      "source_type": "Edited research and policy monograph, mixing original analyses, commissioned syntheses and recommendations",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    },
+    {
+      "text": "Gutberlet and Bramryd assess landfill and incineration choices through social, climate and resource concerns using document analysis and qualitative insights, and condition landfill benefits on management capabilities.",
+      "evidence_quote": "This research is based on the review and analysis of academic publications, documents, reports, statistics and web sources.",
+      "locator": "Supplied PDF p. 2, section 2 (Methods); pp. 3–4, discussion.",
+      "permitted_use": "Ask which operating assumptions and affected livelihoods are included when comparing technologies; preserve rival explanations.",
+      "prohibited_inference": "Landfilling is always preferable, a quoted gas-capture rate is achievable locally, or this paper establishes Cerrillos motives or effects.",
+      "contrary_or_qualifying_evidence": [
+        "Landfills also produce methane and leachate.",
+        "Highly managed test-cell capture rates do not establish ordinary facility performance.",
+        "Swedish fossil-emissions shares differ within the article without a reconciled denominator/time basis."
+      ],
+      "missing_dependency": "Original inventories and comparable life-cycle and operational evidence before using comparative emissions numbers.",
+      "claim_id": "M3-GUTBERLET-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-GUTBERLET",
+      "source": "Gutberlet_reimagining urban wm.pdf",
+      "source_type": "Journal article using literature/document analysis and qualitative research insights",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "b922b5a2ecb17870ff429c45e7dafeea78cbf23d279bcdaa9d4bc71dc24c4d25",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    },
+    {
+      "text": "Hettiarachchi and colleagues propose organic-waste buyback; their Cajicá and South African examples illustrate settings for adaptation rather than demonstrate the complete proposed model.",
+      "evidence_quote": "However, to our understanding, organic waste buyback is not practiced anywhere in its entirety.",
+      "locator": "Supplied PDF p. 7, section 4; pp. 9 and 11–13.",
+      "permitted_use": "Distinguish an operating precursor program, its maintenance and financing conditions, and a proposed extension whose benefits remain conditional.",
+      "prohibited_inference": "The paper experimentally proves organic buyback works, or political turnover actually ended the Cajicá program.",
+      "contrary_or_qualifying_evidence": [
+        "Cajicá relies on municipal collection, training and a vendor; the proposal changes its financing and collection model.",
+        "Reported growth in recovery coexists with growth in per-person waste generation."
+      ],
+      "missing_dependency": "Original municipal program records and evaluation of the proposed buyback model for causal or performance conclusions.",
+      "claim_id": "M3-HETTIARACHCHI-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-HETTIARACHCHI",
+      "source": "Hettiarachchi_Organic Waste Buyback.pdf",
+      "source_type": "Conceptual policy proposal with two illustrative existing settings",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "59a6a1935809522a4e01a6956ec94ebdb44d8a17b4c8207e3bf5e48240b1f6bd",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    },
+    {
+      "text": "Paletta and colleagues examine technical, legislative, economic and socio-cultural barriers at company and supply-chain scales using 2012 and 2018 surveys of selected regional plastics converters.",
+      "evidence_quote": "the final number of conversion companies under the comparative investigation amounted to 35.",
+      "locator": "Supplied PDF pp. 6–10, methods, Figures 8–10 and Table 1.",
+      "permitted_use": "Maintain distinct technical, commercial, regulatory and organizational explanations for a redesign, without inferring motives from its timing.",
+      "prohibited_inference": "The survey identifies a causal policy effect, represents all Italian firms, or explains why Cerrillos changed its cooling design.",
+      "contrary_or_qualifying_evidence": [
+        "The frame was 364 firms; 41 participated initially and 35 entered the comparison.",
+        "Reported changes concern both adoption and intensity of use; these are different measures.",
+        "Safety requirements may be substantive rather than avoidable bureaucracy."
+      ],
+      "missing_dependency": "Cerrillos company and administrative records establishing reasons for the redesign; microdata and comparison design for causal survey claims.",
+      "claim_id": "M3-PALETTA-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-PALETTA",
+      "source": "Palette_plastic valorisation.pdf",
+      "source_type": "Regional empirical two-wave survey and qualitative supply-chain analysis",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "f2b9e6d4e6b1c135cba84894c3f328b7d583d9339ffff2da7e80de6d18aaed93",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    },
+    {
+      "text": "Zerbo and colleagues synthesize 15 selected publications and argue that inadequate services and insufficiently disaggregated data obscure everyday health risks in informal urban settlements.",
+      "evidence_quote": "Finally, 15 articles were included in the analysis.",
+      "locator": "Supplied corrected-proof PDF p. 2 (methods/results) and p. 3, Figure 1.",
+      "permitted_use": "Check whether the units and people represented by the available data match the population about which a claim is being made.",
+      "prohibited_inference": "Administrative invisibility proves a particular harm, or findings for Sub-Saharan informal settlements establish the composition or experience of Cerrillos residents.",
+      "contrary_or_qualifying_evidence": [
+        "English-language literature and selected databases limit coverage.",
+        "The source is a review, not a Chilean household dataset.",
+        "Its proof contains unresolved publication fields."
+      ],
+      "missing_dependency": "Local population, service, exposure and participation records for any distributional claim about Cerrillos.",
+      "claim_id": "M3-ZERBO-C1",
+      "status": "qualified",
+      "confidence": {
+        "source_description": "high for the identified passages; pending human review",
+        "case_transfer": "not established"
+      },
+      "source_id": "M3-ZERBO",
+      "source": "Vulnerability_and_everyday_health_risks_of_urban_i.pdf",
+      "source_type": "Literature review",
+      "original_vs_secondary": "Original supplied publication; nested empirical studies remain secondary unless separately inspected.",
+      "source_sha256": "86b07064279d0f6feb38a86f2765e0cf5b64c3b05e88f35793c7a91f9fce54c1",
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "approved_at": null
+      }
+    }
+  ]
+}

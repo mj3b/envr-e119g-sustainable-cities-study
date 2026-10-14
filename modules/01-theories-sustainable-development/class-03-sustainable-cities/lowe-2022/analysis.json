@@ -1,0 +1,91 @@
+{
+  "source_id": "LOW22",
+  "claim_ids": [],
+  "argument_map": "modules/01-theories-sustainable-development/class-03-sustainable-cities/lowe-2022/argument-map.md",
+  "limitations": [
+    "Syllabus citation lists only part of the author group; the supplied first-page byline has the full group.",
+    "No canonical or human-approved claims are created by this dossier."
+  ],
+  "substantive_analysis": {
+    "record_type": "AI-authored, source-grounded candidate analysis",
+    "version": 1,
+    "source_card_id": "M1-LOWE",
+    "source_card_path": "research/course-readings/source-cards.json",
+    "supplied_source_sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+    "title": "City planning policies to support health and sustainability: an international comparison of policy indicators for 25 cities",
+    "authors": [
+      "Melanie Lowe",
+      "Deepti Adlakha",
+      "James F. Sallis",
+      "Deborah Salvo",
+      "Ester Cerin",
+      "Anne Vernez Moudon",
+      "Carl Higgs",
+      "Erica Hinckson",
+      "Jonathan Arundel",
+      "Geoff Boeing",
+      "Shiqin Liu",
+      "Perla Mansour",
+      "Klaus Gebel",
+      "Anna Puig-Ribera",
+      "Pinki Bhasin Mishra",
+      "Tamara Bozovic",
+      "Jacob Carson",
+      "Jan Dygrýn",
+      "Alex A. Florindo",
+      "Thanh Phuong Ho",
+      "Hannah Hook",
+      "Ruth F. Hunter",
+      "Poh-Chin Lai",
+      "Javier Molina-García",
+      "Kornsupha Nitvimol",
+      "Adewale L. Oyeyemi",
+      "Carolina D. G. Ramos",
+      "Eugen Resendiz",
+      "Jens Troelsen",
+      "Frank Witlox",
+      "Billie Giles-Corti"
+    ],
+    "publication_identity": "The Lancet Global Health 10(6), 2022, pp. e882–e894",
+    "supplied_version": "Published journal article, 13 pages",
+    "edition_relation": "Syllabus citation lists only part of the author group; the supplied first-page byline has the full group.",
+    "source_bound_claim": "Lowe and colleagues assess the presence, specificity, measurability and evidence consistency of planning policies, while explicitly leaving implementation and government performance tracking unexamined.",
+    "source_locator": "PDF pp. 2–3 and 9–10; printed pp. e883–e884 and e890–e891",
+    "argument_steps": [
+      {
+        "label": "Design",
+        "statement": "Policy content analysis covers 25 cities in 19 countries using convenience recruitment and publicly available policy material collected in 2019.",
+        "locator_or_basis": "Printed pp.e882–e883; PDF pp.1–2"
+      },
+      {
+        "label": "Operational method",
+        "statement": "Record presence and qualitative strengths and limitations, including specificity and measurability, rather than infer implementation from an aspirational policy.",
+        "locator_or_basis": "Printed p.e883; PDF p.2"
+      },
+      {
+        "label": "Scope limit",
+        "statement": "The authors did not examine implementation or how governments tracked performance against targets. This study adapts the content/implementation distinction; its legal-effect categories are new coding choices, not the original indicators.",
+        "locator_or_basis": "Printed p.e890; PDF p.9"
+      }
+    ],
+    "assignment_2_role": "primary_methods_comparator",
+    "permitted_use": "Adapt descriptive fields for aspirations, specifications, measurable targets and source status; code legal effect separately.",
+    "prohibited_inference": "Do not treat a policy-quality score as implementation, legal validity or causal environmental performance.",
+    "qualifications": [
+      "Convenience sample: 25 cities, 19 countries; 19 high-income and six middle-income cities, no low-income cities.",
+      "Agreement coefficients concern the first three cities, not a full-sample validity certificate.",
+      "Full coding appendix is separate and uninspected."
+    ],
+    "missing_dependency": "Human source-fidelity and assignment-fit review; original Cerrillos instruments for any case-specific claim",
+    "case_application_status": "proposed analytical use; not a case finding",
+    "confidence": {
+      "source_description": "bounded support; see locators",
+      "case_transfer": "unestablished"
+    },
+    "human_review": {
+      "status": "pending",
+      "reviewer": null,
+      "approved_at": null
+    }
+  }
+}

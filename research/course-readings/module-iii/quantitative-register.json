@@ -1,0 +1,286 @@
+{
+  "created_at_utc": "2026-10-14T18:21:07.758941+00:00",
+  "record_status": "AI-authored source review; human scholarly review pending",
+  "input_scope": "Six newly supplied Module III PDFs only. Earlier supplied course sources and the current repository provide the comparison framework.",
+  "october_9_lecture": "not supplied in this batch; no statement attributed to that session",
+  "assignment_2_brief": "original instructions not confirmed in this review",
+  "case_verdict_unchanged": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "study_repository_inspected_commit": "6b39353d3e6df173250c61ce329ed01e39f56767",
+  "scholarly_approval": null,
+  "new_case_source_revalidation": false,
+  "assignment_drafted_or_revised": false,
+  "web_research_performed": false,
+  "reference_chain_limit": "A publication's account of a cited study is not direct inspection of that study.",
+  "quantities": [
+    {
+      "quantity_id": "Q01",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "18.6; 8.6",
+      "unit": "percent",
+      "denominator_or_population": "urban households lacking piped water; Amazonia / non-Amazonia",
+      "locator": "Box 3.2, printed p.97 / PDF98",
+      "time_basis": "Mixed country censuses: 2005–2017 as footnote13 specifies",
+      "quantity_type": "Reported regional averages; not 2025 observations or water-quality tests",
+      "prohibited_inference": "Do not equate piped access with tested potability or continuous service.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q02",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "50; 73",
+      "unit": "percent",
+      "denominator_or_population": "urban households with sewerage services; Amazonia / non-Amazonia",
+      "locator": "Box 3.2, printed p.97 / PDF98",
+      "time_basis": "Mixed country censuses: 2005–2017",
+      "quantity_type": "Reported service-access comparison",
+      "prohibited_inference": "Do not generalize an average to every country or household.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q03",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "26.6; 12",
+      "unit": "percent",
+      "denominator_or_population": "urban households lacking garbage collection or public containers",
+      "locator": "Box 3.2, printed p.98 / PDF99",
+      "time_basis": "Mixed country censuses: 2005–2017",
+      "quantity_type": "Reported service-access comparison",
+      "prohibited_inference": "Do not infer what was ultimately recycled, treated or safely disposed.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q04",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "10; up to 3",
+      "unit": "percent increase in tree cover; degrees Celsius",
+      "denominator_or_population": "Unspecified transfer setting in chapter-level summary",
+      "locator": "NbS2, printed p.159 / PDF160; cites Elmqvist et al.2013",
+      "time_basis": "Time basis not supplied in section",
+      "quantity_type": "Secondary reported possible effect, not a universal conversion factor",
+      "prohibited_inference": "Original study and definitions needed; do not compute a Cerrillos cooling effect.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q05",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "200; 300–5000",
+      "unit": "inhabitants/km²; inhabitants",
+      "denominator_or_population": "Adapted rural-cluster density and population cutoffs in Amazonia",
+      "locator": "Appendix2A printed p.184 / PDF185",
+      "time_basis": "Historical settlement analysis covering listed dates1975–2020",
+      "quantity_type": "Analyst-selected classification thresholds",
+      "prohibited_inference": "Do not confuse a threshold with observed density; non-Amazonia uses unmodified standard thresholds.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q06",
+      "source_id": "M3-AMAZONIA",
+      "reported_value": "2025–2125",
+      "unit": "years",
+      "denominator_or_population": "Illustrative riverine flood-management pathway",
+      "locator": "Figure4.1 and surrounding text printed pp.145–146 / PDF146–147",
+      "time_basis": "Hypothetical100-year horizon",
+      "quantity_type": "Illustration, not forecast validation or observed service life",
+      "prohibited_inference": "Do not infer hundred-year engineering performance.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q07",
+      "source_id": "M3-HETTIARACHCHI",
+      "reported_value": "768; 2364",
+      "unit": "tons of organic waste recovered",
+      "denominator_or_population": "Cajicá program reported annual quantities",
+      "locator": "Section4.1, PDF9; underlying municipal plan reference22",
+      "time_basis": "2009 and2014",
+      "quantity_type": "Secondary reported program statistic",
+      "prohibited_inference": "No causal effect, recovery rate or reduction in total generation can be inferred without a denominator.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q08",
+      "source_id": "M3-HETTIARACHCHI",
+      "reported_value": "0.58; 0.84",
+      "unit": "kg/person/day",
+      "denominator_or_population": "Cajicá total waste generation per person",
+      "locator": "Section4.1.2, PDF9; reference22",
+      "time_basis": "2009 and2014",
+      "quantity_type": "Secondary reported per-capita generation",
+      "prohibited_inference": "Not the same quantity as total annual organic recovery.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q09",
+      "source_id": "M3-HETTIARACHCHI",
+      "reported_value": "about350000",
+      "unit": "US dollars/year",
+      "denominator_or_population": "Municipal support for Cajicá program, including education",
+      "locator": "Section4.1.1, PDF9; personal communications reported by authors",
+      "time_basis": "Communication May2018; no common price-year conversion supplied",
+      "quantity_type": "Reported annual program expenditure",
+      "prohibited_inference": "Does not estimate proposed buyback cost-effectiveness; do not divide by recovery from another year.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q10",
+      "source_id": "M3-HETTIARACHCHI",
+      "reported_value": "1–2",
+      "unit": "percent of food price",
+      "denominator_or_population": "Proposed surcharge to support buyback",
+      "locator": "Section3.1, PDF6",
+      "time_basis": "Hypothetical policy",
+      "quantity_type": "Proposed policy parameter",
+      "prohibited_inference": "No implemented rate, elasticity or observed distributional impact established.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q11",
+      "source_id": "M3-PALETTA",
+      "reported_value": "364; 41; 35",
+      "unit": "companies",
+      "denominator_or_population": "Sampling frame; initial respondents; comparative companies",
+      "locator": "Section3.2, PDF6",
+      "time_basis": "2012 and2018",
+      "quantity_type": "Sample accounting",
+      "prohibited_inference": "Do not report364 participants or infer representative causal policy effect.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q12",
+      "source_id": "M3-ZERBO",
+      "reported_value": "86; 23; 15",
+      "unit": "publications",
+      "denominator_or_population": "Initial records; after title/abstract screen; included review",
+      "locator": "Methods/results PDF2; Figure1 PDF3",
+      "time_basis": "Searches through2019-02-20",
+      "quantity_type": "Literature-selection counts",
+      "prohibited_inference": "Not counts of residents, settlements, interventions or causal replications.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    },
+    {
+      "quantity_id": "Q13",
+      "source_id": "M3-GUTBERLET",
+      "reported_value": "up to95; around75–80",
+      "unit": "percent of generated landfill gas collected",
+      "denominator_or_population": "Highly managed test cells versus described normal average",
+      "locator": "Supplied PDF3, beginning of page",
+      "time_basis": "Operating dates unspecified in paragraph",
+      "quantity_type": "Conditional reported performance / generalization from cited sources",
+      "prohibited_inference": "These are different settings; no guarantee of local achievable capture.",
+      "confidence": "High that the value is reported at the locator; external validity and underlying evidence remain qualified.",
+      "underlying_data_acquired": false
+    }
+  ],
+  "local_arithmetic": [
+    {
+      "calculation_id": "CALC01",
+      "source_quantity_ids": [
+        "Q01"
+      ],
+      "expression": "18.6 - 8.6",
+      "result": 10,
+      "unit": "percentage points",
+      "permitted_use": "Describe the arithmetic difference between the printed averages only.",
+      "limitations": "No population weighting, contemporary estimate, uncertainty interval or Cerrillos inference added."
+    },
+    {
+      "calculation_id": "CALC02",
+      "source_quantity_ids": [
+        "Q07"
+      ],
+      "expression": "(2364 - 768) / 768 * 100",
+      "result": 207.8125,
+      "unit": "percent change in reported recovered tons",
+      "permitted_use": "Methodological contrast with per-person waste generation; round to about208% in prose.",
+      "limitations": "Does not establish intervention causation or a waste-diversion rate."
+    },
+    {
+      "calculation_id": "CALC03",
+      "source_quantity_ids": [
+        "Q08"
+      ],
+      "expression": "(0.84 - 0.58) / 0.58 * 100",
+      "result": 44.827586206896555,
+      "unit": "percent change in reported kg/person/day",
+      "permitted_use": "Show that more recovery and more per-person generation can coexist; round to about45%.",
+      "limitations": "Distinct measure and denominator from CALC02."
+    }
+  ],
+  "issues": [
+    {
+      "id": "ISSUE01",
+      "source_id": "M3-AMAZONIA",
+      "locator": "Printed pp.95,97,170; PDF96,98,171",
+      "type": "Definition/scope reconciliation needed, not established numerical contradiction",
+      "observation": "Fewer than one in four with water services,18.6% of urban households without piped water, and fewer than25% with reliable potable water appear in different passages.",
+      "required_action": "Resolve populations, urban/rural boundary, unit, reliability definition, weighting and time before putting them on one scale.",
+      "status": "qualified"
+    },
+    {
+      "id": "ISSUE02",
+      "source_id": "M3-GUTBERLET",
+      "locator": "PDF2 and3, fossil emissions from waste incineration in Sweden",
+      "type": "Unreconciled reported shares",
+      "observation": "About10% and about15% are stated; citations and phrasing differ.",
+      "required_action": "Trace original inventories and align dates/system boundaries before use; do not average.",
+      "status": "blocked"
+    },
+    {
+      "id": "ISSUE03",
+      "source_id": "M3-HETTIARACHCHI",
+      "locator": "PDF3 paragraph versus Table1",
+      "type": "Internal text/table discrepancy",
+      "observation": "Text gives non-OECD organic fraction range47–61%, while East Asia and Pacific row shows62%.",
+      "required_action": "Preserve both values and check the cited original; do not silently correct the paper.",
+      "status": "blocked"
+    },
+    {
+      "id": "ISSUE04",
+      "source_id": "M3-PALETTA",
+      "locator": "PDF6 section3.2",
+      "type": "Arithmetic/denominator issue",
+      "observation": "41 participants out of364 are called12%; direct division gives about11.3%.",
+      "required_action": "Use counts, not the printed response percentage, until denominator/rounding is clarified.",
+      "status": "qualified"
+    },
+    {
+      "id": "ISSUE05",
+      "source_id": "M3-AKHTAR",
+      "locator": "PDF3, paragraph citing reference29",
+      "type": "Unusable global-burden wording",
+      "observation": "The sentence relating80% of the world population,25 countries and deaths is not usable as a bounded burden estimate.",
+      "required_action": "Do not reuse the number; inspect reference29 before assigning any corrected interpretation.",
+      "status": "blocked"
+    },
+    {
+      "id": "ISSUE06",
+      "source_id": "M3-ZERBO",
+      "locator": "PDF3 section4.4",
+      "type": "Repeated term in risk-category sentence",
+      "observation": "The text repeats intensive risk when introducing two categories; subsequent wording describes extensive risk.",
+      "required_action": "Record the textual issue; retain the authors' separate subsequent descriptions instead of silently editing the quotation.",
+      "status": "qualified"
+    },
+    {
+      "id": "ISSUE07",
+      "source_id": "M3-HETTIARACHCHI",
+      "locator": "PDF12 narrative and PDF13 Table2",
+      "type": "Category substitution risk",
+      "observation": "Narrative assigns16% of anthropogenic methane to organic waste; Table2 labels the16% category landfills and waste.",
+      "required_action": "Do not narrow the aggregate category without inspecting Bousquet et al.2006 and its definitions.",
+      "status": "blocked"
+    }
+  ],
+  "arithmetic_note": "Calculations are locally derived from source-reported quantities, not original empirical results or METR metrics."
+}
