@@ -68,3 +68,7 @@ Assignment 1 drafting is authorized; the [memorandum draft](assignments/assignme
 | Integrated strategies | Explicit trade-offs across ecological conditions, distribution, and institutional capacity |
 
 These are proposed research tasks, not findings from unread materials. Each new class needs source intake, a reading argument, lecture alignment, omissions, and review before it can support a course-grounded conclusion.
+
+## Complete reading-list reconciliation, 14 October 2026
+
+The [38-reading catalog](research/course-readings/syllabus-catalog.json) records the complete syllabus list supplied in the conversation. The [current source-access guide](research/course-readings/README.md) distinguishes restored Module I originals, the five supplied Module II PDFs, separately accessed McConnell publisher HTML, and pending Module III uploads. This is a dated update, not a revision of historical lecture or edition records.

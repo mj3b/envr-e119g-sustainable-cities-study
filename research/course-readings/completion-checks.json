@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "record_type": "Observed completion checks after interrupted transfer; source interpretation remains AI-authored and pending human review",
+  "upstream_repository": "node-and-norm/applied-ai-research-translator",
+  "upstream_commit": "4e5d742378dd2fecbafd525eeb9754c975b83aa0",
+  "recovery": {
+    "workflow_run": 38592629031,
+    "artifact_sha256": "34fa0f6197e8cb2ad61bab472b724407ff3298578654d463d8ff0ca8808ececd",
+    "compressed_stream_complete": false,
+    "recovered_prefix_sha256": "f722d9a38ac56477a36c8f948c9346c7d42e9ba2b3826b5d4d3678a4d45e143d",
+    "complete_file_records_recovered": 23,
+    "recovered_record_output_hashes_all_match": true,
+    "partial_record": "tests/test_course_translator.py",
+    "partial_record_disposition": "preserved in recovery archive; new tests authored and executed separately"
+  },
+  "schema_recheck": {
+    "started_at_utc": "2026-10-14T15:52:55.808372+00:00",
+    "finished_at_utc": "2026-10-14T15:53:36.482328+00:00",
+    "python": "3.13.5",
+    "jsonschema": "4.26.0",
+    "source_cards_sha256": "e6bbe05cfc59439df5a0a51fda3982b21a785a3ff81f4145afc0bc9262b457c9",
+    "mode": "source_bytes_checked_and_candidate_schemas_validated",
+    "pack_count": 11,
+    "validator_invocations": 55,
+    "passed": 55,
+    "failed": 0,
+    "artifact_hashes_match_recovered_run": true,
+    "artifact_count": 88,
+    "full_log_sha256": "6fa9d51bb9abbb0f4521c3fe6b9f7c3eab17032a4c47625b40862536304c77f5",
+    "full_log_availability": "Retained in the downloadable completion packet; public summary does not replace the full log.",
+    "scripts": [
+      "scripts/validate_claims.sh",
+      "scripts/validate_pack.sh",
+      "scripts/validate_run_input.sh",
+      "scripts/validate_run_output.sh",
+      "scripts/validate_tasks.sh"
+    ]
+  },
+  "pdf_intake": {
+    "started_at_utc": "2026-10-14T15:53:57.817250+00:00",
+    "finished_at_utc": "2026-10-14T15:54:08.889650+00:00",
+    "upstream_cli_sha256": "fb57d33297a1a934cc744594d5872468da7a05a842f609647bc83e4bbd6bab2d",
+    "source_cards_sha256": "e6bbe05cfc59439df5a0a51fda3982b21a785a3ff81f4145afc0bc9262b457c9",
+    "invocation_count": 11,
+    "command_success_count": 11,
+    "nonempty_extraction_count": 10,
+    "empty_extraction_count": 1,
+    "command_template": "python -m translator.cli make-pack --title <card title> --out <new private directory> --pdf <original file>",
+    "working_directory": "pinned Translator checkout; PYTHONPATH points to its src directory",
+    "full_log_sha256": "9d680fa9246402c2cf742f87de2e9d04c005e61320218ca7f74dc0ea9c500eca",
+    "full_log_availability": "Retained in the downloadable completion packet; no article text or original PDFs are included."
+  },
+  "source_checks": [
+    {
+      "source_id": "M1-NORTH",
+      "source_sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 0,
+      "extraction_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extraction_status": "empty_visual_source_review_required"
+    },
+    {
+      "source_id": "M1-SEN",
+      "source_sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 17923,
+      "extraction_sha256": "47464fea1f73d50a24a2647ea81b3df14c5fb0afe1a84f534024d56cfdfb885c",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "source_sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 63662,
+      "extraction_sha256": "7548cd8e138d554b19f823b0312fba60e07c51a49e3b51220eb1a39ce7c91574",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "source_sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 44830,
+      "extraction_sha256": "d049fb7433007b58d86c09f1f20488cf23f38470b54d31e64907fc3fd0fcc77d",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "source_sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 86076,
+      "extraction_sha256": "e39999b6b27cd7c45292ef552191c86c8e712a8e5afac90ab25aa016474949c5",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M1-LOWE",
+      "source_sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 67778,
+      "extraction_sha256": "044882bbf9d833931d7827738ec487b4e630146626da688baf8af3b6594e96f3",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "source_sha256": "bede33bff48c42a79076e312a132284f518736d9cfb17ff55df8a8fde2f580ce",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 78376,
+      "extraction_sha256": "30f8397cce649c53ea714644352310e75ce658588466c3f58862ddc5c3f14cff",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "source_sha256": "9572067dba3fbd1160741a555b85314428b491faae84c4618a1a396954ffa183",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 47521,
+      "extraction_sha256": "620c0a6ce7c08e644b43e1e7fdca085d6bb5f635c136e4680ba37bdb7d62222a",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "source_sha256": "7039350d590a583edabe13e23ea8a75e0eeccdec176becdd61f1f8769a937896",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 158140,
+      "extraction_sha256": "2eee396814a9fce57ae32457e13015bf57c281b3774a3528c13617bcd3c9ab31",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "source_sha256": "52fdf6bcc383873c510986d22396025b3f2aa6758757666bd6bb4bd10dc0ec3b",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 77655,
+      "extraction_sha256": "d610be803528776141975918b92a613a90cc4158b37409869491eafa88b41288",
+      "extraction_status": "nonempty_requires_source_check"
+    },
+    {
+      "source_id": "M2-GU",
+      "source_sha256": "08db8a6a3cc89e945b6ee4c010d86f3405fc064131bfef48575e93d597fbf5a1",
+      "exit_code": 0,
+      "copied_pdf_matches_source": true,
+      "extracted_nonwhitespace_characters": 42016,
+      "extraction_sha256": "d179cde904e727e8fd22d615f887e93d51dfe918239f134629ca1ec8fe838a84",
+      "extraction_status": "nonempty_requires_source_check"
+    }
+  ],
+  "limitations": [
+    "The earlier full validator receipt is preserved unchanged; this is an additional observed check.",
+    "Original byte hashes establish file identity, not scientific validity.",
+    "Upstream PDF intake copies PDFs, invokes pdftotext and creates templates; it does not interpret papers.",
+    "Ten nonempty extractions do not establish complete extraction, especially for Gu and Piracha.",
+    "North returned zero extracted nonwhitespace characters; its source card relies on visual reading.",
+    "No provider-backed agent loop, OCR, live Jev call, human gate or course submission occurred.",
+    "McConnell publisher HTML is separate from this 11-upload PDF run; Module III originals are pending.",
+    "Local jsonschema was 4.26.0. Upstream requirements name 4.23.0 and study CI uses its own pinned requirement; exact environment replication is not claimed."
+  ],
+  "pdf_copy_location": "private local directory outside public Git",
+  "raw_pdfs_published": false,
+  "full_extracted_text_published": false,
+  "human_scholarly_approval": null,
+  "failures_in_recovery_turn": [
+    "Direct container GitHub DNS request failed.",
+    "Interactive container session unavailable; no work inferred from that call.",
+    "First foreground validation recheck timed out with no terminal receipt; excluded from completion counts. Complete second recheck separately recorded."
+  ],
+  "fresh_external_check": {
+    "url": "https://www.nature.com/articles/s43247-026-03336-y",
+    "scope": "Publisher HTML bibliographic identity and Introduction measurement discussion re-opened; no PDF or dataset downloaded in recovery turn."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "record_type": "Source identity bridge; not an endorsement or review closure",
+  "as_of": "2026-10-14",
+  "links": [
+    {
+      "source_id": "M1-NORTH",
+      "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+      "historical_registry_ids": [
+        "N94"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M1-SEN",
+      "sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+      "historical_registry_ids": [
+        "S00"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+      "historical_registry_ids": [
+        "O09"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+      "historical_registry_ids": [
+        "CD92"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+      "historical_registry_ids": [
+        "SAT97"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M1-LOWE",
+      "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+      "historical_registry_ids": [
+        "LOW22"
+      ],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "sha256": "bede33bff48c42a79076e312a132284f518736d9cfb17ff55df8a8fde2f580ce",
+      "historical_registry_ids": [],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "sha256": "9572067dba3fbd1160741a555b85314428b491faae84c4618a1a396954ffa183",
+      "historical_registry_ids": [],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "sha256": "7039350d590a583edabe13e23ea8a75e0eeccdec176becdd61f1f8769a937896",
+      "historical_registry_ids": [],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "sha256": "52fdf6bcc383873c510986d22396025b3f2aa6758757666bd6bb4bd10dc0ec3b",
+      "historical_registry_ids": [],
+      "draft_registry_ids": [
+        "DRAFT-S06"
+      ],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    },
+    {
+      "source_id": "M2-GU",
+      "sha256": "08db8a6a3cc89e945b6ee4c010d86f3405fc064131bfef48575e93d597fbf5a1",
+      "historical_registry_ids": [],
+      "draft_registry_ids": [],
+      "identity_rule": "Match original PDF bytes; access status is separately dated. Historical source/claim review fields are unchanged."
+    }
+  ]
+}

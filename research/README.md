@@ -25,3 +25,7 @@ The [session crosswalk](course-session-crosswalk.json) records the corrected rec
 The [history index](../archive/README.md) routes readers to earlier case discovery, Assignment 1 preparation and preserved source-closure records. The [preservation inventory](preservation-index.json) identifies recoverable exports. Only the designated public source-closure report and JSON ledger from that inventory are published in full; an inventory entry is not a recovered original source.
 
 Historical analysis remains evidence of the research process. Reuse of its substantive claims still requires the original-source and human-review checks specified in [current operating rules](../AGENTS.md).
+
+## Course sources and Assignment 2
+
+Read the [Modules I–II guide](course-readings/README.md), [air-quality analysis](course-readings/MODULE-II.md), and [source-selection map](course-readings/ASSIGNMENT-02-RELEVANCE.md). Original PDFs remain private. Candidate interpretation and actual software execution have separate records.

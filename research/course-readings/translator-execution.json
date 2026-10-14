@@ -1,0 +1,923 @@
+{
+  "schema_version": 1,
+  "record_type": "Actual execution receipt; schema-validation phase of upstream Translator",
+  "started_at_utc": "2026-10-14T04:05:05.341771+00:00",
+  "finished_at_utc": "2026-10-14T04:05:35.512316+00:00",
+  "upstream_repository": "node-and-norm/applied-ai-research-translator",
+  "upstream_commit": "4e5d742378dd2fecbafd525eeb9754c975b83aa0",
+  "upstream_verified_files": {
+    "README.md": "382ed1f5904ea890137ef6dd26b9b30ce29c8251e1852614bd0648f05b913983",
+    "runloop/run_t_c02.py": "c649c2a69c52ff1990598665819d41059222121743220fa6a2e8398a3f5ab051",
+    "schemas/agent_spec.schema.json": "33b433456c8850e4a6b91cdcaf10849a733f1c2de18438b79c2d4e2b011ca7b1",
+    "schemas/claims.schema.json": "145fc2ea8edaee8b6dfeab9690b2a631da0520026c45062b055c188cf8fd3704",
+    "schemas/decision_summary.schema.json": "5103f96acdada9b1cbadc6d9f7252a639ccc316322c9bb567fd118ad74faebb3",
+    "schemas/run_input.schema.json": "e93824a0f2e47a89b36dc419ae7498491ca7b4d286aabc9cbdc7f46a251d9e2b",
+    "schemas/run_output.schema.json": "7f07c752727251a6ffae7f8da8cf3c9c8effeb85afa7ca8e81948e7964a6d785",
+    "schemas/safety_policy_intake.schema.json": "f91642018b723a546126815686e5384df16e98625b84c22e6f1a53acc8d5dc3c",
+    "schemas/tasks.schema.json": "e4b182c534ca5f946c5145f21cef625d25335ae5abe51d8a9cf4f1922232cb6e",
+    "scripts/validate_claims.sh": "7519a9b8d4fc02044f4272fe0f3b434d0c286bb8840c7e5eeaa62e3c21f21fb4",
+    "scripts/validate_pack.sh": "6122d3d858a4933d367c766f83b44ea14fc9c7867e3ad02a52e7e0e6cb0525b6",
+    "scripts/validate_run_input.sh": "b9069e4bb06e1b6f6a71b7a86ce90a581c0a7086bf25ac3d863bb7b943635a82",
+    "scripts/validate_run_output.sh": "4d74ab0ab8938ff553d9b6ed3a9bdca6542e4b6dd8aa5b20c392bcf50f47086d",
+    "scripts/validate_tasks.sh": "c79c47666310a676efd3784a8ad56b32b8602fb89db38afb020037252c666c4d"
+  },
+  "source_cards_sha256": "e6bbe05cfc59439df5a0a51fda3982b21a785a3ff81f4145afc0bc9262b457c9",
+  "python": "3.13.5",
+  "jsonschema": "4.26.0",
+  "mode": "source_bytes_checked_and_candidate_schemas_validated",
+  "source_checks": [
+    {
+      "source_id": "M1-NORTH",
+      "filename": "North -Economic Performance.pdf",
+      "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M1-SEN",
+      "filename": "A Decade of Human Development.pdf",
+      "sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "filename": "Ostrom, E., 2009. Building trust to solve commons dilemmas.pdf",
+      "sha256": "c39add28f2ba038243dc9c547ad24315c77d60f2bd4b1bb784564b71d95e8d0a",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "filename": "Costanza-NaturalCapitalSustainable-1992.pdf",
+      "sha256": "231ca586433f573630025a31d9e19546a78845b93a483e8f1e46d923e1ae6e93",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "filename": "Satterwhite Sustainable_Cities_or_Cities_that_Contri.pdf",
+      "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M1-LOWE",
+      "filename": "City-planning-policies-to-support-health-and-susta.pdf",
+      "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "filename": "Piracha Pollution(1).pdf",
+      "sha256": "bede33bff48c42a79076e312a132284f518736d9cfb17ff55df8a8fde2f580ce",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "filename": "Chakraborty_Airpollution(1).pdf",
+      "sha256": "9572067dba3fbd1160741a555b85314428b491faae84c4618a1a396954ffa183",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "filename": "Kalapodis_Towards resilient infrastructure(1).pdf",
+      "sha256": "7039350d590a583edabe13e23ea8a75e0eeccdec176becdd61f1f8769a937896",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "filename": "Blackman_Smartphone air pollution(1).pdf",
+      "sha256": "52fdf6bcc383873c510986d22396025b3f2aa6758757666bd6bb4bd10dc0ec3b",
+      "byte_check": "pass"
+    },
+    {
+      "source_id": "M2-GU",
+      "filename": "Gu Air Pollution and TOD(1).pdf",
+      "sha256": "08db8a6a3cc89e945b6ee4c010d86f3405fc064131bfef48575e93d597fbf5a1",
+      "byte_check": "pass"
+    }
+  ],
+  "pack_count": 11,
+  "validator_invocations": 55,
+  "passed": 55,
+  "failed": 0,
+  "commands": [
+    {
+      "source_id": "M1-NORTH",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-NORTH"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-NORTH",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-NORTH"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-NORTH",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-NORTH"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-NORTH",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-NORTH/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-NORTH",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-NORTH/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SEN",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SEN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SEN",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SEN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SEN",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SEN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SEN",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SEN/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SEN",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SEN/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-OSTROM"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-OSTROM"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-OSTROM"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-OSTROM/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-OSTROM",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-OSTROM/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-COSTANZA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-COSTANZA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-COSTANZA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-COSTANZA/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-COSTANZA",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-COSTANZA/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SATTERTHWAITE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SATTERTHWAITE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SATTERTHWAITE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SATTERTHWAITE/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-SATTERTHWAITE",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-SATTERTHWAITE/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-LOWE",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-LOWE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-LOWE",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-LOWE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-LOWE",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-LOWE"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-LOWE",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-LOWE/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M1-LOWE",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M1-LOWE/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-PIRACHA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-PIRACHA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-PIRACHA"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-PIRACHA/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-PIRACHA",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-PIRACHA/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-CHAKRABORTY"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-CHAKRABORTY"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-CHAKRABORTY"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-CHAKRABORTY/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-CHAKRABORTY",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-CHAKRABORTY/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-KALAPODIS"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-KALAPODIS"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-KALAPODIS"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-KALAPODIS/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-KALAPODIS",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-KALAPODIS/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-BLACKMAN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-BLACKMAN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-BLACKMAN"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-BLACKMAN/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-BLACKMAN",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-BLACKMAN/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-GU",
+      "check": "agent_spec",
+      "command": [
+        "bash",
+        "scripts/validate_pack.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-GU"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ agent_spec.json validates against schemas/agent_spec.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-GU",
+      "check": "claims",
+      "command": [
+        "bash",
+        "scripts/validate_claims.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-GU"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ claims.json validates against schemas/claims.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-GU",
+      "check": "tasks",
+      "command": [
+        "bash",
+        "scripts/validate_tasks.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-GU"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ tasks.json validates against schemas/tasks.schema.json\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-GU",
+      "check": "run_input",
+      "command": [
+        "bash",
+        "scripts/validate_run_input.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-GU/run_input.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run input validates\n",
+      "stderr": ""
+    },
+    {
+      "source_id": "M2-GU",
+      "check": "run_output",
+      "command": [
+        "bash",
+        "scripts/validate_run_output.sh",
+        "/mnt/data/resumed_modules/translator-run-v3/M2-GU/run_output.json"
+      ],
+      "cwd": "/mnt/data/resumed_modules/translator",
+      "exit_code": 0,
+      "stdout": "✅ run output validates\n",
+      "stderr": ""
+    }
+  ],
+  "artifact_sha256": {
+    "M1-NORTH/README.md": "0c8585541ab3da1d1f4672b0bd675a0721f4cadf6f170ee6ed3199cafd2ef063",
+    "M1-NORTH/agent_spec.json": "4caa9f9ce0333838a063cad72d7dd1b7c63c55245560e1c44fd4106ca37859f0",
+    "M1-NORTH/claims.json": "f538a54e7a32f0aece6f321d39fa82f9b5e86f1e293720a25da58d3b90664535",
+    "M1-NORTH/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-NORTH/run_input.json": "891bfa50460cc2440703aabf9819449d1ca74e85f58bf7d88b696bc65ea33469",
+    "M1-NORTH/run_output.json": "5f521d96db72693388376166702315e6b2609e923d52049f89e726147798ce60",
+    "M1-NORTH/source/paper_text.txt": "4714e777d7f3af885be34cc912392cfb40020a1d58de7eac5c6f75a6abda98ec",
+    "M1-NORTH/tasks.json": "414c6209db6ee7e8ff3dd03d98ef8dfa6df2b7af6b3398f2feec92e8fd8d9ae1",
+    "M1-SEN/README.md": "6c68451d1b112459dee5f7391b7b6015e1bfb4ff2e69ab5f7732d0c7baff000a",
+    "M1-SEN/agent_spec.json": "f83156813f03648a3de42ffaab0919c16e99e8220fa8258e1252e2528a2a9562",
+    "M1-SEN/claims.json": "07d92751d1662d4b065d970a879036aba01f7dbbfc9e6c9c50f14c492a192470",
+    "M1-SEN/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-SEN/run_input.json": "8c28f41c85fbfd87e7f7b953fa55c1d3e8ca31c42225c9d320a8e2009b53afc6",
+    "M1-SEN/run_output.json": "c824316f36bd6702b6dbdbb01db43f042171d0a045c5cb96c5e98264b1f32683",
+    "M1-SEN/source/paper_text.txt": "d5bd4337bd1bee38ef6697167164d7886e45fffd85c46313e5661323c4d3bbc5",
+    "M1-SEN/tasks.json": "77f09e3bbd0a59ed88ea8ee79b857f3a8450c56465f248032d66a60bd4591f00",
+    "M1-OSTROM/README.md": "3224d2b4cc7c2435ae174b98d164fe0476729ffe935cbf78c31e2f07bc5eb621",
+    "M1-OSTROM/agent_spec.json": "6f25e87ee76b1f430951ab932d9e4a5b5bfd2474e54964a91f9d4f2c6d23723c",
+    "M1-OSTROM/claims.json": "19a5985663feb98f79e3c7d2b51dbf11952851d5fb2d68d0c60ed77d01bb2da4",
+    "M1-OSTROM/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-OSTROM/run_input.json": "4b15d885f78c3d35337b7ad3893c5c5ca37582aec38f89c0564841dc594298ae",
+    "M1-OSTROM/run_output.json": "73b21edcc85f93984cf01db5e928cae2911621ac0e522be88f17b51e70d409f9",
+    "M1-OSTROM/source/paper_text.txt": "c2402191e17b32546612b1df08abba84d4ba73017f3afb3c3ffaa191b875cf3e",
+    "M1-OSTROM/tasks.json": "a00e71312bd907e5efd3a58f1ef57dda9aae63601f88e01e2e6b40c46e816922",
+    "M1-COSTANZA/README.md": "935d0e92ab23090c59075b8e4cbce7807455c9cfc5b097988327d179c067e90d",
+    "M1-COSTANZA/agent_spec.json": "24f9d2a3d865c84b68a6532eff8ded0dc5b2ca1331d8c772a5f5724872a37962",
+    "M1-COSTANZA/claims.json": "02b8a007d87646571f807fd09b7f1431819fdfb92c48d9201a6584d38b491361",
+    "M1-COSTANZA/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-COSTANZA/run_input.json": "6874fbdd5f555d4785180863e96989180c0d431585d18912b01f29a5b03ce715",
+    "M1-COSTANZA/run_output.json": "67f1779d0f131e21453827b91e9dfcbcbc4d128eadf37d4a81f381e46062584e",
+    "M1-COSTANZA/source/paper_text.txt": "47806876c313cde55e2ca074ab3b04a29f3727de39b07898e50624f95f4a425c",
+    "M1-COSTANZA/tasks.json": "0367e831504f222b6b10006fa088d28b9289dab08bafb0301ab4672b4bd27cec",
+    "M1-SATTERTHWAITE/README.md": "aae6da3c939bc11df02f402d82c2e8dedb442266a91c8e7dcbf24ba0b8ce9888",
+    "M1-SATTERTHWAITE/agent_spec.json": "975edff307bef760619d1c3547014ac3e63e82c68768e8b1a5383539ed70e101",
+    "M1-SATTERTHWAITE/claims.json": "78778f0a472425964125bea8092194c1f6891d4c90f1e9319b33a40f2ff57425",
+    "M1-SATTERTHWAITE/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-SATTERTHWAITE/run_input.json": "15d48c7a0789c2c787ba9d80d5859de34d097c8c3cb11cb5e659efe3a11b9bce",
+    "M1-SATTERTHWAITE/run_output.json": "fcfb4f4cd98617c0bbb04795ad4f9038f7c0b7a723fffe5746ff15c13cb6d9ab",
+    "M1-SATTERTHWAITE/source/paper_text.txt": "ed8fee7dd022b3469f861ee7d5519d3b80f73aca692aa58ffcd528a1f49f2066",
+    "M1-SATTERTHWAITE/tasks.json": "35ca09a52508cf2df3d0c777ca081d28e9aec7a8455f2785054cfe6399d79523",
+    "M1-LOWE/README.md": "8b8256dedb35accd275b7b1381cf21b451ae52ad17306e171fc105651241d954",
+    "M1-LOWE/agent_spec.json": "832765fec437eb9a972fe732e54675d903877114bb2601ec38997973fadceb07",
+    "M1-LOWE/claims.json": "37450519a2ecf941b133165022513cb9c8e4978a61a99765da4586977e79b642",
+    "M1-LOWE/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M1-LOWE/run_input.json": "645ba6fb5ca482d71c43644d0774320d56695bb25e53cadb49e3792a652183b6",
+    "M1-LOWE/run_output.json": "e68263e77731fcc2acfa88027da4cd99d97d9244270cf624d1c12f5b61e83534",
+    "M1-LOWE/source/paper_text.txt": "065dee91775da38f4ebabccf9091163340ff72affceaab54522db1b5490de025",
+    "M1-LOWE/tasks.json": "29cf2f831d50941087c9417111222abbdf97c87aa95d149b84c799638a44e3ab",
+    "M2-PIRACHA/README.md": "7c45a22abfa0850ebd36f88f38790451db28a827c1d5f0e24878fe6def5ec5de",
+    "M2-PIRACHA/agent_spec.json": "899737ad8652eab431d7917d8bd09faab595b9265987115b223239134fe0b968",
+    "M2-PIRACHA/claims.json": "feae11b372428215e8aa5f6c2263d073cc327419efb02c5e6a785e7e4a356122",
+    "M2-PIRACHA/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M2-PIRACHA/run_input.json": "0d22f85ab48e906be43b685eeee0cb43aa839afb59c5b10d23cfe3dd27d9b6d0",
+    "M2-PIRACHA/run_output.json": "32fc2a958486fe2b826ce5c2496a7e16be986f5ed6430850888442802c7b680e",
+    "M2-PIRACHA/source/paper_text.txt": "410ccbec6bba6496046240cc1b56931a89fd74318a995af33ddd4ac966ccbd92",
+    "M2-PIRACHA/tasks.json": "63ca4e8dd82b262831d381d17e49baf1b51067792eff5e28f2d6f2fcaae1c58f",
+    "M2-CHAKRABORTY/README.md": "70c2c06b5af9f8e4a1148e9784f67ea689cfae248345cac77b202519e2fb586b",
+    "M2-CHAKRABORTY/agent_spec.json": "648beb062991bf4bdf0bed41e8ed175c3c0187e9a8dccf78eeeb74500a8491c3",
+    "M2-CHAKRABORTY/claims.json": "baac41ff2dea3c0dd4d7945d4715db5b2da4e278d53f229c26500a517dc10cd9",
+    "M2-CHAKRABORTY/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M2-CHAKRABORTY/run_input.json": "83aa031583e32857a9e9c92f52e428f471a128516cdee9539eae230a7aa6766c",
+    "M2-CHAKRABORTY/run_output.json": "78f620358efe8ef6e38aa98c3c815b8aff52df5e1ca788a2788f28dc53fb81ec",
+    "M2-CHAKRABORTY/source/paper_text.txt": "743fbcb48b6e9fcdf4ba4517e953026c2db82b7685ea1619e0fbbbf4ccc3867f",
+    "M2-CHAKRABORTY/tasks.json": "29069ed520fba3efd30525d3487a6a9c3a25c87f280c014c8574b746933460ef",
+    "M2-KALAPODIS/README.md": "8fc38617a8aa5868b20c3bcadfd23d3c77aa06b33c6dd8962cc21cf08e5210f0",
+    "M2-KALAPODIS/agent_spec.json": "b84fcad0499c392efb17ee33a5108babd70180ff94bece416397b4318e841765",
+    "M2-KALAPODIS/claims.json": "afecd37d96fa493fc5c5d067c089849ceceb982904e03545cf26e8ad0692629f",
+    "M2-KALAPODIS/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M2-KALAPODIS/run_input.json": "0397225e94c0c83c9afd0c3bdb82ecdcb4be483678327a6258d1440f76dfcd8b",
+    "M2-KALAPODIS/run_output.json": "e9670a8ea7b331738ce784f3eaae2dd9735e9b9e41abdd4d7620232ecee12fb3",
+    "M2-KALAPODIS/source/paper_text.txt": "c74b6cd5b52f3eec925a8ea056d5d38e69c4c60bbaf6a260889edf6bbbf2f2ec",
+    "M2-KALAPODIS/tasks.json": "77378c3837ca2a3c8f6a57b7bcaeac60f28fb7241f257486a5874a6b4252fd77",
+    "M2-BLACKMAN/README.md": "1a0cd60b67d44f1b5e08b294ea8076b92f9e4df0b78c5050d8e2eb6810d950d6",
+    "M2-BLACKMAN/agent_spec.json": "08f45594ad105efba7bf29d0f99ea075b02da2083173506703a1f6d4526a7666",
+    "M2-BLACKMAN/claims.json": "0311c028ecb9dc7976659184c86bbfd5faa74631c094a9cac9104e922602a9a6",
+    "M2-BLACKMAN/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M2-BLACKMAN/run_input.json": "9013d54091d3019393b43d2c3ab611378a66f852a3c359a8f847e3f264651cdd",
+    "M2-BLACKMAN/run_output.json": "4bb36149ad98fcf680e5c1dc241e2841521451658dbc874f7760c2490e285b9c",
+    "M2-BLACKMAN/source/paper_text.txt": "0065910f1de68f97d335ec2ab9200ff122bbe506d23f3a3922a9bd4e0e88fa94",
+    "M2-BLACKMAN/tasks.json": "b36dda315a24eb330b21f0636fdce77d370234692285c5c2f27739b2724b32ca",
+    "M2-GU/README.md": "cf2010b9d3ee8844343d404db30da4a14416715ce11da90363a50a5ebf03a2e0",
+    "M2-GU/agent_spec.json": "7478f9485c5a800779b9110e5e717c587663c230d5c5ec7b66eb1d9a0e824a5e",
+    "M2-GU/claims.json": "6c312d0b1a6dbe0a264ed3c71bf2de66d324d45a00bc897214a2840c162bb4d7",
+    "M2-GU/eval_plan.json": "9f2bcc29f8bc5aa947d7562a09cbc34810d30fc933a895ec5109f8f9caf8950e",
+    "M2-GU/run_input.json": "c012a0aa68eab134bac852d15647602f988ec17b8a07769f2f35ae1a755cc336",
+    "M2-GU/run_output.json": "cb45d25fea93555b76d0217457799cdbea16e62fbd5ce40731fb93b4e18516a5",
+    "M2-GU/source/paper_text.txt": "da550b4d083d457f343793aeb0a7acb68b8f4ed7a1d6a57bd818e9742a6170be",
+    "M2-GU/tasks.json": "645f225437000170c9d32d954894e2c0f1b7a1763d0fcebc25a99c78fbd060e4"
+  },
+  "candidate_analysis_origin": "ChatGPT-assisted reading; supplied source-cards.json. Upstream validators only check structure.",
+  "semantic_validation": "Not performed by upstream software; candidate readings remain subject to human checking.",
+  "provider_api_calls": 0,
+  "live_jev_calls": 0,
+  "upstream_agent_runloop_executed": false,
+  "human_gate_written": false,
+  "decision_summary_written": false,
+  "human_scholarly_approval": null,
+  "safety_policy_intake": "Not invoked: these packs are bounded urban-course source-use records, not AI safety-policy intake or operational authorization.",
+  "scope_limits": [
+    "validate_pack.sh validates agent_spec.json only; the other four validators are listed separately.",
+    "No automated full-PDF reader, scientific replication, model accuracy benchmark or field evaluation ran.",
+    "No raw course PDF or full extraction was copied into the packs.",
+    "The candidate generation was not preregistered or independent of the authoring model.",
+    "McConnell external HTML is separately recorded and excluded from this uploaded-PDF run."
+  ]
+}

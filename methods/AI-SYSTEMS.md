@@ -36,3 +36,11 @@ No additional model provider was invoked, no live Jev evaluation occurred, and t
 For `v0.3.0`, ChatGPT authored release and onboarding prose and repository-operation instructions. Python, Git, the GitHub connector and GitHub Actions supplied the documented deterministic checks and delivery operations. Web retrieval was limited to official GitHub release documentation. This is a continuation of the existing tool roles; no additional model provider was invoked.
 
 `ACT16` and `ACT17` in the [activity record](ai-activity.json) preserve the baseline and execution boundaries. No auditable backend deployment ID, token total or cost was returned for these tasks. Human scholarly acceptance remains separately recorded. Jev and the upstream Translator were unused in this publication step.
+
+## Course-reading execution update, 14 October 2026
+
+The earlier Translator entries above describe earlier increments. In this increment, its pinned source was retrieved and five original validation scripts ran over eleven AI-authored candidate source packs: 55 completed schema checks. The upstream provider-backed agent runloop was not invoked. Translator is deterministic workflow software in this exercise, not an additional model or an independent scientific reviewer. Python checked each uploaded PDF hash; ChatGPT read source text and selected images and authored the candidates. The [receipt](../research/course-readings/translator-execution.json) and [execution explanation](../research/course-readings/TRANSLATOR.md) define exactly what occurred. Human review remains pending.
+
+## Additional execution after interrupted transfer
+
+ACT21 adds a repeat 55-check structural run and eleven original upstream PDF-intake commands. The intake CLI uses `pdftotext` and writes templates; it does not call an AI model. North yielded an empty extraction and remains visually read. Raw PDFs, full extractions and generic CLI templates stay outside public Git. The [completion record](../research/course-readings/completion-checks.json) gives counts, hashes and failures. No provider-backed agent loop, live Jev call or human gate ran.

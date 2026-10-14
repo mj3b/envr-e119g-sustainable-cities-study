@@ -23,3 +23,9 @@ Do not reconstruct unavailable historical prompts, token usage, costs, model ver
 Source access performed by the assistant must not be described as a human double-check. Conversely, deterministic hash or schema computation is not model judgment, even when AI authored the code or invoked it. Model-generated prose and analysis remain AI-assisted work until the author has reviewed them; editing does not erase that history.
 
 [Activity records](ai-activity.json) distinguish contemporaneous activity from inherited source-closure reports. The [AI-use log](../AI-USE-LOG.md) adds current session records while retaining earlier narrative. The [system register](AI-SYSTEMS.md) records whether a tool was directly used, supplied through its output, prepared, or unused. Unknown historical coverage remains unknown.
+
+## Course-reading review, 14 October 2026
+
+ACT18–ACT20 record fresh access to the eleven supplied Modules I–II PDFs, ChatGPT-authored candidate source interpretations and revision guidance, local original-byte checks, and execution of the pinned Translator schema validators. The [execution scope](../research/course-readings/TRANSLATOR.md) distinguishes that activity from an API-backed agent runloop, independent scientific validation and human review. No new provider model, live Jev run, fieldwork or course submission occurred. Earlier statements about unexecuted tools retain their original dated scope.
+
+ACT21 separately records recovery, renewed schema checks and actual original-CLI PDF intake. Those commands produced text/templates only, with North's extraction empty. Interpretations remain ChatGPT-authored. See the [completion record](../research/course-readings/completion-checks.json); earlier statements about unexecuted stages retain their dates.

@@ -545,6 +545,98 @@
         }
       ],
       "operation_status_rule": "PR, CI, release and cleanup completion are established by GitHub records; no future success is asserted in this activity entry"
+    },
+    {
+      "id": "ACT18",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T04:11:02.847235+00:00",
+      "task": "Restore and inspect supplied Modules I–II course sources",
+      "inputs_description": "Six reuploaded Module I PDFs and five Module II duplicate-alias PDFs, exact hashes in source-cards.json; complete user-transcribed syllabus list; separately accessed McConnell publisher HTML.",
+      "output_description": "Eleven bounded source cards, 38-entry course catalog, 18 quantity records and four unresolved issue records.",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected Files/GitHub tools, web access and local Python/container execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier was not exposed in an auditable result.",
+      "prompt_availability": "User instructions are in this conversation; no complete provider request log or hidden reasoning is exported.",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Focused source reading and visual checks, not a full scientific replication or whole-bibliography revalidation. North remains an image-only reproduction; edition equivalence and supplements remain limited."
+    },
+    {
+      "id": "ACT19",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T04:11:02.847235+00:00",
+      "task": "Execute the pinned Translator schema-validation phase",
+      "inputs_description": "Upstream commit 4e5d742378dd2fecbafd525eeb9754c975b83aa0, unchanged script/schema files, original uploaded PDF bytes and AI-authored candidate cards.",
+      "output_description": "Eleven candidate packs and an unchanged actual execution receipt: 55 passed checks, zero failed checks.",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected Files/GitHub tools, web access and local Python/container execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier was not exposed in an auditable result.",
+      "prompt_availability": "User instructions are in this conversation; no complete provider request log or hidden reasoning is exported.",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Two interrupted sequential attempts were not counted as complete. Final bounded-parallel run completed. No upstream API-backed runloop, live Jev call, human gate or final decision summary was executed or fabricated."
+    },
+    {
+      "id": "ACT20",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T04:11:02.847235+00:00",
+      "task": "Prepare course-reading analysis and repository integration",
+      "inputs_description": "Source cards and quantity register; existing study docs, source registry, claim ledger and review draft.",
+      "output_description": "Module II analysis, Assignment 2 revision map, code, documentation crosswalk, navigation and AI-use additions.",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with connected Files/GitHub tools, web access and local Python/container execution",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier was not exposed in an auditable result.",
+      "prompt_availability": "User instructions are in this conversation; no complete provider request log or hidden reasoning is exported.",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "No Assignment 2 prose, case finding, human evidence status or historic source-closure record was revised. Repository checks and delivery have their own receipts; this entry does not presume merge or release."
+    },
+    {
+      "id": "ACT21",
+      "date": "2026-10-14",
+      "record_created_at": "2026-10-14T15:58:22.765647+00:00",
+      "task": "Recover interrupted Modules I-II integration and verify actual execution",
+      "inputs_description": "Four stored Git blobs, verified pinned source archive, eleven supplied course PDFs and recovered candidate source cards.",
+      "output_description": "23 reconstructed changes; newly authored replacement tests; 55 repeated upstream schema checks and 11 original upstream PDF-intake commands; completion summary and publication preparation.",
+      "ai_provider": "OpenAI",
+      "interface": "ChatGPT with GitHub and Files connectors, web and container tools",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend deployment identifier was not exposed in an auditable tool result.",
+      "prompt_availability": "User scope and continuation instructions are in this conversation. No complete provider request log is exported.",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "human_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Recovered analysis remains AI-authored. PDF intake generated templates and ten nonempty text extractions, with North empty; no model/provider loop, OCR, Jev call, human approval or assignment prose revision. Failed retrieval and timed-out checks are separately recorded."
     }
   ],
   "performed_without_model_judgment": [
@@ -593,5 +685,17 @@
     "Live Jev evaluation",
     "Upstream Translator runtime execution",
     "Assignment 2 prose revision"
-  ]
+  ],
+  "course_reading_execution_update": {
+    "as_of": "2026-10-14T04:11:02.847235+00:00",
+    "activity_ids": [
+      "ACT18",
+      "ACT19",
+      "ACT20"
+    ],
+    "actual_receipt": "research/course-readings/translator-execution.json",
+    "earlier_fields": "Historical zero-use or non-execution fields remain about their original increments.",
+    "live_jev_calls_in_increment": 0,
+    "upstream_provider_runloop_calls": 0
+  }
 }

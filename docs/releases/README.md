@@ -20,3 +20,7 @@ Prereleases identify previews of a repository edition. The earlier `review` tags
 | [v0.1.0](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.1.0) | Initial study foundation |
 
 Earlier descriptions apply to their release dates. For the evolving case and evidence boundary, read [current research](../../research/CURRENT.md). The [sharing policy](../../governance/PUBLICATION.md) continues to govern public content.
+
+## Course-reading checkpoint
+
+[Version 0.3.1 scope note](v0.3.1.md) records the Modules I–II source review and actual Translator schema-validation exercise. The GitHub release and its tag, once published, establish the delivery event; the scope note alone does not.
