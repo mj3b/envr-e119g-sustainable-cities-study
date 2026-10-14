@@ -1,0 +1,38 @@
+name: Inspect pinned Translator baseline
+on:
+  push:
+    branches: [research/module-02-translator-20261014]
+    paths: [.github/workflows/inspect-translator-baseline.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: study
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: node-and-norm/applied-ai-research-translator
+          ref: 4e5d742378dd2fecbafd525eeb9754c975b83aa0
+          path: translator
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Archive exact public source without executing it
+        run: |
+          test "$GITHUB_REPOSITORY" = mj3b/envr-e119g-sustainable-cities-study
+          mkdir -p delivery
+          git -C translator rev-parse HEAD > delivery/translator-commit.txt
+          test "$(cat delivery/translator-commit.txt)" = 4e5d742378dd2fecbafd525eeb9754c975b83aa0
+          git -C translator archive --format=zip -o "$GITHUB_WORKSPACE/delivery/translator-source.zip" HEAD
+          git -C study bundle create "$GITHUB_WORKSPACE/delivery/study-history.bundle" --all
+          sha256sum delivery/translator-source.zip delivery/study-history.bundle > delivery/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pinned-translator-baseline-${{ github.run_id }}
+          path: delivery/
+          retention-days: 7
+          if-no-files-found: error
