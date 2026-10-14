@@ -1,0 +1,44 @@
+name: Recover interrupted course edit
+on:
+  push:
+    branches: [research/module-02-translator-20261014]
+    paths: [.github/workflows/recover-interrupted-course-edit.yml]
+permissions:
+  contents: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recover exact stored payload parts as data only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,lzma,os,pathlib,urllib.request
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          assert os.environ['GITHUB_REPOSITORY']==repo
+          assert os.environ['GITHUB_REF']=='refs/heads/research/module-02-translator-20261014'
+          shas=['d0491d71957969dfda6f60c4c89359366028cf7f','2793f2b8791bc58f78a4c9c1377245c11f136d11','5664cfe25da7827e69a4aa7d41863df3d66bb67c','1998d163f182d94aa2f7e77e0db5b4680b262b39']
+          out=pathlib.Path('recovery'); out.mkdir()
+          parts=[]; records=[]
+          for i,sha in enumerate(shas):
+              req=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req,timeout=30) as r: obj=json.load(r)
+              assert obj['encoding']=='base64'
+              data=base64.b64decode(''.join(obj['content'].split()),validate=True)
+              assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==sha
+              (out/('part-'+str(i)+'.bin')).write_bytes(data)
+              parts.append(data); records.append({'sha':sha,'bytes':len(data)})
+          dec=lzma.LZMADecompressor(memlimit=100000000)
+          raw=dec.decompress(b''.join(parts),max_length=3000000)
+          (out/'recovered-prefix.json.partial').write_bytes(raw)
+          report={'parts':records,'recovered_bytes':len(raw),'compressed_stream_complete':dec.eof,'recovered_sha256':hashlib.sha256(raw).hexdigest(),'execution_performed':False,'publication_performed':False}
+          (out/'recovery-report.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: interrupted-course-edit-recovery-${{ github.run_id }}
+          path: recovery/
+          retention-days: 2
+          if-no-files-found: error
