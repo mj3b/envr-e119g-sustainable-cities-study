@@ -4,7 +4,7 @@ on:
     branches: [research/assignment-02-module-03-20261014]
     paths: [.github/workflows/recover-and-verify-assignment.yml]
 permissions:
-  contents: write
+  contents: read
 jobs:
   recover:
     runs-on: ubuntu-latest
@@ -13,70 +13,38 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - run: pip install -r requirements-dev.txt
-      - name: Reuse the inspected and pinned materialization step
+      - name: Retrieve each referenced part as data and identify any failed delivery
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          python - <<'PY'
-          import hashlib,os,pathlib,subprocess,sys,textwrap
-          assert os.environ['GITHUB_REPOSITORY']=='mj3b/envr-e119g-sustainable-cities-study'
+          python3 - <<'PY'
+          import ast,base64,hashlib,json,lzma,os,pathlib,urllib.request,urllib.error
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          assert os.environ['GITHUB_REPOSITORY']==repo
           assert os.environ['GITHUB_REF']=='refs/heads/research/assignment-02-module-03-20261014'
           data=pathlib.Path('.github/workflows/prepare-assignment-integration.yml').read_bytes()
           assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()=='38793fab4875a3b58b76801a7cc7382ef0d54b2c'
-          text=data.decode('utf-8')
-          code=text.split("          python3 - <<'PY'\n",1)[1].split('\n          PY\n',1)[0]
-          code=textwrap.dedent(code)
-          assert code.startswith('import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request')
-          subprocess.run([sys.executable,'-c',code],check=True)
-          print('Reused only the pinned, inspected data-materialization step; no branch publication.')
-          PY
-      - name: Verify the prepared content tree
-        run: |
-          git rm --ignore-unmatch .github/workflows/prepare-assignment-integration.yml .github/workflows/recover-and-verify-assignment.yml audit/assignment-delivery-trigger.json
-          git add -A
-          python scripts/markdown_audit.py > "$RUNNER_TEMP/assignment-markdown-screen.json"
-          python scripts/publication_check.py
-          python scripts/assure.py
-          python scripts/assure.py --check
-          git add governance/evaluation-results.json
-          tree=$(git write-tree)
-          mkdir -p "$RUNNER_TEMP/assignment-recovery"
-          git archive --format=zip --output="$RUNNER_TEMP/assignment-recovery/prepared-source.zip" "$tree"
-          git diff --cached --stat > "$RUNNER_TEMP/assignment-recovery/change-stat.txt"
-          git diff --cached --raw --abbrev=40 > "$RUNNER_TEMP/assignment-recovery/tree-changes.txt"
-          printf '%s\n' "$tree" > "$RUNNER_TEMP/assignment-recovery/prepared-tree.txt"
-          printf '%s\n' "$GITHUB_SHA" > "$RUNNER_TEMP/assignment-recovery/trigger-commit.txt"
-          git rev-parse HEAD^{tree} > "$RUNNER_TEMP/assignment-recovery/base-tree.txt"
-          cp governance/evaluation-results.json "$RUNNER_TEMP/assignment-recovery/evaluation-results.json"
-          cp "$RUNNER_TEMP/assignment-markdown-screen.json" "$RUNNER_TEMP/assignment-recovery/markdown-screen.json"
-          sha256sum "$RUNNER_TEMP/assignment-recovery/prepared-source.zip"
-      - name: Store checked non-workflow blobs without changing any branch
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          python - <<'PY'
-          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
-          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
-          deletions={'.github/workflows/prepare-assignment-integration.yml','.github/workflows/recover-and-verify-assignment.yml','audit/assignment-delivery-trigger.json'}
-          def upload(name):
-              p=pathlib.Path(name)
-              if not p.exists():
-                  assert name in deletions
-                  return {'path':name,'mode':'100644','type':'blob','sha':None}
-              assert not name.startswith('.github/') and p.suffix in ('.md','.json','.py')
-              data=p.read_bytes(); expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
-              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'},method='POST')
-              with urllib.request.urlopen(req,timeout=30) as r: obj=json.load(r)
-              assert obj['sha']==expected
-              return {'path':name,'mode':'100644','type':'blob','sha':expected}
-          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
-          out=pathlib.Path(os.environ['RUNNER_TEMP'])/'assignment-recovery'/'tree-entries.json'
-          out.write_text(json.dumps(entries,indent=2)+'\n')
-          print('Stored',len(entries),'checked entries. Main, branch reference, release and human approval unchanged.')
+          shas=ast.literal_eval(next(l.strip().split('=',1)[1] for l in data.decode().splitlines() if l.strip().startswith('shas=')))
+          out=pathlib.Path(os.environ['RUNNER_TEMP'])/'assignment-recovery';out.mkdir()
+          rows=[]; parts=[]; prefix=True
+          for i,sha in enumerate(shas):
+              req=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              try:
+                  with urllib.request.urlopen(req,timeout=30) as r: obj=json.load(r)
+                  b=base64.b64decode(''.join(obj['content'].split()),validate=True)
+                  assert hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()==sha
+                  (out/f'part-{i:02d}.bin').write_bytes(b)
+                  rows.append({'index':i,'sha':sha,'bytes':len(b),'status':'retrieved_hash_verified'})
+                  if prefix:parts.append(b)
+              except urllib.error.HTTPError as exc:
+                  rows.append({'index':i,'sha':sha,'status':'HTTP_'+str(exc.code)})
+                  prefix=False
+          decoder=lzma.LZMADecompressor(memlimit=100000000)
+          raw=decoder.decompress(b''.join(parts),max_length=2000000)
+          (out/'payload-prefix.json.partial').write_bytes(raw)
+          report={'parts':rows,'stream_complete':decoder.eof,'recovered_bytes':len(raw),'recovered_sha256':hashlib.sha256(raw).hexdigest(),'executed':False,'branch_published':False}
+          (out/'recovery-report.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
           PY
       - uses: actions/upload-artifact@v4
         with:
