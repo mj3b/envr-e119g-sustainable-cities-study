@@ -1,0 +1,119 @@
+name: Prepare checked assignment integration
+on:
+  push:
+    branches: [research/assignment-02-module-03-20261014]
+    paths: [audit/assignment-delivery-trigger.json]
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Apply only hash-bound authored changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,lzma,os,pathlib,subprocess,urllib.request
+          repo='mj3b/envr-e119g-sustainable-cities-study'
+          base='6b39353d3e6df173250c61ce329ed01e39f56767'
+          assert os.environ['GITHUB_REPOSITORY']==repo
+          assert os.environ['GITHUB_REF']=='refs/heads/research/assignment-02-module-03-20261014'
+          shas=['06a975ffb0b88be56e59003e8874b89d162a892a','b8778470d0c5e0ec955858fa76d5ad56ac6ab1eb','90737e0c377e4f82de226db53b3e4447b2dd2e07','a398292e0d72e35c5937586ac7f7e06ac91ad37b','c6ac9bc960a00dd75e0d1d5bd0da96d61b93faa3','a13efac890dc0a180b4145e39c1854bc7ff3a86e','aec0a48a06f24f0068e64f70f6c52d3f3be34155','c693c32ac90b21cad208778f0bb0fc67a2fce5d7','0c6d7ab7822b97ec3ca9ad478be00e5fb8c2e312','da348c0663e6a39ded865e0a6f13932ce392f3e5','43ca9ea9deac83017623886ef889462918e5520f','97b8aa9ae5c781bd212d3395d49b43364e19818f','820dfbe138cf895c76b7e60525fcb639999509b2','42210242b4cb46eceba8178d64b861b72fc5ce1f','b6b840a0ae489a3d499aacad7579b2abbd15705d']
+          parts=[]
+          for sha in shas:
+              request=urllib.request.Request('https://api.github.com/repos/'+repo+'/git/blobs/'+sha,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(request,timeout=30) as response: obj=json.loads(response.read(100000))
+              assert obj['encoding']=='base64'
+              data=base64.b64decode(''.join(obj['content'].split()),validate=True)
+              assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==sha
+              parts.append(data)
+          packed=b''.join(parts)
+          assert hashlib.sha256(packed).hexdigest()=='59a7a2fdc910862bbaedeec936ba9167156d248f518dbc85ea8470fb381646ac'
+          decoder=lzma.LZMADecompressor(memlimit=100000000)
+          raw=decoder.decompress(packed,max_length=2000000)
+          assert decoder.eof and not decoder.unused_data
+          assert hashlib.sha256(raw).hexdigest()=='3a2caf53100260c8caed986b64974e720aab579bd4e7572b4b81735ea0a68f47'
+          payload=json.loads(raw)
+          assert payload['schema']==1 and payload['repository']==repo and payload['base_commit']==base and len(payload['files'])==61
+          subprocess.run(['git','merge-base','--is-ancestor',base,'HEAD'],check=True)
+          root=pathlib.Path.cwd()
+          def safe(name):
+              p=pathlib.PurePosixPath(name)
+              assert not p.is_absolute() and not any(x in p.parts for x in ('..','.git','.github','private','sources','transcripts'))
+              assert p.suffix in ('.md','.json','.py') and '\\' not in name
+              target=root.joinpath(*p.parts)
+              assert not target.is_symlink() and not any(parent.is_symlink() for parent in target.parents)
+              return target
+          def protect():
+              for name,digest in payload['protected_sha256'].items():
+                  assert hashlib.sha256(safe(name).read_bytes()).hexdigest()==digest,name
+          protect()
+          old_activities=json.loads((root/'methods/ai-activity.json').read_text())['activities']
+          old_log=(root/'AI-USE-LOG.md').read_text()
+          seen=set();pending=[]
+          for entry in payload['files']:
+              name=entry['path'];assert name not in seen;seen.add(name)
+              target=safe(name);prior=target.read_bytes() if target.is_file() else None
+              assert (hashlib.sha256(prior).hexdigest() if prior is not None else None)==entry['before_sha256'],name
+              op=entry['change']
+              if op['kind']=='content': output=op['text'].encode('utf-8')
+              elif op['kind']=='splice':
+                  text=prior.decode('utf-8');a,b=op['start'],op['end']
+                  assert 0<=a<=b<=len(text)
+                  output=(text[:a]+op['text']+text[b:]).encode('utf-8')
+              else: raise ValueError('Unknown change operation')
+              assert hashlib.sha256(output).hexdigest()==entry['after_sha256'],name
+              pending.append((target,output))
+          for target,output in pending:
+              target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(output)
+          protect()
+          assert json.loads((root/'methods/ai-activity.json').read_text())['activities'][:len(old_activities)]==old_activities
+          current_log=(root/'AI-USE-LOG.md').read_text()
+          marker='## Assignment integration and analytical dossiers, October 14, 2026'
+          start=current_log.index(marker);end=current_log.index('## Recovery and additional execution, 14 October 2026',start)
+          assert current_log[:start]+current_log[end:]==old_log
+          print('Verified all 61 authored file changes, protected research files and historical AI records. No Git-history archive or raw course material is exported.')
+          PY
+      - name: Remove only temporary delivery files and run checks
+        run: |
+          git rm .github/workflows/prepare-assignment-integration.yml audit/assignment-delivery-trigger.json
+          git add -A
+          python scripts/markdown_audit.py > "$RUNNER_TEMP/assignment-markdown-screen.json"
+          python scripts/publication_check.py
+          python scripts/assure.py
+          python scripts/assure.py --check
+          git add governance/evaluation-results.json
+      - name: Store checked file blobs for native connector commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64,concurrent.futures,hashlib,json,os,pathlib,subprocess,urllib.request
+          names=subprocess.check_output(['git','diff','--cached','--name-only','-z']).decode().strip('\0').split('\0')
+          assert len(names)==64
+          def upload(name):
+              path=pathlib.Path(name)
+              if not path.exists():
+                  assert name in ['.github/workflows/prepare-assignment-integration.yml','audit/assignment-delivery-trigger.json']
+                  return {'path':name,'mode':'100644','type':'blob','sha':None}
+              assert not name.startswith('.github/') and path.suffix in ('.md','.json','.py')
+              data=path.read_bytes();expected=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              req=urllib.request.Request('https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']+'/git/blobs',data=json.dumps({'encoding':'base64','content':base64.b64encode(data).decode()}).encode(),headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'},method='POST')
+              with urllib.request.urlopen(req,timeout=30) as response: obj=json.load(response)
+              assert obj['sha']==expected
+              return {'path':name,'mode':'100644','type':'blob','sha':expected}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: entries=list(pool.map(upload,names))
+          print('CONNECTOR_BASE_COMMIT',os.environ['GITHUB_SHA'])
+          print('CONNECTOR_BASE_TREE',subprocess.check_output(['git','rev-parse','HEAD^{tree}']).decode().strip())
+          print('CONNECTOR_TREE_ENTRIES',json.dumps(entries,separators=(',',':')))
+          print('Stored file blobs only. No branch reference, PR, release or human approval changed by this step.')
+          PY
