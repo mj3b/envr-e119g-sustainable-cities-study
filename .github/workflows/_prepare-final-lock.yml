@@ -96,7 +96,7 @@ jobs:
           set -euo pipefail
           test "$GITHUB_REF" = refs/heads/finalize-assignment2-v011
           git restore --source=HEAD --staged --worktree .github/workflows/_prepare-final-lock.yml
-          git rm .github/workflows/publish-final-checkpoint.yml
+          git rm -f .github/workflows/publish-final-checkpoint.yml
           test -z "$(git diff --cached --name-only -- .github/workflows)"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
