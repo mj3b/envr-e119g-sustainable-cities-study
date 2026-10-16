@@ -1,0 +1,58 @@
+name: Publish approved final checkpoint
+on:
+  workflow_run:
+    workflows: [Study integrity]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: approved-final-checkpoint
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.event == 'push' && github.repository == 'mj3b/envr-e119g-sustainable-cities-study'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify and publish the approved edition once
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHECKED_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = mj3b/envr-e119g-sustainable-cities-study
+          test -f assignments/assignment-02/final-lock-v011.json || exit 0
+          tag=$(python -c "import json; print(json.load(open('assignments/assignment-02/final-lock-v011.json'))['release_tag'])")
+          test "$tag" = v0.3.3
+          test "$(git rev-parse HEAD)" = "$CHECKED_SHA"
+          current=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq .object.sha)
+          if test "$current" != "$CHECKED_SHA"; then echo 'Main advanced; do not release the older event.'; exit 0; fi
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then echo 'Edition already published; no overwrite.'; exit 0; fi
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$tag" >/dev/null 2>&1; then echo 'Existing tag without matching publication requires explicit review.'; exit 1; fi
+          pip install -r requirements-dev.txt
+          python scripts/publication_check.py
+          python scripts/assure.py --check
+          python scripts/check_final_assignment.py
+          mkdir -p "$RUNNER_TEMP/final-release"
+          cp assignments/assignment-02/final-v011.md "$RUNNER_TEMP/final-release/ENVR_E119g_Assignment2_Final_v0.11.md"
+          cp assignments/assignment-02/final-lock-v011.json "$RUNNER_TEMP/final-release/ENVR_E119g_Assignment2_Final_Lock_v0.11.json"
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          target=Path(os.environ['RUNNER_TEMP'])/'final-release'
+          body=Path('docs/releases/v0.3.3.md').read_text()
+          body=body.replace('](../../','](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.3.3/')
+          body+='\n\nPublished from the successfully checked main commit `'+os.environ['CHECKED_SHA']+'`. The owner-selected body remains 1,129 words. Course submission is not recorded.\n'
+          (target/'release-notes.md').write_text(body)
+          PY
+          gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$CHECKED_SHA" --title 'Assignment 2 — Author-approved final v0.11' --notes-file "$RUNNER_TEMP/final-release/release-notes.md" --latest "$RUNNER_TEMP/final-release/ENVR_E119g_Assignment2_Final_v0.11.md" "$RUNNER_TEMP/final-release/ENVR_E119g_Assignment2_Final_Lock_v0.11.json"
+          gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json tagName,isDraft,isPrerelease,url
