@@ -33,3 +33,7 @@ ACT21 separately records recovery, renewed schema checks and actual original-CLI
 ## October 14 assignment integration
 
 See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-10-14-assignment-integration.json). Module III's prior software receipt is now integrated. The current activity rehashed preserved source/candidate artifacts and did not rerun the upstream validators or provider model loop. Assignment 2 v0.2 and Assignment 3 preparation are AI-assisted drafts awaiting the owner's source-fidelity and final-voice review. Earlier entries describe earlier work, not retrospective proof of current execution.
+
+## Final v0.11 approval state
+
+The three-part disclosure retains actual assistance and the earlier Translator checks, without presenting those structural checks as scientific validation. Its final sentence records the owner's explicit selection for submission. Independent source verification is not inferred from that selection, and no Canvas submission is recorded. The supplementary v0.3.3 link includes earlier records and the new [lock](../assignments/assignment-02/final-lock-v011.json).

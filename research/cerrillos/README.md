@@ -1,6 +1,6 @@
 # Cerrillos: the proposed redesign and the permission to proceed
 
-[Home](../../README.md) / [Research](../README.md) / Cerrillos · [Read the draft](../../assignments/assignment-02/review-draft-v01.md)
+[Home](../../README.md) / [Research](../README.md) / Cerrillos · [Read the draft](../../assignments/assignment-02/final-v011.md)
 
 This is a bounded documentary study of the Cerrillos Data Center proceedings in Chile, 2020–2024. The current object is how public instruments treated a proposed cooling redesign. Environmental outcomes remain outside the established evidence.
 
@@ -38,3 +38,7 @@ The [current decision](../CURRENT.md) preserves alternatives, including adequate
 The complete technical comparison remains blocked. Cerrillos is a computing-infrastructure case, with no established AI-workload cause. No implemented savings, aquifer recovery, net environmental benefit or representative agreement is established. Human interpretation and assignment review remain pending.
 
 [Exact contribution and non-claims](../CURRENT.md) · [Verification notes](../../assignments/assignment-02/review-notes-v01.md) · [Measurement protocol](../../methods/MEASUREMENT.md)
+
+## Author-selected final memo
+
+The [v0.11 finalization record](../../assignments/assignment-02/finalization-v011.md) identifies the sources used, approved argument and limits. Owner selection does not promote any missing original into an inspected source. The exact research question and non-claims above retain their authority.

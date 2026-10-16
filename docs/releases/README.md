@@ -2,7 +2,7 @@
 
 [Home](../../README.md) / Releases · [Reader's guide](../START-HERE.md) · [Current work](../../BUILD-STATUS.md)
 
-Use [v0.3.0](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0) for a fixed public checkpoint to read, share or cite. The [release notes](v0.3.0.md) explain its scope and provide a reading route. The [latest-release link](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/latest) leads to the current regular release as the repository develops.
+Use [v0.3.3](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) for the author-approved final memo. The [release notes](v0.3.3.md) explain its scope and provide a reading route. The [latest-release link](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/latest) leads to the current regular release as the repository develops.
 
 ## What a release establishes
 
@@ -12,6 +12,9 @@ Prereleases identify previews of a repository edition. The earlier `review` tags
 
 | Checkpoint | Scope |
 | :--- | :--- |
+| [v0.3.3](v0.3.3.md) | Author-approved Assignment 2 v0.11, exact argument lock, final export identity and current navigation; no course submission inferred |
+| [v0.3.2](v0.3.2.md) | Earlier course/assignment integration and preserved research records |
+| [v0.3.1](v0.3.1.md) | Modules I–II and recorded Translator checks |
 | [v0.3.0](v0.3.0.md) | Regular public research checkpoint, reader onboarding, versioned sharing and explicit research-status boundaries |
 | [v0.3.0-review.3](v0.3.0-review.3.md) | Visitor-facing README, current reading routes, archived-in-place history and measurement protocol |
 | [v0.3.0-review.2](v0.3.0-review.2.md) | Mark's writing standard, AI-system records and Markdown consistency |

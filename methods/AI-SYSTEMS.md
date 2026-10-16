@@ -48,3 +48,7 @@ ACT21 adds a repeat 55-check structural run and eleven original upstream PDF-int
 ## October 14 assignment integration
 
 See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-10-14-assignment-integration.json). Module III's prior software receipt is now integrated. The current activity rehashed preserved source/candidate artifacts and did not rerun the upstream validators or provider model loop. Assignment 2 v0.2 and Assignment 3 preparation are AI-assisted drafts awaiting the owner's source-fidelity and final-voice review. Earlier entries describe earlier work, not retrospective proof of current execution.
+
+## Final lock, ACT26–ACT27
+
+The finalization uses ChatGPT for administrative document edits and repository maintenance, Python for exact comparisons and counts, the DOCX renderer for visual inspection, and connected GitHub for verified repository operations. These activities do not rerun the Translator or certify source interpretations. Owner selection of v0.11 is recorded separately from source-fidelity gates and course-upload status. See the [finalization record](../assignments/assignment-02/finalization-v011.md).

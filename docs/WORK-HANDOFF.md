@@ -1,3 +1,15 @@
+# Current handoff: approved Assignment 2 v0.11
+
+[Final memo](../assignments/assignment-02/final-v011.md) · [Lock record](../assignments/assignment-02/final-lock-v011.json)
+
+Use the author-approved v0.11 text, not earlier expanded drafts or the historical v0.2 presentation basis. Preserve the 1,129-word argument, two tables, references and case boundary. The author approved submission; an actual course upload remains unrecorded. Source review and release publication remain distinct.
+
+Some intermediate conversation files expired. The final candidate files are directly recovered and registered; do not claim v0.3–v0.10 originals were freshly recovered. Relevant source filenames and hashes help check access but cannot prove a new session has readable bytes.
+
+Assignment 3's proposed figure remains deferred. When authorized to resume it, work from the final memo and confirm the available originals. No slides, recording or measured rehearsal were produced by the final lock. The study does not establish implemented savings, an AI-driven cause, ecological recovery or community consensus.
+
+<details><summary>Earlier handoff, retained as history</summary>
+
 # Continue from the saved research state
 
 [Home](../README.md) · [Current case boundary](../research/CURRENT.md)
@@ -21,3 +33,5 @@ Raw course PDFs and full transcripts remain outside public Git. Confirm actual a
 ## Release and recovery
 
 The versioned integration records what was recovered, reconstructed, tested and still pending. Temporary delivery workflows should be removed from the final content tree; delete their branch only after successful merge and an unrelated-work check. A new session must check live GitHub state rather than assume planned release steps succeeded.
+
+</details>

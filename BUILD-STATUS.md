@@ -1,6 +1,10 @@
-# Current integration status
+# Current status: Assignment 2 locked
 
-Assignment 2 v0.2 and Assignment 3 preparation are available for student review. Modules I–III reading records and October 9 guidance are integrated. The [integration audit](audit/2026-10-14-assignment-integration.json) records recovery and its limits. The [release scope](docs/releases/v0.3.2.md) is publication documentation, not scholarly acceptance. The original Assignment 2 brief and final student review remain pending.
+[Final memo](assignments/assignment-02/final-v011.md) · [Approval and hashes](assignments/assignment-02/final-lock-v011.json) · [Audit scope](audit/2026-10-15-final-lock-v011.md)
+
+Mark selected v0.11 for submission. The approved 1,129-word argument, including headings and both tables, is unchanged. The neutral final footer makes no submission claim. No Canvas upload is recorded. The 1,000–1,200-word brief and exclusion of AI disclosure/references are supplied by the user; the 20% weight is user-confirmed.
+
+The v0.3.3 checkpoint preserves this final record and the earlier source and AI-use history. Actual GitHub tag, PR and CI records establish publication and validation. The underlying research verdict and missing-original limitations remain unchanged. Assignment 3 work is deferred and its earlier preparation is not a completed presentation.
 
 <details>
 <summary>Earlier build checkpoints, preserved</summary>

@@ -1,5 +1,13 @@
 # Record of AI systems and assistance
 
+## Author-selected Assignment 2 finalization · October 15, 2026
+
+ACT26–ACT27 record the final lock and repository update. Mark selected v0.11 for submission. The argument, two tables and references were preserved exactly; the footer became neutral, the disclosure now records author approval, and its supplementary link points to the new checkpoint. This is not an attestation that the course upload or an independent scholarly review occurred.
+
+The v0.11 candidate Word, Markdown and check record were directly recovered and hash-checked. Older generated drafts had expired and are not claimed as recovered originals. GitHub's v0.3.2 review artifact was recovered through the supported artifact download and its 286-file tree matched the official commit. Direct Git network and ordinary archive download failed before that successful recovery.
+
+File identity, body counts, export correspondence, rendering and repository checks are distinct from source interpretation. No original-case revalidation, new Translator execution, live Jev evaluation, slide creation or course submission occurred in this lock. The [final record](assignments/assignment-02/final-lock-v011.json), [audit](audit/2026-10-15-final-lock-v011.md) and actual GitHub PR/CI/release records establish their respective scopes.
+
 [Home](README.md) / AI use · [System register](methods/AI-SYSTEMS.md) · [Detailed disclosure](methods/AI-DISCLOSURE.md) · [Task-level activity](methods/ai-activity.json)
 
 ## Assignment integration and resumption, October 14, 2026

@@ -2,6 +2,8 @@
 
 [Home](../../README.md) · [Assignment 2](../assignment-02/README.md) · [October 9 guidance](../../research/lecture-2026-10-09/README.md)
 
+Current dependency: Assignment 2 is now [author-approved v0.11](../assignment-02/final-v011.md). The script below retains its v0.2 basis and is not automatically updated by that approval. Presentation and figure work remain deferred.
+
 Working title: **When a water-saving proposal meets an existing approval**.
 
 The [rehearsal script](rehearsal-script-v01.md) explains one problem, the documented treatment, the theoretical choices, the method and the contribution. Its **532 spoken words** exclude headings and status notes. [Timing and source mapping](preparation.json) preserve proposed allocations totaling 300 seconds. No rehearsal or actual delivery duration has been recorded. Adjust the script after speaking it aloud, rather than claim that a word count guarantees five minutes.

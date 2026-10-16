@@ -10,7 +10,7 @@ The current inquiry concerns environmental authorization and a proposed cooling 
 | :--- | :--- |
 | [Cerrillos case guide](cerrillos/README.md) | Understand the institutional question and its evidence boundary |
 | [Current decision](CURRENT.md) | Read the exact question, contribution, non-claims and fallback roles |
-| [Assignment 2](../assignments/assignment-02/README.md) | Review the candidate draft with its verification notes |
+| [Assignment 2](../assignments/assignment-02/README.md) | Read the author-approved final memo and its scoped lock record |
 | [Record-state snapshot](progress.json) | Reproduce counts from named records without treating them as research-quality scores |
 | [Methods](../methods/README.md) | Inspect source checking, quantitative reasoning and AI disclosure |
 
@@ -33,3 +33,7 @@ Read the [Modules I–II guide](course-readings/README.md), [air-quality analysi
 ## Integrated course support
 
 [Module III](course-readings/module-iii/README.md) and [October 9 lecture guidance](lecture-2026-10-09/README.md) are now integrated. The [Assignment 2 evidence record](../assignments/assignment-02/evidence-v02.json) supports the revised memo without replacing the preserved source-closure ledger or changing its verdict.
+
+## Final Assignment 2
+
+[Final v0.11](../assignments/assignment-02/final-v011.md) is author-selected for submission. Its [finalization record](../assignments/assignment-02/finalization-v011.md) lists the sources by function and preserves the uninspected-original limits. The v0.2 ledger remains dated history, not a relabeled final-source audit.

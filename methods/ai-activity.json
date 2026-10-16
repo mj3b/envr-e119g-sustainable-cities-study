@@ -689,6 +689,36 @@
       "limits": "Only three of fifteen parts retrieved; eight complete change records and draft fragment recovered; remaining work reconstructed, not claimed byte-identical",
       "human_approval": null,
       "live_jev_calls": 0
+    },
+    {
+      "id": "ACT26",
+      "date": "2026-10-15",
+      "record_created_at": "2026-10-16T01:37:55.255314+00:00",
+      "task": "Finalize owner-selected Assignment 2 v0.11",
+      "inputs_description": "Exact mounted v0.11 candidate Word, Markdown and prior authoring checks; explicit owner selection in this conversation",
+      "output_description": "Identical approved argument, tables and references; neutral footer, approval-status sentence and versioned supplementary link; final export and lock record",
+      "ai_contribution": "Administrative edits, artifact comparison and documentation; no new argument or course-source interpretation",
+      "deterministic_operations": "Candidate/final hashes, exact body comparison, independent Word/Markdown word counts, rendering and layout inspection",
+      "limits": "Owner selection is not independent scholarly certification, a completed bilingual review, or course submission. No new Translator run.",
+      "human_approval": {
+        "scope": "owner-selected manuscript for submission",
+        "basis": "Current conversation explicit approval",
+        "not_a_fidelity_gate": true
+      },
+      "live_jev_calls": 0
+    },
+    {
+      "id": "ACT27",
+      "date": "2026-10-15",
+      "record_created_at": "2026-10-16T01:37:55.255314+00:00",
+      "task": "Repository final-lock audit and release preparation",
+      "inputs_description": "Live GitHub branch/tag state and v0.3.2 run 38641821404 artifact 11931290923, verified against its full Git tree",
+      "output_description": "Current final-memo navigation, dated audit, regression tests, preserved history and explicit publication workflow",
+      "ai_contribution": "Repository code and status/editorial updates; no new course or empirical research",
+      "deterministic_operations": "Tracked-file inventory, schema/unit/publication/link checks and final-record bindings; remote CI and release API independently establish delivery",
+      "limits": "Direct Git DNS and direct archive download failed; supported GitHub artifact download succeeded. Local Git is a tree snapshot, not full upstream history. Remote CI must check actual history. Some earlier uploads expired; no recovery is inferred.",
+      "human_approval": null,
+      "live_jev_calls": 0
     }
   ],
   "performed_without_model_judgment": [
