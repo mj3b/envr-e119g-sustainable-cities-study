@@ -30,4 +30,8 @@ Select the claims actually used, preserve source and lecture distinctions, and d
 
 ## Current editions
 
-[Assignment 2 v0.2](assignment-02/README.md) is the revised review memo. [Assignment 3](assignment-03/README.md) contains a rehearsal script, source map and questions for a five-minute presentation. Previous preparation instructions remain historical; current human-review and brief-confirmation requirements appear beside the active artifacts.
+[Assignment 2 v0.11](assignment-02/README.md) is the author-approved final memo. Its 1,129-word argument includes headings and tables and excludes disclosure/references. No course upload is recorded. [Assignment 3](assignment-03/README.md) contains a rehearsal script, source map and questions for a five-minute presentation. Previous preparation instructions remain historical; current human-review and brief-confirmation requirements appear beside the active artifacts.
+
+## Current brief and approval record
+
+The user supplied the Assignment 2 prompt and confirmed the exclusion of disclosure and references from the word count. Its three questions concern theoretical selection, application, and research methods. The 20% weight is user-confirmed. These supplied requirements and the author's selection are recorded in the [v0.11 lock](assignment-02/final-lock-v011.json); earlier missing-brief and review-state statements above describe their original checkpoints.

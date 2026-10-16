@@ -6,9 +6,9 @@ A data center can propose a cooling system that uses less groundwater. Establish
 
 This project investigates that problem through the **Cerrillos Data Center proceedings in Chile, 2020–2024**. It asks how a proposed cooling redesign was treated during review of the project's environmental authorization. The aim is to make a consequential public decision understandable: what was proposed, what authorities could rely on, and which claims the available record can support.
 
-[Start here](docs/START-HERE.md) · [Read the case](research/cerrillos/README.md) · [Read the review draft](assignments/assignment-02/review-draft-v01.md) · [Inspect AI use](AI-USE-LOG.md)
+[Start here](docs/START-HERE.md) · [Read the case](research/cerrillos/README.md) · [Read the approved memo](assignments/assignment-02/final-v011.md) · [Inspect AI use](AI-USE-LOG.md)
 
-For a fixed version to share or cite, use the [v0.3.0 public research checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0). The research remains in progress; a release preserves the work and its stated limits.
+For the author-approved Assignment 2 record, use the [v0.3.3 checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3). The research remains in progress; a release preserves the work and its stated limits.
 
 ## Why this matters
 
@@ -31,7 +31,7 @@ Cerrillos is a **computing-infrastructure case**. The current evidence supplies 
 | Start with your question | Open the work |
 | :--- | :--- |
 | What is being investigated, and why should I care? | [Reader's guide](docs/START-HERE.md) and [case guide](research/cerrillos/README.md) |
-| What does the developing argument look like? | [Assignment 2 review draft](assignments/assignment-02/review-draft-v01.md) and [verification notes](assignments/assignment-02/review-notes-v01.md) |
+| What is the approved Assignment 2 argument? | [Assignment 2 final memo](assignments/assignment-02/final-v011.md) and [verification notes](assignments/assignment-02/finalization-v011.md) |
 | How are evidence and uncertainty handled? | [Methods](methods/README.md), [inspection records](research/cerrillos/draft-source-checks.json) and [measurement rules](methods/MEASUREMENT.md) |
 | How was the work produced and changed? | [AI-use log](AI-USE-LOG.md), [writing standard](standards/WRITING.md), [history](archive/README.md) and [release record](docs/releases/README.md) |
 
@@ -45,13 +45,13 @@ METR's work on [developer productivity](https://metr.org/blog/2025-07-10-early-2
 
 ## Where the study stands
 
-**A narrowed court-and-instrument inquiry is ready for draft review.** The full engineering comparison remains blocked by missing inspection of original records. The draft awaits human review of its sources, legal-language interpretation, voice and assignment requirements. The maintained decision is **B. GO — NARROWED COURT/INSTRUMENT QUESTION**.
+**Mark approved Assignment 2 v0.11 for submission.** The final memo is [locked with its approval and file identities](assignments/assignment-02/final-lock-v011.json). No course submission is recorded. The full engineering comparison remains blocked by uninspected original instruments; separate source-fidelity gates retain their status. The maintained decision is **B. GO — NARROWED COURT/INSTRUMENT QUESTION**.
 
 This work establishes no implemented water savings, aquifer recovery, net environmental benefit or representative community agreement. [Current limits](research/CURRENT.md).
 
 Developed for ENVR E-119g, this repository publishes authored research records, methods and code. AI assistance is disclosed; course permission does not imply faculty endorsement or permission to republish course materials. Raw readings, transcripts and private correspondence remain outside the public repository. [Sharing policy](governance/PUBLICATION.md).
 
-[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Public checkpoint](docs/releases/v0.3.0.md)
+[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Final-memo checkpoint](docs/releases/v0.3.3.md)
 
 ## Course-reading checkpoint
 
@@ -59,6 +59,6 @@ The [Modules I–II reading guide](research/course-readings/README.md) now conne
 
 ## Current assignment work
 
-The [Assignment 2 review draft v0.2](assignments/assignment-02/README.md) incorporates the approved course-reading and October 9 lecture revisions. [Assignment 3 preparation](assignments/assignment-03/README.md) explains the same inquiry in a proposed five-minute presentation. Both await final student review; neither has been submitted.
+The [author-approved Assignment 2 v0.11](assignments/assignment-02/README.md) answers the three assignment questions within 1,129 counted words. Earlier versions remain history. [Assignment 3 preparation](assignments/assignment-03/README.md) still reflects an earlier draft and must be aligned with the final memo before use. No course submission, slides or measured rehearsal are recorded.
 
 The [Module I source analyses](modules/01-theories-sustainable-development/README.md) now make their reasoning explicit. [Module III](research/course-readings/module-iii/README.md) and [October 9 guidance](research/lecture-2026-10-09/README.md) distinguish source claims, proposed case applications and limits. The narrowed case verdict and earlier evidence records are preserved.

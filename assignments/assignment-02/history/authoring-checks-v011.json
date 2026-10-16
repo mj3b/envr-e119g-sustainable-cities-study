@@ -1,0 +1,171 @@
+{
+  "version": "0.11",
+  "status": "Length-compliant submission candidate; not submitted",
+  "created_at_utc": "2026-10-16T00:31:27.256394+00:00",
+  "word_count": {
+    "body_including_section_headings_tables_notes_and_citations": 1129,
+    "body_excluding_section_headings": 1102,
+    "ai_disclosure_excluded": 102,
+    "closing_included": 49,
+    "headings_included": 27,
+    "reference_entries": 9,
+    "method": "Whitespace tokens in visible rendered text; table headings/cells, notes, inline labels, equation symbols and parenthetical citations included. Memo header, title, review label/footer, AI disclosure and references excluded."
+  },
+  "checks": {
+    "body_word_count_verified_from_word": 1129,
+    "visible_markdown_word_count_matches": true,
+    "body_includes_both_tables_captions_notes_and_headings": true,
+    "ai_disclosure_and_references_excluded": true,
+    "within_1000_1200_including_headings": true,
+    "margin_below_1200": 71,
+    "word_markdown_blocks_equal": 51,
+    "native_tables": 2,
+    "all_table_headers_marked": true,
+    "reference_entries": 9,
+    "reference_families_matched": true,
+    "synthetic_arithmetic_checked": true,
+    "no_project_quantity_inferred": true,
+    "no_new_scholarly_self_citation": true,
+    "no_GSF_comparison_or_reference": true,
+    "tracked_changes_or_comments": false,
+    "zip_crc_passed": true,
+    "rendered_pages": 4,
+    "all_final_page_images_visually_inspected": true,
+    "body_pages": [
+      1,
+      2,
+      3
+    ],
+    "disclosure_and_reference_page": 4
+  },
+  "brief_basis": "The user supplied the three assignment questions and the 1,000–1,200-word range; latest instruction expressly excludes AI disclosure and references.",
+  "editorial_scope": [
+    "Retain approved three-paragraph opening and condensed Digital Emissions connection.",
+    "Keep all four sources visible in Sections 1 and 2; distinguish three conceptual perspectives from Lowe’s method precedent.",
+    "Use one integrated documentary method with symmetric source selection, provenance, translations, competing explanations and measurement limits.",
+    "Keep two smaller tables and one inline invented arithmetic illustration.",
+    "Remove GSF comparison and reference; retain Translator solely in disclosure.",
+    "Close inside Section 3 with a 49-word reflection including its two-word label."
+  ],
+  "access_limit": "Prior generated drafts including v0.10 are no longer mounted and were not located in a targeted Files search. No direct v0.10 byte comparison or tracked-difference certification is claimed. Original supplied course PDFs are accessible. New text follows approved content visible in the conversation, with the exact v0.3.2 repository draft and writing standard read as historical context.",
+  "connected_reads": [
+    {
+      "repository": "mj3b/envr-e119g-sustainable-cities-study",
+      "path": "standards/WRITING.md",
+      "ref": "v0.3.2",
+      "git_blob_sha": "29887d2840483d622e6572101a6d4104c919e740"
+    },
+    {
+      "repository": "mj3b/envr-e119g-sustainable-cities-study",
+      "path": "assignments/assignment-02/review-draft-v02.md",
+      "ref": "v0.3.2",
+      "git_blob_sha": "20ee90a914f59c1328c861b6b9ca9b8d6a1fef75"
+    }
+  ],
+  "source_scope": {
+    "course_files": [
+      {
+        "name": "North -Economic Performance.pdf",
+        "sha256": "16d8ccb4a31c9a7bd16283b5c3d1d6694003c6d495e7ca833b2ab33bd757a1b2",
+        "physical_pages": 10,
+        "inspected_pdf_pages": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "Satterwhite Sustainable_Cities_or_Cities_that_Contri.pdf",
+        "sha256": "8861c7a83e354ac18a5eeeb0a41f4eca5fd9a6efce0235e1a4aaa51d3b83a548",
+        "physical_pages": 26,
+        "inspected_pdf_pages": [
+          3,
+          4
+        ]
+      },
+      {
+        "name": "A Decade of Human Development.pdf",
+        "sha256": "19a99a9784c863ed2419df00f9de766d923bc9293e78fdb41e372d03fea706c5",
+        "physical_pages": 8,
+        "inspected_pdf_pages": [
+          6
+        ]
+      },
+      {
+        "name": "City-planning-policies-to-support-health-and-susta.pdf",
+        "sha256": "afb456276dac7e1b3d2b5a0b00a516c09dbd758086351f48a4edb3a191173cb5",
+        "physical_pages": 13,
+        "inspected_pdf_pages": [
+          2,
+          9
+        ]
+      },
+      {
+        "name": "Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf",
+        "sha256": "3c3f9253b3a9092ba7dfe1d998fff6be0e012bfe8bfc3e3a10d9a564c973fc5f",
+        "physical_pages": 229,
+        "inspected_pdf_pages": [
+          158,
+          161,
+          162,
+          174
+        ]
+      }
+    ],
+    "legal_passages": [
+      {
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf",
+        "pages": [
+          64,
+          65,
+          72
+        ],
+        "inspection": "Original web PDF text and page screenshots; no fresh source-byte checksum or electronic-signature validation."
+      },
+      {
+        "url": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2022/06/06/of_202299102452.pdf",
+        "pages": [
+          2
+        ],
+        "inspection": "Original web PDF text and screenshot."
+      }
+    ],
+    "lecture": "Relevant original October 9 transcript turns at 45:58 and 48:56 read; speaker attribution contextual, not audio verified.",
+    "E5": "Supplied Pasted text.txt consulted; it explicitly distinguishes recovered material from synthesis and unverified original definitions.",
+    "edition_equivalence": "North and Satterthwaite supplied versions remain distinct from syllabus editions."
+  },
+  "case_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "case_primary_source_closure_changed": false,
+  "ai_activity": "ChatGPT authored condensed prose, tables, references, disclosure and document code; selected supplied passages and official legal screenshots were rechecked. Counts, paragraph correspondence, source hashes and arithmetic were checked deterministically.",
+  "not_performed": [
+    "Prior complete v0.10 recovery or byte-for-byte preservation test",
+    "Independent human source-fidelity review",
+    "Independent bilingual legal review",
+    "Audio/read-aloud rehearsal",
+    "Whole-corpus scholarly audit",
+    "Translator rerun",
+    "Jev or other model evaluation",
+    "GitHub modification or release",
+    "Assignment 3 modification",
+    "Course submission"
+  ],
+  "final_author_review": "pending",
+  "output_files": {
+    "ENVR_E119g_Assignment2_Submission_Candidate_v0.11.md": {
+      "sha256": "1a6d70e730aad73813ae59b737bb03c2fcd043e2006c3d20475b75bc5a2e1214",
+      "bytes": 12736
+    },
+    "ENVR_E119g_Assignment2_Submission_Candidate_v0.11.docx": {
+      "sha256": "2a5829cd4d6b0d1c4282994b569110f0c3b3573411d106c7757cea79f3950329",
+      "bytes": 44708
+    }
+  },
+  "accessibility_screen": {
+    "counts": {
+      "high": 0,
+      "medium": 0,
+      "low": 8
+    },
+    "limitations": "Automated document screen, not formal accessibility certification. Low-severity findings concern displayed source URLs."
+  }
+}

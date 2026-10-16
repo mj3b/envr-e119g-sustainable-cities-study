@@ -4,7 +4,7 @@
 
 ## A first visit
 
-You can follow this study without running code or learning Git. Read the [main overview](../README.md) for the public problem, then the [case guide](../research/cerrillos/README.md) for the question and available evidence. The [review draft](../assignments/assignment-02/review-draft-v01.md) shows the developing argument; its status note identifies what still needs review.
+You can follow this study without running code or learning Git. Read the [main overview](../README.md) for the public problem, then the [case guide](../research/cerrillos/README.md) for the question and available evidence. The [approved final memo](../assignments/assignment-02/final-v011.md) shows the author-selected argument. Its [lock record](../assignments/assignment-02/final-lock-v011.json) distinguishes approval, source review and course submission.
 
 New researchers can follow one claim from the draft to the [source-check record](../research/cerrillos/draft-source-checks.json), then compare the stated support with the cited original passage. Colleagues and employers can use the practice-to-artifact table below to examine how the work was structured. The [AI-use record](../AI-USE-LOG.md) explains how those artifacts were produced.
 
@@ -14,7 +14,7 @@ Consider a project whose developers propose a design that would use less water. 
 
 Each question asks for a different kind of evidence. An engineering forecast describes expected demand under stated assumptions. A legal instrument determines obligations within its authority. Operating records describe what happened within a measurement period. Combining these records without checking their roles can produce a confident account that the evidence cannot sustain.
 
-That is the problem this study examines through Cerrillos. Its current focus is the treatment of screening and environmental authorization in a specific judicial proceeding. The [case guide](../research/cerrillos/README.md) identifies the exact question and the [review draft](../assignments/assignment-02/review-draft-v01.md) presents the developing argument.
+That is the problem this study examines through Cerrillos. Its current focus is the treatment of screening and environmental authorization in a specific judicial proceeding. The [case guide](../research/cerrillos/README.md) identifies the exact question and the [review draft](../assignments/assignment-02/final-v011.md) presents the selected final argument.
 
 ## The connection to sustainable cities
 
@@ -29,10 +29,10 @@ Those are questions for investigation. The current legal record does not supply 
 | Narrow an ambiguous problem | [Current research decision](../research/CURRENT.md) limits the study to an answerable institutional question | Whether the question and contribution are useful |
 | Examine evidence before making a claim | [Draft source checks](../research/cerrillos/draft-source-checks.json) identify passages, versions and access limits | Whether the source supports the interpretation |
 | Test an attractive explanation | [Rival explanations](../research/CURRENT.md#rivals-to-preserve) retain alternatives to an assumed regulatory failure | Which explanation survives the evidence |
-| Communicate across audiences | This guide, the [draft](../assignments/assignment-02/review-draft-v01.md), and [writing rules](../standards/WRITING.md) use different levels of technical detail | Whether the prose preserves meaning and reflects Mark's accepted position |
+| Communicate across audiences | This guide, the [draft](../assignments/assignment-02/final-v011.md), and [writing rules](../standards/WRITING.md) use different levels of technical detail | Whether the prose preserves meaning and reflects Mark's accepted position |
 | Make revisions inspectable | [AI activity](../methods/ai-activity.json), [checks](../governance/README.md), and [releases](releases/README.md) separate production from approval | Scholarly acceptance and permission to submit |
 
-These artifacts document work performed with AI assistance. They do not establish that Mark independently performed every task, accepted every sentence, or demonstrated a measured improvement in professional performance.
+These artifacts document work performed with AI assistance. The final v0.11 text is now owner-selected. That selection does not establish that Mark independently performed every recorded task or demonstrated a measured improvement in professional performance.
 
 ## Why some questions remain open
 
@@ -44,10 +44,10 @@ Obtaining the missing originals could permit a fuller comparison. It could also 
 
 AI has helped organize material, propose and critique analysis, draft prose, and write repository tooling. Scripts check defined properties such as file hashes, record structure and local links. Human source interpretation and final approval are separate activities. The [system register](../methods/AI-SYSTEMS.md) describes actual assistance and tools prepared but unused.
 
-The next step is review of the existing Assignment 2 draft against the cited passages and current assignment brief. The purpose of this public record is to make that review possible.
+The author has selected v0.11 for submission. The purpose of this record is to make the argument, its sources and remaining limits inspectable. No independent scholarly certification or Canvas upload follows from the finalization.
 
 ## Share the version you read
 
-Use the [v0.3.0 public checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0) when passing the study to a colleague, cohort member or employer. Its links open a fixed version. The repository's main page continues to evolve, and earlier checkpoints remain in the [release history](releases/README.md).
+Use the [v0.3.3 final-memo checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) when passing the study to a colleague, cohort member or employer. Its links open a fixed version. The repository's main page continues to evolve, and earlier checkpoints remain in the [release history](releases/README.md).
 
 Describe it as an ongoing, AI-assisted research study of water, computing infrastructure and environmental review. Sharing the work invites scrutiny; it conveys no endorsement by a reader, employer, fellowship, instructor or institution. The [citation policy](../CITATION-POLICY.md) explains how to identify the version and its supporting sources.

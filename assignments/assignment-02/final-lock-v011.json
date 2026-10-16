@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "version": "0.11",
+  "record_created_at_utc": "2026-10-16T01:34:24.075372+00:00",
+  "status": "author_approved_for_submission",
+  "owner": "Mark Julius Banasihan",
+  "approval_basis": "Current conversation: \"This is the version I want to go ahead and submit.\"",
+  "approval_scope": "Exact approved argument, tables and references. Administrative status/footer and supplementary-link updates documented below.",
+  "approval_not_a_claim_of": [
+    "independent source-fidelity certification",
+    "independent bilingual legal review",
+    "instructor approval",
+    "Canvas submission",
+    "measured environmental results"
+  ],
+  "submission": {
+    "status": "not_recorded",
+    "submitted_at": null,
+    "receipt": null,
+    "note": "Owner approval and publication are distinct from the act of uploading to the course. No submission receipt was supplied."
+  },
+  "case_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "argument_sha256": "e6a66f76b3a27af0e9949c91b626f32fbb387f198ffbddc5d2e7d0d298cb9054",
+  "argument_characters": 8805,
+  "word_count": {
+    "body_including_headings_tables_notes_citations": 1129,
+    "max": 1200,
+    "margin": 71,
+    "excludes": [
+      "memo header",
+      "overall title",
+      "status line/footer",
+      "AI disclosure",
+      "references"
+    ],
+    "markdown_and_word_counts_equal": true
+  },
+  "prior_candidate_files_sha256": {
+    "ENVR_E119g_Assignment2_Submission_Candidate_v0.11.md": "1a6d70e730aad73813ae59b737bb03c2fcd043e2006c3d20475b75bc5a2e1214",
+    "ENVR_E119g_Assignment2_Submission_Candidate_v0.11.docx": "2a5829cd4d6b0d1c4282994b569110f0c3b3573411d106c7757cea79f3950329",
+    "ENVR_E119g_Assignment2_Checks_v0.11.json": "dca1e8b8f04eb99e6489b04fce942972d4e690bc4ace2287f8a07145e51d3b07"
+  },
+  "final_files": {
+    "ENVR_E119g_Assignment2_Final_v0.11.md": {
+      "sha256": "0b94552fcf6bab438d39dded715587822d4186cdc932cd3670e6a0a0e23d2938",
+      "bytes": 12720
+    },
+    "ENVR_E119g_Assignment2_Final_v0.11.docx": {
+      "sha256": "9a938a38b3fdbba3e439ffcec00386ae96a4e81a5b67b34ff321fa3eb4ae6730",
+      "bytes": 44740
+    }
+  },
+  "administrative_changes": [
+    {
+      "field": "footer",
+      "old": "Submission candidate v0.11 | Not submitted",
+      "new": "ENVR E-119g | Assignment 2 | Mark Julius Banasihan"
+    },
+    {
+      "field": "Markdown status",
+      "new": "Author-approved final v0.11"
+    },
+    {
+      "field": "disclosure approval statement",
+      "old": "Final source and voice review remain pending.",
+      "new": "I have approved this version for submission.",
+      "limit": "Records the owner’s choice, not a new source-fidelity review."
+    },
+    {
+      "field": "supplementary research link",
+      "old": "https://github.com/mj3b/envr-e119g-sustainable-cities-study/tree/v0.3.2",
+      "new": "https://github.com/mj3b/envr-e119g-sustainable-cities-study/tree/v0.3.3",
+      "release_verification": "The release API and live tag, checked after publication, establish completion; no publication is asserted by this record alone."
+    }
+  ],
+  "argument_tables_references_unchanged": true,
+  "original_candidate_files_unchanged": true,
+  "human_fidelity_gates_modified": false,
+  "source_reinspection_in_this_lock": false,
+  "new_translator_execution": false,
+  "final_visual_review": {
+    "status": "pass within layout scope",
+    "pages_rendered": 4,
+    "pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "word_body_unchanged": true,
+    "result": "Neutral footer fits; both tables intact; all disclosure and references on page 4.",
+    "scholarly_approval": false
+  },
+  "files_in_repository": {
+    "final_markdown": "assignments/assignment-02/final-v011.md",
+    "original_candidate_markdown": "assignments/assignment-02/history/submission-candidate-v011.md",
+    "original_candidate_checks": "assignments/assignment-02/history/authoring-checks-v011.json"
+  },
+  "release_tag": "v0.3.3",
+  "later_source_inspection_status": "The finalization does not extend the inherited original-source inspection scope or pass the human fidelity gates."
+}
