@@ -22,12 +22,11 @@ jobs:
         run: |
           set -euo pipefail
           test "$GITHUB_REPOSITORY" = mj3b/envr-e119g-sustainable-cities-study
-          test "$(git rev-parse HEAD~1)" = f1d019ae20b860efdbcdbdcf36e41b4288813e81
+          git merge-base --is-ancestor f1d019ae20b860efdbcdbdcf36e41b4288813e81 HEAD
           python - <<'PY'
           from pathlib import Path
-          import base64,hashlib,json,lzma,os,subprocess
-          root=Path.cwd()
-          folder=root/'.github/final-lock-payload'
+          import base64,hashlib,json,lzma,os
+          folder=Path('.github/final-lock-payload')
           packed=base64.b64decode(''.join((folder/f'part-{i}.b64').read_text() for i in range(4)),validate=True)
           assert len(packed)==22692
           assert hashlib.sha256(packed).hexdigest()=='218034c3586e7598a1def39a445a003044ec96bd6b616d77412bb86d02ef3798'
@@ -70,9 +69,9 @@ jobs:
           folder.rmdir()
           Path('.github/workflows/_prepare-final-lock.yml').unlink()
           Path(os.environ['RUNNER_TEMP'],'expected-fingerprint.txt').write_text(data['expected_final_fingerprint'])
-          print('Applied 26 approved file changes. Temporary preparation files removed. Protected research bytes retained.')
+          print('Applied 26 approved changes for verification. Protected research bytes retained.')
           PY
-      - name: Run checks and regenerate the real receipt
+      - name: Verify the intended final tree with full history
         run: |
           set -euo pipefail
           pip install -r requirements-dev.txt
@@ -88,15 +87,19 @@ jobs:
           expected=Path(os.environ['RUNNER_TEMP'],'expected-fingerprint.txt').read_text()
           assert receipt['fingerprint']==expected
           assert receipt['automated_status']=='pass'
-          print('Remote content fingerprint matches the locally reviewed edition:',expected)
+          print('Intended final fingerprint verified:',expected)
           PY
-      - name: Save the clean review commit on this branch only
+          git add governance/evaluation-results.json
+          echo "Verified final tree before authorized workflow-file transfer: $(git write-tree)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Push content only; leave workflow changes to the connected authorized editor
         run: |
           set -euo pipefail
           test "$GITHUB_REF" = refs/heads/finalize-assignment2-v011
+          git restore --source=HEAD --staged --worktree .github/workflows/_prepare-final-lock.yml
+          git rm .github/workflows/publish-final-checkpoint.yml
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add governance/evaluation-results.json
-          git commit -m 'Lock author-approved Assignment 2 v0.11 and verify repository records'
+          git commit -m 'Stage verified final-lock content; workflow-file completion remains pending'
           git push origin HEAD:refs/heads/finalize-assignment2-v011
-          echo "Prepared clean review commit: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          echo "Intermediate content commit: $(git rev-parse HEAD). Do not merge until the authorized workflow-file completion and exact-head CI pass." >> "$GITHUB_STEP_SUMMARY"
