@@ -1,0 +1,20 @@
+# Module IV: source review and research decisions
+
+Six supplied urban-heat PDFs were inspected through text extraction and targeted reading. The source-specific findings and use decisions below are AI-authored candidates, pending human source-fidelity review. Physical PDF page locators refer to the supplied versions. File identity was checked against the private receipt; raw PDFs and full extracts remain private. No underlying dataset replication, full reference-chain validation, or comprehensive visual inspection is claimed.
+
+| Reading | Source, evidence, and locator | Proposed decision for Assignment 4 | Boundary |
+| :--- | :--- | :--- | :--- |
+| Zhao et al. (2018) | Model simulations of 50 selected US cities, present and future scenarios; urban air and surface temperatures are distinct measures (PDF pp. 2–4, 8–10). | Conditional background for cooling, water demand, and measurement trade-offs. | Simulated US results do not establish Cerrillos temperatures, water use, or health effects. |
+| Heaviside et al. (2017) | Review of urban heat and health; discusses exposure measures, vulnerability, and mitigation trade-offs (PDF pp. 3, 5–7). | Conditional framework for asking whose exposure and risks are measured. | Cited case studies are secondary evidence; modeled health outcomes are not direct local observations. |
+| Hoffman et al. (2020) | Observational comparison of historical HOLC areas and satellite land-surface temperatures in 108 US urban areas (PDF pp. 3–4, 9–11). | Methodological example for examining distribution and institutional history. | Surface temperature is not individual exposure; associations do not isolate the causal effect of maps or prove local inequality. Extraction contains duplicate overlays; check page images before numerical reuse. |
+| Barradas et al. (2022) | Physiological and microclimate observations in Mexico City, followed by a modeled park design at maturity (PDF pp. 3, 5–6, 9–12). | Optional comparison on water, maintenance, and modeled versus observed cooling. | Projected model output is not a measured before/after park effect or a Cerrillos observation. |
+| Elands et al. (2019) | Conceptual biocultural-diversity framework, including lived experience and stewardship; supplied accepted manuscript (PDF pp. 6–8, 11). | Optional lens on whose values and uses are represented, subject to scope and accessible evidence. | A European urban-greenspace framework does not establish community values, inclusion, or harm in Cerrillos. |
+| Jay et al. (2021) | Integrative review of heat mitigation across urban, building, and individual scales, including costs and water trade-offs (PDF pp. 4–6, 10–12). | Optional practical comparison on responsibilities, triggers, monitoring, and revision. | Proposed heat plans are not proof of local implementation or effectiveness. |
+
+## Decision and rationale
+
+Keep the narrowed Cerrillos court/instrument inquiry primary. Of these readings, Elands and Hoffman offer candidate methods for addressing whose interests or conditions are represented, responding to the instructor's suggestion; neither provides Chilean evidence. Jay and Barradas can illustrate how design and maintenance interact when the question warrants it. The short memo need not cite all six.
+
+Revisit these decisions if the assignment scope changes, Mark's review finds a different interpretation, or original local evidence establishes an applicable connection. Distinguish recorded community submissions, official responses, participation quality, and actual influence. Silence and missing files do not establish agreement or exclusion.
+
+Codex inspected supplied PDF text, drafted the above interpretations and proposed decisions; model deployment details are not established by tool metadata. No Jev call, independent human review, or automatic verification occurred in this review. The locked Assignment 2 v0.11 and current research verdict remain unchanged. Related historical receipts: [Module IV PDF receipts](MODULE-IV-RECEIPTS.md), [Module III review](module-iii/README.md), and [research integrity protocol](../../methods/RESEARCH-INTEGRITY.md).
