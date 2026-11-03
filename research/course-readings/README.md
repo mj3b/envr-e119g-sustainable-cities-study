@@ -43,11 +43,13 @@ North, Ostrom and Satterthwaite remain tied to the supplied editions. Gu remains
 
 McConnell and colleagues' *Urban areas in the United States experience substantial wildfire impacts* was located on the [publisher's original article page](https://www.nature.com/articles/s43247-026-03336-y). Its HTML introduction, measures and methods were inspected separately. No user-uploaded copy or local original PDF bytes were obtained; PDF download and screenshot attempts failed. It is therefore excluded from the eleven-PDF execution count. The external record is in the syllabus catalog, with this limitation preserved.
 
-## What remains to be supplied
+## Historical intake gap (superseded)
+
+The following paragraph records the earlier intake state. The six Module III PDFs were subsequently received and reviewed within the limits in [Module III](module-iii/README.md). Three October 23 Module IV PDFs have since been [received](MODULE-IV-RECEIPTS.md), with substantive review pending.
 
 Module III currently has six named Canvas attachments but no original bytes verified in this review: `Aktar_water-13-02660.pdf`, `Gutberlet_reimagining urban wm.pdf`, `Vulnerability_and_everyday_health_risks_of_urban_i.pdf`, `Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf`, `Hettiarachchi_Organic Waste Buyback.pdf`, and `Palette_plastic valorisation.pdf`. A Canvas item link establishes a locator, not access to its contents.
 
-The complete reading list supplied in the conversation resolves the semester reading-list denominator: 38 entries across seven modules. It does not replace the original Assignment 2 instructions. The Friday deadline is user-reported; assignment length, required components and final compliance still require the original brief. Module I does not need another upload.
+The complete reading list supplied in the conversation resolves the semester reading-list denominator: 38 entries across seven modules. It does not replace the original Assignment 2 instructions. The deadline and assignment requirements in this historical section refer to the earlier review stage; consult current assignment records. Module I does not need another upload.
 
 The public repository stores authored analysis, short source anchors, metadata, checksums and execution evidence. It stores neither the course PDFs nor their full text. See [publication rules](../../governance/PUBLICATION.md), [AI disclosure](../../methods/AI-DISCLOSURE.md), and [the unchanged current case](../CURRENT.md).
 

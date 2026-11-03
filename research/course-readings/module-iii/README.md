@@ -16,4 +16,4 @@ The [original execution receipt](translator/execution-receipt.json) records six 
 
 The syllabus assigns the first three readings to October 9 and the other three to October 16. Reviewing all six now does not establish that all were discussed in the October 9 lecture. The original syllabus PDF and assignment brief remain separate from the supplied reading-list transcription.
 
-Current guidance supersedes stage-specific next steps in the [earlier revision map](ASSIGNMENT-02-REVISION-MAP.md): the October 9 transcript has since been reviewed and Assignment 2 v0.2 has been drafted. Human review remains pending. Raw PDFs, complete extractions and audio/transcripts remain outside public Git.
+**Historical stage note:** The following describes an earlier revision stage, not the present status of Assignment 2 v0.11 or later claim-specific reviews. Current guidance supersedes stage-specific next steps in the [earlier revision map](ASSIGNMENT-02-REVISION-MAP.md): the October 9 transcript has since been reviewed and Assignment 2 v0.2 has been drafted. Human review remains pending. Raw PDFs, complete extractions and audio/transcripts remain outside public Git.
