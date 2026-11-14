@@ -15,3 +15,7 @@ The substantive method is documentary case analysis: connect a bounded claim to 
 | [Assurance checks](../governance/README.md) | Reproduce structural and repository checks without certifying source truth |
 
 The [activity record](ai-activity.json) documents performed work. A proposed method has no measured result until the necessary observations and review exist.
+
+## Evidence review in practice
+
+Follow one fictional water claim from a source passage to the review queue. The [reader guide and notebook](evidence-review/README.md) show what the specification, LangChain Core, LangGraph and the human reviewer each contribute.

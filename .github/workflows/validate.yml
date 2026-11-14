@@ -43,3 +43,16 @@ jobs:
             tracked-review-snapshot.zip
           retention-days: 7
           if-no-files-found: error
+
+  evidence_review_demo:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: methods/evidence-review
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest -v test_workflow

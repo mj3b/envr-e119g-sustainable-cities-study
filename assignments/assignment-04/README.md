@@ -1,42 +1,24 @@
-# Assignment 4 · Strategies, policy, and practice
+# Assignment 4. Follow residents’ water concerns
 
-[Home](../../README.md) / [Assignments](../README.md) / Assignment 4
+[Start here](../../docs/START-HERE.md) · [Assignment trail](../README.md) · [Evidence review](../../methods/evidence-review/README.md)
 
-| Verified format | Recorded due date / weight | Repository status |
-| :--- | :--- | :--- |
-| Memo or blog · 1,300–1,500 words | November 20 · 20% | Preparation guide; no submission artifact or approval recorded |
+How did residents raise water concerns about the original Cerrillos Data Center, how did officials respond, and what can the public record show about whose concerns entered the decision? This is the current working question. It builds on Assignment 2’s study of the original approval and later court review. [Assignment 2 final memo](../assignment-02/final-v011.md)
 
-## Verified course brief
+## What the memo needs to do
 
-Continue the topic from Assignment 1, explaining how understanding has evolved and how course concepts can inform practical approaches to improving cities.
+The supplied brief asks for a **1,300–1,500-word memo or blog post** that continues the topic from Assignment 1. Explain what the research and course materials changed or clarified, then show how that learning could inform a practical response to an urban challenge. The memo is in development.
 
-| Requested work | Paraphrase of the syllabus |
+| Part of the argument | Work to do |
 | :--- | :--- |
-| Explain learning | Describe what research and course engagement have taught you about the topic. |
-| Translate learning | Explain how that knowledge could improve cities or address the relevant urban challenge. |
+| Explain what changed | Trace the progression from how cities account for water commitments to how residents’ concerns appear in those decisions. Use the author’s own account of what changed in their thinking. |
+| Show what the record can establish | Pair each statement with a dated record and locator. Distinguish a request, a ruling on whether it can proceed, a response to the substance of the concern and an eventual remedy. |
+| Propose a practice | Consider a public register that connects a concern to its response, the responsible office and the evidence of follow-through. Discuss who could maintain it, how residents could correct it and what would make it useful. |
+| State what would change the conclusion | Identify what additional records, participant evidence or observations would answer an open question. A claim about effects on water access needs evidence about water access. |
 
-Source: `SYL`, PDF pp. 5; date and weight on p. 6. More detailed live prompts, submission settings, and marking rubrics have not been inspected. This guide does not invent them.
+Public engagement standards can help explain why a record should show whose feedback was heard and how it was considered. The World Bank and Inter-American Development Bank requirements apply within their own financing scopes. The memo can draw on those practices when explaining the proposed register. [World Bank ESS10, para. 9](https://documents1.worldbank.org/curated/en/383011492423734099/pdf/The-World-Bank-Environmental-and-Social-Framework.pdf) · [IDB ESPS10, para. 9](https://publications.iadb.org/publications/english/document/Environmental-and-Social-Policy-Framework.pdf)
 
-## Preparation, separate from requirements
+## How to review one sentence
 
-The following records are repository planning tools, not additional instructor criteria.
+Read each clause against its cited passage and decide what the source establishes. A filing can show that a person raised a concern. Evidence about who was represented, whether the concern influenced a decision or what later happened to water use requires a different check. The fictional [evidence-review notebook](../../methods/evidence-review/trace-a-claim.ipynb) shows how to record support, contradiction and missing evidence.
 
-| Prepare | Evidence or reasoning to retain | Failure to prevent |
-| :--- | :--- | :--- |
-| Learning trajectory | Earlier question, new evidence, and a specific change or justified continuity | A manufactured conversion story |
-| Practical proposal | Action, responsible authority, affected population, and mechanism | An aspirational recommendation with no implementer |
-| Alternative and burden | Another feasible approach and distributional or ecological trade-offs | Presenting one preferred policy as inevitable |
-| Assessment and revision | Outcome measure, time frame, uncertainty, and trigger to reconsider | Treating an implemented activity as demonstrated benefit |
-
-Prepare an option comparison only after the evidence supports the problem definition. Preserve uncertainty where an effect cannot be identified; practical recommendations can be conditional.
-
-[Research objects](../../cases/RESEARCH-OBJECTS.md) · [Research standard](../../standards/RESEARCH.md) · [Learning log](../../study/learning-log.md)
-
-## Ready to develop when…
-
-- The current prompt has been checked and the relevant scope is authorized.
-- The selected claims and interpretations have human review appropriate to their actual use.
-- Mark can explain the argument, its strongest alternative, and its evidentiary limits.
-- Personal statements come from Mark, and the AI acknowledgment describes the assistance accurately.
-
-Follow the [deliverable standard](../../standards/DELIVERABLES.md) and [AI governance](../../governance/AI-GOVERNANCE.md). Assignment 1 now has separate drafting authorization; this later-assignment guide remains preparation only. No assignment is marked submitted merely because a repository file exists.
+The [research-integrity protocol](../../methods/RESEARCH-INTEGRITY.md) explains the evidence and review requirements. The [AI-use log](../../AI-USE-LOG.md) records assistance. The [course map](../../COURSE-MAP.md) preserves the syllabus context.

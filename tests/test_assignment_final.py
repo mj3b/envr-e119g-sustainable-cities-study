@@ -31,7 +31,9 @@ class FinalAssignmentTests(unittest.TestCase):
         acts=load('methods/ai-activity.json')['activities']
         old=acts[:audit['prior_ai_activity_count']]
         self.assertEqual(hashlib.sha256(json.dumps(old,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),audit['prior_ai_activity_sha256'])
-        self.assertEqual([x['id'] for x in acts[-2:]],['ACT26','ACT27'])
+        finalization_start = audit['prior_ai_activity_count']
+        finalization = acts[finalization_start:finalization_start + 2]
+        self.assertEqual([activity['id'] for activity in finalization], ['ACT26', 'ACT27'])
 
     def test_release_state_does_not_claim_submission(self):
         lock=load('assignments/assignment-02/final-lock-v011.json')

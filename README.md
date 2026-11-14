@@ -2,63 +2,28 @@
 
 Mark Julius Banasihan · ENVR E-119g: Sustainable Cities · Research in progress
 
-A data center can propose a cooling system that uses less groundwater. Establishing what that proposal changes in law, and what it changes in the environment, takes different evidence.
+A data center proposes a cooling system that would use less groundwater. What changes in the approval, and what evidence would show a benefit for the people who share that water supply?
 
-This project investigates that problem through the **Cerrillos Data Center proceedings in Chile, 2020–2024**. It asks how a proposed cooling redesign was treated during review of the project's environmental authorization. The aim is to make a consequential public decision understandable: what was proposed, what authorities could rely on, and which claims the available record can support.
+This study follows the original Cerrillos Data Center environmental proceedings in Chile. The approved memo focuses on how the tribunal treated a proposed redesign during its review of the original approval. The next assignment asks how residents’ water concerns entered that record and how authorities responded. [Case guide](research/cerrillos/README.md) · [Current research scope](research/CURRENT.md)
 
-[Start here](docs/START-HERE.md) · [Read the case](research/cerrillos/README.md) · [Read the approved memo](assignments/assignment-02/final-v011.md) · [Inspect AI use](AI-USE-LOG.md)
+## Start reading
 
-For the author-approved Assignment 2 record, use the [v0.3.3 checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3). The research remains in progress; a release preserves the work and its stated limits.
+| If you want to… | Open this |
+| --- | --- |
+| Get oriented without using Git or Python | [Start here](docs/START-HERE.md) |
+| Follow the work from the first memo to the current research question | [Assignments 1–4](assignments/README.md) |
+| Read the author-approved Assignment 2 argument | [Final memo v0.11](assignments/assignment-02/final-v011.md) |
+| Try checking a claim against a source | [Evidence review notebook](methods/evidence-review/trace-a-claim.ipynb) |
+| See what AI contributed and how the software was checked | [AI-use log](AI-USE-LOG.md) · [Methods guide](methods/evidence-review/README.md) |
 
-## Why this matters
+## What the case can tell us
 
-An environmental improvement claim can influence how people judge an infrastructure project. Residents need to understand the commitments on which a decision rests. Public officials and project teams need to distinguish an engineering proposal from an enforceable obligation. Anyone assessing a sustainability claim needs to know whether a number describes an expectation or an observation.
+The 2024 tribunal judgment describes the developer’s proposed shift from water-based cooling towers to air-cooled equipment. It treats the screening response and the original environmental approval as distinct acts. The approved memo examines why that distinction mattered when the tribunal reviewed the original groundwater assessment. Measured water use, any benefit for residents and the distribution of that benefit would each require observations beyond the documents used for this argument. [Judgment, PDF pp. 64–65](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64) · [Measurement rules](methods/MEASUREMENT.md)
 
-The study concentrates on **regulatory accountability through environmental review**. Its practical value lies in reconstructing that connection between evidence and authority, rather than assigning a sustainability label to a project. A favorable design claim is the beginning of an inquiry into consequences.
+The research verdict remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. The author selected the [locked v0.11 memo](assignments/assignment-02/final-lock-v011.json) for submission. The repository records that selection. The [fixed checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) identifies the exact edition.
 
-For employers and collaborators, the work is an inspectable example of problem definition, source criticism, decision analysis and research communication. The [reader's guide](docs/START-HERE.md) connects those practices to specific artifacts. The [contribution records](methods/AI-SYSTEMS.md) separate AI-authored work from human decisions and review still to be completed.
+## How to check the work
 
-## The case in plain language
+Start with a claim and its cited passage. Check who wrote the document, when, what it establishes and which part of the claim remains open. The teaching notebook uses fictional records to show how a researcher’s annotations move through a fixed LangChain Core and LangGraph workflow. A person decides whether the evidence supports the final wording. [Research integrity protocol](methods/RESEARCH-INTEGRITY.md) · [Workflow specification](methods/evidence-review/SPEC.md)
 
-In its 2024 judgment, Chile's Second Environmental Tribunal described a proposed switch from water-based cooling to air-cooled equipment. It nevertheless continued reviewing the original groundwater assessment. The court's reasoning treats a screening response and a change to an environmental qualification as legally different acts. [Original judgment, considerations 93–94, PDF pp. 64–65](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64).
-
-The question is why the proposed technical change did not settle the legal issue under review. The study follows the court's reasoning while keeping its account of other filings separate from direct inspection of those filings.
-
-Cerrillos is a **computing-infrastructure case**. The current evidence supplies no basis for attributing the redesign or dispute to AI workloads. The [exact question, contribution and non-claims](research/CURRENT.md) govern the study.
-
-## What you can inspect now
-
-| Start with your question | Open the work |
-| :--- | :--- |
-| What is being investigated, and why should I care? | [Reader's guide](docs/START-HERE.md) and [case guide](research/cerrillos/README.md) |
-| What is the approved Assignment 2 argument? | [Assignment 2 final memo](assignments/assignment-02/final-v011.md) and [verification notes](assignments/assignment-02/finalization-v011.md) |
-| How are evidence and uncertainty handled? | [Methods](methods/README.md), [inspection records](research/cerrillos/draft-source-checks.json) and [measurement rules](methods/MEASUREMENT.md) |
-| How was the work produced and changed? | [AI-use log](AI-USE-LOG.md), [writing standard](standards/WRITING.md), [history](archive/README.md) and [release record](docs/releases/README.md) |
-
-## Measurement without overstating progress
-
-The [reproducible record snapshot](research/progress.json) distinguishes historical ledger labels from the draft's separate inspection record. It counts documents and claims within named files; it cannot score the truth of the research.
-
-The quantitative method starts with a more demanding question: **what exactly would a number establish?** A projected reduction requires comparable baseline and revised designs, consistent units, and supported operating assumptions. Measured savings require operating observations. The technical inputs needed for that comparison remain uninspected in the current record.
-
-METR's work on [developer productivity](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) and [task-completion horizons](https://metr.org/time-horizons/) informs the separation of a defined test from broader claims about usefulness. The [local measurement protocol](methods/MEASUREMENT.md) applies that discipline here. It is neither a METR benchmark nor evidence that AI has improved this study's productivity.
-
-## Where the study stands
-
-**Mark approved Assignment 2 v0.11 for submission.** The final memo is [locked with its approval and file identities](assignments/assignment-02/final-lock-v011.json). No course submission is recorded. The full engineering comparison remains blocked by uninspected original instruments; separate source-fidelity gates retain their status. The maintained decision is **B. GO — NARROWED COURT/INSTRUMENT QUESTION**.
-
-This work establishes no implemented water savings, aquifer recovery, net environmental benefit or representative community agreement. [Current limits](research/CURRENT.md).
-
-Developed for ENVR E-119g, this repository publishes authored research records, methods and code. AI assistance is disclosed; course permission does not imply faculty endorsement or permission to republish course materials. Raw readings, transcripts and private correspondence remain outside the public repository. [Sharing policy](governance/PUBLICATION.md).
-
-[Research and course index](research/README.md) · [Current work status](BUILD-STATUS.md) · [Run the checks](governance/README.md) · [Final-memo checkpoint](docs/releases/v0.3.3.md)
-
-## Course-reading checkpoint
-
-The [Modules I–II reading guide](research/course-readings/README.md) now connects the supplied course sources to the study. It records source versions, numerical limitations and actual Translator schema checks. The [Assignment 2 relevance map](research/course-readings/ASSIGNMENT-02-RELEVANCE.md) explains which readings strengthen the existing draft. Source access and automated checks remain separate from human scholarly review.
-
-## Current assignment work
-
-The [author-approved Assignment 2 v0.11](assignments/assignment-02/README.md) answers the three assignment questions within 1,129 counted words. Earlier versions remain history. [Assignment 3 preparation](assignments/assignment-03/README.md) still reflects an earlier draft and must be aligned with the final memo before use. No course submission, slides or measured rehearsal are recorded.
-
-The [Module I source analyses](modules/01-theories-sustainable-development/README.md) now make their reasoning explicit. [Module III](research/course-readings/module-iii/README.md) and [October 9 guidance](research/lecture-2026-10-09/README.md) distinguish source claims, proposed case applications and limits. The narrowed case verdict and earlier evidence records are preserved.
+[Ten-minute course reader path](docs/FACULTY-GUIDE.md) · [Course readings](research/course-readings/README.md) · [Research history](archive/README.md) · [Build status](BUILD-STATUS.md) · [Public-sharing policy](governance/PUBLICATION.md)

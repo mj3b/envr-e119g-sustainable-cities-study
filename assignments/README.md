@@ -1,37 +1,22 @@
-# One inquiry across five assignments
+# Follow the inquiry through four assignments
 
-[Home](../README.md) / Assignments
+[Home](../README.md) · [Start here](../docs/START-HERE.md)
 
-**Purpose:** connect the course's cumulative deliverables to the evidence and reasoning each requires.
+How can a city tell whether a water-saving proposal will benefit the public? The work started with a broad question about municipal commitments. Cerrillos gave that question a specific decision record to examine. Each assignment asks what the evidence can establish and what a reader needs to check next.
 
-| Current mode | Evidence authority | Submission state |
+| Assignment | How the inquiry developed | What to read |
 | :--- | :--- | :--- |
-| Assignment 2 review draft v0.1 available; Assignments 3–5 remain preparation-only | Archived course requirements and current user authorization; Assignment 2 original-prompt check remains open | Assignment 1 submission is user-reported in the project record; no Assignment 2 submission or human approval is inferred |
+| 1. Frame the problem | Asked how municipal water commitments remain accountable as conditions change. The working framework identified justification, disclosure, monitoring, triggers, authority and remedy. | [Assignment 1 drafts and evidence notes](assignment-01/README.md) |
+| 2. Trace a decision | Focused on how a tribunal treated a proposed cooling redesign, its screening and the original environmental approval. Used course theory to define the questions and documentary analysis to trace the answer. | [Author-approved memo v0.11](assignment-02/final-v011.md) · [Lock and review records](assignment-02/README.md) |
+| 3. Explain the inquiry | Turned the memo into a five-minute presentation. The task was to explain what the court record established and what evidence would show a change in water use. | [Presentation guide](assignment-03/README.md) |
+| 4. Apply the learning | Continues the original inquiry through a practical question about how public authorities can record, respond to and follow up on water concerns. This is the working direction for a 1,300–1,500-word memo or blog post. | [Assignment 4 brief and preparation](assignment-04/README.md) |
 
-## The semester pathway
+## What changed in the research
 
-| Assignment | Verified format | Intellectual task | Preparation record |
-| :--- | :--- | :--- | :--- |
-| 1 | Memo, approximately 800–1,000 words | Personal engagement, present knowledge, further inquiry | [Research memorandum](assignment-01/README.md) |
-| 2 | Memo or blog, 1,000–1,200 words | Course theory and research method | [Theory and method](assignment-02/README.md) |
-| 3 | PowerPoint, 5 minutes | Synthesize the earlier inquiry and explain implications | [Synthesis presentation](assignment-03/README.md) |
-| 4 | Memo or blog, 1,300–1,500 words | Learning and practical strategies for cities | [Strategies, policy, and practice](assignment-04/README.md) |
-| 5 | PowerPoint, 8 minutes | Learning trajectory and proposed approaches | [Final presentation](assignment-05/README.md) |
+The first assignment proposed questions about how public commitments are justified and revisited. The second tested which parts of that problem could be studied through one project’s decision record. The third required the argument to make sense to a listener in five minutes. The fourth asks which practices a city could use and how a reader could assess whether those practices helped. The [case guide](../research/cerrillos/README.md) explains the documented decision sequence.
 
-Source: `SYL`, PDF pp. 3–6. Dates and weights are recorded in the [course map](../COURSE-MAP.md#one-inquiry-across-five-assignments). Later assignment guides paraphrase the archived syllabus and label internal preparation separately. More detailed live prompts or marking rubrics have not been inspected.
+A useful way to read the work is to keep three questions in view. What did the developer propose? What did a public authority decide? What changed for people or water resources? A single document may answer only one of them. To practice checking that distinction, open the [worked evidence notebook](../methods/evidence-review/trace-a-claim.ipynb).
 
-## What each page should make clear
+The status on each page describes the artifact available here. Earlier drafts and their review notes document the work as it stood at that stage. Assignment 2 v0.11 remains the author-approved text. The repository records course submission separately. [Deliverable standard](../standards/DELIVERABLES.md) · [AI disclosure](../methods/AI-DISCLOSURE.md)
 
-| Course requirement | Repository preparation | Student contribution |
-| :--- | :--- | :--- |
-| What the verified brief requests | Sources, alternatives, calculations, and review records that could support it | Personal reflection, understanding, judgments, and approval of final wording |
-
-Select the claims actually used, preserve source and lecture distinctions, and disclose unresolved limits. Follow the [deliverable standard](../standards/DELIVERABLES.md), [citation policy](../CITATION-POLICY.md), and [AI governance](../governance/AI-GOVERNANCE.md). A source-rich packet does not establish that the student understands or endorses an argument.
-
-## Current editions
-
-[Assignment 2 v0.11](assignment-02/README.md) is the author-approved final memo. Its 1,129-word argument includes headings and tables and excludes disclosure/references. No course upload is recorded. [Assignment 3](assignment-03/README.md) contains a rehearsal script, source map and questions for a five-minute presentation. Previous preparation instructions remain historical; current human-review and brief-confirmation requirements appear beside the active artifacts.
-
-## Current brief and approval record
-
-The user supplied the Assignment 2 prompt and confirmed the exclusion of disclosure and references from the word count. Its three questions concern theoretical selection, application, and research methods. The 20% weight is user-confirmed. These supplied requirements and the author's selection are recorded in the [v0.11 lock](assignment-02/final-lock-v011.json); earlier missing-brief and review-state statements above describe their original checkpoints.
+[Course map and later assignment](../COURSE-MAP.md#one-inquiry-across-five-assignments)

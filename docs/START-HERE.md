@@ -1,53 +1,35 @@
-# A reader's guide to the research
+# Start here
 
-[Home](../README.md) / Reader's guide · [Case guide](../research/cerrillos/README.md)
+[Home](../README.md) · [Assignments](../assignments/README.md) · [Methods](../methods/README.md)
 
-## A first visit
+A data center in Cerrillos, Chile, proposed a cooling redesign that could reduce groundwater demand. What did that proposal change in the environmental review? What would a resident need to see to judge whether the change improved the local water supply? This study uses public records to explain how those questions call for different kinds of evidence.
 
-You can follow this study without running code or learning Git. Read the [main overview](../README.md) for the public problem, then the [case guide](../research/cerrillos/README.md) for the question and available evidence. The [approved final memo](../assignments/assignment-02/final-v011.md) shows the author-selected argument. Its [lock record](../assignments/assignment-02/final-lock-v011.json) distinguishes approval, source review and course submission.
+## Pick a reading path
 
-New researchers can follow one claim from the draft to the [source-check record](../research/cerrillos/draft-source-checks.json), then compare the stated support with the cited original passage. Colleagues and employers can use the practice-to-artifact table below to examine how the work was structured. The [AI-use record](../AI-USE-LOG.md) explains how those artifacts were produced.
+You can read these pages directly on GitHub. Select a link below and read the page that opens. The notebook includes its example and saved results in the same view.
 
-## The problem behind the paperwork
+| If you want to… | Open |
+| :--- | :--- |
+| Understand the Cerrillos case | [Read the case guide](../research/cerrillos/README.md) for the original approval, later screening and tribunal decision. |
+| Follow the course work | [Read the assignment guide](../assignments/README.md) to see how the inquiry developed from the first memo to the fourth assignment. |
+| Check the argument and its evidence | [Read Assignment 2 v0.11](../assignments/assignment-02/final-v011.md) and use its page references to find the source passages. |
+| Try one evidence check | [Open the notebook](../methods/evidence-review/trace-a-claim.ipynb) and follow a fictional claim from a source passage to a review queue. |
+| Inspect the workflow and AI use | [Read the workflow guide](../methods/evidence-review/README.md) and [AI-use log](../AI-USE-LOG.md). |
 
-Consider a project whose developers propose a design that would use less water. A resident may reasonably ask what the change means for local water resources. A public official may need to know which requirements can be enforced. A project manager may need to know which design is allowed to proceed.
+## Read one source with the study
 
-Each question asks for a different kind of evidence. An engineering forecast describes expected demand under stated assumptions. A legal instrument determines obligations within its authority. Operating records describe what happened within a measurement period. Combining these records without checking their roles can produce a confident account that the evidence cannot sustain.
+The Second Environmental Tribunal discussed the proposed change from water-based cooling towers to air-cooled equipment. It distinguished the review of that proposed change from the original environmental approval. The judgment is in Spanish. Find considerations 93–94 on PDF pages 64–65, using the PDF viewer’s page count. Note which institution acted, which decision it discussed, and what that decision could change. [Tribunal judgment](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64)
 
-That is the problem this study examines through Cerrillos. Its current focus is the treatment of screening and environmental authorization in a specific judicial proceeding. The [case guide](../research/cerrillos/README.md) identifies the exact question and the [review draft](../assignments/assignment-02/final-v011.md) presents the selected final argument.
+Now ask what would establish actual water savings. A design describes expected demand. To assess withdrawals in operation, a researcher would need comparable measurements and a baseline. Changes in household water service or groundwater levels would require observations at those scales. The study’s [research question and evidence limits](../research/CURRENT.md) explain why the recorded verdict remains focused on the court and the instruments it examined.
 
-## The connection to sustainable cities
+## See how a claim gets reviewed
 
-The inquiry treats digital infrastructure as a development decision with a location, resource requirements and public responsibilities. Its sustainability question extends beyond whether a piece of equipment appears more efficient: which demands are assessed, which obligations apply, and what evidence could establish consequences for people and resources?
+Start with a sentence and split it into parts you can check. For each part, record who made the statement, which event it concerns and where the reader can find it. Explain what the passage supports and where the reasoning depends on an inference. Record any disagreement or gap before deciding how to word the claim. The [research-integrity protocol](../methods/RESEARCH-INTEGRITY.md) describes these checks in detail.
 
-Those are questions for investigation. The current legal record does not supply household-level impact measurements or establish how burdens were distributed. Community positions require attributed participant evidence; a withdrawal from litigation cannot stand in for representative agreement. The study's [non-claims](../research/CURRENT.md) keep those boundaries visible.
+The worked notebook begins with a specification that defines what the software should do. LangChain Core keeps a passage and its source details together. LangGraph runs the review steps in a defined order and hands the result to a person. Tests check the software’s behavior on the example. The reviewer is responsible for judging the evidence. [Workflow specification and checks](../methods/evidence-review/README.md)
 
-## What this work lets you evaluate
+AI assisted with research organization, interpretation, drafting and code. The contribution records identify the work performed and the scope of human review. The author selected Assignment 2 v0.11 for submission. The repository records that selection separately from a course upload. [AI disclosure](../methods/AI-DISCLOSURE.md) · [Assignment 2 lock record](../assignments/assignment-02/final-lock-v011.json)
 
-| Practice | Inspectable example | What remains for human judgment |
-| :--- | :--- | :--- |
-| Narrow an ambiguous problem | [Current research decision](../research/CURRENT.md) limits the study to an answerable institutional question | Whether the question and contribution are useful |
-| Examine evidence before making a claim | [Draft source checks](../research/cerrillos/draft-source-checks.json) identify passages, versions and access limits | Whether the source supports the interpretation |
-| Test an attractive explanation | [Rival explanations](../research/CURRENT.md#rivals-to-preserve) retain alternatives to an assumed regulatory failure | Which explanation survives the evidence |
-| Communicate across audiences | This guide, the [draft](../assignments/assignment-02/final-v011.md), and [writing rules](../standards/WRITING.md) use different levels of technical detail | Whether the prose preserves meaning and reflects Mark's accepted position |
-| Make revisions inspectable | [AI activity](../methods/ai-activity.json), [checks](../governance/README.md), and [releases](releases/README.md) separate production from approval | Scholarly acceptance and permission to submit |
+## Share or cite a stable version
 
-These artifacts document work performed with AI assistance. The final v0.11 text is now owner-selected. That selection does not establish that Mark independently performed every recorded task or demonstrated a measured improvement in professional performance.
-
-## Why some questions remain open
-
-A court can describe a technical filing without making the filing available to the reader. The study can analyze the court's own reasoning, but it cannot treat that description as inspection of a complete engineering submission. That limitation is why the present question is narrower than the initial technical comparison.
-
-Obtaining the missing originals could permit a fuller comparison. It could also require changing the interpretation. The [research-integrity protocol](../methods/RESEARCH-INTEGRITY.md) requires that revision to remain visible.
-
-## How AI enters the work
-
-AI has helped organize material, propose and critique analysis, draft prose, and write repository tooling. Scripts check defined properties such as file hashes, record structure and local links. Human source interpretation and final approval are separate activities. The [system register](../methods/AI-SYSTEMS.md) describes actual assistance and tools prepared but unused.
-
-The author has selected v0.11 for submission. The purpose of this record is to make the argument, its sources and remaining limits inspectable. No independent scholarly certification or Canvas upload follows from the finalization.
-
-## Share the version you read
-
-Use the [v0.3.3 final-memo checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) when passing the study to a colleague, cohort member or employer. Its links open a fixed version. The repository's main page continues to evolve, and earlier checkpoints remain in the [release history](releases/README.md).
-
-Describe it as an ongoing, AI-assisted research study of water, computing infrastructure and environmental review. Sharing the work invites scrutiny; it conveys no endorsement by a reader, employer, fellowship, instructor or institution. The [citation policy](../CITATION-POLICY.md) explains how to identify the version and its supporting sources.
+The [v0.3.3 release](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) is the fixed Assignment 2 checkpoint. Use the [citation guide](../CITATION-POLICY.md) to identify the version you read and cite the original record when discussing a case claim.

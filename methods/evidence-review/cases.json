@@ -1,0 +1,134 @@
+{
+  "version": "0.1",
+  "as_of": "2025-09-30",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Fictional city cooling project: July measurement log",
+      "url": "https://example.org/",
+      "kind": "fictional_training_record",
+      "date": "2025-08-01",
+      "sha256": null
+    },
+    {
+      "id": "S02",
+      "title": "Fictional city cooling project: design plan",
+      "url": "https://example.org/",
+      "kind": "fictional_training_record",
+      "date": "2025-06-01",
+      "sha256": null
+    },
+    {
+      "id": "S03",
+      "title": "Fictional city cooling project: July meter report",
+      "url": "https://example.org/",
+      "kind": "fictional_training_record",
+      "date": "2025-08-01",
+      "sha256": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "P01",
+      "source_id": "S01",
+      "locator": "July entries, p. 1 (fictional)",
+      "text": "The city took no meter readings of project water withdrawals in July.",
+      "representation": "quotation"
+    },
+    {
+      "id": "P02",
+      "source_id": "S02",
+      "locator": "Projected water use, p. 2 (fictional)",
+      "text": "The project plans to withdraw 100 cubic metres of water in July.",
+      "representation": "quotation"
+    },
+    {
+      "id": "P03",
+      "source_id": "S03",
+      "locator": "July totals, p. 1 (fictional)",
+      "text": "The city measured 92 cubic metres of project water withdrawals in July.",
+      "representation": "quotation"
+    }
+  ],
+  "claims": [
+    {
+      "id": "T01",
+      "text": "The city measured the project's July water withdrawals.",
+      "clauses": [
+        {
+          "id": "T01-A",
+          "text": "The city measured the project's July water withdrawals.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "contradicts",
+              "rationale": "The log says the city took no July readings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "text": "The city measured the project's July water withdrawals.",
+      "clauses": [
+        {
+          "id": "T02-A",
+          "text": "The city measured the project's July water withdrawals.",
+          "links": [
+            {
+              "passage_id": "P02",
+              "relation": "context_only",
+              "rationale": "The plan reports an expectation. A meter record could establish an observation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "text": "The city measured the project's July water withdrawals.",
+      "clauses": [
+        {
+          "id": "T03-A",
+          "text": "The city measured the project's July water withdrawals.",
+          "links": [
+            {
+              "passage_id": "P03",
+              "relation": "supports",
+              "rationale": "The report expressly identifies a July measurement by the city."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "text": "The city measured the project's water withdrawals in July and August.",
+      "clauses": [
+        {
+          "id": "T04-A",
+          "text": "The city measured the project's July water withdrawals.",
+          "links": [
+            {
+              "passage_id": "P03",
+              "relation": "supports",
+              "rationale": "The meter report documents July measurements."
+            }
+          ]
+        },
+        {
+          "id": "T04-B",
+          "text": "The city measured the project's August water withdrawals.",
+          "links": [
+            {
+              "passage_id": "P03",
+              "relation": "context_only",
+              "rationale": "The meter report covers July. The August clause needs its own evidence."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
