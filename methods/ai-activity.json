@@ -719,6 +719,32 @@
       "limits": "Direct Git DNS and direct archive download failed; supported GitHub artifact download succeeded. Local Git is a tree snapshot, not full upstream history. Remote CI must check actual history. Some earlier uploads expired; no recovery is inferred.",
       "human_approval": null,
       "live_jev_calls": 0
+    },
+    {
+      "id": "ACT28",
+      "date": "2026-11-13",
+      "record_created_at": "2026-11-14T03:34:34.171066+00:00",
+      "task": "Public reader guide and fictional evidence-review demonstration",
+      "inputs_description": "Owner's public repository update request, maintained public course and case records, spec-driven workflow design and official framework documentation",
+      "output_description": "Updated repository navigation and course guides, adapted local review workflow, specification, fictional case file, executed Jupyter notebook and automated checks",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents and local tools",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "Exact backend snapshot unavailable",
+      "prompt_availability": "Owner's request summarized. The private conversation is kept with the project.",
+      "exact_prompt_sha256": null,
+      "settings": null,
+      "token_usage": null,
+      "cost": null,
+      "runtime_model_calls": 0,
+      "hosted_tracing": false,
+      "human_review": {
+        "status": "not_assessed_for_teaching_example",
+        "reviewer": null,
+        "reviewed_at": null
+      },
+      "limitation": "Fictional cases exercise rules on supplied annotations. They provide no accuracy estimate or substantive case adjudication."
     }
   ],
   "performed_without_model_judgment": [

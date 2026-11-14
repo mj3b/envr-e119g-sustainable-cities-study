@@ -4,7 +4,11 @@
 
 Mark selected v0.11 for submission. The approved 1,129-word argument, including headings and both tables, is unchanged. The neutral final footer makes no submission claim. No Canvas upload is recorded. The 1,000–1,200-word brief and exclusion of AI disclosure/references are supplied by the user; the 20% weight is user-confirmed.
 
-The v0.3.3 checkpoint preserves this final record and the earlier source and AI-use history. Actual GitHub tag, PR and CI records establish publication and validation. The underlying research verdict and missing-original limitations remain unchanged. Assignment 3 work is deferred and its earlier preparation is not a completed presentation.
+The v0.3.3 checkpoint preserves this final record and the earlier source and AI-use history. Actual GitHub tag, PR and CI records establish publication and validation. The underlying research verdict and missing-original limitations remain unchanged.
+
+## November 13 reader and methods update
+
+The [reader guide](docs/START-HERE.md) follows Assignments 1–4 and gives course readers a route to the original evidence. The [evidence review notebook](methods/evidence-review/trace-a-claim.ipynb) applies a written specification to fictional water records. Assignment 3 has an author-edited presentation and recording copy in the project record. The Assignment 4 memo and claim reviews are in progress. See the [assignment index](assignments/README.md) for current status and the [assurance receipt](governance/evaluation-results.json) for the scope of the software checks.
 
 <details>
 <summary>Earlier build checkpoints, preserved</summary>

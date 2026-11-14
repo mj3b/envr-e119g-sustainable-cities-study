@@ -52,3 +52,7 @@ See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-
 ## Final lock, ACT26–ACT27
 
 The finalization uses ChatGPT for administrative document edits and repository maintenance, Python for exact comparisons and counts, the DOCX renderer for visual inspection, and connected GitHub for verified repository operations. These activities do not rerun the Translator or certify source interpretations. Owner selection of v0.11 is recorded separately from source-fidelity gates and course-upload status. See the [finalization record](../assignments/assignment-02/finalization-v011.md).
+
+## Evidence-review teaching update · November 13, 2026
+
+Codex provided current assistance with the reader pages, specification, teaching examples, notebook and code. LangChain Core stored the text and locator for each fictional passage. LangGraph ran a fixed sequence over the recorded annotations. LangSmith’s local tracing context disabled hosted tracing. Python and Jupyter executed the demonstration. The workflow made zero model or Jev calls. [Demonstration and setup](evidence-review/README.md) · [Task record](ai-activity.json)

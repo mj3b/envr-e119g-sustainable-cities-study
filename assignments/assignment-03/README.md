@@ -1,27 +1,22 @@
-# Assignment 3: explain the inquiry in five minutes
+# Assignment 3. Explain the inquiry in five minutes
 
-[Home](../../README.md) · [Assignment 2](../assignment-02/README.md) · [October 9 guidance](../../research/lecture-2026-10-09/README.md)
+[Start here](../../docs/START-HERE.md) · [Assignment trail](../README.md) · [Assignment 2 final memo](../assignment-02/final-v011.md)
 
-Current dependency: Assignment 2 is now [author-approved v0.11](../assignment-02/final-v011.md). The script below retains its v0.2 basis and is not automatically updated by that approval. Presentation and figure work remain deferred.
+**How can a city tell whether a water-saving promise becomes a public benefit?** The presentation uses that question to bring the Cerrillos inquiry from [*Water-Saving Proposals and Public Accountability*](../assignment-02/final-v011.md) to a general audience.
 
-Working title: **When a water-saving proposal meets an existing approval**.
+The author edited a six-slide recording copy and a nine-slide companion deck. The companion contains the same six-slide presentation and three appendices for readers who want more context. The recording and decks are held outside this repository. The public record does not establish the final video duration or course submission.
 
-The [rehearsal script](rehearsal-script-v01.md) explains one problem, the documented treatment, the theoretical choices, the method and the contribution. Its **532 spoken words** exclude headings and status notes. [Timing and source mapping](preparation.json) preserve proposed allocations totaling 300 seconds. No rehearsal or actual delivery duration has been recorded. Adjust the script after speaking it aloud, rather than claim that a word count guarantees five minutes.
+## Follow the argument
 
-The October 9 transcript permits presenting Assignment 1 or 2 and specifies five minutes. This plan uses Assignment 2. No slide count, final upload format or due date was established. No slides or recording have been produced.
+| Slides | What the presentation explains |
+| :--- | :--- |
+| 1–2 | The challenge is judging what a proposed change in water use means for the city and its shared groundwater. |
+| 3 | North asks who can enforce a rule. Satterthwaite asks where and when environmental costs fall. Sen asks whose interests count in public reasoning. Lowe and colleagues offer a way to record what written policies say. |
+| 4 | The court record shows why a screening decision about the proposed redesign and a ruling on the original approval answer different questions. |
+| 5–6 | A city needs evidence that matches the benefit it wants to evaluate. Facility withdrawals, aquifer conditions and household water service each require their own records. The sources and companion appendices give readers a route back to the research. |
 
-## Rehearsal questions
+The presentation draws on the approved memo and its account of the judgment. The distinction between a proposed design and a measured effect carries into [Assignment 4](../assignment-04/README.md), which asks how residents’ concerns enter decisions and how a city could make its responses easier to follow. [Second Environmental Tribunal judgment, PDF pp. 64–65 and 70–72](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64)
 
-**Did the redesign save water?** The available inquiry establishes institutional treatment. It does not establish implementation or measured savings; original design inputs and operating observations remain separate dependencies.
+## Earlier preparation
 
-**Was the agency wrong?** The distinction between screening and authorization may reflect ordinary regulation operating as intended. The memo tests alternatives and does not infer institutional failure from different legal effects.
-
-**What makes this urban research?** The inquiry concerns infrastructure dependent on environmental resources and the institutions governing its development. Satterthwaite directs attention to people, resource systems and costs beyond a site's boundary. The current records do not establish a distribution of household harms.
-
-**Why cite Amazonia for a Chilean case?** Specific contributions sharpen the evaluation questions; they are not geographically transferred findings or proof of a nature-based cooling design.
-
-**What did AI do?** It assisted source organization, interpretation, drafting and code. Recorded software checks cover structure and file handling. Human source fidelity and final voice remain the student's responsibility.
-
-## Optional visual support
-
-A future presentation could use one simple distinction table: proposed design; screening; authorization; implementation; measured effect. That is an editorial suggestion, not a course requirement or an established sequence of causation. Each documented case step needs its own source. Avoid a water-saving percentage, aquifer-recovery image or consensus claim unsupported by the records.
+The [first rehearsal script](rehearsal-script-v01.md) and its [timing and source map](preparation.json) used the earlier Assignment 2 draft. They document the preparation stage. Their wording and time estimates describe that stage.

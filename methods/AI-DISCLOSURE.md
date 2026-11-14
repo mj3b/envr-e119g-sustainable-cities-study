@@ -37,3 +37,9 @@ See [ACT22–ACT25](ai-activity.json) and the [integration audit](../audit/2026-
 ## Final v0.11 approval state
 
 The three-part disclosure retains actual assistance and the earlier Translator checks, without presenting those structural checks as scientific validation. Its final sentence records the owner's explicit selection for submission. Independent source verification is not inferred from that selection, and no Canvas submission is recorded. The supplementary v0.3.3 link includes earlier records and the new [lock](../assignments/assignment-02/final-lock-v011.json).
+
+## Evidence-review teaching update · November 13, 2026
+
+OpenAI Codex, in the GPT-6 model family, helped update the public reading path, write the specification, create the fictional water records and worked notebook, and adapt and test the local workflow. The exact model snapshot, settings, usage and cost were unavailable. The workflow processed the example annotations without calling a model or sending hosted traces. The reader can inspect the input, rules, output and tests. The human handoff remains part of the method. [Demonstration](evidence-review/README.md) · [Task-level activity](ai-activity.json)
+
+AI tool reference. OpenAI. (n.d.). *Codex* [AI research and coding assistance, GPT-6 family for this update]. [Product page](https://openai.com/codex/)

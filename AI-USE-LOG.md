@@ -1,5 +1,9 @@
 # Record of AI systems and assistance
 
+## Reader guide and evidence-review demonstration · November 13, 2026
+
+Codex helped map the public records to the course sequence, draft the reader guides and teaching notebook, and adapt the existing review-only workflow to fictional water records. Codex used the GPT-6 model family. The exact deployment identifier was unavailable. The public demonstration uses LangChain Core and LangGraph to apply written rules to supplied annotations. The graph ran locally with hosted tracing disabled and made zero model calls. [Activity record](methods/ai-activity.json) · [Method and limitations](methods/evidence-review/README.md)
+
 ## Author-selected Assignment 2 finalization · October 15, 2026
 
 ACT26–ACT27 record the final lock and repository update. Mark selected v0.11 for submission. The argument, two tables and references were preserved exactly; the footer became neutral, the disclosure now records author approval, and its supplementary link points to the new checkpoint. This is not an attestation that the course upload or an independent scholarly review occurred.

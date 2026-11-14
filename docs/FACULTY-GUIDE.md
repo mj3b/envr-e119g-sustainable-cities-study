@@ -1,59 +1,24 @@
-# A guide to the research notebook
+# A short guide for course readers
 
-[Home](../README.md) / Faculty reading guide
+[Home](../README.md) · [Start here](START-HERE.md) · [Assignment trail](../assignments/README.md)
 
-This notebook follows the Cerrillos Data Center’s environmental review through a narrowed court/instrument question. It examines recorded institutional treatment of a proposed redesign and environmental authorization. It is a computing-infrastructure case; AI workload causation and measured environmental improvement are outside the supported claim.
-
-| Present contribution | Present boundary |
-| :--- | :--- |
-| A course knowledge base, preserved discovery history, source-closure record, and Assignment 2 review draft | Full technical comparison is blocked; substantive human review and submission remain separate |
+What can a city learn from the record of a proposed water-saving redesign? The project follows that question from municipal water commitments to the environmental review of the original Cerrillos Data Center. The current assignment asks how residents’ concerns were recorded and answered, and what cities could do to make those responses visible.
 
 ## A ten-minute reading path
 
-| Time | Read | Question to put to the work |
+| Time | Read | What to look for |
 | :--- | :--- | :--- |
-| 2 minutes | [Course concepts applied to research](../cross-course/course-to-research.md) | Does each theory sharpen a question or change the evidence required? |
-| 2 minutes | [Current question and limits](../research/CURRENT.md) | Is the decision bounded and the necessary record obtainable? |
-| 3 minutes | [Cerrillos draft and source notes](../assignments/assignment-02/README.md) | Does the interpretation stay within the source and its temporal limits? |
-| 2 minutes | [AI assurance and evaluation](../governance/EVALUATION.md) | Which failures can the checks detect, and which still require judgment? |
-| 1 minute | [AI systems and contribution record](../methods/AI-SYSTEMS.md) | Could the next evidence change the argument? |
+| 2 minutes | [Assignment trail](../assignments/README.md) | Where the research question became narrower and which questions carry forward. |
+| 4 minutes | [Assignment 2 v0.11](../assignments/assignment-02/final-v011.md) | Skim the opening and section 1 to see how North, Satterthwaite and Sen shape the inquiry and how Lowe and colleagues inform the method. |
+| 2 minutes | [Assignment 4 plan](../assignments/assignment-04/README.md) | Whether a proposed public response register addresses the accountability question and what would make it feasible. |
+| 2 minutes | [Evidence review](../methods/evidence-review/README.md) and [AI contributions](../methods/AI-SYSTEMS.md) | What the software checks and where a reader must judge the source. |
 
-## How the course changes the inquiry
+You can read all four pages in GitHub. The optional notebook also has a reading view. To inspect a real source, open the [case guide](../research/cerrillos/README.md), select a sentence with a court locator and read that passage. Ask what the passage establishes about the original approval and what evidence you would need to assess actual water use.
 
-| Contribution | Empirical question | Boundary to preserve |
-| :--- | :--- | :--- |
-| North: institutions and change | Who can decide, enforce, and revise the arrangement? | A rule on paper does not establish effective enforcement |
-| Sen: plural evaluation | Which dimensions and weights define improvement? | One aggregate indicator cannot settle the evaluative choice |
-| Instructor's capabilities framing | What can affected residents actually do? | This lecture application has its own evidence record |
-| Ostrom: conditional cooperation | How do trust, information, monitoring, and responses affect cooperation? | A governance label cannot establish the necessary conditions |
-| Costanza and Daly: natural capital | Which stocks, flows, and ecological limits constrain the decision? | Efficiency alone does not establish sustainable total throughput |
+## Where feedback would change the inquiry
 
-The [course-to-research analysis](../cross-course/course-to-research.md) supplies the claim IDs and locators. Applications to the case family are marked as our synthesis. The research design is described in the [methodology](../METHODOLOGY.md).
+- Which course concept best explains the step from a recorded public concern to an agency’s response?
+- Does the proposed response register name a plausible owner and give residents a way to see what happened next?
+- Which source would distinguish a concern raised in the record from a concern that influenced a decision?
 
-## Inspect one claim end to end
-
-| Step | Record | What to verify |
-| :--- | :--- | :--- |
-| 1 · Find the statement | A reading note, case brief, or worked example | Is this observation, reported assertion, interpretation, or judgment? |
-| 2 · Open its claim ID | [Claim registry](../cross-course/claims.json) | Exact paraphrase, source, locator, limitation, and review status |
-| 3 · Identify the source | [Source registry](../cross-course/evidence-registry.json) | Edition, institutional role, access, and public URL where applicable |
-| 4 · Follow its use | [Research objects](../cases/RESEARCH-OBJECTS.md) | What hypothesis, assumption, decision, or measurement depends on it? |
-| 5 · Check the boundary | [Omissions](../cross-course/omissions.json) and relevant fidelity gates | What remains uncertain, unavailable, or pending human review? |
-
-Public links lead to external records. Course locators refer to privately held copies. The notebook contains authored analysis and short paraphrases; the raw readings and transcripts remain in the ignored archive.
-
-## Review priorities
-
-| Open issue | Consequence for interpretation |
-| :--- | :--- |
-| Cerrillos conditionally selected; central technical originals remain uninspected | Use the narrowed instrument question; preserve earlier comparisons as discovery history |
-| Human source, lecture, and synthesis reviews pending | Structural checks do not establish faithful interpretation |
-| North, Ostrom and Satterthwaite edition differences; incomplete coverage review | Use the stated locators and scope, not implied full-reading certification |
-| Transcript-role inference and possible Class 1 segment gap | Speaker attribution and completeness remain provisional |
-| Missing comparable physical measurements | No causal environmental effect is established by the current packet |
-
-[Current status](../BUILD-STATUS.md) records progress. [AI governance](../governance/AI-GOVERNANCE.md) assigns responsibility, and the [AI-use log](../AI-USE-LOG.md) describes assistance.
-
-The user's Georgia and Hawaiʻi connections inform interest; personal reflection remains theirs to write. This guide records no instructor endorsement, submission, or sharing action. Useful feedback would sharpen the research question, challenge an inference, or identify a record that changes the permitted question or interpretation.
-
-[Mark’s writing rules](../standards/WRITING.md) and [editorial provenance](../standards/WRITING-PROVENANCE.md) explain the prose standard. The [Markdown audit](../audit/2026-10-10-markdown-consistency.md) records documentation corrections; it does not certify the research claims.
+The [current research question and limits](../research/CURRENT.md) set the scope of the case. The [research-integrity protocol](../methods/RESEARCH-INTEGRITY.md) explains how the study records sources, corrections and human review.
