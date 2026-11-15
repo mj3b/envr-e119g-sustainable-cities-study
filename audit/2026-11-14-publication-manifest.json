@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-15T03:59:13.481747+00:00",
+  "authorization": "Owner November14 explicit release, merge and cleanup instruction, plus confirmation of both guide conversions.",
+  "base_commit": "7af4ef2432dd7ae13f1860405499e684927a2456",
+  "reviewer": "Codex with collaborating Codex agents; AI-assisted publication preparation",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "f114f1a1b1cec027f4ca6954cc69ed2a5cef22c31ba03fa27739f9d3558dc29a",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "af46f6cd5efe237778dfdbe44a5df3a96b4415743b02b0495e1e15daffa4e3fa",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "BUILD-STATUS.md",
+      "sha256": "4fd76e00e6c2af8bfc980052a37851d720c3eff9f6dd3f3c077c10d6f2a1b2b0",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "CITATION-POLICY.md",
+      "sha256": "ce79af724276bd30886107d4b5b425de3171e69d9bd4fa4397fdc85cedc239f2",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "949e01096e669687b7f59f6aac2bfb65e6c6983eac6190025ace7b26a595d731",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "9b0377196a4faedc47e5346f4916db13adad91638d6bfe3c5d6d7cfd5aee56c8",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "5b06732aa79187429baa360c4abb7eedfcaf13332d2c1c37e499aca5d7f9499f",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "README.md",
+      "sha256": "9f961f4c5b130cdf8271be5dbdc5ed50a702fc2a31f817e4dab0b1324d9f497e",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "assignments/README.md",
+      "sha256": "6cab0c4a1e0a13a5a6083297aafb7d9f632f33434392a876b7c496b049190685",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "68254053e363a1f3da2f67eaea61d4f5e2fa6909fc82e47b19d29db8f2c1ea59",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "assignments/assignment-04/memo.md",
+      "sha256": "39562f5d6c3b070436d66323cf96d38f044700aedc090e12b27f04e3cbf496e9",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "assignments/assignment-04/research-record.md",
+      "sha256": "4c8a0e1a4a88fcf4cc252140896d4fd7813b5f15e7496848a6443cb7d151cee3",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "audit/2026-10-10-markdown-consistency.md",
+      "sha256": "edb6f19949450e8092e030672871cf3a39441ee657ab75f9106d5a252b772192",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "audit/2026-11-14-public-release.md",
+      "sha256": "2842db9b050c78d2da313868d3361fad51f57a117ea16ec6eb84b8f024eebaba",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "e1fe1ad2108311e27d154343c6d5964c3318b8fa86c1ab731aff7cca66719aff",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/FACULTY-GUIDE.ipynb",
+      "sha256": "686199f33be76ca5ed0c6260c64e45c17ed5cee413a37dd338138daf4f73dee2",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/FACULTY-GUIDE.md",
+      "sha256": "29dd96597ab0c507a7298bb48913be2e8dff84ab64dd1a820c7a0d66e13f5414",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/START-HERE.ipynb",
+      "sha256": "eac2e34fb9208a6ab9a635164acb1789e0259ff485317ddb4b5f680bdf2681ca",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/START-HERE.md",
+      "sha256": "af6d00e30416e8218e18ae176bedaf2d29d3229fc6ba08596185e34554bdf31b",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/WORK-HANDOFF.md",
+      "sha256": "0ac2d8f7f932e18a5e23e801fa16509e96648ec8a1a577a41f6f0e56b6e525b3",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/releases/README.md",
+      "sha256": "849b600c84afd5ee338222217e82937e601151096d7c740555385db833f80286",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "docs/releases/v0.4.0.md",
+      "sha256": "5348dd7ab26fcc4a288ecc75456050768ee85e26f66ae26e2de08d6251e89e7d",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "experiments/jev/README.md",
+      "sha256": "c8d7add5b34269ad8ad944f718716af0ff4ba7ca58443108660e4db9c0921c1c",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "governance/PUBLICATION.md",
+      "sha256": "604323ecd3c872612130eaf1446e467577cdab8ccfdd8d845c3aedaff5f29a73",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "governance/README.md",
+      "sha256": "52e116fe1561b09b9955529cdb90127aa964ef5e2bb0971f41e2fc3477effe8f",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "governance/publication-policy.json",
+      "sha256": "f0f99bcc6147bcc2dd2e35bf5c00c804cfeee3f1e3fef548839015c4995fd4cb",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "methods/AI-DISCLOSURE.md",
+      "sha256": "3292df266a7840cb66351159ab906ffae80e458cc613de60c0344f79e5d696eb",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "methods/AI-SYSTEMS.md",
+      "sha256": "0f83a312f38fa3b3f0eb389271630f65558ba2164d1eafd20397892de66ea36a",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "sha256": "1bb3a1cae96cabf04db8a248855cd774f8e9d8199a2425fcee8167d562fdddbb",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "methods/evidence-review/README.md",
+      "sha256": "eb02e430aa926c28f89a8811187f93640dfcd5e8a77c683b9fa32c51a352f5a8",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/README.md",
+      "sha256": "215d143c2fe8b9d1b59db463351bbf91b2f386a853939a55d158bec3093550fa",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/SPEC-original.txt",
+      "sha256": "2cb16c391a4194158fe2e0d4e46d09d7b33b3ac1c62d59a5d6c9e5e527b16b10",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/cases.json",
+      "sha256": "2729aebd534dd5067bcc1b3d6328f32ccb91e6c2ff26cd54880ad4d89e24422c",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/check_replay.py",
+      "sha256": "5df4c36049f9d6cf5b06491901ed16bd058a5991d64646a4374d8f63348e58b2",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/human-review.json",
+      "sha256": "9997a323996012715cdba19eca9eec01b4a9acfe2b1c47e5a2d4319c973e76e9",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/publication-record.json",
+      "sha256": "e8dde6adeb3745552bd9e4c7b754d7a7f23576fcad202f22ac70f727dc696cde",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/publication-replay.json",
+      "sha256": "bad67f4c44ec33638aa8104bc9eaa06d23686e45f3d41397752a37602106f550",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/requirements.txt",
+      "sha256": "05161fd42944bd976ff3c30cf5f9fe98c9cbdf59296f873c631ff70d037b3462",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/review-packet.json",
+      "sha256": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/run-receipt.json",
+      "sha256": "0b93a161af0e2c13a6d83642ea042971556c99969b2ecf1557d36549fe7b8fac",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/test_workflow.py",
+      "sha256": "2cefa0c02ce64a77bd8513a117b1bbc512000068c9f5f0b8587af7e3a393d21c",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/cerrillos/assignment-04/workflow.py",
+      "sha256": "33106a6cc6b73557e2c8a8db8c731c6c6f2860c54a68d5451057f6fa17d9d5c8",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/course-readings/MODULE-IV-RECEIPTS.md",
+      "sha256": "b7bffbc4ba7b01ed852546b46cc11cfda351e89b3fe1b93966f3ffc42d4df266",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/course-readings/MODULE-IV-REVIEW.md",
+      "sha256": "3e1513bf2925b916922445678bf7b211a41b1f2aa36e2ba97a5facb0e1e8481e",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "research/course-readings/README.md",
+      "sha256": "58cdedcab53557727dc67e480f1f3f4f8e6fd0982472f9417158b168586680fc",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "scripts/check_notebooks.py",
+      "sha256": "fd865a0b340d7c538bbeb51c7325e5d80e5b561e5359189c75bb339ae8d06aea",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "scripts/publication_check.py",
+      "sha256": "7d814281617c7bc8521148fd815ea00f6d5ebf5ff8cdef86609e335e730ff557",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "tests/test_notebooks.py",
+      "sha256": "cdd5f65791082bdb65b7dcaa0ea4399ba5e4196262259455cfb3af3f43932731",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "tests/test_public_methods.py",
+      "sha256": "1371018fc1542a9e616e75d1cb823ade03414380f5d615140dece48c5d447e97",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    },
+    {
+      "path": "tests/test_research_progress.py",
+      "sha256": "6cb8fe6c82467dee7490e61f052f80fcdb1b27efa646837d3e94d4f648b7519d",
+      "basis": "Owner-authorized authored research, code or metadata; source links and bounded cited quotations retain original attribution.",
+      "disposition": "public",
+      "review_scope": "AI-assisted semantic review of this release and limited automated publication checks; no independent rights certification."
+    }
+  ],
+  "exclusions": [
+    "This manifest does not hash itself.",
+    "The generated assurance receipt separately binds the complete evaluated tree.",
+    "Raw readings, lecture files, private correspondence, grades and resident-identifying attachments are excluded."
+  ],
+  "frozen_records": "Assignment2 v0.11, protected source-closure records and original worked notebook remain unchanged.",
+  "human_scholarly_approval_created": false
+}

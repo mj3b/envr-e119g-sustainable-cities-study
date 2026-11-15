@@ -45,7 +45,7 @@ McConnell and colleagues' *Urban areas in the United States experience substanti
 
 ## Historical intake gap (superseded)
 
-The following paragraph records the earlier intake state. The six Module III PDFs were subsequently received and reviewed within the limits in [Module III](module-iii/README.md). Three October 23 Module IV PDFs have since been [received](MODULE-IV-RECEIPTS.md), with substantive review pending.
+The following paragraph records the earlier intake state. The six Module III PDFs were subsequently received and reviewed within the limits in [Module III](module-iii/README.md). Three October 23 Module IV PDFs have since been [received](MODULE-IV-RECEIPTS.md), with subsequent bounded analysis of all six readings in the [Module IV review](MODULE-IV-REVIEW.md).
 
 Module III currently has six named Canvas attachments but no original bytes verified in this review: `Aktar_water-13-02660.pdf`, `Gutberlet_reimagining urban wm.pdf`, `Vulnerability_and_everyday_health_risks_of_urban_i.pdf`, `Cities-in-Amazonia-People-and-Nature-in-Harmony-2.pdf`, `Hettiarachchi_Organic Waste Buyback.pdf`, and `Palette_plastic valorisation.pdf`. A Canvas item link establishes a locator, not access to its contents.
 

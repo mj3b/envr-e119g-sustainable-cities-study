@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the version inspected and the original sources supporting any substantive claim."
+title: "Water, digital infrastructure and public accountability"
+type: dataset
+authors:
+  - family-names: Banasihan
+    given-names: Mark Julius
+version: 0.4.0
+url: "https://github.com/mj3b/envr-e119g-sustainable-cities-study"
+repository-code: "https://github.com/mj3b/envr-e119g-sustainable-cities-study"
+abstract: "An AI-assisted documentary research record and notebook guide to the original Cerrillos Data Center proceedings, with evidence limits, author review records and reproducible teaching examples."

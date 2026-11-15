@@ -2,7 +2,9 @@
 
 [Course reading inventory](README.md) · [Assignment 4](../../assignments/assignment-04/README.md)
 
-The following course PDFs were received and privately preserved. File identity was computed on the private copies; substantive reading, interpretation, and human source-fidelity review remain pending. Hashes identify bytes, not accuracy or completeness.
+November 14 status: this intake receipt is historical. All six Module IV readings were subsequently inspected within the scope of the [source review](MODULE-IV-REVIEW.md). The release rechecked their retained byte identities. No independent human source-fidelity review is recorded.
+
+At the intake stage, the following course PDFs were received and privately preserved. File identity was computed on the private copies; substantive reading and human source-fidelity review had not been recorded at that stage. Hashes identify bytes, not accuracy or completeness.
 
 | Supplied filename | Bytes | SHA-256 |
 | :--- | ---: | :--- |

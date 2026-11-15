@@ -8,6 +8,8 @@ The public surface contains authored research notes, methods, bounded analytical
 
 Raw readings, lecture recordings, transcripts, private correspondence, unpublished feedback, sensitive personal information, API keys, and access-controlled sources remain outside Git. Public accessibility of an official record does not imply that every embedded personal detail should be repeated. Prefer the official link and the minimum relevant locator.
 
+November 14, 2026: the owner renewed authorization to publish this edition, merge reviewed commits and remove integrated branches. The [release audit](../audit/2026-11-14-public-release.md) and content manifest record the selected authored artifacts. This authorization does not confer rights over third-party course material or create scholarly review.
+
 ## Publication review
 
 For each proposed artifact, record ownership or license basis, sensitive-content review, disposition, and exact content hash. Archive complete research exports separately when publication clearance is unresolved. A metadata-only listing is labeled as such. Do not upload a compressed bundle to evade a content restriction.

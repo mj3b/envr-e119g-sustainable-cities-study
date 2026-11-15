@@ -1,0 +1,60 @@
+{
+  "record_type": "Publication replay receipt",
+  "started_at_utc": "2026-11-15T03:57:56.054263+00:00",
+  "completed_at_utc": "2026-11-15T03:57:57.347753+00:00",
+  "historical_run_recorded_at_utc": "2026-11-14T02:15:53+00:00",
+  "historical_source_receipt": "run-receipt.json",
+  "scope": "Tests and replay of unchanged annotated case data in a temporary directory; no original-source reinspection or byte-hash recheck.",
+  "execution_commands": [
+    "python -B -m unittest -v test_workflow",
+    "python -B workflow.py --cases cases.json"
+  ],
+  "input_files_sha256": {
+    "SPEC-original.txt": "2cb16c391a4194158fe2e0d4e46d09d7b33b3ac1c62d59a5d6c9e5e527b16b10",
+    "cases.json": "2729aebd534dd5067bcc1b3d6328f32ccb91e6c2ff26cd54880ad4d89e24422c",
+    "workflow.py": "33106a6cc6b73557e2c8a8db8c731c6c6f2860c54a68d5451057f6fa17d9d5c8",
+    "test_workflow.py": "2cefa0c02ce64a77bd8513a117b1bbc512000068c9f5f0b8587af7e3a393d21c",
+    "requirements.txt": "05161fd42944bd976ff3c30cf5f9fe98c9cbdf59296f873c631ff70d037b3462",
+    "review-packet.json": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7"
+  },
+  "checker_sha256": "5df4c36049f9d6cf5b06491901ed16bd058a5991d64646a4374d8f63348e58b2",
+  "historical_receipt_sha256": "0b93a161af0e2c13a6d83642ea042971556c99969b2ecf1557d36549fe7b8fac",
+  "human_review_record_sha256": "9997a323996012715cdba19eca9eec01b4a9acfe2b1c47e5a2d4319c973e76e9",
+  "runtime": {
+    "python": "3.14.3",
+    "langgraph": "1.2.11",
+    "langchain-core": "1.8.0",
+    "langsmith": "0.14.17"
+  },
+  "tests": {
+    "run": 11,
+    "passed": 11,
+    "failed": 0,
+    "output": "test_case_set_replays_with_all_claims_pending (test_workflow.WorkflowTests.test_case_set_replays_with_all_claims_pending) ... ok\ntest_compound_rules (test_workflow.WorkflowTests.test_compound_rules) ... ok\ntest_duplicate_json_fields_are_rejected (test_workflow.WorkflowTests.test_duplicate_json_fields_are_rejected) ... ok\ntest_duplicate_passage_is_rejected (test_workflow.WorkflowTests.test_duplicate_passage_is_rejected) ... ok\ntest_label_rules (test_workflow.WorkflowTests.test_label_rules) ... ok\ntest_later_source_is_rejected (test_workflow.WorkflowTests.test_later_source_is_rejected) ... ok\ntest_missing_locator_is_rejected (test_workflow.WorkflowTests.test_missing_locator_is_rejected) ... ok\ntest_runtime_stays_local_and_disables_tracing (test_workflow.WorkflowTests.test_runtime_stays_local_and_disables_tracing) ... ok\ntest_traceability_and_no_promotion (test_workflow.WorkflowTests.test_traceability_and_no_promotion) ... ok\ntest_unknown_fields_and_relations_are_rejected (test_workflow.WorkflowTests.test_unknown_fields_and_relations_are_rejected) ... ok\ntest_unknown_source_and_passage_are_rejected (test_workflow.WorkflowTests.test_unknown_source_and_passage_are_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.118s\n\nOK"
+  },
+  "packet_comparison": {
+    "all_fields_except_python_version_match": true,
+    "excluded_field": "dependencies.python",
+    "historical_python": "3.14.3",
+    "replay_python": "3.14.3",
+    "byte_identical": true,
+    "historical_packet_sha256": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7",
+    "replayed_packet_sha256": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7",
+    "generated_packet_written_outside_package": true
+  },
+  "candidate_counts": {
+    "Supported": 5,
+    "Contradicted": 5,
+    "Insufficient": 5
+  },
+  "runtime_model_calls": 0,
+  "hosted_tracing": false,
+  "original_source_hashes_rechecked": false,
+  "package_inputs_unchanged": true,
+  "human_decisions_changed": false,
+  "limitations": [
+    "Matching output reproduces supplied annotations; it does not independently validate source interpretation.",
+    "No new human fidelity review, original-source download, field observation or calibration assessment occurred.",
+    "Only Python-version metadata is excluded from the portable comparison; library versions, claims, annotations and input hashes must match."
+  ]
+}

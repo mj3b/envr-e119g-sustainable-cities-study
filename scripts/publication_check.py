@@ -3,6 +3,17 @@
 import json, re, subprocess, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+def decoded_text(value):
+    """Scan decoded notebook strings so escaped newlines cannot hide a token."""
+    if isinstance(value,str):
+        yield value
+    elif isinstance(value,list):
+        if all(isinstance(x,str) for x in value):
+            yield ''.join(value)
+        else:
+            for item in value: yield from decoded_text(item)
+    elif isinstance(value,dict):
+        for item in value.values(): yield from decoded_text(item)
 def check(root=ROOT):
     errors=[]
     policy=json.loads((root/'governance/publication-policy.json').read_text())
@@ -16,8 +27,11 @@ def check(root=ROOT):
     for name in set(paths)-{''}:
         path=root/name
         if any(x in Path(name).parts for x in ['raw-course','correspondence','transcripts']): errors.append('Restricted path: '+name)
-        if path.is_file() and path.suffix in {'.md','.json','.py','.yaml','.yml','.txt'}:
+        if path.is_file() and path.suffix in {'.md','.json','.py','.yaml','.yml','.txt','.ipynb','.cff'}:
             text=path.read_text(errors='replace')
+            if path.suffix == '.ipynb':
+                try: text += '\n' + '\n'.join(decoded_text(json.loads(text)))
+                except ValueError: errors.append('Malformed notebook JSON: '+name)
             if any(re.search(p,text) for p in patterns): errors.append('Potential credential material: '+name)
     return errors
 if __name__=='__main__':

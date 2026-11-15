@@ -1,0 +1,58 @@
+{
+  "study": "Cerrillos Assignment 4 water concerns pilot",
+  "recorded_at_utc": "2026-11-14T02:15:53+00:00",
+  "case_as_of": "2024-12-31",
+  "dependencies": {
+    "python": "3.14.3",
+    "langgraph": "1.2.11",
+    "langchain-core": "1.8.0",
+    "langsmith": "0.14.17"
+  },
+  "commands": [
+    "python -B -m unittest -v",
+    "python -B workflow.py",
+    "python -m pip --isolated check"
+  ],
+  "files_sha256": {
+    "SPEC.md": "2cb16c391a4194158fe2e0d4e46d09d7b33b3ac1c62d59a5d6c9e5e527b16b10",
+    "cases.json": "2729aebd534dd5067bcc1b3d6328f32ccb91e6c2ff26cd54880ad4d89e24422c",
+    "workflow.py": "33106a6cc6b73557e2c8a8db8c731c6c6f2860c54a68d5451057f6fa17d9d5c8",
+    "test_workflow.py": "2cefa0c02ce64a77bd8513a117b1bbc512000068c9f5f0b8587af7e3a393d21c",
+    "requirements.txt": "05161fd42944bd976ff3c30cf5f9fe98c9cbdf59296f873c631ff70d037b3462",
+    "review-packet.json": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7"
+  },
+  "source_hashes_checked": [
+    "S01",
+    "S04",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11"
+  ],
+  "sources_without_byte_hash": [
+    "S02",
+    "S03",
+    "S05"
+  ],
+  "test_suite": {
+    "passed": 11,
+    "failed": 0
+  },
+  "dependency_check": "No broken requirements found",
+  "identical_cli_replay": true,
+  "zone_1_workflow_tests_and_dependencies_match": true,
+  "sources": 11,
+  "passages": 21,
+  "claims": 15,
+  "candidate_counts": {
+    "Supported": 5,
+    "Contradicted": 5,
+    "Insufficient": 5
+  },
+  "runtime_model_calls": 0,
+  "hosted_tracing": false,
+  "human_review_status": "pending_human_review",
+  "assignment_2_canonical_and_reference_word_locks_matched": true
+}

@@ -8,6 +8,17 @@ publication=module('pub_check','scripts/publication_check.py')
 class PublicMethodsTests(unittest.TestCase):
     def setUp(self): self.rows=json.loads((ROOT/'experiments/jev/fixtures.json').read_text())
     def test_public_scope(self): self.assertEqual(publication.check(),[])
+    def test_notebook_scan_decodes_newline_before_token(self):
+        # A JSON escape ends in a word character and can conceal a word boundary.
+        import tempfile, subprocess
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            subprocess.run(['git','init','-q',directory],check=True)
+            (root/'governance').mkdir()
+            (root/'governance/publication-policy.json').write_text(json.dumps({'expected_visibility':'public','owner_authorized_public':True,'submission_authorized':False,'human_scholarly_approval_by_automation':False}))
+            (root/'sample.ipynb').write_text(json.dumps({'source':['intro\n'+'gh'+'p_'+'x'*36]}))
+            self.assertTrue(any('Potential credential' in error for error in publication.check(root)))
+
     def test_prepare_never_calls_provider(self): self.assertEqual(jev.execute(self.rows,'prepare','jev-latest')['calls'],0)
     def test_mock_not_measurement(self):
         result=jev.execute(self.rows,'mock','jev-latest'); self.assertEqual(result['calls'],0); self.assertFalse(result['human_scholarly_approval'])

@@ -1,6 +1,6 @@
 # Module IV: source review and research decisions
 
-Six supplied urban-heat PDFs were inspected through text extraction and targeted reading. The source-specific findings and use decisions below are AI-authored candidates, pending human source-fidelity review. Physical PDF page locators refer to the supplied versions. File identity was checked against the private receipt; raw PDFs and full extracts remain private. No underlying dataset replication, full reference-chain validation, or comprehensive visual inspection is claimed.
+Six supplied urban-heat PDFs were inspected through text extraction and targeted reading. The source-specific findings and use decisions below are AI-authored bounded interpretations; no independent human source-fidelity review is recorded. Physical PDF page locators refer to the supplied versions. File identity was checked against the private receipt; raw PDFs and full extracts remain private. No underlying dataset replication, full reference-chain validation, or comprehensive visual inspection is claimed.
 
 | Reading | Source, evidence, and locator | Proposed decision for Assignment 4 | Boundary |
 | :--- | :--- | :--- | :--- |
@@ -12,6 +12,8 @@ Six supplied urban-heat PDFs were inspected through text extraction and targeted
 | Jay et al. (2021) | Integrative review of heat mitigation across urban, building, and individual scales, including costs and water trade-offs (PDF pp. 4–6, 10–12). | Optional practical comparison on responsibilities, triggers, monitoring, and revision. | Proposed heat plans are not proof of local implementation or effectiveness. |
 
 ## Decision and rationale
+
+These relevance decisions record the earlier development stage. The current [Assignment 4 memo](../../assignments/assignment-04/memo.md) prioritizes Sen and the Rio study; this table retains the wider reading context.
 
 Keep the narrowed Cerrillos court/instrument inquiry primary. Of these readings, Elands and Hoffman offer candidate methods for addressing whose interests or conditions are represented, responding to the instructor's suggestion; neither provides Chilean evidence. Jay and Barradas can illustrate how design and maintenance interact when the question warrants it. The short memo need not cite all six.
 

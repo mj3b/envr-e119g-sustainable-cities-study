@@ -69,3 +69,7 @@ The first command emits a fresh JSON inventory to standard output. Save it outsi
 For each AI-assisted documentation change, update the root log and task record. Update the systems register when a provider’s role changes. Record checks that actually ran and failures that remain. Regenerate the stored receipt after edits, then inspect CI for the exact PR head before merge. A release needs its own verified tag, commit and successful post-merge check.
 
 The audit does not establish that every unflagged paragraph is current, every historical claim is true, or every publication right is resolved. It does not verify external links or rendered page layout. Local testing uses a reconstructed snapshot history because direct Git cloning failed on name resolution; remote CI supplies reachable-history checking. Scholarly review remains separate.
+
+## November 14 notebook release
+
+The new [release audit](2026-11-14-public-release.md) applies this maintenance method to the notebook and Assignment 4 edition. Current navigation and publication wording were revised; protected records and historical review fields retain their original scope. Notebook validation extends local link and selected publication checks to the three reader notebooks.

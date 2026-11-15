@@ -13,5 +13,10 @@
   "human_scholarly_approval_by_automation": false,
   "historical_semantic_publication_audit": "not_completed",
   "review_draft_authorized": true,
-  "submission_authorized": false
+  "submission_authorized": false,
+  "release_authorization": {
+    "date": "2026-11-14",
+    "scope": "publish release, merge reviewed commits, clean integrated branches, convert guides to notebooks",
+    "course_submission": false
+  }
 }

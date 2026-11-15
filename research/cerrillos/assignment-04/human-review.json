@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "study": "Cerrillos Assignment 4 water concerns pilot",
+  "review_packet": "review-packet.json",
+  "review_packet_sha256": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7",
+  "case_set_sha256": "2729aebd534dd5067bcc1b3d6328f32ccb91e6c2ff26cd54880ad4d89e24422c",
+  "reviews": [
+    {
+      "claim_id": "C01",
+      "clause_ids": [
+        "C01-A",
+        "C01-B"
+      ],
+      "date": "2026-11-13",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Supported",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the claim, the Spanish notice excerpt, an English rendering and an evidence explanation.",
+      "source_presented": {
+        "source_id": "S02",
+        "passage_id": "P01",
+        "locator": "Diario Oficial, September 24, 2019, CVE 1655814, PDF p. 1, first and third paragraphs",
+        "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2019/09/24/42460/01/1655814.pdf"
+      },
+      "rationale": "The notice records August 19 receipt on behalf of a group of 377 people and reports that SEA declared the request inadmissible because it arrived after the August 16 deadline.",
+      "qualification": "The 377 figure describes the group represented according to SEA. The filing separately lists 342 signatures and certificates for five organizations. The review does not reconcile those figures or assess group representativeness.",
+      "ai_assistance": "Codex selected the original Spanish excerpt, provided the English rendering, suggested the label and explained the source attribution and scope.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C02",
+      "clause_ids": [
+        "C02-A",
+        "C02-B"
+      ],
+      "date": "2026-11-13",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Contradicted",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the claim, two original Spanish excerpts from the signed resolution, their English translation and an evidence explanation.",
+      "source_presented": {
+        "source_id": "S06",
+        "passage_id": "P15",
+        "locator": "SEA Resolution No. 532, September 9, 2019, consideration 5 and operative provision 1",
+        "url": "https://seia.sea.gob.cl/documentos/documento.php?idDocumento=2144189815"
+      },
+      "rationale": "SEA found that the request received on August 19 arrived after the August 16 deadline and expressly declared it inadmissible. These findings directly contradict the timely-filing and grant clauses.",
+      "qualification": "The label concerns the ruling on this specific request under Resolution No. 532.",
+      "ai_assistance": "Codex selected and translated the original Spanish excerpts, suggested the label and explained why the resolution contradicts both clauses.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C03",
+      "clause_ids": [
+        "C03-A",
+        "C03-B"
+      ],
+      "date": "2026-11-13",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Insufficient",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the claim, the Spanish approval excerpt, an English rendering and the clause-by-clause explanation.",
+      "source_presented": {
+        "source_id": "S04",
+        "passage_id": "P16",
+        "locator": "RCA 127/2020, PDF p. 42, consideration 11",
+        "url": "https://firma.sea.gob.cl/publicaciones/d4/3d/2145803977.pdf#page=42"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S08",
+          "passage_id": "P18",
+          "locator": "SEA final assessment report, PDF pp. 88–89, sections 11 and 11.1",
+          "url": "https://firma.sea.gob.cl/publicaciones/39/86/2145696824#page=88"
+        },
+        {
+          "source_id": "S02",
+          "passage_id": "P01",
+          "locator": "Diario Oficial, September 24, 2019, CVE 1655814, PDF p. 1",
+          "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2019/09/24/42460/01/1655814.pdf"
+        }
+      ],
+      "rationale": "The RCA contains the wording attributed to it. The assessment report documents receipt of a request declared inadmissible, and the Gazette describes one group without establishing coverage of every affected group. The representation clause remains unresolved.",
+      "qualification": "The first clause concerns what the RCA says. The reviewed records leave the reason for its wording and the full reach of the filing's representation open.",
+      "ai_assistance": "Codex selected and translated the Spanish excerpt, compared the procedural records, suggested the label and explained the evidence for each clause.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C04",
+      "clause_ids": [
+        "C04-A",
+        "C04-B"
+      ],
+      "date": "2026-11-13",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Supported",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the original Spanish excerpts, English translations, and the evidence connecting the two proceedings.",
+      "source_presented": {
+        "source_id": "S07",
+        "passage_id": "P17",
+        "locator": "Original 2019 participation request, PDF p. 2, point 4",
+        "url": "https://seia.sea.gob.cl/archivos/2019/08/23/2019-13-92-27_MOD.pdf#page=2"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S01",
+          "passage_id": "P04",
+          "locator": "Second Environmental Tribunal judgment, PDF p. 7, consideration 1",
+          "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=7"
+        },
+        {
+          "source_id": "S01",
+          "passage_id": "P02",
+          "locator": "Second Environmental Tribunal judgment, PDF pp. 15–16, consideration 18",
+          "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=15"
+        }
+      ],
+      "rationale": "Point 4 raises concerns about groundwater use and sustainability. The judgment records the claimant's later argument about water scarcity, aquifer restrictions and cooling demand. Consideration 18 links that claimant to the earlier participation request.",
+      "qualification": "The decision covers the concerns raised and the argument attributed to the same resident. Whether her advocacy influenced the redesign remains open.",
+      "ai_assistance": "Codex selected and translated excerpts, checked the original filing scan and judgment, proposed the label, and explained the evidence across the two proceedings.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C05",
+      "clause_ids": [
+        "C05-A"
+      ],
+      "date": "2026-11-13",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Contradicted",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the Spanish excerpt, an English translation, and its explanation of standing.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P02",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 16, consideration 20",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=16"
+      },
+      "rationale": "The tribunal expressly found that the claimant had standing to request invalidation of the project's environmental approval. That finding directly contradicts the claim that the tribunal found she lacked standing.",
+      "qualification": "This decision concerns the tribunal's finding on the claimant's standing for this request. The agency's earlier denial of interested-party status is a distinct procedural action.",
+      "ai_assistance": "Codex selected and translated the Spanish excerpt, explained the tribunal's finding, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C06",
+      "clause_ids": [
+        "C06-A",
+        "C06-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Supported",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented three original Spanish excerpts, English translations, and the tribunal's explanation for treating the defect as nonessential.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P03",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 16, consideration 20",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=16"
+      },
+      "rationale": "The tribunal identified the denial of interested-party status as a legal defect. It treated that defect as nonessential because the agency had addressed the substance of the allegations.",
+      "qualification": "The finding concerns this procedural defect and the agency's response to the allegations in this case.",
+      "ai_assistance": "Codex selected and translated the Spanish excerpts, explained how they support each clause, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C07",
+      "clause_ids": [
+        "C07-A",
+        "C07-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Insufficient",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented original Spanish excerpts, English translations, and a clause-by-clause explanation.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P05",
+        "locator": "Second Environmental Tribunal judgment, PDF pp. 4–5, folios 747–748",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=4"
+      },
+      "rationale": "The judgment records the municipality's withdrawal and one remaining individual claimant. Those procedural actions leave collective endorsement by nearby communities unresolved, so the second clause is insufficient.",
+      "qualification": "The judgment attributes the municipal withdrawal to the expected change in groundwater use for server cooling. The municipal reasoning and actions of litigants leave the views of the wider community open.",
+      "ai_assistance": "Codex selected and translated the Spanish excerpts, explained what they establish for each clause, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C08",
+      "clause_ids": [
+        "C08-A"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Supported",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the original Spanish excerpt, its English translation, and an explanation that the passage describes a proposal.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P07",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 64, consideration 93",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64"
+      },
+      "rationale": "The February 2024 judgment records the developer's February 16, 2022 screening request and describes the proposed substitution of air-cooled chillers for water-based cooling towers.",
+      "qualification": "The review concerns what the court recorded about the proposal. Installation and actual water use require separate evidence.",
+      "ai_assistance": "Codex checked the Spanish excerpt and date, translated the excerpt, explained the scope, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C09",
+      "clause_ids": [
+        "C09-A",
+        "C09-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Contradicted",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the Spanish excerpts, English translations, and a clause-by-clause explanation.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P07",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 64, consideration 93, quoting the June 2022 screening decision",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S01",
+          "passage_id": "P08",
+          "locator": "Second Environmental Tribunal judgment, PDF p. 65, consideration 94",
+          "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=65"
+        }
+      ],
+      "rationale": "The screening decision as quoted in the judgment expressly disclaims power to amend the original approval. The tribunal rejected the argument that the water issue no longer required review and proceeded to examine the original water-resource assessment. Both clauses are directly contradicted.",
+      "qualification": "The first passage is the judgment's quotation of the screening decision. The second is the tribunal's own conclusion.",
+      "ai_assistance": "Codex selected and translated the original Spanish excerpts, distinguished the two speakers, explained what each passage establishes, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C10",
+      "clause_ids": [
+        "C10-A",
+        "C10-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Supported",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the Spanish excerpts, English translations, and an explanation of each finding.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P09",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 66, consideration 94(2)",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=66"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S01",
+          "passage_id": "P10",
+          "locator": "Second Environmental Tribunal judgment, PDF p. 70, consideration 99",
+          "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=70"
+        }
+      ],
+      "rationale": "The tribunal described the Santiago Central aquifer as highly vulnerable and found the project's assessment inadequate to rule out significant impacts on water resources.",
+      "qualification": "The finding concerns aquifer vulnerability and assessment sufficiency. Whether significant impacts actually occurred remains open.",
+      "ai_assistance": "Codex checked the quoted passages, provided English translations, explained each clause and the evidence boundary, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C11",
+      "clause_ids": [
+        "C11-A"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Contradicted",
+      "decision_basis": "Codex presented the Spanish passage, its English translation, and the suggested Contradicted label. After Codex offered to record that label and bring up C12 if Mark agreed, Mark replied “proceed.” The reply was interpreted as assent to that stated next step.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P10",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 71, consideration 99",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=71"
+      },
+      "rationale": "The tribunal said the measures set by Chile's water authority could not replace a proper assessment of the project's potential groundwater effects.",
+      "qualification": "The finding concerns the adequacy of the proposed monitoring and corrective measures as a substitute for prior assessment in this case.",
+      "ai_assistance": "Codex checked and translated the Spanish excerpt, explained the scope of the tribunal's finding, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C12",
+      "clause_ids": [
+        "C12-A",
+        "C12-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Contradicted",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the Spanish excerpts from operative provisions 1 and 2, English translations, and a clause-by-clause explanation.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P11",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 72, operative provisions 1–2",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=72"
+      },
+      "rationale": "Operative provision 1 partially annulled RCA 127/2020. Operative provision 2 suspended the remaining portion and barred execution pending a complementary approval. The first clause is supported and the second is contradicted, so the combined claim is contradicted.",
+      "qualification": "The label concerns the effect of the February 2024 order on immediate execution under RCA 127/2020.",
+      "ai_assistance": "Codex checked and translated the Spanish passages, explained the disposition of each clause, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C13",
+      "clause_ids": [
+        "C13-A"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Insufficient",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the original Spanish from the judgment and approval, English translations, and the distinction between a model input, planned rate and operating measurement.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P12",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 61, consideration 91(2)",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=61"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S04",
+          "passage_id": "P13",
+          "locator": "RCA 127/2020, PDF p. 11, section 4.4.4",
+          "url": "https://firma.sea.gob.cl/publicaciones/d4/3d/2145803977.pdf#page=11"
+        }
+      ],
+      "rationale": "The judgment identifies 169 L/s as the maximum flow rate assumed in the developer's 30-year groundwater model. The approval uses that value for the planned extraction rate. These records leave the rate of actual groundwater withdrawals during operation unestablished.",
+      "qualification": "A claim about an actual rate would require dated operating data, such as flow-meter or pump records.",
+      "ai_assistance": "Codex checked and translated the Spanish excerpts, explained what each use of 169 L/s establishes, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C14",
+      "clause_ids": [
+        "C14-A",
+        "C14-B"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Insufficient",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented the original Spanish, an English translation, and the evidence needed to assess each part of the claim.",
+      "source_presented": {
+        "source_id": "S01",
+        "passage_id": "P07",
+        "locator": "Second Environmental Tribunal judgment, PDF p. 64, consideration 93",
+        "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64"
+      },
+      "rationale": "The judgment uses conditional language to describe the groundwater effect expected from the proposed redesign. The passage leaves installation and measured savings for nearby users unestablished.",
+      "qualification": "Installation requires evidence of what was built. Savings for nearby users require comparable measurements and evidence of who benefited.",
+      "ai_assistance": "Codex checked and translated the Spanish excerpt, explained the conditional wording and the evidence needed for each clause, and suggested the label.",
+      "independent_review_recorded": false
+    },
+    {
+      "claim_id": "C15",
+      "clause_ids": [
+        "C15-A"
+      ],
+      "date": "2026-11-14",
+      "timezone": "America/New_York",
+      "reviewer": "Mark Julius Banasihan",
+      "review_type": "AI-assisted human review",
+      "label": "Insufficient",
+      "decision_basis": "Mark explicitly agreed with the suggested label after Codex presented Spanish excerpts, their English translations, and an explanation of the difference between the documented sequence and causal influence.",
+      "source_presented": {
+        "source_id": "S07",
+        "passage_id": "P17",
+        "locator": "Original 2019 request for formal public participation, PDF p. 4",
+        "url": "https://seia.sea.gob.cl/archivos/2019/08/23/2019-13-92-27_MOD.pdf#page=4"
+      },
+      "additional_sources_presented": [
+        {
+          "source_id": "S01",
+          "passage_id": "P07",
+          "locator": "Second Environmental Tribunal judgment, PDF p. 64, consideration 93",
+          "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64"
+        }
+      ],
+      "rationale": "The original filing documents a 2019 request for public participation. The tribunal records the developer's February 16, 2022 filing and proposed cooling change. These passages establish the sequence. They leave the developer's reason for the redesign open.",
+      "qualification": "A causal attribution would need evidence connecting the residents' request to the developer's design decision, such as a dated decision record explaining that influence.",
+      "ai_assistance": "Codex checked the Spanish against the retained sources, provided English translations, explained the causal boundary, and suggested the label.",
+      "independent_review_recorded": false
+    }
+  ]
+}

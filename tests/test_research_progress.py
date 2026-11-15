@@ -59,7 +59,7 @@ class ResearchProgressTests(unittest.TestCase):
 
     def test_public_readme_routes_and_boundary(self):
         text = (ROOT / "README.md").read_text()
-        for link in ("docs/START-HERE.md", "research/cerrillos/README.md",
+        for link in ("docs/START-HERE.ipynb", "research/cerrillos/README.md",
                      "archive/README.md", "methods/MEASUREMENT.md", "AI-USE-LOG.md"):
             self.assertIn(link, text)
         self.assertIn("B. GO — NARROWED COURT/INSTRUMENT QUESTION", text)
