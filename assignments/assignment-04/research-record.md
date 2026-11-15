@@ -1,12 +1,12 @@
 # Research Record and AI Use Supplement
 
-Mark Julius Banasihan · November 14, 2026 · Companion to Assignment 4 v0.6
+Mark Julius Banasihan · November 15, 2026 · Companion to Assignment 4 v0.7
 
-This document edition incorporates the [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md). The [v0.4.0 release](../../audit/2026-11-14-public-release.md) preserves the earlier repository edition. Source corrections do not rewrite frozen claim-review records.
+This document edition incorporates the [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md) and the [Section S3 evidence update](../../audit/2026-11-15-assignment4-study-evidence.md). The [v0.4.0 release](../../audit/2026-11-14-public-release.md) preserves the earlier repository edition. Source corrections do not rewrite frozen claim-review records.
 
 ## S1. From the research question to a reviewed claim
 
-This record lets a reader inspect how the memo was developed without running software. Section S1 explains the workflow and checks; S2 follows two claims to their evidence; S3 supplies selected prompts, outputs and rerun details. Section S4 identifies AI contributions and provides three notebook links for exploring the public study. The main memo stands on its cited sources.
+This record lets a reader inspect how the memo was developed without running software. Section S1 explains the workflow and checks; S2 follows two claims to their evidence; S3 presents retained study instructions, a historical model prompt and critical outputs. Section S4 identifies AI contributions and provides three notebook links for exploring the public study. The main memo stands on its cited sources.
 
 **Figure S1. Where interpretation and review occur**
 
@@ -53,41 +53,54 @@ The tribunal found SEA’s denial of interested-party status erroneous but nones
 
 Source attribution. Resolution 524/2020 is cited to the Commission named on its cover and signatures (pp. 1, 36). The judgment calls it a SEA Executive Directorate decision (pp. 2, 4). This discrepancy remains documented; the original instruments are preserved.
 
-## S3. Selected prompts and critical outputs
+## S3. Study instructions and critical outputs
 
-These verbatim user-message excerpts were compiled retrospectively from the conversation; they are not a complete prompt log. Historical prompt_summary fields summarize earlier work. The graph processes structured case data without model prompts.
+The records below show an earlier model-facing diagnostic and the separate Cerrillos workflow. The diagnostic tests the distinction between missing evidence and contradiction. The case examples show how the study preserves that distinction in its annotations and executable rules. Exact excerpts are identified by their source artifact; a complete original Codex prompt transcript is unavailable.
 
-**Author’s drafting instruction**
+**An actual model prompt from the earlier Jev diagnostic**
 
-“The 2019 filing stood out to me. It made me ask what happens to residents’ water concerns after the agency rules their request late. Let’s use that to draft the Assignment 4 memo. Keep Assignment 2 v0.11 unchanged.”
+In the October 15 diagnostic (October 16 UTC), H16-C sent Jev-1.13.0 an AI-authored instruction that included this exact passage:
 
-The reflection’s first two sentences appear in Section 1. Codex developed the subsequent argument and prose from this author-supplied starting point.
+> “First distinguish a statement about what a document contains from a statement about what happened in the world. Missing, omitted, unreported or not-included evidence leaves the event unresolved; it does not establish that the event never happened.”
 
-**Author’s request to review C14**
+The request used a Choice question named support, with supported, contradicted and insufficient criteria. The full retained request includes those criteria and the instruction to report a candidate judgment without scholarly verification.
 
-“I agree, C13 is Insufficient. Record it as AI-assisted human review, then show me C14 with the original Spanish, an English translation, and your suggested label. Keep Assignment 2 v0.11 unchanged.”
+**Synthetic input and retained response**
 
-**Retained AI-authored annotation for C14-A**
+> Source: “The authority approved the modification for screening purposes. No construction inspection or operating measurements are included.”
+> Claim: “Water savings from the modification were measured.”
 
-“The tribunal describes a proposed change, without evidence of installation.”
+Jev returned choice = contradicted. Its probability fields were supported = 0.00, contradicted = 0.79 and insufficient = 0.21; its separate confidence field was 0.69. The request completed with HTTP 200 and was routed to human_review_required. These are reported API fields, not calibrated accuracy estimates.
 
-The case data retain this AI interpretation, not a court quotation. Table S2 gives the output fields. The [public case record](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/README.md) preserves evidence locators, candidate outputs and subsequent decisions for all 15 propositions.
+The frozen, AI-authored expectation was Insufficient. The excerpt omits measurements; it does not expressly deny that measurements occurred. The disagreement illustrates a consequential limit of typed model output. This individual-clause expectation had no independent human approval, and one selected diagnostic supplies no general error rate. The passage is invented test material, not evidence about Cerrillos.
 
-**Author’s subsequent decision**
+The archived request and response hashes were reproduced during this revision. The [selected technical record](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/main/assignments/assignment-04/selected-jev-diagnostic.json) preserves the exact prompt, option criteria, response bytes, model identifier, expectation and hash method. No new Jev call was made.
 
-“I agree, C14 is Insufficient. Record it as AI-assisted human review, then show me C15 with the original Spanish, an English translation, and your suggested label. Keep Assignment 2 v0.11 unchanged.”
+**The Cerrillos instructions and structured evidence**
 
-The sequence exposes a limitation. Mark saw the model’s proposed label before deciding. Agreement cannot be used as a blinded accuracy estimate or calibration result. No complete original assistant response or provider-level prompt chain is claimed from these selected records.
+The 15-claim Cerrillos pilot made no model calls inside LangGraph. Codex prepared the evidence relations outside the graph. Its retained specification gives this exact research instruction:
 
-Rerun environment. The v0.3 verification completed November 15 at 02:26 UTC (November 14 in Georgia): Python 3.14.3, LangGraph 1.2.11, LangChain Core 1.8.0 and LangSmith 0.14.17. Dependencies passed, hosted tracing was disabled, and no model or Jev calls occurred. Document v0.4 carried those results forward.
+> “Inspect primary Spanish records at the named locators. Write bounded English paraphrases, retain decisive Spanish phrases in the study note, and mark the relationship of each passage to the claim as supports, contradicts or context_only.”
 
-Public-release replay. The [v0.4.0 replay](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/publication-replay.json) completed at 03:57 UTC that day: 11 case tests passed and packet bytes matched. No model calls or original-source hash checks occurred. The [release audit](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/audit/2026-11-14-public-release.md) also records 105 repository tests and 11 teaching tests. These check software behavior, not interpretation accuracy.
+This is specification text, not an executed API prompt. Each annotation records a clause ID, passage ID, relation and rationale. Each passage carries its source ID, locator and quotation-or-paraphrase status. The [original specification](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/SPEC-original.txt) and [case inputs](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/cases.json) remain inspectable.
 
-Revision decisions. Version 0.6 corrects the filing locator, institutional attribution and Rio sampling wording, and adds the ChatGPT reference. It retains the argument and formatting. The final source checks are AI-assisted; they add no human review decision or environmental outcome finding.
+**Table S3. What the recorded inputs produce**
+
+| Claim | Evidence distinction | Exact candidate output |
+| --- | --- | --- |
+| C03: representation | The claim about the RCA’s wording is supported; representation of every affected group remains unresolved. | C03-A: Supported. C03-B: Insufficient. Claim: Insufficient; a_clause_remains_unresolved. |
+| C12: court remedy | Partial annulment is supported. Immediate execution conflicts with the suspension requirement. | C12-A: Supported. C12-B: Contradicted. Claim: Contradicted; a_clause_is_contradicted. |
+| C13: water quantity | The 169 L/s figure concerns modeling and design. The linked passages do not establish operating withdrawals. | C13-A: Insufficient; no_direct_evidence. Claim: Insufficient; a_clause_remains_unresolved. |
+
+For C13, the retained AI annotation states: “The figure is a maximum modeling input as reported by the tribunal, not an operating measurement.” It links to the judgment’s p. 61, consideration 91(2). A second link points to RCA pp. 11–12 and 16–17. The [output packet](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/review-packet.json) preserves these locators and annotations beside the computed result.
+
+The [code](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/workflow.py) assigns Supported or Contradicted when a clause has only that direct relation; opposing direct relations or context-only evidence yield Insufficient. Any contradicted clause makes the whole claim Contradicted. Otherwise, every clause must be Supported. These rules aggregate encoded judgments; they do not independently interpret Spanish sources.
+
+Execution record. The November 14 local rerun used Python 3.14.3, LangGraph 1.2.11, LangChain Core 1.8.0 and LangSmith 0.14.17. Hosted tracing was disabled. The later v0.4.0 [publication replay](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/publication-replay.json) passed 11 case tests and reproduced packet bytes, with zero model calls and no original-source hash checks. [Human decisions](https://github.com/mj3b/envr-e119g-sustainable-cities-study/blob/v0.4.0/research/cerrillos/assignment-04/human-review.json) are retained separately; they followed AI suggestions and supply no blinded accuracy estimate.
 
 ## S4. Contributions and a route into the wider record
 
-**Table S3. AI assistance and human responsibility**
+**Table S4. AI assistance and human responsibility**
 
 | **Contributor or tool** | **Role in this work** | **Boundary** |
 | --- | --- | --- |

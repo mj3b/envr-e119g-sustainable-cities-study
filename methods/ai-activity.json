@@ -830,6 +830,35 @@
       "checks": "Final Word body: 1,353 editable words, 1,380 including timeline labels; excludes front matter, disclosure, references and supplement. Ten pages visually inspected; notebook and AI reference links checked; original styles and both Assignment 2 lock hashes preserved. Exact artifact hashes and source-check scope in the audit. Repository assurance and CI have separate scope.",
       "repository_ci_scope": "Any CI replay of retained case and teaching workflows is a separate software check, not a fresh source interpretation.",
       "limits": "AI critique is not independent scholarly review or a grade prediction. Some SEA web requests failed; retained originals were inspected. No new claim labels, fieldwork, environmental outcome finding, human approval, publisher-policy verification or Assignment 2 revision. Historical claim packets and activity entries retain their original contents."
+    },
+    {
+      "id": "ACT32",
+      "date": "2026-11-15",
+      "record_created_at": "2026-11-15T18:52:30.986313+00:00",
+      "task": "Replace Assignment 4 selected user-message excerpts with inspectable study instructions and technical outputs",
+      "inputs_description": "Author request; v0.6 Word/PDF; preserved Cerrillos specification, cases, workflow and output packet; selected H16-C historical Jev request and response and frozen AI-authored expectation",
+      "output_description": "Document v0.7 and matching public supplement; selected historical synthetic diagnostic with exact prompt, response bytes and provenance; no changes to memo body or original study decisions",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents and local document tools",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "The session identifies GPT-6 based Codex; exact deployed snapshot unavailable.",
+      "prompt_availability": "Selected historical Jev model-facing instructions and criteria retained exactly; Cerrillos specification quoted as specification text. Complete original Codex provider prompt transcript unavailable. This revision does not reconstruct missing prompts.",
+      "ai_contribution": "Locate and select historical records, compare prompt/output fields, explain model-versus-rule boundaries, revise supplement prose and table, inspect layout and maintain public provenance",
+      "deterministic_operations": "Hash verification of selected request and response bytes; exact quote comparisons; document package preservation, rendering, hyperlink and protected-file checks; repository assurance recorded separately",
+      "runtime_model_calls": 0,
+      "runtime_model_call_scope": "No external model or Jev inference executed for this revision; current Codex interpretation separately disclosed. Historical Jev inference is reproduced from the stored record.",
+      "live_jev_calls": 0,
+      "graphs_reexecuted_for_document": false,
+      "human_review": {
+        "document_update_authorized": true,
+        "basis": "Current supplement-edit request and standing repository maintenance authorization",
+        "new_source_review_decisions": false,
+        "independent_source_review": "not_recorded",
+        "course_submission": "not_performed"
+      },
+      "limits": "The H16-C expectation is AI-authored and not independently approved; one diagnostic is not calibration or a population error rate. The synthetic source is not Cerrillos evidence. Software reproduces annotated judgments, not independent source interpretation. Frozen case records, historical activity and Assignment 2 v0.11 are preserved.",
+      "record": "audit/2026-11-15-assignment4-study-evidence.md"
     }
   ],
   "performed_without_model_judgment": [
