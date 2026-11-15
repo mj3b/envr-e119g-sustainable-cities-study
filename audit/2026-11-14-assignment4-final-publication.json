@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-15T04:52:01.739162+00:00",
+  "scope": "Assignment 4 v0.6 citation corrections, disclosure and final pressure-test provenance; local document binaries excluded",
+  "base_commit": "3bdd3cfac9313187f2e8b21ce3c31a738334a407",
+  "authorization": "Current owner pressure-test request and standing repository maintenance authorization",
+  "reviewer": "Codex with collaborating Codex agents; AI-assisted publication review",
+  "files": [
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "9700e21fdfa48e381f9cf47c1c997c0554c0b2d279e46f7bb8d48db5822c6d8f",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "sha256": "d514df605cb3c7ba2d0fbd99304ca5f8e68961c4832c94e33268e6e322147925",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/memo.md",
+      "sha256": "291dacc2ab36d3f20cf6363b26cd01429ecd819c46ecb95376aa695ece5a6b09",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/research-record.md",
+      "sha256": "3c46291eb462444ffe56a988efe65aeac4d6e73fc062ad07ecc7b258a1c4bea6",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "audit/2026-11-14-assignment4-final-pressure-test.md",
+      "sha256": "1a2a415cdeb0acb030cd555bc8d59c2cb02f3fbcbd055be29a2b86124f8956a8",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "376cc84703ccea52622857502bebb4c92c69d73bfccb4aa65750c1cb61bad619",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "docs/FACULTY-GUIDE.ipynb",
+      "sha256": "61a11ff757320b6a19f890b42c3a71e3e820080fdbac771e0071e3a28989ce58",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    }
+  ],
+  "generated_receipt": "governance/evaluation-results.json records exact evaluated files; generated after this manifest"
+}
