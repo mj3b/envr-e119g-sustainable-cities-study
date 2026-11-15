@@ -1,5 +1,11 @@
 # Record of AI systems and assistance
 
+## Public notebook and Assignment 4 edition · November 14, 2026
+
+The owner authorized publication, merges and branch cleanup. Codex converted two guides to notebooks, retained the fictional worked notebook, prepared a public view of the case reviews, and updated navigation, testing and release records. It also rechecked the six Module IV source interpretations against retained PDFs. This was AI source review, with no independent human fidelity approval. The model family is GPT-6; the exact deployment is unavailable.
+
+The published memo retains the v0.4 main argument and changes publication status and links. The supplement distinguishes earlier case-workflow runs from this repository release. Mark’s 15 decisions remain AI-assisted and nonblind. The graph and notebook execution use fixed rules and make no model or Jev calls. Raw readings, lecture files, grades and correspondence remain private. [Activity ACT29](methods/ai-activity.json) · [Release audit](audit/2026-11-14-public-release.md) · [Assignment 4 disclosure](assignments/assignment-04/research-record.md)
+
 ## Reader guide and evidence-review demonstration · November 13, 2026
 
 Codex helped map the public records to the course sequence, draft the reader guides and teaching notebook, and adapt the existing review-only workflow to fictional water records. Codex used the GPT-6 model family. The exact deployment identifier was unavailable. The public demonstration uses LangChain Core and LangGraph to apply written rules to supplied annotations. The graph ran locally with hosted tracing disabled and made zero model calls. [Activity record](methods/ai-activity.json) · [Method and limitations](methods/evidence-review/README.md)

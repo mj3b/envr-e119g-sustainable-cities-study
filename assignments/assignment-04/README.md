@@ -1,24 +1,28 @@
-# Assignment 4. Follow residents’ water concerns
+# Assignment 4: following residents’ water concerns
 
-[Start here](../../docs/START-HERE.md) · [Assignment trail](../README.md) · [Evidence review](../../methods/evidence-review/README.md)
+[Home](../../README.md) · [Starting notebook](../../docs/START-HERE.ipynb) · [Assignment trail](../README.md)
 
-How did residents raise water concerns about the original Cerrillos Data Center, how did officials respond, and what can the public record show about whose concerns entered the decision? This is the current working question. It builds on Assignment 2’s study of the original approval and later court review. [Assignment 2 final memo](../assignment-02/final-v011.md)
+What happens to a resident’s water concern after a participation request is ruled late? The memo follows the 2019 Cerrillos filing through the agency response and later court review, then proposes a public register that would help a reader connect a concern to its answer and unresolved questions.
 
-## What the memo needs to do
-
-The supplied brief asks for a **1,300–1,500-word memo or blog post** that continues the topic from Assignment 1. Explain what the research and course materials changed or clarified, then show how that learning could inform a practical response to an urban challenge. The memo is in development.
-
-| Part of the argument | Work to do |
+| Read | What it provides |
 | :--- | :--- |
-| Explain what changed | Trace the progression from how cities account for water commitments to how residents’ concerns appear in those decisions. Use the author’s own account of what changed in their thinking. |
-| Show what the record can establish | Pair each statement with a dated record and locator. Distinguish a request, a ruling on whether it can proceed, a response to the substance of the concern and an eventual remedy. |
-| Propose a practice | Consider a public register that connects a concern to its response, the responsible office and the evidence of follow-through. Discuss who could maintain it, how residents could correct it and what would make it useful. |
-| State what would change the conclusion | Identify what additional records, participant evidence or observations would answer an open question. A claim about effects on water access needs evidence about water access. |
+| [Memo](memo.md) | Learning from the case, the contribution of Sen and the Rio study, and a proposed practice for cities |
+| [Research record and AI disclosure](research-record.md) | How claims were assessed, selected prompts and outputs, earlier software checks, and the limits of assisted review |
+| [Cerrillos claim-review record](../../research/cerrillos/assignment-04/README.md) | Fifteen case propositions, source locators, candidate assessments and the author’s separate decisions |
+| [Course-reader notebook](../../docs/FACULTY-GUIDE.ipynb) | A short route through the memo, evidence and methods |
 
-Public engagement standards can help explain why a record should show whose feedback was heard and how it was considered. The World Bank and Inter-American Development Bank requirements apply within their own financing scopes. The memo can draw on those practices when explaining the proposed register. [World Bank ESS10, para. 9](https://documents1.worldbank.org/curated/en/383011492423734099/pdf/The-World-Bank-Environmental-and-Social-Framework.pdf) · [IDB ESPS10, para. 9](https://publications.iadb.org/publications/english/document/Environmental-and-Social-Policy-Framework.pdf)
+## How the memo meets the brief
 
-## How to review one sentence
+The brief asks for 1,300–1,500 words continuing the topic from the first submission. The main body has 1,364 words, or 1,375 including the title, under the recorded counting method. Disclosure and references are separate. The public text retains the v0.4 argument; this release updates its publication status and links.
 
-Read each clause against its cited passage and decide what the source establishes. A filing can show that a person raised a concern. Evidence about who was represented, whether the concern influenced a decision or what later happened to water use requires a different check. The fictional [evidence-review notebook](../../methods/evidence-review/trace-a-claim.ipynb) shows how to record support, contradiction and missing evidence.
+| Assignment question | Where the memo answers it |
+| :--- | :--- |
+| What has the research and course material taught you? | Sections 1–3 trace a more focused question, the documented treatment of one concern, and what public reasoning and the Rio study contribute. |
+| How could this learning improve cities? | Section 4 proposes a response register, identifies responsibility and access requirements, and describes a future usability trial. |
+| How does this connect to sustainability and resilience? | The proposal asks who can revisit water assumptions, respond to new evidence and explain decisions to affected people. |
 
-The [research-integrity protocol](../../methods/RESEARCH-INTEGRITY.md) explains the evidence and review requirements. The [AI-use log](../../AI-USE-LOG.md) records assistance. The [course map](../../COURSE-MAP.md) preserves the syllabus context.
+## Evidence boundary
+
+The record contains 15 case decisions after AI translations and suggestions: 14 explicit agreements and C11 recorded as contextual assent to “proceed.” These are AI-assisted, nonblind human decisions. They do not estimate model accuracy or establish independent validation. The proposed register has not been implemented or tested with residents. The selected records do not establish measured water savings or community-wide benefit.
+
+Publication is authorized. No course submission is recorded here. Assignment 2 v0.11 and the narrowed court/instrument research verdict remain unchanged. The [locked memo](../assignment-02/final-v011.md) preserves the earlier argument, while this memo develops the social-accountability question.

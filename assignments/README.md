@@ -1,6 +1,6 @@
 # Follow the inquiry through four assignments
 
-[Home](../README.md) · [Start here](../docs/START-HERE.md)
+[Home](../README.md) · [Start here](../docs/START-HERE.ipynb)
 
 How can a city tell whether a water-saving proposal will benefit the public? The work started with a broad question about municipal commitments. Cerrillos gave that question a specific decision record to examine. Each assignment asks what the evidence can establish and what a reader needs to check next.
 
@@ -9,7 +9,7 @@ How can a city tell whether a water-saving proposal will benefit the public? The
 | 1. Frame the problem | Asked how municipal water commitments remain accountable as conditions change. The working framework identified justification, disclosure, monitoring, triggers, authority and remedy. | [Assignment 1 drafts and evidence notes](assignment-01/README.md) |
 | 2. Trace a decision | Focused on how a tribunal treated a proposed cooling redesign, its screening and the original environmental approval. Used course theory to define the questions and documentary analysis to trace the answer. | [Author-approved memo v0.11](assignment-02/final-v011.md) · [Lock and review records](assignment-02/README.md) |
 | 3. Explain the inquiry | Turned the memo into a five-minute presentation. The task was to explain what the court record established and what evidence would show a change in water use. | [Presentation guide](assignment-03/README.md) |
-| 4. Apply the learning | Continues the original inquiry through a practical question about how public authorities can record, respond to and follow up on water concerns. This is the working direction for a 1,300–1,500-word memo or blog post. | [Assignment 4 brief and preparation](assignment-04/README.md) |
+| 4. Apply the learning | Continues the original inquiry through a practical question about how public authorities can record, respond to and follow up on water concerns. The current public memo proposes a response register and a future usability trial. | [Assignment 4 memo and research record](assignment-04/README.md) |
 
 ## What changed in the research
 

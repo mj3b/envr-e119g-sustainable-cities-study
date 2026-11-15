@@ -20,7 +20,7 @@
 | Does the source support the interpretation? | Passage-level review, context, edition, qualifications and competing readings | Mark or an identified human reviewer |
 | May this be used for the intended purpose? | Assignment policy, scope of review, unresolved limits, actual AI disclosure | Mark; course staff determine course expectations |
 
-A passing test suite covers specified failure modes. It is not a measurement of AI truthfulness or a certification of research quality. All current human fidelity gates remain pending.
+A passing test suite covers specified failure modes. It is not a measurement of AI truthfulness or a certification of research quality. The course packs’ G1–G3 fidelity gates have no completed review receipts. The separate [Cerrillos claim-review record](../research/cerrillos/assignment-04/README.md) documents 15 AI-assisted author decisions; those decisions do not complete the course gates.
 
 ## Reproduce the current record checks
 

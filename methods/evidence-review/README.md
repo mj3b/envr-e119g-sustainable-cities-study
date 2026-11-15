@@ -1,10 +1,10 @@
 # How to trace a claim
 
-[Reader’s guide](../../docs/START-HERE.md) / [Methods](../README.md) / Evidence review
+[Reader’s guide](../../docs/START-HERE.ipynb) / [Methods](../README.md) / Evidence review
 
 Suppose a city wants to know how much water its cooling project withdrew in July 2025. A design estimate can help explain what the city expected. A July meter log could establish what the city recorded. This exercise follows one claim through both kinds of records so you can see when the evidence changes the label.
 
-[Open the notebook](trace-a-claim.ipynb) and read it in your browser. The examples use invented records. You can follow them without installing anything.
+[Open the worked notebook](trace-a-claim.ipynb) and read it in your browser. The examples use invented records. You can follow them without installing anything. For the current study and its evidence, begin with the [first-reader notebook](../../docs/START-HERE.ipynb) or the [course-reader notebook](../../docs/FACULTY-GUIDE.ipynb). Both guides contain prose and reading exercises, with no code to run.
 
 ## Check the claim against the right record
 
@@ -45,3 +45,19 @@ python workflow.py
 ```
 
 To run the notebook, open it in Jupyter with the same Python environment and run the cells in order. The [workflow](workflow.py) and [tests](test_workflow.py) are available alongside it.
+
+## Check the notebook reading surface
+
+Return to the repository root for the following checks. The first command uses Python’s standard library to validate the three notebooks, check local links, and screen text and saved outputs for selected publication hazards. It also keeps executable cells out of the two prose guides.
+
+```sh
+python scripts/check_notebooks.py
+```
+
+With the demonstration’s recorded dependencies installed in the active Python environment, the optional replay executes the fictional code cell and compares its output with the saved notebook output. It blocks socket connections, stops after 60 seconds and does not rewrite a notebook.
+
+```sh
+python scripts/check_notebooks.py --execute-worked
+```
+
+These checks address structure, navigation, selected disclosure hazards and reproducible example output. Source fidelity, reader comprehension and the adequacy of the case argument require separate review. The regression checks are in [the notebook test file](../../tests/test_notebooks.py).

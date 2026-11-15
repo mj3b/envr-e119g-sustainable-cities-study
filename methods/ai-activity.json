@@ -745,6 +745,31 @@
         "reviewed_at": null
       },
       "limitation": "Fictional cases exercise rules on supplied annotations. They provide no accuracy estimate or substantive case adjudication."
+    },
+    {
+      "id": "ACT29",
+      "date": "2026-11-14",
+      "record_created_at": "2026-11-15T03:50:21.565860+00:00",
+      "task": "Public notebook edition, Assignment 4 record and repository release",
+      "inputs_description": "Owner authorization, current remote main and PR21, retained A4 v0.4 and case review records, six private Module IV PDFs, repository specifications and official GitHub/LangGraph documentation",
+      "output_description": "Two reading notebooks, unchanged worked notebook, public A4 memo and sanitized claim-review record, architecture, validation, AI disclosure and release documentation",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents and local/GitHub tools",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "The session identifies GPT-6 based Codex; exact deployed snapshot is unavailable.",
+      "prompt_availability": "User instruction and clarification in conversation; relevant excerpts in release audit. Historical prompts remain limited to retained selections.",
+      "runtime_model_calls": 0,
+      "hosted_tracing": false,
+      "live_jev_calls": 0,
+      "human_review": {
+        "publication_authorized": true,
+        "basis": "Owner November14 instruction and notebook clarification",
+        "independent_source_review": "not_recorded",
+        "course_submission": "not_performed"
+      },
+      "checks": "See release audit and exact-tree assurance receipt; no automated scholarly approval.",
+      "limits": "AI-assisted source recheck, notebook tests and file identity do not estimate model accuracy, prove environmental outcomes or represent independent human review. Earlier records remain historical."
     }
   ],
   "performed_without_model_judgment": [

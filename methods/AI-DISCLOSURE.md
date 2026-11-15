@@ -1,5 +1,7 @@
 # AI-use disclosure and contribution record
 
+Current November 14 edition: [Assignment 4 disclosure](../assignments/assignment-04/research-record.md), [ACT29](ai-activity.json) and [release audit](../audit/2026-11-14-public-release.md) record the new work. Earlier sections below retain their dated execution scopes; historical zero-use statements do not describe every later private experiment. Publication is authorized; independent review is recorded only where it actually occurred.
+
 A generic statement that AI helped is insufficient for this notebook. Report assistance at the task and artifact level. Detailed records belong here; a short, accurate disclosure belongs in the assignment, subject to its instructions.
 
 ## What to record

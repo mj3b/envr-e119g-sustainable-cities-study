@@ -1,14 +1,12 @@
-# Current status: Assignment 2 locked
+# Current status: public notebook and Assignment 4 edition
 
-[Final memo](assignments/assignment-02/final-v011.md) · [Approval and hashes](assignments/assignment-02/final-lock-v011.json) · [Audit scope](audit/2026-10-15-final-lock-v011.md)
+[Home](README.md) · [Three notebooks](README.md#three-notebooks-to-begin) · [Release history](docs/releases/README.md)
 
-Mark selected v0.11 for submission. The approved 1,129-word argument, including headings and both tables, is unchanged. The neutral final footer makes no submission claim. No Canvas upload is recorded. The 1,000–1,200-word brief and exclusion of AI disclosure/references are supplied by the user; the 20% weight is user-confirmed.
+The author authorized public release and repository cleanup on November 14. The current edition includes the Assignment 4 memo, research and AI-use supplement, a public view of the 15 Cerrillos claim reviews, and three notebook entry points. The two guides can be read without running code. The worked notebook retains its fictional example.
 
-The v0.3.3 checkpoint preserves this final record and the earlier source and AI-use history. Actual GitHub tag, PR and CI records establish publication and validation. The underlying research verdict and missing-original limitations remain unchanged.
+The memo proposes a response register and future volunteer trial. No trial, environmental measurement, independent model-accuracy evaluation or course submission is claimed. The 15 case labels are AI-assisted human decisions. The [release audit](audit/2026-11-14-public-release.md) separates source checks, software checks and publication operations.
 
-## November 13 reader and methods update
-
-The [reader guide](docs/START-HERE.md) follows Assignments 1–4 and gives course readers a route to the original evidence. The [evidence review notebook](methods/evidence-review/trace-a-claim.ipynb) applies a written specification to fictional water records. Assignment 3 has an author-edited presentation and recording copy in the project record. The Assignment 4 memo and claim reviews are in progress. See the [assignment index](assignments/README.md) for current status and the [assurance receipt](governance/evaluation-results.json) for the scope of the software checks.
+Assignment 2 v0.11 remains byte-identical to its [lock record](assignments/assignment-02/final-lock-v011.json). Its earlier research verdict is preserved. Earlier build narratives below describe their own dates; they are not current requests for publication approval.
 
 <details>
 <summary>Earlier build checkpoints, preserved</summary>

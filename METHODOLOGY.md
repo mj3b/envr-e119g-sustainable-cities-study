@@ -36,7 +36,7 @@ This adapts the [Applied AI Research Translator](audit/APPLIED-TRANSLATOR-AUDIT.
 
 | Question | Method and required evidence | Permitted conclusion |
 | :--- | :--- | :--- |
-| What did the author argue? | Reconstruct premises, warrant, conclusion and scope from the inspected edition | Qualified interpretation, pending source-fidelity review |
+| What did the author argue? | Reconstruct premises, warrant, conclusion and scope from the inspected edition | Qualified interpretation, with source-review status recorded |
 | What was decided, and on what basis? | Dated instruments, packets, minutes and testimony | What the record establishes about the action and stated reasons |
 | Did a mechanism operate? | Process tracing: condition → measurement → trigger → authorized response | Support for a specified mechanism, with missing links visible |
 | Did the action change resource use? | Comparable observations, stable boundaries, plausible comparison, confounder assessment | Effect estimate only with defensible identification; otherwise descriptive association |
@@ -63,9 +63,9 @@ The [Assignment 1 revision](assignments/assignment-01/REVISION-NOTES.md) propose
 
 | Gate | Reviewer must establish | Current status |
 | :--- | :--- | :--- |
-| **G1 · Source** | Claim, qualification and locator match the supplied edition | Pending in both class packs |
-| **G2 · Lecture** | Important treatment is covered; speaker and transcript uncertainties are resolved or bounded | Pending in both class packs |
-| **G3 · Synthesis** | Evidence classes, dependencies, tensions and inferences remain distinguishable | Pending in both class packs |
+| **G1 · Source** | Claim, qualification and locator match the supplied edition | No completed receipt in either class pack |
+| **G2 · Lecture** | Important treatment is covered; speaker and transcript uncertainties are resolved or bounded | No completed receipt in either class pack |
+| **G3 · Synthesis** | Evidence classes, dependencies, tensions and inferences remain distinguishable | No completed receipt in either class pack |
 
 Reviews bind to content digests. Changed sources or dependent artifacts require renewed review. [Automated checks](governance/EVALUATION.md) detect some inconsistent records and stale approvals; they cannot determine whether a passage supports a sentence.
 

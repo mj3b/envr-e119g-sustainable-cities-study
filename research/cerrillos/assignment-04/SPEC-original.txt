@@ -1,0 +1,30 @@
+# Cerrillos water concerns evidence pilot
+
+Version 0.1 · Assignment 4 preparation · Private working study
+
+## Constitution
+
+Trace how residents’ water concerns entered the original Cerrillos Data Center assessment, administrative challenge and judicial decision. Keep the speaker, procedural route, issue, official response and remedy attached to each evidence item. Reserve claim-level decisions for the researcher. The historical case ends in 2024. Later material can inform a separately dated follow-up question.
+
+The unit is one attributable statement or decision at a specified stage. A named resident, a group in a filing, the municipality, a regulator, and the tribunal are distinct actors. Record an allegation as an allegation, and a court summary of a filing as indirect evidence of that filing. A court finding or order is direct evidence of the court’s own action. Link concerns to findings and remedies when the text supports the connection. Inferring who caused a decision, why each participant withdrew, or how broadly a position was shared requires additional evidence.
+
+## Requirements and acceptance criteria
+
+| ID | Requirement | Acceptance |
+| --- | --- | --- |
+| CE-01 | Keep one historical case set, with stable IDs for claims, clauses, sources and passages, original links, dates, locators, and a digest when bytes were retrieved. | Invalid links, missing locators and out-of-scope dates fail validation. The run receipt identifies the exact inputs, workflow, specification and evidence bytes checked. |
+| CE-02 | Distinguish a request for formal citizen participation (PAC), SEA’s decision on admissibility, later administrative invalidation and judicial review. | The case set includes evidence of a request and its untimeliness ruling. A claim that the request was admitted fails against the same-scope decision. The RCA’s divergent wording and its effect on interpretation are recorded with locators. |
+| CE-03 | Preserve roles and attribution for groundwater availability, drought and review of the project’s cooling demand. | A claim about what a resident argued can be supported while the corresponding claim about measured water effects or all residents’ views remains insufficient. Municipality and individual litigants have separate entries. |
+| CE-04 | Preserve the distinction between procedural standing, consideration of an argument, a court remedy, and implementation. | Standing and renewed water assessment are traceable to the court. Proof of residents’ causal influence, a change in the project’s design, or physical benefit requires additional evidence. |
+| CE-05 | Reuse the review-only LangChain Core and LangGraph workflow and evidence rubric. | The code matches the tested Zone 1 workflow byte for byte. Tests cover clause precedence, missing evidence, conflicting links, invalid inputs, tracing and deterministic replay. Every case remains pending human review. |
+| CE-06 | Document AI-assisted source interpretation, case annotation, software use and disclosure. | The disclosure and contribution record reflect actual tasks and run status. Source review, software tests and researcher approval have separate records. |
+
+## Plan and workflow
+
+Inspect primary Spanish records at the named locators. Write bounded English paraphrases, retain decisive Spanish phrases in the study note, and mark the relationship of each passage to the claim as `supports`, `contradicts` or `context_only`. Apply the existing rubric to these annotations. Supported requires support for every material clause. An unambiguously contradicted clause takes precedence. If direct evidence conflicts within a clause, or direct evidence is missing for a material clause, the affected clause is Insufficient. Any candidate label can change in human review.
+
+The same local Python implementation validates the case set, wraps passages as LangChain Core `Document` objects, and invokes a fixed LangGraph `StateGraph` to aggregate the annotated relations. The output is a JSON review packet. Its stage is `pending_human_review`. This run uses no model, hosted trace, network retrieval, or release operation in the graph. The source retrieval and evidence interpretation are separately documented AI-assisted research tasks.
+
+For human review, record the packet digest, claim and clause IDs, reviewer, date, original locators inspected, and rationale. Review role, date, completeness of decomposition and the evidence relation. If the originals are inaccessible or an inference reaches beyond them, record that boundary and narrow the text. A reviewed packet may inform a later draft. Assignment 2 v0.11 and its research verdict are outside this pilot’s scope.
+
+[Existing source-fidelity rubric](../../../jev-pilot-work/envr-checkpoint/experiments/jev/RUBRIC-v02.md) · [Zone 1 specification](../../strata-zone-1/agent-study/SPEC.md) · [Microsoft spec-first guidance](https://developer.microsoft.com/blog/spec-driven-development-ai-native-engineering/) · [LangGraph workflows](https://docs.langchain.com/oss/python/langgraph/workflows-agents)

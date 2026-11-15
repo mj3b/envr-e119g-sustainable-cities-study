@@ -51,6 +51,6 @@ Original PDFs, transcripts, screenshots, conversations and extraction caches sta
 
 ## Cite a public checkpoint
 
-When discussing this repository's method or research record, identify the author, repository title and version you inspected. A suitable attribution is: Mark Julius Banasihan, *Water, digital infrastructure and public accountability*, v0.3.0, ongoing AI-assisted research record developed for ENVR E-119g: Sustainable Cities. Include the [fixed release](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.0) and the relevant file or section. Use the publication date shown on that release when your citation style requires it.
+When discussing this repository's method or research record, identify the author, repository title and version you inspected. A suitable attribution is: Mark Julius Banasihan, *Water, digital infrastructure and public accountability*, v0.4.0, ongoing AI-assisted research record developed for ENVR E-119g: Sustainable Cities. Include the [fixed release](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.4.0) and the relevant file or section. Use the publication date shown on that release when your citation style requires it.
 
 A citation to this checkpoint identifies the research record. For a factual or legal claim, cite the inspected original source and its locator as well. Preserve the draft's review status and the [AI contribution record](AI-USE-LOG.md); neither public availability nor versioning supplies scholarly endorsement.

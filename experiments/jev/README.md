@@ -1,6 +1,6 @@
 # Optional Jev claim-support pilot
 
-Status: protocol, request builder, and synthetic contract tests only. **Zero live Jev evaluations for this study.** This is not a prerequisite for Assignment 2.
+Scope: this checked-in October 9 adapter contains a protocol, request builder and synthetic contract tests. Its recorded preparation made zero live Jev calls. Later private exploratory work has separate records; this statement does not describe all historical Jev use. The November 14 notebook release does not run Jev.
 
 Jev is TypeSafe AI's hosted model for typed questions and structured answers. Official documentation inspected October 9, 2026: [introduction](https://docs.typesafe.ai/introduction), [API quickstart](https://docs.typesafe.ai/introduction/quickstart), and [confidence](https://docs.typesafe.ai/confidence). Use the official API endpoint only. Similarly named independent gateways are not treated as TypeSafe.
 

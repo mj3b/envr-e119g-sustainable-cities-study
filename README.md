@@ -1,29 +1,42 @@
 # Water, digital infrastructure and public accountability
 
-Mark Julius Banasihan · ENVR E-119g: Sustainable Cities · Research in progress
+[![Study integrity](https://github.com/mj3b/envr-e119g-sustainable-cities-study/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/mj3b/envr-e119g-sustainable-cities-study/actions/workflows/validate.yml)
+[![Latest release](https://img.shields.io/github/v/release/mj3b/envr-e119g-sustainable-cities-study)](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/latest)
 
-A data center proposes a cooling system that would use less groundwater. What changes in the approval, and what evidence would show a benefit for the people who share that water supply?
+Mark Julius Banasihan · ENVR E-119g: Sustainable Cities · Public research record
 
-This study follows the original Cerrillos Data Center environmental proceedings in Chile. The approved memo focuses on how the tribunal treated a proposed redesign during its review of the original approval. The next assignment asks how residents’ water concerns entered that record and how authorities responded. [Case guide](research/cerrillos/README.md) · [Current research scope](research/CURRENT.md)
+What happens to residents’ water concerns after an agency rules their participation request late? This study follows the original Cerrillos Data Center proceedings in Chile, connecting a filing, the agency’s response and later court review. The current memo proposes a public response register that could make those connections easier to follow. Its usefulness with residents remains to be tested.
 
-## Start reading
+## Three notebooks to begin
 
-| If you want to… | Open this |
-| --- | --- |
-| Get oriented without using Git or Python | [Start here](docs/START-HERE.md) |
-| Follow the work from the first memo to the current research question | [Assignments 1–4](assignments/README.md) |
-| Read the author-approved Assignment 2 argument | [Final memo v0.11](assignments/assignment-02/final-v011.md) |
-| Try checking a claim against a source | [Evidence review notebook](methods/evidence-review/trace-a-claim.ipynb) |
-| See what AI contributed and how the software was checked | [AI-use log](AI-USE-LOG.md) · [Methods guide](methods/evidence-review/README.md) |
+Click a notebook to read it on GitHub. No installation or API key is needed to read the guides and saved demonstration. The first two are reading guides; the third includes a small executable example.
 
-## What the case can tell us
+| Notebook | Purpose |
+| :--- | :--- |
+| [1. Start here](docs/START-HERE.ipynb) | Understand the question, evidence and research limits without a technical background |
+| [2. Course-reader guide](docs/FACULTY-GUIDE.ipynb) | Follow a ten-minute route through the assignments, memo and disclosure |
+| [3. Trace a claim](methods/evidence-review/trace-a-claim.ipynb) | Use fictional water records to see how evidence annotations become candidate assessments |
 
-The 2024 tribunal judgment describes the developer’s proposed shift from water-based cooling towers to air-cooled equipment. It treats the screening response and the original environmental approval as distinct acts. The approved memo examines why that distinction mattered when the tribunal reviewed the original groundwater assessment. Measured water use, any benefit for residents and the distribution of that benefit would each require observations beyond the documents used for this argument. [Judgment, PDF pp. 64–65](https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf#page=64) · [Measurement rules](methods/MEASUREMENT.md)
+## Read the current study
 
-The research verdict remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. The author selected the [locked v0.11 memo](assignments/assignment-02/final-lock-v011.json) for submission. The repository records that selection. The [fixed checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) identifies the exact edition.
+| Material | What to inspect |
+| :--- | :--- |
+| [Assignment 4 memo](assignments/assignment-04/memo.md) | What the research taught the author and how a city could apply it |
+| [Research record and AI disclosure](assignments/assignment-04/research-record.md) | Source-review method, selected prompts and outputs, completed checks and limitations |
+| [Fifteen Cerrillos claim reviews](research/cerrillos/assignment-04/README.md) | The real case record, separate from the fictional teaching notebook |
+| [Assignments 1–4](assignments/README.md) | How the question developed through the course |
+| [Assignment 2 v0.11](assignments/assignment-02/final-v011.md) | The unchanged, author-selected earlier memo and its [locked checkpoint](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.3.3) |
 
-## How to check the work
+## What this research establishes
 
-Start with a claim and its cited passage. Check who wrote the document, when, what it establishes and which part of the claim remains open. The teaching notebook uses fictional records to show how a researcher’s annotations move through a fixed LangChain Core and LangGraph workflow. A person decides whether the evidence supports the final wording. [Research integrity protocol](methods/RESEARCH-INTEGRITY.md) · [Workflow specification](methods/evidence-review/SPEC.md)
+The work reconstructs selected documentary decisions. A proposal, an environmental approval, a judicial remedy, installation and a measured outcome require different evidence. The selected records do not establish realized water savings, aquifer recovery or representative community agreement. The research verdict remains **B. GO — NARROWED COURT/INSTRUMENT QUESTION**. [Preserved scope](research/CURRENT.md) · [Current extension](assignments/assignment-04/README.md)
 
-[Ten-minute course reader path](docs/FACULTY-GUIDE.md) · [Course readings](research/course-readings/README.md) · [Research history](archive/README.md) · [Build status](BUILD-STATUS.md) · [Public-sharing policy](governance/PUBLICATION.md)
+The case record contains 15 decisions after AI suggestions and translations: 14 explicit agreements and C11 recorded as contextual assent to “proceed.” That assisted review is recorded explicitly. Neither agreement nor passing software tests supplies an independent accuracy estimate. [AI-use record](AI-USE-LOG.md) · [Integrity protocol](methods/RESEARCH-INTEGRITY.md)
+
+## Inspect or reproduce the method
+
+The specification defines labels and evidence requirements. LangChain Core holds passage records, and LangGraph follows fixed rules over supplied annotations. The demonstration makes no model calls and keeps hosted tracing off. [Setup and tests](methods/evidence-review/README.md) · [Specification](methods/evidence-review/SPEC.md) · [Architecture and design choices](docs/ARCHITECTURE.md)
+
+The badges show automated workflow status and the latest published edition. They do not certify source interpretation, course assessment or institutional endorsement. The public repository excludes raw course PDFs, lecture recordings, private correspondence and credentials. Cite a version and the underlying source passage when using the work. [Citation guidance](CITATION-POLICY.md) · [Release history](docs/releases/README.md) · [Public-sharing policy](governance/PUBLICATION.md)
+
+[Case guide](research/cerrillos/README.md) · [Measurement rules](methods/MEASUREMENT.md) · [Course readings](research/course-readings/README.md) · [Research history](archive/README.md) · [Current status](BUILD-STATUS.md) · [Review and correction guide](CONTRIBUTING.md)

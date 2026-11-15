@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "record_type": "Public-sharing and provenance record",
+  "prepared_at_utc": "2026-11-15T03:52:03.962660+00:00",
+  "publication_disposition": "public_release_authorized",
+  "publication_authorization_basis": "Owner authorized public repository release and maintenance. This is separate from source-fidelity review.",
+  "study": "Cerrillos Assignment 4 water concerns pilot",
+  "case_as_of": "2024-12-31",
+  "preserved_research_verdict": "B. GO — NARROWED COURT/INSTRUMENT QUESTION",
+  "scope": {
+    "source_records": 11,
+    "passages": 21,
+    "tested_claims": 15,
+    "human_decisions": 15,
+    "candidate_counts": {
+      "Supported": 5,
+      "Contradicted": 5,
+      "Insufficient": 5
+    },
+    "recorded_human_label_counts": {
+      "Supported": 5,
+      "Contradicted": 5,
+      "Insufficient": 5
+    },
+    "independent_human_review_recorded": false,
+    "source_text_representation": "AI-authored English paraphrases; original Spanish linked through official URLs and locators"
+  },
+  "selection": "Four historical authored JSON records, original implementation, tests, dependency snapshot and specification selected from the retained private pilot, with a new public guide, replay helper and publication replay receipt. No full source documents or private correspondence included.",
+  "original_run_recorded_at_utc": "2026-11-14T02:15:53+00:00",
+  "historical_pending_fields": "The original graph packet and run receipt keep pending_human_review. Later decisions are recorded separately in human-review.json.",
+  "c11_review_basis": "Contextual assent: the retained record interprets proceed as agreement to the offered Contradicted label and advance to C12. No explicit repetition of the label has been invented.",
+  "files": [
+    {
+      "path": "cases.json",
+      "sha256": "2729aebd534dd5067bcc1b3d6328f32ccb91e6c2ff26cd54880ad4d89e24422c",
+      "bytes": 32717,
+      "origin": "unchanged_retained_pilot_record",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research record; original sources linked rather than republished.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include"
+    },
+    {
+      "path": "review-packet.json",
+      "sha256": "ebfa826627590a404113ccd7e9c5f4e05132f0e4f8608ed0aa2e934a677c84f7",
+      "bytes": 67465,
+      "origin": "unchanged_retained_pilot_record",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research record; original sources linked rather than republished.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include"
+    },
+    {
+      "path": "human-review.json",
+      "sha256": "9997a323996012715cdba19eca9eec01b4a9acfe2b1c47e5a2d4319c973e76e9",
+      "bytes": 23932,
+      "origin": "unchanged_retained_pilot_record",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research record; original sources linked rather than republished.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include"
+    },
+    {
+      "path": "run-receipt.json",
+      "sha256": "0b93a161af0e2c13a6d83642ea042971556c99969b2ecf1557d36549fe7b8fac",
+      "bytes": 1658,
+      "origin": "unchanged_retained_pilot_record",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research record; original sources linked rather than republished.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include"
+    },
+    {
+      "path": "README.md",
+      "sha256": "215d143c2fe8b9d1b59db463351bbf91b2f386a853939a55d158bec3093550fa",
+      "bytes": 13619,
+      "origin": "new_AI_authored_reader_guide",
+      "unchanged_from_retained_record": null,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research record; original sources linked rather than republished.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include"
+    },
+    {
+      "path": "workflow.py",
+      "origin": "unchanged_retained_implementation",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "retained_filename": "workflow.py",
+      "sha256": "33106a6cc6b73557e2c8a8db8c731c6c6f2860c54a68d5451057f6fa17d9d5c8",
+      "bytes": 9226
+    },
+    {
+      "path": "test_workflow.py",
+      "origin": "unchanged_retained_tests",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "retained_filename": "test_workflow.py",
+      "sha256": "2cefa0c02ce64a77bd8513a117b1bbc512000068c9f5f0b8587af7e3a393d21c",
+      "bytes": 6429
+    },
+    {
+      "path": "requirements.txt",
+      "origin": "unchanged_retained_dependency_snapshot",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "retained_filename": "requirements.txt",
+      "sha256": "05161fd42944bd976ff3c30cf5f9fe98c9cbdf59296f873c631ff70d037b3462",
+      "bytes": 707
+    },
+    {
+      "path": "SPEC-original.txt",
+      "origin": "unchanged_retained_specification",
+      "unchanged_from_retained_record": true,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "retained_filename": "SPEC.md",
+      "sha256": "2cb16c391a4194158fe2e0d4e46d09d7b33b3ac1c62d59a5d6c9e5e527b16b10",
+      "bytes": 5081
+    },
+    {
+      "path": "check_replay.py",
+      "origin": "new_AI_authored_portable_replay_helper",
+      "unchanged_from_retained_record": null,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "sha256": "5df4c36049f9d6cf5b06491901ed16bd058a5991d64646a4374d8f63348e58b2",
+      "bytes": 6514
+    },
+    {
+      "path": "publication-replay.json",
+      "origin": "new_observed_publication_replay_receipt",
+      "unchanged_from_retained_record": null,
+      "rights_basis": "Owner-authored or owner-authorized AI-assisted research/software record.",
+      "sensitive_content_review": "No raw source documents, resident identifiers, private correspondence, credentials or machine-specific paths identified.",
+      "public_disposition": "include",
+      "sha256": "bad67f4c44ec33638aa8104bc9eaa06d23686e45f3d41397752a37602106f550",
+      "bytes": 4068
+    }
+  ],
+  "checks": {
+    "json_parsed": true,
+    "four_pilot_files_byte_identical": true,
+    "claim_passage_source_references_resolve": true,
+    "all_15_human_review_entries_preserved": true,
+    "c11_contextual_assent_preserved": true,
+    "candidate_and_human_records_separate": true,
+    "historical_candidate_statuses_preserved": true,
+    "registered_source_hashes": 8,
+    "sources_without_registered_hash": [
+      "S02",
+      "S03",
+      "S05"
+    ],
+    "obvious_sensitive_path_or_credential_strings_found": false,
+    "original_private_input_hashes_unchanged": true,
+    "graph_executed": true,
+    "new_source_fetch_performed": false,
+    "browser_rendering_checked": false,
+    "human_clause_and_source_references_resolve": true,
+    "graph_evidence_text_and_locators_match_cases": true,
+    "manifest_hashes_match_public_files": true,
+    "README_relative_links_resolve": true,
+    "official_source_url_hosts_only": true,
+    "repository_publication_check": "passed during package preparation; full release assurance and remote CI are separate",
+    "eight_retained_files_byte_identical": true,
+    "original_source_hashes_rechecked": false,
+    "publication_replay_tests_passed": 11,
+    "publication_replay_packet_byte_identical": true,
+    "portable_comparison_excludes_only": "dependencies.python",
+    "runtime_model_calls": 0,
+    "hosted_tracing": false
+  },
+  "limitations": [
+    "Publication is not automatic verification or independent source-fidelity approval.",
+    "No new source download, full source-fidelity review, fieldwork, resident trial or environmental measurement was performed for packaging.",
+    "No provider-level prompt log or independent reviewer is represented.",
+    "The selected sources exclude the later 2024 renunciation decision used elsewhere in the memo.",
+    "Source retrieval dates are unavailable in the selected records; no dates were inferred.",
+    "Browser rendering and reader comprehension have not been tested."
+  ],
+  "ai_contribution_this_pass": "Codex inspected retained records, selected public-safe authored material and original software, wrote the reader guide and portable replay helper, ran the retained 11 tests and graph replay, and checked identity, references and obvious sensitive strings. No new human decisions or source-fidelity approvals were created. Central activity logs are maintained separately.",
+  "updated_at_utc": "2026-11-15T03:58:44.522992+00:00",
+  "new_graph_replay_for_publication": true,
+  "new_model_calls_for_publication": false,
+  "publication_replay_receipt": "publication-replay.json",
+  "publication_replay_completed_at_utc": "2026-11-15T03:57:57.347753+00:00"
+}

@@ -1,0 +1,730 @@
+{
+  "version": "0.1",
+  "as_of": "2024-12-31",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Segundo Tribunal Ambiental judgment, R-271-2020 and accumulated R-270-2020",
+      "url": "https://tribunalambiental.cl/wp-content/uploads/2024/02/2024.02.26_Sentencia_R-271_270-2020.pdf",
+      "kind": "judicial_decision",
+      "date": "2024-02-26",
+      "sha256": "604b63b8936bad680bc274a4a57068cf5b96c2f1b67d85ba083ed9cfa0f86386"
+    },
+    {
+      "id": "S02",
+      "title": "Diario Oficial notice of SEA Resolution No. 532, CVE 1655814",
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2019/09/24/42460/01/1655814.pdf",
+      "kind": "official_gazette_notice",
+      "date": "2019-09-24",
+      "sha256": null
+    },
+    {
+      "id": "S03",
+      "title": "Segundo Tribunal Ambiental public account of the Cerrillos hearing",
+      "url": "https://tribunalambiental.cl/audiencia-r-271-270-2020-cerrillos-data-center/",
+      "kind": "court_institutional_account",
+      "date": "2023-05-30",
+      "sha256": null
+    },
+    {
+      "id": "S04",
+      "title": "Original environmental qualification RCA 127/2020",
+      "url": "https://firma.sea.gob.cl/publicaciones/d4/3d/2145803977.pdf",
+      "kind": "agency_resolution",
+      "date": "2020-02-24",
+      "sha256": "0b002319555a867b60140e75df17d5012a2f4bd1babb39e6d2865a758a7f2306"
+    },
+    {
+      "id": "S05",
+      "title": "SEA instruction Ordinario 202299102452 on consultations about SEIA entry",
+      "url": "https://www.sea.gob.cl/sites/default/files/imce/archivos/2022/06/06/of_202299102452.pdf",
+      "kind": "agency_guidance",
+      "date": "2022-05-30",
+      "sha256": null
+    },
+    {
+      "id": "S06",
+      "title": "SEA regional Resolution No. 532 on the request for formal public participation",
+      "url": "https://seia.sea.gob.cl/documentos/documento.php?idDocumento=2144189815",
+      "kind": "agency_resolution",
+      "date": "2019-09-09",
+      "sha256": "802802409bb19bb3d3dfd35abf62ffa4a7176dd1735f9617fb6dd0a0f17d5b8a"
+    },
+    {
+      "id": "S07",
+      "title": "Request to open formal public participation for Cerrillos Data Center, filed with SEA",
+      "url": "https://seia.sea.gob.cl/archivos/2019/08/23/2019-13-92-27_MOD.pdf",
+      "kind": "public_participation_filing",
+      "date": "2019-08-19",
+      "sha256": "c0cf11cbf32c4da1e40abf92650223f49e2b23b2be10697a968f7b6d3e6a7a1e"
+    },
+    {
+      "id": "S08",
+      "title": "SEA final consolidated assessment report for Cerrillos Data Center",
+      "url": "https://firma.sea.gob.cl/publicaciones/39/86/2145696824",
+      "kind": "agency_assessment_report",
+      "date": "2020-02-07",
+      "sha256": "3916e8ab028a313b9e35060b158155cab50142763476144f59835b2ffe57b9c3"
+    },
+    {
+      "id": "S09",
+      "title": "SEA Resolution 641 rejecting reconsideration of the participation decision",
+      "url": "https://seia.sea.gob.cl/archivos/2019/11/08/Res._Ex._N_0641.pdf",
+      "kind": "agency_resolution",
+      "date": "2019-11-08",
+      "sha256": "19c8e2330d2ef4b145a22429b6ec7a8fb528a4eb3d063731da90e7a974708564"
+    },
+    {
+      "id": "S10",
+      "title": "Residents’ administrative request for invalidation of RCA 127/2020",
+      "url": "https://seia.sea.gob.cl/archivos/2020/04/12/Invalidacion_Cerrillos_Data_Center_1.pdf",
+      "kind": "resident_invalidation_filing",
+      "date": "2020-04-06",
+      "sha256": "7de96584ebbd54361476cf65cb2eb9e3cf6e66bfae4d148169d99ee275b7a005"
+    },
+    {
+      "id": "S11",
+      "title": "SEA Resolution 524/2020 on the requests to invalidate RCA 127/2020",
+      "url": "https://seia.sea.gob.cl/archivos/2021/01/13/5bd_RE_524-2020.pdf",
+      "kind": "agency_resolution",
+      "date": "2020-10-28",
+      "sha256": "a05238b146ad669a06beaf5d8f5aa856745bf6eb848c45b76c117b57a2a7879e"
+    }
+  ],
+  "passages": [
+    {
+      "id": "P01",
+      "source_id": "S02",
+      "locator": "PDF p. 1, extract of Resolution No. 532, first and third paragraphs",
+      "text": "The notice says SEA received a request on August 19, 2019 to open a formal public participation process. It identifies the applicant as acting for a group of 377 people. SEA declared the request inadmissible because its stated filing deadline had expired on August 16.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P02",
+      "source_id": "S01",
+      "locator": "PDF pp. 15–16, considerations 18–20",
+      "text": "The tribunal describes the original invalidation applicants as residents of the project's area of influence. It records that the remaining claimant had previously requested a participation process and recognizes her standing to seek invalidation and appear before the tribunal.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P03",
+      "source_id": "S01",
+      "locator": "PDF p. 16, consideration 20",
+      "text": "The tribunal finds a legal defect in SEA's denial of interested-party status. It treats that defect as nonessential because the agency had also addressed the merits of the allegations.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P04",
+      "source_id": "S01",
+      "locator": "PDF p. 7, consideration 1",
+      "text": "The claimant argued that the original review failed to account for water scarcity and existing aquifer restrictions in light of the groundwater demand of the proposed cooling system.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P05",
+      "source_id": "S01",
+      "locator": "PDF pp. 4–6, background and court proceedings, files at folios 572, 577, 578 and 598",
+      "text": "The tribunal records that the municipality sought to withdraw on the premise that the project would no longer use groundwater for server cooling. The tribunal accepted the municipality's withdrawal and the other individual claimants' withdrawals, leaving one individual claimant.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P06",
+      "source_id": "S03",
+      "locator": "Hearing account, paragraphs immediately preceding Antecedentes, and Antecedentes withdrawal entries",
+      "text": "The court's institutional hearing account describes fourteen original individual challengers, thirteen of whom withdrew, and a separate municipal withdrawal. It attributes the withdrawals to the announced cooling change and reports concern about aquifer use without a full environmental study.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P07",
+      "source_id": "S01",
+      "locator": "PDF p. 64, consideration 93",
+      "text": "The court reports that the proponent proposed replacing water-based cooling towers with air-condensing chillers. It describes the June 7, 2022 SEA decision as finding no need for environmental evaluation of the submitted modification and recounts the resolution's express limit on changing the original environmental qualification.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P08",
+      "source_id": "S01",
+      "locator": "PDF p. 65, consideration 94 and numbered point 1",
+      "text": "The tribunal rejected the claim that the groundwater review had lost its purpose. It held that the screening decision did not bind environmental evaluation and proceeded to assess water-resource availability and regeneration.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P09",
+      "source_id": "S01",
+      "locator": "PDF pp. 65–67, consideration 94, numbered points 2 and 3",
+      "text": "The tribunal treated the Santiago Central aquifer as highly vulnerable, discussed restrictions and prohibition of new exploitation, and explained why the assessment needed to consider the worst relevant conditions and climate effects.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P10",
+      "source_id": "S01",
+      "locator": "PDF pp. 70–71, considerations 98–101",
+      "text": "The tribunal concluded the record could not adequately rule out significant impacts on the aquifer. It held that the proposed water-monitoring conditions could not replace an adequate evaluation and called for the water assessment to account for climate effects.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P11",
+      "source_id": "S01",
+      "locator": "PDF p. 72, operative provisions 1–2",
+      "text": "The tribunal partially annulled RCA 127/2020 and ordered the procedure returned to before the last request for information, followed by further review and a complementary environmental qualification. The order requires consideration of climate effects on the water component where applicable, taking account of a possible cooling-system change. It suspends the remainder pending the complementary qualification.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P12",
+      "source_id": "S01",
+      "locator": "PDF p. 61, consideration 91, numbered point 2",
+      "text": "The tribunal reports the proponent's thirty-year groundwater modeling assumption of a maximum pumping rate of 169 liters per second. The cited analysis also considered wells within approximately one kilometer.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P13",
+      "source_id": "S04",
+      "locator": "PDF pp. 11–12, section 4.4.4, and pp. 16–17, section 5.2",
+      "text": "The original qualification describes a design with 169 liters per second from two of three onsite wells, with the third as backup. The groundwater section identifies the 0.66-meter result for a neighboring well as an output of the proponent's model.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P14",
+      "source_id": "S05",
+      "locator": "PDF p. 2, paragraphs 4, 7 and 8(b)",
+      "text": "The SEA instruction describes a relevance response as an opinion about the obligation to enter environmental assessment, based on proponent information. It states that such responses do not grant execution authorization or modify an existing RCA.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P15",
+      "source_id": "S06",
+      "locator": "Considerations 2–5 and operative provision 1",
+      "text": "SEA records that it received a request to open formal public participation on August 19, 2019, on behalf of 377 persons. SEA identifies August 16 as the filing deadline and declares the request inadmissible as late.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P16",
+      "source_id": "S04",
+      "locator": "PDF p. 42, consideration 11",
+      "text": "The original environmental qualification states that during the assessment there was no request for participation in the context of Article 30 bis and that no community observations were made in that process.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P17",
+      "source_id": "S07",
+      "locator": "PDF p. 1, letter and receipt stamp; p. 2, point 4; p. 4, request and attachments",
+      "text": "The filing is dated and stamped received August 19, 2019. It asks SEA to open formal participation, raises concerns about the amount, use and sustainability of groundwater from the restricted Santiago Central aquifer, and asks for clarification of mitigation and voluntary commitments. Its attachment list identifies certificates for five organizations and 342 signatures.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P18",
+      "source_id": "S08",
+      "locator": "PDF pp. 88–89, sections 11 and 11.1, Participación ciudadana",
+      "text": "The final assessment report records one participation request received August 19 on behalf of a group of 377 people. It states that the deadline was August 16 and that Resolution 532 declared the request inadmissible for late filing.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P19",
+      "source_id": "S09",
+      "locator": "PDF pp. 2–3, considerations 4.1–4.3 and 5.2–5.5, and Resuelvo",
+      "text": "SEA summarizes another individual’s reconsideration arguments about notice and water risks. It maintains the August 16 deadline, rejects reconsideration and explains that the original inadmissibility determination concerned timing.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P20",
+      "source_id": "S10",
+      "locator": "PDF pp. 10, 16–17, water effects and requested environmental study",
+      "text": "The residents’ filing argues that the vulnerable aquifer’s impacts had not been adequately assessed. It asks for a full environmental impact study, raises climate change and links the choice of assessment route to participation.",
+      "representation": "paraphrase"
+    },
+    {
+      "id": "P21",
+      "source_id": "S11",
+      "locator": "PDF pp. 21–23, consideration 8.2, water-resource response; p. 35, operative provision 1",
+      "text": "SEA discusses the proponent’s modeling and the water agency’s monitoring and corrective measures. It rejects the administrative invalidation requests.",
+      "representation": "paraphrase"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "The official notice records that SEA received a request for formal public participation on August 19, 2019, submitted on behalf of 377 people, and that SEA declared the request inadmissible as late.",
+      "clauses": [
+        {
+          "id": "C01-A",
+          "text": "The notice records receipt on August 19 and a request submitted on behalf of 377 people.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "supports",
+              "rationale": "The official notice specifies the receipt date and how many people the applicant represented in the request."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "context_only",
+              "rationale": "The signed agency resolution underlying the notice records the same request date and group count."
+            },
+            {
+              "passage_id": "P17",
+              "relation": "context_only",
+              "rationale": "The filed letter confirms receipt on August 19 and lists 342 signatures and five organization certificates. The official decision’s 377-person description is a different count, with no reconciliation supplied here."
+            }
+          ]
+        },
+        {
+          "id": "C01-B",
+          "text": "The notice reports that SEA declared the request inadmissible as late.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "supports",
+              "rationale": "The notice gives the August 16 deadline and explicitly states the reason for inadmissibility."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "context_only",
+              "rationale": "The decision underlying the notice explicitly identifies the deadline and inadmissibility."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "text": "SEA Resolution No. 532 found the August 19 request timely and granted a formal public participation process.",
+      "clauses": [
+        {
+          "id": "C02-A",
+          "text": "Resolution No. 532 found the August 19 request timely.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "contradicts",
+              "rationale": "The official notice says the agency considered the request late."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "contradicts",
+              "rationale": "The signed decision expressly determines that this same request was filed late."
+            },
+            {
+              "passage_id": "P19",
+              "relation": "context_only",
+              "rationale": "The separate reconsideration decision confirms that the original determination turned on timing."
+            }
+          ]
+        },
+        {
+          "id": "C02-B",
+          "text": "Resolution No. 532 granted the August 19 request.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "contradicts",
+              "rationale": "The official notice says the agency declared the same request inadmissible."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "contradicts",
+              "rationale": "The signed decision declares the same request inadmissible rather than opening a process."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "text": "The RCA uses wording indicating there was no Article 30 bis participation request and the people described in the separate SEA filing record represented every affected group.",
+      "clauses": [
+        {
+          "id": "C03-A",
+          "text": "The RCA uses wording indicating there was no participation request in the context of Article 30 bis.",
+          "links": [
+            {
+              "passage_id": "P16",
+              "relation": "supports",
+              "rationale": "This clause reports what the RCA says without inferring that no document was received."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "context_only",
+              "rationale": "The separate decision records receipt of a request and its inadmissibility. Compare the procedural context of the two statements."
+            },
+            {
+              "passage_id": "P18",
+              "relation": "context_only",
+              "rationale": "The assessment report explicitly records one late request. This establishes the need to distinguish receipt from admissibility when reading the RCA wording."
+            }
+          ]
+        },
+        {
+          "id": "C03-B",
+          "text": "The people referenced in the separate SEA filing record represented every affected group.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "context_only",
+              "rationale": "The notice gives a count for a particular request and no evidence about which affected groups were represented."
+            },
+            {
+              "passage_id": "P15",
+              "relation": "context_only",
+              "rationale": "The agency records the group count and procedural disposition without assessing representativeness."
+            },
+            {
+              "passage_id": "P02",
+              "relation": "context_only",
+              "rationale": "The court’s later account of invalidation applicants concerns a different procedural group."
+            },
+            {
+              "passage_id": "P17",
+              "relation": "context_only",
+              "rationale": "The attachment list identifies signatories and organization certificates, without specifying every affected group or a sampling method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "text": "The resident’s 2019 formal-participation filing raised concerns about groundwater use and sustainability, and the tribunal records that the same resident later argued that water scarcity, aquifer restrictions and cooling demand had been inadequately addressed.",
+      "clauses": [
+        {
+          "id": "C04-A",
+          "text": "The resident’s 2019 formal-participation filing raised concerns about groundwater use and sustainability.",
+          "links": [
+            {
+              "passage_id": "P17",
+              "relation": "supports",
+              "rationale": "Point 4 of the original filing raises groundwater use and sustainability concerns."
+            },
+            {
+              "passage_id": "P02",
+              "relation": "context_only",
+              "rationale": "The tribunal identifies the later claimant as the person who earlier requested public participation."
+            }
+          ]
+        },
+        {
+          "id": "C04-B",
+          "text": "The tribunal records that the same resident later argued water scarcity, aquifer restrictions and cooling demand were inadequately addressed.",
+          "links": [
+            {
+              "passage_id": "P04",
+              "relation": "supports",
+              "rationale": "Consideration 1 records the claimant’s allegations about those issues."
+            },
+            {
+              "passage_id": "P02",
+              "relation": "supports",
+              "rationale": "Consideration 18 links the remaining claimant to the earlier participation request."
+            },
+            {
+              "passage_id": "P20",
+              "relation": "context_only",
+              "rationale": "The resident group’s administrative filing supplies direct evidence of the earlier group argument, while the judgment attributes the later argument to the remaining claimant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "text": "The tribunal found that the remaining claimant lacked standing to seek invalidation of the original environmental qualification.",
+      "clauses": [
+        {
+          "id": "C05-A",
+          "text": "The tribunal found that the remaining claimant lacked standing to seek invalidation.",
+          "links": [
+            {
+              "passage_id": "P02",
+              "relation": "contradicts",
+              "rationale": "The tribunal affirmatively found the claimant had standing in the same invalidation dispute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "text": "The tribunal found a legal defect in the agency's denial of interested-party status and considered that defect nonessential because the agency had addressed the substance of the allegations.",
+      "clauses": [
+        {
+          "id": "C06-A",
+          "text": "The tribunal found a legal defect in the agency's denial of interested-party status.",
+          "links": [
+            {
+              "passage_id": "P03",
+              "relation": "supports",
+              "rationale": "Consideration 20 directly identifies the defect."
+            }
+          ]
+        },
+        {
+          "id": "C06-B",
+          "text": "The tribunal found that defect nonessential because the agency also addressed the merits.",
+          "links": [
+            {
+              "passage_id": "P03",
+              "relation": "supports",
+              "rationale": "Consideration 20 gives this express qualification and reason."
+            },
+            {
+              "passage_id": "P21",
+              "relation": "context_only",
+              "rationale": "The underlying administrative decision records its reasoning on the water issue. The judgment is the direct source for the court’s treatment of the standing defect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "text": "The tribunal recorded the municipality's withdrawal and one remaining individual claimant, and the withdrawals show that nearby communities collectively endorsed the revised project.",
+      "clauses": [
+        {
+          "id": "C07-A",
+          "text": "The tribunal recorded the municipality's withdrawal and one remaining individual claimant.",
+          "links": [
+            {
+              "passage_id": "P05",
+              "relation": "supports",
+              "rationale": "The judgment records the procedural withdrawal and the remaining claimant."
+            },
+            {
+              "passage_id": "P06",
+              "relation": "context_only",
+              "rationale": "The institutional account gives additional party counts."
+            }
+          ]
+        },
+        {
+          "id": "C07-B",
+          "text": "The withdrawals show that nearby communities collectively endorsed the revised project.",
+          "links": [
+            {
+              "passage_id": "P05",
+              "relation": "context_only",
+              "rationale": "The judgment records acts of particular parties and the municipality's stated premise, without surveying the wider community."
+            },
+            {
+              "passage_id": "P06",
+              "relation": "context_only",
+              "rationale": "The hearing account attributes reasons to withdrawing parties, not collective endorsement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "text": "The February 2024 judgment records that a 2022 proposal would replace water-based cooling towers with air-condensing chillers.",
+      "clauses": [
+        {
+          "id": "C08-A",
+          "text": "The February 2024 judgment records the proposal to replace water-based cooling towers with air-condensing chillers.",
+          "links": [
+            {
+              "passage_id": "P07",
+              "relation": "supports",
+              "rationale": "Consideration 93 identifies the proposed substitution. The claim is explicitly about the court's account."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "text": "The tribunal concluded that the June 2022 screening determination itself amended RCA 127/2020 and closed review of the original groundwater assessment.",
+      "clauses": [
+        {
+          "id": "C09-A",
+          "text": "The tribunal concluded the June 2022 screening determination itself amended RCA 127/2020.",
+          "links": [
+            {
+              "passage_id": "P07",
+              "relation": "contradicts",
+              "rationale": "The judgment recounts the determination's express lack of power to amend the RCA."
+            },
+            {
+              "passage_id": "P14",
+              "relation": "context_only",
+              "rationale": "The general SEA instruction distinguishes screening from amendment."
+            }
+          ]
+        },
+        {
+          "id": "C09-B",
+          "text": "The tribunal concluded the June 2022 screening determination closed review of the original groundwater assessment.",
+          "links": [
+            {
+              "passage_id": "P08",
+              "relation": "contradicts",
+              "rationale": "The tribunal expressly declined that conclusion and continued groundwater review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "text": "The court identified the Santiago Central aquifer as highly vulnerable and found that the original assessment could not adequately rule out significant impacts.",
+      "clauses": [
+        {
+          "id": "C10-A",
+          "text": "The tribunal identified the Santiago Central aquifer as highly vulnerable.",
+          "links": [
+            {
+              "passage_id": "P09",
+              "relation": "supports",
+              "rationale": "The tribunal describes the aquifer's vulnerability in its discussion of restrictions, demand, and recharge."
+            }
+          ]
+        },
+        {
+          "id": "C10-B",
+          "text": "The tribunal found that the original assessment could not adequately rule out significant impacts on that aquifer.",
+          "links": [
+            {
+              "passage_id": "P10",
+              "relation": "supports",
+              "rationale": "The court explicitly concludes the evidence was insufficient to rule out significant impacts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "text": "The tribunal held that the proposed groundwater monitoring was an adequate substitute for assessing significant effects before environmental approval.",
+      "clauses": [
+        {
+          "id": "C11-A",
+          "text": "The tribunal held that proposed monitoring adequately substituted for prior environmental assessment of significant groundwater effects.",
+          "links": [
+            {
+              "passage_id": "P10",
+              "relation": "contradicts",
+              "rationale": "The tribunal specifically held that monitoring did not replace proper anticipatory evaluation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "text": "The February 2024 tribunal judgment partially annulled RCA 127/2020 and allowed the original project to execute immediately under the part of the authorization left intact.",
+      "clauses": [
+        {
+          "id": "C12-A",
+          "text": "The tribunal partially annulled RCA 127/2020.",
+          "links": [
+            {
+              "passage_id": "P11",
+              "relation": "supports",
+              "rationale": "Operative provision 1 states partial annulment."
+            }
+          ]
+        },
+        {
+          "id": "C12-B",
+          "text": "The tribunal allowed immediate execution under the surviving portion of RCA 127/2020.",
+          "links": [
+            {
+              "passage_id": "P11",
+              "relation": "contradicts",
+              "rationale": "Operative provision 2 suspended the surviving portion and barred execution under that pathway pending a complementary RCA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "text": "The reviewed documents establish that Cerrillos actually withdrew groundwater at 169 liters per second during facility operation.",
+      "clauses": [
+        {
+          "id": "C13-A",
+          "text": "The facility actually withdrew groundwater at 169 liters per second during operation.",
+          "links": [
+            {
+              "passage_id": "P12",
+              "relation": "context_only",
+              "rationale": "The figure is a maximum modeling input as reported by the tribunal, not an operating measurement."
+            },
+            {
+              "passage_id": "P13",
+              "relation": "context_only",
+              "rationale": "The figure in the original RCA describes a contemplated operating design, not observed withdrawals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "text": "After the 2022 proposal, the air-cooled system was installed and yielded measurable water savings for nearby users.",
+      "clauses": [
+        {
+          "id": "C14-A",
+          "text": "The proposed air-cooled system was installed.",
+          "links": [
+            {
+              "passage_id": "P07",
+              "relation": "context_only",
+              "rationale": "The tribunal describes a proposed change, without evidence of installation."
+            }
+          ]
+        },
+        {
+          "id": "C14-B",
+          "text": "The change yielded measured water savings for nearby users.",
+          "links": [
+            {
+              "passage_id": "P07",
+              "relation": "context_only",
+              "rationale": "The design proposal provides a prospective mechanism, not measurements or distributional effects."
+            },
+            {
+              "passage_id": "P10",
+              "relation": "context_only",
+              "rationale": "The tribunal's evaluation findings concern evidence insufficiency, not a measured savings outcome."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "text": "The 2019 request for formal participation caused the proponent to change its cooling design in 2022.",
+      "clauses": [
+        {
+          "id": "C15-A",
+          "text": "The 2019 participation request caused the proponent's 2022 design change.",
+          "links": [
+            {
+              "passage_id": "P01",
+              "relation": "context_only",
+              "rationale": "The official notice establishes the request and ruling, not the proponent's later decision mechanism."
+            },
+            {
+              "passage_id": "P07",
+              "relation": "context_only",
+              "rationale": "The judgment recounts the later proposal without establishing that it was caused by the request."
+            },
+            {
+              "passage_id": "P06",
+              "relation": "context_only",
+              "rationale": "The hearing account connects the announced proposal with later withdrawals, which is a different causal direction."
+            },
+            {
+              "passage_id": "P16",
+              "relation": "context_only",
+              "rationale": "The RCA uses different wording about participation. It does not explain the proponent’s design decision."
+            },
+            {
+              "passage_id": "P17",
+              "relation": "context_only",
+              "rationale": "The original filing establishes a water concern and requested participation, without attributing the later design choice."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

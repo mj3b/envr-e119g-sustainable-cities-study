@@ -1,5 +1,7 @@
 # AI systems and research tools: contribution register
 
+Current November 14 edition: [Assignment 4 disclosure](../assignments/assignment-04/research-record.md), [ACT29](ai-activity.json) and [release audit](../audit/2026-11-14-public-release.md) record the new work. Earlier sections below retain their dated execution scopes; historical zero-use statements do not describe every later private experiment. Publication is authorized; independent review is recorded only where it actually occurred.
+
 [AI-use log](../AI-USE-LOG.md) · [Detailed disclosure](AI-DISCLOSURE.md) · [Task-level records](ai-activity.json)
 
 This register describes use in this research repository. It separates direct model assistance, author-supplied outputs, prepared tools, and deterministic execution. A product mentioned in a discussion has not necessarily been used. The record covers known activity through this writing and documentation update; missing historical traces remain missing.
@@ -10,7 +12,7 @@ This register describes use in this research repository. It separates direct mod
 | Codex, OpenAI | Earlier repository engineering and Assignment 1 drafting/checking | Use reported in the dated September log. This entry neither reruns that work nor relabels the current connected-tool session as a separate Codex execution. |
 | Perplexity | Editorial critique and framework suggestions supplied by Mark | Historical supplied output was used in Assignment 1 revisions. No direct Perplexity call occurred in this update. A supplied critique is not an independent source check. |
 | Otter.ai exports | Supplied lecture transcripts and summaries | Input artifacts, not a transcription service invoked in this update. Transcript wording, speaker identity and summary coverage retain their recorded limits. No audio was inspected here. |
-| TypeSafe Jev | Optional claim-support diagnostic adapter and synthetic test setup | Prepared and off by default. Zero live Jev calls are recorded for this study through this update. Synthetic fixtures and mock responses are test data, not empirical evaluation results. |
+| TypeSafe Jev | Optional claim-support diagnostic adapter and synthetic test setup | The October preparation record describes an adapter that is off by default and made zero live calls in that increment. Later private exploratory work has separate records; no live Jev call occurs in the November 14 release. Synthetic fixtures and mock responses are test data, not empirical evaluation results. |
 | Research-to-Decision Translator | Source-to-claim, bounded-task, evaluation and human-decision record pattern | Adaptation of an existing repository pattern. The upstream runtime was not installed or executed here. It is workflow infrastructure, not another model or an independent reviewer. |
 | Claude and SciSpace | Previously discussed possible tools | No use recorded for the documented memo work or this update. This is a statement about available records, not Mark’s use of those products elsewhere. |
 | Python, Git, GitHub connector and GitHub Actions | Hashing, comparison, serialization, inventory, tests, repository operations and release packaging | Deterministic execution where specified. AI may author the code and interpret results; the executed checks themselves do not make scholarly judgments. |
