@@ -1,5 +1,11 @@
 # Record of AI systems and assistance
 
+## Assignment 4 document links and disclosure · November 14, 2026
+
+At Mark’s request, Codex updated the retained Assignment 4 Word document and exported the matching PDF. The edit adds a repository link near the opening and a three-notebook reading route in Supplement S4, with links fixed to the published v0.4.0 edition. It refreshes the AI disclosure and removes obsolete approval requests. The main argument, original styles, figures and Assignment 2 v0.11 remain unchanged.
+
+Codex and collaborating agents drafted and checked the disclosure, edited the document package and inspected all ten rendered pages. The three notebook links were retrieved from the published edition and retained in the PDF. The disclosure records the difference between 14 explicit label agreements and C11’s contextual assent, without changing any review decision. This document task made no new source interpretation, graph run or Jev call. It does not establish independent scholarly review or course submission. [Activity ACT30](methods/ai-activity.json) · [Document-update record](audit/2026-11-14-assignment4-document-update.md)
+
 ## Public notebook and Assignment 4 edition · November 14, 2026
 
 The owner authorized publication, merges and branch cleanup. Codex converted two guides to notebooks, retained the fictional worked notebook, prepared a public view of the case reviews, and updated navigation, testing and release records. It also rechecked the six Module IV source interpretations against retained PDFs. This was AI source review, with no independent human fidelity approval. The model family is GPT-6; the exact deployment is unavailable.
