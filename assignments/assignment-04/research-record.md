@@ -1,6 +1,6 @@
 # Research Record and AI Use Supplement
 
-Mark Julius Banasihan · November 15, 2026 · Companion to Assignment 4 v0.7
+Mark Julius Banasihan · November 15, 2026 · Companion to Assignment 4 v0.8
 
 This document edition incorporates the [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md) and the [Section S3 evidence update](../../audit/2026-11-15-assignment4-study-evidence.md). The [v0.4.0 release](../../audit/2026-11-14-public-release.md) preserves the earlier repository edition. Source corrections do not rewrite frozen claim-review records.
 
@@ -111,6 +111,8 @@ Execution record. The November 14 local rerun used Python 3.14.3, LangGraph 1.2.
 | **Jev and other earlier tools** | **Earlier work explored Jev and inspected other research software.** | **No Jev, REA, IRIS or Holistic AI inference contributed to this rerun. Earlier results retain their own scope.** |
 
 No fieldwork, interviews, community consultation or environmental measurements were conducted. Case decisions followed AI suggestions and translations; no independent reviewer is recorded. AI also performed source and method critiques. Passing tests and matching files do not establish scholarly correctness.
+
+Course-reading map. The [reading-to-decision record](course-learning.md) covers all 30 readings through November 13, identifies current source access and explains the seven selections. Its passage notes distinguish the present review from earlier work.
 
 Explore the study online. The [public repository](https://github.com/mj3b/envr-e119g-sustainable-cities-study) contains the memo, evidence trail and AI-use records (Banasihan, 2026). The [v0.4.0 release](https://github.com/mj3b/envr-e119g-sustainable-cities-study/releases/tag/v0.4.0) fixes the edition linked below. All three notebooks can be read on GitHub without running code.
 

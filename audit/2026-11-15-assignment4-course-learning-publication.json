@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-15T21:43:28.737540+00:00",
+  "scope": "Assignment 4 v0.8 course-learning revision and source-selection metadata; raw sources and document binaries excluded",
+  "base_commit": "b2383d1da9224d6911b12cca7ebaa57a567e6d5c",
+  "authorization": "Current owner course-learning request and standing public repository maintenance authorization",
+  "reviewer": "Codex and collaborating Codex agents; AI-assisted item-level publication review",
+  "files": [
+    {
+      "path": "assignments/assignment-04/memo.md",
+      "sha256": "f161b3232cfb732a4da605474d3cc0531e8a8f77d1a767ebaec4674af4cca2dd",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/research-record.md",
+      "sha256": "c5c5dad6219e6dfe8f89a76bb29e0cc0dc564d8fc2bd9b6a281d43293c0e9727",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "c2a262319e88cfc5e7f23824160db06c1fd7bd39ee7f8dc40312ac94969588b8",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/course-learning.md",
+      "sha256": "fdcdf0d9f63083ae2c1de2621c9a51047b006c18a6b2212514c0d6b59a0a70a1",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/course-reading-review.json",
+      "sha256": "547aab467cac39ed495caadf9afaf1557d64c761b172ea57a2b859fdd7f6a709",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "research/course-readings/README.md",
+      "sha256": "53a530c50eabce883507a13b0dad67519f85dde630c3c68c34b74f2534cc74bb",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "sha256": "8ef5ecbd1f29c21ec4b0f79dfc32a08cda9315a351fea9a9f1bd967ea63adb1f",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "248a57e306331f80a41d7071dbd5431da8ede2c02aead49be5fd4a690565c40e",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "audit/2026-11-15-assignment4-course-learning.md",
+      "sha256": "f33600060f60abac6c61341074d80b81bb1b68c63cd3bc7f6e1b69a73bf30b4e",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/AI-SYSTEMS.md",
+      "sha256": "38d43bc0884e6b08a7da964bc23899ff13d6be56d43b53de7f0a8450865f3cf5",
+      "basis": "Owner-authorized authored research, citation metadata, bounded interpretation and source-access records",
+      "review_scope": "Source/interpretation boundaries, private paths, personal material, credentials and source rights; no raw course PDFs, transcripts, grades or resident records included",
+      "disposition": "public"
+    }
+  ],
+  "generated_receipt": "governance/evaluation-results.json is regenerated separately after authored changes"
+}

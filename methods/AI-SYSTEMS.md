@@ -1,6 +1,6 @@
 # AI systems and research tools: contribution register
 
-Current November 14 edition: [Assignment 4 disclosure](../assignments/assignment-04/research-record.md), [ACT29](ai-activity.json) and [release audit](../audit/2026-11-14-public-release.md) record the new work. Earlier sections below retain their dated execution scopes; historical zero-use statements do not describe every later private experiment. Publication is authorized; independent review is recorded only where it actually occurred.
+Current November 15 document revision: [Assignment 4 disclosure](../assignments/assignment-04/research-record.md), [ACT33](ai-activity.json) and [course-learning review](../audit/2026-11-15-assignment4-course-learning.md) record Codex’s source selection, bounded passage inspection and document work. No new model provider or Jev inference was used. The [November 14 release audit](../audit/2026-11-14-public-release.md) retains its publication scope. Earlier sections below retain their dated execution scopes; historical zero-use statements do not describe every later private experiment. Publication is authorized; independent review is recorded only where it actually occurred.
 
 [AI-use log](../AI-USE-LOG.md) · [Detailed disclosure](AI-DISCLOSURE.md) · [Task-level records](ai-activity.json)
 
