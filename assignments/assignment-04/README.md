@@ -13,7 +13,7 @@ What happens to a resident’s water concern after a participation request is ru
 
 ## How the memo meets the brief
 
-The brief asks for 1,300–1,500 words continuing the topic from the first submission. The main body has 1,364 words, or 1,375 including the title, under the recorded counting method. Disclosure and references are separate. The public text retains the v0.4 argument; this release updates its publication status and links.
+The brief asks for 1,300–1,500 words continuing the topic from the first submission. Document v0.6 has 1,353 editable body words, or 1,380 including the timeline labels. These counts include headings, table text, captions and inline citations; they exclude the title, memo fields, disclosure, references and supplement. The [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md) records source corrections and preserves the earlier argument.
 
 | Assignment question | Where the memo answers it |
 | :--- | :--- |

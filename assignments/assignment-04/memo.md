@@ -6,7 +6,8 @@ To: Dr. Nora Libertun de Duren; Cristina Davila Gonzalez
 From: Mark Julius Banasihan  
 Date: November 14, 2026  
 Course: ENVR E-119g: Sustainable Cities  
-Subject: Assignment 4: Learning from residents’ concerns and improving public responses  
+Subject: Assignment 4: Learning from residents’ concerns and improving public responses
+
 Research companion: [repository and notebooks](https://github.com/mj3b/envr-e119g-sustainable-cities-study) (see Supplement S4).
 
 The Cerrillos Data Center case in Chile taught me that a project’s approval tells only part of the story about residents’ water concerns. A participation request was ruled late; the concern later received an agency response; and the court subsequently required reassessment. Following that sequence narrowed my earlier question about accountability for water commitments to data centers. I could investigate how a concern was received, answered and reconsidered while keeping outcomes on the ground an open question.

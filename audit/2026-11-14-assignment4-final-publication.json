@@ -22,7 +22,7 @@
     },
     {
       "path": "assignments/assignment-04/memo.md",
-      "sha256": "15ee22c3d1808ca7d3d4f2d29f3b0fe60e4b799e3a3a5d2f27e9dcb7c48d7bb4",
+      "sha256": "291dacc2ab36d3f20cf6363b26cd01429ecd819c46ecb95376aa695ece5a6b09",
       "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
       "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
       "disposition": "public"
@@ -37,6 +37,20 @@
     {
       "path": "audit/2026-11-14-assignment4-final-pressure-test.md",
       "sha256": "1a2a415cdeb0acb030cd555bc8d59c2cb02f3fbcbd055be29a2b86124f8956a8",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "376cc84703ccea52622857502bebb4c92c69d73bfccb4aa65750c1cb61bad619",
+      "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
+      "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
+      "disposition": "public"
+    },
+    {
+      "path": "docs/FACULTY-GUIDE.ipynb",
+      "sha256": "61a11ff757320b6a19f890b42c3a71e3e820080fdbac771e0071e3a28989ce58",
       "basis": "Owner-authorized authored research, bounded cited excerpts and activity metadata",
       "review_scope": "Read new text for sensitive private content, credentials, inaccurate approval statements, attribution and source qualifications",
       "disposition": "public"
