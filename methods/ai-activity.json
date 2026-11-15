@@ -800,6 +800,36 @@
       "limits": "Formatting and link checks do not verify source interpretations. Historical decisions remain AI-assisted, including 14 explicit label agreements and C11 contextual assent. No new source inspection, publisher-policy verification, environmental finding or Assignment 2 prose revision.",
       "graphs_reexecuted_for_document": false,
       "repository_ci_scope": "Separate repository CI includes replays of retained case and teaching workflows as software checks, without new original-source inspection."
+    },
+    {
+      "id": "ACT31",
+      "date": "2026-11-14",
+      "record_created_at": "2026-11-15T04:46:23+00:00",
+      "task": "Assignment 4 final brief, source-attribution and AI-disclosure review",
+      "inputs_description": "Assignment 4 brief and memo, retained original case PDFs and page images, official notice and judgment, supplied Sen and Rio readings, prior feedback and disclosure records",
+      "output_description": "Bounded criteria review and v0.6 corrections to filing locators, institutional authorship, citation suffixes, Rio method coverage and separate ChatGPT/Codex references; source discrepancies documented without changing frozen records",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents, local document tools and official-source web access",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "The session identifies GPT-6 based Codex; exact deployed snapshot is unavailable.",
+      "prompt_availability": "Current owner document-update instruction and retained Assignment 4 brief; agent review scopes summarized in the linked audit. No complete provider-level prompt chain is claimed.",
+      "ai_contribution": "Brief and readability assessment, inspection of specified source pages, source-attribution and citation criticism, AI-disclosure review, and corrective prose and document edits",
+      "deterministic_operations": "Body-word counting, citation and package comparisons, rendering and protected-file checks as recorded in the final delivery receipt",
+      "runtime_model_calls": 0,
+      "runtime_model_call_scope": "No graph or external evaluator execution for this editorial pass; Codex interpretive work is separately disclosed.",
+      "graphs_reexecuted_for_document": false,
+      "live_jev_calls": 0,
+      "human_review": {
+        "document_update_authorized": true,
+        "basis": "Owner document-update instruction and prior repository maintenance authorization",
+        "new_source_review_decisions": false,
+        "independent_source_review": "not_recorded",
+        "course_submission": "not_performed"
+      },
+      "checks": "Final Word body: 1,353 editable words, 1,380 including timeline labels; excludes front matter, disclosure, references and supplement. Ten pages visually inspected; notebook and AI reference links checked; original styles and both Assignment 2 lock hashes preserved. Exact artifact hashes and source-check scope in the audit. Repository assurance and CI have separate scope.",
+      "repository_ci_scope": "Any CI replay of retained case and teaching workflows is a separate software check, not a fresh source interpretation.",
+      "limits": "AI critique is not independent scholarly review or a grade prediction. Some SEA web requests failed; retained originals were inspected. No new claim labels, fieldwork, environmental outcome finding, human approval, publisher-policy verification or Assignment 2 revision. Historical claim packets and activity entries retain their original contents."
     }
   ],
   "performed_without_model_judgment": [

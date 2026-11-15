@@ -1,5 +1,11 @@
 # Record of AI systems and assistance
 
+## Assignment 4 final source and brief review · November 14, 2026
+
+Codex and collaborating agents checked the memo against the Assignment 4 brief, inspected the cited source passages and reviewed the AI disclosure. The argument explains what the research taught Mark, prioritizes Sen and the Rio study, and proposes a bounded practice for cities. It can be followed without the methods supplement. This assessment is an AI critique, not a grade prediction or independent human review.
+
+The source pass identified corrections for document v0.6: the 2019 filing locator and attribution, the Commission’s authorship of Resolution 524/2020, the scope of the Rio focus groups, and separate references for ChatGPT and Codex. The corresponding body, table and timeline references are aligned. Differences within the official record remain documented rather than silently reconciled. Assignment 2 v0.11 and the frozen case-review records remain unchanged. [Activity ACT31](methods/ai-activity.json) · [Final review and correction record](audit/2026-11-14-assignment4-final-pressure-test.md)
+
 ## Assignment 4 document links and disclosure · November 14, 2026
 
 At Mark’s request, Codex updated the retained Assignment 4 Word document and exported the matching PDF. The edit adds a repository link near the opening and a three-notebook reading route in Supplement S4, with links fixed to the published v0.4.0 edition. It refreshes the AI disclosure and removes obsolete approval requests. The main argument, original styles, figures and Assignment 2 v0.11 remain unchanged.
