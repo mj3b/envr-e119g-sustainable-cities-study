@@ -13,7 +13,7 @@ What happens to a resident’s water concern after a participation request is ru
 
 ## How the memo meets the brief
 
-The brief asks for 1,300–1,500 words continuing the topic from the first submission. Document v0.6 has 1,353 editable body words, or 1,380 including the timeline labels. These counts include headings, table text, captions and inline citations; they exclude the title, memo fields, disclosure, references and supplement. The [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md) records source corrections and preserves the earlier argument.
+The brief asks for 1,300–1,500 words continuing the topic from the first submission. Document v0.7 retains 1,353 editable body words, or 1,380 including the timeline labels. These counts include headings, table text, captions and inline citations; they exclude the title, memo fields, disclosure, references and supplement. The [final pressure test](../../audit/2026-11-14-assignment4-final-pressure-test.md) records source corrections and preserves the earlier argument. The [v0.7 supplement update](../../audit/2026-11-15-assignment4-study-evidence.md) replaces repeated user-message excerpts with an authentic historical model prompt, study instructions and retained outputs.
 
 | Assignment question | Where the memo answers it |
 | :--- | :--- |

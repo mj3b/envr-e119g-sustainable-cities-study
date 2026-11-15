@@ -1,5 +1,11 @@
 # Record of AI systems and assistance
 
+## Assignment 4 study instructions and technical outputs · November 15, 2026
+
+At Mark’s request, Codex replaced Section S3’s drafting instruction and repeated agreement messages with a retained model-facing prompt and study evidence. The selected historical H16-C diagnostic preserves an actual Jev-1.13.0 request and response. Its synthetic passage, frozen AI-authored expectation, exact byte hashes and limitations are recorded separately from Cerrillos observations. No new provider call occurred.
+
+The revised supplement quotes the AI-authored Cerrillos specification as specification text, shows C03, C12 and C13 clause outputs, and links the case inputs, code, output packet and separate human decisions. Codex checked these excerpts against the retained artifacts and revised the Word/PDF while preserving the main memo. The update records no new human review or source finding. [ACT32](methods/ai-activity.json) · [Revision and publication record](audit/2026-11-15-assignment4-study-evidence.md)
+
 ## Assignment 4 final source and brief review · November 14, 2026
 
 Codex and collaborating agents checked the memo against the Assignment 4 brief, inspected the cited source passages and reviewed the AI disclosure. The argument explains what the research taught Mark, prioritizes Sen and the Rio study, and proposes a bounded practice for cities. It can be followed without the methods supplement. This assessment is an AI critique, not a grade prediction or independent human review.

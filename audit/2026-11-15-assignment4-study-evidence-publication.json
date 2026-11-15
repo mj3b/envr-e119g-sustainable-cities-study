@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-15T18:54:16.651219+00:00",
+  "scope": "Assignment 4 v0.7 supplement and selected historical synthetic model request/response; raw sources and document binaries excluded",
+  "base_commit": "581c579d0ae284c1867f0ff65bd580218d86638a",
+  "authorization": "Current owner supplement-edit request and standing public repository maintenance authorization",
+  "reviewer": "Codex and collaborating Codex agents; AI-assisted item-level publication review",
+  "files": [
+    {
+      "path": "assignments/assignment-04/research-record.md",
+      "sha256": "37be9a93a81c71eb7a03ed47fb5222d7c47907607f4061389e9d16bc1a6ff00b",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/selected-jev-diagnostic.json",
+      "sha256": "42649a184aeeaa7db8f3829567e443abca45c3035f152432bf766153de8d6f2a",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "assignments/assignment-04/README.md",
+      "sha256": "e0fd697f5ec699f1ffb2ddb85474f93cca8424e12b80e52c00c2241d847e6081",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "sha256": "170426ff045ae099f46b672913537875ce1ae07608db18fa5aff17eda7ee150b",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/AI-SYSTEMS.md",
+      "sha256": "02288ee698e0cb0b895aaef189e9cc6da256170fd60346cf8553b8650ca66ffa",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "a54884be61689b2b78892c430ca48a1c56e603c718e1c45af674fd9429b943d6",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    },
+    {
+      "path": "audit/2026-11-15-assignment4-study-evidence.md",
+      "sha256": "1483ace7b6ad85e5a9fa86e748762b8939cf6dbbfefa865397dbfda5522f85db",
+      "basis": "Owner-authorized authored research or explicitly synthetic AI-authored diagnostic and returned model fields",
+      "review_scope": "Exact excerpts and model fields, scope/approval claims, sensitive personal material, credentials and source rights; no raw course or resident records included",
+      "disposition": "public"
+    }
+  ],
+  "generated_receipt": "governance/evaluation-results.json is regenerated separately after authored changes"
+}

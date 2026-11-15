@@ -58,3 +58,7 @@ The finalization uses ChatGPT for administrative document edits and repository m
 ## Evidence-review teaching update · November 13, 2026
 
 Codex provided current assistance with the reader pages, specification, teaching examples, notebook and code. LangChain Core stored the text and locator for each fictional passage. LangGraph ran a fixed sequence over the recorded annotations. LangSmith’s local tracing context disabled hosted tracing. Python and Jupyter executed the demonstration. The workflow made zero model or Jev calls. [Demonstration and setup](evidence-review/README.md) · [Task record](ai-activity.json)
+
+## Historical model-output evidence added November 15, 2026
+
+The Assignment 4 supplement now includes a [selected H16-C request and response](../assignments/assignment-04/selected-jev-diagnostic.json) from the October 15 diagnostic (October 16 UTC). The recorded model is `jev-1.13.0`. Its original Choice instructions and output are preserved with byte hashes. This expands the public documentation of historical use; it is not a new Jev execution or a change to the current zero-call Cerrillos graph. The synthetic expectation was AI-authored, and the selected disagreement supplies no independent accuracy or calibration estimate. [ACT32](ai-activity.json) records the extraction and document revision.
