@@ -1,5 +1,11 @@
 # Record of AI systems and assistance
 
+## Assignment 4 course learning and source selection · November 15, 2026
+
+At Mark’s request, Codex and collaborating agents compared the memo with the submitted first and second assignments and the newly supplied 30-reading schedule. They inventoried current PDF access, inspected selected source passages and revised v0.8 so seven readings shape the argument and proposed response register. Sen remains the main evaluative principle; the other readings supply institutional, environmental and methodological distinctions. The [reading map](assignments/assignment-04/course-learning.md) records selection reasons and limits for all 30 readings.
+
+The inventory located 26 supplied PDFs and two separately retrieved publisher versions, Quaill and Gamperl. Newly retrieved copies do not establish equivalence to earlier uploads. Passage review was bounded and does not represent a fresh reading of every available PDF. Codex revised the Word/PDF, references and disclosure; checked the 1,405-word inclusive body and all twelve rendered pages; and retained Section S3’s technical evidence. These are AI-assisted interpretations and document checks, not independent human review. No new Jev call, case label, fieldwork or course submission occurred. Assignment 2 v0.11 remains unchanged. [ACT33](methods/ai-activity.json) · [Review and publication record](audit/2026-11-15-assignment4-course-learning.md)
+
 ## Assignment 4 study instructions and technical outputs · November 15, 2026
 
 At Mark’s request, Codex replaced Section S3’s drafting instruction and repeated agreement messages with a retained model-facing prompt and study evidence. The selected historical H16-C diagnostic preserves an actual Jev-1.13.0 request and response. Its synthetic passage, frozen AI-authored expectation, exact byte hashes and limitations are recorded separately from Cerrillos observations. No new provider call occurred.

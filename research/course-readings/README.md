@@ -4,6 +4,8 @@
 
 The course readings help define what an environmental claim means, what evidence could support it, and whose interests an assessment might overlook. This directory connects those questions to the existing Cerrillos inquiry without turning readings about other places into evidence about Cerrillos.
 
+**Current Assignment 4 snapshot, November 15, 2026:** the [course-learning map](../../assignments/assignment-04/course-learning.md) records all 30 readings in the newly supplied schedule through November 13. It identifies 26 accessible supplied PDFs, two separately retrieved publisher versions and the seven readings selected for the memo. The [detailed record](../../assignments/assignment-04/course-reading-review.json) separates file availability from actual passage inspection. The 38-reading catalog and dated intake accounts below remain historical records.
+
 **Status, 14 October 2026:** the six Module I uploads are accessible again and match their historical checksums. Five supplied Module II PDFs are also accessible. All eleven have candidate source-to-method records and completed checks using the pinned Translator's original validation scripts. Human interpretation review remains pending. The Assignment 2 draft and case verdict are unchanged.
 
 ## Read by purpose

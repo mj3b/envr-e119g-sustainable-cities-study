@@ -859,6 +859,38 @@
       },
       "limits": "The H16-C expectation is AI-authored and not independently approved; one diagnostic is not calibration or a population error rate. The synthetic source is not Cerrillos evidence. Software reproduces annotated judgments, not independent source interpretation. Frozen case records, historical activity and Assignment 2 v0.11 are preserved.",
       "record": "audit/2026-11-15-assignment4-study-evidence.md"
+    },
+    {
+      "id": "ACT33",
+      "date": "2026-11-15",
+      "record_created_at": "2026-11-15T21:43:28.685365+00:00",
+      "task": "Strengthen Assignment 4 course learning through a bounded reading inventory and selected passage review",
+      "inputs_description": "Owner request; new 30-reading schedule; submitted Assignment 1 and Assignment 2 PDFs; retained v0.7 memo; supplied course PDFs; separately retrieved Gamperl and Quaill publisher PDFs; existing case and methods records",
+      "output_description": "Assignment 4 v0.8 Word/PDF and matching public memo; seven reading roles; complete 30-reading selection map; version-specific access and inspection record; updated disclosure and repository navigation",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents and local document tools",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "The session identifies GPT-6 based Codex; exact deployed snapshot unavailable.",
+      "prompt_availability": "Current author request and retained Section S3 records available; full current provider prompt transcript unavailable. No missing prompts reconstructed.",
+      "ai_contribution": "Inventory source access; compare submitted assignments; select and interpret source passages; separate source findings from Cerrillos applications; revise prose, citations and disclosure; produce and visually inspect documents; prepare public provenance and delivery",
+      "source_inspection_record": "assignments/assignment-04/course-reading-review.json",
+      "source_review_scope": "Seven selected readings rechecked at named passages; limited reserve checks on Costanza–Daly, Gutberlet, Allen and Quaill. Remaining readings inventoried for availability, not freshly reread in full. Gamperl and Quaill publisher copies are separately registered and not assumed byte-equivalent to earlier uploads.",
+      "deterministic_operations": "Source and artifact hashes; document word counting; package preservation and hyperlink checks; comparison of unchanged S3 elements and protected Assignment 2 text. Repository assurance and CI recorded separately.",
+      "runtime_model_calls": 0,
+      "runtime_model_call_scope": "No separate provider or Jev inference executed for this revision; current Codex interpretation is separately disclosed. The graph was not used to judge new course interpretations.",
+      "live_jev_calls": 0,
+      "graphs_reexecuted_for_document": false,
+      "human_review": {
+        "document_update_authorized": true,
+        "basis": "Current course-learning request and standing repository maintenance authorization",
+        "new_source_review_decisions": false,
+        "independent_source_review": "not_recorded",
+        "course_submission": "not_performed"
+      },
+      "checks": "Final Word body: 1,378 editable words, 1,405 including 27 timeline words; twelve pages visually checked; new citation and reading-map links present in PDF; S3 technical evidence and canonical Assignment 2 v0.11 preserved. Exact file hashes in the audit.",
+      "repository_ci_scope": "Any CI replay of retained case and teaching workflows is a software check, not new source interpretation.",
+      "limits": "Seven readings inform the proposed register; they do not establish Cerrillos outcomes. No new case label, fieldwork, resident trial, measured environmental benefit, human scholarly approval, publisher-policy verification or course submission. Availability inventory does not establish full-text inspection of all 30 readings."
     }
   ],
   "performed_without_model_judgment": [
