@@ -770,6 +770,36 @@
       },
       "checks": "See release audit and exact-tree assurance receipt; no automated scholarly approval.",
       "limits": "AI-assisted source recheck, notebook tests and file identity do not estimate model accuracy, prove environmental outcomes or represent independent human review. Earlier records remain historical."
+    },
+    {
+      "id": "ACT30",
+      "date": "2026-11-14",
+      "record_created_at": "2026-11-15T04:24:40+00:00",
+      "task": "Assignment 4 Word and PDF repository links and AI disclosure update",
+      "inputs_description": "Retained Assignment 4 v0.4 Word file, published v0.4.0 notebooks and disclosure records, current owner instruction and Assignment 2 v0.11 lock",
+      "output_description": "Assignment 4 v0.5 document edit and PDF export with opening repository link, three versioned notebook links, updated disclosure and supplementary repository reference",
+      "ai_provider": "OpenAI",
+      "interface": "Codex desktop with collaborating Codex agents and local document tools",
+      "model_family": "GPT-6",
+      "resolved_model_id": null,
+      "model_id_limitation": "The session identifies GPT-6 based Codex; exact deployed snapshot is unavailable.",
+      "prompt_availability": "Owner request retained verbatim in the linked document-update audit; no complete provider-level prompt chain is claimed.",
+      "ai_contribution": "Drafting disclosure and navigation prose, checking retained review and rerun records, editing the Word package and reviewing rendered pages",
+      "deterministic_operations": "Word package and body comparisons, protected-file hashes, PDF rendering and hyperlink inspection; final delivery results belong to the production receipt and audit",
+      "runtime_model_calls": 0,
+      "runtime_model_call_scope": "No graph or external evaluator execution in this document update; Codex authorship is separately disclosed.",
+      "live_jev_calls": 0,
+      "human_review": {
+        "document_update_authorized": true,
+        "basis": "Owner current instruction",
+        "new_source_review_decisions": false,
+        "independent_source_review": "not_recorded",
+        "course_submission": "not_performed"
+      },
+      "checks": "All ten PDF pages inspected; all three versioned notebook paths retrieved from GitHub and retained as PDF hyperlinks; page 1 repository link confirmed; Word package and main-body comparisons passed; Assignment 2 Markdown and Word hashes unchanged. Audit records artifact hashes. Repository assurance and CI retain their own recorded scope.",
+      "limits": "Formatting and link checks do not verify source interpretations. Historical decisions remain AI-assisted, including 14 explicit label agreements and C11 contextual assent. No new source inspection, publisher-policy verification, environmental finding or Assignment 2 prose revision.",
+      "graphs_reexecuted_for_document": false,
+      "repository_ci_scope": "Separate repository CI includes replays of retained case and teaching workflows as software checks, without new original-source inspection."
     }
   ],
   "performed_without_model_judgment": [

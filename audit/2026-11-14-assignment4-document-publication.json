@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-11-15T04:27:09.805539+00:00",
+  "scope": "Assignment 4 v0.5 document delivery provenance only; excludes local document binaries",
+  "base_commit": "c19a829d65315edd9effd9c6e4a4397604b3b6a3",
+  "authorization": "Owner current request and standing repository maintenance authorization",
+  "reviewer": "Codex; AI-assisted publication review",
+  "files": [
+    {
+      "path": "AI-USE-LOG.md",
+      "sha256": "3e4367478a2b4f2813db1bceacf31d51f780edf6a92b78bcfcfdf9388c73a16a",
+      "basis": "Owner-authorized authored documentation and activity metadata",
+      "review_scope": "Read all new text for private source content, credentials, personal information and unsupported approval claims",
+      "disposition": "public"
+    },
+    {
+      "path": "methods/ai-activity.json",
+      "sha256": "fc96ad8520c993a52068d64ca20221676b4b1576bd19507f16deb467fd6f59cc",
+      "basis": "Owner-authorized authored documentation and activity metadata",
+      "review_scope": "Read all new text for private source content, credentials, personal information and unsupported approval claims",
+      "disposition": "public"
+    },
+    {
+      "path": "audit/2026-11-14-assignment4-document-update.md",
+      "sha256": "ba803bc449ea83157c7196e1b3bd4246d5bb8cfa30edd6683ed02c01006f0488",
+      "basis": "Owner-authorized authored documentation and activity metadata",
+      "review_scope": "Read all new text for private source content, credentials, personal information and unsupported approval claims",
+      "disposition": "public"
+    }
+  ],
+  "generated_receipt": "governance/evaluation-results.json records exact evaluated file hashes; generated after this manifest"
+}
